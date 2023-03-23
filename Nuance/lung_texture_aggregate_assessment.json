@@ -1,0 +1,191 @@
+{
+    "$schema": "./cde_set_schema.json",
+    "id": "CDESTGS-a8232314-4c9a-4b0d-a07d-c412e6cbc1a3",
+    "name": "Lung texture aggregate assessment",
+    "description": "Characterization of lung parenchyma by location and texture",
+    "version": {
+        "status": "Proposed",
+        "date": "2023-03-23",
+        "name": "Start"
+    },
+    "index_codes": [],
+    "body_parts": [],
+    "authors": {
+        "person": [],
+        "organization": []
+    },
+    "history": [
+        {
+            "date": "2023-03-23",
+            "status": "Proposed"
+        }
+    ],
+    "specialty": [],
+    "elements": [
+        {
+            "id": "CDESTG-c4daace7-d574-4e6b-b393-73f9dfd57ba4",
+            "name": "Pulmonary region",
+            "definition": "Relevant area of the lung",
+            "version": {
+                "name": "",
+                "date": "2023-03-23",
+                "status": "Proposed"
+                },
+            "index_codes": [],
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                     {
+                         "value": "CDESTG-c4daace7-d574-4e6b-b393-73f9dfd57ba4.0",
+                         "name": "Total lung",
+                         "index_codes": []
+                     },
+                     {
+                         "value": "CDESTG-c4daace7-d574-4e6b-b393-73f9dfd57ba4.1",
+                         "name": "Left lung",
+                         "index_codes": []
+                     },
+                     {
+                         "value": "CDESTG-c4daace7-d574-4e6b-b393-73f9dfd57ba4.2",
+                         "name": "Left upper lung",
+                         "index_codes": []
+                     },
+                     {
+                         "value": "CDESTG-c4daace7-d574-4e6b-b393-73f9dfd57ba4.3",
+                         "name": "Left middle lung",
+                         "index_codes": []
+                     },
+                     {
+                         "value": "CDESTG-c4daace7-d574-4e6b-b393-73f9dfd57ba4.4",
+                         "name": "Left lower lung",
+                         "index_codes": []
+                     },
+                     {
+                         "value": "CDESTG-c4daace7-d574-4e6b-b393-73f9dfd57ba4.5",
+                         "name": "Right lung",
+                         "index_codes": []
+                     },
+                     {
+                         "value": "CDESTG-c4daace7-d574-4e6b-b393-73f9dfd57ba4.6",
+                         "name": "Right upper lung",
+                         "index_codes": []
+                     },
+                     {
+                         "value": "CDESTG-c4daace7-d574-4e6b-b393-73f9dfd57ba4.7",
+                         "name": "Right middle lung",
+                         "index_codes": []
+                     },
+                     {
+                         "value": "CDESTG-c4daace7-d574-4e6b-b393-73f9dfd57ba4.8",
+                         "name": "Right lower lung",
+                         "index_codes": []
+                     }
+                 ]
+             }
+        },
+        {
+            "id": "CDESTG-2d1608fd-b74e-478d-8df6-34a7203caac8",
+            "name": "Volume",
+            "definition": "Volume of the reference lung region",
+            "version": {
+                "name": "Start",
+                "date": "2023-03-23",
+                "status": "Proposed"
+            },
+            "index_codes": [],
+            "float_values": {
+                "min": 0,
+                "max": 10,
+                "step": 0.1,
+                "unit": "L"
+            }
+        },
+        {
+            "id": "CDESTG-29099e71-f4f1-4416-b2ac-11accd9e69d9",
+            "name": "Hyperlucent proportion",
+            "definition": "Proportion of the lung region which is hyperlucent",
+            "version": {
+                "name": "Start",
+                "date": "2023-03-23",
+                "status": "Proposed"
+            },
+            "index_codes": [],
+            "float_values": {
+                "min": 0,
+                "max": 100,
+                "step": 0.1,
+                "unit": "%"
+            }
+        },
+        {
+            "id": "CDESTG-97fd5e1f-ade1-45d2-beab-ee47fccb21b8",
+            "name": "Ground glass proportion",
+            "definition": "Proportion of the lung region which is ground glass",
+            "version": {
+                "name": "Start",
+                "date": "2023-03-23",
+                "status": "Proposed"
+            },
+            "index_codes": [],
+            "float_values": {
+                "min": 0,
+                "max": 100,
+                "step": 0.1,
+                "unit": "%"
+            }
+        },
+        {
+            "id": "CDESTG-02990669-c624-4140-a0a2-80888320e981",
+            "name": "Reticular proportion",
+            "definition": "Proportion of the lung region which is reticular",
+            "version": {
+                "name": "Start",
+                "date": "2023-03-23",
+                "status": "Proposed"
+            },
+            "index_codes": [],
+            "float_values": {
+                "min": 0,
+                "max": 100,
+                "step": 0.1,
+                "unit": "%"
+            }
+        },
+        {
+            "id": "CDESTG-3da6693b-1685-45ce-8adf-b8faff791ee8",
+            "name": "Honeycombing proportion",
+            "definition": "Proportion of the lung region which is honeycombing",
+            "version": {
+                "name": "Start",
+                "date": "2023-03-23",
+                "status": "Proposed"
+            },
+            "index_codes": [],
+            "float_values": {
+                "min": 0,
+                "max": 100,
+                "step": 0.1,
+                "unit": "%"
+            }
+        },
+        {
+            "id": "CDESTG-910a7678-3d5f-4d03-9a9f-947dbfd6bf62",
+            "name": "Pulmonary vessel volume",
+            "definition": "",
+            "version": {
+                "name": "Start",
+                "date": "2023-03-23",
+                "status": "Proposed"
+            },
+            "index_codes": [],
+            "float_values": {
+                "min": 0,
+                "max": 2000,
+                "step": 0.1,
+                "unit": "cm^3"
+            }
+        }
+    ],
+    "references": []
+}
