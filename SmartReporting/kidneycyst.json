@@ -1,0 +1,701 @@
+{
+    "$schema": "./cde_set_schema.json",
+    "id": "CDESTGS-3959c4dc-c9bf-4060-a324-f284bfa7262a",
+    "name": "Kidney cyst (Bosniak 2019)",
+    "description": "Definintion of a kidney cyst using the latest Bosniak 2019 classification",
+    "version": {
+        "status": "Proposed",
+        "date": "2023-04-28",
+        "name": ""
+    },
+    "index_codes": [],
+    "body_parts": [],
+    "authors": {
+        "person": [],
+        "organization": []
+    },
+    "history": [
+        {
+            "date": "2023-04-28",
+            "status": "Proposed"
+        }
+    ],
+    "specialty": [],
+    "elements": [
+
+        {
+                "id": "CDESTG-8d547a7e-eaf6-4388-9dfa-8487598b1d4e",
+                "name": "Presence",
+                "definition": "",
+                "version": {
+                    "name": "",
+                    "date": "2023-05-01",
+                    "status": "Proposed"
+                    },
+                "index_codes": [],
+                "value_set": {
+                    "min_cardinality": 1,
+                    "max_cardinality": 1,
+                    "values": [
+                        {
+                            "value": "CDESTG-51dfebcb-3ee5-44ff-8af2-5c1bca65cba0.0",
+                            "name": "Present",
+                            "index_codes": []
+                        },
+                        {
+                            "value": "CDESTG-431262d1-468f-445c-99a8-3c6df6a3b3be.1",
+                            "name": "Absent",
+                            "index_codes": []
+                        },
+                        {
+                            "value": "CDESTG-d65bafe8-34ac-4705-bde8-66f362cde735.2",
+                            "name": "Indeterminate",
+                            "index_codes": []
+                        },
+                        {
+                            "value": "CDESTG-9d15ca03-2a9f-4574-a3f5-643aa08f7a68.3",
+                            "name": "Unknown",
+                            "index_codes": []
+                        }
+                    ]
+            }
+        },
+        {
+            "id": "CDESTG-6d410698-de25-4b1c-a5a6-2fc0621140d7",
+            "name": "Laterality",
+            "definition": "",
+            "question": "What is the side of the kidney cyst?",
+            "version": {
+                "name": "",
+                "date": "2023-04-28",
+                "status": "Proposed"
+                },
+            "index_codes": [],
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "value": "CDESTG-6d410698-de25-4b1c-a5a6-2fc0621140d7.0",
+                        "name": "Right kidney",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-6d410698-de25-4b1c-a5a6-2fc0621140d7.1",
+                        "name": "Left kidney",
+                        "index_codes": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CDESTG-673854fe-0ee7-422b-bd7e-c81bafe06706",
+            "name": "Level",
+            "definition": "Level of cyst within the kidney",
+            "question": "What level of the kidney is affected?",
+            "version": {
+                "name": "",
+                "date": "2023-05-01",
+                "status": "Proposed"
+                },
+            "index_codes": [],
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "value": "CDESTG-673854fe-0ee7-422b-bd7e-c81bafe06706.0",
+                        "name": "Upper third",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-673854fe-0ee7-422b-bd7e-c81bafe06706.1",
+                        "name": "Middle third",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-673854fe-0ee7-422b-bd7e-c81bafe06706.2",
+                        "name": "Lower third",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-673854fe-0ee7-422b-bd7e-c81bafe06706.3",
+                        "name": "Renal pelvis",
+                        "index_codes": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CDESTG-74f3f622-2556-4e57-b7ab-82f786243dd6",
+            "name": "Topography",
+            "definition": "",
+            "question": "Where is the kidney cyst located within the kidney?",
+            "version": {
+                "name": "",
+                "date": "2023-05-01",
+                "status": "Proposed"
+                },
+            "index_codes": [],
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "value": "CDESTG-74f3f622-2556-4e57-b7ab-82f786243dd6.0",
+                        "name": "Anterior",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-74f3f622-2556-4e57-b7ab-82f786243dd6.1",
+                        "name": "Posterior",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-74f3f622-2556-4e57-b7ab-82f786243dd6.2",
+                        "name": "Medial",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-74f3f622-2556-4e57-b7ab-82f786243dd6.3",
+                        "name": "Lateral",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-74f3f622-2556-4e57-b7ab-82f786243dd6.4",
+                        "name": "Central",
+                        "index_codes": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CDESTG-a4977e8b-1541-438c-aad5-2f9aeed0e3d2",
+            "name": "Maximum diameter",
+            "definition": "",
+            "question": "What is the maximum diameter of the kidney cyst?",
+            "version": {
+                "name": "Start",
+                "date": "2023-05-01",
+                "status": "Proposed"
+            },
+            "index_codes": [],
+            "float_values": {
+                "min": 0,
+                "max": 200,
+                "step": 0.1,
+                "unit": "mm"
+            }
+        },
+        {
+            "id": "CDESTG-191c0ef6-38f6-4641-a68e-083c7d5231e8",
+            "name": "Segmentation",
+            "definition": "",
+            "question": "PACS AI lesion segmentation transfer placeholder",
+            "version": {
+                "name": "Start",
+                "date": "2023-05-01",
+                "status": "Proposed"
+            },
+            "index_codes": [],
+            "float_values": {
+                "min": 0,
+                "max": 200,
+                "step": 0.1,
+                "unit": "mm"
+            }
+        },
+        {
+            "id": "CDESTG-af52afbc-5fec-4512-b4d8-ca8c474139c4",
+            "name": "Antero-posterior diameter",
+            "definition": "",
+            "question": "AP diameter of the cyst",
+            "version": {
+                "name": "Start",
+                "date": "2023-05-01",
+                "status": "Proposed"
+            },
+            "index_codes": [],
+            "float_values": {
+                "min": 0,
+                "max": 200,
+                "step": 0.1,
+                "unit": "mm"
+            }
+        },
+        {
+            "id": "CDESTG-6edb83ac-3c56-4974-97ed-9d0ec225150e",
+            "name": "Medio-lateral diameter",
+            "definition": "",
+            "question": "ML diameter of the cyst",
+            "version": {
+                "name": "Start",
+                "date": "2023-05-01",
+                "status": "Proposed"
+            },
+            "index_codes": [],
+            "float_values": {
+                "min": 0,
+                "max": 200,
+                "step": 0.1,
+                "unit": "mm"
+            }
+        },
+        {
+            "id": "CDESTG-1d8587cf-410c-4fbc-b122-540384330666",
+            "name": "Cranio-caudal diameter",
+            "definition": "",
+            "question": "CC diameter of the cyst",
+            "version": {
+                "name": "Start",
+                "date": "2023-05-01",
+                "status": "Proposed"
+            },
+            "index_codes": [],
+            "float_values": {
+                "min": 0,
+                "max": 200,
+                "step": 0.1,
+                "unit": "mm"
+            }
+        },
+        {
+            "id": "CDESTG-2fa0deb5-5636-4ea5-a315-6c2b393f761a",
+            "name": "Volume",
+            "definition": "Volume of the cyst",
+            "question": "",
+            "version": {
+                "name": "Start",
+                "date": "2023-05-01",
+                "status": "Proposed"
+            },
+            "index_codes": [],
+            "float_values": {
+                "min": 0,
+                "max": 200,
+                "step": 0.1,
+                "unit": "ml"
+            }
+        },
+        {
+            "id": "CDESTG-312fdd18-5cb5-4433-99f5-7cc59c795a06",
+            "name": "Series/Image number",
+            "definition": "",
+            "question": "Series/Image number where the cyst is best visualized",
+            "version": {
+                "name": "Start",
+                "date": "2023-05-01",
+                "status": "Proposed"
+            },
+            "index_codes": [],
+            "boolean_values": "boolean"
+        },
+        {
+            "id": "CDESTG-95a8e360-0af2-4a31-b30f-793b101be6de",
+            "name": "Shape",
+            "definition": "",
+            "question": "Shape of the cyst",
+            "version": {
+                "name": "",
+                "date": "2023-05-01",
+                "status": "Proposed"
+                },
+            "index_codes": [],
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "value": "CDESTG-95a8e360-0af2-4a31-b30f-793b101be6de.0",
+                        "name": "Exophytic",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-95a8e360-0af2-4a31-b30f-793b101be6de.1",
+                        "name": "Endophytic",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-95a8e360-0af2-4a31-b30f-793b101be6de.2",
+                        "name": "Exo- and endophytic components",
+                        "index_codes": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CDESTG-af75886d-6b1c-424a-a8ec-dcba098157c7",
+            "name": "Margins",
+            "definition": "",
+            "question": "Border morphology of the cyst",
+            "version": {
+                "name": "",
+                "date": "2023-05-01",
+                "status": "Proposed"
+                },
+            "index_codes": [],
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "value": "CDESTG-af75886d-6b1c-424a-a8ec-dcba098157c7.0",
+                        "name": "Acute",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-af75886d-6b1c-424a-a8ec-dcba098157c7.1",
+                        "name": "Obtuse",
+                        "index_codes": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CDESTG-ab4bccb1-01f0-432f-9f06-18b878a8eeb8",
+            "name": "Wall thickness",
+            "definition": "",
+            "question": "Wall thickness and morphology",
+            "version": {
+                "name": "",
+                "date": "2023-05-01",
+                "status": "Proposed"
+                },
+            "index_codes": [],
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "value": "CDESTG-ab4bccb1-01f0-432f-9f06-18b878a8eeb8.0",
+                        "name": "Thin wall",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-ab4bccb1-01f0-432f-9f06-18b878a8eeb8.1",
+                        "name": "Minimally thickened wall",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-ab4bccb1-01f0-432f-9f06-18b878a8eeb8.2",
+                        "name": "Thick regular wall",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-ab4bccb1-01f0-432f-9f06-18b878a8eeb8.3",
+                        "name": "Thick irregular wall",
+                        "index_codes": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CDESTG-e9919d87-26eb-4254-b2c5-e00ea3a66bb6",
+            "name": "Septae",
+            "definition": "",
+            "question": "Septation of the cyst",
+            "version": {
+                "name": "",
+                "date": "2023-05-01",
+                "status": "Proposed"
+                },
+            "index_codes": [],
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "value": "CDESTG-e9919d87-26eb-4254-b2c5-e00ea3a66bb6.0",
+                        "name": "No septae",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-e9919d87-26eb-4254-b2c5-e00ea3a66bb6.1",
+                        "name": "Thin septae",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-e9919d87-26eb-4254-b2c5-e00ea3a66bb6.2",
+                        "name": "Minimally thickened septae",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-e9919d87-26eb-4254-b2c5-e00ea3a66bb6.3",
+                        "name": "Thick septae",
+                        "index_codes": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CDESTG-4a03152a-64c3-4745-a6e0-bb580f66cd38",
+            "name": "Number of septae",
+            "definition": "",
+            "question": "How many septae  does the kidney cyst have?",
+            "version": {
+                "name": "",
+                "date": "2023-05-01",
+                "status": "Proposed"
+                },
+            "index_codes": [],
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "value": "CDESTG-4a03152a-64c3-4745-a6e0-bb580f66cd38.0",
+                        "name": "Few septations",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-4a03152a-64c3-4745-a6e0-bb580f66cd38.1",
+                        "name": "Many septations",
+                        "index_codes": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CDESTG-3e21264a-d8ac-4f28-abf1-ea24de05d5fd",
+            "name": "Calcifications",
+            "definition": "",
+            "question": "Calcifications of the cyst",
+            "version": {
+                "name": "",
+                "date": "2023-05-01",
+                "status": "Proposed"
+                },
+            "index_codes": [],
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "value": "CDESTG-3e21264a-d8ac-4f28-abf1-ea24de05d5fd.0",
+                        "name": "No calcifications",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-3e21264a-d8ac-4f28-abf1-ea24de05d5fd.1",
+                        "name": "Thin calcifications",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-3e21264a-d8ac-4f28-abf1-ea24de05d5fd.2",
+                        "name": "Thick calcifications",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-3e21264a-d8ac-4f28-abf1-ea24de05d5fd.3",
+                        "name": "Nodular calcifications",
+                        "index_codes": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CDESTG-d72204b7-d87e-4b0e-a877-59519071d389",
+            "name": "Nodularity",
+            "definition": "",
+            "question": "Nodularity of the kidney cyst",
+            "version": {
+                "name": "",
+                "date": "2023-05-01",
+                "status": "Proposed"
+                },
+            "index_codes": [],
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "value": "CDESTG-d72204b7-d87e-4b0e-a877-59519071d389.0",
+                        "name": "No nodules",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-d72204b7-d87e-4b0e-a877-59519071d389.1",
+                        "name": "Small nodules",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-d72204b7-d87e-4b0e-a877-59519071d389.2",
+                        "name": "Large nodules",
+                        "index_codes": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CDESTG-023583a1-1f8b-4b14-b70c-d1ee644453e4",
+            "name": "Hyperdensity",
+            "definition": "",
+            "question": "Hyperdensity within the kidney cyst",
+            "version": {
+                "name": "",
+                "date": "2023-05-01",
+                "status": "Proposed"
+                },
+            "index_codes": [],
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "value": "CDESTG-023583a1-1f8b-4b14-b70c-d1ee644453e4.0",
+                        "name": "No Hyperdensity",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-023583a1-1f8b-4b14-b70c-d1ee644453e4.1",
+                        "name": "Hyperdensity",
+                        "index_codes": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CDESTG-a4db5757-b9f3-4c95-8155-a80b07831671",
+            "name": "Enhancement",
+            "definition": "",
+            "question": "Are any components enhancing?",
+            "version": {
+                "name": "",
+                "date": "2023-05-01",
+                "status": "Proposed"
+                },
+            "index_codes": [],
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "value": "CDESTG-a4db5757-b9f3-4c95-8155-a80b07831671.0",
+                        "name": "No enhancement",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-a4db5757-b9f3-4c95-8155-a80b07831671.1",
+                        "name": "Enhancing wall",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-a4db5757-b9f3-4c95-8155-a80b07831671.2",
+                        "name": "Enhancing septae",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-a4db5757-b9f3-4c95-8155-a80b07831671.3",
+                        "name": "Enhancing nodules",
+                        "index_codes": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CDESTG-d4bb0d75-532a-4f15-b753-1d30e700d4e8",
+            "name": "Bosniak category",
+            "definition": "",
+            "question": "Bosniak category of the cyst",
+            "version": {
+                "name": "",
+                "date": "2023-05-01",
+                "status": "Proposed"
+                },
+            "index_codes": [],
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "value": "CDESTG-d4bb0d75-532a-4f15-b753-1d30e700d4e8.0",
+                        "name": "Bosniak I",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-d4bb0d75-532a-4f15-b753-1d30e700d4e8.1",
+                        "name": "Bosniak II",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-d4bb0d75-532a-4f15-b753-1d30e700d4e8.2",
+                        "name": "Bosniak IIF",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-d4bb0d75-532a-4f15-b753-1d30e700d4e8.3",
+                        "name": "Bosniak III",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-d4bb0d75-532a-4f15-b753-1d30e700d4e8.4",
+                        "name": "Bosniak IV",
+                        "index_codes": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CDESTG-504675c9-0864-47e7-be06-367b54967a2e",
+            "name": "Recommendations",
+            "definition": "",
+            "question": "Follow-up recommendations",
+            "version": {
+                "name": "",
+                "date": "2023-05-01",
+                "status": "Proposed"
+                },
+            "index_codes": [],
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "value": "CDESTG-504675c9-0864-47e7-be06-367b54967a2e.0",
+                        "name": "No follow-up required",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-504675c9-0864-47e7-be06-367b54967a2e.1",
+                        "name": "Contrast-enhanced US",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-504675c9-0864-47e7-be06-367b54967a2e.2",
+                        "name": "CT (kidney protocol)",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-504675c9-0864-47e7-be06-367b54967a2e.3",
+                        "name": "MRI",
+                        "index_codes": []
+                    },
+                    {
+                        "value": "CDESTG-504675c9-0864-47e7-be06-367b54967a2e.4",
+                        "name": "Referral to interdisciplinary board",
+                        "index_codes": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CDESTG-c4810108-01a3-46cb-a63c-17ba2d256890",
+            "name": "Follow-up interval",
+            "definition": "",
+            "question": "Period to the next follow-up",
+            "version": {
+                "name": "Start",
+                "date": "2023-05-01",
+                "status": "Proposed"
+            },
+            "index_codes": [],
+            "float_values": {
+                "min": 0,
+                "max": 36,
+                "step": 0.1,
+                "unit": "months"
+            }
+        }
+    ],
+    "references": []
+}
