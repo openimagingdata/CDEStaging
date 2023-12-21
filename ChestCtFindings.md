@@ -4,18 +4,18 @@
 
 | **Finding Name**                            | Frequency | Priority | Status |
 |---------------------------------------------|-----------|----------|--------|
-| **Pulmonary embolism**                      | Uncommon  |          |        |
+| **Pulmonary embolism**                      | Uncommon  |          | [RDES80: Pulmonary Elbolism](https://radelement.org/home/sets/set/RDES80) |
+| **Emphysema**                      | Uncommon  |          | [RDES286: Emphysema](https://radelement.org/home/sets/set/RDES286) <br/> [RDES105: Thoracic Pulmonary Parenchymal Emphysema](https://radelement.org/home/sets/set/RDES105) |
 | **Right heart strain**                      | Uncommon  |          |        |
 | **Consolidation (lobar, bronchopneumonia)** | Common    |          |        |
 | **Subpleural reticulation**                 | Uncommon  |          |        |
 | **Granulomas**                              | Uncommon  |          |        |
-| **Pulmonary nodules (solitary, multiple)**  | Common    |          |        |
-| **Pleural effusion**                        | Common    |          |        |
-| **Pneumothorax**                            | Uncommon  |          |        |
+| **Pulmonary nodules (solitary, multiple)**  | Common    |          |[RDES195: Pulmonary Nodule](https://radelement.org/home/sets/set/RDES195)<br/> [RDES208: Fleischner](https://radelement.org/home/sets/set/RDES208)<br/>[RDES99: Incidental Pulmonary Nodules](https://radelement.org/home/sets/set/RDES99)|
+| **Pleural effusion**                        | Common    |          | [RDES254: Pleural Effusion](https://radelement.org/home/sets/set/RDES254) |
+| **Pneumothorax**                            | Uncommon  |          | [RDES44: Pneumothorax](https://radelement.org/home/sets/set/RDES44)|
 | **Pulmonary metastases**                    | Rare      |          |        |
-| **Infectious lesion (bacterial, fungal, viral)** | Uncommon |      |        |
+| **Pulmonary Consolidation** | Uncommon |      |        |
 | **Pulmonary edema**                         | Common    |          |        |
-| **Scarring in the lower lobes**             | Uncommon  |          |        |
 | **Focal subpleural linear opacities**       | Uncommon  |          |        |
 | **Nodular opacities**                       | Uncommon  |          |        |
 | **Air trapping**                            | Uncommon  |          |        |
@@ -30,16 +30,17 @@
 | **Finding Name**                           | Frequency | Priority | Status |
 |--------------------------------------------|-----------|----------|--------|
 | **Coronary artery calcifications**         | Common    |          |        |
-| **Ectatic ascending thoracic aorta**       | Uncommon  |          |        |
+| **Ectatic/aneurysmal thoracic aorta**       | Uncommon  |          | [RDES264: Aortic Measurements](https://radelement.org/home/sets/set/RDES126)|
 | **Cardiomegaly**                           | Common    |          |        |
 | **Pericardial effusion**                   | Uncommon  |          |        |
-| **Coronary calcifications**                | Common    |          |        |
+| **Coronary calcifications**                | Common    |          | [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139)|
 | **Coronary atherosclerotic calcification** | Common    |          |        |
 | **Aortic valve calcification**             | Common    |          |        |
 | **Vascular calcifications**                | Common    |          |        |
 | **Pulmonary artery dilation**              | Uncommon  |          |        |
 | **Chronic pulmonary embolus**              | Rare      |          |        |
 | **Left ventricular hypertrophy**           | Uncommon  |          |        |
+| **Acute Aortic Syndrome** | Rare | | [RDES126:Acute Aortic Syndrome](https://radelement.org/home/sets/set/RDES126) <br/> [RDES252: Thoracic Aortic Dissection](https://radelement.org/home/sets/set/RDES252)|
 
 ## Lymphatic/Endocrine
 
@@ -57,10 +58,14 @@
 | **Degenerative changes in the thoracic skeleton** | Common |    |        |
 | **Lytic lesions**                         | Uncommon  |          |        |
 | **Blastic lesions**                       | Uncommon  |          |        |
-| **Rib fracture**                          | Uncommon  |          |        |
+| **Rib fracture**                          | Uncommon  |          | [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)       |
 | **Sternal fracture**                      | Rare      |          |        |
 | **Costochondral junction abnormalities**  | Uncommon  |          |        |
 | **Chest wall mass**  | Rare  |          |        |
+| **Scoliosis**  | Rare  |          | [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)|
+| **Cervical Rib** | Uncommon | | [RDES101: Cervical Rib](https://radelement.org/home/sets/set/RDES101)|
+| **Vertebral compression fracture** | Uncommon | | [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)|
+
 
 
 ## Abdominal
@@ -69,10 +74,10 @@
 |------------------------------------------|-----------|----------|--------|
 | **Hiatal hernia**                        | Common    |          |        |
 | **Hepatic cysts**                        | Uncommon  |          |        |
-| **Pancreatic cysts**                     | Rare      |          |        |
+| **Pancreatic cysts**                     | Rare      |          | [RDES207: Pancreatic Cyst on CT](https://radelement.org/home/sets/set/RDES207)|
 | **Renal cysts**                          | Uncommon  |          |        |
 | **Gastrohepatic lymph nodes**            | Rare      |          |        |
-| **Adrenal nodules**                      | Uncommon  |          |        |
+| **Adrenal nodules**                      | Uncommon  |          | [RDES3: Adrenal Nodule](https://radelement.org/home/sets/set/RDES3)|
 | **Splenic granulomata**                  | Rare      |          |        |
 | **Gallbladder abnormality (stones, wall thickening)** | Uncommon |  |        |
 | **Upper abdominal lymphadenopathy**      | Uncommon  |          |        |
