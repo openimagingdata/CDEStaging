@@ -30,7 +30,7 @@
 | **Finding Name**                           | Frequency | Priority | Status |
 |--------------------------------------------|-----------|----------|--------|
 | **Coronary artery calcifications**         | Common    |          |        |
-| **Ectatic/aneurysmal thoracic aorta**       | Uncommon  |          | [RDES264: Aortic Measurements](https://radelement.org/home/sets/set/RDES126)|
+| **Ectatic/aneurysmal thoracic aorta**       | Uncommon  |          | [RDES264: Aortic Measurements](https://radelement.org/home/sets/set/RDES264)|
 | **Cardiomegaly**                           | Common    |          |        |
 | **Pericardial effusion**                   | Uncommon  |          |        |
 | **Coronary calcifications**                | Common    |          | [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139)|
