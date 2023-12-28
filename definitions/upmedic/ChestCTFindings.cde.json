@@ -1,0 +1,72 @@
+
+{
+        "id": "",
+        "name": "Chest CT Findings",
+        "description": "The Liver Imaging Reporting and Data System (LI-RADS) was created to standardize the reporting and data collection of CT and MR imaging for hepatocellular carcinoma (HCC). ",
+        "version": {
+            "date": "2023-12-28",
+            "number": 1
+        },
+        "url": "https:\/\/api3.rsna.org\/radelement\/public\/sets\/5",
+        "index_codes": [
+
+        ],
+        "body_parts": [
+            {
+                "name": "Chest",
+                "index_codes": {
+                    "system": "RADLEX",
+                    "code": "RID29877",
+                    "display": "anterior chest",
+                    "url": "http://www.radlex.org/RID/RID29877"
+                }
+            }
+        ],
+        
+        "contributors": {
+            "people": [{
+                "name": "Pawel Paczuski",
+                "affiliation": "upmedic",
+                "email": "pawel.paczuski@upmedic.io",
+                "role": "Author"
+            },
+            {
+                "name": "Przemysław Bombiński",
+                "affiliation": "upmedic",
+                "email": "przemyslaw.bombinski@upmedic.io",
+                "role": "Author"
+            }
+        ],
+            "organizations": [
+                {
+                    "name": "upmedic",
+                    "abbreviation": "upmedic",
+                    "url": "https:\/\/www.upmedic.io\/",
+                    "comment": "comment",
+                    "role": "author"
+                }
+            ]
+        },
+        "specialty": [
+            {
+                "abbreviation": "CH",
+                "name": "Chest Radiology"
+            }
+        ],
+        "status": {
+            "date": "2023-12-28",
+            "name": "Proposed"
+        },
+        "history": [
+         {
+            "date": "2023-12-28",
+            "status": {
+                "date": "2023-12-28",
+                "name": "Proposed"
+            }
+        }   
+        ],
+"elements": [
+    
+]
+}
