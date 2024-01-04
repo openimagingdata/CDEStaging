@@ -4,9 +4,39 @@
 
 | **Finding Name**                            | Frequency | Priority | Status |
 |---------------------------------------------|-----------|----------|--------|
-| **Emphysema**                      | Uncommon  |          | [RDES286: Emphysema](https://radelement.org/home/sets/set/RDES286) <br/> [RDES105: Thoracic Pulmonary Parenchymal Emphysema](https://radelement.org/home/sets/set/RDES105) |
-| **Right heart strain**                      | Uncommon  |          |        |
+| **Pulmonary congenital variants**           | Uncommon  |          |        |
+
+### Interstitial
+
+| **Finding Name**                            | Frequency | Priority | Status |
+|---------------------------------------------|-----------|----------|--------|
+| **Focal subpleural linear opacities**       | Uncommon  |          |        |
+| **Reticular opacities**                     | Uncommon  |          |        |
+| **Pulmonary fibrosis**                      | Uncommon  |          |        |
+| **Pulmonary edema**                         | Common    |          |        |
+| **Honeycombing**                            | Rare      |          |        |
+| **Pleuroparenchymal fibroelastosis**        | Rare      |          |        |
+
+
+### Airspace
+
+| **Finding Name**                            | Frequency | Priority | Status |
+|---------------------------------------------|-----------|----------|--------|
+| **Air trapping**                            | Uncommon  |          |        |
 | **Consolidation (lobar, bronchopneumonia)** | Common    |          |        |
+
+### Cysts
+
+| **Finding Name**                            | Frequency | Priority | Status |
+|---------------------------------------------|-----------|----------|--------|
+| **Emphysema**                      | Uncommon  |          | [RDES286: Emphysema](https://radelement.org/home/sets/set/RDES286) <br/> [RDES105: Thoracic Pulmonary Parenchymal Emphysema](https://radelement.org/home/sets/set/RDES105) |
+| **Pulmonary cysts**                         | Uncommon  |          |        |
+
+
+### Nodules/Masses
+
+| **Finding Name**                            | Frequency | Priority | Status |
+|---------------------------------------------|-----------|----------|--------|
 | **Granulomas**                              | Uncommon  |          |        |
 | **Pulmonary nodules (solitary, multiple)**  | Common    |          |[RDES195: Pulmonary Nodule](https://radelement.org/home/sets/set/RDES195)<br/> [RDES208: Fleischner](https://radelement.org/home/sets/set/RDES208)<br/>[RDES99: Incidental Pulmonary Nodules](https://radelement.org/home/sets/set/RDES99)|
 | **Pulmonary metastases**                    | Rare      |          |        |
@@ -34,34 +64,69 @@
 | **Pleural thickening**                      | Uncommon  |          |       |
 | **Pleural mass**                            | Uncommon  |          |       |
 
+***
+
 ## Cardiovascular
+
+### Cardiac
 
 | **Finding Name**                           | Frequency | Priority | Status |
 |--------------------------------------------|-----------|----------|--------|
-| **Coronary artery calcifications**         | Common    |          |        |
-| **Ectatic/aneurysmal thoracic aorta**      | Uncommon  |          | [RDES264: Aortic Measurements](https://radelement.org/home/sets/set/RDES264) |
-| **Cardiomegaly**                           | Common    |          |        |
+| **Coronary artery calcifications**                | Common    |          | [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139) |
+| **Cardiomegaly/chamber sizes**              | Common    |          |        |
 | **Left ventricular hypertrophy**           | Uncommon  |          |        |
-| **Pericardial effusion**                   | Uncommon  |          |        |
-| **Pericardial calcification**              | Uncommon  |          |        |
-| **Coronary calcifications**                | Common    |          | [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139) |
+| **Right heart strain**                      | Uncommon  |          |        |
+
+### Aorta/Great Vessels
+
+| **Finding Name**                           | Frequency | Priority | Status |
+|--------------------------------------------|-----------|----------|--------|
+| **Ectatic/aneurysmal thoracic aorta**      | Uncommon  |          | [RDES264: Aortic Measurements](https://radelement.org/home/sets/set/RDES264) |
 | **Aortic valve calcification**             | Common    |          |        |
 | **Thoracic vascular calcifications**       | Common    |          |        |
 | **Acute Aortic Syndrome**                  | Rare      |          | [RDES126:Acute Aortic Syndrome](https://radelement.org/home/sets/set/RDES126) <br/> [RDES252: Thoracic Aortic Dissection](https://radelement.org/home/sets/set/RDES252) |
+| **Vascular variants**                      | Uncommon  |          |        |
+
+### Pericardium
+
+| **Finding Name**                           | Frequency | Priority | Status |
+|--------------------------------------------|-----------|----------|--------|
+| **Pericardial effusion**                   | Uncommon  |          |        |
+| **Pericardial calcification**              | Uncommon  |          |        |
+
+### Pulmonary Artery
+
+| **Finding Name**                      | Frequency | Priority | Status |
+|---------------------------------------|-----------|----------|--------|
 | **Pulmonary embolism**                     | Uncommon  |          | [RDES80: Pulmonary Elbolism](https://radelement.org/home/sets/set/RDES80) |
 | **Pulmonary artery dilation**              | Uncommon  |          |        |
 | **Chronic pulmonary embolus**              | Rare      |          |        |
-| **Vascular variants**                      | Uncommon  |          |        |
 
-## Lymphatic/Endocrine
+***
+
+## Mediastinum
 
 | **Finding Name**                      | Frequency | Priority | Status |
 |---------------------------------------|-----------|----------|--------|
 | **Enlarged lymph nodes (mediastinal, hilar)** | Common    |          |        |
+| **Mass or Cyst** | | |
+| **Scarring** | | |
+| **Fluid collection** | | |
+| **Mediastinitis** | | |
+| **Thymus** |
+| **Hernias** |
+| **Pneumomediastinum** |
+
+## Thyroid
+
+| **Finding Name**                      | Frequency | Priority | Status |
+|---------------------------------------|-----------|----------|--------|
 | **Enlarged thyroid lobe**             | Uncommon  |          |        |
 | **Low-attenuation thyroid nodule**    | Uncommon  |          |        |
 | **Thyroid nodules**                   | Common    |          |        |
 | **Thyroid gland atrophy**             | Rare      |          |        |
+
+***
 
 ## Musculoskeletal 
 | **Finding Name**                          | Frequency | Priority | Status |
@@ -77,6 +142,8 @@
 | **Cervical Rib** | Uncommon | | [RDES101: Cervical Rib](https://radelement.org/home/sets/set/RDES101)|
 | **Vertebral compression fracture** | Uncommon | | [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)|
 
+***
+
 ## Abdominal
 
 | **Finding Name**                         | Frequency | Priority | Status |
@@ -90,6 +157,8 @@
 | **Splenic granulomata**                  | Rare      |          |        |
 | **Gallbladder abnormality**              | Uncommon |  |        |
 | **Upper abdominal lymphadenopathy**      | Uncommon  |          |        |
+
+***
 
 ## Lines/Tubes
 
@@ -119,6 +188,12 @@
 | **Stents (vascular, airway, esophageal)**                     | Uncommon     |          |        |
 
 ## Post-op/treatment Changes
+
+Possible sub-categories:
+* Pulmonary parencyma
+* Cardiovascular
+* Chest wall + axilla (including mastectomy)
+* Mediastinal
 
 | **Finding Name**                                            | Frequency | Priority | Status |
 |-------------------------------------------------------------|-----------|----------|--------|
