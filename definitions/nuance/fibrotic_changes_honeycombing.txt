@@ -1,0 +1,31 @@
+Finding: Fibrotic changes including honeycombing
+
+Description: A pattern of lung disease characterized by irreversible fibrosis, leading to a honeycomb appearance due to thickened interlobular septa and intralobular lines
+
+Attributes:
+Location: The anatomical region of the fibrotic changes or honeycombing
+Choices:
+- biteral lower
+- bilateral upper zone
+- bilateral
+- right lung
+- left lung
+
+Change: The progression of the fibrotic changes or honeycombing over time
+Choices:
+- Progressed
+- Stable
+- Unchanged
+
+Honeycombing: Whether or not honeycombing is present
+Choices:
+- Present
+- Absent
+
+Associated Features: Other radiological findings associated with the fibrotic changes or honeycombing
+Choices:
+- Groundglass opacities
+- Consolidation
+- Traction bronchiectasis
+- Reticulations
+- Interlobular and intralobular septal thickening
