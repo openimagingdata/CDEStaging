@@ -16,7 +16,8 @@
 | **Pulmonary edema**                         | Common    |          |        |
 | **Honeycombing**                            | Rare      |          |        |
 | **Pleuroparenchymal fibroelastosis**        | Rare      |          |        |
-
+| **Bronchitis**                              |
+Common    |          |        |               |
 
 ### Airspace
 
