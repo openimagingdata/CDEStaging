@@ -1,0 +1,67 @@
+CDE Set: Consolidation
+CDE: Lobe
+    - Right upper lobe
+    - Right middle lobe
+    - Right lower lobe
+    - Left upper lobe
+    - Left lower lobe
+CDE: Segment
+        - right apical segment (B1)
+        - right posterior segment (B2)
+        - right anterior segment (B3)
+        - right lateral segment (B4)
+        - right medial segment (B5)
+        - right superior segment (B6)
+        - right medial segment (B7)
+        - right anterior segment (B8)
+        - right lateral segment (B9)
+        - right posterior segment (B10)
+        - left apicoposterior segment (B1/2)
+        - left anterior segment (B3)
+        - left superior lingular segment (B4)
+        - left inferior lingular segment (B5)
+        - left superior segment (B6)
+        - left anteromedial segment (B7/8)
+        - left lateral segment (B9)
+        - left posterior segment (B10)
+CDE: Size
+    - Maximum diameter [cm]
+    - Short axis diameter [cm]
+    - Volume [ml]
+CDE: Extent
+    - Focal
+    - Multifocal
+    - Segmental
+    - Lobar
+    - Bilateral
+CDE: Density
+    - Homogeneous
+    - Heterogeneous
+    - Ground-glass opacity
+CDE: Appearance
+    - Air bronchograms present
+    - Irregular margins
+    - Confluent areas
+    - Cavitary changes
+CDE: Enhancement
+    - degree of enhancement
+        - mild
+        - moderate
+        - intense
+    - pattern 
+        - peripheral
+        - central
+        - diffuse
+CDE: Differential diagnoses
+    - Pneumonia
+        - bacterial
+        - viral
+        - fungal
+    - Pulmonary edema
+    - Pulmonary infarction
+    - Bronchiectasis exacerbation
+    - Malignancy 
+        - primary lung cancer
+        - metastasis
+    - Organizing pneumonia (COP)
+    - Other
