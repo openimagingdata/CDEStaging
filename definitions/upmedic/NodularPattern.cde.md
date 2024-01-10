@@ -1,5 +1,5 @@
 # Finding: nodular pattern
-* Description: Specifies how nodules are scattered in a specific location of lungs.
+* Description: Specifies how nodules are scattered in a particular location in lungs.
 
 ## Size 
 ### Float values (one of)
