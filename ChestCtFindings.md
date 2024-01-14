@@ -198,7 +198,7 @@ Commmon   |          |        |
 | **Free pelvic fluid**                    |Common    |          |        |
 | **Liver hemangioma**                     |Common    |          |        |
 | **Kidney stone**                         |Common    |          |        |
-| **KIdney atrophy**                       |Uncommon  |          |        |
+| **Kidney atrophy**                       |Uncommon  |          |        |
 | **Renal osteodystrophy**                 |Uncommon  |          |        |
 | **Intraductal papillary mucinous neoplasm** |Rare      |          |        |
 | **cortical kidney hypodensities**        |Uncommmon |          |        |
