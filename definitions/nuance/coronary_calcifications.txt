@@ -1,0 +1,21 @@
+Example finding CDE definition sketch
+Finding: Coronary Artery Calcifications
+Description: Atherosclerotic calcifications of the coronary arteries
+  as seen on non-dedicated CT exams
+Attributes:
+• Presence: Whether or not there is calcification present
+  – Absent
+  – Present
+• Severity: How severe the calcification is (see...)
+  – Mild
+  – Moderate 
+  – Severe
+• Location (multiselect): Which coronary arteries are involved
+  – Left main
+  – LAD
+  – RCA
+• Stents (multiselect): Which vessels contain stents
+  – Left main
+  – LAD
+  – RCA
+• Size (numeric, unit: mm): How big the chunkiest calc is
