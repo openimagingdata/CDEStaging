@@ -210,11 +210,11 @@
 
 **Lungs**
 
-// Most complex section. General thought process here is to organize by observable findings, rather than by the spectrum of findings expected for a certain disease process. This approach will allow us in future iterations to build up combinations of findings to create automatic differential diagnoses.
+<!--- Most complex section. General thought process here is to organize by observable findings, rather than by the spectrum of findings expected for a certain disease process. This approach will allow us in future iterations to build up combinations of findings to create automatic differential diagnoses.
 
-// With that said, certain disease processes do often get a shortcut in the findings (e.g., shorthanding to saying "emphysema" or "granulomatous disease" in the findings rather than describing their individual features), so these examples should be represented in our schema.
+With that said, certain disease processes do often get a shortcut in the findings (e.g., shorthanding to saying "emphysema" or "granulomatous disease" in the findings rather than describing their individual features), so these examples should be represented in our schema.
 
-// Adapted from Fleischner reporting guidelines.
+Adapted from Fleischner reporting guidelines. --->
 
 - **Reticulations**
   - Distribution
