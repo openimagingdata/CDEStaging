@@ -24,8 +24,7 @@
 |---------------------------------------------|-----------|----------|--------|
 | **Air trapping**                            | Uncommon  |          |        |
 | **Consolidation (lobar, bronchopneumonia)** | Common    |          |        |
-| **Atelectasis**                             |
-Commmon   |          |        |
+| **Atelectasis**                             |Commmon   |          |        |
 | **Bronchitis**                              |Common    |          |        |
 | **Narrowing trachea**                       |Uncommon  |          |        |
 | **Bronchiectasis with mucous plugging**     |Common    |          |        |      
@@ -201,7 +200,7 @@ Commmon   |          |        |
 | **Kidney atrophy**                       |Uncommon  |          |        |
 | **Renal osteodystrophy**                 |Uncommon  |          |        |
 | **Intraductal papillary mucinous neoplasm** |Rare      |          |        |
-| **cortical kidney hypodensities**        |Uncommmon |          |        |
+| **Cortical kidney hypodensities**        |Uncommmon |          |        |
 | **Splenic artery aneurysm**              |Uncommon  |          |        |
 | **Adrenal gland thickening**             |Rare      |          |        | 
 
