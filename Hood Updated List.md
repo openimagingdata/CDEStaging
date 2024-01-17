@@ -90,40 +90,28 @@
 
 ## Mediastinum
 
-- Mass or cyst
-  - Thymoma
-  - Neurogenic tumor like schwannoma or neurofibroma
-  - Foregut cyst
-- Scarring
-  - Radiation fibrosis
-  - Postsurgical (s/p cardiothoracic surgery)
-- Lymph nodes
-  - Nonregional stations
-    - Internal mammary nodes
-    - Intercostal nodes
-    - Anterior diaphragmatic
-    - Middle diaphragmatic
-  - Standard thoracic lymph nodes stations
-    - // should have a level assignment as per [https://ajronline.org/doi/full/10.2214/AJR.11.7446](https://ajronline.org/doi/full/10.2214/AJR.11.7446)
-- Fluid collection
-  - Seroma
-  - Hematoma
-- Fat stranding (e.g. mediastinitis)
-- Residual thymus
-- Bochdalek hernia
-- Morgagni hernia
-- Diaphragm elevation
-- Diaphragm defect
-- Pneumomediastinum
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Mediastinal mass** |  |  |  |  |
+| **Mediastinal cyst** | thymic, pericardial, duplication, neuroenteric |  |  |  |
+| **Mediastinal fluid collection** | i.e. seroma, hematoma, abscess |  |  |  |
+| **Mediastinal fat stranding** | post-surgical, post-traumatic, fibrosis, mediastinitis |  |  |  |
+| **Residual thymus** | Separate from mediastinal mass |  |  |  |
+| **Bochdalek hernia** |  |  |  |  |
+| **Morgagni hernia** |  |  |  |  |
+| **Hiatal hernia** | - Sliding-type<br>- Paraesophageal<br>- Intrathoracic gastric herniation |  |  |  |
+| **Pneumomediastinum** |  |  |  |  |
+| **Lymph nodes** | - standard thoracic lymph node stations<br>- nonregional stations including internal mammary, intercostal, anterior/middle diaphragmatic |  | [AJR citation](https://ajronline.org/doi/full/10.2214/AJR.11.7446) |  |
 
 ## Pericardium
 
-- Effusion
-  - Includes pericardial recesses
-- Calcification
-- Thickening
-- Pericardial cyst
-- Pericardial mass
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Pericardial effusion** | Includes pericardial recesses |  |  |  |
+| **Pericardial calcification** |  |  |  |  |
+| **Pericardial thickening** |  |  |  |  |
+| **Pericardial cyst** | overlap with 'mediastinal cyst' |  |  |  |
+| **Pericardial mass** |  |  |  |  |
 
 ## Cardiac
 
