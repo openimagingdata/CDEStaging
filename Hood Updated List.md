@@ -122,9 +122,6 @@
 - Valvular calcifications
 - Annular calcifications
 - CABG
-- Replaced valve
-- PFO closure device
-- Left atrial appendage clip or closure device (Watchman)
 - Thrombus
   - All 4 chambers
   - Associated with central line
@@ -151,7 +148,6 @@
 - Coronary arteries
   - Calcifications
   - S/p CABG
-  - Stent present
 
 ## Aorta
 
@@ -327,13 +323,19 @@
 - Bronchial plug
 - Inferior vena cava (IVC) filter
 - Extracorporeal membrane oxygenation (ECMO) cannula(e)
-- Ventriculoperitoneal shunt
+- Ventriculoperitoneal shunt catheter
+  - Ventriculoatrial
+  - Ventriculopleural
 - Port catheter
 - Non-tunneled central venous catheter (CVC)
 - Tunneled central venous catheter (CVC)
 - Pulmonary artery catheter (Swann-Ganz)
 - Peripherally inserted central catheter (PICC)
 - Arterial stent
+- Replaced valve
+- PFO closure device
+- Left atrial appendage clip or closure device (Watchman)
+- Coronary stent
 
 ## Chest wall
 
