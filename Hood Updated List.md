@@ -287,6 +287,8 @@
 #### Cysts
 
 - Size
+  - Bleb
+  - Bulla
 - Structure
   - Smooth
   - Irregular
@@ -299,10 +301,17 @@
   - Upper/apical vs. lower/basilar
 - Emphysema
   - Centrilobular
+    - Mild
+    - Moderate
+    - Confluent
+    - Advanced destructive
   - Panlobular
   - Paraseptal
-  - // Source from Fleischner Society: [https://pubs.rsna.org/doi/abs/10.1148/radiol.2015141579](https://pubs.rsna.org/doi/abs/10.1148/radiol.2015141579) ![](RackMultipart20240116-1-sjpdm1_html_7df01d9355c8e28d.png)
-- Bullae
+    - Mild
+    - Substantial
+
+<!--- Emphysema source from Fleischner Society: [https://pubs.rsna.org/doi/abs/10.1148/radiol.2015141579](https://pubs.rsna.org/doi/abs/10.1148/radiol.2015141579) ![](RackMultipart20240116-1-sjpdm1_html_7df01d9355c8e28d.png) --->
+
 
 #### Additional findings
 
