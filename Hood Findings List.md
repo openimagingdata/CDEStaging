@@ -73,7 +73,7 @@
   - Paraesophageal
 - Esophageal mass
 
-## Bronchi
+**Bronchi**
 
 - Bronchiectasis
   - Cylindrical
@@ -182,7 +182,7 @@
   - Right common carotid
   -
 
-## Pulmonary vessels
+**Pulmonary vessels**
 
 - Pulmonary artery dilation (\> 3.2 cm)
 - Aberrant anatomy
@@ -195,7 +195,7 @@
   - S/p radiation
 - Pulmonary veins
 
-## Pleura
+**Pleura**
 
 - Effusion
   - Loculated
@@ -303,7 +303,6 @@
   - // Source from Fleischner Society: [https://pubs.rsna.org/doi/abs/10.1148/radiol.2015141579](https://pubs.rsna.org/doi/abs/10.1148/radiol.2015141579) ![](RackMultipart20240116-1-sjpdm1_html_7df01d9355c8e28d.png)
 - Bullae
 
-#### Additional findings
 
 - Congenital variants
   - Pulmonary sequestration
@@ -314,7 +313,7 @@
   - Wedge resection
   - Blebectomy
 
-## Lines / Tubes / Devices
+**Lines / Tubes / Devices**
 
 - AICD / ICD / pacemaker
 - Loop recorder
@@ -338,7 +337,7 @@
 - Peripherally inserted central catheter (PICC)
 - Arterial stent
 
-## Chest wall
+**Chest wall**
 
 - Mastectomy
 - Axillary nodal dissection
