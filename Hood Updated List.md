@@ -1,4 +1,4 @@
-## Bones
+# Bones
 
 - Clavicle
   - ORIF
@@ -45,7 +45,6 @@
 - Enlargement / goiter
   - Relation to other structures (e.g. extent into superior mediastinum or mass effect on trachea)
 - Atrophy
-
 
 ## Trachea
 
@@ -253,6 +252,7 @@
 - Architectural distortion
 
 #### Nodules
+
 - Size
   - Miliary nodule (\< 2 mm)
   - Micronodule (\< 5 mm)
@@ -285,6 +285,7 @@
     - Tree-in-bud
 
 #### Cysts
+
 - Size
 - Structure
   - Smooth
