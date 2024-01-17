@@ -1,9 +1,12 @@
 # Finding: nodular pattern
+* coding: RID43266
 * Description: Specifies how nodules are scattered in a particular location in lungs.
 
 ## Size 
 ### Float values (one of)
-* Single: ... mm
+* Largest size: ... mm
+* Exemplary size: ... mm
+* Smallest size: ... mm
 * Range: from ... mm to ... mm
 
 ## Distribution
