@@ -39,54 +39,54 @@
 
 ## Thyroid
 
-- Nodule
-- Calcifications
-- Thyroidectomy / hemithyroidectomy
-- Enlargement / goiter
-  - Relation to other structures (e.g. extent into superior mediastinum or mass effect on trachea)
-- Atrophy
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Nodule** | Model after TI-RADS |  |  |  |
+| **Calcification** |  |  |  |  |
+| **Thyroidectomy** | Includes hemithyroidectomy |  |  |  |
+| **Goiter** | Relation to other structures <br>- extent into superior mediastinum<br>- mass effect on trachea |  |  |  |
+| **Atrophy** |  |  |  |  |
 
 ## Trachea
 
-- Tracheal dilation
-- Tracheal stenosis
-- Tracheomalacia
-- Saber-sheath trachea
-- Calcifications of the cartilaginous rings or walls
-- Tracheal thickening / nodularity
-- Tracheal diverticulum
-- Tracheal deviation
-- Secretions
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Tracheal dilation** |  |  |  |  |
+| **Tracheal stenosis** |  |  |  |  |
+| **Tracheomalacia** |  |  |  |  |
+| **Saber-sheath trachea** |  |  |  |  |
+| **Calcifications** | Cartilaginous rings or walls |  |  |  |
+| **Tracheal thickening** | Includes soft tissue nodularity |  |  |  |
+| **Tracheal diverticulum** |  |  |  |  |
+| **Tracheal deviation** |  |  |  |  |
+| **Tracheal secretions** |  |  |  |  |
 
 ## Esophagus
 
-- Esophageal wall thickening
-- Esophageal dilation / patulous
-- Esophageal diverticulum
-  - Zenker
-  - Epiphrenic
-- Wall calcification
-- Esophageal varices
-- Hiatal hernia
-  - Sliding-type
-  - Paraesophageal
-- Esophageal mass
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Esophageal wall thickening** |  |  |  |  |
+| **Esophageal dilation** | Patulous esophagus |  |  |  |
+| **Esophageal fluid** | Fluid/reflux to the level of [x] |  |  |  |
+| **Esophageal diverticulum** | - Zenker<br>- Killian-Jamieson<br>- Traction<br>- Epiphrenic |  |  |  |
+| **Esophageal wall calcification** |  |  |  |  |
+| **Esophageal varices** |  |  |  |  |
+| **Esophageal mass** |  |  |  |  |
+| **Hiatal hernia** | Sliding-type<br>Paraesophageal<br>Intrathoracic gastric herniation |  |  |  |
+| **Esophagectomy** | Gastric pull-through |  |  |  |
 
 ## Bronchi
 
-- Bronchiectasis
-  - Cylindrical
-  - Varicose
-  - Cystic
-  - Traction bronchiectasis
-- Bronchial stenosis / obliterans
-- Bronchial wall thickening
-- Mucous impaction
-- Bronchial occlusion
-- Variant anatomy
-  - Bronchial atresia
-  - Tracheal bronchus
-  - Bronchogenic cyst
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Bronchiectasis** | Cylindrical, varicose, cystic, traction |  |  |  |
+| **Bronchiolectasis** | Traction |  |  |  |
+| **Bronchial stenosis** | Includes bronchial obliterans |  |  |  |
+| **Bronchial wall thickening** | Includes peribronchial thickening |  |  |  |
+| **Mucous impaction** |  |  |  |  |
+| **Bronchial occlusion** | Link to bronchial occlusion device |  |  |  |
+| **Endobronchial mass** |  |  |  |  |
+| **Variant anatomy** | - Bronchial atresia<br>- Tracheal bronchus<br>- Bronchogenic cyst |  |  |  |
 
 ## Mediastinum
 
@@ -311,7 +311,6 @@
     - Substantial
 
 <!--- Emphysema source from Fleischner Society: [https://pubs.rsna.org/doi/abs/10.1148/radiol.2015141579](https://pubs.rsna.org/doi/abs/10.1148/radiol.2015141579) ![](RackMultipart20240116-1-sjpdm1_html_7df01d9355c8e28d.png) --->
-
 
 #### Additional findings
 

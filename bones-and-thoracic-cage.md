@@ -2,7 +2,11 @@
 
 ## Universal osseous findings
 
-These findings may be present in any bone.
+These findings may be present anywhere:
+
+- fracture
+- degenerative changes
+- osseous lesion
 
 Fracture:
 
@@ -10,23 +14,38 @@ Fracture:
   - Acute
   - Subacute
     - Synonyms: healing
-    - Additional descriptors: bony callus
+    - Descriptors: bony callus
   - Remote
     - Synonyms: chronic, healed, old
-    - Additional descriptors: nonunion
+    - Descriptors: nonunion
+- Fracture type
+  - Avulsion
+  - Oblique
+  - Transverse
+  - Spiral
 - Bone
+  - **link to anatomic list of bones**
+- Side
+  - Left
+  - Right
+  - Bilateral
 - Location
   - **link to location descriptors**
+- Bone location
+  - Epiphysis
+  - Metaphysis
+  - Metadiaphysis
+  - Diaphysis
 - Displacement
   - Nondisplaced
   - Minimally displaced
   - Displaced
-    - Additional descriptors: [x] shaft-width
+    - Descriptors: [x] shaft-width
 - Angulation
+- Intra-articular
+  - Yes / No
 
-
-
-**Location descriptors:**
+**Common location descriptors:**
 
 - anterior
   - anteromedial
@@ -46,12 +65,16 @@ Fracture:
 - inferior
   - inferomedial
   - inferolateral
+- ventral
+- dorsal
 - proximal
 - middle
 - distal
 - superficial
 - deep
-
+- cranial
+- caudal
+- rostral
 
 ### Individual osseous structures
 
