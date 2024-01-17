@@ -18,6 +18,7 @@
 | **Pleuroparenchymal fibroelastosis**        | Rare      |          |        |
 | **Intersitial lung disease**                |Common    |          |        |
 | **Nonspecific intersitial pneumonitis**     |Uncommon  |          |        |
+
 ### Airspace
 
 | **Finding Name**                            | Frequency | Priority | Status |
@@ -27,15 +28,14 @@
 | **Atelectasis**                             |Commmon   |          |        |
 | **Bronchitis**                              |Common    |          |        |
 | **Narrowing trachea**                       |Uncommon  |          |        |
-| **Bronchiectasis with mucous plugging**     |Common    |          |        |      
-             
+| **Bronchiectasis with mucous plugging**     |Common    |          |        |
+
 ### Cysts
 
 | **Finding Name**                            | Frequency | Priority | Status |
 |---------------------------------------------|-----------|----------|--------|
 | **Emphysema**                      | Uncommon  |          | [RDES286: Emphysema](https://radelement.org/home/sets/set/RDES286) <br/> [RDES105: Thoracic Pulmonary Parenchymal Emphysema](https://radelement.org/home/sets/set/RDES105) |
 | **Pulmonary cysts**                         | Uncommon  |          |        |
-
 
 ### Nodules/Masses
 
@@ -80,7 +80,7 @@
 | **Cardiomegaly/chamber sizes**              | Common    |          |        |
 | **Left ventricular hypertrophy**           | Uncommon  |          |        |
 | **Right heart strain**                      | Uncommon  |          |        |
-| **Mitral annular calcification**            |Common    |          |        |               
+| **Mitral annular calcification**            |Common    |          |        |
 | **Subendocardial fatty metaplasia**         |Uncommon  |          |        |
 
 ### Aorta/Great Vessels
@@ -92,7 +92,7 @@
 | **Thoracic vascular calcifications**       | Common    |          |        |
 | **Acute Aortic Syndrome**                  | Rare      |          | [RDES126:Acute Aortic Syndrome](https://radelement.org/home/sets/set/RDES126) <br/> [RDES252: Thoracic Aortic Dissection](https://radelement.org/home/sets/set/RDES252) |
 | **Vascular variants**                      | Uncommon  |          |        |
-| **LAD stent**                              |Common    |          |        |    
+| **LAD stent**                              |Common    |          |        |
 | **Enlargement of aorta**                   |Common    |          |        |  
 | **Atheromatous changes of aorta**          |Common    |          |        |
 | **Brachiocephalic vein occlusion**         |Common    |          |        |
@@ -104,7 +104,7 @@
 |--------------------------------------------|-----------|----------|--------|
 | **Pericardial effusion**                   | Uncommon  |          |        |
 | **Pericardial calcification**              | Uncommon  |          |        |
-| **Pericardial thickening**                 |Common    |          |        |              
+| **Pericardial thickening**                 |Common    |          |        |
 
 ### Pulmonary Artery
 
@@ -137,14 +137,15 @@
 | **Low-attenuation thyroid nodule**    | Uncommon  |          |        |
 | **Thyroid nodules**                   | Common    |          |        |
 | **Thyroid gland atrophy**             | Rare      |          |        |
-| **Heterogeneous thyroid gland**       |Rare      |          |        |          
-| **Multinodular thyroid gland**        |Common    |          |        | 
+| **Heterogeneous thyroid gland**       |Rare      |          |        |
+| **Multinodular thyroid gland**        |Common    |          |        |
 | **Thyroid lobe hyperplasia**          |Uncommon  |          |        |
 | **Thyroid lobe calcification**        |Uncommon  |          |        |
 
 ***
 
-## Musculoskeletal 
+## Musculoskeletal
+
 | **Finding Name**                          | Frequency | Priority | Status |
 |-------------------------------------------|-----------|----------|--------|
 | **Degenerative changes in the thoracic skeleton** | Common |    |        |
@@ -157,9 +158,9 @@
 | **Scoliosis**  | Rare  |          | [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)|
 | **Cervical Rib** | Uncommon | | [RDES101: Cervical Rib](https://radelement.org/home/sets/set/RDES101)|
 | **Vertebral compression fracture** | Uncommon | | [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)|
-| **Osteopenic bone**                       |Common    |          |        | 
-| **Healed rib fracture**                   |Common    |          |        | 
-| **Prominent Schmorl's node deformity**    |Rare      |          |        |     
+| **Osteopenic bone**                       |Common    |          |        |
+| **Healed rib fracture**                   |Common    |          |        |
+| **Prominent Schmorl's node deformity**    |Rare      |          |        |
 | **Skeletal hyperostosis**                 |Uncommon  |          |        |
 | **Osteophyte of the spine**               |Common    |          |        |
 | **Benign soft tissue lesion**             |Common    |          |        |
@@ -168,7 +169,7 @@
 | **Hemangioma of thoracic spine**          |Common    |          |        |
 | **Spinal stenosis**                       |Common    |          |        |  
 | **Rib fracture**                          |Common    |          |        |
-| **Shoulder arthritis**                    |Common    |          |        |   
+| **Shoulder arthritis**                    |Common    |          |        |
 | **Vertebral body hemangioma**             |Common    |          |        |
 | **Entostosis of vertebra**                |Rare      |          |        |
 | **Fusion of ribs**                        |Rare      |          |        |
@@ -187,10 +188,10 @@
 | **Splenic granulomata**                  | Rare      |          |        |
 | **Gallbladder abnormality**              |     Uncommon  |          |        |
 | **Upper abdominal lymphadenopathy**      |Uncommon  |          |        |
-| **Adrenal gland thickeining**            |Uncommon  |          |        |    
+| **Adrenal gland thickeining**            |Uncommon  |          |        |
 | **Esophageal thickening**                |Uncommon  |          |        |
 | **Hepatic steatosis**                    |Common    |          |        |
-| **Colonic diverticulosis**               |Common    |          |        |            
+| **Colonic diverticulosis**               |Common    |          |        |
 | **Pneumobilia**                          |Uncommon  |          |        |
 | **Patullus esophagus**                   |Uncommon  |          |        |
 | **Narrowing esophagus**                  |Uncommon  |          |        |
@@ -202,8 +203,7 @@
 | **Intraductal papillary mucinous neoplasm** |Rare      |          |        |
 | **Cortical kidney hypodensities**        |Uncommmon |          |        |
 | **Splenic artery aneurysm**              |Uncommon  |          |        |
-| **Adrenal gland thickening**             |Rare      |          |        | 
-
+| **Adrenal gland thickening**             |Rare      |          |        |
 
 ***
 
@@ -239,6 +239,7 @@
 ## Post-op/treatment Changes
 
 Possible sub-categories:
+
 * Pulmonary parencyma
 * Cardiovascular
 * Chest wall + axilla (including mastectomy)
@@ -259,6 +260,6 @@ Possible sub-categories:
 | **Thoracotomy**                                             | Uncommon  |          |        |
 | **Radiation Therapy Changes**                               | Uncommon  |          |        |
 | **Radiation fibrosis**                   |Uncommon  |          |        |
-| **Mastectomy and flap reconstruction**   |Common    |          |        | 
+| **Mastectomy and flap reconstruction**   |Common    |          |        |
 | **Cholecystectomy**                      |Common    |          |        |
 | **Hysterectomy**                         |Common    |          |        |
