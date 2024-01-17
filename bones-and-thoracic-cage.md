@@ -23,6 +23,11 @@ Fracture:
   - Oblique
   - Transverse
   - Spiral
+  - Pathologic
+  - Bowing
+  - Buckle
+  - Greenstick
+- Salter-Harris (if pediatric)
 - Bone
   - **link to anatomic list of bones**
 - Side
