@@ -115,68 +115,59 @@
 
 ## Cardiac
 
-- Enlarged / dilated
-  - All 4 chambers
-- Hypertrophy
-  - All 4 chambers, particularly left ventricle
-- Valvular calcifications
-- Annular calcifications
-- CABG
-- Thrombus
-  - All 4 chambers
-  - Associated with central line
-  - Left atrial appendage
-- Congenital variants
-  - Patent foramen ovale
-  - ASD
-  - VSD
-  - Bicuspid aortic valve
-  - Alternate pulmonary vein anatomy into left atrium
-  - Persistent left SVC draining into coronary vein
-  - Anomalous pulmonary venous return (PAPVR or TAPVR)
-  - Hemiazygous continuation of the inferior vena cava
-  - Surgical repair of congenital heart disease
-    - Tetralogy of Fallot
-    - Transposition of the great arteries
-    - Ebstein anomaly
-    - Hypoplastic left heart syndrome
-- Lipomatous hypertrophy of interatrial septum
-- Changes following myocardial infarction
-  - Subendocardial fat deposition
-  - Left ventricular remodeling / ventricular aneurysm
-  - Papillary muscle calcification
-- Coronary arteries
-  - Calcifications
-  - S/p CABG
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Cardiac chamber enlargement** | all four chambers included |  |  |  |
+| **Left ventricular hypertrophy** |  |  |  |  |
+| **Valvular calcifications** |  |  |  |  |
+| **Annular calcifications** |  |  |  |  |
+| **Thrombus** | all four chambers; left atrial appendage; catheter-associated |  |  |  |
+| **Right heart strain** | septal bowing; RV:LV ratio; contrast reflux |  |  |  |
+| **Coronary artery calcification** |  |  |  |  |
+| **Coronary artery bypass graft (CABG)** |  |  |  |  |
+| **Changes after myocardial infarction** | subendocardial fat; LV remodeling/aneurysm; papillary muscle calcification |  |  |  |
+| **Lipomatous atrial septal hypertrophy (LASH)** |  |  |  |  |
+
+#### Congenital variants
+
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Patent foramen ovale (PFO)** |  |  |  |  |
+| **Atrial septal defect (ASD)** |  |  |  |  |
+| **Ventricular septal defect (VSD)** |  |  |  |  |
+| **Bicuspid aortic valve** |  |  |  |  |
+| **Variant pulmonary vein anatomy** |  |  |  |  |
+| **Persistent left SVC** |  |  |  |  |
+| **Anomalous pulmonary venous return** | PAPVR or TAPVR |  |  |  |
+| **Hemiazygous continuation of the inferior vena cava** |  |  |  |  |
+| **Surgical repair of congenital heart disease** | - Tetralogy of Fallot; transposition of great arteries; Ebstein anomaly; hypoplastic left heart; truncus arteriosus<br>- Includes Fontan, patch closure, aortopulmonary shunt, pulmonary banding, etc. |  |  |  |
 
 ## Aorta
 
 - Atherosclerosis
-- Aneurysm
-- Ectasia
+- Ectasia / Dilation / Aneurysm
 - Dissection
 - Aortic valve calcification
 - Aortic valve replacement
 - Post-surgical changes
   - // Will require cardiothoracic radiologist input
-- Great vessels (arteries)
-  - Brachycephalic trunk
-  - Right subclavian
-  - Right common carotid
-  -
+- Aortic arch
+  - Variant anatomy
+  - Vessels
 
-## Pulmonary vessels
+## Pulmonary artery
 
 - Pulmonary artery dilation (\> 3.2 cm)
 - Aberrant anatomy
   - Vascular sling
-- Chronic pulmonary embolus
+- Pulmonary embolus
+  - Acute
+  - Chronic
 - Patent ductus arteriosus
 - Calcified ligamentum arteriosum
 - Posttreatment thrombus
   - S/p lobectomy or wedge resection
   - S/p radiation
-- Pulmonary veins
 
 ## Pleura
 
