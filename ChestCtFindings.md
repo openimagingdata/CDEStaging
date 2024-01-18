@@ -1,5 +1,7 @@
 # Chest CT Findings
 
+<!--- will fold in reformatting from 'Hood Updated List' once complete --->
+
 ## Pulmonary
 
 | **Finding Name**                            | Frequency | Priority | Status |
