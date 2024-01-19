@@ -144,16 +144,13 @@
 
 ## Aorta
 
-- Atherosclerosis
-- Ectasia / Dilation / Aneurysm
-- Dissection
-- Aortic valve calcification
-- Aortic valve replacement
-- Post-surgical changes
-  - // Will require cardiothoracic radiologist input
-- Aortic arch
-  - Variant anatomy
-  - Vessels
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Aortic atherosclerosis** | calcified and noncalcified |  |  |  |
+| **Aortic aneurysm** | size-based; includes ectasia / dilation |  |  |  |
+| **Aortic dissection** |  |  |  |  |
+| **Aortic arch variant anatomy** | includes origins of great vessels; aberrant subclavian artery, etc |  |  |  |
+| **Aortic post-surgical changes** | // solicit cardiothoracic radiologist input for how to organize! |  |  |  |
 
 ## Pulmonary artery
 
