@@ -128,17 +128,12 @@
 
 ## Pleura
 
-- Effusion
-  - Loculated
-  - Chronic with thick rind
-- Thickening
-  - Fatty deposition
-  - Calcified plaques
-  - S/p talc pleurodesis
-- Mass / nodule
-- Pneumothorax
-  - Residual pleural space s/p lobectomy
-  - Trapped lung from pleural fibrosis
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Pleural effusion** |  |  |  |  |
+| **Pleural thickening** | fatty deposition; calcified plaques; s/p talc pleurodesis |  |  |  |
+| **Pleural nodularity** | includes mass, metastases |  |  |  |
+| **Pneumothorax** | includes hydro/hemo-pneumothorax, residual pleural space s/p lobectomy, trapped lung |  |  |  |
 
 ## Lungs
 
@@ -258,7 +253,10 @@
 ## Lines / Tubes / Devices
 
 - AICD / ICD / pacemaker
+  - Transvenous
+  - Subcutaneous
 - Loop recorder
+- Cutaneous cardiac rhythm monitor (ZIO patch)
 - Left ventricular assist device (LVAD)
 - Chest tube
 - Pleural drain
