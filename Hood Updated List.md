@@ -1,41 +1,4 @@
-# Bones
-
-- Clavicle
-  - ORIF
-  - Distal clavicular resection
-  - Acromioclavicular joint degenerative changes
-- Shoulder
-  - Glenohumeral joint
-    - Degenerative changes
-    - Joint effusion
-    - Arthroplasty
-      - Total shoulder
-      - Reverse total shoulder
-      - Humeral resurfacing arthroplasty
-  - Humeral head
-- Scapula
-- Thoracic cage
-  - Ribs 1-12
-    - S/p VATS and/or thoracotomy (partial resection or widening)
-    - Osseous bridging
-    - ORIF
-  - Sternum
-    - Median sternotomy
-  - Sternoclavicular joints
-  - Sternocostal joints
-  - Costotransverse joints
-  - Costal cartilage
-- Vertebral bodies
-  - T1-T12 ± cervical/lumbar levels (levels vary depending on FOV)
-  - Posterior elements
-    - Pedicle
-    - Lamina
-    - Pars interarticularis
-    - Spinous process
-  - Endplate degenerative changes
-  - DISH / bridging osteophytes
-  - Alignment
-  - Spinal canal narrowing
+# Chest CT Findings List
 
 ## Thyroid
 
@@ -154,17 +117,14 @@
 
 ## Pulmonary artery
 
-- Pulmonary artery dilation (\> 3.2 cm)
-- Aberrant anatomy
-  - Vascular sling
-- Pulmonary embolus
-  - Acute
-  - Chronic
-- Patent ductus arteriosus
-- Calcified ligamentum arteriosum
-- Posttreatment thrombus
-  - S/p lobectomy or wedge resection
-  - S/p radiation
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Pulmonary artery dilation** | > 3.2 cm |  |  |  |
+| **Pulmonary embolus** | acute; chronic; acute on chronic |  |  |  |
+| **Pulmonary thrombus** | e.g. s/p lobectomy, radiation |  |  |  |
+| **Patent ductus arteriosus** |  |  |  |  |
+| **Calcified ligamentum arteriosum** |  |  |  |  |
+| **Variant pulmonary artery anatomy** | vascular sling |  |  |  |
 
 ## Pleura
 
