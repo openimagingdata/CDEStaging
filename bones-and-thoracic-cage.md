@@ -32,6 +32,8 @@
   - ORIF
 - Sternum
   - Median sternotomy
+  - Pectus excavatum
+  - Pectus carinatum
 - Sternoclavicular joints
 - Sternocostal joints
 - Costotransverse joints
@@ -55,6 +57,11 @@ These findings may be present anywhere; consider a generic template for these:
 - fracture
 - degenerative changes
 - osseous lesion
+  - osteochondroma
+  - enchondroma
+  - fibrous dysplasia
+  - aneurysmal bone cyst
+  - hemangioma
 - soft tissue lesion
 - fluid collection / hematoma
 

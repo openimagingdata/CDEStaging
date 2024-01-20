@@ -1,14 +1,31 @@
 # Chest CT Findings List
 
+## Chest wall (soft tissue)
+
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Mastectomy** | includes flap reconstruction, postsurgical change |  |  |  |
+| **Breast implants** |  |  |  |  |
+| **Breast mass** |  |  |  |  |
+| **Breast calcification** |  |  |  |  |
+| **Axillary nodal dissection** |  |  |  |  |
+| **Gynecomastia** |  |  |  |  |
+| **Epidermal inclusion cyst** | aka sebaceous or epidermoid cyst |  |  |  |
+| **Fibroelastoma** |  |  |  |  |
+| **Lipoma** |  |  |  |  |
+| **Fluid collection** | seroma; abscess; hematoma |  |  |  |
+| **Lymphangioma** |  |  |  |  |
+| **Neurogenic tumor** | neurofibroma; schwannoma |  |  |  |
+
 ## Thyroid
 
 | **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
 |---|---|---|---|---|
-| **Nodule** | Model after TI-RADS |  |  |  |
-| **Calcification** |  |  |  |  |
+| **Thyroid nodule** | Model after TI-RADS |  |  |  |
+| **Thyroid calcification** |  |  |  |  |
 | **Thyroidectomy** | Includes hemithyroidectomy |  |  |  |
-| **Goiter** | Relation to other structures <br>- extent into superior mediastinum<br>- mass effect on trachea |  |  |  |
-| **Atrophy** |  |  |  |  |
+| **Thyroid goiter** | Relation to other structures <br>- extent into superior mediastinum<br>- mass effect on trachea |  |  |  |
+| **Thyroid atrophy** |  |  |  |  |
 
 ## Trachea
 
@@ -18,7 +35,7 @@
 | **Tracheal stenosis** |  |  |  |  |
 | **Tracheomalacia** |  |  |  |  |
 | **Saber-sheath trachea** |  |  |  |  |
-| **Calcifications** | Cartilaginous rings or walls |  |  |  |
+| **Tracheal calcifications** | Cartilaginous rings or walls |  |  |  |
 | **Tracheal thickening** | Includes soft tissue nodularity |  |  |  |
 | **Tracheal diverticulum** |  |  |  |  |
 | **Tracheal deviation** |  |  |  |  |
@@ -35,7 +52,6 @@
 | **Esophageal wall calcification** |  |  |  |  |
 | **Esophageal varices** |  |  |  |  |
 | **Esophageal mass** |  |  |  |  |
-| **Hiatal hernia** | Sliding-type<br>Paraesophageal<br>Intrathoracic gastric herniation |  |  |  |
 | **Esophagectomy** | Gastric pull-through |  |  |  |
 
 ## Bronchi
@@ -90,6 +106,7 @@
 | **Coronary artery bypass graft (CABG)** |  |  |  |  |
 | **Changes after myocardial infarction** | subendocardial fat; LV remodeling/aneurysm; papillary muscle calcification |  |  |  |
 | **Lipomatous atrial septal hypertrophy (LASH)** |  |  |  |  |
+| **Cardiac transplant** |  |  |  |  |
 
 #### Congenital variants
 
@@ -282,13 +299,4 @@
 - PFO closure device
 - Left atrial appendage clip or closure device (Watchman)
 - Coronary stent
-
-## Chest wall
-
-- Mastectomy
-- Axillary nodal dissection
-- Lumpectomy
-- Breast implants
-- Fibroelastoma
-- Sebaceous cyst
-- Epidermal inclusion cyst
+- Neurostimulator device
