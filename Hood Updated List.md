@@ -102,7 +102,7 @@
 | **Annular calcifications** |  |  |  |  |
 | **Thrombus** | all four chambers; left atrial appendage; catheter-associated |  |  |  |
 | **Right heart strain** | septal bowing; RV:LV ratio; contrast reflux |  |  |  |
-| **Coronary artery calcification** |  |  |  |  |
+| **Coronary artery calcification** |  |  |  | [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139)  |
 | **Coronary artery bypass graft (CABG)** |  |  |  |  |
 | **Changes after myocardial infarction** | subendocardial fat; LV remodeling/aneurysm; papillary muscle calcification |  |  |  |
 | **Lipomatous atrial septal hypertrophy (LASH)** |  |  |  |  |
@@ -127,8 +127,8 @@
 | **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
 |---|---|---|---|---|
 | **Aortic atherosclerosis** | calcified and noncalcified |  |  |  |
-| **Aortic aneurysm** | size-based; includes ectasia / dilation |  |  |  |
-| **Aortic dissection** |  |  |  |  |
+| **Aortic aneurysm** | size-based; includes ectasia / dilation |  |  | [RDES264: Aortic Measurements](https://radelement.org/home/sets/set/RDES264) |
+| **Aortic dissection** |  |  |  | [RDES252: Thoracic Aortic Dissection](https://radelement.org/home/sets/set/RDES252) |
 | **Aortic arch variant anatomy** | includes origins of great vessels; aberrant subclavian artery, etc |  |  |  |
 | **Aortic post-surgical changes** | // solicit cardiothoracic radiologist input for how to organize! |  |  |  |
 
@@ -137,7 +137,7 @@
 | **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
 |---|---|---|---|---|
 | **Pulmonary artery dilation** | > 3.2 cm |  |  |  |
-| **Pulmonary embolus** | acute; chronic; acute on chronic |  |  |  |
+| **Pulmonary embolus** | acute; chronic; acute on chronic |  |  | [RDES80: Pulmonary Elbolism](https://radelement.org/home/sets/set/RDES80) |
 | **Pulmonary thrombus** | e.g. s/p lobectomy, radiation |  |  |  |
 | **Patent ductus arteriosus** |  |  |  |  |
 | **Calcified ligamentum arteriosum** |  |  |  |  |
@@ -147,18 +147,20 @@
 
 | **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
 |---|---|---|---|---|
-| **Pleural effusion** |  |  |  |  |
+| **Pleural effusion** |  |  |  | [RDES254: Pleural Effusion](https://radelement.org/home/sets/set/RDES254) |
 | **Pleural thickening** | fatty deposition; calcified plaques; s/p talc pleurodesis |  |  |  |
 | **Pleural nodularity** | includes mass, metastases |  |  |  |
-| **Pneumothorax** | includes hydro/hemo-pneumothorax, residual pleural space s/p lobectomy, trapped lung |  |  |  |
+| **Pneumothorax** | includes hydro/hemo-pneumothorax, residual pleural space s/p lobectomy, trapped lung |  |  | [RDES44: Pneumothorax](https://radelement.org/home/sets/set/RDES44) |
 
 ## Lungs
 
-// Most complex section. General thought process here is to organize by observable findings, rather than by the spectrum of findings expected for a certain disease process. This approach will allow us in future iterations to build up combinations of findings to create automatic differential diagnoses.
+// Most complex section. General thought process here is to organize by observable findings, rather than by the spectrum of findings expected for a certain disease process. This approach will allow in future iterations to build up combinations of findings to create automatic differential diagnoses.
 
-// With that said, certain disease processes do often get a shortcut in the findings (e.g., shorthanding to saying "emphysema" or "granulomatous disease" in the findings rather than describing their individual features), so these examples should be represented in our schema.
+// Certain disease processes do often get a shortcut in the findings (e.g., shorthanding to saying "emphysema" or "granulomatous disease" in the findings rather than describing their individual features), so these examples should be represented in the schema.
 
 // Adapted from Fleischner reporting guidelines.
+
+// Can create multiple instances of "observations" that include any of the following categories:
 
 #### Airspace
 
@@ -166,7 +168,7 @@
   - Central (peribronchial) vs. peripheral (subpleural)
   - Upper/apical vs. lower/basilar
 - Airspace opacity
-  - Related Air bronchograms
+  - Related air bronchograms
   - Chronic
   - Scarring (if present on \>2 priors)
 - Groundglass
