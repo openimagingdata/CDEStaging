@@ -43,7 +43,7 @@
 |---------------------------------------------|-----------|----------|--------|
 | **Granulomas**                              | Uncommon  |          |        |
 | **Pulmonary nodules (solitary, multiple)**  | Common    |          |[RDES195: Pulmonary Nodule](https://radelement.org/home/sets/set/RDES195)<br/> [RDES208: Fleischner](https://radelement.org/home/sets/set/RDES208)<br/>[RDES99: Incidental Pulmonary Nodules](https://radelement.org/home/sets/set/RDES99)|
-| **Pulmonary metastases**                    | Rare      |          |        |
+| **Pulmonary metastases**                    | Rare      |          | ✅ upmedic (2024–01–22)            |
 | **Pulmonary Consolidation**                 | Uncommon |      | SmartReporting working 2024–01–03       |
 | **Pulmonary edema**                         | Common    |          |        |
 | **Focal subpleural linear opacities**       | Uncommon  |          |        |
