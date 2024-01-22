@@ -47,7 +47,7 @@
 | **Pulmonary Consolidation**                 | Uncommon |      | SmartReporting working 2024–01–03       |
 | **Pulmonary edema**                         | Common    |          |        |
 | **Focal subpleural linear opacities**       | Uncommon  |          |        |
-| **Nodular opacities**                       | Uncommon  |          | Upmedic working 2024–01–03       |
+| **Nodular opacities**                       | Uncommon  |          | ✅ upmedic (2024–01–22)       |
 | **Air trapping**                            | Uncommon  |          |        |
 | **Honeycombing**                            | Rare      |          |        |
 | **Pleuroparenchymal fibroelastosis**        | Rare      |          |        |
@@ -77,7 +77,7 @@
 | **Finding Name**                           | Frequency | Priority | Status |
 |--------------------------------------------|-----------|----------|--------|
 | **Coronary artery calcifications**                | Common    |          | [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139) |
-| **Cardiomegaly/chamber sizes**              | Common    |          |        |
+| **Cardiomegaly/chamber sizes**              | Common    |          |   ✅ upmedic  (2024-01-22)    |
 | **Left ventricular hypertrophy**           | Uncommon  |          |        |
 | **Right heart strain**                      | Uncommon  |          |        |
 | **Mitral annular calcification**            |Common    |          |        |
