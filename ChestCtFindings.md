@@ -47,8 +47,8 @@
 | **Pulmonary Consolidation**                 | Uncommon |      | SmartReporting working 2024–01–03       |
 | **Pulmonary edema**                         | Common    |          |        |
 | **Focal subpleural linear opacities**       | Uncommon  |          |        |
-| **Nodular opacities**                       | Uncommon  |          | ✅ upmedic (2024–01–22)       |
-| **Air trapping**                            | Uncommon  |          |        |
+| **Nodular opacities**                       | Uncommon  |          | ✅ upmedic (2024–01–22)            |
+| **Air trapping**                            | Uncommon  |          | ✅ upmedic (2024–01–22)            |
 | **Honeycombing**                            | Rare      |          |        |
 | **Pleuroparenchymal fibroelastosis**        | Rare      |          |        |
 | **Intraparenchymal lymph nodes**            | Uncommon  |          |        |
