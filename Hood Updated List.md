@@ -22,7 +22,7 @@
 
 | Finding Name | Notes / Descriptors | Status | Citation | RadElement |
 |---|---|---|---|---|
-| **AICD / ICD / pacemaker** | transvenous; subcutaneous | ✅ Hood |  |  |
+| **AICD / ICD / pacemaker** | transvenous; subcutaneous | complete (Hood) |  |  |
 | **Loop recorder** |  |  |  |  |
 | **Cutaneous cardiac rhythm monitor (ZIO patch)** |  |  |  |  |
 | **Left ventricular assist device (LVAD)** |  |  |  |  |
@@ -176,7 +176,6 @@
 | **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
 |---|---|---|---|---|
 | **Pulmonary artery dilation** | > 3.2 cm |  |  |  |
-| **Pulmonary embolus** | acute; chronic; acute on chronic |  |  | [RDES80: Pulmonary Elbolism](https://radelement.org/home/sets/set/RDES80) |
 | **Pulmonary embolus** | acute; chronic; acute on chronic |  |  | [RDES80: Pulmonary Embolism](https://radelement.org/home/sets/set/RDES80) |
 | **Pulmonary thrombus** | e.g. s/p lobectomy, radiation |  |  |  |
 | **Patent ductus arteriosus** |  |  |  |  |
