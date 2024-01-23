@@ -1,5 +1,43 @@
 # Chest CT Findings List
 
+## Lines / Tubes
+
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Chest tube** | includes pleural drain |  |  |  |
+| **Percutaneous drainage catheter** | includes pigtail catheter, mediastinal drain |  |  |  |
+| **Extracorporeal membrane oxygenation (ECMO) cannula** |  |  |  |  |
+| **Ventricular shunt catheter** | ventriculoperitoneal, ventriculoatrial, ventriculopleural |  |  |  |
+| **Tunneled port catheter** |  | 🚧 upmedic 2024-01-22 |  |  |
+| **Tunneled central venous catheter (CVC)** |  | 🚧 upmedic 2024-01-22 |  |  |
+| **Non-tunneled central venous catheter (CVC)** |  | 🚧 upmedic 2024-01-22 |  |  |
+| **Pulmonary artery catheter (Swann-Ganz)** |  |  |  |  |
+| **Peripherally inserted central catheter (PICC)** |  | 🚧 upmedic 2024-01-22 |  |  |
+| **Endotracheal tube** |  | 🚧 upmedic 2024-01-22 |  |  |
+| **Tracheostomy tube** |  |  |  |  |
+| **Gastric tube** | Nasogastric / orogastric |  |  |  |
+| **Gastrostomy tube** |  |  |  |  |
+
+## Devices
+
+| Finding Name | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **AICD / ICD / pacemaker** | transvenous; subcutaneous | complete (Hood) |  |  |
+| **Loop recorder** |  |  |  |  |
+| **Cutaneous cardiac rhythm monitor (ZIO patch)** |  |  |  |  |
+| **Left ventricular assist device (LVAD)** |  |  |  |  |
+| **Esophageal stent** |  |  |  |  |
+| **Tracheal stent** |  |  |  |  |
+| **Bronchial stent** |  |  |  |  |
+| **Bronchial plug** |  |  |  |  |
+| **Inferior vena cava (IVC) filter** |  |  |  |  |
+| **Arterial stent** | non-coronary |  |  |  |
+| **Coronary stent** |  |  |  |  |
+| **Replaced valve** | aortic, mitral, tricuspid, pulmonary |  |  |  |
+| **PFO closure device** |  |  |  |  |
+| **Left atrial appendage closure device** | clip; Watchman plug |  |  |  |
+| **Neurostimulator device** |  |  |  |  |
+
 ## Chest wall (soft tissue)
 
 | **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
@@ -21,6 +59,7 @@
 
 | **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
 |---|---|---|---|---|
+| **Thyromegaly** |  | 🚧 upmedic 2024-01-22 |  |  |
 | **Thyroid nodule** | Model after TI-RADS |  |  |  |
 | **Thyroid calcification** |  |  |  |  |
 | **Thyroidectomy** | Includes hemithyroidectomy |  |  |  |
@@ -96,7 +135,7 @@
 
 | **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
 |---|---|---|---|---|
-| **Cardiac chamber enlargement** | all four chambers included |  |  |  |
+| **Cardiac chamber enlargement** | all four chambers included | ✅ upmedic  (2024-01-22)  |  |  |
 | **Left ventricular hypertrophy** |  |  |  |  |
 | **Valvular calcifications** |  |  |  |  |
 | **Annular calcifications** |  |  |  |  |
@@ -137,7 +176,7 @@
 | **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
 |---|---|---|---|---|
 | **Pulmonary artery dilation** | > 3.2 cm |  |  |  |
-| **Pulmonary embolus** | acute; chronic; acute on chronic |  |  | [RDES80: Pulmonary Elbolism](https://radelement.org/home/sets/set/RDES80) |
+| **Pulmonary embolus** | acute; chronic; acute on chronic |  |  | [RDES80: Pulmonary Embolism](https://radelement.org/home/sets/set/RDES80) |
 | **Pulmonary thrombus** | e.g. s/p lobectomy, radiation |  |  |  |
 | **Patent ductus arteriosus** |  |  |  |  |
 | **Calcified ligamentum arteriosum** |  |  |  |  |
@@ -269,36 +308,24 @@
   - Wedge resection
   - Blebectomy
 
-## Lines / Tubes / Devices
+## Previous pulmonary findings list
 
-- AICD / ICD / pacemaker
-  - Transvenous
-  - Subcutaneous
-- Loop recorder
-- Cutaneous cardiac rhythm monitor (ZIO patch)
-- Left ventricular assist device (LVAD)
-- Chest tube
-- Pleural drain
-- Percutaneous drainage catheter
-  - Pigtail catheter
-- Mediastinal drain
-- Esophageal stent
-- Tracheal stent
-- Bronchial stent
-- Bronchial plug
-- Inferior vena cava (IVC) filter
-- Extracorporeal membrane oxygenation (ECMO) cannula(e)
-- Ventriculoperitoneal shunt catheter
-  - Ventriculoatrial
-  - Ventriculopleural
-- Port catheter
-- Non-tunneled central venous catheter (CVC)
-- Tunneled central venous catheter (CVC)
-- Pulmonary artery catheter (Swann-Ganz)
-- Peripherally inserted central catheter (PICC)
-- Arterial stent
-- Replaced valve
-- PFO closure device
-- Left atrial appendage clip or closure device (Watchman)
-- Coronary stent
-- Neurostimulator device
+| **Finding Name**                            | Frequency | Priority | Status |
+|---------------------------------------------|-----------|----------|--------|
+| **Granulomas**                              | Uncommon  |          |        |
+| **Pulmonary nodules (solitary, multiple)**  | Common    |          |[RDES195: Pulmonary Nodule](https://radelement.org/home/sets/set/RDES195)<br/> [RDES208: Fleischner](https://radelement.org/home/sets/set/RDES208)<br/>[RDES99: Incidental Pulmonary Nodules](https://radelement.org/home/sets/set/RDES99)|
+| **Pulmonary metastases**                    | Rare      |          | ✅ upmedic (2024–01–22)            |
+| **Pulmonary Consolidation**                 | Uncommon |      | SmartReporting working 2024–01–03       |
+| **Pulmonary edema**                         | Common    |          |        |
+| **Focal subpleural linear opacities**       | Uncommon  |          |        |
+| **Nodular opacities**                       | Uncommon  |          | ✅ upmedic (2024–01–22)            |
+| **Air trapping**                            | Uncommon  |          | ✅ upmedic (2024–01–22)            |
+| **Honeycombing**                            | Rare      |          |        |
+| **Pleuroparenchymal fibroelastosis**        | Rare      |          |        |
+| **Intraparenchymal lymph nodes**            | Uncommon  |          |        |
+| **Asbestos-related lung disease**           | Rare      |          |        |
+| **Reticular opacities**                     | Uncommon  |          |        |
+| **Pulmonary fibrosis**                      | Uncommon  |          | Nuance/MS working 2024–01–03       |
+| **Pulmonary cysts**                         | Uncommon  |          |        |
+| **Pulmonary congenital variants**           | Uncommon  |          |        |
+
