@@ -95,3 +95,35 @@ These findings may be present anywhere; consider a generic template for these:
 - cranial
 - caudal
 - rostral
+
+
+
+## Musculoskeletal
+
+| **Finding Name**                          | Frequency | Priority | Status |
+|-------------------------------------------|-----------|----------|--------|
+| **Degenerative changes in the thoracic skeleton** | Common |    |        |
+| **Lytic lesions**                         | Uncommon  |          |        |
+| **Blastic lesions**                       | Uncommon  |          |        |
+| **Rib fracture**                          | Uncommon  |          | [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)       |
+| **Sternal fracture**                      | Rare      |          |        |
+| **Costochondral junction abnormalities**  | Uncommon  |          |        |
+| **Chest wall mass**  | Rare  |          |        |
+| **Scoliosis**  | Rare  |          | [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)|
+| **Cervical Rib** | Uncommon | | [RDES101: Cervical Rib](https://radelement.org/home/sets/set/RDES101)|
+| **Vertebral compression fracture** | Uncommon | | [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)|
+| **Osteopenic bone**                       |Common    |          |        |
+| **Healed rib fracture**                   |Common    |          |        |
+| **Prominent Schmorl's node deformity**    |Rare      |          |        |
+| **Skeletal hyperostosis**                 |Uncommon  |          |        |
+| **Osteophyte of the spine**               |Common    |          |        |
+| **Benign soft tissue lesion**             |Common    |          |        |
+| **Deformity of healed fracture**          |Common    |          |        |
+| **Thoracic Kyphosis**                     |Common    |          |        |
+| **Hemangioma of thoracic spine**          |Common    |          |        |
+| **Spinal stenosis**                       |Common    |          |        |  
+| **Rib fracture**                          |Common    |          |        |
+| **Shoulder arthritis**                    |Common    |          |        |
+| **Vertebral body hemangioma**             |Common    |          |        |
+| **Entostosis of vertebra**                |Rare      |          |        |
+| **Fusion of ribs**                        |Rare      |          |        |
