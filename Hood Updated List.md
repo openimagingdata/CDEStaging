@@ -195,13 +195,13 @@
 
 ## Lungs
 
-// Most complex section. General thought process here is to organize by observable findings, rather than by the spectrum of findings expected for a certain disease process. This approach will allow in future iterations to build up combinations of findings to create automatic differential diagnoses.
+> Most complex section. General thought process here is to organize by observable findings, rather than by the spectrum of findings expected for a certain disease process. This approach will allow in future iterations to build up combinations of findings to create automatic differential diagnoses.
 
-// Certain disease processes do often get a shortcut in the findings (e.g., shorthanding to saying "emphysema" or "granulomatous disease" in the findings rather than describing their individual features), so these examples should be represented in the schema.
+> Certain disease processes do often get a shortcut in the findings (e.g., shorthanding to saying "emphysema" or "granulomatous disease" in the findings rather than describing their individual features), so these examples should be represented in the schema.
 
-// Adapted from Fleischner reporting guidelines.
+> Adapted from Fleischner reporting guidelines.
 
-// Can create multiple instances of "observations" that include any of the following categories:
+> Can create multiple instances of "observations" that include any of the following categories:
 
 #### Airspace
 
