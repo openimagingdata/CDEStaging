@@ -22,7 +22,7 @@
 
 | Finding Name | Notes / Descriptors | Status | Citation | RadElement |
 |---|---|---|---|---|
-| **AICD / ICD / pacemaker** | transvenous; subcutaneous | complete (Hood) |  |  |
+| **AICD / ICD / pacemaker** | transvenous; subcutaneous | ✅ Hood |  |  |
 | **Loop recorder** |  |  |  |  |
 | **Cutaneous cardiac rhythm monitor (ZIO patch)** |  |  |  |  |
 | **Left ventricular assist device (LVAD)** |  |  |  |  |
