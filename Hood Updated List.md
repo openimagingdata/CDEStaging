@@ -22,7 +22,7 @@
 
 | Finding Name | Notes / Descriptors | Status | Citation | RadElement |
 |---|---|---|---|---|
-| **AICD / ICD / pacemaker** | transvenous; subcutaneous | complete (Hood) |  |  |
+| **AICD / ICD / pacemaker** | transvenous; subcutaneous | ✅ Hood |  |  |
 | **Loop recorder** |  |  |  |  |
 | **Cutaneous cardiac rhythm monitor (ZIO patch)** |  |  |  |  |
 | **Left ventricular assist device (LVAD)** |  |  |  |  |
@@ -42,7 +42,7 @@
 
 | **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
 |---|---|---|---|---|
-| **Mastectomy** | includes flap reconstruction, postsurgical change |  |  |  |
+| **Mastectomy** | includes flap reconstruction, postsurgical change |  | ✅ Hood |  |
 | **Breast implants** |  |  |  |  |
 | **Breast mass** |  |  |  |  |
 | **Breast calcification** |  |  |  |  |
