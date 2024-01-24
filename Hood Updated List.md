@@ -1,51 +1,70 @@
-# Bones
+# Chest CT Findings List
 
-- Clavicle
-  - ORIF
-  - Distal clavicular resection
-  - Acromioclavicular joint degenerative changes
-- Shoulder
-  - Glenohumeral joint
-    - Degenerative changes
-    - Joint effusion
-    - Arthroplasty
-      - Total shoulder
-      - Reverse total shoulder
-      - Humeral resurfacing arthroplasty
-  - Humeral head
-- Scapula
-- Thoracic cage
-  - Ribs 1-12
-    - S/p VATS and/or thoracotomy (partial resection or widening)
-    - Osseous bridging
-    - ORIF
-  - Sternum
-    - Median sternotomy
-  - Sternoclavicular joints
-  - Sternocostal joints
-  - Costotransverse joints
-  - Costal cartilage
-- Vertebral bodies
-  - T1-T12 ± cervical/lumbar levels (levels vary depending on FOV)
-  - Posterior elements
-    - Pedicle
-    - Lamina
-    - Pars interarticularis
-    - Spinous process
-  - Endplate degenerative changes
-  - DISH / bridging osteophytes
-  - Alignment
-  - Spinal canal narrowing
+## Lines / Tubes
+
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Chest tube** | includes pleural drain |  |  |  |
+| **Percutaneous drainage catheter** | includes pigtail catheter, mediastinal drain |  |  |  |
+| **Extracorporeal membrane oxygenation (ECMO) cannula** |  |  |  |  |
+| **Ventricular shunt catheter** | ventriculoperitoneal, ventriculoatrial, ventriculopleural |  |  |  |
+| **Tunneled port catheter** |  | 🚧 upmedic 2024-01-22 |  |  |
+| **Tunneled central venous catheter (CVC)** |  | 🚧 upmedic 2024-01-22 |  |  |
+| **Non-tunneled central venous catheter (CVC)** |  | 🚧 upmedic 2024-01-22 |  |  |
+| **Pulmonary artery catheter (Swann-Ganz)** |  |  |  |  |
+| **Peripherally inserted central catheter (PICC)** |  | 🚧 upmedic 2024-01-22 |  |  |
+| **Endotracheal tube** |  | 🚧 upmedic 2024-01-22 |  |  |
+| **Tracheostomy tube** |  |  |  |  |
+| **Gastric tube** | Nasogastric / orogastric |  |  |  |
+| **Gastrostomy tube** |  |  |  |  |
+
+## Devices
+
+| Finding Name | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **AICD / ICD / pacemaker** | transvenous; subcutaneous | complete (Hood) |  |  |
+| **Loop recorder** |  |  |  |  |
+| **Cutaneous cardiac rhythm monitor (ZIO patch)** |  |  |  |  |
+| **Left ventricular assist device (LVAD)** |  |  |  |  |
+| **Esophageal stent** |  |  |  |  |
+| **Tracheal stent** |  |  |  |  |
+| **Bronchial stent** |  |  |  |  |
+| **Bronchial plug** |  |  |  |  |
+| **Inferior vena cava (IVC) filter** |  |  |  |  |
+| **Arterial stent** | non-coronary |  |  |  |
+| **Coronary stent** |  |  |  |  |
+| **Replaced valve** | aortic, mitral, tricuspid, pulmonary |  |  |  |
+| **PFO closure device** |  |  |  |  |
+| **Left atrial appendage closure device** | clip; Watchman plug |  |  |  |
+| **Neurostimulator device** |  |  |  |  |
+
+## Chest wall (soft tissue)
+
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Mastectomy** | includes flap reconstruction, postsurgical change |  |  |  |
+| **Breast implants** |  |  |  |  |
+| **Breast mass** |  |  |  |  |
+| **Breast calcification** |  |  |  |  |
+| **Axillary nodal dissection** |  |  |  |  |
+| **Gynecomastia** |  |  |  |  |
+| **Epidermal inclusion cyst** | aka sebaceous or epidermoid cyst |  |  |  |
+| **Fibroelastoma** |  |  |  |  |
+| **Lipoma** |  |  |  |  |
+| **Fluid collection** | seroma; abscess; hematoma |  |  |  |
+| **Lymphangioma** |  |  |  |  |
+| **Neurogenic tumor** | neurofibroma; schwannoma |  |  |  |
 
 ## Thyroid
 
 | **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
 |---|---|---|---|---|
-| **Nodule** | Model after TI-RADS |  |  |  |
-| **Calcification** |  |  |  |  |
+| **Thyromegaly** |  | 🚧 upmedic 2024-01-22 |  |  |
+| **Thyroid nodule** | Model after TI-RADS |  |  |  |
+| **Thyroid calcification** |  |  |  |  |
 | **Thyroidectomy** | Includes hemithyroidectomy |  |  |  |
-| **Goiter** | Relation to other structures <br>- extent into superior mediastinum<br>- mass effect on trachea |  |  |  |
-| **Atrophy** |  |  |  |  |
+| **Thyroid goiter** | Relation to other structures <br>- extent into superior mediastinum<br>- mass effect on trachea |  |  |  |
+| **Thyroid atrophy** |  |  |  |  |
 
 ## Trachea
 
@@ -55,7 +74,7 @@
 | **Tracheal stenosis** |  |  |  |  |
 | **Tracheomalacia** |  |  |  |  |
 | **Saber-sheath trachea** |  |  |  |  |
-| **Calcifications** | Cartilaginous rings or walls |  |  |  |
+| **Tracheal calcifications** | Cartilaginous rings or walls |  |  |  |
 | **Tracheal thickening** | Includes soft tissue nodularity |  |  |  |
 | **Tracheal diverticulum** |  |  |  |  |
 | **Tracheal deviation** |  |  |  |  |
@@ -72,7 +91,6 @@
 | **Esophageal wall calcification** |  |  |  |  |
 | **Esophageal varices** |  |  |  |  |
 | **Esophageal mass** |  |  |  |  |
-| **Hiatal hernia** | Sliding-type<br>Paraesophageal<br>Intrathoracic gastric herniation |  |  |  |
 | **Esophagectomy** | Gastric pull-through |  |  |  |
 
 ## Bronchi
@@ -90,131 +108,98 @@
 
 ## Mediastinum
 
-- Mass or cyst
-  - Thymoma
-  - Neurogenic tumor like schwannoma or neurofibroma
-  - Foregut cyst
-- Scarring
-  - Radiation fibrosis
-  - Postsurgical (s/p cardiothoracic surgery)
-- Lymph nodes
-  - Nonregional stations
-    - Internal mammary nodes
-    - Intercostal nodes
-    - Anterior diaphragmatic
-    - Middle diaphragmatic
-  - Standard thoracic lymph nodes stations
-    - // should have a level assignment as per [https://ajronline.org/doi/full/10.2214/AJR.11.7446](https://ajronline.org/doi/full/10.2214/AJR.11.7446)
-- Fluid collection
-  - Seroma
-  - Hematoma
-- Fat stranding (e.g. mediastinitis)
-- Residual thymus
-- Bochdalek hernia
-- Morgagni hernia
-- Diaphragm elevation
-- Diaphragm defect
-- Pneumomediastinum
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Mediastinal mass** |  |  |  |  |
+| **Mediastinal cyst** | thymic, pericardial, duplication, neuroenteric |  |  |  |
+| **Mediastinal fluid collection** | i.e. seroma, hematoma, abscess |  |  |  |
+| **Mediastinal fat stranding** | post-surgical, post-traumatic, fibrosis, mediastinitis |  |  |  |
+| **Residual thymus** | Separate from mediastinal mass |  |  |  |
+| **Bochdalek hernia** |  |  |  |  |
+| **Morgagni hernia** |  |  |  |  |
+| **Hiatal hernia** | - Sliding-type<br>- Paraesophageal<br>- Intrathoracic gastric herniation |  |  |  |
+| **Pneumomediastinum** |  |  |  |  |
+| **Lymph nodes** | - standard thoracic lymph node stations<br>- nonregional stations including internal mammary, intercostal, anterior/middle diaphragmatic |  | [AJR citation](https://ajronline.org/doi/full/10.2214/AJR.11.7446) |  |
 
 ## Pericardium
 
-- Effusion
-  - Includes pericardial recesses
-- Calcification
-- Thickening
-- Pericardial cyst
-- Pericardial mass
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Pericardial effusion** | Includes pericardial recesses |  |  |  |
+| **Pericardial calcification** |  |  |  |  |
+| **Pericardial thickening** |  |  |  |  |
+| **Pericardial cyst** | overlap with 'mediastinal cyst' |  |  |  |
+| **Pericardial mass** |  |  |  |  |
 
 ## Cardiac
 
-- Enlarged / dilated
-  - All 4 chambers
-- Hypertrophy
-  - All 4 chambers, particularly left ventricle
-- Valvular calcifications
-- Annular calcifications
-- CABG
-- Replaced valve
-- PFO closure device
-- Left atrial appendage clip or closure device (Watchman)
-- Thrombus
-  - All 4 chambers
-  - Associated with central line
-  - Left atrial appendage
-- Congenital variants
-  - Patent foramen ovale
-  - ASD
-  - VSD
-  - Bicuspid aortic valve
-  - Alternate pulmonary vein anatomy into left atrium
-  - Persistent left SVC draining into coronary vein
-  - Anomalous pulmonary venous return (PAPVR or TAPVR)
-  - Hemiazygous continuation of the inferior vena cava
-  - Surgical repair of congenital heart disease
-    - Tetralogy of Fallot
-    - Transposition of the great arteries
-    - Ebstein anomaly
-    - Hypoplastic left heart syndrome
-- Lipomatous hypertrophy of interatrial septum
-- Changes following myocardial infarction
-  - Subendocardial fat deposition
-  - Left ventricular remodeling / ventricular aneurysm
-  - Papillary muscle calcification
-- Coronary arteries
-  - Calcifications
-  - S/p CABG
-  - Stent present
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Cardiac chamber enlargement** | all four chambers included | ✅ upmedic  (2024-01-22)  |  |  |
+| **Left ventricular hypertrophy** |  |  |  |  |
+| **Valvular calcifications** |  |  |  |  |
+| **Annular calcifications** |  |  |  |  |
+| **Thrombus** | all four chambers; left atrial appendage; catheter-associated |  |  |  |
+| **Right heart strain** | septal bowing; RV:LV ratio; contrast reflux |  |  |  |
+| **Coronary artery calcification** |  |  |  | [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139)  |
+| **Coronary artery bypass graft (CABG)** |  |  |  |  |
+| **Changes after myocardial infarction** | subendocardial fat; LV remodeling/aneurysm; papillary muscle calcification |  |  |  |
+| **Lipomatous atrial septal hypertrophy (LASH)** |  |  |  |  |
+| **Cardiac transplant** |  |  |  |  |
+
+#### Congenital variants
+
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Patent foramen ovale (PFO)** |  |  |  |  |
+| **Atrial septal defect (ASD)** |  |  |  |  |
+| **Ventricular septal defect (VSD)** |  |  |  |  |
+| **Bicuspid aortic valve** |  |  |  |  |
+| **Variant pulmonary vein anatomy** |  |  |  |  |
+| **Persistent left SVC** |  |  |  |  |
+| **Anomalous pulmonary venous return** | PAPVR or TAPVR |  |  |  |
+| **Hemiazygous continuation of the inferior vena cava** |  |  |  |  |
+| **Surgical repair of congenital heart disease** | - Tetralogy of Fallot; transposition of great arteries; Ebstein anomaly; hypoplastic left heart; truncus arteriosus<br>- Includes Fontan, patch closure, aortopulmonary shunt, pulmonary banding, etc. |  |  |  |
 
 ## Aorta
 
-- Atherosclerosis
-- Aneurysm
-- Ectasia
-- Dissection
-- Aortic valve calcification
-- Aortic valve replacement
-- Post-surgical changes
-  - // Will require cardiothoracic radiologist input
-- Great vessels (arteries)
-  - Brachycephalic trunk
-  - Right subclavian
-  - Right common carotid
-  -
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Aortic atherosclerosis** | calcified and noncalcified |  |  |  |
+| **Aortic aneurysm** | size-based; includes ectasia / dilation |  |  | [RDES264: Aortic Measurements](https://radelement.org/home/sets/set/RDES264) |
+| **Aortic dissection** |  |  |  | [RDES252: Thoracic Aortic Dissection](https://radelement.org/home/sets/set/RDES252) |
+| **Aortic arch variant anatomy** | includes origins of great vessels; aberrant subclavian artery, etc |  |  |  |
+| **Aortic post-surgical changes** | // solicit cardiothoracic radiologist input for how to organize! |  |  |  |
 
-## Pulmonary vessels
+## Pulmonary artery
 
-- Pulmonary artery dilation (\> 3.2 cm)
-- Aberrant anatomy
-  - Vascular sling
-- Chronic pulmonary embolus
-- Patent ductus arteriosus
-- Calcified ligamentum arteriosum
-- Posttreatment thrombus
-  - S/p lobectomy or wedge resection
-  - S/p radiation
-- Pulmonary veins
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Pulmonary artery dilation** | > 3.2 cm |  |  |  |
+| **Pulmonary embolus** | acute; chronic; acute on chronic |  |  | [RDES80: Pulmonary Embolism](https://radelement.org/home/sets/set/RDES80) |
+| **Pulmonary thrombus** | e.g. s/p lobectomy, radiation |  |  |  |
+| **Patent ductus arteriosus** |  |  |  |  |
+| **Calcified ligamentum arteriosum** |  |  |  |  |
+| **Variant pulmonary artery anatomy** | vascular sling |  |  |  |
 
 ## Pleura
 
-- Effusion
-  - Loculated
-  - Chronic with thick rind
-- Thickening
-  - Fatty deposition
-  - Calcified plaques
-  - S/p talc pleurodesis
-- Mass / nodule
-- Pneumothorax
-  - Residual pleural space s/p lobectomy
-  - Trapped lung from pleural fibrosis
+| **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
+|---|---|---|---|---|
+| **Pleural effusion** |  |  |  | [RDES254: Pleural Effusion](https://radelement.org/home/sets/set/RDES254) |
+| **Pleural thickening** | fatty deposition; calcified plaques; s/p talc pleurodesis |  |  |  |
+| **Pleural nodularity** | includes mass, metastases |  |  |  |
+| **Pneumothorax** | includes hydro/hemo-pneumothorax, residual pleural space s/p lobectomy, trapped lung |  |  | [RDES44: Pneumothorax](https://radelement.org/home/sets/set/RDES44) |
 
 ## Lungs
 
-// Most complex section. General thought process here is to organize by observable findings, rather than by the spectrum of findings expected for a certain disease process. This approach will allow us in future iterations to build up combinations of findings to create automatic differential diagnoses.
+// Most complex section. General thought process here is to organize by observable findings, rather than by the spectrum of findings expected for a certain disease process. This approach will allow in future iterations to build up combinations of findings to create automatic differential diagnoses.
 
-// With that said, certain disease processes do often get a shortcut in the findings (e.g., shorthanding to saying "emphysema" or "granulomatous disease" in the findings rather than describing their individual features), so these examples should be represented in our schema.
+// Certain disease processes do often get a shortcut in the findings (e.g., shorthanding to saying "emphysema" or "granulomatous disease" in the findings rather than describing their individual features), so these examples should be represented in the schema.
 
 // Adapted from Fleischner reporting guidelines.
+
+// Can create multiple instances of "observations" that include any of the following categories:
 
 #### Airspace
 
@@ -222,7 +207,7 @@
   - Central (peribronchial) vs. peripheral (subpleural)
   - Upper/apical vs. lower/basilar
 - Airspace opacity
-  - Related Air bronchograms
+  - Related air bronchograms
   - Chronic
   - Scarring (if present on \>2 priors)
 - Groundglass
@@ -323,36 +308,24 @@
   - Wedge resection
   - Blebectomy
 
-## Lines / Tubes / Devices
+## Previous pulmonary findings list
 
-- AICD / ICD / pacemaker
-- Loop recorder
-- Left ventricular assist device (LVAD)
-- Chest tube
-- Pleural drain
-- Percutaneous drainage catheter
-  - Pigtail catheter
-- Mediastinal drain
-- Esophageal stent
-- Tracheal stent
-- Bronchial stent
-- Bronchial plug
-- Inferior vena cava (IVC) filter
-- Extracorporeal membrane oxygenation (ECMO) cannula(e)
-- Ventriculoperitoneal shunt
-- Port catheter
-- Non-tunneled central venous catheter (CVC)
-- Tunneled central venous catheter (CVC)
-- Pulmonary artery catheter (Swann-Ganz)
-- Peripherally inserted central catheter (PICC)
-- Arterial stent
+| **Finding Name**                            | Frequency | Priority | Status |
+|---------------------------------------------|-----------|----------|--------|
+| **Granulomas**                              | Uncommon  |          |        |
+| **Pulmonary nodules (solitary, multiple)**  | Common    |          |[RDES195: Pulmonary Nodule](https://radelement.org/home/sets/set/RDES195)<br/> [RDES208: Fleischner](https://radelement.org/home/sets/set/RDES208)<br/>[RDES99: Incidental Pulmonary Nodules](https://radelement.org/home/sets/set/RDES99)|
+| **Pulmonary metastases**                    | Rare      |          | ✅ upmedic (2024–01–22)            |
+| **Pulmonary Consolidation**                 | Uncommon |      | SmartReporting working 2024–01–03       |
+| **Pulmonary edema**                         | Common    |          |        |
+| **Focal subpleural linear opacities**       | Uncommon  |          |        |
+| **Nodular opacities**                       | Uncommon  |          | ✅ upmedic (2024–01–22)            |
+| **Air trapping**                            | Uncommon  |          | ✅ upmedic (2024–01–22)            |
+| **Honeycombing**                            | Rare      |          |        |
+| **Pleuroparenchymal fibroelastosis**        | Rare      |          |        |
+| **Intraparenchymal lymph nodes**            | Uncommon  |          |        |
+| **Asbestos-related lung disease**           | Rare      |          |        |
+| **Reticular opacities**                     | Uncommon  |          |        |
+| **Pulmonary fibrosis**                      | Uncommon  |          | Nuance/MS working 2024–01–03       |
+| **Pulmonary cysts**                         | Uncommon  |          |        |
+| **Pulmonary congenital variants**           | Uncommon  |          |        |
 
-## Chest wall
-
-- Mastectomy
-- Axillary nodal dissection
-- Lumpectomy
-- Breast implants
-- Fibroelastoma
-- Sebaceous cyst
-- Epidermal inclusion cyst
