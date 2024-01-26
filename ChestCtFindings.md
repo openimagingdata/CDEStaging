@@ -44,7 +44,7 @@
 | **Granulomas**                              | Uncommon  |          |        |
 | **Pulmonary nodules (solitary, multiple)**  | Common    |          |[RDES195: Pulmonary Nodule](https://radelement.org/home/sets/set/RDES195)<br/> [RDES208: Fleischner](https://radelement.org/home/sets/set/RDES208)<br/>[RDES99: Incidental Pulmonary Nodules](https://radelement.org/home/sets/set/RDES99)|
 | **Pulmonary metastases**                    | Rare      |          | ✅ upmedic (2024–01–22)            |
-| **Pulmonary Consolidation**                 | Uncommon |      | SmartReporting working 2024–01–03       |
+| **Pulmonary Consolidation**                 | Uncommon |      | SmartReporting working - Done      |
 | **Pulmonary edema**                         | Common    |          |        |
 | **Focal subpleural linear opacities**       | Uncommon  |          |        |
 | **Nodular opacities**                       | Uncommon  |          | ✅ upmedic (2024–01–22)            |
@@ -55,7 +55,7 @@
 | **Asbestos-related lung disease**           | Rare      |          |        |
 | **Reticular opacities**                     | Uncommon  |          |        |
 | **Pulmonary fibrosis**                      | Uncommon  |          | Nuance/MS working 2024–01–03       |
-| **Pulmonary cysts**                         | Uncommon  |          |        |
+| **Pulmonary cysts**                         | Uncommon  |          | SmartReporting working 2024-01-26       |
 | **Pulmonary congenital variants**           | Uncommon  |          |        |
 
 ## Pleura
@@ -65,7 +65,7 @@
 | **Pleural effusion**                        | Common    |          | [RDES254: Pleural Effusion](https://radelement.org/home/sets/set/RDES254) |
 | **Pneumothorax**                            | Uncommon  |          | [RDES44: Pneumothorax](https://radelement.org/home/sets/set/RDES44) |
 | **Pleural plaques**                         | Uncommon  |          |       |
-| **Pleural thickening**                      | Uncommon  |          |       |
+| **Pleural thickening**                      | Uncommon  |          |  SmartReporting working 2024-01-26     |
 | **Pleural mass**                            | Uncommon  |          |       |
 | **Pleural parenchymal opacities**           |Uncommon  |          |       |
 ***
