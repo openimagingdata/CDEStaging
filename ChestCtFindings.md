@@ -24,7 +24,7 @@
 | **Finding Name**                            | Frequency | Priority | Status |
 |---------------------------------------------|-----------|----------|--------|
 | **Air trapping**                            | Uncommon  |          |        |
-| **Consolidation (lobar, bronchopneumonia)** | Common    |          |        |
+| **Consolidation (lobar, bronchopneumonia)** | Common    | upmedic: 🔝|        |
 | **Atelectasis**                             |Commmon   |          |        |
 | **Bronchitis**                              |Common    |          |        |
 | **Narrowing trachea**                       |Uncommon  |          |        |
@@ -43,18 +43,18 @@
 |---------------------------------------------|-----------|----------|--------|
 | **Granulomas**                              | Uncommon  |          |        |
 | **Pulmonary nodules (solitary, multiple)**  | Common    |          |[RDES195: Pulmonary Nodule](https://radelement.org/home/sets/set/RDES195)<br/> [RDES208: Fleischner](https://radelement.org/home/sets/set/RDES208)<br/>[RDES99: Incidental Pulmonary Nodules](https://radelement.org/home/sets/set/RDES99)|
-| **Pulmonary metastases**                    | Rare      |          | ✅ upmedic (2024–01–22)            |
+| **Pulmonary metastases**                    | Rare      | upmedic: 🔝 | ✅ upmedic (2024–01–22)            |
 | **Pulmonary Consolidation**                 | Uncommon |      | SmartReporting working - Done      |
-| **Pulmonary edema**                         | Common    |          |        |
+| **Pulmonary edema**                         | Common    | upmedic: 🔝 |        |
 | **Focal subpleural linear opacities**       | Uncommon  |          |        |
-| **Nodular opacities**                       | Uncommon  |          | ✅ upmedic (2024–01–22)            |
-| **Air trapping**                            | Uncommon  |          | ✅ upmedic (2024–01–22)            |
-| **Honeycombing**                            | Rare      |          |        |
+| **Nodular opacities**                       | Uncommon  | upmedic: 🔝 | ✅ upmedic (2024–01–22)            |
+| **Air trapping**                            | Uncommon  | upmedic: 🔝 | ✅ upmedic (2024–01–22)            |
+| **Honeycombing**                            | Rare      | upmedic: 🔝 |        |
 | **Pleuroparenchymal fibroelastosis**        | Rare      |          |        |
 | **Intraparenchymal lymph nodes**            | Uncommon  |          |        |
 | **Asbestos-related lung disease**           | Rare      |          |        |
-| **Reticular opacities**                     | Uncommon  |          |        |
-| **Pulmonary fibrosis**                      | Uncommon  |          | Nuance/MS working 2024–01–03       |
+| **Reticular opacities**                     | Uncommon  | upmedic: 🔝 |        |
+| **Pulmonary fibrosis**                      | Uncommon  | upmedic: 🔝 | Nuance/MS working 2024–01–03       |
 | **Pulmonary cysts**                         | Uncommon  |          | SmartReporting working 2024-01-26       |
 | **Pulmonary congenital variants**           | Uncommon  |          |        |
 
@@ -64,8 +64,8 @@
 |--------------------------------------------|-----------|----------|--------|
 | **Pleural effusion**                        | Common    |          | [RDES254: Pleural Effusion](https://radelement.org/home/sets/set/RDES254) |
 | **Pneumothorax**                            | Uncommon  |          | [RDES44: Pneumothorax](https://radelement.org/home/sets/set/RDES44) |
-| **Pleural plaques**                         | Uncommon  |          |       |
-| **Pleural thickening**                      | Uncommon  |          |  SmartReporting working 2024-01-26     |
+| **Pleural plaques**                         | Uncommon  | upmedic: 🔝 |       |
+| **Pleural thickening**                      | Uncommon  | upmedic: 🔝 |  SmartReporting working 2024-01-26     |
 | **Pleural mass**                            | Uncommon  |          |       |
 | **Pleural parenchymal opacities**           |Uncommon  |          |       |
 ***
@@ -74,11 +74,11 @@
 
 ### Cardiac
 
-| **Finding Name**                           | Frequency | Priority | Status |
-|--------------------------------------------|-----------|----------|--------|
-| **Coronary artery calcifications**                | Common    |          | [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139) |
-| **Cardiomegaly/chamber sizes**              | Common    |          |   ✅ upmedic  (2024-01-22)    |
-| **Left ventricular hypertrophy**           | Uncommon  |          |        |
+| **Finding Name**                            | Frequency | Priority | Status |
+|---------------------------------------------|-----------|----------|--------|
+| **Coronary artery calcifications**          | Common    | upmedic: 🔝 | [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139) |
+| **Cardiomegaly/chamber sizes**              | Common    | upmedic: 🔝 |   ✅ upmedic  (2024-01-22)    |
+| **Left ventricular hypertrophy**            | Uncommon  |          |        |
 | **Right heart strain**                      | Uncommon  |          |        |
 | **Mitral annular calcification**            |Common    |          |        |
 | **Subendocardial fatty metaplasia**         |Uncommon  |          |        |
@@ -120,7 +120,7 @@
 
 | **Finding Name**                      | Frequency | Priority | Status |
 |---------------------------------------|-----------|----------|--------|
-| **Enlarged lymph nodes (mediastinal, hilar)** | Common    |          |        |
+| **Enlarged lymph nodes (mediastinal, hilar)** | Common    |  upmedic: 🔝 |        |
 | **Mass or Cyst** | | |
 | **Scarring** | | |
 | **Fluid collection** | | |
@@ -133,9 +133,9 @@
 
 | **Finding Name**                      | Frequency | Priority | Status |
 |---------------------------------------|-----------|----------|--------|
-| **Enlarged thyroid lobe**             | Uncommon  |          | 🚧 upmedic 2024-01-22 |
+| **Enlarged thyroid lobe**             | Uncommon  | upmedic: 🔝 | 🚧 upmedic 2024-01-22 |
 | **Low-attenuation thyroid nodule**    | Uncommon  |          |        |
-| **Thyroid nodules**                   | Common    |          |        |
+| **Thyroid nodules**                   | Common    | upmedic: 🔝 |        |
 | **Thyroid gland atrophy**             | Rare      |          |        |
 | **Heterogeneous thyroid gland**       |Rare      |          |        |
 | **Multinodular thyroid gland**        |Common    |          |        |
@@ -148,7 +148,7 @@
 
 | **Finding Name**                          | Frequency | Priority | Status |
 |-------------------------------------------|-----------|----------|--------|
-| **Degenerative changes in the thoracic skeleton** | Common |    | ✅ upmedic 2024-01-31  |
+| **Degenerative changes in the thoracic skeleton** | Common | upmedic: 🔝 | ✅ upmedic 2024-01-31  |
 | **Lytic lesions**                         | Uncommon  |          |        |
 | **Blastic lesions**                       | Uncommon  |          |        |
 | **Rib fracture**                          | Uncommon  |          | [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)       |
@@ -179,11 +179,11 @@
 
 | **Finding Name**                         | Frequency | Priority | Status |
 |------------------------------------------|-----------|----------|--------|
-| **Hiatal hernia**                        | Common    |          |        |
+| **Hiatal hernia**                        | Common    | upmedic: 🔝 |        |
 | **Hepatic cysts**                        | Uncommon  |          |        |
 | **Pancreatic cysts**                     | Rare      |          | [RDES207: Pancreatic Cyst on CT](https://radelement.org/home/sets/set/RDES207)|
 | **Renal cysts**                          | Uncommon  |          |        |
-| **Gastrohepatic lymph nodes**            | Rare      |          |        |
+| **Gastrohepatic lymph nodes**            | Rare      | upmedic: 🔝 |        |
 | **Adrenal nodules**                      | Uncommon  |          | [RDES3: Adrenal Nodule](https://radelement.org/home/sets/set/RDES3)|
 | **Splenic granulomata**                  | Rare      |          |        |
 | **Gallbladder abnormality**              |     Uncommon  |          |        |
