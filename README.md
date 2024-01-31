@@ -1,7 +1,7 @@
 # CDEStaging
 
 > **Lead Ahead by Leap Day**: A multi-vendor project to generate a near-complete set of CDE Sets to represent the findings in chest CT reports.<br/>
-> See the [ChestCtFindings.md](ChestCTFindings.md) file for information on targeted findings.<br/>
+> See the [Chest_CT_Findings.md](Chest_CT_Findings.md) file for information on targeted findings.<br/>
 > Contact @talkasab for info in interested in participating. 
 
 This is a staging area for definitions of radiology common data elements (CDEs) in JSON format (see [radelement.org](https://www.radelement.org) for more information on the joint ACR/RSNA CDE project) prior to their entering the review pipeline.
