@@ -37,6 +37,8 @@
 | **PFO closure device** |  |  |  |  |
 | **Left atrial appendage closure device** | clip; Watchman plug |  |  |  |
 | **Neurostimulator device** |  |  |  |  |
+| **CardioMEMs device** |  |  |  |  |
+| **LINX device** |  |  |  |  |
 
 ## Chest wall (soft tissue)
 
