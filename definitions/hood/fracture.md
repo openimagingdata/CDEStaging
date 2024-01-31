@@ -22,24 +22,25 @@
   - Left
   - Right
   - Bilateral
-- **Anatomical descriptors**
-  - **see below**
+- **Anatomical descriptor**
 - **Bone location**
   - Epiphysis
   - Metaphysis
   - Metadiaphysis
   - Diaphysis
+    - Synonym: shaft
 - **Displacement**
   - Nondisplaced
   - Minimally displaced
   - Displaced
     - Descriptors: [x] shaft-width
+    - Select **anatomical descriptor** for displacement of distal fragment
 - **Angulation**
 - **Intra-articular**
   - Yes / No
 
 
-## Anatomical descriptors:
+## Anatomical descriptors
 
 - anterior
   - anteromedial
@@ -61,6 +62,8 @@
   - inferolateral
 - ventral
 - dorsal
+- radial
+- ulnar
 - proximal
 - middle
 - distal

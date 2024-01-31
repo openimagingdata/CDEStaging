@@ -65,39 +65,6 @@ These findings may be present anywhere; consider a generic template for these:
 - soft tissue lesion
 - fluid collection / hematoma
 
-**Common location descriptors:**
-
-- anterior
-  - anteromedial
-  - anterolateral
-  - anterosuperior
-  - anteroinferior
-- posterior
-  - posteromedial
-  - posterolateral
-  - posterosuperior
-  - posteroinferior
-- medial
-- lateral
-- superior
-  - superomedial
-  - superolateral
-- inferior
-  - inferomedial
-  - inferolateral
-- ventral
-- dorsal
-- proximal
-- middle
-- distal
-- superficial
-- deep
-- cranial
-- caudal
-- rostral
-
-
-
 ## Musculoskeletal
 
 | **Finding Name**                          | Frequency | Priority | Status |
