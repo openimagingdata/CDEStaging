@@ -148,7 +148,7 @@
 
 | **Finding Name**                          | Frequency | Priority | Status |
 |-------------------------------------------|-----------|----------|--------|
-| **Degenerative changes in the thoracic skeleton** | Common |    | 🚧 upmedic 2024-01-22  |
+| **Degenerative changes in the thoracic skeleton** | Common |    | ✅ upmedic 2024-01-31  |
 | **Lytic lesions**                         | Uncommon  |          |        |
 | **Blastic lesions**                       | Uncommon  |          |        |
 | **Rib fracture**                          | Uncommon  |          | [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)       |
