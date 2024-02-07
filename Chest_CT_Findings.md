@@ -406,7 +406,7 @@
 |---------------------------------------|-----------|----------|--------|
 | **Enlarged thyroid lobe**             | Uncommon  | upmedic: 🔝 | ✅ upmedic 2024-02-07 |
 | **Low-attenuation thyroid nodule**    | Uncommon  |          |        |
-| **Thyroid nodules**                   | Common    | upmedic: 🔝 |        |
+| **Thyroid nodules**                   | Common    | upmedic: 🔝 | ✅ upmedic 2024-02-07 |
 | **Thyroid gland atrophy**             | Rare      |          |        |
 | **Heterogeneous thyroid gland**       |Rare      |          |        |
 | **Multinodular thyroid gland**        |Common    |          |        |
