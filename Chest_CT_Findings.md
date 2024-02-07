@@ -404,7 +404,7 @@
 
 | **Finding Name**                      | Frequency | Priority | Status |
 |---------------------------------------|-----------|----------|--------|
-| **Enlarged thyroid lobe**             | Uncommon  | upmedic: 🔝 | 🚧 upmedic 2024-01-22 |
+| **Enlarged thyroid lobe**             | Uncommon  | upmedic: 🔝 | ✅ upmedic 2024-02-07 |
 | **Low-attenuation thyroid nodule**    | Uncommon  |          |        |
 | **Thyroid nodules**                   | Common    | upmedic: 🔝 |        |
 | **Thyroid gland atrophy**             | Rare      |          |        |
@@ -482,17 +482,17 @@
 
 | **Finding Name**                                        | Frequency | Priority | Status |
 |---------------------------------------------------------|-----------|----------|--------|
-| **Peripherally Inserted Central Catheter (PICC) Line**  | Common    |          |  🚧 upmedic 2024-01-22      |
-| **Central Venous Catheters**                            | Common    |          |  🚧 upmedic 2024-01-22      |
-| **Esophageal Tubes (feeding tube, esophageal stent)**   | Uncommon  |          |  🚧 upmedic 2024-01-22      |
-| **Endotracheal Tubes**                                  | Common    |          |  🚧 upmedic 2024-01-22      |
-| **Chest Ports (for chemotherapy, etc.)**                | Common    |          |  🚧 upmedic 2024-01-22      |
-| **Tracheostomy Tubes**                                  | Uncommon  |          |        |
-| **Nasogastric Tubes**                                   | Common    |          |        |
-| **Pulmonary Artery Catheters (Swan-Ganz catheter)**     | Uncommon  |          |        |
-| **Hemodialysis Catheters**                              | Uncommon  |          |        |
-| **Pleural Drains**                                      | Common    |          |        |
-| **Gastrostomy Tubes**                                   | Uncommon  |          |        |
+| **Peripherally Inserted Central Catheter (PICC) Line**  | Common    |          |  ✅ upmedic 2024-02-06      |
+| **Central Venous Catheters**                            | Common    |          |  ✅ upmedic 2024-02-06      |
+| **Esophageal Tubes (feeding tube, esophageal stent)**   | Uncommon  |          |  ✅ upmedic 2024-02-06      |
+| **Endotracheal Tubes**                                  | Common    |          |  ✅ upmedic 2024-02-06      |
+| **Chest Ports (for chemotherapy, etc.)**                | Common    |          |  ✅ upmedic 2024-02-06      |
+| **Tracheostomy Tubes**                                  | Uncommon  |          |  ✅ upmedic 2024-02-06      |
+| **Nasogastric Tubes**                                   | Common    |          |  ✅ upmedic 2024-02-06      |
+| **Pulmonary Artery Catheters (Swan-Ganz catheter)**     | Uncommon  |          |  🚧 upmedic 2024-02-06      |
+| **Hemodialysis Catheters**                              | Uncommon  |          |  ✅ upmedic 2024-02-06      |
+| **Pleural Drains**                                      | Common    |          |  🚧 upmedic 2024-02-06      |
+| **Gastrostomy Tubes**                                   | Uncommon  |          |  ✅ upmedic 2024-02-06      |
 
 ## Devices
 
