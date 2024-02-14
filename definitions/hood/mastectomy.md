@@ -1,0 +1,31 @@
+Mastectomy / breast implant
+
+- Mastectomy
+  - Right
+  - Left
+  - Bilateral
+- Lumpectomy
+  - Right
+  - Left
+  - Bilateral
+- Implant presence
+  - Right
+  - Left breast
+  - Bilateral
+- Implant location
+  - Preglandular
+  - Subpectoral
+- Implant material
+  - Saline
+  - Silicone
+- Postoperative changes
+  - Postsurgical changes
+    - Synonym: Scarring
+  - Flap reconstruction
+  - Calcifications
+  - Fat necrosis
+  - Surgical clips
+  - Axillary surgical clips
+    - Synonym: lymph node dissection
+    - Synonym: axillary dissection / axillary nodal dissection
+  - // potential observations that would deserve commentary should be excluded from this schema, like skin thickening, seroma, osseous lesions, soft tissue nodularity

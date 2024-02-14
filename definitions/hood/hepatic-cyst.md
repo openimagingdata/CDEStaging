@@ -1,0 +1,26 @@
+Hepatic cyst
+
+- Multiplicity
+  - Single
+  - Multiple
+- Location
+  - Hepatic (unspecified)
+    - Synonym: "liver"
+  - Left hepatic lobe
+  - Right hepatic lobe
+  - Hepatic segment 1
+  - Hepatic segment 2
+  - Hepatic segment 3
+  - Hepatic segment 4a
+  - Hepatic segment 4b
+  - Hepatic segment 5
+  - Hepatic segment 6
+  - Hepatic segment 7
+  - Hepatic segment 8
+- Size (cm)
+  - // If size given, report only the largest cyst?
+- Stability
+  - Unchanged
+    - Synonym: "stable"
+  - Increased
+  - Decreased
