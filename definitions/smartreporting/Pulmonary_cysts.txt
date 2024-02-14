@@ -1,0 +1,95 @@
+CDE Set: Pulmonary Cysts
+
+CDE: Lobe
+	- Right upper lobe
+	- Right middle lobe
+	- Right lower lobe
+	- Left upper lobe
+	- Left lower lobe
+
+CDE: Segment
+		- Right Apical segment (B1)
+		- Right Posterior segment (B2)
+		- Right Anterior segment (B3)
+		- Right Lateral segment (B4)
+		- Right Medial segment (B5)
+		- Right Superior segment (B6)
+		- Right Medial segment (B7)
+		- Right Anterior segment (B8)
+		- Right Lateral segment (B9)
+		- Right Posterior segment (B10)
+		- Left Apicoposterior segment (B1/2)
+		- Left Anterior segment (B3)
+		- Left Superior lingular segment (B4)
+		- Left Inferior lingular segment (B5)
+		- Left Superior segment (B6)
+		- Left Anteromedial segment (B7/8)
+		- Left Lateral segment (B9)
+		- Left Posterior segment (B10)
+
+CDE: Maximum diameter [mm]
+CDE: Mean diameter [mm]
+CDE: Cystic component mean diameter [mm]
+CDE: Volume [mm³]
+CDE: Number of cysts
+CDE: Series/image number
+
+CDE: Extent
+	- Focal
+	- Multifocal
+	- Segmental
+	- Lobar
+	- Bilateral
+	- Other
+
+CDE: Shape
+	- Round
+	- Oval
+	- Irregular
+
+CDE: Walls
+	- Thin walls
+	- Thick walls
+	- Asymetric wall thickness
+	- Uniform wall thickness
+
+CDE: Wall thickness [mm]
+
+CDE: Locularity
+	- Unilocular
+	- Multilocular
+
+CDE: Borders
+	- Smooth borders
+	- Lobulated borders
+	- Irregular borders
+
+CDE: Nodularity
+	- Solid
+	- Part-solid
+	- Ground-glass
+
+CDE: Internal Characteristics
+	- Septations 
+	- Calcifications 
+	- Solid components 
+
+CDE: Evolution
+	- New
+	- Stable
+	- Decreased in size
+	- Growing
+
+CDE: Etiology
+	- Congenital
+	- Acquired
+
+CDE: Differential diagnosis
+	- Bleb
+	- Bulla
+	- Honeycombing
+	- Pneumatocele
+	- Pulmonary cavity
+	- Emphysema
+	- Cystic bronchiectasis
+	- Lung cancer

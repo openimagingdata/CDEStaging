@@ -1,0 +1,56 @@
+CDE Set: Pleural Thickening
+
+CDE: Location
+	- Right pleura
+	- Left pleura
+	- Bilateral pleura
+
+
+CDE: Thickness
+	- Maximum thickness [mm]
+
+CDE: Appearance
+	- Smooth
+	- Irregular
+	- Nodular
+	- Plaque-like
+
+CDE: Degree of enhancement
+		- Mild
+		- Moderate
+		- Intense
+
+CDE: Pattern of enhancement
+		- Focal
+			- Apical 
+			- Biapical 
+			- Nodular
+		- Diffuse
+			- Mesothelioma-specific diffuse pleural thickening
+
+CDE: Associated Findings
+	- Effusion
+	- Minimal
+	- Moderate
+	- Massive
+	- Atelectasis
+	- Pneumothorax
+	- Pleural nodularity
+	- Pleural calcifications
+	- Mediastinal lymphadenopathy
+
+CDE: Differential Diagnoses
+	- Benign asbestos-related pleural disease
+	- Pleural infection (empyema)
+	- Tuberculosis
+	- Pleural metastases
+	- Malignant pleural mesothelioma
+	- Pleural effusion
+	- Collagen vascular diseases
+
+CDE: Clinical Correlation
+	- Patient symptoms
+	- Occupational history
+	- Exposure to asbestos or other toxins
+	- Previous thoracic surgeries or interventions
+

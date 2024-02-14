@@ -123,6 +123,8 @@
 
 ## Pericardium
 
+[Pericardial effusion (Hood)](definitions/hood/pericardial-effusion.md)
+
 | **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
 |---|---|---|---|---|
 | **Pericardial effusion** | Includes pericardial recesses |  |  |  |
@@ -163,6 +165,8 @@
 
 ## Aorta
 
+- [Aortic measurements (Hood)](definitions/hood/aortic-measurements.md)
+
 | **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
 |---|---|---|---|---|
 | **Aortic atherosclerosis** | calcified and noncalcified |  |  |  |
@@ -184,6 +188,8 @@
 
 ## Pleura
 
+- [Pleural effusion](definitions/hood/pleural-effusion.md)
+
 | **Finding Name** | Notes / Descriptors | Status | Citation | RadElement |
 |---|---|---|---|---|
 | **Pleural effusion** |  |  |  | [RDES254: Pleural Effusion](https://radelement.org/home/sets/set/RDES254) |
@@ -193,15 +199,18 @@
 
 ## Lungs
 
-// Most complex section. General thought process here is to organize by observable findings, rather than by the spectrum of findings expected for a certain disease process. This approach will allow in future iterations to build up combinations of findings to create automatic differential diagnoses.
+> Most complex section. General thought process here is to organize by observable findings, rather than by the spectrum of findings expected for a certain disease process. This approach will allow in future iterations to build up combinations of findings to create automatic differential diagnoses.
 
-// Certain disease processes do often get a shortcut in the findings (e.g., shorthanding to saying "emphysema" or "granulomatous disease" in the findings rather than describing their individual features), so these examples should be represented in the schema.
+> Certain disease processes do often get a shortcut in the findings (e.g., shorthanding to saying "emphysema" or "granulomatous disease" in the findings rather than describing their individual features), so these examples should be represented in the schema.
 
-// Adapted from Fleischner reporting guidelines.
+> Adapted from Fleischner reporting guidelines.
 
-// Can create multiple instances of "observations" that include any of the following categories:
+> Can create multiple instances of "observations" that include any of the categories.
 
-#### Airspace
+- [Consolidation (SmartReporting)](definitions/smartreporting/consolidation.txt)
+- [Pulmonary Cyst (SmartReporting)](definitions/smartreporting/Pulmonary_cysts.txt)
+
+### Airspace
 
 - Distribution
   - Central (peribronchial) vs. peripheral (subpleural)
@@ -216,7 +225,7 @@
 - Air trapping
 - Volume loss
 
-#### Reticulations
+### Reticulations
 
 - Distribution
   - Upper/apical vs. lower/basilar
@@ -236,7 +245,7 @@
   - "Nonspecific" // I see this in reports commonly ("nonspecific interstitial fibrosis")
 - Architectural distortion
 
-#### Nodules
+### Nodules
 
 - Size
   - Miliary nodule (\< 2 mm)
@@ -269,7 +278,7 @@
     - Branching
     - Tree-in-bud
 
-#### Cysts
+### Cysts
 
 - Size
   - Bleb
@@ -297,7 +306,7 @@
 
 <!--- Emphysema source from Fleischner Society: [https://pubs.rsna.org/doi/abs/10.1148/radiol.2015141579](https://pubs.rsna.org/doi/abs/10.1148/radiol.2015141579) ![](RackMultipart20240116-1-sjpdm1_html_7df01d9355c8e28d.png) --->
 
-#### Additional findings
+### Additional findings
 
 - Congenital variants
   - Pulmonary sequestration
@@ -416,6 +425,9 @@
 ***
 
 ## Musculoskeletal
+
+[Bones and thoracic cage (Hood)](definitions/hood/bones-and-thoracic-cage.md)
+[Fracture (Hood)](definitions/hood/fracture.md)
 
 | **Finding Name**                          | Frequency | Priority | Status |
 |-------------------------------------------|-----------|----------|--------|
