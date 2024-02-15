@@ -1,0 +1,10 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "*.cde.json"
+            ],
+            "url": "https://raw.githubusercontent.com/RSNA/ACR-RSNA-CDEs/master/cde.schema.json"
+        }
+    ]
+}
