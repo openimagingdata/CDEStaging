@@ -18,16 +18,16 @@
 - Pulmonary artery catheter (Swann-Ganz)
 - Peripherally inserted central catheter (PICC)
   -  🚧 upmedic 2024-01-22
-- Endotracheal tube
+- [Endotracheal tube](Definitions/upmedic/EndotrachealTube.cde.md)
   -  🚧 upmedic 2024-01-22
 - Tracheostomy tube
 - Gastrostomy tube
-- Gastric tube
+- [Gastric tube](definitions/upmedic/EsophagealGastricTube.cde.md)
   - Nasogastric/orogastric, "esophageal tube
 
 ## Devices
 
-- AICD / ICD / pacemaker ⭐  
+- [AICD / ICD / pacemaker](Definitions/hood/pacemaker-aicd.md)⭐  
   - Transvenous; subcutaneous  
   - Complete (Hood)  
 - Loop recorder  
@@ -50,7 +50,7 @@
 
 ## Chest wall (soft tissue)
 
- Mastectomy ⭐ 
+ [Mastectomy](Definitions/hood/mastectomy.md) ⭐ 
   - Includes flap reconstruction, postsurgical change  
 - Breast implants  
 - Breast mass  
@@ -120,7 +120,7 @@
 - Hiatal hernia ⭐ 
   - Frequency: Common  
   - Priority: upmedic: 🔝  
-- Hepatic cysts ⭐ 
+- [Hepatic cysts](Definitions/hood/hepatic-cyst.md) ⭐ 
   - Frequency: Uncommon  
 - Pancreatic cysts ⭐ 
   - Frequency: Rare  
@@ -174,7 +174,7 @@
 
   ## Musculoskeletal (Old version)
 
-- Degenerative changes in the thoracic skeleton ⭐ 
+- [Degenerative changes in the thoracic skeleton](Definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md) ⭐ 
   - Frequency: Common  
   - Priority: upmedic: 🔝  
   - Status: ✅ upmedic 2024-01-31  
@@ -182,7 +182,7 @@
   - Frequency: Uncommon  
 - Blastic lesions ⭐
   - Frequency: Uncommon  
-- Rib fracture ⭐
+- [Rib fracture](Definitions/hood/bones-and-thoracic-cage.md) ⭐
   - Frequency: Uncommon  
   - Priority:  
   - Status: [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
@@ -192,7 +192,7 @@
   - Frequency: Uncommon  
 - Chest wall mass ⭐ 
   - Frequency: Rare  
-- Scoliosis ⭐ 
+- [Scoliosis](Definitions/upmedic/ThoracicSpine.cdes.md) ⭐ 
   - Frequency: Rare  
   - Status: [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
 - Cervical Rib  
@@ -203,7 +203,7 @@
   - Status: [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
 - Osteopenic bone ⭐ 
   - Frequency: Common  
-- Healed rib fracture  
+- [Healed rib fracture](Definitions/hood/healed-rib-fracture.md)  
   - Frequency: Common  
 - Prominent Schmorl's node deformity  
   - Frequency: Rare  
@@ -221,7 +221,7 @@
   - Frequency: Common  
 - Spinal stenosis  
   - Frequency: Common  
-- Rib fracture  
+- [Rib fracture](Definitions/hood/fracture.md)  
   - Frequency: Common  
 - Shoulder arthritis ⭐ 
   - Frequency: Common  
@@ -281,7 +281,7 @@
 ## Pericardium
 
 
-- Pericardial effusion ⭐ 
+- [Pericardial effusion](Definitions/hood/pericardial-effusion.md) ⭐ 
   - Includes pericardial recesses  
 - Pericardial calcification ⭐  
 - Pericardial thickening ⭐ 
@@ -291,7 +291,7 @@
 
 ## Cardiac
 
-- Cardiac chamber enlargement ⭐ 
+- [Cardiac chamber enlargement](Definitions/upmedic/Cardiomegaly.cde.md) ⭐ 
   - All four chambers included  
   - ✅ upmedic  (2024-01-22)  
 - Left ventricular hypertrophy  
@@ -301,7 +301,7 @@
   - All four chambers; left atrial appendage; catheter-associated  
 - Right heart strain  
   - Septal bowing; RV:LV ratio; contrast reflux  
-- Coronary artery calcification ⭐ 
+- [Coronary artery calcification](Definitions/nuance/coronary_calcifications.txt)⭐ 
   - [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139)  
 - Coronary artery bypass graft (CABG) ⭐  
 - Changes after myocardial infarction  
@@ -329,7 +329,7 @@
 
 - Aortic atherosclerosis ⭐ 
   - Calcified and noncalcified  
-- Aortic aneurysm ⭐ 
+- [Aortic aneurysm](Definitions/hood/aortic-measurements.md) ⭐ 
   - Size-based; includes ectasia / dilation  
   - [RDES264: Aortic Measurements](https://radelement.org/home/sets/set/RDES264)  
 - Aortic dissection  
@@ -357,12 +357,12 @@
 
 ## Pleura
 
-- Pleural effusion ⭐
+- [Pleural effusion](Definitions/hood/pleural-effusion.md)⭐
   - [RDES254: Pleural Effusion](https://radelement.org/home/sets/set/RDES254)  
-- Pleural thickening ⭐ 
+- [Pleural thickening](Definitions/smartreporting/PleuralThickening.txt) ⭐ 
   - Fatty deposition; calcified plaques; s/p talc pleurodesis  
 - Pleural nodularity ⭐ 
-  - Includes mass, metastases  
+  - [Includes mass, metastases](Definitions/upmedic/PulmonaryMetastases.cde.md)  
 - Pneumothorax ⭐ 
   - Includes hydro/hemo-pneumothorax, residual pleural space s/p lobectomy, trapped lung  
   - [RDES44: Pneumothorax](https://radelement.org/home/sets/set/RDES44)  
@@ -374,7 +374,7 @@
 
 - Granulomas ⭐ 
   - Uncommon  
-- Pulmonary nodules (solitary, multiple) ⭐ 
+- [Pulmonary nodules (solitary, multiple)](Definitions/upmedic/NodularPattern.cde.md) ⭐ 
   - Common  
   - [RDES195: Pulmonary Nodule](https://radelement.org/home/sets/set/RDES195)  
   - [RDES208: Fleischner](https://radelement.org/home/sets/set/RDES208)  
@@ -382,7 +382,7 @@
 - Pulmonary metastases  
   - Rare  
   - ✅ upmedic (2024–01–22)  
-- Pulmonary Consolidation ⭐ 
+- [Pulmonary Consolidation](Definitions/smartreporting/consolidation.txt)⭐ 
   - Uncommon  
   - SmartReporting working 2024–01–03  
 - Pulmonary edema ⭐
@@ -392,10 +392,10 @@
 - Nodular opacities  
   - Uncommon  
   - ✅ upmedic (2024–01–22)  
-- Air trapping ⭐  
+- [Air trapping](Definitions/upmedic/AirTrapping.cde.md) ⭐  
   - Uncommon  
   - ✅ upmedic (2024–01–22)  
-- Honeycombing ⭐
+- [Honeycombing](Definitions/nuance/fibrotic_changes_honeycombing.txt) ⭐
   - Rare  
 - Pleuroparenchymal fibroelastosis  
   - Rare  
@@ -410,7 +410,7 @@
   - Uncommon  
   - upmedic: 🔝  
   - Nuance/MS working 2024–01–03  
-- Pulmonary cysts ⭐ 
+- [Pulmonary cysts](Definitions/smartreporting/Pulmonary_cysts.txt) ⭐ 
   - Uncommon  
   - SmartReporting working 2024-01-26  
 - Pulmonary congenital variants  
