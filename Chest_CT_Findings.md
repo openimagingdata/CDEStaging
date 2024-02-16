@@ -1,7 +1,7 @@
 # Chest CT Findings List
 
 ## Lines / Tubes
-         
+
 - Chest tube
   - Includes pleural drain
 - Percutaneous drainage catheter
@@ -10,16 +10,16 @@
 - Ventricular shunt catheter
   - Ventriculoperitoneal, ventriculoatrial, ventriculopleural
 - Tunneled port catheter
-  -  🚧 upmedic 2024-01-22
+  - 🚧 upmedic 2024-01-22
 - Tunneled central venous catheter (CVC)
-  -  🚧 upmedic 2024-01-22
+  - 🚧 upmedic 2024-01-22
 - Non-tunneled central venous catheter (CVC)
-  -  🚧 upmedic 2024-01-22
+  - 🚧 upmedic 2024-01-22
 - Pulmonary artery catheter (Swann-Ganz)
 - Peripherally inserted central catheter (PICC)
-  -  🚧 upmedic 2024-01-22
+  - 🚧 upmedic 2024-01-22
 - [Endotracheal tube](Definitions/upmedic/EndotrachealTube.cde.md)
-  -  🚧 upmedic 2024-01-22
+  - 🚧 upmedic 2024-01-22
 - Tracheostomy tube
 - Gastrostomy tube
 - [Gastric tube](definitions/upmedic/EsophagealGastricTube.cde.md)
@@ -27,7 +27,7 @@
 
 ## Devices
 
-- [AICD / ICD / pacemaker](Definitions/hood/pacemaker-aicd.md)⭐  
+- ⭐ [AICD / ICD / pacemaker](Definitions/hood/pacemaker-aicd.md)
   - Transvenous; subcutaneous  
   - Complete (Hood)  
 - Loop recorder  
@@ -41,16 +41,16 @@
 - Arterial stent  
   - Non-coronary  
 - Coronary stent  
-- Replaced valve ⭐ 
+- ⭐ Replaced valv
   - Aortic, mitral, tricuspid, pulmonary  
 - PFO closure device  
 - Left atrial appendage closure device  
   - Clip; Watchman plug  
-- Neurostimulator device 
+- Neurostimulator device
 
 ## Chest wall (soft tissue)
 
- [Mastectomy](Definitions/hood/mastectomy.md) ⭐ 
+- ⭐ [Mastectomy](Definitions/hood/mastectomy.md)
   - Includes flap reconstruction, postsurgical change  
 - Breast implants  
 - Breast mass  
@@ -69,9 +69,9 @@
 
 ## Thyroid
 
-- Thyromegaly ⭐ 
+- ⭐ Thyromegaly
   - 🚧 upmedic 2024-01-22  
-- Thyroid nodule ⭐ 
+- ⭐ Thyroid nodule
   - Model after TI-RADS  
 - Thyroid calcification  
 - Thyroidectomy  
@@ -80,8 +80,7 @@
   - Relation to other structures  
     - Extent into superior mediastinum  
     - Mass effect on trachea  
-- Thyroid atrophy ⭐ 
-
+- ⭐ Thyroid atrophy
 
 ## Trachea
 
@@ -99,9 +98,9 @@
 
 ## Esophagus
 
-- Esophageal wall thickening  
-- Esophageal dilation  
-  - Patulous esophagus  
+- ⭐ Esophageal wall thickening  
+- ⭐ Esophageal dilation  
+  - Synonym: "Patulous esophagus"  
 - Esophageal fluid  
   - Fluid/reflux to the level of [x]  
 - Esophageal diverticulum  
@@ -115,49 +114,49 @@
 - Esophagectomy  
   - Gastric pull-through  
 
-  ## Abdominal (Old version)
+## Abdominal (Old version)
 
-- Hiatal hernia ⭐ 
+- ⭐ Hiatal hernia
   - Frequency: Common  
   - Priority: upmedic: 🔝  
-- [Hepatic cysts](Definitions/hood/hepatic-cyst.md) ⭐ 
+- ⭐ [Hepatic cysts](Definitions/hood/hepatic-cyst.md)
   - Frequency: Uncommon  
-- Pancreatic cysts ⭐ 
+- ⭐ Pancreatic cysts
   - Frequency: Rare  
   - Citation: [RDES207: Pancreatic Cyst on CT](https://radelement.org/home/sets/set/RDES207)  
-- Renal cysts ⭐ 
+- ⭐ Renal cysts
   - Frequency: Uncommon  
 - Gastrohepatic lymph nodes  
   - Frequency: Rare  
   - Priority: upmedic: 🔝  
-- Adrenal nodules ⭐ 
+- ⭐ Adrenal nodules
   - Frequency: Uncommon  
   - Citation: [RDES3: Adrenal Nodule](https://radelement.org/home/sets/set/RDES3)  
-- Splenic granulomata ⭐ 
+- ⭐ Splenic granulomata
   - Frequency: Rare  
 - Gallbladder abnormality  
   - Frequency: Uncommon  
-- Upper abdominal lymphadenopathy ⭐ 
+- ⭐ Upper abdominal lymphadenopathy
   - Frequency: Uncommon  
-- Adrenal gland thickening ⭐ 
+- ⭐ Adrenal gland thickening
   - Frequency: Uncommon  
-- Esophageal thickening ⭐ 
+- ⭐ Esophageal thickening
   - Frequency: Uncommon  
-- Hepatic steatosis ⭐ 
+- ⭐ Hepatic steatosis
   - Frequency: Common  
 - Colonic diverticulosis  
   - Frequency: Common  
-- Pneumobilia ⭐ 
+- ⭐ Pneumobilia
   - Frequency: Uncommon  
-- Patullus esophagus ⭐ 
+- ⭐ Patullus esophagus
   - Frequency: Uncommon  
 - Narrowing esophagus  
   - Frequency: Uncommon  
 - Free pelvic fluid  
   - Frequency: Common  
-- Liver hemangioma ⭐ 
+- ⭐ Liver hemangioma
   - Frequency: Common  
-- Kidney stone ⭐ 
+- ⭐ Kidney stone
   - Frequency: Common  
 - Kidney atrophy  
   - Frequency: Uncommon  
@@ -172,36 +171,36 @@
 - Adrenal gland thickening  
   - Frequency: Rare  
 
-  ## Musculoskeletal (Old version)
+## Musculoskeletal (Old version)
 
-- [Degenerative changes in the thoracic skeleton](Definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md) ⭐ 
+- ⭐ [Degenerative changes in the thoracic skeleton](Definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
   - Frequency: Common  
   - Priority: upmedic: 🔝  
   - Status: ✅ upmedic 2024-01-31  
-- Lytic lesions ⭐
+- ⭐ Lytic lesions
   - Frequency: Uncommon  
-- Blastic lesions ⭐
+- ⭐ Blastic lesions
   - Frequency: Uncommon  
-- [Rib fracture](Definitions/hood/bones-and-thoracic-cage.md) ⭐
+- ⭐ [Rib fracture](Definitions/hood/bones-and-thoracic-cage.md)
   - Frequency: Uncommon  
   - Priority:  
   - Status: [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
-- Sternal fracture ⭐ 
+- ⭐ Sternal fracture
   - Frequency: Rare  
 - Costochondral junction abnormalities  
   - Frequency: Uncommon  
-- Chest wall mass ⭐ 
+- ⭐ Chest wall mass
   - Frequency: Rare  
-- [Scoliosis](Definitions/upmedic/ThoracicSpine.cdes.md) ⭐ 
+- ⭐ [Scoliosis](Definitions/upmedic/ThoracicSpine.cdes.md)
   - Frequency: Rare  
   - Status: [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
 - Cervical Rib  
   - Frequency: Uncommon  
   - Status: [RDES101: Cervical Rib](https://radelement.org/home/sets/set/RDES101)  
-- Vertebral compression fracture ⭐ 
+- ⭐ Vertebral compression fracture
   - Frequency: Uncommon  
   - Status: [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
-- Osteopenic bone ⭐ 
+- ⭐ Osteopenic bone
   - Frequency: Common  
 - [Healed rib fracture](Definitions/hood/healed-rib-fracture.md)  
   - Frequency: Common  
@@ -217,13 +216,13 @@
   - Frequency: Common  
 - Thoracic Kyphosis  
   - Frequency: Common  
-- Hemangioma of thoracic spine ⭐ 
+- ⭐ Hemangioma of thoracic spine
   - Frequency: Common  
 - Spinal stenosis  
   - Frequency: Common  
 - [Rib fracture](Definitions/hood/fracture.md)  
   - Frequency: Common  
-- Shoulder arthritis ⭐ 
+- ⭐ Shoulder arthritis
   - Frequency: Common  
 - Vertebral body hemangioma  
   - Frequency: Common  
@@ -232,11 +231,9 @@
 - Fusion of ribs  
   - Frequency: Rare  
 
-
-
 ## Bronchi
 
-- Bronchiectasis ⭐ 
+- ⭐ Bronchiectasis
   - Cylindrical, varicose, cystic, traction  
 - Bronchiolectasis  
   - Traction  
@@ -253,17 +250,16 @@
   - Tracheal bronchus  
   - Bronchogenic cyst  
 
-
 ## Mediastinum
 
-- Mediastinal mass ⭐ 
-- Mediastinal cyst ⭐
+- ⭐ Mediastinal mass
+- ⭐ Mediastinal cyst
   - Thymic, pericardial, duplication, neuroenteric  
-- Mediastinal fluid collection ⭐  
+- ⭐ Mediastinal fluid collection
   - i.e. seroma, hematoma, abscess  
-- Mediastinal fat stranding ⭐ 
+- ⭐ Mediastinal fat stranding
   - Post-surgical, post-traumatic, fibrosis, mediastinitis  
-- Residual thymus ⭐  
+- ⭐ Residual thymus
   - Separate from mediastinal mass  
 - Bochdalek hernia  
 - Morgagni hernia  
@@ -271,43 +267,41 @@
   - Sliding-type  
   - Paraesophageal  
   - Intrathoracic gastric herniation  
-- Pneumomediastinum ⭐  
-- Lymph nodes ⭐  
+- ⭐ Pneumomediastinum
+- ⭐ Lymph nodes
   - Standard thoracic lymph node stations  
   - Nonregional stations including internal mammary, intercostal, anterior/middle diaphragmatic  
     - [AJR citation](https://ajronline.org/doi/full/10.2214/AJR.11.7446)  
 
+### Pericardium
 
-## Pericardium
-
-
-- [Pericardial effusion](Definitions/hood/pericardial-effusion.md) ⭐ 
+- ⭐ [Pericardial effusion](Definitions/hood/pericardial-effusion.md)
   - Includes pericardial recesses  
-- Pericardial calcification ⭐  
-- Pericardial thickening ⭐ 
+- ⭐ Pericardial calcification
+- ⭐ Pericardial thickening
 - Pericardial cyst  
   - Overlap with 'mediastinal cyst'  
 - Pericardial mass  
 
-## Cardiac
+### Cardiac
 
-- [Cardiac chamber enlargement](Definitions/upmedic/Cardiomegaly.cde.md) ⭐ 
+- ⭐ [Cardiac chamber enlargement](Definitions/upmedic/Cardiomegaly.cde.md)
   - All four chambers included  
   - ✅ upmedic  (2024-01-22)  
 - Left ventricular hypertrophy  
 - Valvular calcifications  
-- Annular calcifications ⭐ 
+- ⭐ Annular calcifications
 - Thrombus  
   - All four chambers; left atrial appendage; catheter-associated  
 - Right heart strain  
   - Septal bowing; RV:LV ratio; contrast reflux  
-- [Coronary artery calcification](Definitions/nuance/coronary_calcifications.txt)⭐ 
+- ⭐ [Coronary artery calcification](Definitions/nuance/coronary_calcifications.txt
   - [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139)  
-- Coronary artery bypass graft (CABG) ⭐  
+- ⭐ Coronary artery bypass graft (CABG)
 - Changes after myocardial infarction  
   - Subendocardial fat; LV remodeling/aneurysm; papillary muscle calcification  
 - Lipomatous atrial septal hypertrophy (LASH)  
-- Cardiac transplant ⭐
+- ⭐ Cardiac transplant
 
 #### Congenital variants
 
@@ -324,12 +318,11 @@
   - Tetralogy of Fallot; transposition of great arteries; Ebstein anomaly; hypoplastic left heart; truncus arteriosus  
   - Includes Fontan, patch closure, aortopulmonary shunt, pulmonary banding, etc.  
 
+### Aorta
 
-## Aorta
-
-- Aortic atherosclerosis ⭐ 
+- ⭐ Aortic atherosclerosis
   - Calcified and noncalcified  
-- [Aortic aneurysm](Definitions/hood/aortic-measurements.md) ⭐ 
+- ⭐ [Aortic aneurysm](Definitions/hood/aortic-measurements.md)
   - Size-based; includes ectasia / dilation  
   - [RDES264: Aortic Measurements](https://radelement.org/home/sets/set/RDES264)  
 - Aortic dissection  
@@ -339,42 +332,37 @@
 - Aortic post-surgical changes  
   - // solicit cardiothoracic radiologist input for how to organize!  
 
-
-## Pulmonary artery
+### Pulmonary artery
 
 - Pulmonary artery dilation  
-  - > 3.2 cm  
-- Pulmonary embolus ⭐ 
+  - \> 3.2 cm  
+- ⭐ Pulmonary embolus
   - Acute; chronic; acute on chronic  
   - [RDES80: Pulmonary Embolism](https://radelement.org/home/sets/set/RDES80)  
 - Pulmonary thrombus  
-  - E.g. s/p lobectomy, radiation ⭐ 
+  ⭐ - E.g. s/p lobectomy, radiation
 - Patent ductus arteriosus  
 - Calcified ligamentum arteriosum  
 - Variant pulmonary artery anatomy  
   - Vascular sling  
 
-
 ## Pleura
 
-- [Pleural effusion](Definitions/hood/pleural-effusion.md)⭐
+- ⭐ [Pleural effusion](Definitions/hood/pleural-effusion.md)
   - [RDES254: Pleural Effusion](https://radelement.org/home/sets/set/RDES254)  
-- [Pleural thickening](Definitions/smartreporting/PleuralThickening.txt) ⭐ 
+- ⭐ [Pleural thickening](Definitions/smartreporting/PleuralThickening.txt)
   - Fatty deposition; calcified plaques; s/p talc pleurodesis  
-- Pleural nodularity ⭐ 
+- ⭐ Pleural nodularity
   - [Includes mass, metastases](Definitions/upmedic/PulmonaryMetastases.cde.md)  
-- Pneumothorax ⭐ 
+- ⭐ Pneumothorax
   - Includes hydro/hemo-pneumothorax, residual pleural space s/p lobectomy, trapped lung  
   - [RDES44: Pneumothorax](https://radelement.org/home/sets/set/RDES44)  
 
-
-
-
 ## Previous pulmonary findings list (Old version)
 
-- Granulomas ⭐ 
+- ⭐ Granulomas
   - Uncommon  
-- [Pulmonary nodules (solitary, multiple)](Definitions/upmedic/NodularPattern.cde.md) ⭐ 
+- ⭐ [Pulmonary nodules (solitary, multiple)](Definitions/upmedic/NodularPattern.cde.md)
   - Common  
   - [RDES195: Pulmonary Nodule](https://radelement.org/home/sets/set/RDES195)  
   - [RDES208: Fleischner](https://radelement.org/home/sets/set/RDES208)  
@@ -382,20 +370,20 @@
 - Pulmonary metastases  
   - Rare  
   - ✅ upmedic (2024–01–22)  
-- [Pulmonary Consolidation](Definitions/smartreporting/consolidation.txt)⭐ 
+- ⭐ [Pulmonary Consolidation](Definitions/smartreporting/consolidation.txt
   - Uncommon  
   - SmartReporting working 2024–01–03  
-- Pulmonary edema ⭐
+- ⭐ Pulmonary edema
   - Common  
 - Focal subpleural linear opacities  
   - Uncommon  
 - Nodular opacities  
   - Uncommon  
   - ✅ upmedic (2024–01–22)  
-- [Air trapping](Definitions/upmedic/AirTrapping.cde.md) ⭐  
+- ⭐ [Air trapping](Definitions/upmedic/AirTrapping.cde.md)
   - Uncommon  
   - ✅ upmedic (2024–01–22)  
-- [Honeycombing](Definitions/nuance/fibrotic_changes_honeycombing.txt) ⭐
+- ⭐ [Honeycombing](Definitions/nuance/fibrotic_changes_honeycombing.txt)
   - Rare  
 - Pleuroparenchymal fibroelastosis  
   - Rare  
@@ -403,16 +391,15 @@
   - Uncommon  
 - Asbestos-related lung disease  
   - Rare  
-- Reticular opacities ⭐ 
+- ⭐ Reticular opacities
   - Uncommon  
   - upmedic: 🔝  
 - Pulmonary fibrosis  
   - Uncommon  
   - upmedic: 🔝  
   - Nuance/MS working 2024–01–03  
-- [Pulmonary cysts](Definitions/smartreporting/Pulmonary_cysts.txt) ⭐ 
+- ⭐ [Pulmonary cysts](Definitions/smartreporting/Pulmonary_cysts.txt)
   - Uncommon  
   - SmartReporting working 2024-01-26  
 - Pulmonary congenital variants  
-  - Uncommon  
-
+  - Uncommon
