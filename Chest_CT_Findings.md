@@ -63,7 +63,7 @@
 - Lipoma  
 - Fluid collection  
   - Seroma; abscess; hematoma  
-- Lymphangioma  
+- [Lymphangioma](Definitions/upmedic/LymphangiticCarcinomatosis.cde.md)
 - Neurogenic tumor  
   - Neurofibroma; schwannoma  
 
@@ -200,7 +200,7 @@
 - ⭐ Vertebral compression fracture
   - Frequency: Uncommon  
   - Status: [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
-- ⭐ Osteopenic bone
+- ⭐ [Osteopenic bone](Definitions/hood/degenerative-changes.md)
   - Frequency: Common  
 - [Healed rib fracture](Definitions/hood/healed-rib-fracture.md)  
   - Frequency: Common  
