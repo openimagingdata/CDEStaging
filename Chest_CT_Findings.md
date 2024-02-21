@@ -148,10 +148,6 @@
   - Frequency: Common  
 - ⭐ Pneumobilia
   - Frequency: Uncommon  
-- ⭐ Patullus esophagus
-  - Frequency: Uncommon  
-- Narrowing esophagus  
-  - Frequency: Uncommon  
 - Free pelvic fluid  
   - Frequency: Common  
 - ⭐ Liver hemangioma
@@ -160,16 +156,11 @@
   - Frequency: Common  
 - Kidney atrophy  
   - Frequency: Uncommon  
-- Renal osteodystrophy  
-  - Frequency: Uncommon  
 - Intraductal papillary mucinous neoplasm  
   - Frequency: Rare  
-- Cortical kidney hypodensities  
-  - Frequency: Uncommmon  
 - Splenic artery aneurysm  
   - Frequency: Uncommon  
-- Adrenal gland thickening  
-  - Frequency: Rare  
+
 
 ## Musculoskeletal (Old version)
 
@@ -233,7 +224,7 @@
 
 ## Bronchi
 
-- ⭐ Bronchiectasis
+- ⭐ [Bronchiectasis](definitions\hood\bronchiectasis.md)
   - Cylindrical, varicose, cystic, traction  
 - Bronchiolectasis  
   - Traction  
