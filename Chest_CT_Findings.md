@@ -18,7 +18,7 @@
 - Pulmonary artery catheter (Swann-Ganz)
 - Peripherally inserted central catheter (PICC)
   - 🚧 upmedic 2024-01-22
-- [Endotracheal tube](Definitions/upmedic/EndotrachealTube.cde.md)
+- [Endotracheal tube](definitions/upmedic/EndotrachealTube.cde.md)
   - 🚧 upmedic 2024-01-22
 - Tracheostomy tube
 - Gastrostomy tube
@@ -27,7 +27,7 @@
 
 ## Devices
 
-- ⭐ [AICD / ICD / pacemaker](Definitions/hood/pacemaker-aicd.md)
+- ⭐ [AICD / ICD / pacemaker](definitions/hood/pacemaker-aicd.md)
   - Transvenous; subcutaneous  
   - Complete (Hood)  
 - Loop recorder  
@@ -41,7 +41,7 @@
 - Arterial stent  
   - Non-coronary  
 - Coronary stent  
-- ⭐ Replaced valv
+- ⭐ [Replaced valve](definitions\hood\replaced-cardiac-valve.md)
   - Aortic, mitral, tricuspid, pulmonary  
 - PFO closure device  
 - Left atrial appendage closure device  
@@ -50,7 +50,7 @@
 
 ## Chest wall (soft tissue)
 
-- ⭐ [Mastectomy](Definitions/hood/mastectomy.md)
+- ⭐ [Mastectomy](definitions/hood/mastectomy.md)
   - Includes flap reconstruction, postsurgical change  
 - Breast implants  
 - Breast mass  
@@ -98,8 +98,8 @@
 
 ## Esophagus
 
-- ⭐ Esophageal wall thickening  
-- ⭐ Esophageal dilation  
+- ⭐ Esophageal wall thickening
+- ⭐ [Esophageal dilation](definitions/hood/esophageal-dilation.md)
   - Synonym: "Patulous esophagus"  
 - Esophageal fluid  
   - Fluid/reflux to the level of [x]  
@@ -119,7 +119,7 @@
 - ⭐ Hiatal hernia
   - Frequency: Common  
   - Priority: upmedic: 🔝  
-- ⭐ [Hepatic cysts](Definitions/hood/hepatic-cyst.md)
+- ⭐ [Hepatic cysts](definitions/hood/hepatic-cyst.md)
   - Frequency: Uncommon  
 - ⭐ Pancreatic cysts
   - Frequency: Rare  
@@ -173,7 +173,7 @@
 
 ## Musculoskeletal (Old version)
 
-- ⭐ [Degenerative changes in the thoracic skeleton](Definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
+- ⭐ [Degenerative changes in the thoracic skeleton](definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
   - Frequency: Common  
   - Priority: upmedic: 🔝  
   - Status: ✅ upmedic 2024-01-31  
@@ -181,7 +181,7 @@
   - Frequency: Uncommon  
 - ⭐ Blastic lesions
   - Frequency: Uncommon  
-- ⭐ [Rib fracture](Definitions/hood/bones-and-thoracic-cage.md)
+- ⭐ [Rib fracture](definitions/hood/bones-and-thoracic-cage.md)
   - Frequency: Uncommon  
   - Priority:  
   - Status: [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
@@ -191,7 +191,7 @@
   - Frequency: Uncommon  
 - ⭐ Chest wall mass
   - Frequency: Rare  
-- ⭐ [Scoliosis](Definitions/upmedic/ThoracicSpine.cdes.md)
+- ⭐ [Scoliosis](definitions/upmedic/ThoracicSpine.cdes.md)
   - Frequency: Rare  
   - Status: [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
 - Cervical Rib  
@@ -202,7 +202,7 @@
   - Status: [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
 - ⭐ Osteopenic bone
   - Frequency: Common  
-- [Healed rib fracture](Definitions/hood/healed-rib-fracture.md)  
+- [Healed rib fracture](definitions/hood/healed-rib-fracture.md)  
   - Frequency: Common  
 - Prominent Schmorl's node deformity  
   - Frequency: Rare  
@@ -220,7 +220,7 @@
   - Frequency: Common  
 - Spinal stenosis  
   - Frequency: Common  
-- [Rib fracture](Definitions/hood/fracture.md)  
+- [Rib fracture](definitions/hood/fracture.md)  
   - Frequency: Common  
 - ⭐ Shoulder arthritis
   - Frequency: Common  
@@ -275,17 +275,17 @@
 
 ### Pericardium
 
-- ⭐ [Pericardial effusion](Definitions/hood/pericardial-effusion.md)
+- ⭐ [Pericardial effusion](definitions/hood/pericardial-effusion.md)
   - Includes pericardial recesses  
-- ⭐ Pericardial calcification
-- ⭐ Pericardial thickening
+- ⭐ [Pericardial calcification](definitions/hood/pericardial-effusion.md)
+- ⭐ [Pericardial thickening](definitions/hood/pericardial-effusion.md)
 - Pericardial cyst  
   - Overlap with 'mediastinal cyst'  
 - Pericardial mass  
 
 ### Cardiac
 
-- ⭐ [Cardiac chamber enlargement](Definitions/upmedic/Cardiomegaly.cde.md)
+- ⭐ [Cardiac chamber enlargement](definitions/upmedic/Cardiomegaly.cde.md)
   - All four chambers included  
   - ✅ upmedic  (2024-01-22)  
 - Left ventricular hypertrophy  
@@ -295,7 +295,7 @@
   - All four chambers; left atrial appendage; catheter-associated  
 - Right heart strain  
   - Septal bowing; RV:LV ratio; contrast reflux  
-- ⭐ [Coronary artery calcification](Definitions/nuance/coronary_calcifications.txt
+- ⭐ [Coronary artery calcification](definitions/nuance/coronary_calcifications.txt
   - [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139)  
 - ⭐ Coronary artery bypass graft (CABG)
 - Changes after myocardial infarction  
