@@ -1,0 +1,57 @@
+{
+    "_id": "653b0955fdb92c1a0bf6997b",
+    "name": "pericardial calcifications",
+    "description": "A condition characterized by abnormal deposits of calcium in the pericardium, the sac-like structure around the heart. Usually a result of injury to the heart or pericardium and can lead to constrictive pericarditis.",
+    "attributes": [
+        {
+            "name": "presence",
+            "description": "Presence of pericardial calcifications",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "present",
+                    "description": "Pericardial calcifications present"
+                },
+                {
+                    "name": "absent",
+                    "description": "Pericardial calcifications absent"
+                }
+            ],
+            "required": false
+        }
+    ],
+    "examples": [
+        {
+            "report_text": "Pericardial calcifications noted along with moderate amount of coronary calcifications. Small pericardial effusion present.",
+            "observation": {
+                "finding_name": "pericardial_calcifications",
+                "attributes": [
+                    {
+                        "attribute": "presence",
+                        "value": "present"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "left atrial enlargement. No significant pericardial effusion. Severe amount of coronary calcifications. Aortic valvular calcifications. Punctate calcifications associated with the papillary muscles. Small hiatal hernia. Calcified atheromatous",
+            "observation": null
+        },
+        {
+            "report_text": "Mediastinum: Heart size and pericardium are normal. Moderate amount of coronary calcifications. Moderate thoracic and abdominal aortic calcification. No thyroid nodules.",
+            "observation": null
+        },
+        {
+            "report_text": "Heart and pericardium are within normal limits with pericardial calcifications. No pericardial effusion. Mild coronary artery calcifications.",
+            "observation": {
+                "finding_name": "pericardial_calcifications",
+                "attributes": [
+                    {
+                        "attribute": "presence",
+                        "value": "present"
+                    }
+                ]
+            }
+        }
+    ]
+}

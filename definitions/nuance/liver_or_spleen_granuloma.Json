@@ -1,0 +1,88 @@
+{
+    "_id": "65428e5e4dce57a1316a6709",
+    "name": "liver or spleen granuloma",
+    "description": "A small area of inflammation due to tissue injury, most often caused by an infection, in the liver or spleen",
+    "attributes": [
+        {
+            "name": "location",
+            "description": "The location of the granuloma within the organ",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "liver",
+                    "description": "Granuloma located in the liver"
+                },
+                {
+                    "name": "spleen",
+                    "description": "Granuloma located in the spleen"
+                },
+                {
+                    "name": "right hepatic lobe",
+                    "description": "Granuloma located in the right lobe of the liver"
+                },
+                {
+                    "name": "hepatic dome",
+                    "description": "Granuloma located in the dome of the liver"
+                },
+                {
+                    "name": "upper pole of the spleen",
+                    "description": "Granuloma located in the upper pole of the spleen"
+                }
+            ],
+            "required": false
+        },
+        {
+            "name": "characteristics",
+            "description": "The characteristics of the granuloma",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "calcified",
+                    "description": "The granuloma has become hardened due to the deposition of calcium salts"
+                },
+                {
+                    "name": "unchanged",
+                    "description": "The granuloma has not changed in size or appearance since the last examination"
+                },
+                {
+                    "name": "small",
+                    "description": "The granuloma is small in size"
+                },
+                {
+                    "name": "scattered",
+                    "description": "The granulomas are spread out within the organ"
+                },
+                {
+                    "name": "multiple",
+                    "description": "There are multiple granulomas present within the organ"
+                }
+            ],
+            "required": false
+        },
+        {
+            "name": "size",
+            "description": "The size of the granuloma",
+            "type": "numeric",
+            "minimum": 0,
+            "maximum": 100,
+            "required": false
+        },
+        {
+            "name": "disease",
+            "description": "The underlying disease process that caused the granuloma",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "prior granulomatous disease",
+                    "description": "The granuloma is a sequela of a prior granulomatous disease"
+                },
+                {
+                    "name": "postinflammatory",
+                    "description": "The granuloma is a result of a previous inflammatory process"
+                }
+            ],
+            "required": false
+        }
+    ],
+    "examples": null
+}

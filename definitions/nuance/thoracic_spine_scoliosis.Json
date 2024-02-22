@@ -1,0 +1,72 @@
+{
+    "_id": "655a67fac3fa753db984bb15",
+    "name": "thoracic spine scoliosis",
+    "description": "A medical condition in which a person's spine has a sideways curve",
+    "attributes": [
+        {
+            "name": "shape",
+            "description": "The form of the scoliotic curvature",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "S-shaped",
+                    "description": "Scoliotic curvature forms an 'S' shape"
+                },
+                {
+                    "name": "dextroconvex",
+                    "description": "Scoliotic curvature convex to the right"
+                },
+                {
+                    "name": "levoconvex",
+                    "description": "Scoliotic curvature convex to the left"
+                }
+            ],
+            "required": false
+        },
+        {
+            "name": "associated conditions",
+            "description": "Other conditions associated with the thoracic spine scoliosis",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "degenerative changes",
+                    "description": "Changes in the spine due to wear and tear, aging"
+                },
+                {
+                    "name": "osteopenia",
+                    "description": "Lower than normal bone density"
+                },
+                {
+                    "name": "osteoporotic compression deformities",
+                    "description": "Deformities due to compression fractures from osteoporosis"
+                },
+                {
+                    "name": "endplate changes",
+                    "description": "Changes in the endplate of the spinal vertebra"
+                },
+                {
+                    "name": "kyphosis",
+                    "description": "Curvature of the spine causing a hump"
+                },
+                {
+                    "name": "discogenic degenerative disease",
+                    "description": "Degenerative disc disease"
+                },
+                {
+                    "name": "idiopathic skeletal hyperostosis",
+                    "description": "Abnormal calcification of ligaments and tendons at the point of their attachment to bone"
+                },
+                {
+                    "name": "anterior wedging",
+                    "description": "Vertebrae are wedged in anterior part"
+                },
+                {
+                    "name": "compression deformity",
+                    "description": "Deformity due to compression fracture"
+                }
+            ],
+            "required": false
+        }
+    ],
+    "examples": null
+}

@@ -1,0 +1,80 @@
+{
+    "_id": "65932d8c33bbe02d72eea1c4",
+    "name": "calcified pleural plaques",
+    "description": "Calcified formations that develop on the pleura, often due to asbestos exposure",
+    "attributes": [
+        {
+            "name": "calcification",
+            "description": "The presence or degree of calcification in the pleural plaques",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "calcified",
+                    "description": "The pleural plaques are calcified"
+                },
+                {
+                    "name": "partially calcified",
+                    "description": "The pleural plaques are partially calcified"
+                },
+                {
+                    "name": "noncalcified",
+                    "description": "The pleural plaques are not calcified"
+                }
+            ],
+            "required": false
+        },
+        {
+            "name": "location",
+            "description": "The anatomical region of the calcified pleural plaques",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "bilateral",
+                    "description": "The pleural plaques are present on both sides"
+                },
+                {
+                    "name": "right",
+                    "description": "The pleural plaques are present on the right side"
+                },
+                {
+                    "name": "left",
+                    "description": "The pleural plaques are present on the left side"
+                }
+            ],
+            "required": false
+        },
+        {
+            "name": "quantity",
+            "description": "The number of calcified pleural plaques found",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "multiple",
+                    "description": "There are several pleural plaques"
+                },
+                {
+                    "name": "scattered",
+                    "description": "The plaques are dispersed in no particular pattern"
+                }
+            ],
+            "required": false
+        },
+        {
+            "name": "change",
+            "description": "The change in the calcified pleural plaques over time",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "unchanged",
+                    "description": "There has been no change in the plaques"
+                },
+                {
+                    "name": "redemonstration",
+                    "description": "The plaques have been shown again, suggesting no change"
+                }
+            ],
+            "required": false
+        }
+    ],
+    "examples": null
+}

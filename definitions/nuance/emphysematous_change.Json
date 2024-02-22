@@ -1,0 +1,157 @@
+{
+    "_id": "655a6408d2df6d5d7489c372",
+    "name": "emphysematous change",
+    "description": "A pathological change in the lung tissue caused by emphysema, characterized by the enlargement of air spaces distal to the terminal bronchioles and destruction of alveolar walls",
+    "attributes": [
+        {
+            "name": "severity",
+            "description": "The extent or seriousness of the emphysematous change",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "mild",
+                    "description": "Small in extent or seriousness"
+                },
+                {
+                    "name": "moderate",
+                    "description": "Neither mild nor severe"
+                },
+                {
+                    "name": "severe",
+                    "description": "Of a great or serious extent or degree"
+                }
+            ],
+            "required": false
+        },
+        {
+            "name": "type",
+            "description": "The specific pattern of emphysematous change",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "centrilobular",
+                    "description": "Involving the central part of the lobule, typically associated with smoking"
+                },
+                {
+                    "name": "paraseptal",
+                    "description": "Involving the outer parts of the lobule, near the pleura"
+                },
+                {
+                    "name": "panlobular",
+                    "description": "Involving the entire lobule, typically seen in alpha-1 antitrypsin deficiency"
+                },
+                {
+                    "name": "centrilobular and paraseptal",
+                    "description": "Combined features of centrilobular and paraseptal emphysema"
+                }
+            ],
+            "required": false
+        },
+        {
+            "name": "location",
+            "description": "The anatomical region of the emphysematous change",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "upper lobes",
+                    "description": "The upper portion of the lungs"
+                },
+                {
+                    "name": "lower lobes",
+                    "description": "The lower portion of the lungs"
+                },
+                {
+                    "name": "bilateral",
+                    "description": "Both the left and right lungs"
+                },
+                {
+                    "name": "right lung",
+                    "description": "The right lung"
+                },
+                {
+                    "name": "left lung",
+                    "description": "The left lung"
+                }
+            ],
+            "required": false
+        }
+    ],
+    "examples": [
+        {
+            "report_text": "Emphysematous lung changes are severe. Persistent extensive mucous plugging within bilateral lower lobe bronchi.",
+            "observation": {
+                "finding_name": "emphysematous_change",
+                "attributes": [
+                    {
+                        "attribute": "severity",
+                        "value": "severe"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "Upper lobes show mild emphysematous change.",
+            "observation": {
+                "finding_name": "emphysematous_change",
+                "attributes": [
+                    {
+                        "attribute": "severity",
+                        "value": "mild"
+                    },
+                    {
+                        "attribute": "location",
+                        "value": "upper lobes"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "Emphysematous changes of centrilobular and paraseptal type are detected. No consolidation present.",
+            "observation": {
+                "finding_name": "emphysematous_change",
+                "attributes": [
+                    {
+                        "attribute": "type",
+                        "value": "centrilobular and paraseptal"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "Centrilobular emphysematous changes observed. Small amount of mucus in the trachea.",
+            "observation": {
+                "finding_name": "emphysematous_change",
+                "attributes": [
+                    {
+                        "attribute": "type",
+                        "value": "centrilobular"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "3.  Stable background of centrilobular and paraseptal emphysematous changes with bronchial wall thickening, mucus plugging, bronchiectasis.",
+            "observation": {
+                "finding_name": "emphysematous_change",
+                "attributes": [
+                    {
+                        "attribute": "type",
+                        "value": "centrilobular and paraseptal"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "There is a relatively avascular areas in keeping with panlobular emphysema.   There is posterior basal segmental right lower lobar bronchiectatic change, not significantly changed.   No consolidation. The airways are clear.",
+            "observation": {
+                "finding_name": "emphysematous_change",
+                "attributes": [
+                    {
+                        "attribute": "type",
+                        "value": "panlobular"
+                    }
+                ]
+            }
+        }
+    ]
+}

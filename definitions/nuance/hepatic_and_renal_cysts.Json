@@ -1,0 +1,84 @@
+{
+    "_id": "6546a214d70dc759aae8ac34",
+    "name": "hepatic and renal cysts",
+    "description": "Fluid-filled sacs in the liver (hepatic) and kidneys (renal)",
+    "attributes": [
+        {
+            "name": "size",
+            "description": "The size of the cysts in the liver or kidneys",
+            "type": "numeric",
+            "minimum": 0,
+            "maximum": null,
+            "required": false
+        },
+        {
+            "name": "location",
+            "description": "The anatomical region of the cysts in the liver or kidneys",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "right kidney",
+                    "description": "Right kidney"
+                },
+                {
+                    "name": "left kidney",
+                    "description": "Left kidney"
+                },
+                {
+                    "name": "hepatic segment",
+                    "description": "Specific segment of the liver"
+                },
+                {
+                    "name": "right hepatic lobe",
+                    "description": "Right lobe of the liver"
+                },
+                {
+                    "name": "left hepatic lobe",
+                    "description": "Left lobe of the liver"
+                }
+            ],
+            "required": false
+        },
+        {
+            "name": "number",
+            "description": "The number of cysts in the liver or kidneys",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "single",
+                    "description": "Single cyst"
+                },
+                {
+                    "name": "multiple",
+                    "description": "Multiple cysts"
+                }
+            ],
+            "required": false
+        },
+        {
+            "name": "stability",
+            "description": "The change or lack thereof in the size and number of cysts over time",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "stable",
+                    "description": "No significant change"
+                },
+                {
+                    "name": "unchanged",
+                    "description": "No change"
+                },
+                {
+                    "name": "increased",
+                    "description": "Increased in size or number"
+                },
+                {
+                    "name": "decreased",
+                    "description": "Decreased in size or number"
+                }
+            ],
+            "required": false
+        }
+    ],
+    "examples": null
+}

@@ -1,0 +1,349 @@
+{
+    "_id": "6533dfcf5ec16d6f2fdd9652",
+    "name": "healed or chronic rib fracture",
+    "description": "A previously fractured rib that has healed or is in a chronic state",
+    "attributes": [
+        {
+            "name": "multiplicity",
+            "description": "The number of rib fractures",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "single",
+                    "description": "A single rib fracture"
+                },
+                {
+                    "name": "multiple",
+                    "description": "Multiple rib fractures"
+                }
+            ],
+            "required": false
+        },
+        {
+            "name": "side",
+            "description": "The side of the body where the rib fracture is located",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "bilateral",
+                    "description": "Fractures on both sides of the rib cage"
+                },
+                {
+                    "name": "left",
+                    "description": "Fractures of the left-sided ribs"
+                },
+                {
+                    "name": "right",
+                    "description": "Fractures of the right-sided ribs"
+                }
+            ],
+            "required": false
+        },
+        {
+            "name": "level",
+            "description": "The level of the rib fracture, in general or a specific rib",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "1",
+                    "description": "First rib"
+                },
+                {
+                    "name": "2",
+                    "description": "Second rib"
+                },
+                {
+                    "name": "3",
+                    "description": "Third rib"
+                },
+                {
+                    "name": "4",
+                    "description": "Fourth rib"
+                },
+                {
+                    "name": "5",
+                    "description": "Fifth rib"
+                },
+                {
+                    "name": "6",
+                    "description": "Sixth rib"
+                },
+                {
+                    "name": "7",
+                    "description": "Seventh rib"
+                },
+                {
+                    "name": "8",
+                    "description": "Eighth rib"
+                },
+                {
+                    "name": "9",
+                    "description": "Ninth rib"
+                },
+                {
+                    "name": "10",
+                    "description": "Tenth rib"
+                },
+                {
+                    "name": "11",
+                    "description": "Eleventh rib"
+                },
+                {
+                    "name": "12",
+                    "description": "Twelfth rib"
+                },
+                {
+                    "name": "upper",
+                    "description": "Upper ribs"
+                },
+                {
+                    "name": "lower",
+                    "description": "Lower ribs"
+                }
+            ],
+            "required": false
+        },
+        {
+            "name": "location",
+            "description": "The specific location of the rib fracture",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "anterior",
+                    "description": "Fracture is located on the front of the rib cage"
+                },
+                {
+                    "name": "posterior",
+                    "description": "Fracture is located on the back of the rib cage"
+                },
+                {
+                    "name": "lateral",
+                    "description": "Fracture is located on the side of the rib cage"
+                },
+                {
+                    "name": "anterolateral",
+                    "description": "Fracture is located on the front and side of the rib cage"
+                },
+                {
+                    "name": "posterolateral",
+                    "description": "Fracture is located on the back and side of the rib cage"
+                }
+            ],
+            "required": false
+        },
+        {
+            "name": "status",
+            "description": "The current state of the rib fracture",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "healed",
+                    "description": "Fracture has completely healed"
+                },
+                {
+                    "name": "subacute",
+                    "description": "Fracture is in a subacute state, recent but not acute, including healing fractures"
+                },
+                {
+                    "name": "chronic",
+                    "description": "Fracture is old; synonym: remote"
+                }
+            ],
+            "required": false
+        }
+    ],
+    "examples": [
+        {
+            "report_text": "Bones: There is a stable healing fracture of the posterior RIGHT 11th rib. Status-post resection of 7-9th right ribs with mesh reconstruction. No suspicious lytic or blastic lesions.",
+            "observation": {
+                "finding_name": "healed_or_chronic_rib_fracture",
+                "attributes": [
+                    {
+                        "attribute": "multiplicity",
+                        "value": "single"
+                    },
+                    {
+                        "attribute": "side",
+                        "value": "right"
+                    },
+                    {
+                        "attribute": "level",
+                        "value": "11"
+                    },
+                    {
+                        "attribute": "location",
+                        "value": "posterior"
+                    },
+                    {
+                        "attribute": "status",
+                        "value": "healing"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "Bones: There is a healed rib fracture in the right posterior 10th rib. No other acute fracture or dislocation. No suspicious lytic or blastic lesions.",
+            "observation": {
+                "finding_name": "healed_or_chronic_rib_fracture",
+                "attributes": [
+                    {
+                        "attribute": "multiplicity",
+                        "value": "single"
+                    },
+                    {
+                        "attribute": "side",
+                        "value": "right"
+                    },
+                    {
+                        "attribute": "level",
+                        "value": "10"
+                    },
+                    {
+                        "attribute": "location",
+                        "value": "posterior"
+                    },
+                    {
+                        "attribute": "status",
+                        "value": "healed"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "Healed anterior right sixth rib fracture and anterolateral left fifth rib fracture are observed with no acute rib fractures.",
+            "observation": {
+                "finding_name": "healed_or_chronic_rib_fracture",
+                "attributes": [
+                    {
+                        "attribute": "multiplicity",
+                        "value": "multiple"
+                    },
+                    {
+                        "attribute": "side",
+                        "value": "bilateral"
+                    },
+                    {
+                        "attribute": "status",
+                        "value": "healed"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "Healing fracture of the RIGHT seventh rib is observed with mild degenerative changes within the thoracic spine.",
+            "observation": {
+                "finding_name": "healed_or_chronic_rib_fracture",
+                "attributes": [
+                    {
+                        "attribute": "multiplicity",
+                        "value": "single"
+                    },
+                    {
+                        "attribute": "side",
+                        "value": "right"
+                    },
+                    {
+                        "attribute": "level",
+                        "value": "7"
+                    },
+                    {
+                        "attribute": "status",
+                        "value": "healing"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "Multiple remote healed right rib fractures are visible with no suspicious lytic or blastic lesions.",
+            "observation": {
+                "finding_name": "healed_or_chronic_rib_fracture",
+                "attributes": [
+                    {
+                        "attribute": "multiplicity",
+                        "value": "multiple"
+                    },
+                    {
+                        "attribute": "side",
+                        "value": "right"
+                    },
+                    {
+                        "attribute": "status",
+                        "value": "healed"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "Old, healed fracture involving the proximal sternal body and a few subacute/chronic left-sided rib fractures are observed.",
+            "observation": {
+                "finding_name": "healed_or_chronic_rib_fracture",
+                "attributes": [
+                    {
+                        "attribute": "multiplicity",
+                        "value": "multiple"
+                    },
+                    {
+                        "attribute": "side",
+                        "value": "left"
+                    },
+                    {
+                        "attribute": "status",
+                        "value": "healed"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "height loss. Old healed right lower rib fractures. No new osseous destructive lesion.",
+            "observation": {
+                "finding_name": "healed_or_chronic_rib_fracture",
+                "attributes": [
+                    {
+                        "attribute": "multiplicity",
+                        "value": "multiple"
+                    },
+                    {
+                        "attribute": "side",
+                        "value": "right"
+                    },
+                    {
+                        "attribute": "level",
+                        "value": "lower"
+                    },
+                    {
+                        "attribute": "status",
+                        "value": "healed"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "Healed rib fracture in the left posterior 10th rib is observed with mild osteopenia and degenerative changes of the thoracic spine.",
+            "observation": {
+                "finding_name": "healed_or_chronic_rib_fracture",
+                "attributes": [
+                    {
+                        "attribute": "multiplicity",
+                        "value": "single"
+                    },
+                    {
+                        "attribute": "side",
+                        "value": "left"
+                    },
+                    {
+                        "attribute": "level",
+                        "value": "10"
+                    },
+                    {
+                        "attribute": "location",
+                        "value": "posterior"
+                    },
+                    {
+                        "attribute": "status",
+                        "value": "healed"
+                    }
+                ]
+            }
+        }
+    ]
+}

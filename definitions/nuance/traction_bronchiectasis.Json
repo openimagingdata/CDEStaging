@@ -1,0 +1,282 @@
+{
+    "_id": "655a27c8f95487d3266ec297",
+    "name": "traction bronchiectasis",
+    "description": "A respiratory disorder characterized by an abnormal, irreversible dilation of the bronchi, often associated with chronic inflammation or infection. In the case of 'traction bronchiectasis', the dilation is caused by fibrosis pulling the bronchial walls apart.",
+    "attributes": [
+        {
+            "name": "location",
+            "description": "The anatomical region of the traction bronchiectasis",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "right lower lobe",
+                    "description": "Right lower lobe of the lung"
+                },
+                {
+                    "name": "left lower lobe",
+                    "description": "Left lower lobe of the lung"
+                },
+                {
+                    "name": "right upper lobe",
+                    "description": "Right upper lobe of the lung"
+                },
+                {
+                    "name": "left upper lobe",
+                    "description": "Left upper lobe of the lung"
+                },
+                {
+                    "name": "lingula",
+                    "description": "Lingula of the lung, part of the left upper lobe"
+                },
+                {
+                    "name": "right middle lobe",
+                    "description": "Right middle lobe of the lung"
+                },
+                {
+                    "name": "bilateral lungs",
+                    "description": "Both lungs"
+                },
+                {
+                    "name": "lower lungs",
+                    "description": "Lower zones of both lungs; synonym bibasilar"
+                }
+            ],
+            "required": false
+        },
+        {
+            "name": "associated findings",
+            "description": "Other findings identified concurrently with the traction bronchiectasis",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "scarring",
+                    "description": "Scarring in the lung"
+                },
+                {
+                    "name": "atelectasis",
+                    "description": "Collapsed or closed part of the lung; also called volume loss"
+                },
+                {
+                    "name": "consolidation",
+                    "description": "Area of the lung tissue filled with liquid instead of air"
+                }
+            ],
+            "required": false
+        },
+        {
+            "name": "change over time",
+            "description": "Change in the traction bronchiectasis compared to previous imaging",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "unchanged",
+                    "description": "No significant change compared to prior imaging"
+                },
+                {
+                    "name": "improved",
+                    "description": "Improvement compared to prior imaging"
+                },
+                {
+                    "name": "worsened",
+                    "description": "Worsening compared to prior imaging"
+                },
+                {
+                    "name": "new",
+                    "description": "New finding compared to prior imaging"
+                }
+            ],
+            "required": false
+        },
+        {
+            "name": "severity",
+            "description": "The severity of the traction bronchiectasis",
+            "type": "choice",
+            "values": [
+                {
+                    "name": "mild",
+                    "description": "Mild"
+                },
+                {
+                    "name": "moderate",
+                    "description": "Moderate"
+                },
+                {
+                    "name": "severe",
+                    "description": "Severe"
+                }
+            ],
+            "required": false
+        }
+    ],
+    "examples": [
+        {
+            "report_text": "Subpleural reticulation accompanied by distal traction bronchiectasis. No signs of pulmonary embolism.",
+            "observation": {
+                "finding_name": "traction_bronchiectasis",
+                "attributes": []
+            }
+        },
+        {
+            "report_text": "There is a new focus of consolidation causing traction bronchiectasis around a right apical bronchus.",
+            "observation": {
+                "finding_name": "traction_bronchiectasis",
+                "attributes": [
+                    {
+                        "attribute": "location",
+                        "value": "right upper lobe"
+                    },
+                    {
+                        "attribute": "associated_findings",
+                        "value": "consolidation"
+                    },
+                    {
+                        "attribute": "change_over_time",
+                        "value": "new"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "Extensive fibrotic changes noted in both lungs, along with traction bronchiectasis and honeycombing.",
+            "observation": {
+                "finding_name": "traction_bronchiectasis",
+                "attributes": [
+                    {
+                        "attribute": "location",
+                        "value": "bilateral lungs"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "Extensive increase of fibrotic changes with traction bronchiectasis and honeycombing in both lungs.",
+            "observation": {
+                "finding_name": "traction_bronchiectasis",
+                "attributes": [
+                    {
+                        "attribute": "location",
+                        "value": "bilateral lungs"
+                    },
+                    {
+                        "attribute": "change_over_time",
+                        "value": "worsened"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "Traction bronchiectasis visible in the right lower lobe, suggestive of fibrotic changes. No definite honeycombing noted.",
+            "observation": {
+                "finding_name": "traction_bronchiectasis",
+                "attributes": [
+                    {
+                        "attribute": "location",
+                        "value": "right lower lobe"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "Mild traction bronchiectasis in the left lower lobe, possibly indicating early interstitial lung disease.",
+            "observation": {
+                "finding_name": "traction_bronchiectasis",
+                "attributes": [
+                    {
+                        "attribute": "location",
+                        "value": "left lower lobe"
+                    },
+                    {
+                        "attribute": "severity",
+                        "value": "mild"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "wall thickening. Traction bronchiectasis along the nondependent left upper lobe with associated peribronchial reticulation and minimal thickening (4:125), in similar distribution to prior, likely related to scarring from prior infectious or",
+            "observation": {
+                "finding_name": "traction_bronchiectasis",
+                "attributes": [
+                    {
+                        "attribute": "location",
+                        "value": "left upper lobe"
+                    },
+                    {
+                        "attribute": "associated_findings",
+                        "value": "scarring"
+                    },
+                    {
+                        "attribute": "change_over_time",
+                        "value": "unchanged"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "traction bronchiectasis. Associated rounded atelectases the stability right lower lobe mass (series 9 image 415).",
+            "observation": {
+                "finding_name": "traction_bronchiectasis",
+                "attributes": []
+            }
+        },
+        {
+            "report_text": "may be related to early interstitial lung disease. Central airways are patent. Bibasilar traction bronchiectasis.",
+            "observation": {
+                "finding_name": "traction_bronchiectasis",
+                "attributes": [
+                    {
+                        "attribute": "location",
+                        "value": "lower lungs"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "There is a new focus of consolidation causing traction bronchiectasis around a right apical bronchus.",
+            "observation": {
+                "finding_name": "traction_bronchiectasis",
+                "attributes": [
+                    {
+                        "attribute": "location",
+                        "value": "right upper lobe"
+                    },
+                    {
+                        "attribute": "associated_findings",
+                        "value": "consolidation"
+                    },
+                    {
+                        "attribute": "change_over_time",
+                        "value": "new"
+                    }
+                ]
+            }
+        },
+        {
+            "report_text": "subpleural reticulation with areas of distal traction bronchiectasis. The central airways are clear.",
+            "observation": {
+                "finding_name": "traction_bronchiectasis",
+                "attributes": []
+            }
+        },
+        {
+            "report_text": "Significant traction bronchiectasis in the right upper lobe, with associated volume loss. No other abnormalities detected.",
+            "observation": {
+                "finding_name": "traction_bronchiectasis",
+                "attributes": [
+                    {
+                        "attribute": "location",
+                        "value": "right upper lobe"
+                    },
+                    {
+                        "attribute": "associated_findings",
+                        "value": "atelectasis"
+                    },
+                    {
+                        "attribute": "severity",
+                        "value": "severe"
+                    }
+                ]
+            }
+        }
+    ]
+}
