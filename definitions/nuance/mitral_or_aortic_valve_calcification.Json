@@ -1,249 +1,249 @@
 {
-    "_id": "653ad9fd299651393c9d8ee1",
-    "name": "mitral or aortic valve calcification",
-    "description": "The accumulation of calcium salts in the mitral or aortic valve of the heart, which can cause the valve to harden and disrupt the blood flow through the heart.",
-    "attributes": [
+  "_id": "653ad9fd299651393c9d8ee1",
+  "name": "mitral or aortic valve calcification",
+  "description": "The accumulation of calcium salts in the mitral or aortic valve of the heart, which can cause the valve to harden and disrupt the blood flow through the heart.",
+  "attributes": [
+    {
+      "name": "location",
+      "description": "The specific valve where the calcification is located",
+      "type": "choice",
+      "values": [
         {
-            "name": "location",
-            "description": "The specific valve where the calcification is located",
-            "type": "choice",
-            "values": [
-                {
-                    "name": "aortic valve",
-                    "description": "Calcification is located in the aortic valve"
-                },
-                {
-                    "name": "mitral valve",
-                    "description": "Calcification is located in the mitral valve"
-                },
-                {
-                    "name": "aortic and mitral valves",
-                    "description": "Calcification is located in both the aortic and mitral valves"
-                }
-            ],
-            "required": true
+          "name": "aortic valve",
+          "description": "Calcification is located in the aortic valve"
         },
         {
-            "name": "severity",
-            "description": "The severity or extent of the calcification",
-            "type": "choice",
-            "values": [
-                {
-                    "name": "mild",
-                    "description": "The calcification is mild"
-                },
-                {
-                    "name": "moderate",
-                    "description": "The calcification is moderate"
-                },
-                {
-                    "name": "severe",
-                    "description": "The calcification is severe or heavy"
-                }
-            ],
-            "required": false
+          "name": "mitral valve",
+          "description": "Calcification is located in the mitral valve"
         },
         {
-            "name": "associated conditions",
-            "description": "The conditions that are associated with the calcification",
-            "type": "choice",
-            "values": [
-                {
-                    "name": "aortic stenosis",
-                    "description": "The calcification is associated with aortic stenosis"
-                },
-                {
-                    "name": "atherosclerotic changes",
-                    "description": "The calcification is associated with atherosclerotic changes"
-                },
-                {
-                    "name": "post-operativew changes",
-                    "description": "The calcification is associated with post-operative changes"
-                }
-            ],
-            "required": false
+          "name": "aortic and mitral valves",
+          "description": "Calcification is located in both the aortic and mitral valves"
         }
-    ],
-    "examples": [
+      ],
+      "required": true
+    },
+    {
+      "name": "severity",
+      "description": "The severity or extent of the calcification",
+      "type": "choice",
+      "values": [
         {
-            "report_text": "calcification of the thoracic aorta.",
-            "observation": null
+          "name": "mild",
+          "description": "The calcification is mild"
         },
         {
-            "report_text": "Aortic and mitral valve calcification. Severe coronary calcifications present.",
-            "observation": {
-                "finding_name": "mitral_or_aortic_valve_calcification",
-                "attributes": [
-                    {
-                        "attribute": "location",
-                        "value": "aortic and mitral valves"
-                    }
-                ]
-            }
+          "name": "moderate",
+          "description": "The calcification is moderate"
         },
         {
-            "report_text": "Atherosclerotic calcification of the thoracic aorta and great vessels. Calcification of the mitral annulus.",
-            "observation": {
-                "finding_name": "mitral_or_aortic_valve_calcification",
-                "attributes": [
-                    {
-                        "attribute": "location",
-                        "value": "mitral valve"
-                    }
-                ]
-            }
-        },
-        {
-            "report_text": "of the thoracic aorta and its major branches. Severe amount of coronary artery calcifications. Aortic valvular and mitral annular calcifications.",
-            "observation": {
-                "finding_name": "mitral_or_aortic_valve_calcification",
-                "attributes": [
-                    {
-                        "attribute": "location",
-                        "value": "aortic and mitral valves"
-                    }
-                ]
-            }
-        },
-        {
-            "report_text": "Aortic valve and mitral annulus calcification are noticeable. Severe coronary calcifications also noted.",
-            "observation": {
-                "finding_name": "mitral_or_aortic_valve_calcification",
-                "attributes": [
-                    {
-                        "attribute": "location",
-                        "value": "aortic and mitral valves"
-                    }
-                ]
-            }
-        },
-        {
-            "report_text": "Presence of aortic valve calcification, potentially indicating aortic stenosis.",
-            "observation": {
-                "finding_name": "mitral_or_aortic_valve_calcification",
-                "attributes": [
-                    {
-                        "attribute": "location",
-                        "value": "aortic valve"
-                    },
-                    {
-                        "attribute": "associated_conditions",
-                        "value": "aortic stenosis"
-                    }
-                ]
-            }
-        },
-        {
-            "report_text": "Mild calcifications of the ascending aorta and the sinotubular junction. Severe calcifications of the aortic arch and descending aorta. Calcifications of the aortic valve leaflets and mitral annulus.",
-            "observation": {
-                "finding_name": "mitral_or_aortic_valve_calcification",
-                "attributes": [
-                    {
-                        "attribute": "location",
-                        "value": "aortic and mitral valves"
-                    }
-                ]
-            }
-        },
-        {
-            "report_text": "Calcified aortic valve post replacement surgery. Calcification of mitral valve annulus also noted.",
-            "observation": {
-                "finding_name": "mitral_or_aortic_valve_calcification",
-                "attributes": [
-                    {
-                        "attribute": "location",
-                        "value": "aortic valve"
-                    }
-                ]
-            }
-        },
-        {
-            "report_text": "Calcified aortic valve post replacement surgery. Calcification of mitral valve annulus also noted.",
-            "observation": {
-                "finding_name": "mitral_or_aortic_valve_calcification",
-                "attributes": [
-                    {
-                        "attribute": "location",
-                        "value": "aortic and mitral valves"
-                    },
-                    {
-                        "attribute": "associated_conditions",
-                        "value": "post-operative changes"
-                    }
-                ]
-            }
-        },
-        {
-            "report_text": "appropriate. Status post aortic valve replacement and changes of CABG . Calcified mitral valve annulus. Left atrial chamber enlargement. No atrial thrombus. Atherosclerotic changes are seen within the transverse arch of the aorta. Calcification at",
-            "observation": {
-                "finding_name": "mitral_or_aortic_valve_calcification",
-                "attributes": [
-                    {
-                        "attribute": "location",
-                        "value": "mitral valve"
-                    }
-                ]
-            }
-        },
-        {
-            "report_text": "Dense mitral annulus calcification observed post transarterial aortic valve replacement.",
-            "observation": {
-                "finding_name": "mitral_or_aortic_valve_calcification",
-                "attributes": [
-                    {
-                        "attribute": "location",
-                        "value": "aortic and mitral valves"
-                    },
-                    {
-                        "attribute": "associated_conditions",
-                        "value": "post-operative changes"
-                    }
-                ]
-            }
-        },
-        {
-            "report_text": "Significant calcifications of aortic and mitral valves, along with severe coronary calcifications.",
-            "observation": {
-                "finding_name": "mitral_or_aortic_valve_calcification",
-                "attributes": [
-                    {
-                        "attribute": "location",
-                        "value": "aortic and mitral valves"
-                    },
-                    {
-                        "attribute": "severity",
-                        "value": "severe"
-                    }
-                ]
-            }
-        },
-        {
-            "report_text": "Mediastinum: Mild calcifications of the ascending aorta and the sinotubular junction. Severe calcifications of the aortic arch and descending aorta. Cardiomegaly. Calcifications of the aortic valve leaflets and mitral annulus. Severe amount of",
-            "observation": {
-                "finding_name": "mitral_or_aortic_valve_calcification",
-                "attributes": [
-                    {
-                        "attribute": "location",
-                        "value": "aortic and mitral valves"
-                    }
-                ]
-            }
-        },
-        {
-            "report_text": "Moderate amount of coronary calcifications. Aortic valvular calcifications may be seen in aortic stenosis. Scattered atherosclerotic calcifications of the thoracic aorta.",
-            "observation": {
-                "finding_name": "mitral_or_aortic_valve_calcification",
-                "attributes": [
-                    {
-                        "attribute": "location",
-                        "value": "aortic valve"
-                    },
-                    {
-                        "attribute": "associated_conditions",
-                        "value": "aortic stenosis"
-                    }
-                ]
-            }
+          "name": "severe",
+          "description": "The calcification is severe or heavy"
         }
-    ]
+      ],
+      "required": false
+    },
+    {
+      "name": "associated conditions",
+      "description": "The conditions that are associated with the calcification",
+      "type": "choice",
+      "values": [
+        {
+          "name": "aortic stenosis",
+          "description": "The calcification is associated with aortic stenosis"
+        },
+        {
+          "name": "atherosclerotic changes",
+          "description": "The calcification is associated with atherosclerotic changes"
+        },
+        {
+          "name": "post-operativew changes",
+          "description": "The calcification is associated with post-operative changes"
+        }
+      ],
+      "required": false
+    }
+  ],
+  "examples": [
+    {
+      "report_text": "calcification of the thoracic aorta.",
+      "observation": null
+    },
+    {
+      "report_text": "Aortic and mitral valve calcification. Severe coronary calcifications present.",
+      "observation": {
+        "finding_name": "mitral_or_aortic_valve_calcification",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "aortic and mitral valves"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Atherosclerotic calcification of the thoracic aorta and great vessels. Calcification of the mitral annulus.",
+      "observation": {
+        "finding_name": "mitral_or_aortic_valve_calcification",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "mitral valve"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "of the thoracic aorta and its major branches. Severe amount of coronary artery calcifications. Aortic valvular and mitral annular calcifications.",
+      "observation": {
+        "finding_name": "mitral_or_aortic_valve_calcification",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "aortic and mitral valves"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Aortic valve and mitral annulus calcification are noticeable. Severe coronary calcifications also noted.",
+      "observation": {
+        "finding_name": "mitral_or_aortic_valve_calcification",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "aortic and mitral valves"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Presence of aortic valve calcification, potentially indicating aortic stenosis.",
+      "observation": {
+        "finding_name": "mitral_or_aortic_valve_calcification",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "aortic valve"
+          },
+          {
+            "attribute": "associated_conditions",
+            "value": "aortic stenosis"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Mild calcifications of the ascending aorta and the sinotubular junction. Severe calcifications of the aortic arch and descending aorta. Calcifications of the aortic valve leaflets and mitral annulus.",
+      "observation": {
+        "finding_name": "mitral_or_aortic_valve_calcification",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "aortic and mitral valves"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Calcified aortic valve post replacement surgery. Calcification of mitral valve annulus also noted.",
+      "observation": {
+        "finding_name": "mitral_or_aortic_valve_calcification",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "aortic valve"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Calcified aortic valve post replacement surgery. Calcification of mitral valve annulus also noted.",
+      "observation": {
+        "finding_name": "mitral_or_aortic_valve_calcification",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "aortic and mitral valves"
+          },
+          {
+            "attribute": "associated_conditions",
+            "value": "post-operative changes"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "appropriate. Status post aortic valve replacement and changes of CABG . Calcified mitral valve annulus. Left atrial chamber enlargement. No atrial thrombus. Atherosclerotic changes are seen within the transverse arch of the aorta. Calcification at",
+      "observation": {
+        "finding_name": "mitral_or_aortic_valve_calcification",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "mitral valve"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Dense mitral annulus calcification observed post transarterial aortic valve replacement.",
+      "observation": {
+        "finding_name": "mitral_or_aortic_valve_calcification",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "aortic and mitral valves"
+          },
+          {
+            "attribute": "associated_conditions",
+            "value": "post-operative changes"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Significant calcifications of aortic and mitral valves, along with severe coronary calcifications.",
+      "observation": {
+        "finding_name": "mitral_or_aortic_valve_calcification",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "aortic and mitral valves"
+          },
+          {
+            "attribute": "severity",
+            "value": "severe"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Mediastinum: Mild calcifications of the ascending aorta and the sinotubular junction. Severe calcifications of the aortic arch and descending aorta. Cardiomegaly. Calcifications of the aortic valve leaflets and mitral annulus. Severe amount of",
+      "observation": {
+        "finding_name": "mitral_or_aortic_valve_calcification",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "aortic and mitral valves"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Moderate amount of coronary calcifications. Aortic valvular calcifications may be seen in aortic stenosis. Scattered atherosclerotic calcifications of the thoracic aorta.",
+      "observation": {
+        "finding_name": "mitral_or_aortic_valve_calcification",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "aortic valve"
+          },
+          {
+            "attribute": "associated_conditions",
+            "value": "aortic stenosis"
+          }
+        ]
+      }
+    }
+  ]
 }

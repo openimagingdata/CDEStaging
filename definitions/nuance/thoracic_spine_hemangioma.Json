@@ -1,341 +1,341 @@
 {
-    "_id": "655a60d4e449c2ce07ebf474",
-    "name": "thoracic spine hemangioma",
-    "description": "A benign vascular tumor of the spine",
-    "attributes": [
+  "_id": "655a60d4e449c2ce07ebf474",
+  "name": "thoracic spine hemangioma",
+  "description": "A benign vascular tumor of the spine",
+  "attributes": [
+    {
+      "name": "multiplicity",
+      "description": "The number of hemangiomas present",
+      "type": "choice",
+      "values": [
         {
-            "name": "multiplicity",
-            "description": "The number of hemangiomas present",
-            "type": "choice",
-            "values": [
-                {
-                    "name": "single",
-                    "description": "A single hemangioma"
-                },
-                {
-                    "name": "multiple",
-                    "description": "Multiple hemangiomas"
-                }
-            ],
-            "required": false
+          "name": "single",
+          "description": "A single hemangioma"
         },
         {
-            "name": "location",
-            "description": "The vertebral body where the hemangioma is located",
-            "type": "choice",
-            "values": [
-                {
-                    "name": "upper thoracic",
-                    "description": "The upper thoracic vertebrae"
-                },
-                {
-                    "name": "mid thoracic",
-                    "description": "The middle thoracic vertebrae"
-                },
-                {
-                    "name": "lower thoracic",
-                    "description": "The lower thoracic vertebrae"
-                },
-                {
-                    "name": "upper lumbar",
-                    "description": "The upper lumbar vertebrae"
-                },
-                {
-                    "name": "T1",
-                    "description": "The first thoracic vertebra"
-                },
-                {
-                    "name": "T2",
-                    "description": "The second thoracic vertebra"
-                },
-                {
-                    "name": "T3",
-                    "description": "The third thoracic vertebra"
-                },
-                {
-                    "name": "T4",
-                    "description": "The fourth thoracic vertebra"
-                },
-                {
-                    "name": "T5",
-                    "description": "The fifth thoracic vertebra"
-                },
-                {
-                    "name": "T6",
-                    "description": "The sixth thoracic vertebra"
-                },
-                {
-                    "name": "T7",
-                    "description": "The seventh thoracic vertebra"
-                },
-                {
-                    "name": "T8",
-                    "description": "The eighth thoracic vertebra"
-                },
-                {
-                    "name": "T9",
-                    "description": "The ninth thoracic vertebra"
-                },
-                {
-                    "name": "T10",
-                    "description": "The tenth thoracic vertebra"
-                },
-                {
-                    "name": "T11",
-                    "description": "The eleventh thoracic vertebra"
-                },
-                {
-                    "name": "T12",
-                    "description": "The twelfth thoracic vertebra"
-                },
-                {
-                    "name": "L1",
-                    "description": "The first lumbar vertebra"
-                },
-                {
-                    "name": "L2",
-                    "description": "The second lumbar vertebra"
-                },
-                {
-                    "name": "L3",
-                    "description": "The third lumbar vertebra"
-                },
-                {
-                    "name": "L4",
-                    "description": "The fourth lumbar vertebra"
-                }
-            ],
-            "required": false
+          "name": "multiple",
+          "description": "Multiple hemangiomas"
         }
-    ],
-    "examples": [
+      ],
+      "required": false
+    },
+    {
+      "name": "location",
+      "description": "The vertebral body where the hemangioma is located",
+      "type": "choice",
+      "values": [
         {
-            "report_text": "Bones: Hemangiomas likely present in T8 and T11 vertebral bodies. No suspicious lytic or blastic lesions.",
-            "observation": {
-                "finding_name": "spine_hemangioma",
-                "attributes": [
-                    {
-                        "attribute": "multiplicity",
-                        "value": "multiple"
-                    },
-                    {
-                        "attribute": "location",
-                        "value": "lower thoracic"
-                    }
-                ]
-            }
+          "name": "upper thoracic",
+          "description": "The upper thoracic vertebrae"
         },
         {
-            "report_text": "Bones: Scattered thoracic vertebral body hemangiomas remain. No suspicious lytic or blastic lesions.",
-            "observation": {
-                "finding_name": "spine_hemangioma",
-                "attributes": [
-                    {
-                        "attribute": "multiplicity",
-                        "value": "multiple"
-                    }
-                ]
-            }
+          "name": "mid thoracic",
+          "description": "The middle thoracic vertebrae"
         },
         {
-            "report_text": "Bones: No suspicious lytic or blastic lesions. Thoracic spine degenerative changes. T1 there are multilevel thoracic vertebral body hemangiomas.",
-            "observation": {
-                "finding_name": "spine_hemangioma",
-                "attributes": [
-                    {
-                        "attribute": "multiplicity",
-                        "value": "multiple"
-                    }
-                ]
-            }
+          "name": "lower thoracic",
+          "description": "The lower thoracic vertebrae"
         },
         {
-            "report_text": "Bones: Hemangioma in L4 vertebral body. No other osseous lesions. Vertebral body heights remain intact.",
-            "observation": {
-                "finding_name": "spine_hemangioma",
-                "attributes": [
-                    {
-                        "attribute": "multiplicity",
-                        "value": "single"
-                    },
-                    {
-                        "attribute": "location",
-                        "value": "L4"
-                    }
-                ]
-            }
+          "name": "upper lumbar",
+          "description": "The upper lumbar vertebrae"
         },
         {
-            "report_text": "Bones: No suspicious lytic or blastic lesions. Unchanged L1 vertebral body hemangioma. There are degenerative changes of the spine.",
-            "observation": {
-                "finding_name": "spine_hemangioma",
-                "attributes": [
-                    {
-                        "attribute": "multiplicity",
-                        "value": "single"
-                    },
-                    {
-                        "attribute": "location",
-                        "value": "L1"
-                    }
-                ]
-            }
+          "name": "T1",
+          "description": "The first thoracic vertebra"
         },
         {
-            "report_text": "Bones: Scattered vertebral hemangiomas stable. Dextrocurvature of the thoracic spine noted. No suspicious lytic or blastic lesions.",
-            "observation": {
-                "finding_name": "spine_hemangioma",
-                "attributes": [
-                    {
-                        "attribute": "multiplicity",
-                        "value": "multiple"
-                    }
-                ]
-            }
+          "name": "T2",
+          "description": "The second thoracic vertebra"
         },
         {
-            "report_text": "Bones: No suspicious lytic or blastic lesions. Osteopenia. Several thoracic vertebral body hemangiomas. Multilevel degenerative changes of the imaged spine.",
-            "observation": {
-                "finding_name": "spine_hemangioma",
-                "attributes": [
-                    {
-                        "attribute": "multiplicity",
-                        "value": "multiple"
-                    }
-                ]
-            }
+          "name": "T3",
+          "description": "The third thoracic vertebra"
         },
         {
-            "report_text": "Bones: Scattered thoracic vertebral body hemangiomas remain. No suspicious lytic or blastic lesions.",
-            "observation": {
-                "finding_name": "spine_hemangioma",
-                "attributes": [
-                    {
-                        "attribute": "multiplicity",
-                        "value": "multiple"
-                    }
-                ]
-            }
+          "name": "T4",
+          "description": "The fourth thoracic vertebra"
         },
         {
-            "report_text": "Bones: Hemangioma in T11 vertebral body unchanged. No suspicious lytic or blastic lesions detected.",
-            "observation": {
-                "finding_name": "spine_hemangioma",
-                "attributes": [
-                    {
-                        "attribute": "multiplicity",
-                        "value": "single"
-                    },
-                    {
-                        "attribute": "location",
-                        "value": "T11"
-                    }
-                ]
-            }
+          "name": "T5",
+          "description": "The fifth thoracic vertebra"
         },
         {
-            "report_text": "Bones: Redemonstrated hemangioma in L2 vertebral bodies. No suspicious lytic or blastic lesions.",
-            "observation": {
-                "finding_name": "spine_hemangioma",
-                "attributes": [
-                    {
-                        "attribute": "multiplicity",
-                        "value": "single"
-                    },
-                    {
-                        "attribute": "location",
-                        "value": "L2"
-                    }
-                ]
-            }
+          "name": "T6",
+          "description": "The sixth thoracic vertebra"
         },
         {
-            "report_text": "changes of a probable osseous hemangioma within the T6 vertebral body, as before.",
-            "observation": {
-                "finding_name": "spine_hemangioma",
-                "attributes": [
-                    {
-                        "attribute": "location",
-                        "value": "T6"
-                    },
-                    {
-                        "attribute": "multiplicity",
-                        "value": "single"
-                    }
-                ]
-            }
+          "name": "T7",
+          "description": "The seventh thoracic vertebra"
         },
         {
-            "report_text": "Bones: No suspicious lytic or blastic lesions. Osteopenia detected. Hemangiomas in several thoracic vertebral bodies. Multilevel degenerative changes in the spine.",
-            "observation": {
-                "finding_name": "spine_hemangioma",
-                "attributes": [
-                    {
-                        "attribute": "multiplicity",
-                        "value": "multiple"
-                    }
-                ]
-            }
+          "name": "T8",
+          "description": "The eighth thoracic vertebra"
         },
         {
-            "report_text": "Bones: Degenerative changes in the spine observed. Hemangioma in L3 vertebral body. No other osseous lesions found.",
-            "observation": {
-                "finding_name": "spine_hemangioma",
-                "attributes": [
-                    {
-                        "attribute": "location",
-                        "value": "L3"
-                    },
-                    {
-                        "attribute": "associated_findings",
-                        "value": "degenerative changes"
-                    }
-                ]
-            }
+          "name": "T9",
+          "description": "The ninth thoracic vertebra"
         },
         {
-            "report_text": "Bones: Hemangioma identified in T7 vertebral body. No suspicious osseous lesion found.",
-            "observation": {
-                "finding_name": "spine_hemangioma",
-                "attributes": [
-                    {
-                        "attribute": "location",
-                        "value": "T7"
-                    }
-                ]
-            }
+          "name": "T10",
+          "description": "The tenth thoracic vertebra"
         },
         {
-            "report_text": "Bones: No suspicious lytic or blastic lesions. Degenerative changes of the spine. Lucency in T9 and T12 vertebral bodies likely represent hemangiomas.",
-            "observation": {
-                "finding_name": "spine_hemangioma",
-                "attributes": [
-                    {
-                        "attribute": "location",
-                        "value": "T9"
-                    },
-                    {
-                        "attribute": "associated_findings",
-                        "value": "degenerative changes"
-                    }
-                ]
-            }
+          "name": "T11",
+          "description": "The eleventh thoracic vertebra"
         },
         {
-            "report_text": "Bones: No suspicious lytic or blastic lesions. Degenerative changes of the spine. Lucency in T9 and T12 vertebral bodies likely represent hemangiomas.",
-            "observation": {
-                "finding_name": "spine_hemangioma",
-                "attributes": [
-                    {
-                        "attribute": "location",
-                        "value": "lower thoracic"
-                    },
-                    {
-                        "attribute": "multiplicity",
-                        "value": "multiple"
-                    }
-                ]
-            }
+          "name": "T12",
+          "description": "The twelfth thoracic vertebra"
+        },
+        {
+          "name": "L1",
+          "description": "The first lumbar vertebra"
+        },
+        {
+          "name": "L2",
+          "description": "The second lumbar vertebra"
+        },
+        {
+          "name": "L3",
+          "description": "The third lumbar vertebra"
+        },
+        {
+          "name": "L4",
+          "description": "The fourth lumbar vertebra"
         }
-    ]
+      ],
+      "required": false
+    }
+  ],
+  "examples": [
+    {
+      "report_text": "Bones: Hemangiomas likely present in T8 and T11 vertebral bodies. No suspicious lytic or blastic lesions.",
+      "observation": {
+        "finding_name": "spine_hemangioma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "multiple"
+          },
+          {
+            "attribute": "location",
+            "value": "lower thoracic"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Bones: Scattered thoracic vertebral body hemangiomas remain. No suspicious lytic or blastic lesions.",
+      "observation": {
+        "finding_name": "spine_hemangioma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "multiple"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Bones: No suspicious lytic or blastic lesions. Thoracic spine degenerative changes. T1 there are multilevel thoracic vertebral body hemangiomas.",
+      "observation": {
+        "finding_name": "spine_hemangioma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "multiple"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Bones: Hemangioma in L4 vertebral body. No other osseous lesions. Vertebral body heights remain intact.",
+      "observation": {
+        "finding_name": "spine_hemangioma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "single"
+          },
+          {
+            "attribute": "location",
+            "value": "L4"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Bones: No suspicious lytic or blastic lesions. Unchanged L1 vertebral body hemangioma. There are degenerative changes of the spine.",
+      "observation": {
+        "finding_name": "spine_hemangioma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "single"
+          },
+          {
+            "attribute": "location",
+            "value": "L1"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Bones: Scattered vertebral hemangiomas stable. Dextrocurvature of the thoracic spine noted. No suspicious lytic or blastic lesions.",
+      "observation": {
+        "finding_name": "spine_hemangioma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "multiple"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Bones: No suspicious lytic or blastic lesions. Osteopenia. Several thoracic vertebral body hemangiomas. Multilevel degenerative changes of the imaged spine.",
+      "observation": {
+        "finding_name": "spine_hemangioma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "multiple"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Bones: Scattered thoracic vertebral body hemangiomas remain. No suspicious lytic or blastic lesions.",
+      "observation": {
+        "finding_name": "spine_hemangioma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "multiple"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Bones: Hemangioma in T11 vertebral body unchanged. No suspicious lytic or blastic lesions detected.",
+      "observation": {
+        "finding_name": "spine_hemangioma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "single"
+          },
+          {
+            "attribute": "location",
+            "value": "T11"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Bones: Redemonstrated hemangioma in L2 vertebral bodies. No suspicious lytic or blastic lesions.",
+      "observation": {
+        "finding_name": "spine_hemangioma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "single"
+          },
+          {
+            "attribute": "location",
+            "value": "L2"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "changes of a probable osseous hemangioma within the T6 vertebral body, as before.",
+      "observation": {
+        "finding_name": "spine_hemangioma",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "T6"
+          },
+          {
+            "attribute": "multiplicity",
+            "value": "single"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Bones: No suspicious lytic or blastic lesions. Osteopenia detected. Hemangiomas in several thoracic vertebral bodies. Multilevel degenerative changes in the spine.",
+      "observation": {
+        "finding_name": "spine_hemangioma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "multiple"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Bones: Degenerative changes in the spine observed. Hemangioma in L3 vertebral body. No other osseous lesions found.",
+      "observation": {
+        "finding_name": "spine_hemangioma",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "L3"
+          },
+          {
+            "attribute": "associated_findings",
+            "value": "degenerative changes"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Bones: Hemangioma identified in T7 vertebral body. No suspicious osseous lesion found.",
+      "observation": {
+        "finding_name": "spine_hemangioma",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "T7"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Bones: No suspicious lytic or blastic lesions. Degenerative changes of the spine. Lucency in T9 and T12 vertebral bodies likely represent hemangiomas.",
+      "observation": {
+        "finding_name": "spine_hemangioma",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "T9"
+          },
+          {
+            "attribute": "associated_findings",
+            "value": "degenerative changes"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Bones: No suspicious lytic or blastic lesions. Degenerative changes of the spine. Lucency in T9 and T12 vertebral bodies likely represent hemangiomas.",
+      "observation": {
+        "finding_name": "spine_hemangioma",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "lower thoracic"
+          },
+          {
+            "attribute": "multiplicity",
+            "value": "multiple"
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -1,367 +1,367 @@
 [
-    {
-        "_id": "653993fd2f4080dec0124f2d",
-        "name": "post-operative changes in the lung",
-        "description": "Changes in the lung tissues observed after surgical procedures",
-        "attributes": [
-            {
-                "name": "location",
-                "description": "The lung or lobe where the surgery took place",
-                "type": "choice",
-                "values": [
-                    {
-                        "name": "right lung",
-                        "description": "The entire right lung"
-                    },
-                    {
-                        "name": "left lung",
-                        "description": "The entire left lung"
-                    },
-                    {
-                        "name": "right upper lobe",
-                        "description": "Upper lobe of the right lung"
-                    },
-                    {
-                        "name": "right middle lobe",
-                        "description": "Middle lobe of the right lung"
-                    },
-                    {
-                        "name": "right lower lobe",
-                        "description": "Lower lobe of the right lung"
-                    },
-                    {
-                        "name": "left upper lobe",
-                        "description": "Upper lobe of the left lung"
-                    },
-                    {
-                        "name": "left lower lobe",
-                        "description": "Lower lobe of the left lung"
-                    }
-                ],
-                "required": false
-            },
-            {
-                "name": "surgery type",
-                "description": "The type of surgery performed",
-                "type": "choice",
-                "values": [
-                    {
-                        "name": "lobectomy",
-                        "description": "Removal of a lobe of the lung"
-                    },
-                    {
-                        "name": "wedge resection",
-                        "description": "Removal of a small wedge-shaped portion of the lung"
-                    },
-                    {
-                        "name": "segmentectomy",
-                        "description": "Removal of a segment of the lung"
-                    },
-                    {
-                        "name": "pneumonectomy",
-                        "description": "Removal of an entire lung"
-                    },
-                    {
-                        "name": "pleurectomy",
-                        "description": "Removal of the pleura, the membrane that lines the lungs"
-                    },
-                    {
-                        "name": "transplant",
-                        "description": "Replacement of a diseased lung with a healthy lung from a donor"
-                    }
-                ],
-                "required": false
-            },
-            {
-                "name": "change from prior",
-                "description": "Whether the changes are different from prior imaging",
-                "type": "choice",
-                "values": [
-                    {
-                        "name": "new",
-                        "description": "New changes"
-                    },
-                    {
-                        "name": "unchanged",
-                        "description": "Changes are the same as prior imaging; synonym of stable"
-                    },
-                    {
-                        "name": "improved",
-                        "description": "Changes are better than prior imaging"
-                    },
-                    {
-                        "name": "worsened",
-                        "description": "Changes are worse than prior imaging"
-                    }
-                ],
-                "required": false
-            }
+  {
+    "_id": "653993fd2f4080dec0124f2d",
+    "name": "post-operative changes in the lung",
+    "description": "Changes in the lung tissues observed after surgical procedures",
+    "attributes": [
+      {
+        "name": "location",
+        "description": "The lung or lobe where the surgery took place",
+        "type": "choice",
+        "values": [
+          {
+            "name": "right lung",
+            "description": "The entire right lung"
+          },
+          {
+            "name": "left lung",
+            "description": "The entire left lung"
+          },
+          {
+            "name": "right upper lobe",
+            "description": "Upper lobe of the right lung"
+          },
+          {
+            "name": "right middle lobe",
+            "description": "Middle lobe of the right lung"
+          },
+          {
+            "name": "right lower lobe",
+            "description": "Lower lobe of the right lung"
+          },
+          {
+            "name": "left upper lobe",
+            "description": "Upper lobe of the left lung"
+          },
+          {
+            "name": "left lower lobe",
+            "description": "Lower lobe of the left lung"
+          }
         ],
-        "examples": [
-            {
-                "report_text": "Stable postoperative changes in the right lung post lobectomy. No new pulmonary nodules observed.",
-                "observation": {
-                    "finding_name": "post-operative_changes_in_the_lung",
-                    "attributes": [
-                        {
-                            "attribute": "location",
-                            "value": "right lung"
-                        },
-                        {
-                            "attribute": "surgery_type",
-                            "value": "lobectomy"
-                        },
-                        {
-                            "attribute": "change_from_prior",
-                            "value": "unchanged"
-                        }
-                    ]
-                }
-            },
-            {
-                "report_text": "Stable postoperative changes in the right lung post lobectomy. No new pulmonary nodules observed.",
-                "observation": {
-                    "finding_name": "post-operative_changes_in_the_lung",
-                    "attributes": [
-                        {
-                            "attribute": "location",
-                            "value": "right lung"
-                        },
-                        {
-                            "attribute": "change_from_prior",
-                            "value": "unchanged"
-                        },
-                        {
-                            "attribute": "surgery_type",
-                            "value": "lobectomy"
-                        }
-                    ]
-                }
-            },
-            {
-                "report_text": "2.  Stable postsurgical changes in the left lung.",
-                "observation": {
-                    "finding_name": "post-operative_changes_in_the_lung",
-                    "attributes": [
-                        {
-                            "attribute": "location",
-                            "value": "left lung"
-                        },
-                        {
-                            "attribute": "change_from_prior",
-                            "value": "unchanged"
-                        }
-                    ]
-                }
-            },
-            {
-                "report_text": "Postsurgical changes of right superior segment extremity. Unchanged right perihilar radiation fibrosis.",
-                "observation": null
-            },
-            {
-                "report_text": "Postsurgical changes from right upper lobectomy, right lower lobe superior segmentectomy and left lower lobe wedge resection. Unchanged consolidative opacity in left lung apex.",
-                "observation": {
-                    "finding_name": "post-operative_changes_in_the_lung",
-                    "attributes": [
-                        {
-                            "attribute": "location",
-                            "value": "right upper lobe"
-                        },
-                        {
-                            "attribute": "change_from_prior",
-                            "value": "unchanged"
-                        },
-                        {
-                            "attribute": "surgery_type",
-                            "value": "lobectomy"
-                        }
-                    ]
-                }
-            },
-            {
-                "report_text": "Distinct post-surgical changes in the left lung. Airways remain clear.",
-                "observation": {
-                    "finding_name": "post-operative_changes_in_the_lung",
-                    "attributes": [
-                        {
-                            "attribute": "location",
-                            "value": "left lung"
-                        }
-                    ]
-                }
-            },
-            {
-                "report_text": "Lungs: Postsurgical changes of left lower lobectomy. Unchanged mild peripheral scarring in the left lung. Redemonstrated diffuse mild bronchiectasis. Compensatory expansion of the right lung, as before. Patent central airways.",
-                "observation": {
-                    "finding_name": "post-operative_changes_in_the_lung",
-                    "attributes": [
-                        {
-                            "attribute": "location",
-                            "value": "left lower lobe"
-                        },
-                        {
-                            "attribute": "surgery_type",
-                            "value": "lobectomy"
-                        }
-                    ]
-                }
-            },
-            {
-                "report_text": "Stable postoperative changes in right lung base. No signs of pulmonary consolidation.",
-                "observation": {
-                    "finding_name": "post-operative_changes_in_the_lung",
-                    "attributes": [
-                        {
-                            "attribute": "location",
-                            "value": "right lower lobe"
-                        },
-                        {
-                            "attribute": "change_from_prior",
-                            "value": "unchanged"
-                        }
-                    ]
-                }
-            },
-            {
-                "report_text": "Postsurgical changes in the right lung following upper and middle lobectomy. No new pulmonary nodules.",
-                "observation": {
-                    "finding_name": "post-operative_changes_in_the_lung",
-                    "attributes": [
-                        {
-                            "attribute": "location",
-                            "value": "right lung"
-                        },
-                        {
-                            "attribute": "surgery_type",
-                            "value": "lobectomy"
-                        }
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "_id": "65775ff7532f638bca28e0c1",
-        "name": "post-operative changes in the lung",
-        "description": "Changes in the lung tissue following a surgical procedure",
-        "attributes": [
-            {
-                "name": "location",
-                "description": "The anatomical region of the post-operative changes",
-                "type": "choice",
-                "values": [
-                    {
-                        "name": "right lung",
-                        "description": "Changes are in the right lung"
-                    },
-                    {
-                        "name": "left lung",
-                        "description": "Changes are in the left lung"
-                    },
-                    {
-                        "name": "upper lobe",
-                        "description": "Changes are in the upper lobe of the lung"
-                    },
-                    {
-                        "name": "middle lobe",
-                        "description": "Changes are in the middle lobe of the lung"
-                    },
-                    {
-                        "name": "lower lobe",
-                        "description": "Changes are in the lower lobe of the lung"
-                    }
-                ],
-                "required": false
-            },
-            {
-                "name": "change",
-                "description": "The nature of the post-operative change in the lung",
-                "type": "choice",
-                "values": [
-                    {
-                        "name": "stable",
-                        "description": "The changes have remained the same over time"
-                    },
-                    {
-                        "name": "unchanged",
-                        "description": "The changes have not altered since last observation"
-                    },
-                    {
-                        "name": "worsening",
-                        "description": "The changes have deteriorated since last observation"
-                    },
-                    {
-                        "name": "improved",
-                        "description": "The changes have improved since last observation"
-                    },
-                    {
-                        "name": "increased",
-                        "description": "The changes have increased in extent or severity"
-                    },
-                    {
-                        "name": "similar",
-                        "description": "The changes are similar to a previous observation"
-                    }
-                ],
-                "required": false
-            },
-            {
-                "name": "associated findings",
-                "description": "Additional findings associated with the post-operative changes",
-                "type": "choice",
-                "values": [
-                    {
-                        "name": "nodule",
-                        "description": "An abnormal growth of tissue"
-                    },
-                    {
-                        "name": "scarring",
-                        "description": "Areas of fibrous tissue that replace normal tissue after injury"
-                    },
-                    {
-                        "name": "bronchiectasis",
-                        "description": "Permanent enlargement of the airways of the lung"
-                    },
-                    {
-                        "name": "atelectasis",
-                        "description": "Partial or complete collapse of the lung"
-                    },
-                    {
-                        "name": "consolidation",
-                        "description": "An area of the lung tissue filled with liquid instead of air"
-                    },
-                    {
-                        "name": "pleural effusion",
-                        "description": "Excess fluid that accumulates in the pleural cavity"
-                    },
-                    {
-                        "name": "pneumothorax",
-                        "description": "Presence of air or gas in the pleural space"
-                    },
-                    {
-                        "name": "emphysema",
-                        "description": "Damage to the air sacs in the lungs leading to shortness of breath"
-                    },
-                    {
-                        "name": "calcified granuloma",
-                        "description": "A mass of tissue that forms in response to infection or inflammation, and has become calcified over time"
-                    },
-                    {
-                        "name": "airways patent",
-                        "description": "The airways of the lungs are clear and unblocked"
-                    },
-                    {
-                        "name": "lobectomy",
-                        "description": "Surgical removal of a lobe of the lung"
-                    },
-                    {
-                        "name": "wedge resection",
-                        "description": "Surgical removal of a triangular section of tissue, often used to remove a tumor and a small amount of surrounding healthy tissue"
-                    }
-                ],
-                "required": false
-            }
+        "required": false
+      },
+      {
+        "name": "surgery type",
+        "description": "The type of surgery performed",
+        "type": "choice",
+        "values": [
+          {
+            "name": "lobectomy",
+            "description": "Removal of a lobe of the lung"
+          },
+          {
+            "name": "wedge resection",
+            "description": "Removal of a small wedge-shaped portion of the lung"
+          },
+          {
+            "name": "segmentectomy",
+            "description": "Removal of a segment of the lung"
+          },
+          {
+            "name": "pneumonectomy",
+            "description": "Removal of an entire lung"
+          },
+          {
+            "name": "pleurectomy",
+            "description": "Removal of the pleura, the membrane that lines the lungs"
+          },
+          {
+            "name": "transplant",
+            "description": "Replacement of a diseased lung with a healthy lung from a donor"
+          }
         ],
-        "examples": null
-    }
+        "required": false
+      },
+      {
+        "name": "change from prior",
+        "description": "Whether the changes are different from prior imaging",
+        "type": "choice",
+        "values": [
+          {
+            "name": "new",
+            "description": "New changes"
+          },
+          {
+            "name": "unchanged",
+            "description": "Changes are the same as prior imaging; synonym of stable"
+          },
+          {
+            "name": "improved",
+            "description": "Changes are better than prior imaging"
+          },
+          {
+            "name": "worsened",
+            "description": "Changes are worse than prior imaging"
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": [
+      {
+        "report_text": "Stable postoperative changes in the right lung post lobectomy. No new pulmonary nodules observed.",
+        "observation": {
+          "finding_name": "post-operative_changes_in_the_lung",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "right lung"
+            },
+            {
+              "attribute": "surgery_type",
+              "value": "lobectomy"
+            },
+            {
+              "attribute": "change_from_prior",
+              "value": "unchanged"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Stable postoperative changes in the right lung post lobectomy. No new pulmonary nodules observed.",
+        "observation": {
+          "finding_name": "post-operative_changes_in_the_lung",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "right lung"
+            },
+            {
+              "attribute": "change_from_prior",
+              "value": "unchanged"
+            },
+            {
+              "attribute": "surgery_type",
+              "value": "lobectomy"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "2.  Stable postsurgical changes in the left lung.",
+        "observation": {
+          "finding_name": "post-operative_changes_in_the_lung",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "left lung"
+            },
+            {
+              "attribute": "change_from_prior",
+              "value": "unchanged"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Postsurgical changes of right superior segment extremity. Unchanged right perihilar radiation fibrosis.",
+        "observation": null
+      },
+      {
+        "report_text": "Postsurgical changes from right upper lobectomy, right lower lobe superior segmentectomy and left lower lobe wedge resection. Unchanged consolidative opacity in left lung apex.",
+        "observation": {
+          "finding_name": "post-operative_changes_in_the_lung",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "right upper lobe"
+            },
+            {
+              "attribute": "change_from_prior",
+              "value": "unchanged"
+            },
+            {
+              "attribute": "surgery_type",
+              "value": "lobectomy"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Distinct post-surgical changes in the left lung. Airways remain clear.",
+        "observation": {
+          "finding_name": "post-operative_changes_in_the_lung",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "left lung"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Lungs: Postsurgical changes of left lower lobectomy. Unchanged mild peripheral scarring in the left lung. Redemonstrated diffuse mild bronchiectasis. Compensatory expansion of the right lung, as before. Patent central airways.",
+        "observation": {
+          "finding_name": "post-operative_changes_in_the_lung",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "left lower lobe"
+            },
+            {
+              "attribute": "surgery_type",
+              "value": "lobectomy"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Stable postoperative changes in right lung base. No signs of pulmonary consolidation.",
+        "observation": {
+          "finding_name": "post-operative_changes_in_the_lung",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "right lower lobe"
+            },
+            {
+              "attribute": "change_from_prior",
+              "value": "unchanged"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Postsurgical changes in the right lung following upper and middle lobectomy. No new pulmonary nodules.",
+        "observation": {
+          "finding_name": "post-operative_changes_in_the_lung",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "right lung"
+            },
+            {
+              "attribute": "surgery_type",
+              "value": "lobectomy"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "_id": "65775ff7532f638bca28e0c1",
+    "name": "post-operative changes in the lung",
+    "description": "Changes in the lung tissue following a surgical procedure",
+    "attributes": [
+      {
+        "name": "location",
+        "description": "The anatomical region of the post-operative changes",
+        "type": "choice",
+        "values": [
+          {
+            "name": "right lung",
+            "description": "Changes are in the right lung"
+          },
+          {
+            "name": "left lung",
+            "description": "Changes are in the left lung"
+          },
+          {
+            "name": "upper lobe",
+            "description": "Changes are in the upper lobe of the lung"
+          },
+          {
+            "name": "middle lobe",
+            "description": "Changes are in the middle lobe of the lung"
+          },
+          {
+            "name": "lower lobe",
+            "description": "Changes are in the lower lobe of the lung"
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "change",
+        "description": "The nature of the post-operative change in the lung",
+        "type": "choice",
+        "values": [
+          {
+            "name": "stable",
+            "description": "The changes have remained the same over time"
+          },
+          {
+            "name": "unchanged",
+            "description": "The changes have not altered since last observation"
+          },
+          {
+            "name": "worsening",
+            "description": "The changes have deteriorated since last observation"
+          },
+          {
+            "name": "improved",
+            "description": "The changes have improved since last observation"
+          },
+          {
+            "name": "increased",
+            "description": "The changes have increased in extent or severity"
+          },
+          {
+            "name": "similar",
+            "description": "The changes are similar to a previous observation"
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "associated findings",
+        "description": "Additional findings associated with the post-operative changes",
+        "type": "choice",
+        "values": [
+          {
+            "name": "nodule",
+            "description": "An abnormal growth of tissue"
+          },
+          {
+            "name": "scarring",
+            "description": "Areas of fibrous tissue that replace normal tissue after injury"
+          },
+          {
+            "name": "bronchiectasis",
+            "description": "Permanent enlargement of the airways of the lung"
+          },
+          {
+            "name": "atelectasis",
+            "description": "Partial or complete collapse of the lung"
+          },
+          {
+            "name": "consolidation",
+            "description": "An area of the lung tissue filled with liquid instead of air"
+          },
+          {
+            "name": "pleural effusion",
+            "description": "Excess fluid that accumulates in the pleural cavity"
+          },
+          {
+            "name": "pneumothorax",
+            "description": "Presence of air or gas in the pleural space"
+          },
+          {
+            "name": "emphysema",
+            "description": "Damage to the air sacs in the lungs leading to shortness of breath"
+          },
+          {
+            "name": "calcified granuloma",
+            "description": "A mass of tissue that forms in response to infection or inflammation, and has become calcified over time"
+          },
+          {
+            "name": "airways patent",
+            "description": "The airways of the lungs are clear and unblocked"
+          },
+          {
+            "name": "lobectomy",
+            "description": "Surgical removal of a lobe of the lung"
+          },
+          {
+            "name": "wedge resection",
+            "description": "Surgical removal of a triangular section of tissue, often used to remove a tumor and a small amount of surrounding healthy tissue"
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": null
+  }
 ]

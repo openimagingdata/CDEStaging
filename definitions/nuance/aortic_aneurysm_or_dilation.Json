@@ -1,96 +1,96 @@
 {
-    "_id": "6577564f532f638bca28e0c0",
-    "name": "aortic aneurysm or dilation",
-    "description": "An enlargement of the aorta to greater than the normal size, or a ballooning of a portion of the aorta",
-    "attributes": [
+  "_id": "6577564f532f638bca28e0c0",
+  "name": "aortic aneurysm or dilation",
+  "description": "An enlargement of the aorta to greater than the normal size, or a ballooning of a portion of the aorta",
+  "attributes": [
+    {
+      "name": "location",
+      "description": "The anatomical region of the aortic dilation or aneurysm",
+      "type": "choice",
+      "values": [
         {
-            "name": "location",
-            "description": "The anatomical region of the aortic dilation or aneurysm",
-            "type": "choice",
-            "values": [
-                {
-                    "name": "ascending",
-                    "description": "Ascending portion of the aorta"
-                },
-                {
-                    "name": "descending",
-                    "description": "Descending portion of the aorta"
-                },
-                {
-                    "name": "abdominal",
-                    "description": "Abdominal portion of the aorta"
-                },
-                {
-                    "name": "thoracic",
-                    "description": "Thoracic portion of the aorta"
-                }
-            ],
-            "required": false
+          "name": "ascending",
+          "description": "Ascending portion of the aorta"
         },
         {
-            "name": "size",
-            "description": "The extent of the dilation or aneurysm in relation to the normal aortic size",
-            "type": "numeric",
-            "minimum": 1.9,
-            "maximum": 5.1,
-            "required": false
+          "name": "descending",
+          "description": "Descending portion of the aorta"
         },
         {
-            "name": "change",
-            "description": "The change in size or condition of the aneurysm or dilation over time",
-            "type": "choice",
-            "values": [
-                {
-                    "name": "stable",
-                    "description": "No significant change in size or condition"
-                },
-                {
-                    "name": "unchanged",
-                    "description": "No change in size or condition"
-                },
-                {
-                    "name": "increased",
-                    "description": "Increase in size or worsening condition"
-                },
-                {
-                    "name": "decreased",
-                    "description": "Decrease in size or improved condition"
-                }
-            ],
-            "required": false
+          "name": "abdominal",
+          "description": "Abdominal portion of the aorta"
         },
         {
-            "name": "associated condition",
-            "description": "The presence of other medical conditions associated with the aneurysm or dilation",
-            "type": "choice",
-            "values": [
-                {
-                    "name": "calcification",
-                    "description": "Accumulation of calcium in the aortic wall"
-                },
-                {
-                    "name": "atherosclerosis",
-                    "description": "The build-up of fats, cholesterol and other substances in and on the artery walls"
-                },
-                {
-                    "name": "occlusion",
-                    "description": "The closure or blockage of a blood vessel"
-                },
-                {
-                    "name": "dissection",
-                    "description": "A tear in the inner layer of the aorta"
-                },
-                {
-                    "name": "stenosis",
-                    "description": "The abnormal narrowing of a blood vessel"
-                },
-                {
-                    "name": "pulmonary hypertension",
-                    "description": "A type of high blood pressure that affects the arteries in your lungs and the right side of your heart"
-                }
-            ],
-            "required": false
+          "name": "thoracic",
+          "description": "Thoracic portion of the aorta"
         }
-    ],
-    "examples": null
+      ],
+      "required": false
+    },
+    {
+      "name": "size",
+      "description": "The extent of the dilation or aneurysm in relation to the normal aortic size",
+      "type": "numeric",
+      "minimum": 1.9,
+      "maximum": 5.1,
+      "required": false
+    },
+    {
+      "name": "change",
+      "description": "The change in size or condition of the aneurysm or dilation over time",
+      "type": "choice",
+      "values": [
+        {
+          "name": "stable",
+          "description": "No significant change in size or condition"
+        },
+        {
+          "name": "unchanged",
+          "description": "No change in size or condition"
+        },
+        {
+          "name": "increased",
+          "description": "Increase in size or worsening condition"
+        },
+        {
+          "name": "decreased",
+          "description": "Decrease in size or improved condition"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "associated condition",
+      "description": "The presence of other medical conditions associated with the aneurysm or dilation",
+      "type": "choice",
+      "values": [
+        {
+          "name": "calcification",
+          "description": "Accumulation of calcium in the aortic wall"
+        },
+        {
+          "name": "atherosclerosis",
+          "description": "The build-up of fats, cholesterol and other substances in and on the artery walls"
+        },
+        {
+          "name": "occlusion",
+          "description": "The closure or blockage of a blood vessel"
+        },
+        {
+          "name": "dissection",
+          "description": "A tear in the inner layer of the aorta"
+        },
+        {
+          "name": "stenosis",
+          "description": "The abnormal narrowing of a blood vessel"
+        },
+        {
+          "name": "pulmonary hypertension",
+          "description": "A type of high blood pressure that affects the arteries in your lungs and the right side of your heart"
+        }
+      ],
+      "required": false
+    }
+  ],
+  "examples": null
 }

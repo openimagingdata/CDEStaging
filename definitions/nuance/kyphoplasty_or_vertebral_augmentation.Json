@@ -1,108 +1,108 @@
 {
-    "_id": "657b6258532f638bca28e0c3",
-    "name": "kyphoplasty or vertebral augmentation",
-    "description": "A surgical procedure performed to alleviate pain caused by vertebral compression fractures, to stabilize the spine, and to restore lost vertebral body height due to compression fracture.",
-    "attributes": [
+  "_id": "657b6258532f638bca28e0c3",
+  "name": "kyphoplasty or vertebral augmentation",
+  "description": "A surgical procedure performed to alleviate pain caused by vertebral compression fractures, to stabilize the spine, and to restore lost vertebral body height due to compression fracture.",
+  "attributes": [
+    {
+      "name": "location",
+      "description": "The specific vertebrae where the procedure has been performed",
+      "type": "choice",
+      "values": [
         {
-            "name": "location",
-            "description": "The specific vertebrae where the procedure has been performed",
-            "type": "choice",
-            "values": [
-                {
-                    "name": "T11",
-                    "description": "Eleventh thoracic vertebra"
-                },
-                {
-                    "name": "T12",
-                    "description": "Twelfth thoracic vertebra"
-                },
-                {
-                    "name": "L1",
-                    "description": "First lumbar vertebra"
-                },
-                {
-                    "name": "L2",
-                    "description": "Second lumbar vertebra"
-                },
-                {
-                    "name": "T6",
-                    "description": "Sixth thoracic vertebra"
-                },
-                {
-                    "name": "T7",
-                    "description": "Seventh thoracic vertebra"
-                },
-                {
-                    "name": "T8",
-                    "description": "Eighth thoracic vertebra"
-                },
-                {
-                    "name": "T9",
-                    "description": "Ninth thoracic vertebra"
-                },
-                {
-                    "name": "T10",
-                    "description": "Tenth thoracic vertebra"
-                }
-            ],
-            "required": false
+          "name": "T11",
+          "description": "Eleventh thoracic vertebra"
         },
         {
-            "name": "postoperative changes",
-            "description": "Changes seen after the procedure",
-            "type": "choice",
-            "values": [
-                {
-                    "name": "stable compression",
-                    "description": "No change in the degree of compression of the vertebrae"
-                },
-                {
-                    "name": "height loss",
-                    "description": "Loss in height of the vertebrae"
-                },
-                {
-                    "name": "degenerative changes",
-                    "description": "Changes associated with the aging process"
-                },
-                {
-                    "name": "exaggerated kyphosis",
-                    "description": "Increased backward curve of the spine"
-                },
-                {
-                    "name": "compression deformities",
-                    "description": "Deformities due to pressure on the vertebrae"
-                },
-                {
-                    "name": "retropulsion",
-                    "description": "Backward displacement of the vertebrae"
-                }
-            ],
-            "required": false
+          "name": "T12",
+          "description": "Twelfth thoracic vertebra"
         },
         {
-            "name": "additional findings",
-            "description": "Additional findings associated with the spine",
-            "type": "choice",
-            "values": [
-                {
-                    "name": "osteopenia",
-                    "description": "Decreased bone density, but not as severe as osteoporosis"
-                },
-                {
-                    "name": "skeletal degenerative changes",
-                    "description": "Changes associated with the aging process affecting the skeleton"
-                },
-                {
-                    "name": "lytic or blastic lesions",
-                    "description": "Abnormalities in the bone suggestive of tumors or metastasis"
-                },
-                {
-                    "name": "multilevel wedge deformities",
-                    "description": "Deformities affecting multiple levels of the spine, characterized by a wedge-like shape of the vertebrae"
-                }
-            ],
-            "required": false
+          "name": "L1",
+          "description": "First lumbar vertebra"
+        },
+        {
+          "name": "L2",
+          "description": "Second lumbar vertebra"
+        },
+        {
+          "name": "T6",
+          "description": "Sixth thoracic vertebra"
+        },
+        {
+          "name": "T7",
+          "description": "Seventh thoracic vertebra"
+        },
+        {
+          "name": "T8",
+          "description": "Eighth thoracic vertebra"
+        },
+        {
+          "name": "T9",
+          "description": "Ninth thoracic vertebra"
+        },
+        {
+          "name": "T10",
+          "description": "Tenth thoracic vertebra"
         }
-    ],
-    "examples": null
+      ],
+      "required": false
+    },
+    {
+      "name": "postoperative changes",
+      "description": "Changes seen after the procedure",
+      "type": "choice",
+      "values": [
+        {
+          "name": "stable compression",
+          "description": "No change in the degree of compression of the vertebrae"
+        },
+        {
+          "name": "height loss",
+          "description": "Loss in height of the vertebrae"
+        },
+        {
+          "name": "degenerative changes",
+          "description": "Changes associated with the aging process"
+        },
+        {
+          "name": "exaggerated kyphosis",
+          "description": "Increased backward curve of the spine"
+        },
+        {
+          "name": "compression deformities",
+          "description": "Deformities due to pressure on the vertebrae"
+        },
+        {
+          "name": "retropulsion",
+          "description": "Backward displacement of the vertebrae"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "additional findings",
+      "description": "Additional findings associated with the spine",
+      "type": "choice",
+      "values": [
+        {
+          "name": "osteopenia",
+          "description": "Decreased bone density, but not as severe as osteoporosis"
+        },
+        {
+          "name": "skeletal degenerative changes",
+          "description": "Changes associated with the aging process affecting the skeleton"
+        },
+        {
+          "name": "lytic or blastic lesions",
+          "description": "Abnormalities in the bone suggestive of tumors or metastasis"
+        },
+        {
+          "name": "multilevel wedge deformities",
+          "description": "Deformities affecting multiple levels of the spine, characterized by a wedge-like shape of the vertebrae"
+        }
+      ],
+      "required": false
+    }
+  ],
+  "examples": null
 }

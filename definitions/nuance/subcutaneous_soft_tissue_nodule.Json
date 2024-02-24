@@ -1,92 +1,92 @@
 {
-    "_id": "65b0077809818fbf3f7be8ea",
-    "name": "subcutaneous soft tissue nodule",
-    "description": "A small swelling or aggregation of cells in the body, typically benign and located in the subcutaneous soft tissue",
-    "attributes": [
+  "_id": "65b0077809818fbf3f7be8ea",
+  "name": "subcutaneous soft tissue nodule",
+  "description": "A small swelling or aggregation of cells in the body, typically benign and located in the subcutaneous soft tissue",
+  "attributes": [
+    {
+      "name": "size",
+      "description": "The dimensions of the nodule, often measured in centimeters or millimeters",
+      "type": "numeric",
+      "minimum": 0.0,
+      "maximum": null,
+      "required": false
+    },
+    {
+      "name": "location",
+      "description": "The anatomical region of the nodule",
+      "type": "choice",
+      "values": [
         {
-            "name": "size",
-            "description": "The dimensions of the nodule, often measured in centimeters or millimeters",
-            "type": "numeric",
-            "minimum": 0.0,
-            "maximum": null,
-            "required": false
+          "name": "back",
+          "description": "The back of the body"
         },
         {
-            "name": "location",
-            "description": "The anatomical region of the nodule",
-            "type": "choice",
-            "values": [
-                {
-                    "name": "back",
-                    "description": "The back of the body"
-                },
-                {
-                    "name": "chest wall",
-                    "description": "The chest area of the body"
-                },
-                {
-                    "name": "scalp",
-                    "description": "The top of the head"
-                },
-                {
-                    "name": "shoulder/axilla",
-                    "description": "The shoulder or upper arm area"
-                },
-                {
-                    "name": "pelvic",
-                    "description": "The lower abdomen area"
-                },
-                {
-                    "name": "breasts",
-                    "description": "The breast area"
-                }
-            ],
-            "required": false
+          "name": "chest wall",
+          "description": "The chest area of the body"
         },
         {
-            "name": "appearance",
-            "description": "The visual or physical characteristics of the nodule",
-            "type": "choice",
-            "values": [
-                {
-                    "name": "sebaceous cyst",
-                    "description": "A small, noncancerous bump beneath the skin, which can be filled with a yellowish, oily substance"
-                },
-                {
-                    "name": "inclusion cyst",
-                    "description": "A type of cyst that results from trauma to the skin or clogged pores"
-                },
-                {
-                    "name": "low-attenuation",
-                    "description": "Appears less dense or less absorbing on imaging"
-                },
-                {
-                    "name": "nonspecific",
-                    "description": "Not indicating a definite disease or condition"
-                }
-            ],
-            "required": false
+          "name": "scalp",
+          "description": "The top of the head"
         },
         {
-            "name": "change",
-            "description": "The change in the nodule over time",
-            "type": "choice",
-            "values": [
-                {
-                    "name": "unchanged",
-                    "description": "The nodule has not changed since the last observation"
-                },
-                {
-                    "name": "stable",
-                    "description": "The nodule has remained steady or constant"
-                },
-                {
-                    "name": "increased",
-                    "description": "The nodule has grown or enlarged"
-                }
-            ],
-            "required": false
+          "name": "shoulder/axilla",
+          "description": "The shoulder or upper arm area"
+        },
+        {
+          "name": "pelvic",
+          "description": "The lower abdomen area"
+        },
+        {
+          "name": "breasts",
+          "description": "The breast area"
         }
-    ],
-    "examples": null
+      ],
+      "required": false
+    },
+    {
+      "name": "appearance",
+      "description": "The visual or physical characteristics of the nodule",
+      "type": "choice",
+      "values": [
+        {
+          "name": "sebaceous cyst",
+          "description": "A small, noncancerous bump beneath the skin, which can be filled with a yellowish, oily substance"
+        },
+        {
+          "name": "inclusion cyst",
+          "description": "A type of cyst that results from trauma to the skin or clogged pores"
+        },
+        {
+          "name": "low-attenuation",
+          "description": "Appears less dense or less absorbing on imaging"
+        },
+        {
+          "name": "nonspecific",
+          "description": "Not indicating a definite disease or condition"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "change",
+      "description": "The change in the nodule over time",
+      "type": "choice",
+      "values": [
+        {
+          "name": "unchanged",
+          "description": "The nodule has not changed since the last observation"
+        },
+        {
+          "name": "stable",
+          "description": "The nodule has remained steady or constant"
+        },
+        {
+          "name": "increased",
+          "description": "The nodule has grown or enlarged"
+        }
+      ],
+      "required": false
+    }
+  ],
+  "examples": null
 }

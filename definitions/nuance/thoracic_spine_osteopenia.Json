@@ -1,60 +1,60 @@
 {
-    "_id": "655a6937a34015ff13e07995",
-    "name": "thoracic spine osteopenia",
-    "description": "A decrease in bone density in the thoracic spine, which can lead to increased risk of fractures and degenerative changes",
-    "attributes": [
+  "_id": "655a6937a34015ff13e07995",
+  "name": "thoracic spine osteopenia",
+  "description": "A decrease in bone density in the thoracic spine, which can lead to increased risk of fractures and degenerative changes",
+  "attributes": [
+    {
+      "name": "severity",
+      "description": "The extent of the osteopenia in relation to the normal bone density",
+      "type": "choice",
+      "values": [
         {
-            "name": "severity",
-            "description": "The extent of the osteopenia in relation to the normal bone density",
-            "type": "choice",
-            "values": [
-                {
-                    "name": "mild",
-                    "description": "Slight decrease in bone density"
-                },
-                {
-                    "name": "moderate",
-                    "description": "Moderate decrease in bone density"
-                },
-                {
-                    "name": "diffuse",
-                    "description": "Widespread decrease in bone density"
-                }
-            ],
-            "required": false
+          "name": "mild",
+          "description": "Slight decrease in bone density"
         },
         {
-            "name": "associated conditions",
-            "description": "Other bone conditions associated with the osteopenia",
-            "type": "choice",
-            "values": [
-                {
-                    "name": "degenerative changes",
-                    "description": "Changes in the bone structure due to aging or wear and tear"
-                },
-                {
-                    "name": "lytic lesions",
-                    "description": "Areas of bone damage or loss"
-                },
-                {
-                    "name": "blastic lesions",
-                    "description": "Areas of excessive bone formation"
-                },
-                {
-                    "name": "compression fractures",
-                    "description": "Fractures caused by the bone collapsing due to weakened structure"
-                }
-            ],
-            "required": false
+          "name": "moderate",
+          "description": "Moderate decrease in bone density"
         },
         {
-            "name": "location",
-            "description": "The specific vertebrae affected by the osteopenia",
-            "type": "numeric",
-            "minimum": null,
-            "maximum": null,
-            "required": false
+          "name": "diffuse",
+          "description": "Widespread decrease in bone density"
         }
-    ],
-    "examples": null
+      ],
+      "required": false
+    },
+    {
+      "name": "associated conditions",
+      "description": "Other bone conditions associated with the osteopenia",
+      "type": "choice",
+      "values": [
+        {
+          "name": "degenerative changes",
+          "description": "Changes in the bone structure due to aging or wear and tear"
+        },
+        {
+          "name": "lytic lesions",
+          "description": "Areas of bone damage or loss"
+        },
+        {
+          "name": "blastic lesions",
+          "description": "Areas of excessive bone formation"
+        },
+        {
+          "name": "compression fractures",
+          "description": "Fractures caused by the bone collapsing due to weakened structure"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "location",
+      "description": "The specific vertebrae affected by the osteopenia",
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "required": false
+    }
+  ],
+  "examples": null
 }
