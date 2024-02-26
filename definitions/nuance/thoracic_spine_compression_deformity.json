@@ -1,0 +1,301 @@
+{
+  "_id": "655a6321e95c030654d5e5ad",
+  "name": "thoracic spine compression deformity",
+  "description": "A structural change in one or more vertebrae of the thoracic spine, where the vertebral body has decreased in height due to compression.",
+  "attributes": [
+    {
+      "name": "multiplicity",
+      "description": "The number of compression deformities in the thoracic spine",
+      "type": "choice",
+      "values": [
+        {
+          "name": "single",
+          "description": "A single compression deformity"
+        },
+        {
+          "name": "multiple",
+          "description": "Multiple compression deformities"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "location",
+      "description": "The specific vertebra or vertebrae in the thoracic spine where the compression deformity is located",
+      "type": "choice",
+      "values": [
+        {
+          "name": "thoracic",
+          "description": "Multiple thoracic vertebrae"
+        },
+        {
+          "name": "upper thoracic",
+          "description": "Upper thoracic vertebrae"
+        },
+        {
+          "name": "mid thoracic",
+          "description": "Mid thoracic vertebrae"
+        },
+        {
+          "name": "lower thoracic",
+          "description": "Lower thoracic vertebrae"
+        },
+        {
+          "name": "lumbar",
+          "description": "Lumbar vertebrae"
+        },
+        {
+          "name": "thoracolumbar",
+          "description": "Thoracic and lumbar vertebrae"
+        },
+        {
+          "name": "T1",
+          "description": "First thoracic vertebra"
+        },
+        {
+          "name": "T2",
+          "description": "Second thoracic vertebra"
+        },
+        {
+          "name": "T3",
+          "description": "Third thoracic vertebra"
+        },
+        {
+          "name": "T4",
+          "description": "Fourth thoracic vertebra"
+        },
+        {
+          "name": "T5",
+          "description": "Fifth thoracic vertebra"
+        },
+        {
+          "name": "T6",
+          "description": "Sixth thoracic vertebra"
+        },
+        {
+          "name": "T7",
+          "description": "Seventh thoracic vertebra"
+        },
+        {
+          "name": "T8",
+          "description": "Eighth thoracic vertebra"
+        },
+        {
+          "name": "T9",
+          "description": "Ninth thoracic vertebra"
+        },
+        {
+          "name": "T10",
+          "description": "Tenth thoracic vertebra"
+        },
+        {
+          "name": "T11",
+          "description": "Eleventh thoracic vertebra"
+        },
+        {
+          "name": "T12",
+          "description": "Twelfth thoracic vertebra"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "severity",
+      "description": "The extent of the compression deformity, often described in relation to the loss of height of the vertebral body",
+      "type": "choice",
+      "values": [
+        {
+          "name": "mild",
+          "description": "Minor loss of height of the vertebral body"
+        },
+        {
+          "name": "moderate",
+          "description": "Moderate loss of height of the vertebral body"
+        },
+        {
+          "name": "severe",
+          "description": "Significant loss of height of the vertebral body"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "retropulsion",
+      "description": "The backward displacement of the vertebral body into the spinal canal",
+      "type": "choice",
+      "values": [
+        {
+          "name": "none",
+          "description": "No significant backward displacement of the vertebral body"
+        },
+        {
+          "name": "mild",
+          "description": "Minor backward displacement of the vertebral body"
+        },
+        {
+          "name": "severe",
+          "description": "Significant backward displacement of the vertebral body"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "chronicity",
+      "description": "The duration or persistence of the compression deformity",
+      "type": "choice",
+      "values": [
+        {
+          "name": "acute",
+          "description": "Recent or new compression deformity"
+        },
+        {
+          "name": "unchanged",
+          "description": "Compression deformity that has not changed in duration or severity since prior imaging"
+        },
+        {
+          "name": "chronic",
+          "description": "Long-standing or unchanged compression deformity; synonyms include stable and unchanged"
+        },
+        {
+          "name": "indeterminate",
+          "description": "Unknown duration of compression deformity"
+        }
+      ],
+      "required": false
+    }
+  ],
+  "examples": [
+    {
+      "report_text": "Compression deformity of T7 in thoracic spine, similar to prior.",
+      "observation": {
+        "finding_name": "thoracic_spine_compression_deformity",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "single"
+          },
+          {
+            "attribute": "location",
+            "value": "T7"
+          },
+          {
+            "attribute": "chronicity",
+            "value": "chronic"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Bones: There is stable compression of multiple thoracic vertebral bodies. Post kyphoplasty changes are noted at L1",
+      "observation": {
+        "finding_name": "thoracic_spine_compression_deformity",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "multiple"
+          },
+          {
+            "attribute": "chronicity",
+            "value": "chronic"
+          },
+          {
+            "attribute": "location",
+            "value": "thoracic"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Bones: Osteopenia. Accentuated thoracic kyphosis. Status post median sternotomy. Skeletal degenerative changes with multiple similar appearing wedge-shaped compression deformities. Unchanged L2 vertebral body compression deformity harboring a",
+      "observation": {
+        "finding_name": "thoracic_spine_compression_deformity",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "single"
+          },
+          {
+            "attribute": "chronicity",
+            "value": "chronic"
+          },
+          {
+            "attribute": "location",
+            "value": "L2"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "THORACIC AND LUMBAR SPINE: Alignment and Curvature: No traumatic malalignment. Stable anterolisthesis of L4 on L5   Vertebrae: New compression deformity of the T9 vertebral body.",
+      "observation": {
+        "finding_name": "thoracic_spine_compression_deformity",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "single"
+          },
+          {
+            "attribute": "location",
+            "value": "T9"
+          },
+          {
+            "attribute": "chronicity",
+            "value": "acute"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "thoracic and upper lumbar spine. Multilevel osteoporotic compression deformities of the thoracic spine, most severe at T4 with approximately 70% loss of height.",
+      "observation": {
+        "finding_name": "thoracic_spine_compression_deformity",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "multiple"
+          },
+          {
+            "attribute": "location",
+            "value": "thoracic"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Vertebrae: Compression deformities involving T3, T4, T5, T7, T8, L1, L3 and L5vertebral bodies. The compression deformities in the lumbar spine are chronic. The compression deformities in the thoracic spine are age-indeterminate, likely chronic.",
+      "observation": {
+        "finding_name": "thoracic_spine_compression_deformity",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "multiple"
+          },
+          {
+            "attribute": "location",
+            "value": "thoracolumbar"
+          },
+          {
+            "attribute": "chronicity",
+            "value": "chronic"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "2.  Several osteoporotic compression deformities of the thoracic spine, status post vertebroplasty of T10-T11, and fixation of the lower thoracic/upper lumbar spine with partially imaged spinal rods and screws",
+      "observation": {
+        "finding_name": "thoracic_spine_compression_deformity",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "multiple"
+          },
+          {
+            "attribute": "location",
+            "value": "lower thoracic"
+          }
+        ]
+      }
+    }
+  ]
+}

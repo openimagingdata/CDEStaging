@@ -1,0 +1,80 @@
+{
+  "_id": "655a71e24c807ad4e3bb5275",
+  "name": "coronary artery calcification",
+  "description": "The presence of calcium in the coronary arteries",
+  "attributes": [
+    {
+      "name": "severity",
+      "description": "The degree of the atherosclerotic calcification",
+      "type": "choice",
+      "values": [
+        {
+          "name": "mild",
+          "description": "Minor extent of atherosclerotic disease"
+        },
+        {
+          "name": "moderate",
+          "description": "Intermediate extent of atherosclerotic disease"
+        },
+        {
+          "name": "severe",
+          "description": "Significant extent of atherosclerotic disease"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "location",
+      "description": "The location of the atherosclerotic calcification",
+      "type": "choice",
+      "values": [
+        {
+          "name": "left main",
+          "description": "The left main coronary artery"
+        },
+        {
+          "name": "left anterior descending",
+          "description": "The left anterior descending coronary artery"
+        },
+        {
+          "name": "left circumflex",
+          "description": "The left circumflex coronary artery"
+        },
+        {
+          "name": "left coronary system",
+          "description": "The left coronary artery system"
+        },
+        {
+          "name": "right coronary",
+          "description": "The right coronary artery"
+        },
+        {
+          "name": "throughout",
+          "description": "Throughout the coronary arteries"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "stents",
+      "description": "The presence of stents in the coronary arteries",
+      "type": "choice",
+      "values": [
+        {
+          "name": "absent",
+          "description": "Stents are not present"
+        },
+        {
+          "name": "present",
+          "description": "Stents are present"
+        },
+        {
+          "name": "multiple",
+          "description": "Multiple stents are present"
+        }
+      ],
+      "required": false
+    }
+  ],
+  "examples": null
+}

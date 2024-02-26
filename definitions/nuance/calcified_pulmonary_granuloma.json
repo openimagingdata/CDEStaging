@@ -1,0 +1,249 @@
+{
+  "_id": "652d7f32d352a4d3ffcfd2de",
+  "name": "calcified pulmonary granuloma",
+  "description": "A small, benign calcified lesion in the lungs typically resulting from previous infection or inflammation",
+  "attributes": [
+    {
+      "name": "multiplicity",
+      "description": "Whether there is one or more than one granuloma in the lungs",
+      "type": "choice",
+      "values": [
+        {
+          "name": "single",
+          "description": "A single granuloma"
+        },
+        {
+          "name": "multiple",
+          "description": "Multiple granulomas (or granulomata)"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "size",
+      "description": "The diameter of the calcified granuloma in the lungs, in millimeters",
+      "type": "numeric",
+      "minimum": 0,
+      "maximum": 10,
+      "required": false
+    },
+    {
+      "name": "location",
+      "description": "The anatomical region of the calcified granuloma in the lungs",
+      "type": "choice",
+      "values": [
+        {
+          "name": "right upper lobe",
+          "description": "Upper section of the right lung"
+        },
+        {
+          "name": "right lower lobe",
+          "description": "Lower section of the right lung"
+        },
+        {
+          "name": "left upper lobe",
+          "description": "Upper section of the left lung"
+        },
+        {
+          "name": "left lower lobe",
+          "description": "Lower section of the left lung"
+        },
+        {
+          "name": "right middle lobe",
+          "description": "Middle section of the right lung"
+        },
+        {
+          "name": "lingula",
+          "description": "Lingula of the left lung"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "change",
+      "description": "Indicates whether the calcified granuloma has changed in size or appearance",
+      "type": "choice",
+      "values": [
+        {
+          "name": "unchanged",
+          "description": "No changes in size or appearance of the granuloma"
+        },
+        {
+          "name": "new",
+          "description": "New granuloma"
+        },
+        {
+          "name": "enlarging",
+          "description": "Existing granuloma is increasing in size"
+        }
+      ],
+      "required": false
+    }
+  ],
+  "examples": [
+    {
+      "report_text": "Stable calcified granuloma in the left lower lobe. Airways remain clear.",
+      "observation": {
+        "finding_name": "calcified_pulmonary_granuloma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "single"
+          },
+          {
+            "attribute": "location",
+            "value": "left lower lobe"
+          },
+          {
+            "attribute": "change",
+            "value": "unchanged"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "calcified granuloma. Right lower lobe dense: Right basilar  scarring/atelectasis. The central airways are clear.",
+      "observation": {
+        "finding_name": "calcified_pulmonary_granuloma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "single"
+          },
+          {
+            "attribute": "location",
+            "value": "right lower lobe"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Unchanged calcified granulomas including a 4 mm calcified subpleural right upper lobe nodule, 2:52.",
+      "observation": {
+        "finding_name": "calcified_pulmonary_granuloma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "multiple"
+          },
+          {
+            "attribute": "size",
+            "value": 4
+          },
+          {
+            "attribute": "location",
+            "value": "right upper lobe"
+          },
+          {
+            "attribute": "change",
+            "value": "unchanged"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "or underlying smoking-related fibrosis. There are calcified granulomas in the lungs, for example in the left lower lobe, 4:61.",
+      "observation": {
+        "finding_name": "calcified_pulmonary_granuloma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "multiple"
+          },
+          {
+            "attribute": "location",
+            "value": "left lower lobe"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "are calcified granulomas in the lungs.",
+      "observation": {
+        "finding_name": "calcified_pulmonary_granuloma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "multiple"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Calcified granuloma in the left lower lobe. No new suspicious pulmonary nodules detected.",
+      "observation": {
+        "finding_name": "calcified_pulmonary_granuloma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "single"
+          },
+          {
+            "attribute": "location",
+            "value": "left lower lobe"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "calcified granulomas. Unchanged irregular pulmonary nodule in the right upper lobe measuring 0.8 x 0.5 cm (4:88). No new suspicious pulmonary nodule.",
+      "observation": {
+        "finding_name": "calcified_pulmonary_granuloma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "multiple"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "since February 2021. There is a 4 mm calcified granuloma in the left lower lobe. No new or enlarging pulmonary nodules or masses. No evidence of pulmonary embolism or consolidation.",
+      "observation": {
+        "finding_name": "calcified_pulmonary_granuloma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "single"
+          },
+          {
+            "attribute": "size",
+            "value": 4
+          },
+          {
+            "attribute": "location",
+            "value": "left lower lobe"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Lungs: Small calcified granuloma in the right lower lobe (4:82). Status post left upper lobectomy.",
+      "observation": {
+        "finding_name": "calcified_pulmonary_granuloma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "single"
+          },
+          {
+            "attribute": "location",
+            "value": "right lower lobe"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "small calcified pulmonary granulomata scattered throughout both lungs. Emphysema.",
+      "observation": {
+        "finding_name": "calcified_pulmonary_granuloma",
+        "attributes": [
+          {
+            "attribute": "multiplicity",
+            "value": "multiple"
+          }
+        ]
+      }
+    }
+  ]
+}

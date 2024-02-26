@@ -1,0 +1,145 @@
+{
+  "_id": "6537cb57b450c5648b94603d",
+  "name": "thoracic spine degenerative changes",
+  "description": "Deterioration of the thoracic portion of the spinal column",
+  "attributes": [
+    {
+      "name": "severity",
+      "description": "The extent of the degeneration",
+      "type": "choice",
+      "values": [
+        {
+          "name": "mild",
+          "description": "Minor degeneration"
+        },
+        {
+          "name": "moderate",
+          "description": "Medium level degeneration"
+        },
+        {
+          "name": "severe",
+          "description": "Severe degeneration of the spine"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "location",
+      "description": "The part of the thoracic spine affected",
+      "type": "choice",
+      "values": [
+        {
+          "name": "distal",
+          "description": "Lower section of the thoracic spine"
+        },
+        {
+          "name": "throughout",
+          "description": "All sections of the thoracic spine; multilevel"
+        },
+        {
+          "name": "proximal",
+          "description": "Upper section of the thoracic spine"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "associated findings",
+      "description": "Other findings associated with the degeneration",
+      "type": "choice",
+      "values": [
+        {
+          "name": "kyphosis",
+          "description": "Abnormal forward curvature of the spine"
+        },
+        {
+          "name": "osteopenia",
+          "description": "Decreased mineralization of the bone, resulting in decreased density"
+        }
+      ],
+      "required": false
+    }
+  ],
+  "examples": [
+    {
+      "report_text": "Bones: Degenerative changes of the thoracic spine.",
+      "observation": {
+        "finding_name": "thoracic_spine_degenerative_changes",
+        "attributes": []
+      }
+    },
+    {
+      "report_text": "Bones: Thoracic spine shows signs of degenerative modifications.",
+      "observation": {
+        "finding_name": "thoracic_spine_degenerative_changes",
+        "attributes": []
+      }
+    },
+    {
+      "report_text": "Bones and soft tissues: There are multilevel degenerative changes throughout the thoracic spine.",
+      "observation": {
+        "finding_name": "thoracic_spine_degenerative_changes",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "throughout"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Bones: Thoracic spine degenerative modifications. Bilateral shoulder degenerative changes.",
+      "observation": {
+        "finding_name": "thoracic_spine_degenerative_changes",
+        "attributes": []
+      }
+    },
+    {
+      "report_text": "Bones and Chest Wall: Multilevel degenerative changes of the thoracic spine.",
+      "observation": {
+        "finding_name": "thoracic_spine_degenerative_changes",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "throughout"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "degenerative changes of the spine.",
+      "observation": {
+        "finding_name": "thoracic_spine_degenerative_changes",
+        "attributes": []
+      }
+    },
+    {
+      "report_text": "Bones: Moderate degenerative changes throughout the thoracic spine.",
+      "observation": {
+        "finding_name": "thoracic_spine_degenerative_changes",
+        "attributes": [
+          {
+            "attribute": "severity",
+            "value": "moderate"
+          },
+          {
+            "attribute": "location",
+            "value": "throughout"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Significant degenerative transformations in the thoracic spine.",
+      "observation": {
+        "finding_name": "thoracic_spine_degenerative_changes",
+        "attributes": [
+          {
+            "attribute": "severity",
+            "value": "severe"
+          }
+        ]
+      }
+    }
+  ]
+}

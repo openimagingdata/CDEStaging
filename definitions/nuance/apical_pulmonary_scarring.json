@@ -1,0 +1,129 @@
+{
+  "_id": "6536ef92697c3ad012ddeec2",
+  "name": "apical pulmonary scarring",
+  "description": "Formation of fibrous tissue in the apex of the lungs following an injury or long-term lung disease",
+  "attributes": [
+    {
+      "name": "location",
+      "description": "The anatomical region of the scarring",
+      "type": "choice",
+      "values": [
+        {
+          "name": "biapical",
+          "description": "Both apices of the lungs; used when no side is specified"
+        },
+        {
+          "name": "right apical",
+          "description": "Apex of the right lung"
+        },
+        {
+          "name": "left apical",
+          "description": "Apex of the left lung"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "change",
+      "description": "The change in the scarring over time",
+      "type": "choice",
+      "values": [
+        {
+          "name": "unchanged",
+          "description": "No change in the scarring over time; synonym for stable"
+        },
+        {
+          "name": "increased",
+          "description": "Increase in the scarring over time"
+        },
+        {
+          "name": "improved",
+          "description": "Decrease in the scarring over time"
+        },
+        {
+          "name": "new",
+          "description": "New scarring"
+        }
+      ],
+      "required": false
+    }
+  ],
+  "examples": [
+    {
+      "report_text": "scarring in the right upper lung probably represent sequela of prior talc pleurodesis. 2.  Unchanged few scattered 2-3 mm pulmonary nodules.",
+      "observation": {
+        "finding_name": "apical_pulmonary_scarring",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "right apical"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "LUNGS/PLEURA: Left apical pleural-parenchymal scarring. Unchanged 3 mm nodule in the lingula (5:229). Opacity in the right middle lobe is less ovoid and more linear in",
+      "observation": {
+        "finding_name": "apical_pulmonary_scarring",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "left apical"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "increased pleural-parenchymal scarring, rather than a true pulmonary nodule.",
+      "observation": {
+        "finding_name": "apical_pulmonary_scarring",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "biapical"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Biapical scarring is present. No new nodules or masses are observed.",
+      "observation": {
+        "finding_name": "apical_pulmonary_scarring",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "biapical"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Apical scarring is noted within the lungs. No new nodules or masses were found.",
+      "observation": {
+        "finding_name": "apical_pulmonary_scarring",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "biapical"
+          }
+        ]
+      }
+    },
+    {
+      "report_text": "Findings:   Lungs and pleura: Similar appearance of biapical scarring. There is an unchanged 1.4 cm well-circumscribed nodule in the left lower lobe. There is subsegmental",
+      "observation": {
+        "finding_name": "apical_pulmonary_scarring",
+        "attributes": [
+          {
+            "attribute": "location",
+            "value": "biapical"
+          },
+          {
+            "attribute": "change",
+            "value": "unchanged"
+          }
+        ]
+      }
+    }
+  ]
+}
