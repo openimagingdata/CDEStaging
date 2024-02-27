@@ -28,6 +28,7 @@
 ## Devices
 
 - ⭐ [AICD / ICD / pacemaker](definitions/hood/pacemaker-aicd.md)
+- ⭐ [AICD / ICD / pacemaker](definitions/nuance/pacemaker_or_AICD_device.json)
   - Transvenous; subcutaneous  
   - Complete (Hood)  
 - Loop recorder  
@@ -51,7 +52,8 @@
 ## Chest wall (soft tissue)
 
 - ⭐ [Mastectomy](definitions/hood/mastectomy.md)
-  - Includes flap reconstruction, postsurgical change  
+- ⭐ [Mastectomy](definitions/nuance/mastectomy.json)
+  - Includes flap reconstruction, [postsurgical change](definitions/nuance/post-operative_changes_in_the_lung.json)  
 - Breast implants  
 - Breast mass  
 - Breast calcification  
@@ -120,11 +122,12 @@
   - Frequency: Common  
   - Priority: upmedic: 🔝  
 - ⭐ [Hepatic cysts](definitions/hood/hepatic-cyst.md)
+- ⭐ [Hepatic cyst](definitions/nuance/hepatic_and_renal_cysts.json)
   - Frequency: Uncommon  
 - ⭐ Pancreatic cysts
   - Frequency: Rare  
   - Citation: [RDES207: Pancreatic Cyst on CT](https://radelement.org/home/sets/set/RDES207)  
-- ⭐ Renal cysts
+- [⭐ Renal cysts](definitions/nuance/hepatic_and_renal_cysts.json)
   - Frequency: Uncommon  
 - Gastrohepatic lymph nodes  
   - Frequency: Rare  
@@ -132,7 +135,7 @@
 - ⭐ Adrenal nodules
   - Frequency: Uncommon  
   - Citation: [RDES3: Adrenal Nodule](https://radelement.org/home/sets/set/RDES3)  
-- ⭐ Splenic granulomata
+- ⭐ [Splenic granulomata](definitions/nuance/liver_or_spleen_granuloma.json)
   - Frequency: Rare  
 - Gallbladder abnormality  
   - Frequency: Uncommon  
@@ -165,6 +168,7 @@
 ## Musculoskeletal (Old version)
 
 - ⭐ [Degenerative changes in the thoracic skeleton](definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
+- ⭐ [Degenerative changes in the thoracic skeleton](definitions/nuance/thoracic_spine_degenerative_changes.json)
   - Frequency: Common  
   - Priority: upmedic: 🔝  
   - Status: ✅ upmedic 2024-01-31  
@@ -183,17 +187,20 @@
 - ⭐ Chest wall mass
   - Frequency: Rare  
 - ⭐ [Scoliosis](definitions/upmedic/ThoracicSpine.cdes.md)
+- ⭐ [Scoliosis](definitions/nuance/thoracic_spine_scoliosis.json)
   - Frequency: Rare  
   - Status: [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
+    - Frequency: Rare  
 - Cervical Rib  
   - Frequency: Uncommon  
   - Status: [RDES101: Cervical Rib](https://radelement.org/home/sets/set/RDES101)  
-- ⭐ Vertebral compression fracture
+- ⭐ [Vertebral compression fracture](definitions/nuance/thoracic_spine_compression_deformity.json)
   - Frequency: Uncommon  
   - Status: [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
-- ⭐ Osteopenic bone
+- ⭐ [Osteopenic bone](definitions/nuance/thoracic_spine_osteopenia.json)
   - Frequency: Common  
-- [Healed rib fracture](definitions/hood/healed-rib-fracture.md)  
+- [Healed rib fracture](definitions/hood/healed-rib-fracture.md) 
+- [Healed rib gracture](definitions/nuance/healed_or_chronic_rib_fracture.json)
   - Frequency: Common  
 - Prominent Schmorl's node deformity  
   - Frequency: Rare  
@@ -205,9 +212,9 @@
   - Frequency: Common  
 - Deformity of healed fracture  
   - Frequency: Common  
-- Thoracic Kyphosis  
+- [Thoracic Kyphosis](definitions/nuance/kyphoplasty_or_vertebral_augmentation.json))  
   - Frequency: Common  
-- ⭐ Hemangioma of thoracic spine
+- ⭐ [Hemangioma of thoracic spine](definitions/nuance/thoracic_spine_hemangioma.json)
   - Frequency: Common  
 - Spinal stenosis  
   - Frequency: Common  
@@ -225,6 +232,7 @@
 ## Bronchi
 
 - ⭐ [Bronchiectasis](definitions\hood\bronchiectasis.md)
+- ⭐ [Bronchiectasis](definitions/nuance/traction_bronchiectasis.json)
   - Cylindrical, varicose, cystic, traction  
 - Bronchiolectasis  
   - Traction  
@@ -254,7 +262,7 @@
   - Separate from mediastinal mass  
 - Bochdalek hernia  
 - Morgagni hernia  
-- Hiatal hernia  
+- [Hiatal hernia](definitions/nuance/hiatal_hernia.json)  
   - Sliding-type  
   - Paraesophageal  
   - Intrathoracic gastric herniation  
@@ -269,6 +277,7 @@
 - ⭐ [Pericardial effusion](definitions/hood/pericardial-effusion.md)
   - Includes pericardial recesses  
 - ⭐ [Pericardial calcification](definitions/hood/pericardial-effusion.md)
+- ⭐ [Pericardial calcification](definitions/nuance/pericardial_calcifications.json)
 - ⭐ [Pericardial thickening](definitions/hood/pericardial-effusion.md)
 - Pericardial cyst  
   - Overlap with 'mediastinal cyst'  
@@ -287,6 +296,8 @@
 - Right heart strain  
   - Septal bowing; RV:LV ratio; contrast reflux  
 - ⭐ [Coronary artery calcification](definitions/nuance/coronary_calcifications.txt
+- ⭐ [Coronary artery calcification](definitions/nuance/coronary_artery_calcification.json)
+- ⭐ [Coronary artery calcification](definitions/nuance/coronary_calcifications.txt)
   - [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139)  
 - ⭐ Coronary artery bypass graft (CABG)
 - Changes after myocardial infarction  
@@ -299,7 +310,7 @@
 - Patent foramen ovale (PFO)  
 - Atrial septal defect (ASD)  
 - Ventricular septal defect (VSD)  
-- Bicuspid aortic valve  
+- [Bicuspid aortic valve](definitions/nuance/mitral_or_aortic_valve_calcification.json)  
 - Variant pulmonary vein anatomy  
 - Persistent left SVC  
 - Anomalous pulmonary venous return  
@@ -311,9 +322,10 @@
 
 ### Aorta
 
-- ⭐ Aortic atherosclerosis
+- ⭐ [Aortic atherosclerosis](definitions/nuance/thoracic_vessel_atherosclerotic_calcification.json)
   - Calcified and noncalcified  
 - ⭐ [Aortic aneurysm](Definitions/hood/aortic-measurements.md)
+- ⭐ [Aortic aneurysm](definitions/nuance/aortic_aneurysm_or_dilation.json)
   - Size-based; includes ectasia / dilation  
   - [RDES264: Aortic Measurements](https://radelement.org/home/sets/set/RDES264)  
 - Aortic dissection  
@@ -331,7 +343,7 @@
   - Acute; chronic; acute on chronic  
   - [RDES80: Pulmonary Embolism](https://radelement.org/home/sets/set/RDES80)  
 - Pulmonary thrombus  
-  ⭐ - E.g. s/p lobectomy, radiation
+  ⭐ - E.g. s/p [lobectomy](definitions/nuance/apical_pulmonary_scarring.json), [radiation](definitions/nuance/post-radiation_pulmonary_changes.json)
 - Patent ductus arteriosus  
 - Calcified ligamentum arteriosum  
 - Variant pulmonary artery anatomy  
@@ -342,7 +354,7 @@
 - ⭐ [Pleural effusion](Definitions/hood/pleural-effusion.md)
   - [RDES254: Pleural Effusion](https://radelement.org/home/sets/set/RDES254)  
 - ⭐ [Pleural thickening](Definitions/smartreporting/PleuralThickening.txt)
-  - Fatty deposition; calcified plaques; s/p talc pleurodesis  
+  - Fatty deposition; [calcified plaques](definitions/nuance/calcified_pleural_plaques.json); s/p talc pleurodesis  
 - ⭐ Pleural nodularity
   - [Includes mass, metastases](Definitions/upmedic/PulmonaryMetastases.cde.md)  
 - ⭐ Pneumothorax
@@ -351,7 +363,7 @@
 
 ## Previous pulmonary findings list (Old version)
 
-- ⭐ Granulomas
+- ⭐ [Granulomas](definitions/nuance/calcified_pulmonary_granuloma.jsonf)
   - Uncommon  
 - ⭐ [Pulmonary nodules (solitary, multiple)](Definitions/upmedic/NodularPattern.cde.md)
   - Common  
@@ -375,6 +387,7 @@
   - Uncommon  
   - ✅ upmedic (2024–01–22)  
 - ⭐ [Honeycombing](Definitions/nuance/fibrotic_changes_honeycombing.txt)
+- ⭐ [Honeycombing](definitions/nuance/fibrotic_changes_or_honeycombing.json)
   - Rare  
 - Pleuroparenchymal fibroelastosis  
   - Rare  
