@@ -250,7 +250,7 @@
   - Includes pericardial recesses  
 - ⭐ [Pericardial calcification](definitions/hood/pericardial-effusion.md)
 - ⭐ [Pericardial thickening](definitions/hood/pericardial-effusion.md)
-- [Pericardial cyst](./definitions/upmedic/Cyst.cde.md) 
+- [Pericardial cyst](definitions/upmedic/Cyst.cde.md) 
   - Overlap with 'mediastinal cyst'  
 - Pericardial mass  
 
@@ -266,7 +266,7 @@
   - All four chambers; left atrial appendage; catheter-associated  
 - Right heart strain  
   - Septal bowing; RV:LV ratio; contrast reflux  
-- ⭐ [Coronary artery calcification](definitions/nuance/coronary_calcifications.txt
+- ⭐ [Coronary artery calcification](definitions/nuance/coronary_calcifications.txt)
   - [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139)  
 - ⭐ Coronary artery bypass graft (CABG)
 - Changes after myocardial infarction  
@@ -293,7 +293,7 @@
 
 - ⭐ Aortic atherosclerosis
   - Calcified and noncalcified  
-- ⭐ [Aortic aneurysm](Definitions/hood/aortic-measurements.md)
+- ⭐ [Aortic aneurysm](definitions/hood/aortic-measurements.md)
   - Size-based; includes ectasia / dilation  
   - [RDES264: Aortic Measurements](https://radelement.org/home/sets/set/RDES264)  
 - Aortic dissection  
@@ -319,12 +319,12 @@
 
 ## Pleura
 
-- ⭐ [Pleural effusion](Definitions/hood/pleural-effusion.md)
+- ⭐ [Pleural effusion](definitions/hood/pleural-effusion.md)
   - [RDES254: Pleural Effusion](https://radelement.org/home/sets/set/RDES254)  
-- ⭐ [Pleural thickening](Definitions/smartreporting/PleuralThickening.txt)
+- ⭐ [Pleural thickening](definitions/smartreporting/PleuralThickening.txt)
   - Fatty deposition; calcified plaques; s/p talc pleurodesis  
 - ⭐ Pleural nodularity
-  - [Includes mass, metastases](Definitions/upmedic/PulmonaryMetastases.cde.md)  
+  - [Includes mass, metastases](definitions/upmedic/PulmonaryMetastases.cde.md)  
 - ⭐ Pneumothorax
   - Includes hydro/hemo-pneumothorax, residual pleural space s/p lobectomy, trapped lung  
   - [RDES44: Pneumothorax](https://radelement.org/home/sets/set/RDES44)  
@@ -333,28 +333,19 @@
 
 - ⭐ Granulomas
   - Uncommon  
-- ⭐ [Pulmonary nodules (solitary, multiple)](Definitions/upmedic/NodularPattern.cde.md)
+- ⭐ [Pulmonary nodules (solitary, multiple)](definitions/upmedic/NodularPattern.cde.md)
   - Common  
   - [RDES195: Pulmonary Nodule](https://radelement.org/home/sets/set/RDES195)  
   - [RDES208: Fleischner](https://radelement.org/home/sets/set/RDES208)  
   - [RDES99: Incidental Pulmonary Nodules](https://radelement.org/home/sets/set/RDES99)  
-- Pulmonary metastases  
-  - Rare  
-  - ✅ upmedic (2024–01–22)  
-- ⭐ [Pulmonary Consolidation](Definitions/smartreporting/consolidation.txt
-  - Uncommon  
-  - SmartReporting working 2024–01–03  
+- ⭐ [Pulmonary Consolidation](definitions/smartreporting/consolidation.txt)
 - ⭐ Pulmonary edema
   - Common  
 - Focal subpleural linear opacities  
   - Uncommon  
 - Nodular opacities  
-  - Uncommon  
-  - ✅ upmedic (2024–01–22)  
-- ⭐ [Air trapping](Definitions/upmedic/AirTrapping.cde.md)
-  - Uncommon  
-  - ✅ upmedic (2024–01–22)  
-- ⭐ [Honeycombing](Definitions/nuance/fibrotic_changes_honeycombing.txt)
+- ⭐ [Air trapping](definitions/upmedic/AirTrapping.cde.md)
+- ⭐ [Honeycombing](definitions/nuance/fibrotic_changes_honeycombing.txt)
   - Rare  
 - Pleuroparenchymal fibroelastosis  
   - Rare  
@@ -369,7 +360,7 @@
   - Uncommon  
   - upmedic: 🔝  
   - Nuance/MS working 2024–01–03  
-- ⭐ [Pulmonary cysts](Definitions/smartreporting/Pulmonary_cysts.txt)
+- ⭐ [Pulmonary cysts](definitions/smartreporting/Pulmonary_cysts.txt)
   - Uncommon  
   - SmartReporting working 2024-01-26  
 - Pulmonary congenital variants  
