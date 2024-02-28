@@ -2,6 +2,7 @@ Pacemaker / AICD
 
 - Device location
   - Ventral chest wall
+  - Subcutaneous
 - Side / directional approach
   - Left
   - Right

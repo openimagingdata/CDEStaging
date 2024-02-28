@@ -2,8 +2,7 @@
 
 ## Lines / Tubes
 
-- Chest tube
-  - Includes pleural drain
+- ⭐ [Chest tube](definitions/hood/chest-tube.md)
 - Percutaneous drainage catheter
   - Includes pigtail catheter, mediastinal drain
 - Extracorporeal membrane oxygenation (ECMO) cannula
@@ -15,16 +14,14 @@
 - Pulmonary artery catheter (Swann-Ganz)
 - ⭐ [Peripherally inserted central catheter (PICC)](definitions/hood/PICC.md)
 - ⭐ [Endotracheal tube](definitions/upmedic/EndotrachealTube.cde.md)
-- Tracheostomy tube
+- ⭐ [Tracheostomy tube](definitions/hood/tracheostomy-tube.md)
 - Gastrostomy tube
 - ⭐ [Gastric tube](definitions/upmedic/EsophagealGastricTube.cde.md)
   - Nasogastric/orogastric, "esophageal tube
 
 ## Devices
 
-- ⭐ [AICD / ICD / pacemaker](definitions/hood/pacemaker-aicd.md)
-  - Transvenous; subcutaneous  
-  - Complete (Hood)  
+- ⭐ [AICD / ICD / pacemaker](definitions/hood/pacemaker-aicd.md) 
 - Loop recorder  
 - Cutaneous cardiac rhythm monitor (ZIO patch)  
 - Left ventricular assist device (LVAD)  
@@ -151,18 +148,14 @@
 
 ## Musculoskeletal
 
+- ⭐ [Ostoepenia](definitions/hood/osteopenia-osteoporosis.md)
 - ⭐ [Degenerative changes in the thoracic skeleton](definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
-  - Frequency: Common  
-  - Priority: upmedic: 🔝  
-  - Status: ✅ upmedic 2024-01-31  
 - ⭐ Lytic lesions
   - Frequency: Uncommon  
 - ⭐ Blastic lesions
   - Frequency: Uncommon  
 - ⭐ [Rib fracture](definitions/hood/bones-and-thoracic-cage.md)
-  - Frequency: Uncommon  
-  - Priority:  
-  - Status: [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
+  - [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
 - ⭐ Sternal fracture
   - Frequency: Rare  
 - Costochondral junction abnormalities  
