@@ -67,7 +67,8 @@
   - Seroma; abscess; hematoma  
 - Lymphangioma  
 - Neurogenic tumor  
-  - Neurofibroma; schwannoma  
+  - Neurofibroma; schwannoma
+_ [Post thoracotomy defects in chest wall](definitions/nuance/post-thoracotomy_defects_in_the_chest_wall.json)
 
 ## Thyroid
 
@@ -199,7 +200,7 @@
   - Status: [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
 - ⭐ [Osteopenic bone](definitions/nuance/thoracic_spine_osteopenia.json)
   - Frequency: Common  
-- [Healed rib fracture](definitions/hood/healed-rib-fracture.md) 
+- [Healed rib fracture](definitions/hood/healed-rib-fracture.md)
 - [Healed rib gracture](definitions/nuance/healed_or_chronic_rib_fracture.json)
   - Frequency: Common  
 - Prominent Schmorl's node deformity  
@@ -227,7 +228,12 @@
 - Entostosis of vertebra  
   - Frequency: Rare  
 - Fusion of ribs  
-  - Frequency: Rare  
+  - Frequency: Rare
+- [subcutaneous soft tissue nodule](definitions/nuance/subcutaneous_soft_tissue_nodule.json)  
+  - Frequency: Common
+_ [Thoracic spine fusion hardware](definitions/nuance/thoracic_spine_fusion_hardware.json)
+  _ Frequency : Common
+
 
 ## Bronchi
 
@@ -406,4 +412,6 @@
   - Uncommon  
   - SmartReporting working 2024-01-26  
 - Pulmonary congenital variants  
+  - Uncommon
+- [Emphysematous changes](Definitions/nuance/emphysematous_change.json)
   - Uncommon
