@@ -121,8 +121,9 @@
   - Priority: upmedic: 🔝  
 - ⭐ [Hepatic cysts](definitions/hood/hepatic-cyst.md)
   - Frequency: Uncommon  
-- ⭐ Pancreatic cysts
-  - Frequency: Rare  
+- ⭐ [Pancreatic cysts](./definitions/upmedic/Cyst.cde.md)
+  - Frequency: Rare
+  - Status: ✅ upmedic 2024-02-28
   - Citation: [RDES207: Pancreatic Cyst on CT](https://radelement.org/home/sets/set/RDES207)  
 - ⭐ Renal cysts
   - Frequency: Uncommon  
@@ -239,12 +240,12 @@
 - Variant anatomy  
   - Bronchial atresia  
   - Tracheal bronchus  
-  - Bronchogenic cyst  
+  - [Bronchogenic cyst](./definitions/upmedic/Cyst.cde.md) Status: ✅ upmedic 2024-02-28
 
 ## Mediastinum
 
 - ⭐ Mediastinal mass
-- ⭐ Mediastinal cyst
+- ⭐ [Mediastinal cyst](./definitions/upmedic/Cyst.cde.md) Status: ✅ upmedic 2024-02-28
   - Thymic, pericardial, duplication, neuroenteric  
 - ⭐ Mediastinal fluid collection
   - i.e. seroma, hematoma, abscess  
@@ -270,7 +271,7 @@
   - Includes pericardial recesses  
 - ⭐ [Pericardial calcification](definitions/hood/pericardial-effusion.md)
 - ⭐ [Pericardial thickening](definitions/hood/pericardial-effusion.md)
-- Pericardial cyst  
+- [Pericardial cyst](./definitions/upmedic/Cyst.cde.md) 
   - Overlap with 'mediastinal cyst'  
 - Pericardial mass  
 
