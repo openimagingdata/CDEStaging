@@ -163,8 +163,7 @@ _ [Post thoracotomy defects in chest wall](definitions/nuance/post-thoracotomy_d
 - Intraductal papillary mucinous neoplasm  
   - Frequency: Rare  
 - Splenic artery aneurysm  
-  - Frequency: Uncommon  
-
+  - Frequency: Uncommon
 
 ## Musculoskeletal (Old version)
 
@@ -231,9 +230,8 @@ _ [Post thoracotomy defects in chest wall](definitions/nuance/post-thoracotomy_d
   - Frequency: Rare
 - [subcutaneous soft tissue nodule](definitions/nuance/subcutaneous_soft_tissue_nodule.json)  
   - Frequency: Common
-_ [Thoracic spine fusion hardware](definitions/nuance/thoracic_spine_fusion_hardware.json)
-  _ Frequency : Common
-
+- [Thoracic spine fusion hardware](definitions/nuance/thoracic_spine_fusion_hardware.json)  
+  - Frequency: Common
 
 ## Bronchi
 
