@@ -28,4 +28,5 @@ Mastectomy / breast implant
   - Axillary surgical clips
     - Synonym: lymph node dissection
     - Synonym: axillary dissection / axillary nodal dissection
-  - // potential observations that would deserve commentary should be excluded from this schema, like skin thickening, seroma, osseous lesions, soft tissue nodularity
+  - Skin thickening
+  - Seroma

@@ -10,19 +10,14 @@
 - Ventricular shunt catheter
   - Ventriculoperitoneal, ventriculoatrial, ventriculopleural
 - Tunneled port catheter
-  - 🚧 upmedic 2024-01-22
 - Tunneled central venous catheter (CVC)
-  - 🚧 upmedic 2024-01-22
 - Non-tunneled central venous catheter (CVC)
-  - 🚧 upmedic 2024-01-22
 - Pulmonary artery catheter (Swann-Ganz)
-- Peripherally inserted central catheter (PICC)
-  - 🚧 upmedic 2024-01-22
-- [Endotracheal tube](definitions/upmedic/EndotrachealTube.cde.md)
-  - 🚧 upmedic 2024-01-22
+- ⭐ [Peripherally inserted central catheter (PICC)](definitions/hood/PICC.md)
+- ⭐ [Endotracheal tube](definitions/upmedic/EndotrachealTube.cde.md)
 - Tracheostomy tube
 - Gastrostomy tube
-- [Gastric tube](definitions/upmedic/EsophagealGastricTube.cde.md)
+- ⭐ [Gastric tube](definitions/upmedic/EsophagealGastricTube.cde.md)
   - Nasogastric/orogastric, "esophageal tube
 
 ## Devices
@@ -50,9 +45,9 @@
 
 ## Chest wall (soft tissue)
 
-- ⭐ [Mastectomy](definitions/hood/mastectomy.md)
+- ⭐ [Mastectomy](definitions/hood/mastectomy-breast-implant.md)
   - Includes flap reconstruction, postsurgical change  
-- Breast implants  
+- ⭐ [Breast implant](definitions/hood/mastectomy-breast-implant.md) 
 - Breast mass  
 - Breast calcification  
 - Axillary nodal dissection  
@@ -69,10 +64,8 @@
 
 ## Thyroid
 
-- ⭐ Thyromegaly
-  - 🚧 upmedic 2024-01-22  
-- ⭐ Thyroid nodule
-  - Model after TI-RADS  
+- ⭐ [Thyromegaly](definitions/upmedic/ThyroidGland.cde.md)
+- ⭐ [Thyroid nodule](definitions/upmedic/ThyroidNodules.cde.md)
 - Thyroid calcification  
 - Thyroidectomy  
   - Includes hemithyroidectomy  
@@ -80,7 +73,7 @@
   - Relation to other structures  
     - Extent into superior mediastinum  
     - Mass effect on trachea  
-- ⭐ Thyroid atrophy
+- Thyroid atrophy
 
 ## Trachea
 
@@ -114,24 +107,17 @@
 - Esophagectomy  
   - Gastric pull-through  
 
-## Abdominal (Old version)
+## Abdominal
 
 - ⭐ Hiatal hernia
-  - Frequency: Common  
-  - Priority: upmedic: 🔝  
 - ⭐ [Hepatic cysts](definitions/hood/hepatic-cyst.md)
-  - Frequency: Uncommon  
-- ⭐ [Pancreatic cysts](./definitions/upmedic/Cyst.cde.md)
-  - Frequency: Rare
-  - Status: ✅ upmedic 2024-02-28
+- ⭐ [Pancreatic cysts](/definitions/upmedic/Cyst.cde.md)
   - Citation: [RDES207: Pancreatic Cyst on CT](https://radelement.org/home/sets/set/RDES207)  
 - ⭐ Renal cysts
-  - Frequency: Uncommon  
 - Gastrohepatic lymph nodes  
   - Frequency: Rare  
   - Priority: upmedic: 🔝  
 - ⭐ Adrenal nodules
-  - Frequency: Uncommon  
   - Citation: [RDES3: Adrenal Nodule](https://radelement.org/home/sets/set/RDES3)  
 - ⭐ Splenic granulomata
   - Frequency: Rare  
@@ -163,7 +149,7 @@
   - Frequency: Uncommon  
 
 
-## Musculoskeletal (Old version)
+## Musculoskeletal
 
 - ⭐ [Degenerative changes in the thoracic skeleton](definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
   - Frequency: Common  
@@ -350,7 +336,7 @@
   - Includes hydro/hemo-pneumothorax, residual pleural space s/p lobectomy, trapped lung  
   - [RDES44: Pneumothorax](https://radelement.org/home/sets/set/RDES44)  
 
-## Previous pulmonary findings list (Old version)
+## Pulmonary findings list
 
 - ⭐ Granulomas
   - Uncommon  
