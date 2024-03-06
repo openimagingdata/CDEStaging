@@ -1,0 +1,47 @@
+{
+  "_id": "TEMP",
+  "name": "",
+  "description": "",
+  "attributes": [
+    {
+      "name": "presence",
+      "description": "",
+      "type": "choice",
+      "values": [
+        {
+          "name": "absent",
+          "description": ""
+        },
+        {
+          "name": "present",
+          "description": ""
+        },
+        {
+          "name": "indeterminate",
+          "description": ""
+        },
+        {
+          "name": "unknown",
+          "description": ""
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "location",
+      "description": "The anatomical region of the ",
+      "type": "choice",
+      "values": [
+        {
+          "name": "",
+          "description": ""
+        },
+        {
+          "name": "",
+          "description": ""
+        }
+      ],
+      "required": false
+    }
+  ]
+}
