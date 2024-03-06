@@ -1,4 +1,4 @@
-### Compression Fracture (Final)
+### Compression Fracture
 
 #### Identification
 

@@ -48,7 +48,7 @@
 - Breast mass  
 - Breast calcification  
 - Axillary nodal dissection  
-- Gynecomastia  
+- [Gynecomastia](definitions/hood/gynecomastia.md)
 - Epidermal inclusion cyst  
   - Aka sebaceous or epidermoid cyst  
 - Fibroelastoma  
@@ -109,7 +109,6 @@
 - ⭐ [Bronchiectasis](definitions/hood/bronchiectasis.md)
   - Cylindrical, varicose, cystic, traction  
 - [Bronchiolectasis](definitions/hood/bronchiolectasis.md)
-  - Traction  
 - Bronchial stenosis  
   - Includes bronchial obliterans  
 - [Bronchial wall thickening](definitions/hood/bronchial-wall-thickening.md)  
@@ -160,10 +159,10 @@
 
 - ⭐ [Cardiac chamber enlargement](definitions/upmedic/Cardiomegaly.cde.md)
 - Valvular calcifications  
-- ⭐ Annular calcifications
+- ⭐ [Annular calcifications](definitions/hood/annular-calcifications.md)
 - Thrombus  
   - All four chambers; left atrial appendage; catheter-associated  
-- Right heart strain  
+- [Right heart strain]
   - Septal bowing; RV:LV ratio; contrast reflux  
 - ⭐ [Coronary artery calcification](definitions/nuance/coronary_calcifications.txt)
   - [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139)  
@@ -171,7 +170,7 @@
 - Changes after myocardial infarction  
   - Subendocardial fat; LV remodeling/aneurysm; papillary muscle calcification  
 - Lipomatous atrial septal hypertrophy (LASH)  
-- ⭐ Cardiac transplant
+- Cardiac transplant
 
 #### Congenital variants
 
@@ -205,7 +204,7 @@
 
 - Pulmonary artery dilation
   - \> 3.2 cm  
-- ⭐ Pulmonary embolus
+- ⭐ [Pulmonary embolus](definitions/hood/pulmonary-emboli.md)
   - Acute; chronic; acute on chronic  
   - [RDES80: Pulmonary Embolism](https://radelement.org/home/sets/set/RDES80)  
 - Pulmonary thrombus  
@@ -227,7 +226,7 @@
   - Includes hydro/hemo-pneumothorax, residual pleural space s/p lobectomy, trapped lung  
   - [RDES44: Pneumothorax](https://radelement.org/home/sets/set/RDES44)  
 
-## Pulmonary findings list
+## Pulmonary
 
 - ⭐ [Calcified granulomas](definitions/hood/calcified-granuloma.md)
 - ⭐ [Pulmonary nodules (solitary, multiple)](definitions/upmedic/NodularPattern.cde.md)
@@ -252,10 +251,9 @@
 - ⭐ [Pancreatic cysts](definitions/upmedic/Cyst.cde.md)
   - Citation: [RDES207: Pancreatic Cyst on CT](https://radelement.org/home/sets/set/RDES207)  
 - ⭐ [Renal cysts](definitions/nuance/hepatic_and_renal_cysts.json)
-- Gastrohepatic lymph nodes
-- ⭐ Adrenal nodules
+- ⭐ [Adrenal nodule](definitions/hood/adrenal-nodule.md)
   - Citation: [RDES3: Adrenal Nodule](https://radelement.org/home/sets/set/RDES3)  
-- Cholelithiasis
+- ⭐ [Cholelithiasis](definitions/hood/cholelithiasis.md)
 - ⭐ [Upper abdominal lymphadenopathy](definitions/nuance/upper_abdominal_lymphadenopathy.json) (🚧 Scaffold)
 - ⭐ [Adrenal gland thickening](definitions/nuance/adrenal_thickening.json) (🚧 Scaffold)
 - ⭐ [Hepatic steatosis](definitions/nuance/hepatic_steatosis.json) (🚧 Scaffold)
@@ -268,6 +266,7 @@
 
 ## Musculoskeletal
 
+- [Median sternotomy](definitions/hood/median-sternotomy.md)
 - ⭐ [Ostoepenia](definitions/hood/osteopenia-osteoporosis.md)
 - ⭐ [Degenerative changes in the thoracic skeleton](definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
 - ⭐ Lytic lesions
@@ -278,7 +277,7 @@
 - ⭐ [Chest wall mass](definitions/nuance/chest_wall_mass.json) (🚧 Scaffold)
 - ⭐ [Scoliosis](definitions/upmedic/ThoracicSpine.cdes.md)
   - Status: [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
-- ⭐ [Vertebral compression fracture](definitions/nuance/thoracic_spine_compression_deformity.json)
+- ⭐ [Vertebral compression fracture](definitions/hood/compression-fracture.md) | [Alternate](definitions/nuance/thoracic_spine_compression_deformity.json)
   - Status: [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
 - ⭐ [Osteopenic bone](definitions/hood/osteopenia-osteoporosis.md)
 - [Healed rib fracture](definitions/hood/healed-rib-fracture.md)  
