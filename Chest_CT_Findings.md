@@ -104,101 +104,6 @@
 - Esophagectomy  
   - Gastric pull-through  
 
-## Abdominal
-
-- ⭐ [Hiatal hernia](definitions/nuance/hiatal_hernia.json)
-- ⭐ [Hepatic cysts](definitions/hood/hepatic-cyst.md)
-- ⭐ [Pancreatic cysts](definitions/upmedic/Cyst.cde.md)
-  - Citation: [RDES207: Pancreatic Cyst on CT](https://radelement.org/home/sets/set/RDES207)  
-- ⭐ [Renal cysts](definitions/nuance/hepatic_and_renal_cysts.json)
-- Gastrohepatic lymph nodes  
-  - Frequency: Rare  
-  - Priority: upmedic: 🔝  
-- ⭐ Adrenal nodules
-  - Citation: [RDES3: Adrenal Nodule](https://radelement.org/home/sets/set/RDES3)  
-- ⭐ Splenic granulomata
-  - Frequency: Rare  
-- Gallbladder abnormality  
-  - Frequency: Uncommon  
-- ⭐ [Upper abdominal lymphadenopathy](definitions/nuance/upper_abdominal_lymphadenopathy.json) (🚧 Scaffold)
-  - Frequency: Uncommon  
-- ⭐ [Adrenal gland thickening](definitions/nuance/adrenal_thickening.json) (🚧 Scaffold)
-  - Frequency: Uncommon  
-- ⭐ [Hepatic steatosis](definitions/nuance/hepatic_steatosis.json) (🚧 Scaffold)
-  - Frequency: Common  
-- Colonic diverticulosis  
-  - Frequency: Common  
-- ⭐ [Pneumobilia](definitions/nuance/pneumobilia.json(🚧 Scaffold)
-  - Frequency: Uncommon  
-- Free pelvic fluid  
-  - Frequency: Common  
-- ⭐ [Liver hemangioma](definitions/nuance/liver_hemangioma.json) (🚧 Scaffold)
-  - Frequency: Common  
-- ⭐ [Kidney stone](definitions/nuance/renal_stone.json) (🚧 Scaffold)
-  - Frequency: Common  
-- Kidney atrophy  
-  - Frequency: Uncommon  
-- Intraductal papillary mucinous neoplasm  
-  - Frequency: Rare  
-- Splenic artery aneurysm  
-  - Frequency: Uncommon  
-
-## Musculoskeletal
-
-- ⭐ [Ostoepenia](definitions/hood/osteopenia-osteoporosis.md)
-- ⭐ [Degenerative changes in the thoracic skeleton](definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
-- ⭐ Lytic lesions
-  - Frequency: Uncommon  
-- ⭐ Blastic lesions
-  - Frequency: Uncommon  
-- ⭐ [Rib fracture](definitions/hood/bones-and-thoracic-cage.md)
-  - [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
-- ⭐ [Sternal fracture](definitions/nuance/sternum_fracture.json) (🚧 Scaffold)
-  - Frequency: Rare  
-- Costochondral junction abnormalities  
-  - Frequency: Uncommon  
-- ⭐ [Chest wall mass](definitions/nuance/chest_wall_mass.json) (🚧 Scaffold)
-  - Frequency: Rare  
-- ⭐ [Scoliosis](definitions/upmedic/ThoracicSpine.cdes.md)
-  - Frequency: Rare  
-  - Status: [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
-- Cervical Rib  
-  - Frequency: Uncommon  
-  - Status: [RDES101: Cervical Rib](https://radelement.org/home/sets/set/RDES101)  
-- ⭐ [Vertebral compression fracture](definitions/nuance/thoracic_spine_compression_deformity.json)
-  - Frequency: Uncommon  
-  - Status: [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
-- ⭐ [Osteopenic bone](definitions/nuance/osteopenia.json) (🚧 Scaffold)
-  - Frequency: Common  
-- [Healed rib fracture](definitions/hood/healed-rib-fracture.md)  
-  - Frequency: Common  
-- Prominent Schmorl's node deformity  
-  - Frequency: Rare  
-- Skeletal hyperostosis  
-  - Frequency: Uncommon  
-- Osteophyte of the spine  
-  - Frequency: Common  
-- Benign soft tissue lesion  
-  - Frequency: Common  
-- Deformity of healed fracture  
-  - Frequency: Common  
-- Thoracic Kyphosis  
-  - Frequency: Common  
-- ⭐ [Hemangioma of thoracic spine](definitions/nuance/thoracic_spine_hemangioma.json)
-  - Frequency: Common  
-- Spinal stenosis  
-  - Frequency: Common  
-- [Rib fracture](definitions/hood/fracture.md)  
-  - Frequency: Common  
-- ⭐ [Shoulder arthritis](definitions/nuance/shoulder_arthritis.json) (🚧 Scaffold)
-  - Frequency: Common  
-- Vertebral body hemangioma  
-  - Frequency: Common  
-- Entostosis of vertebra  
-  - Frequency: Rare  
-- Fusion of ribs  
-  - Frequency: Rare  
-
 ## Bronchi
 
 - ⭐ [Bronchiectasis](definitions/hood/bronchiectasis.md)
@@ -296,7 +201,6 @@
   - Includes origins of great vessels; aberrant subclavian artery, etc  
 - Aortic post-surgical changes  
 
-
 ### Pulmonary artery
 
 - Pulmonary artery dilation  
@@ -339,3 +243,48 @@
 - ⭐ [Pulmonary cysts](definitions/smartreporting/Pulmonary_cysts.txt)
 - [Radiation fibrosis](definitions/hood/radiation-fibrosis.md)
 - ⭐ [Subpleural reticular opacities](definitions/hood/subpleural-reticular-opacities.md)
+
+## Abdominal
+
+- ⭐ [Hiatal hernia](definitions/nuance/hiatal_hernia.json)
+- ⭐ [Hepatic cysts](definitions/hood/hepatic-cyst.md)
+- ⭐ [Pancreatic cysts](definitions/upmedic/Cyst.cde.md)
+  - Citation: [RDES207: Pancreatic Cyst on CT](https://radelement.org/home/sets/set/RDES207)  
+- ⭐ [Renal cysts](definitions/nuance/hepatic_and_renal_cysts.json)
+- Gastrohepatic lymph nodes
+- ⭐ Adrenal nodules
+  - Citation: [RDES3: Adrenal Nodule](https://radelement.org/home/sets/set/RDES3)  
+- ⭐ Splenic granulomata
+- Gallbladder abnormality  
+- ⭐ [Upper abdominal lymphadenopathy](definitions/nuance/upper_abdominal_lymphadenopathy.json) (🚧 Scaffold)
+- ⭐ [Adrenal gland thickening](definitions/nuance/adrenal_thickening.json) (🚧 Scaffold)
+- ⭐ [Hepatic steatosis](definitions/nuance/hepatic_steatosis.json) (🚧 Scaffold)
+- Colonic diverticulosis  
+- ⭐ [Pneumobilia](definitions/nuance/pneumobilia.json(🚧 Scaffold)
+- Free pelvic fluid  
+- ⭐ [Liver hemangioma](definitions/nuance/liver_hemangioma.json) (🚧 Scaffold)
+- ⭐ [Kidney stone](definitions/nuance/renal_stone.json) (🚧 Scaffold)
+- Kidney atrophy  
+- Intraductal papillary mucinous neoplasm  
+- Splenic artery aneurysm  
+
+## Musculoskeletal
+
+- ⭐ [Ostoepenia](definitions/hood/osteopenia-osteoporosis.md)
+- ⭐ [Degenerative changes in the thoracic skeleton](definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
+- ⭐ Lytic lesions
+- ⭐ Blastic lesions
+- ⭐ [Rib fracture](definitions/hood/bones-and-thoracic-cage.md)
+  - [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
+- ⭐ [Sternal fracture](definitions/nuance/sternum_fracture.json) (🚧 Scaffold)
+- ⭐ [Chest wall mass](definitions/nuance/chest_wall_mass.json) (🚧 Scaffold)
+- ⭐ [Scoliosis](definitions/upmedic/ThoracicSpine.cdes.md)
+  - Status: [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
+- Cervical Rib  
+  - Status: [RDES101: Cervical Rib](https://radelement.org/home/sets/set/RDES101)  
+- ⭐ [Vertebral compression fracture](definitions/nuance/thoracic_spine_compression_deformity.json)
+  - Status: [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
+- ⭐ [Osteopenic bone](definitions/nuance/osteopenia.json) (🚧 Scaffold)
+- [Healed rib fracture](definitions/hood/healed-rib-fracture.md)  
+- ⭐ [Hemangioma of thoracic spine](definitions/nuance/thoracic_spine_hemangioma.json)
+- ⭐ [Shoulder arthritis](definitions/nuance/shoulder_arthritis.json) (🚧 Scaffold)
