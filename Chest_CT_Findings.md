@@ -21,7 +21,7 @@
 
 ## Devices
 
-- ⭐ [AICD / ICD / pacemaker](definitions/hood/pacemaker-aicd.md) 
+- ⭐ [AICD / ICD / pacemaker](definitions/hood/pacemaker-aicd.md)
 - Loop recorder  
 - Cutaneous cardiac rhythm monitor (ZIO patch)  
 - Left ventricular assist device (LVAD)  
@@ -33,7 +33,7 @@
 - Arterial stent  
   - Non-coronary  
 - Coronary stent  
-- ⭐ [Replaced valve](definitions\hood\replaced-cardiac-valve.md)
+- ⭐ [Replaced valve](definitions/hood/replaced-cardiac-valve.md)
   - Aortic, mitral, tricuspid, pulmonary  
 - PFO closure device  
 - Left atrial appendage closure device  
@@ -44,7 +44,7 @@
 
 - ⭐ [Mastectomy](definitions/hood/mastectomy-breast-implant.md)
   - Includes flap reconstruction, postsurgical change  
-- ⭐ [Breast implant](definitions/hood/mastectomy-breast-implant.md) 
+- ⭐ [Breast implant](definitions/hood/mastectomy-breast-implant.md)
 - Breast mass  
 - Breast calcification  
 - Axillary nodal dissection  
@@ -108,7 +108,7 @@
 
 - ⭐ Hiatal hernia
 - ⭐ [Hepatic cysts](definitions/hood/hepatic-cyst.md)
-- ⭐ [Pancreatic cysts](/definitions/upmedic/Cyst.cde.md)
+- ⭐ [Pancreatic cysts](definitions/upmedic/Cyst.cde.md)
   - Citation: [RDES207: Pancreatic Cyst on CT](https://radelement.org/home/sets/set/RDES207)  
 - ⭐ Renal cysts
 - Gastrohepatic lymph nodes  
@@ -144,7 +144,6 @@
   - Frequency: Rare  
 - Splenic artery aneurysm  
   - Frequency: Uncommon  
-
 
 ## Musculoskeletal
 
@@ -204,13 +203,13 @@
 
 ## Bronchi
 
-- ⭐ [Bronchiectasis](definitions\hood\bronchiectasis.md)
+- ⭐ [Bronchiectasis](definitions/hood/bronchiectasis.md)
   - Cylindrical, varicose, cystic, traction  
-- Bronchiolectasis  
+- [Bronchiolectasis](definitions/hood/bronchiolectasis.md)
   - Traction  
 - Bronchial stenosis  
   - Includes bronchial obliterans  
-- Bronchial wall thickening  
+- [Bronchial wall thickening](definitions/hood/bronchial-wall-thickening.md)  
   - Includes peribronchial thickening  
 - Mucous impaction  
 - Bronchial occlusion  
@@ -219,27 +218,27 @@
 - Variant anatomy  
   - Bronchial atresia  
   - Tracheal bronchus  
-  - [Bronchogenic cyst](./definitions/upmedic/Cyst.cde.md) Status: ✅ upmedic 2024-02-28
+  - [Bronchogenic cyst](definitions/upmedic/Cyst.cde.md)
 
 ## Mediastinum
 
-- ⭐ Mediastinal mass
-- ⭐ [Mediastinal cyst](./definitions/upmedic/Cyst.cde.md) Status: ✅ upmedic 2024-02-28
+- ⭐ [Mediastinal mass](definitions/hood/mediastinal-mass.md)
+- ⭐ [Mediastinal cyst](definitions/upmedic/Cyst.cde.md)
   - Thymic, pericardial, duplication, neuroenteric  
-- ⭐ Mediastinal fluid collection
+- ⭐ [Mediastinal fluid collection](definitions/hood/mediastinal-fluid-collection.md)
   - i.e. seroma, hematoma, abscess  
-- ⭐ Mediastinal fat stranding
+- ⭐ [Mediastinal fat stranding](definitions/hood/mediastinal-fat-stranding.md)
   - Post-surgical, post-traumatic, fibrosis, mediastinitis  
-- ⭐ Residual thymus
+- ⭐ [Residual thymus](definitions/hood/thymus.md)
   - Separate from mediastinal mass  
-- Bochdalek hernia  
-- Morgagni hernia  
-- Hiatal hernia  
+- [Bochdalek hernia](definitions/hood/bochdalek-hernia.md)
+- [Morgagni hernia](definitions/hood/morgagni-hernia.md)
+- [Hiatal hernia](definitions/hood/hiatal-hernia.md)  
   - Sliding-type  
   - Paraesophageal  
   - Intrathoracic gastric herniation  
-- ⭐ Pneumomediastinum
-- ⭐ Lymph nodes
+- ⭐ [Pneumomediastinum](definitions/hood/pneumomediastinum.md)
+- ⭐ [Lymph nodes](definitions/hood/mediastinal-lymph-nodes.md)
   - Standard thoracic lymph node stations  
   - Nonregional stations including internal mammary, intercostal, anterior/middle diaphragmatic  
     - [AJR citation](https://ajronline.org/doi/full/10.2214/AJR.11.7446)  
@@ -250,16 +249,13 @@
   - Includes pericardial recesses  
 - ⭐ [Pericardial calcification](definitions/hood/pericardial-effusion.md)
 - ⭐ [Pericardial thickening](definitions/hood/pericardial-effusion.md)
-- [Pericardial cyst](definitions/upmedic/Cyst.cde.md) 
+- [Pericardial cyst](definitions/upmedic/Cyst.cde.md)
   - Overlap with 'mediastinal cyst'  
 - Pericardial mass  
 
 ### Cardiac
 
 - ⭐ [Cardiac chamber enlargement](definitions/upmedic/Cardiomegaly.cde.md)
-  - All four chambers included  
-  - ✅ upmedic  (2024-01-22)  
-- Left ventricular hypertrophy  
 - Valvular calcifications  
 - ⭐ Annular calcifications
 - Thrombus  
@@ -268,7 +264,7 @@
   - Septal bowing; RV:LV ratio; contrast reflux  
 - ⭐ [Coronary artery calcification](definitions/nuance/coronary_calcifications.txt)
   - [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139)  
-- ⭐ Coronary artery bypass graft (CABG)
+- ⭐ [Coronary artery bypass graft (CABG)](definitions/hood/cabg.md)
 - Changes after myocardial infarction  
   - Subendocardial fat; LV remodeling/aneurysm; papillary muscle calcification  
 - Lipomatous atrial septal hypertrophy (LASH)  
@@ -291,7 +287,7 @@
 
 ### Aorta
 
-- ⭐ Aortic atherosclerosis
+- ⭐ [Aortic atherosclerosis](definitions/hood/aortic-atherosclerosis.md)
   - Calcified and noncalcified  
 - ⭐ [Aortic aneurysm](definitions/hood/aortic-measurements.md)
   - Size-based; includes ectasia / dilation  
@@ -301,7 +297,7 @@
 - Aortic arch variant anatomy  
   - Includes origins of great vessels; aberrant subclavian artery, etc  
 - Aortic post-surgical changes  
-  - // solicit cardiothoracic radiologist input for how to organize!  
+
 
 ### Pulmonary artery
 
@@ -325,43 +321,23 @@
   - Fatty deposition; calcified plaques; s/p talc pleurodesis  
 - ⭐ Pleural nodularity
   - [Includes mass, metastases](definitions/upmedic/PulmonaryMetastases.cde.md)  
-- ⭐ Pneumothorax
+- ⭐ [Pneumothorax](definitions/hood/pneumothorax.md)
   - Includes hydro/hemo-pneumothorax, residual pleural space s/p lobectomy, trapped lung  
   - [RDES44: Pneumothorax](https://radelement.org/home/sets/set/RDES44)  
 
 ## Pulmonary findings list
 
-- ⭐ Granulomas
-  - Uncommon  
+- ⭐ [Calcified granulomas](definitions/hood/calcified-granuloma.md)
 - ⭐ [Pulmonary nodules (solitary, multiple)](definitions/upmedic/NodularPattern.cde.md)
-  - Common  
   - [RDES195: Pulmonary Nodule](https://radelement.org/home/sets/set/RDES195)  
   - [RDES208: Fleischner](https://radelement.org/home/sets/set/RDES208)  
   - [RDES99: Incidental Pulmonary Nodules](https://radelement.org/home/sets/set/RDES99)  
 - ⭐ [Pulmonary Consolidation](definitions/smartreporting/consolidation.txt)
-- ⭐ Pulmonary edema
-  - Common  
-- Focal subpleural linear opacities  
-  - Uncommon  
-- Nodular opacities  
+- ⭐ [Interlobular septal thickening](definitions/hood/interlobular-septal-thickening.md)
 - ⭐ [Air trapping](definitions/upmedic/AirTrapping.cde.md)
 - ⭐ [Honeycombing](definitions/nuance/fibrotic_changes_honeycombing.txt)
-  - Rare  
-- Pleuroparenchymal fibroelastosis  
-  - Rare  
-- Intraparenchymal lymph nodes  
-  - Uncommon  
-- Asbestos-related lung disease  
-  - Rare  
-- ⭐ Reticular opacities
-  - Uncommon  
-  - upmedic: 🔝  
-- Pulmonary fibrosis  
-  - Uncommon  
-  - upmedic: 🔝  
-  - Nuance/MS working 2024–01–03  
+- [Intraparenchymal lymph nodes](definitions/hood/intraparenchymal-lymph-node.md)
+- [Usual interstitial pneumonia (UIP)](definitions/hood/usual-interstitial-pneumonia-uip.md)
 - ⭐ [Pulmonary cysts](definitions/smartreporting/Pulmonary_cysts.txt)
-  - Uncommon  
-  - SmartReporting working 2024-01-26  
-- Pulmonary congenital variants  
-  - Uncommon
+- [Radiation fibrosis](definitions/hood/radiation-fibrosis.md)
+- ⭐ [Subpleural reticular opacities](definitions/hood/subpleural-reticular-opacities.md)
