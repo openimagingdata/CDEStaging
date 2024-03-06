@@ -52,7 +52,7 @@
 - Epidermal inclusion cyst  
   - Aka sebaceous or epidermoid cyst  
 - Fibroelastoma  
-- Lipoma  
+- [Lipoma](definitions/hood/lipoma.md)
 - Fluid collection  
   - Seroma; abscess; hematoma  
 - Lymphangioma  
@@ -76,8 +76,8 @@
 
 - Tracheal dilation  
 - Tracheal stenosis  
-- Tracheomalacia  
-- Saber-sheath trachea  
+- [Tracheomalacia](definitions/hood/tracheomalacia.md)
+- [Saber-sheath trachea](definitions/hood/saber-sheath-trachea.md)
 - Tracheal calcifications  
   - Cartilaginous rings or walls  
 - Tracheal thickening  
@@ -143,8 +143,8 @@
 - ⭐ [Pneumomediastinum](definitions/hood/pneumomediastinum.md)
 - ⭐ [Lymph nodes](definitions/hood/mediastinal-lymph-nodes.md)
   - Standard thoracic lymph node stations  
-  - Nonregional stations including internal mammary, intercostal, anterior/middle diaphragmatic  
-    - [AJR citation](https://ajronline.org/doi/full/10.2214/AJR.11.7446)  
+- Nonregional stations including internal mammary, intercostal, anterior/middle diaphragmatic  
+  - [AJR citation](https://ajronline.org/doi/full/10.2214/AJR.11.7446)  
 
 ### Pericardium
 
@@ -203,13 +203,13 @@
 
 ### Pulmonary artery
 
-- Pulmonary artery dilation  
+- Pulmonary artery dilation
   - \> 3.2 cm  
 - ⭐ Pulmonary embolus
   - Acute; chronic; acute on chronic  
   - [RDES80: Pulmonary Embolism](https://radelement.org/home/sets/set/RDES80)  
 - Pulmonary thrombus  
-  ⭐ - E.g. s/p lobectomy, radiation
+  - E.g. s/p lobectomy, radiation
 - Patent ductus arteriosus  
 - Calcified ligamentum arteriosum  
 - Variant pulmonary artery anatomy  
@@ -243,10 +243,11 @@
 - ⭐ [Pulmonary cysts](definitions/smartreporting/Pulmonary_cysts.txt)
 - [Radiation fibrosis](definitions/hood/radiation-fibrosis.md)
 - ⭐ [Subpleural reticular opacities](definitions/hood/subpleural-reticular-opacities.md)
+- [Wedge resection](definitions/hood/wedge-resection.md)
 
 ## Abdominal
 
-- ⭐ [Hiatal hernia](definitions/nuance/hiatal_hernia.json)
+- ⭐ [Hiatal hernia](definitions/hood/hiatal-hernia.md)
 - ⭐ [Hepatic cysts](definitions/hood/hepatic-cyst.md)
 - ⭐ [Pancreatic cysts](definitions/upmedic/Cyst.cde.md)
   - Citation: [RDES207: Pancreatic Cyst on CT](https://radelement.org/home/sets/set/RDES207)  
@@ -254,17 +255,14 @@
 - Gastrohepatic lymph nodes
 - ⭐ Adrenal nodules
   - Citation: [RDES3: Adrenal Nodule](https://radelement.org/home/sets/set/RDES3)  
-- ⭐ Splenic granulomata
-- Gallbladder abnormality  
+- Cholelithiasis
 - ⭐ [Upper abdominal lymphadenopathy](definitions/nuance/upper_abdominal_lymphadenopathy.json) (🚧 Scaffold)
 - ⭐ [Adrenal gland thickening](definitions/nuance/adrenal_thickening.json) (🚧 Scaffold)
 - ⭐ [Hepatic steatosis](definitions/nuance/hepatic_steatosis.json) (🚧 Scaffold)
-- Colonic diverticulosis  
-- ⭐ [Pneumobilia](definitions/nuance/pneumobilia.json(🚧 Scaffold)
-- Free pelvic fluid  
+- ⭐ [Pneumobilia](definitions/nuance/pneumobilia.json) (🚧 Scaffold)
+- Free fluid  
 - ⭐ [Liver hemangioma](definitions/nuance/liver_hemangioma.json) (🚧 Scaffold)
 - ⭐ [Kidney stone](definitions/nuance/renal_stone.json) (🚧 Scaffold)
-- Kidney atrophy  
 - Intraductal papillary mucinous neoplasm  
 - Splenic artery aneurysm  
 
@@ -280,11 +278,9 @@
 - ⭐ [Chest wall mass](definitions/nuance/chest_wall_mass.json) (🚧 Scaffold)
 - ⭐ [Scoliosis](definitions/upmedic/ThoracicSpine.cdes.md)
   - Status: [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
-- Cervical Rib  
-  - Status: [RDES101: Cervical Rib](https://radelement.org/home/sets/set/RDES101)  
 - ⭐ [Vertebral compression fracture](definitions/nuance/thoracic_spine_compression_deformity.json)
   - Status: [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
-- ⭐ [Osteopenic bone](definitions/nuance/osteopenia.json) (🚧 Scaffold)
+- ⭐ [Osteopenic bone](definitions/hood/osteopenia-osteoporosis.md)
 - [Healed rib fracture](definitions/hood/healed-rib-fracture.md)  
 - ⭐ [Hemangioma of thoracic spine](definitions/nuance/thoracic_spine_hemangioma.json)
 - ⭐ [Shoulder arthritis](definitions/nuance/shoulder_arthritis.json) (🚧 Scaffold)
