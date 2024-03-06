@@ -106,11 +106,11 @@
 
 ## Abdominal
 
-- ⭐ Hiatal hernia
+- ⭐ [Hiatal hernia](definitions/nuance/hiatal_hernia.json)
 - ⭐ [Hepatic cysts](definitions/hood/hepatic-cyst.md)
 - ⭐ [Pancreatic cysts](/definitions/upmedic/Cyst.cde.md)
   - Citation: [RDES207: Pancreatic Cyst on CT](https://radelement.org/home/sets/set/RDES207)  
-- ⭐ Renal cysts
+- ⭐ [Renal cysts](definitions/nuance/hepatic_and_renal_cysts.json)
 - Gastrohepatic lymph nodes  
   - Frequency: Rare  
   - Priority: upmedic: 🔝  
@@ -120,23 +120,21 @@
   - Frequency: Rare  
 - Gallbladder abnormality  
   - Frequency: Uncommon  
-- ⭐ Upper abdominal lymphadenopathy
+- ⭐ [Upper abdominal lymphadenopathy](definitions/nuance/upper_abdominal_lymphadenopathy.json) (🚧 Scaffold)
   - Frequency: Uncommon  
-- ⭐ Adrenal gland thickening
+- ⭐ [Adrenal gland thickening](definitions/nuance/adrenal_thickening.json) (🚧 Scaffold)
   - Frequency: Uncommon  
-- ⭐ Esophageal thickening
-  - Frequency: Uncommon  
-- ⭐ Hepatic steatosis
+- ⭐ [Hepatic steatosis](definitions/nuance/hepatic_steatosis.json) (🚧 Scaffold)
   - Frequency: Common  
 - Colonic diverticulosis  
   - Frequency: Common  
-- ⭐ Pneumobilia
+- ⭐ [Pneumobilia](definitions/nuance/pneumobilia.json(🚧 Scaffold)
   - Frequency: Uncommon  
 - Free pelvic fluid  
   - Frequency: Common  
-- ⭐ Liver hemangioma
+- ⭐ [Liver hemangioma](definitions/nuance/liver_hemangioma.json) (🚧 Scaffold)
   - Frequency: Common  
-- ⭐ Kidney stone
+- ⭐ [Kidney stone](definitions/nuance/renal_stone.json) (🚧 Scaffold)
   - Frequency: Common  
 - Kidney atrophy  
   - Frequency: Uncommon  
@@ -156,11 +154,11 @@
   - Frequency: Uncommon  
 - ⭐ [Rib fracture](definitions/hood/bones-and-thoracic-cage.md)
   - [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
-- ⭐ Sternal fracture
+- ⭐ [Sternal fracture](definitions/nuance/sternum_fracture.json) (🚧 Scaffold)
   - Frequency: Rare  
 - Costochondral junction abnormalities  
   - Frequency: Uncommon  
-- ⭐ Chest wall mass
+- ⭐ [Chest wall mass](definitions/nuance/chest_wall_mass.json) (🚧 Scaffold)
   - Frequency: Rare  
 - ⭐ [Scoliosis](definitions/upmedic/ThoracicSpine.cdes.md)
   - Frequency: Rare  
@@ -168,10 +166,10 @@
 - Cervical Rib  
   - Frequency: Uncommon  
   - Status: [RDES101: Cervical Rib](https://radelement.org/home/sets/set/RDES101)  
-- ⭐ Vertebral compression fracture
+- ⭐ [Vertebral compression fracture](definitions/nuance/thoracic_spine_compression_deformity.json)
   - Frequency: Uncommon  
   - Status: [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
-- ⭐ Osteopenic bone
+- ⭐ [Osteopenic bone](definitions/nuance/osteopenia.json) (🚧 Scaffold)
   - Frequency: Common  
 - [Healed rib fracture](definitions/hood/healed-rib-fracture.md)  
   - Frequency: Common  
@@ -187,13 +185,13 @@
   - Frequency: Common  
 - Thoracic Kyphosis  
   - Frequency: Common  
-- ⭐ Hemangioma of thoracic spine
+- ⭐ [Hemangioma of thoracic spine](definitions/nuance/thoracic_spine_hemangioma.json)
   - Frequency: Common  
 - Spinal stenosis  
   - Frequency: Common  
 - [Rib fracture](definitions/hood/fracture.md)  
   - Frequency: Common  
-- ⭐ Shoulder arthritis
+- ⭐ [Shoulder arthritis](definitions/nuance/shoulder_arthritis.json) (🚧 Scaffold)
   - Frequency: Common  
 - Vertebral body hemangioma  
   - Frequency: Common  
@@ -223,14 +221,14 @@
 
 ## Mediastinum
 
-- ⭐ Mediastinal mass
+- ⭐ [Mediastinal mass](definitions/nuance/mediastinal_mass.json) (🚧 Scaffold)
 - ⭐ [Mediastinal cyst](./definitions/upmedic/Cyst.cde.md) Status: ✅ upmedic 2024-02-28
   - Thymic, pericardial, duplication, neuroenteric  
-- ⭐ Mediastinal fluid collection
+- ⭐ [Mediastinal fluid collection](definitions/nuance/mediastinal_fluid_collection.json) (🚧 Scaffold)
   - i.e. seroma, hematoma, abscess  
-- ⭐ Mediastinal fat stranding
+- ⭐ [Mediastinal fat stranding](definitions/nuance/mediastinal_fat_stranding.json) (🚧 Scaffold)
   - Post-surgical, post-traumatic, fibrosis, mediastinitis  
-- ⭐ Residual thymus
+- ⭐ [Residual thymus](definitions/nuance/residual_thymus.json) (🚧 Scaffold)
   - Separate from mediastinal mass  
 - Bochdalek hernia  
 - Morgagni hernia  
@@ -238,7 +236,7 @@
   - Sliding-type  
   - Paraesophageal  
   - Intrathoracic gastric herniation  
-- ⭐ Pneumomediastinum
+- ⭐ [Pneumomediastinum](definitions/nuance/pneumomediastinum.json) (🚧 Scaffold)
 - ⭐ Lymph nodes
   - Standard thoracic lymph node stations  
   - Nonregional stations including internal mammary, intercostal, anterior/middle diaphragmatic  
@@ -291,7 +289,7 @@
 
 ### Aorta
 
-- ⭐ Aortic atherosclerosis
+- ⭐ [Aortic atherosclerosis](definitions/nuance/thoracic_vessel_atherosclerotic_calcification.json)
   - Calcified and noncalcified  
 - ⭐ [Aortic aneurysm](definitions/hood/aortic-measurements.md)
   - Size-based; includes ectasia / dilation  
