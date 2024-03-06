@@ -158,12 +158,10 @@
 ### Cardiac
 
 - ⭐ [Cardiac chamber enlargement](definitions/upmedic/Cardiomegaly.cde.md)
-- Valvular calcifications  
-- ⭐ [Annular calcifications](definitions/hood/annular-calcifications.md)
-- Thrombus  
+- ⭐ [Valvular/annular calcifications](definitions/hood/annular-calcifications.md)
+- Thrombus
   - All four chambers; left atrial appendage; catheter-associated  
-- [Right heart strain]
-  - Septal bowing; RV:LV ratio; contrast reflux  
+- ⭐ [Right heart strain](definitions/hood/right-heart-strain.md)
 - ⭐ [Coronary artery calcification](definitions/nuance/coronary_calcifications.txt)
   - [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139)  
 - ⭐ [Coronary artery bypass graft (CABG)](definitions/hood/cabg.md)
