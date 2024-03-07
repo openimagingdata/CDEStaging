@@ -1,11 +1,11 @@
 {
   "_id": "TEMP",
-  "name": "",
+  "name": "Upper abdominal lymphadenopathy",
   "description": "",
   "attributes": [
     {
       "name": "presence",
-      "description": "",
+      "description": "GPT ...",
       "type": "choice",
       "values": [
         {
