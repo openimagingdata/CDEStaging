@@ -196,12 +196,11 @@
   - [RDES252: Thoracic Aortic Dissection](https://radelement.org/home/sets/set/RDES252)  
 - Aortic arch variant anatomy  
   - Includes origins of great vessels; aberrant subclavian artery, etc  
-- Aortic post-surgical changes  
+- [Ascending aortic repair](definitions/hood/ascending-aortic-repair.md)
 
 ### Pulmonary artery
 
-- Pulmonary artery dilation
-  - \> 3.2 cm  
+- [Pulmonary artery dilation](definitions/hood/pulmonary-artery-dilation.md)
 - ⭐ [Pulmonary embolus](definitions/hood/pulmonary-emboli.md)
   - Acute; chronic; acute on chronic  
   - [RDES80: Pulmonary Embolism](https://radelement.org/home/sets/set/RDES80)  
@@ -254,11 +253,11 @@
 - ⭐ [Cholelithiasis](definitions/hood/cholelithiasis.md)
 - ⭐ [Upper abdominal lymphadenopathy](definitions/nuance/upper_abdominal_lymphadenopathy.json) (🚧 Scaffold)
 - ⭐ [Adrenal gland thickening](definitions/hood/adrenal-thickening.md)
-- ⭐ [Hepatic steatosis](definitions/nuance/hepatic_steatosis.json) (🚧 Scaffold)
+- ⭐ [Hepatic steatosis](definitions/hood/hepatic-steatosis.md)
 - ⭐ [Pneumobilia](definitions/hood/pneumobilia.md)
 - Free fluid  
 - ⭐ [Liver hemangioma](definitions/nuance/liver_hemangioma.json) (🚧 Scaffold)
-- ⭐ [Kidney stone](definitions/nuance/renal_stone.json) (🚧 Scaffold)
+- ⭐ [Nephrolithiasis](definitions/hood/nephrolithiasis.md)
 - Intraductal papillary mucinous neoplasm  
 - Splenic artery aneurysm  
 
