@@ -1,7 +1,7 @@
 {
   "_id": "TEMP",
-  "name": "",
-  "description": "",
+  "name": "adrenal gland thickening",
+  "description": "Evidenced by increased uniform or focal gland thickness on CT or MRI, with the normal limb width typically less than 10 mm; imaging features such as attenuation values, enhancement patterns, and presence of mass effect may assist in differentiating between benign and malignant etiologies.",
   "attributes": [
     {
       "name": "presence",
@@ -10,35 +10,39 @@
       "values": [
         {
           "name": "absent",
-          "description": ""
+          "description": "no adrenal gland thickening is present"
         },
         {
           "name": "present",
-          "description": ""
+          "description": "adrenal gland thickeing is present"
         },
         {
           "name": "indeterminate",
-          "description": ""
+          "description": "cannot determine whether adrenal gland thickening is present"
         },
         {
           "name": "unknown",
-          "description": ""
+          "description": "uncertainty regarding the presence of adrenal gland thickening"
         }
       ],
       "required": false
     },
     {
       "name": "location",
-      "description": "The anatomical region of the ",
+      "description": "The anatomical region of the adrenal gland thickening ",
       "type": "choice",
       "values": [
         {
-          "name": "",
-          "description": ""
+          "name": "right adrenal gland",
+          "description": "RID30324"
         },
         {
-          "name": "",
-          "description": ""
+          "name": "left adrenal gland",
+          "description": "RID30325"
+        },
+        {
+          "name": "adrenal gland",
+          "description": "RID88"
         }
       ],
       "required": false

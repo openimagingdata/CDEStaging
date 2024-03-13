@@ -1,7 +1,7 @@
 {
   "_id": "TEMP",
-  "name": "",
-  "description": "",
+  "name": "liver hemangioma",
+  "description": "Benign growth of blood vessels in the liver, often discovered accidentally during abdominal imaging scans. It appears as a distinct bright spot on ultrasound and CT scans, and as a bright area on MRI",
   "attributes": [
     {
       "name": "presence",
@@ -10,35 +10,31 @@
       "values": [
         {
           "name": "absent",
-          "description": ""
+          "description": "no liver hemangioma is present"
         },
         {
           "name": "present",
-          "description": ""
+          "description": "liver hemangioma is present"
         },
         {
           "name": "indeterminate",
-          "description": ""
+          "description": "cannot determine whether liver hemangioma is present"
         },
         {
           "name": "unknown",
-          "description": ""
+          "description": "uncertainty regarding the presence of liver hemangioma"
         }
       ],
       "required": false
     },
     {
       "name": "location",
-      "description": "The anatomical region of the ",
+      "description": "The anatomical region of the liver hemangioma",
       "type": "choice",
       "values": [
         {
-          "name": "",
-          "description": ""
-        },
-        {
-          "name": "",
-          "description": ""
+          "name": "liver",
+          "description": "RID58"
         }
       ],
       "required": false
