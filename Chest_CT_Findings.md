@@ -254,12 +254,11 @@
 - ⭐ [Upper abdominal lymphadenopathy](definitions/nuance/upper_abdominal_lymphadenopathy.json) (🚧 Scaffold)
 - ⭐ [Adrenal gland thickening](definitions/hood/adrenal-thickening.md)
 - ⭐ [Hepatic steatosis](definitions/hood/hepatic-steatosis.md)
-- ⭐ [Pneumobilia](definitions/hood/pneumobilia.md)
-- Free fluid  
-- ⭐ [Liver hemangioma](definitions/nuance/liver_hemangioma.json) (🚧 Scaffold)
+- [Pneumobilia](definitions/hood/pneumobilia.md)
+- ⭐ [Free fluid](definitions/hood/free-fluid.md)
+- ⭐ [Liver hemangioma](definitions/hood/hepatic-hemangioma.md)
 - ⭐ [Nephrolithiasis](definitions/hood/nephrolithiasis.md)
 - Intraductal papillary mucinous neoplasm  
-- Splenic artery aneurysm  
 
 ## Musculoskeletal
 
