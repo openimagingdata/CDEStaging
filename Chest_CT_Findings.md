@@ -253,9 +253,9 @@
   - Citation: [RDES3: Adrenal Nodule](https://radelement.org/home/sets/set/RDES3)  
 - ⭐ [Cholelithiasis](definitions/hood/cholelithiasis.md)
 - ⭐ [Upper abdominal lymphadenopathy](definitions/nuance/upper_abdominal_lymphadenopathy.json) (🚧 Scaffold)
-- ⭐ [Adrenal gland thickening](definitions/nuance/adrenal_thickening.json) (🚧 Scaffold)
+- ⭐ [Adrenal gland thickening](definitions/hood/adrenal-thickening.md)
 - ⭐ [Hepatic steatosis](definitions/nuance/hepatic_steatosis.json) (🚧 Scaffold)
-- ⭐ [Pneumobilia](definitions/nuance/pneumobilia.json) (🚧 Scaffold)
+- ⭐ [Pneumobilia](definitions/hood/pneumobilia.md)
 - Free fluid  
 - ⭐ [Liver hemangioma](definitions/nuance/liver_hemangioma.json) (🚧 Scaffold)
 - ⭐ [Kidney stone](definitions/nuance/renal_stone.json) (🚧 Scaffold)
@@ -265,19 +265,18 @@
 ## Musculoskeletal
 
 - [Median sternotomy](definitions/hood/median-sternotomy.md)
-- ⭐ [Ostoepenia](definitions/hood/osteopenia-osteoporosis.md)
+- ⭐ [Osteopenia](definitions/hood/osteopenia-osteoporosis.md)
 - ⭐ [Degenerative changes in the thoracic skeleton](definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
-- ⭐ Lytic lesions
-- ⭐ Blastic lesions
+- ⭐ [Lytic lesions](definitions/hood/lytic-lesion.md)
+- ⭐ [Sclerotic lesions](definitions/hood/sclerotic-lesion.md)
 - ⭐ [Rib fracture](definitions/hood/bones-and-thoracic-cage.md)
   - [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
-- ⭐ [Sternal fracture](definitions/nuance/sternum_fracture.json) (🚧 Scaffold)
+- ⭐ [Sternal fracture](definitions/hood/sternal-fracture.md)
 - ⭐ [Chest wall mass](definitions/nuance/chest_wall_mass.json) (🚧 Scaffold)
 - ⭐ [Scoliosis](definitions/upmedic/ThoracicSpine.cdes.md)
   - Status: [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
 - ⭐ [Vertebral compression fracture](definitions/hood/compression-fracture.md) | [Alternate](definitions/nuance/thoracic_spine_compression_deformity.json)
   - Status: [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
-- ⭐ [Osteopenic bone](definitions/hood/osteopenia-osteoporosis.md)
 - [Healed rib fracture](definitions/hood/healed-rib-fracture.md)  
 - ⭐ [Hemangioma of thoracic spine](definitions/nuance/thoracic_spine_hemangioma.json)
-- ⭐ [Shoulder arthritis](definitions/nuance/shoulder_arthritis.json) (🚧 Scaffold)
+- ⭐ [Glenohumeral joint](definitions/hood/glenohumeral-joint.md)
