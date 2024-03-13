@@ -1,44 +1,92 @@
 {
   "_id": "TEMP",
-  "name": "Upper abdominal lymphadenopathy",
-  "description": "",
+  "name": "upper abdominal lymphadenopathy",
+  "description": "Refers to the enlargement of lymph nodes in the upper abdominal region, which can be detected via imaging modalities. In radiologic evaluation, it is characterized by the presence of enlarged lymph nodes with a short-axis diameter typically greater than 1 cm on cross-sectional imaging, with CT and MRI ",
   "attributes": [
     {
       "name": "presence",
-      "description": "GPT ...",
+      "description": "",
       "type": "choice",
       "values": [
         {
           "name": "absent",
-          "description": ""
+          "description": "no upper abdominal lymphadenopathy is present"
         },
         {
           "name": "present",
-          "description": ""
+          "description": "upper abdominal lymphadenopathy is present"
         },
         {
           "name": "indeterminate",
-          "description": ""
+          "description": "cannot determine whether upper abdominal lymphadenopathy is present"
         },
         {
           "name": "unknown",
-          "description": ""
+          "description": "uncertainty regarding the presence of upper abdominal lymphadenopathy"
         }
       ],
       "required": false
     },
     {
       "name": "location",
-      "description": "The anatomical region of the ",
+      "description": "anatomical region of upper abdominal lymphadenopathy",
       "type": "choice",
       "values": [
         {
-          "name": "",
-          "description": ""
+          "name": "gastric lymph node group",
+          "description": "RID31919"
         },
         {
-          "name": "",
-          "description": ""
+          "name": "celiac lymph node group",
+          "description": "RID31912"
+        },
+        {
+          "name": "retroperitoneum",
+          "description": "RID431"
+        },
+        {
+          "name": "pancreaticoduodenal lymph node",
+          "description": "RID28857"
+        },
+        {
+          "name": "paracolic lymph node group",
+          "description": "RID31959"
+        },
+        {
+          "name": "hepatoportal lymph node group",
+          "description": "RID31997"
+        },
+        {
+          "name": "precaval lymph node group",
+          "description": "RID31977"
+        },
+        {
+          "name": "right common iliac lymph node group",
+          "description": "RID32012"
+        },
+        {
+          "name": "left common iliac lymph node group",
+          "description": "RID32013"
+        },
+        {
+          "name": "common iliac lymph node group",
+          "description": "RID32011"
+        },
+        {
+          "name": "pancreatic lymph node group",
+          "description": "RID31931"
+        },
+        {
+          "name": "mesenteric lymph node group",
+          "description": "RID31968"
+        },
+        {
+          "name": "abdominal lymph node group",
+          "description": "RID28854"
+        },
+        {
+          "name": "gastrohepatic lymph node group",
+          "description": "RID453"
         }
       ],
       "required": false
