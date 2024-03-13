@@ -1,7 +1,7 @@
 {
   "_id": "TEMP",
   "name": "Shoulder arthritis",
-  "description": " Shoulder arthritis is a degenerative joint condition which is characterized by the gradual breakdown of cartilage in the shoulder joint. Radiological assessment reveals joint space narrowing, osteophyte formation, subchondral sclerosis, and sometimes cyst formation in the glenohumeral or acromioclavicular joints. Imaging modalities such as X-rays or MRI are utilized to evaluate the extent of joint damage.",
+  "description": "degenerative joint condition characterized by the gradual breakdown of cartilage in the shoulder joint. Radiological assessment reveals joint space narrowing, osteophyte formation, subchondral sclerosis, and sometimes cyst formation in the glenohumeral or acromioclavicular joints. Imaging modalities such as X-rays or MRI are utilized to evaluate the extent of joint damage",
   "attributes": [
     {
       "name": "presence",
@@ -10,33 +10,73 @@
       "values": [
         {
           "name": "absent",
-          "description": "No shoulder arthritis is present."
+          "description": "no shoulder arthritis is present"
         },
         {
           "name": "present",
-          "description": "Shoulder arthritis is present."
+          "description": "shoulder arthritis is present"
         },
         {
           "name": "indeterminate",
-          "description": "It is uncertain whether a shoulder arthritis is present."
+          "description": "cannot determine whether shoulder arthritis is present"
         },
         {
           "name": "unknown",
-          "description": "There is uncertainty regarding the presence of shoulder arthritis."
+          "description": "uncertainty regarding the presence of shoulder arthritis"
         }
       ],
       "required": false
     },
     {
       "name": "location",
-      "description": "This indicates the anatomical region of the shulder arthritis.",
+      "description": "The anatomical region of the shulder arthritis",
       "type": "choice",
       "values": [
         {
           "name": "shoulder",
           "description": "RID39518"
+          "name": "shoulder",
+          "description": "RID39518"
         },
         {
+          "name": "glenohumeral joint",
+          "description": "RID1905"
+        },
+        {
+          "name": "acromioclavicular joint",
+          "description": "RID1895"
+        },
+        {
+          "name": "glenoid labrum",
+          "description": "RID1909"
+        },
+        {
+          "name": "supraspinatus tendo",
+          "description": "RID1953"
+        },
+        {
+          "name": "subscapularis tendon",
+          "description": "RID1951"
+        },
+        {
+          "name": "glenohumeral ligament",
+          "description": "RID1916"
+        },
+        {
+          "name": "head of humerus",
+          "description": "RID29093"
+        },
+        {
+          "name": "acromion",
+          "description": "RID1862"
+        },
+        {
+          "name": "clavicle",
+          "description": "RID1854"
+        },
+        {
+          "name": "coracoid process",
+          "description": "RID1863"
           "name": "glenohumeral joint",
           "description": "RID1905"
         },

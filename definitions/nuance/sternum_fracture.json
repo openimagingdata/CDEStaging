@@ -1,7 +1,7 @@
 {
   "_id": "TEMP",
   "name": "sternal fracture",
-  "description": "A sternal fracture is characterized by a break or crack in the breastbone, typically resulting from direct trauma to the chest. Adiological imaging such as X-rays or CT scans is utilized to visualize and assess the extent of the sternal injury, aiding in diagnosis and determining appropriate management strategies.",
+  "description": "A sternal fracture refers to a break or crack in the breastbone, typically resulting from direct trauma to the chest. adiological imaging such as X-rays or CT scans is utilized to visualize and assess the extent of the sternal injury, aiding in diagnosis and determining appropriate management strategies",
   "attributes": [
     {
       "name": "presence",
@@ -10,33 +10,37 @@
       "values": [
         {
           "name": "absent",
-          "description": "No sternal fracture is present."
+          "description": "no sternal fracture is present"
         },
         {
           "name": "present",
-          "description": "Sternal fracture is observed."
+          "description": "sternal fracture is present"
         },
         {
           "name": "indeterminate",
-          "description": "It is uncertain whether a sternal fracture is present."
+          "description": "cannot determine whether sternal fracture is present"
         },
         {
           "name": "unknown",
-          "description": "There is uncertainty regarding the presence of sternal fracture."
+          "description": "uncertainty regarding the presence of sternal fracture"
         }
       ],
       "required": false
     },
     {
       "name": "location",
-      "description": "This indicates the anatomical region of the sternal fracture.",
+      "description": "The anatomical region of the sternal fracture ",
       "type": "choice",
       "values": [
         {
           "name": "manubrium",
           "description": "RID2476"
+          "name": "manubrium",
+          "description": "RID2476"
         },
         {
+          "name": "sternum",
+          "description": "RID2473"
           "name": "sternum",
           "description": "RID2473"
         }

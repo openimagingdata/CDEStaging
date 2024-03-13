@@ -1,7 +1,7 @@
 {
   "_id": "TEMP",
   "name": "hepatic steatosis",
-  "description": "Hepatic steatosis is characterized by fat buildup in liver, which is seen as hypodensity on CT scans, often with liver appearing less dense than spleen, and on MRI, fat causing signal loss. Ultrasound shows liver as brighter due to fat, affecting how sound waves pass through.",
+  "description": "Fat buildup in liver, seen as fainter on CT scans, often with liver appearing less dense than spleen, and on MRI, fat causing signal loss. Ultrasound shows liver as brighter due to fat, affecting how sound waves pass through",
   "attributes": [
     {
       "name": "presence",
@@ -34,15 +34,15 @@
       "values": [
         {
           "name": "mild",
-          "description": "It signifies a small amount of fat accumulation in the liver."
+          "description": "small amount of fat accumulation in the liver"
         },
         {
           "name": "moderate",
-          "description": "It indicates a moderate amount of fat accumulation in the liver."
+          "description": "moderate amount of fat accumulation in the liver"
         },
         {
           "name": "severe",
-          "description": "It represents a severe amount of fat accumulation in the liver."
+          "description": "severe amount of fat accumulation in the liver"
         }
       ],
       "required": false
