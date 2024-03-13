@@ -1,7 +1,7 @@
 {
   "_id": "TEMP",
-  "name": "",
-  "description": "",
+  "name": "kidney stone",
+  "description": "Kidney stone, also known as renal calculi or nephrolithiasis, refers to a solid concretion or crystal aggregation formed in the kidney from substances found in urine. These stones can vary in size, composition, and location. Imaging modalities, assess the size, location, and characteristics of kidney stones, aiding in diagnosis",
   "attributes": [
     {
       "name": "presence",
@@ -10,34 +10,58 @@
       "values": [
         {
           "name": "absent",
-          "description": ""
+          "description": "no kidney stone is present"
         },
         {
           "name": "present",
-          "description": ""
+          "description": "kidney stone is present"
         },
         {
           "name": "indeterminate",
-          "description": ""
+          "description": "cannot determine whether kidney stone is present"
         },
         {
           "name": "unknown",
-          "description": ""
+          "description": "uncertainty regarding the presence of kidney stone"
         }
       ],
       "required": false
     },
     {
       "name": "location",
-      "description": "The anatomical region of the ",
+      "description": "the anatomical region of the kidney stone ",
       "type": "choice",
       "values": [
         {
-          "name": "",
+          "name": "right kidney",
+          "description": "RID29662"
+        },
+        {
+          "name": "left kidney",
+          "description": "RID29663"
+        },
+        {
+          "name": "calyx of renal collecting system",
+          "description": "RID225"
+        },
+        {
+          "name": "kidney",
+          "description": "RID205"
+        },
+        {
+          "name": "ureter",
+          "description": "RID229"
+        },
+        {
+          "name": "RID30844: right ureter",
           "description": ""
         },
         {
-          "name": "",
+          "name": "RID30845: left urete",
+          "description": ""
+        },
+        {
+          "name": "RID228: renal pelvis",
           "description": ""
         }
       ],

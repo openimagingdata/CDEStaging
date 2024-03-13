@@ -1,7 +1,7 @@
 {
   "_id": "TEMP",
-  "name": "",
-  "description": "",
+  "name": "chest wall mass",
+  "description": "Chest wall mass refers to an abnormal growth or lesion located within the structures of the chest wall, including the skin, muscles, ribs, or connective tissues. Radiological imaging techniques such as X-rays, CT scans, or MRI are used to characterize the size, location, composition, and extent of the chest wall mass",
   "attributes": [
     {
       "name": "presence",
@@ -10,36 +10,100 @@
       "values": [
         {
           "name": "absent",
-          "description": ""
+          "description": "no chest wall mass is present"
         },
         {
           "name": "present",
-          "description": ""
+          "description": "chest wall mass is present"
         },
         {
           "name": "indeterminate",
-          "description": ""
+          "description": "cannot determine whether chest wall mass is present"
         },
         {
           "name": "unknown",
-          "description": ""
+          "description": "uncertainty regarding the presence of chest wall mass"
         }
       ],
       "required": false
     },
     {
       "name": "location",
-      "description": "The anatomical region of the ",
+      "description": "The anatomical region of the chest wall mass",
       "type": "choice",
       "values": [
         {
-          "name": "",
-          "description": ""
-        },
-        {
-          "name": "",
-          "description": ""
-        }
+          "name": "thorax",
+          "description": "RID1243"
+      },
+      {
+          "name": "chest wall",
+          "description": "RID2468"
+      },
+      {
+          "name": "left female breast",
+          "description": "RID29897"
+      },
+      {
+          "name": "subareolar region of left breast",
+          "description": "RID29954"
+      },
+      {
+          "name": "female breast",
+          "description": "RID29895"
+      },
+      {
+          "name": "right female breast",
+          "description": "RID29896"
+      },
+      {
+          "name": "anterior chest wall",
+          "description": "RID29859"
+      },
+      {
+          "name": "right pectoralis major",
+          "description": "RID43071"
+      },
+      {
+          "name": "manubrium",
+          "description": "RID2476"
+      },
+      {
+          "name": "sternum",
+          "description": "RID2473"
+      },
+      {
+          "name": "left pectoralis minor",
+          "description": "RID43074"
+      },
+      {
+          "name": "right pectoralis minor",
+          "description": "RID43073"
+      },
+      {
+          "name": "pectoralis major muscle",
+          "description": "RID2493"
+      },
+      {
+          "name": "left pectoralis major",
+          "description": "RID43072"
+      },
+      {
+          "name": "pectoralis minor muscle",
+          "description": "RID2496"
+      },
+      {
+          "name": "male breast",
+          "description": "RID29898"
+      },
+      {
+          "name": "left male breast",
+          "description": "RID29900"
+      },
+      {
+          "name": "right male breast",
+          "description": "RID29899"
+      }
       ],
       "required": false
     }
