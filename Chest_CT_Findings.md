@@ -111,7 +111,7 @@
 - [Bronchiolectasis](definitions/hood/bronchiolectasis.md)
 - Bronchial stenosis  
   - Includes bronchial obliterans  
-- [Bronchial wall thickening](definitions/hood/bronchial-wall-thickening.md) 
+- [Bronchial wall thickening](definitions/hood/bronchial-wall-thickening.md)
 - [Mucus plugging](definitions/hood/airway-mucus-plugging.md)
 - Bronchial occlusion  
   - Link to bronchial occlusion device  
