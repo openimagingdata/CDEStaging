@@ -17,7 +17,7 @@
 - ⭐ [Tracheostomy tube](definitions/hood/tracheostomy-tube.md)
 - Gastrostomy tube
 - ⭐ [Gastric tube](definitions/upmedic/EsophagealGastricTube.cde.md)
-  - Nasogastric/orogastric, "esophageal tube
+  - Nasogastric/orogastric, esophageal tube
 
 ## Devices
 
@@ -64,8 +64,7 @@
 - ⭐ [Thyromegaly](definitions/upmedic/ThyroidGland.cde.md)
 - ⭐ [Thyroid nodule](definitions/upmedic/ThyroidNodules.cde.md)
 - Thyroid calcification  
-- Thyroidectomy  
-  - Includes hemithyroidectomy  
+- [Thyroidectomy](definitions/hood/thyroidectomy.md)
 - Thyroid goiter  
   - Relation to other structures  
     - Extent into superior mediastinum  
@@ -89,9 +88,10 @@
 ## Esophagus
 
 - ⭐ Esophageal wall thickening
-- ⭐ [Esophageal dilation](definitions/hood/esophageal-dilation.md)
+- [Esophageal stricture](definitions/hood/esophageal-dilation.md)
+- Esophageal dilation
   - Synonym: "Patulous esophagus"  
-- Esophageal fluid  
+- Esophageal fluid
   - Fluid/reflux to the level of [x]  
 - Esophageal diverticulum  
   - Zenker  
@@ -111,12 +111,11 @@
 - [Bronchiolectasis](definitions/hood/bronchiolectasis.md)
 - Bronchial stenosis  
   - Includes bronchial obliterans  
-- [Bronchial wall thickening](definitions/hood/bronchial-wall-thickening.md)  
-  - Includes peribronchial thickening  
-- Mucous impaction  
+- [Bronchial wall thickening](definitions/hood/bronchial-wall-thickening.md) 
+- [Mucus plugging](definitions/hood/airway-mucus-plugging.md)
 - Bronchial occlusion  
   - Link to bronchial occlusion device  
-- Endobronchial mass  
+- [Endobronchial mass](definitions/hood/endobronchial-mass.md)
 - Variant anatomy  
   - Bronchial atresia  
   - Tracheal bronchus  
@@ -258,7 +257,7 @@
 - ⭐ [Free fluid](definitions/hood/free-fluid.md)
 - ⭐ [Liver hemangioma](definitions/hood/hepatic-hemangioma.md)
 - ⭐ [Nephrolithiasis](definitions/hood/nephrolithiasis.md)
-- Intraductal papillary mucinous neoplasm  
+- [Intraductal papillary mucinous neoplasm](definitions/hood/ipmn.md)
 
 ## Musculoskeletal
 
@@ -270,7 +269,6 @@
 - ⭐ [Rib fracture](definitions/hood/bones-and-thoracic-cage.md)
   - [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
 - ⭐ [Sternal fracture](definitions/hood/sternal-fracture.md)
-- ⭐ [Chest wall mass](definitions/nuance/chest_wall_mass.json) (🚧 Scaffold)
 - ⭐ [Scoliosis](definitions/upmedic/ThoracicSpine.cdes.md)
   - Status: [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
 - ⭐ [Vertebral compression fracture](definitions/hood/compression-fracture.md) | [Alternate](definitions/nuance/thoracic_spine_compression_deformity.json)

@@ -1,6 +1,7 @@
-# Esophageal Dilation
+# Esophageal Stricture
 
 ## Descriptors
+
 - Patulous
 - Distended
 - Fluid-filled
@@ -10,7 +11,7 @@
 - Present
 - Absent
 
-# Location of stricture/narrowing
+## Location of stricture/narrowing
 
 - Proximal esophagus
 - Middle esophagus
