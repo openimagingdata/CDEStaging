@@ -1,7 +1,7 @@
 {
   "_id": "TEMP",
   "name": "Shoulder arthritis",
-  "description": "degenerative joint condition characterized by the gradual breakdown of cartilage in the shoulder joint. Radiological assessment reveals joint space narrowing, osteophyte formation, subchondral sclerosis, and sometimes cyst formation in the glenohumeral or acromioclavicular joints. Imaging modalities such as X-rays or MRI are utilized to evaluate the extent of joint damage",
+  "description": " Shoulder arthritis is a degenerative joint condition which is characterized by the gradual breakdown of cartilage in the shoulder joint. Radiological assessment reveals joint space narrowing, osteophyte formation, subchondral sclerosis, and sometimes cyst formation in the glenohumeral or acromioclavicular joints. Imaging modalities such as X-rays or MRI are utilized to evaluate the extent of joint damage.",
   "attributes": [
     {
       "name": "presence",
@@ -10,26 +10,26 @@
       "values": [
         {
           "name": "absent",
-          "description": "no shoulder arthritis is present"
+          "description": "No shoulder arthritis is present."
         },
         {
           "name": "present",
-          "description": "shoulder arthritis is present"
+          "description": "Shoulder arthritis is present."
         },
         {
           "name": "indeterminate",
-          "description": "cannot determine whether shoulder arthritis is present"
+          "description": "It is uncertain whether a shoulder arthritis is present."
         },
         {
           "name": "unknown",
-          "description": "uncertainty regarding the presence of shoulder arthritis"
+          "description": "There is uncertainty regarding the presence of shoulder arthritis."
         }
       ],
       "required": false
     },
     {
       "name": "location",
-      "description": "The anatomical region of the shulder arthritis",
+      "description": "This indicates the anatomical region of the shulder arthritis.",
       "type": "choice",
       "values": [
         {

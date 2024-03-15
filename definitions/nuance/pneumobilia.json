@@ -1,7 +1,7 @@
 {
   "_id": "TEMP",
   "name": "pneumobilia",
-  "description": "Refers to the presence of air within the biliary tree, typically observed as linear or branching lucencies within the hepatic ducts or common bile duct on imaging studies such as X-rays, CT scans, or MRIs",
+  "description": "Pneumobilia refers to the presence of air within the biliary tree, typically observed as linear or branching lucencies within the hepatic ducts or common bile duct on imaging studies such as X-rays, CT scans, or MRIs.",
   "attributes": [
     {
       "name": "presence",
@@ -10,26 +10,26 @@
       "values": [
         {
           "name": "absent",
-          "description": "no pneumobilia is present"
+          "description": "It indicates no pneumobilia is present."
         },
         {
           "name": "present",
-          "description": "pneumobilia is present"
+          "description": "It signifies that pneumobilia is present."
         },
         {
           "name": "indeterminate",
-          "description": "cannot determine whether pneumobilia is present"
+          "description": "It suggests that it cannot be determined whether pneumobilia is present."
         },
         {
           "name": "unknown",
-          "description": "uncertainty regarding the presence of pneumobilia"
+          "description": "It represents uncertainty regarding the presence of pneumobilia."
         }
       ],
       "required": false
     },
     {
       "name": "location",
-      "description": "The anatomical region of the pneumobilia ",
+      "description": "This indicates the anatomical region of the pneumobilia.",
       "type": "choice",
       "values": [
         {

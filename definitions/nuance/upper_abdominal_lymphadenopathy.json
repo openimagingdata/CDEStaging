@@ -1,35 +1,35 @@
 {
   "_id": "TEMP",
-  "name": "Upper abdominal lymphadenopathy",
-  "description": "",
+  "name": "upper abdominal lymphadenopathy",
+  "description": "Upper abdominal lymphadenopathy refers to the enlargement of lymph nodes in the upper abdominal region, which can be detected via imaging modalities. In radiologic evaluation, it is characterized by the presence of enlarged lymph nodes with a short-axis diameter typically greater than 1 cm on cross-sectional imaging, with CT and MRI.",
   "attributes": [
     {
       "name": "presence",
-      "description": "GPT ...",
+      "description": "Upper abdominal lymphadenopathy is detected.",
       "type": "choice",
       "values": [
         {
           "name": "absent",
-          "description": ""
+          "description": "No upper abdominal lymphadenopathy is present."
         },
         {
           "name": "present",
-          "description": ""
+          "description": "Upper abdominal lymphadenopathy is present."
         },
         {
           "name": "indeterminate",
-          "description": ""
+          "description": "Cannot determine whether upper abdominal lymphadenopathy is present."
         },
         {
           "name": "unknown",
-          "description": ""
+          "description": "It indicates uncertainty regarding whether upper abdominal lymphadenopathy is present."
         }
       ],
       "required": false
     },
     {
       "name": "location",
-      "description": "The anatomical region of the ",
+      "description": "This refers to the anatomical region where upper abdominal lymphadenopathy is situated.",
       "type": "choice",
       "values": [
         {
