@@ -1,35 +1,35 @@
 {
   "_id": "TEMP",
   "name": "upper abdominal lymphadenopathy",
-  "description": "Refers to the enlargement of lymph nodes in the upper abdominal region, which can be detected via imaging modalities. In radiologic evaluation, it is characterized by the presence of enlarged lymph nodes with a short-axis diameter typically greater than 1 cm on cross-sectional imaging, with CT and MRI ",
+  "description": "Upper abdominal lymphadenopathy refers to the enlargement of lymph nodes in the upper abdominal region, which can be detected via imaging modalities. In radiologic evaluation, it is characterized by the presence of enlarged lymph nodes with a short-axis diameter typically greater than 1 cm on cross-sectional imaging, with CT and MRI.",
   "attributes": [
     {
       "name": "presence",
-      "description": "",
+      "description": "Upper abdominal lymphadenopathy is detected.",
       "type": "choice",
       "values": [
         {
           "name": "absent",
-          "description": "no upper abdominal lymphadenopathy is present"
+          "description": "No upper abdominal lymphadenopathy is present."
         },
         {
           "name": "present",
-          "description": "upper abdominal lymphadenopathy is present"
+          "description": "Upper abdominal lymphadenopathy is present."
         },
         {
           "name": "indeterminate",
-          "description": "cannot determine whether upper abdominal lymphadenopathy is present"
+          "description": "Cannot determine whether upper abdominal lymphadenopathy is present."
         },
         {
           "name": "unknown",
-          "description": "uncertainty regarding the presence of upper abdominal lymphadenopathy"
+          "description": "It indicates uncertainty regarding whether upper abdominal lymphadenopathy is present."
         }
       ],
       "required": false
     },
     {
       "name": "location",
-      "description": "anatomical region of upper abdominal lymphadenopathy",
+      "description": "This refers to the anatomical region where upper abdominal lymphadenopathy is situated.",
       "type": "choice",
       "values": [
         {

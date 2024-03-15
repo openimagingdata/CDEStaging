@@ -1,40 +1,56 @@
 {
   "_id": "TEMP",
   "name": "liver hemangioma",
-  "description": "Benign growth of blood vessels in the liver, often discovered accidentally during abdominal imaging scans. It appears as a distinct bright spot on ultrasound and CT scans, and as a bright area on MRI",
+  "description": "Liver hemangioma is characterized by benign growth of blood vessels in the liver, often discovered accidentally during abdominal imaging scans. It appears as a distinct bright spot on ultrasound and CT scans, and as a bright area on MRI.",
   "attributes": [
     {
       "name": "presence",
-      "description": "",
+      "description": "This indicates whether liver hemangioma is present.",
       "type": "choice",
       "values": [
         {
           "name": "absent",
-          "description": "no liver hemangioma is present"
+          "description": "It signifies no liver hemangioma is present."
         },
         {
           "name": "present",
-          "description": "liver hemangioma is present"
+          "description": "It suggests liver hemangioma is present."
         },
         {
           "name": "indeterminate",
-          "description": "cannot determine whether liver hemangioma is present"
+          "description": "It suggests that it cannot be determined whether liver hemangioma is present."
         },
         {
           "name": "unknown",
-          "description": "uncertainty regarding the presence of liver hemangioma"
+          "description": "It represents uncertainty regarding the presence of liver hemangioma."
         }
       ],
       "required": false
     },
     {
       "name": "location",
-      "description": "The anatomical region of the liver hemangioma",
+      "description": "This indicates the anatomical region of the liver hemangioma.",
       "type": "choice",
       "values": [
         {
           "name": "liver",
           "description": "RID58"
+        },
+        {
+          "anatomical_part": "right hepatic artery",
+          "description": "RID918"
+        },
+        {
+          "anatomical_part": "proper hepatic artery",
+          "description": "RID914"
+        },
+        {
+          "anatomical_part": "right hepatic duct",
+          "description": "RID194"
+        },
+        {
+          "anatomical_part": "left hepatic duct",
+          "description": "RID193"
         }
       ],
       "required": false
