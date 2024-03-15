@@ -1,35 +1,35 @@
 {
   "_id": "TEMP",
   "name": "sternal fracture",
-  "description": "A sternal fracture refers to a break or crack in the breastbone, typically resulting from direct trauma to the chest. adiological imaging such as X-rays or CT scans is utilized to visualize and assess the extent of the sternal injury, aiding in diagnosis and determining appropriate management strategies",
+  "description": "A sternal fracture is characterized by a break or crack in the breastbone, typically resulting from direct trauma to the chest. Adiological imaging such as X-rays or CT scans is utilized to visualize and assess the extent of the sternal injury, aiding in diagnosis and determining appropriate management strategies.",
   "attributes": [
     {
       "name": "presence",
-      "description": "",
+      "description": "This indicates whether sternal fracture is present.",
       "type": "choice",
       "values": [
         {
           "name": "absent",
-          "description": "no sternal fracture is present"
+          "description": "No sternal fracture is present."
         },
         {
           "name": "present",
-          "description": "sternal fracture is present"
+          "description": "Sternal fracture is observed."
         },
         {
           "name": "indeterminate",
-          "description": "cannot determine whether sternal fracture is present"
+          "description": "It is uncertain whether a sternal fracture is present."
         },
         {
           "name": "unknown",
-          "description": "uncertainty regarding the presence of sternal fracture"
+          "description": "There is uncertainty regarding the presence of sternal fracture."
         }
       ],
       "required": false
     },
     {
       "name": "location",
-      "description": "The anatomical region of the sternal fracture ",
+      "description": "This indicates the anatomical region of the sternal fracture.",
       "type": "choice",
       "values": [
         {

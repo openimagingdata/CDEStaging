@@ -1,35 +1,35 @@
 {
   "_id": "TEMP",
   "name": "chest wall mass",
-  "description": "Chest wall mass refers to an abnormal growth or lesion located within the structures of the chest wall, including the skin, muscles, ribs, or connective tissues. Radiological imaging techniques such as X-rays, CT scans, or MRI are used to characterize the size, location, composition, and extent of the chest wall mass",
+  "description": "Chest wall mass refers to an abnormal growth or lesion located within the structures of the chest wall, including the skin, muscles, ribs, or connective tissues. Radiological imaging techniques such as X-rays, CT scans, or MRI are used to characterize the size, location, composition, and extent of the chest wall mass.",
   "attributes": [
     {
       "name": "presence",
-      "description": "",
+      "description": "This indicates whether chest wall mass is present.",
       "type": "choice",
       "values": [
         {
           "name": "absent",
-          "description": "no chest wall mass is present"
+          "description": "No chest wall mass is present."
         },
         {
           "name": "present",
-          "description": "chest wall mass is present"
+          "description": "Chest wall mass is present."
         },
         {
           "name": "indeterminate",
-          "description": "cannot determine whether chest wall mass is present"
+          "description": "It is uncertain whether a chest wall mass is present."
         },
         {
           "name": "unknown",
-          "description": "uncertainty regarding the presence of chest wall mass"
+          "description": "There is uncertainty regarding the presence of chest wall mass."
         }
       ],
       "required": false
     },
     {
       "name": "location",
-      "description": "The anatomical region of the chest wall mass",
+      "description": "This indicates the anatomical region of the chest wall mass",
       "type": "choice",
       "values": [
         {

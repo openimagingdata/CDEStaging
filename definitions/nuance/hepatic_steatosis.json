@@ -1,48 +1,48 @@
 {
   "_id": "TEMP",
   "name": "hepatic steatosis",
-  "description": "Fat buildup in liver, seen as fainter on CT scans, often with liver appearing less dense than spleen, and on MRI, fat causing signal loss. Ultrasound shows liver as brighter due to fat, affecting how sound waves pass through",
+  "description": "Hepatic steatosis is characterized by fat buildup in liver, which is seen as hypodensity on CT scans, often with liver appearing less dense than spleen, and on MRI, fat causing signal loss. Ultrasound shows liver as brighter due to fat, affecting how sound waves pass through.",
   "attributes": [
     {
       "name": "presence",
-      "description": "",
+      "description": "This indicates the presence of hepatic steatosis.",
       "type": "choice",
       "values": [
         {
           "name": "absent",
-          "description": "no hepatic steatosis is present"
+          "description": "This signifies that no hepatic steatosis is present."
         },
         {
           "name": "present",
-          "description": "hepatic steatosis is present"
+          "description": "This indicates that hepatic steatosis is present."
         },
         {
           "name": "indeterminate",
-          "description": "cannot determine whether hepatic steatosis is present"
+          "description": "It cannot determine whether hepatic steatosis is present."
         },
         {
           "name": "unknown",
-          "description": "uncertainty regarding the presence of hepatic steatosis"
+          "description": "It suggests that it cannot be determined whether hepatic steatosis is present."
         }
       ],
       "required": false
     },
     {
       "name": "severity field",
-      "description": "degree of fat accumulation in the liver",
+      "description": "It indicates the degree of fat accumulation in the liver.",
       "type": "choice",
       "values": [
         {
           "name": "mild",
-          "description": "small amount of fat accumulation in the liver"
+          "description": "It signifies a small amount of fat accumulation in the liver."
         },
         {
           "name": "moderate",
-          "description": "moderate amount of fat accumulation in the liver"
+          "description": "It indicates a moderate amount of fat accumulation in the liver."
         },
         {
           "name": "severe",
-          "description": "severe amount of fat accumulation in the liver"
+          "description": "It represents a severe amount of fat accumulation in the liver."
         }
       ],
       "required": false
