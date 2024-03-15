@@ -1,35 +1,35 @@
 {
   "_id": "TEMP",
   "name": "adrenal gland thickening",
-  "description": "Evidenced by increased uniform or focal gland thickness on CT or MRI, with the normal limb width typically less than 10 mm; imaging features such as attenuation values, enhancement patterns, and presence of mass effect may assist in differentiating between benign and malignant etiologies.",
+  "description": "Adrenal gland thickening is evidenced by increased uniform or focal gland thickness on CT or MRI, with the normal limb width typically less than 10 mm; imaging features such as attenuation values, enhancement patterns, and presence of mass effect may assist in differentiating between benign and malignant etiologies.",
   "attributes": [
     {
       "name": "presence",
-      "description": "",
+      "description": "This indicates whether adrenal gland thickening is detected.",
       "type": "choice",
       "values": [
         {
           "name": "absent",
-          "description": "no adrenal gland thickening is present"
+          "description": "No adrenal gland thickening is present."
         },
         {
           "name": "present",
-          "description": "adrenal gland thickeing is present"
+          "description": "Adrenal gland thickeing is present."
         },
         {
           "name": "indeterminate",
-          "description": "cannot determine whether adrenal gland thickening is present"
+          "description": "Cannot determine whether adrenal gland thickening is present."
         },
         {
           "name": "unknown",
-          "description": "uncertainty regarding the presence of adrenal gland thickening"
+          "description": "The status regarding adrenal gland thickening is uncertain."
         }
       ],
       "required": false
     },
     {
       "name": "location",
-      "description": "The anatomical region of the adrenal gland thickening ",
+      "description": "This refers to the anatomical region where adrenal gland thickening is located.",
       "type": "choice",
       "values": [
         {
