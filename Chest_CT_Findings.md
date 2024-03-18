@@ -17,7 +17,7 @@
 - ⭐ [Tracheostomy tube](definitions/hood/tracheostomy-tube.md)
 - Gastrostomy tube
 - ⭐ [Gastric tube](definitions/upmedic/EsophagealGastricTube.cde.md)
-  - Nasogastric/orogastric, "esophageal tube
+  - Nasogastric/orogastric, esophageal tube
 
 ## Devices
 
@@ -64,8 +64,7 @@
 - ⭐ [Thyromegaly](definitions/upmedic/ThyroidGland.cde.md)
 - ⭐ [Thyroid nodule](definitions/upmedic/ThyroidNodules.cde.md)
 - Thyroid calcification  
-- Thyroidectomy  
-  - Includes hemithyroidectomy  
+- [Thyroidectomy](definitions/hood/thyroidectomy.md)
 - Thyroid goiter  
   - Relation to other structures  
     - Extent into superior mediastinum  
@@ -89,9 +88,10 @@
 ## Esophagus
 
 - ⭐ Esophageal wall thickening
-- ⭐ [Esophageal dilation](definitions/hood/esophageal-dilation.md)
+- [Esophageal stricture](definitions/hood/esophageal-dilation.md)
+- Esophageal dilation
   - Synonym: "Patulous esophagus"  
-- Esophageal fluid  
+- Esophageal fluid
   - Fluid/reflux to the level of [x]  
 - Esophageal diverticulum  
   - Zenker  
@@ -111,12 +111,11 @@
 - [Bronchiolectasis](definitions/hood/bronchiolectasis.md)
 - Bronchial stenosis  
   - Includes bronchial obliterans  
-- [Bronchial wall thickening](definitions/hood/bronchial-wall-thickening.md)  
-  - Includes peribronchial thickening  
-- Mucous impaction  
+- [Bronchial wall thickening](definitions/hood/bronchial-wall-thickening.md)
+- [Mucus plugging](definitions/hood/airway-mucus-plugging.md)
 - Bronchial occlusion  
   - Link to bronchial occlusion device  
-- Endobronchial mass  
+- [Endobronchial mass](definitions/hood/endobronchial-mass.md)
 - Variant anatomy  
   - Bronchial atresia  
   - Tracheal bronchus  
@@ -196,12 +195,11 @@
   - [RDES252: Thoracic Aortic Dissection](https://radelement.org/home/sets/set/RDES252)  
 - Aortic arch variant anatomy  
   - Includes origins of great vessels; aberrant subclavian artery, etc  
-- Aortic post-surgical changes  
+- [Ascending aortic repair](definitions/hood/ascending-aortic-repair.md)
 
 ### Pulmonary artery
 
-- Pulmonary artery dilation
-  - \> 3.2 cm  
+- [Pulmonary artery dilation](definitions/hood/pulmonary-artery-dilation.md)
 - ⭐ [Pulmonary embolus](definitions/hood/pulmonary-emboli.md)
   - Acute; chronic; acute on chronic  
   - [RDES80: Pulmonary Embolism](https://radelement.org/home/sets/set/RDES80)  
@@ -253,31 +251,28 @@
   - Citation: [RDES3: Adrenal Nodule](https://radelement.org/home/sets/set/RDES3)  
 - ⭐ [Cholelithiasis](definitions/hood/cholelithiasis.md)
 - ⭐ [Upper abdominal lymphadenopathy](definitions/nuance/upper_abdominal_lymphadenopathy.json) (🚧 Scaffold)
-- ⭐ [Adrenal gland thickening](definitions/nuance/adrenal_thickening.json) (🚧 Scaffold)
-- ⭐ [Hepatic steatosis](definitions/nuance/hepatic_steatosis.json) (🚧 Scaffold)
-- ⭐ [Pneumobilia](definitions/nuance/pneumobilia.json) (🚧 Scaffold)
-- Free fluid  
-- ⭐ [Liver hemangioma](definitions/nuance/liver_hemangioma.json) (🚧 Scaffold)
-- ⭐ [Kidney stone](definitions/nuance/renal_stone.json) (🚧 Scaffold)
-- Intraductal papillary mucinous neoplasm  
-- Splenic artery aneurysm  
+- ⭐ [Adrenal gland thickening](definitions/hood/adrenal-thickening.md)
+- ⭐ [Hepatic steatosis](definitions/hood/hepatic-steatosis.md)
+- [Pneumobilia](definitions/hood/pneumobilia.md)
+- ⭐ [Free fluid](definitions/hood/free-fluid.md)
+- ⭐ [Liver hemangioma](definitions/hood/hepatic-hemangioma.md)
+- ⭐ [Nephrolithiasis](definitions/hood/nephrolithiasis.md)
+- [Intraductal papillary mucinous neoplasm](definitions/hood/ipmn.md)
 
 ## Musculoskeletal
 
 - [Median sternotomy](definitions/hood/median-sternotomy.md)
-- ⭐ [Ostoepenia](definitions/hood/osteopenia-osteoporosis.md)
+- ⭐ [Osteopenia](definitions/hood/osteopenia-osteoporosis.md)
 - ⭐ [Degenerative changes in the thoracic skeleton](definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
-- ⭐ Lytic lesions
-- ⭐ Blastic lesions
+- ⭐ [Lytic lesions](definitions/hood/lytic-lesion.md)
+- ⭐ [Sclerotic lesions](definitions/hood/sclerotic-lesion.md)
 - ⭐ [Rib fracture](definitions/hood/bones-and-thoracic-cage.md)
   - [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
-- ⭐ [Sternal fracture](definitions/nuance/sternum_fracture.json) (🚧 Scaffold)
-- ⭐ [Chest wall mass](definitions/nuance/chest_wall_mass.json) (🚧 Scaffold)
+- ⭐ [Sternal fracture](definitions/hood/sternal-fracture.md)
 - ⭐ [Scoliosis](definitions/upmedic/ThoracicSpine.cdes.md)
   - Status: [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
 - ⭐ [Vertebral compression fracture](definitions/hood/compression-fracture.md) | [Alternate](definitions/nuance/thoracic_spine_compression_deformity.json)
   - Status: [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
-- ⭐ [Osteopenic bone](definitions/hood/osteopenia-osteoporosis.md)
 - [Healed rib fracture](definitions/hood/healed-rib-fracture.md)  
 - ⭐ [Hemangioma of thoracic spine](definitions/nuance/thoracic_spine_hemangioma.json)
-- ⭐ [Shoulder arthritis](definitions/nuance/shoulder_arthritis.json) (🚧 Scaffold)
+- ⭐ [Glenohumeral joint](definitions/hood/glenohumeral-joint.md)
