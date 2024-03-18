@@ -1,0 +1,80 @@
+{
+    "finding_name": "Esophageal thickening",
+    "description": "Esophageal thickening refers to an abnormal increase in the wall thickness of the esophagus, often indicating inflammation or an underlying medical condition.",
+    "attributes": [
+      {
+        "name": "Location",
+        "description": "The location of the esophageal thickening",
+        "type": "choice",
+        "values": [
+          {
+            "name": "Distal",
+            "description": null
+          },
+          {
+            "name": "Diffuse",
+            "description": null
+          },
+          {
+            "name": "Circumferential",
+            "description": null
+          }
+        ],
+        "required": true
+      },
+      {
+        "name": "Severity",
+        "description": "The severity of the esophageal thickening",
+        "type": "choice",
+        "values": [
+          {
+            "name": "Mild",
+            "description": null
+          },
+          {
+            "name": "Moderate",
+            "description": null
+          },
+          {
+            "name": "Severe",
+            "description": null
+          }
+        ],
+        "required": true
+      },
+      {
+        "name": "Cause",
+        "description": "The possible cause of the esophageal thickening",
+        "type": "choice",
+        "values": [
+          {
+            "name": "Esophagitis",
+            "description": null
+          },
+          {
+            "name": "Gastroesophageal Reflux",
+            "description": null
+          },
+          {
+            "name": "Inflammatory",
+            "description": null
+          },
+          {
+            "name": "Nonspecific",
+            "description": null
+          }
+        ],
+        "required": true
+      },
+      {
+        "name": "Size",
+        "description": "The size of the esophageal thickening",
+        "type": "numeric",
+        "minimum": 1,
+        "maximum": 10,
+        "unit": "mm",
+        "required": false
+      }
+    ]
+  }
+  
