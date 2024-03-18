@@ -1,71 +1,67 @@
 {
     "finding_name": "Esophageal thickening",
-    "description": "Esophageal thickening refers to abnormal increase in the wall thickness of the esophagus, often indicating inflammation or an underlying medical condition.",
+    "description": "Esophageal thickening refers to an abnormal increase in the wall thickness of the esophagus, often indicating inflammation or an underlying medical condition.",
     "attributes": [
       {
         "name": "Location",
-        "description": "This refers to the anatomical region where esophageal thickening is situated",
+        "description": "The location of the esophageal thickening",
         "type": "choice",
         "values": [
           {
-            "name": "lower esophageal sphincter",
-            "description": "RID103"
+            "name": "Distal",
+            "description": null
           },
           {
-            "name": "esophagus",
-            "description": "RID95"
+            "name": "Diffuse",
+            "description": null
+          },
+          {
+            "name": "Circumferential",
+            "description": null
           }
         ],
         "required": true
       },
       {
         "name": "Severity",
-        "description": "Severity refers to the degree of abnormal thickening observed in the esophageal wall.",
+        "description": "The severity of the esophageal thickening",
         "type": "choice",
         "values": [
           {
             "name": "Mild",
-            "description": "The thickening is mild."
+            "description": null
           },
           {
             "name": "Moderate",
-            "description": "The thickening is moderate."
+            "description": null
           },
           {
             "name": "Severe",
-            "description": "The thickening is severe."
+            "description": null
           }
         ],
         "required": true
       },
       {
         "name": "Cause",
-        "description": "Indicates the possible cause of the esophageal wall thickening.",
+        "description": "The possible cause of the esophageal thickening",
         "type": "choice",
         "values": [
           {
             "name": "Esophagitis",
-            "description": "The thickening is caused by esophagitis."
+            "description": null
           },
           {
             "name": "Gastroesophageal Reflux",
-            "description": "The thickening is caused by gastroesophageal reflux."
+            "description": null
           },
           {
-            "name": "Inflammation",
-            "description": "The thickening is caused by inflammation."
-          },
-          {
-            "name": "infection",
-            "description": "The thickening is caused by infection."
-          },
-          {
-            "name": "tumor",
-            "description": "The thickening is caused by a tumor."
+            "name": "Inflammatory",
+            "description": null
           },
           {
             "name": "Nonspecific",
-            "description": "The cause of the thickening is nonspecific or not clearly defined."
+            "description": null
           }
         ],
         "required": true
@@ -78,30 +74,6 @@
         "maximum": 10,
         "unit": "mm",
         "required": false
-      }, 
-      {
-        "name": "presence",
-      "description": "Esophageal wall thickening is detected.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "absent",
-          "description": "No esophageal wall thickening is present."
-        },
-        {
-          "name": "present",
-          "description": "Esophageal wall thickening is present."
-        },
-        {
-          "name": "indeterminate",
-          "description": "Cannot determine whether esophageal wall thickening is present."
-        },
-        {
-          "name": "unknown",
-          "description": "It indicates uncertainty regarding whether esophageal wall thickening is present."
-        }
-      ],
-      "required": false
       }
     ]
   }
