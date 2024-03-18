@@ -4,64 +4,60 @@
     "attributes": [
       {
         "name": "Location",
-        "description": "The location of the esophageal thickening",
+        "description": "This refers to the anatomical region where esophageal thickening is situated",
         "type": "choice",
         "values": [
           {
-            "name": "Distal",
-            "description": null
+            "name": "lower esophageal sphincter",
+            "description": "RID103"
           },
           {
-            "name": "Diffuse",
-            "description": null
-          },
-          {
-            "name": "Circumferential",
-            "description": null
+            "name": "esophagus",
+            "description": "RID95"
           }
         ],
         "required": true
       },
       {
         "name": "Severity",
-        "description": "The severity of the esophageal thickening",
+        "description": "Severity refers to the degree of abnormal thickening observed in the esophageal wall.",
         "type": "choice",
         "values": [
           {
             "name": "Mild",
-            "description": null
+            "description": "There is slight or minimal esophageal wall thickening."
           },
           {
             "name": "Moderate",
-            "description": null
+            "description": "Esophageal wall thickening is more pronounced but not extensive."
           },
           {
             "name": "Severe",
-            "description": null
+            "description": "There is significant and substantial esophageal wall thickening."
           }
         ],
         "required": true
       },
       {
         "name": "Cause",
-        "description": "The possible cause of the esophageal thickening",
+        "description": "Indicates the possible cause of the esophageal thickening.",
         "type": "choice",
         "values": [
           {
             "name": "Esophagitis",
-            "description": null
+            "description": "Esophagitis refers to inflammation or irritation of the esophagus."
           },
           {
             "name": "Gastroesophageal Reflux",
-            "description": null
+            "description": "Gastroesophageal reflux disease (GERD) is a condition where stomach acid and contents flow back into the esophagus."
           },
           {
             "name": "Inflammatory",
-            "description": null
+            "description": "Inflammatory conditions, can cause esophageal thickening due to chronic inflammation and tissue damage."
           },
           {
             "name": "Nonspecific",
-            "description": null
+            "description": "Nonspecific esophageal thickening refers to cases where the exact cause of thickening cannot be definitively identified."
           }
         ],
         "required": true
@@ -74,6 +70,30 @@
         "maximum": 10,
         "unit": "mm",
         "required": false
+      }, 
+      {
+        "name": "presence",
+      "description": "Esophageal wall thickening is detected.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "absent",
+          "description": "No esophageal wall thickening is present."
+        },
+        {
+          "name": "present",
+          "description": "Esophageal wall thickening is present."
+        },
+        {
+          "name": "indeterminate",
+          "description": "Cannot determine whether esophageal wall thickening is present."
+        },
+        {
+          "name": "unknown",
+          "description": "It indicates uncertainty regarding whether esophageal wall thickening is present."
+        }
+      ],
+      "required": false
       }
     ]
   }
