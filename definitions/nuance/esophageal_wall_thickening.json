@@ -25,39 +25,47 @@
         "values": [
           {
             "name": "Mild",
-            "description": "There is slight or minimal esophageal wall thickening."
+            "description": "The thickening is mild."
           },
           {
             "name": "Moderate",
-            "description": "Esophageal wall thickening is more pronounced but not extensive."
+            "description": "The thickening is moderate."
           },
           {
             "name": "Severe",
-            "description": "There is significant and substantial esophageal wall thickening."
+            "description": "The thickening is severe."
           }
         ],
         "required": true
       },
       {
         "name": "Cause",
-        "description": "Indicates the possible cause of the esophageal thickening.",
+        "description": "Indicates the possible cause of the esophageal wall thickening.",
         "type": "choice",
         "values": [
           {
             "name": "Esophagitis",
-            "description": "Esophagitis refers to inflammation or irritation of the esophagus."
+            "description": "The thickening is caused by esophatitis."
           },
           {
             "name": "Gastroesophageal Reflux",
-            "description": "Gastroesophageal reflux disease (GERD) is a condition where stomach acid and contents flow back into the esophagus."
+            "description": "The thickeing is caused by gastroesophageal reflux."
           },
           {
-            "name": "Inflammatory",
-            "description": "Inflammatory conditions, can cause esophageal thickening due to chronic inflammation and tissue damage."
+            "name": "Inflammation",
+            "description": "The thickeing is caused by inflammation."
+          },
+          {
+            "name": "infection",
+            "description": "The thickening is caused by infection."
+          },
+          {
+            "name": "tumor",
+            "description": "The thickening is caused by a tumor."
           },
           {
             "name": "Nonspecific",
-            "description": "Nonspecific esophageal thickening refers to cases where the exact cause of thickening cannot be definitively identified."
+            "description": "The cause of the thickening is nonspecific or not clearly defined."
           }
         ],
         "required": true
