@@ -45,15 +45,15 @@
         "values": [
           {
             "name": "Esophagitis",
-            "description": "The thickening is caused by esophatitis."
+            "description": "The thickening is caused by esophagitis."
           },
           {
             "name": "Gastroesophageal Reflux",
-            "description": "The thickeing is caused by gastroesophageal reflux."
+            "description": "The thickening is caused by gastroesophageal reflux."
           },
           {
             "name": "Inflammation",
-            "description": "The thickeing is caused by inflammation."
+            "description": "The thickening is caused by inflammation."
           },
           {
             "name": "infection",
