@@ -5,6 +5,7 @@
 
 - Presence: Present / Absent
 - Status: New / Unchanged / Enlarged
+- Status: New / Unchanged / Enlarged
 
 ## Characteristics
 
