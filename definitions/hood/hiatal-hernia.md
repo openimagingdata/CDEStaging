@@ -4,16 +4,15 @@
 ## Identification
 
 - Presence: Present / Absent
-- Status: Stable / Enlarged / New
+- Status: New / Unchanged / Enlarged
 
 ## Characteristics
 
 - Size: Small / Medium / Large / Not specified
-- Severity: Mild / Moderate / Severe / Not graded
+- Intrathoracic herniation of stomach: Present / Absent
 
 ## Associated Findings
 
-- Gastroesophageal Reflux
-- Esophagitis
-- Pulmonary Aspiration
-- Barrett's Esophagus
+- Esophageal fluid: Present / Absent
+- Esophageal wall thickening: Present / Absent
+- Tree-in-bud opacities: Present / Absent
