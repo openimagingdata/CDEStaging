@@ -1,4 +1,4 @@
-#### Aortic Atherosclerosis
+# Aortic Atherosclerosis
 
 1. **Identification**
    - Presence: Present / Absent

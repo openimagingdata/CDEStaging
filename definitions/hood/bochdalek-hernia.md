@@ -1,17 +1,17 @@
 
-## Bochdalek Hernia
+# Bochdalek Hernia
 
-**Identification:**
+## Identification
 
 - Presence of Bochdalek Hernia: Yes / No
 
-**Characteristics:**
+## Characteristics
 
 - Side: Left / Right / Bilateral
 - Size: Small / Medium / Large
 - Contents: Fat / Bowel / Both / Other
 
-**Associated Findings:**
+## Associated Findings
 
 - Pulmonary Hypoplasia: Present / Absent
 - Other Diaphragmatic Hernias: Present / Absent
