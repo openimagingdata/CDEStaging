@@ -6,7 +6,7 @@ RID29942: superior region of left breast
 RID29948: lateral region of left breast
 RID29945: medial region of left breast
 RID29939: lower inner quadrant of left female breast
-RID29954: subareolar region of left breast
+RID29954: sub areolar region of left breast
 RID29951: central region of left breast
 RID29936: lower outer quadrant of left female breast
 RID29933: upper inner quadrant of left female breast
@@ -20,7 +20,7 @@ RID29928: upper outer quadrant of breast
 RID29946: lateral region of breast
 RID29931: upper inner quadrant of breast
 RID29934: lower outer quadrant of breast
-RID29952: subareolar region of breast
+RID29952: sub areolar region of breast
 RID29943: medial region of breast
 RID29896: right female breast 
 RID29918: areola of right female breast 
@@ -29,7 +29,7 @@ RID29932: upper inner quadrant of right female breast
 RID29938: lower inner quadrant of right female breast
 RID29944: medial region of right breast
 RID29947: lateral region of right breast
-RID29953: subareolar region of right breast
+RID29953: sub areolar region of right breast
 RID29941: superior region of right breast
 RID29950: central region of right breast
 RID29935: lower outer quadrant of right female breast
