@@ -239,6 +239,7 @@
 - [Radiation fibrosis](definitions/hood/radiation-fibrosis.md)
 - ⭐ [Subpleural reticular opacities](definitions/hood/subpleural-reticular-opacities.md)
 - [Wedge resection](definitions/hood/wedge-resection.md)
+- [Tree-in-bud opacities](definitions/hood/tree-in-bud.md)
 
 ## Abdominal
 

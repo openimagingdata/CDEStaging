@@ -17,8 +17,7 @@ Hepatic cyst
   - Hepatic segment 6
   - Hepatic segment 7
   - Hepatic segment 8
-- Size (cm)
-  - // If size given, report only the largest cyst?
+- Size of largest cyst (cm)
 - Stability
   - Unchanged
     - Synonym: "stable"
