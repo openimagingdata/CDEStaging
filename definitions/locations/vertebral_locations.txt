@@ -1,0 +1,15 @@
+
+RID29198: first thoracic vertebra
+RID29203: sixth thoracic vertebra
+RID29199: second thoracic vertebra
+RID29204: seventh thoracic vertebra
+RID29206: ninth thoracic vertebra
+RID29202: fifth thoracic vertebra
+RID34572: thoracic vertebral column
+RID29207: tenth thoracic vertebra
+RID29205: eight thoracic vertebra
+RID29209: twelfth thoracic vertebra
+RID29200: third thoracic vertebra
+RID29208: eleventh thoracic vertebra
+RID29201: fourth thoracic vertebra
+RID29154: vertebra
