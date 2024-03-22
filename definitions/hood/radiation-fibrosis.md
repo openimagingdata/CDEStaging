@@ -1,17 +1,17 @@
-### Radiation Fibrosis
+# Radiation Fibrosis
 
-#### Identification
+## Identification
 
 - Presence: Present / Absent
 - Status: Stable / Progressive / Regressive / New development / Unchanged over time
 
-#### Characteristics
+## Characteristics
 
 - Severity: Mild / Moderate / Severe / Very Severe / Extensive
 - Distribution: Localized / Diffuse / Peribronchovascular / Segmental
 - Location: Right lung / Left lung / Bilateral / Specific lobe(s) / Mediastinal / Subpleural
 
-#### Associated Findings
+## Associated Findings
 
 - Volume loss: Present / Absent
 - Pleural thickening: Present / Absent
