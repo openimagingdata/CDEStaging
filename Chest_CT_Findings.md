@@ -3,15 +3,13 @@
 ## Lines / Tubes
 
 - ⭐ [Chest tube](definitions/hood/chest-tube.md)
-- Percutaneous drainage catheter
-  - Includes pigtail catheter, mediastinal drain
-- Extracorporeal membrane oxygenation (ECMO) cannula
-- Ventricular shunt catheter
-  - Ventriculoperitoneal, ventriculoatrial, ventriculopleural
-- Tunneled port catheter
-- Tunneled central venous catheter (CVC)
-- Non-tunneled central venous catheter (CVC)
-- Pulmonary artery catheter (Swann-Ganz)
+- [Percutaneous drainage catheter](definitions/hood/percutaneous-drainage-catheter.md)
+- [Extracorporeal membrane oxygenation (ECMO) cannula](definitions/hood/ECMO-cannula.md)
+- [Ventricular shunt catheter](definitions/hood/ventricular-shunt-catheter.md)
+- [Tunneled port catheter](definitions/hood/tunneled-port-catheter.md)
+- [Tunneled central venous catheter (CVC)](definitions/hood/tunneled-CVC.md)
+- [Non-tunneled central venous catheter (CVC)](definitions/hood/nontunneled-CVC.md)
+- [Pulmonary artery catheter (Swann-Ganz)](definitions/hood/pulmonary-artery-catheter.md)
 - ⭐ [Peripherally inserted central catheter (PICC)](definitions/hood/PICC.md)
 - ⭐ [Endotracheal tube](definitions/upmedic/EndotrachealTube.cde.md)
 - ⭐ [Tracheostomy tube](definitions/hood/tracheostomy-tube.md)
@@ -22,35 +20,35 @@
 ## Devices
 
 - ⭐ [AICD / ICD / pacemaker](definitions/hood/pacemaker-aicd.md)
-- Loop recorder  
-- Cutaneous cardiac rhythm monitor (ZIO patch)  
-- Left ventricular assist device (LVAD)  
-- Esophageal stent  
-- Tracheal stent  
-- Bronchial stent  
-- Bronchial plug  
-- Inferior vena cava (IVC) filter  
-- Arterial stent  
-  - Non-coronary  
-- Coronary stent  
-- ⭐ [Replaced valve](definitions/hood/replaced-cardiac-valve.md)
-  - Aortic, mitral, tricuspid, pulmonary  
-- PFO closure device  
+- [Loop recorder](definitions/hood/loop-recorder.md)
+- [Cutaneous cardiac rhythm monitor (ZIO patch)](definitions/hood/cutaneous-cardiac-rhythm-monitor-zio-patch.md)
+- [Left ventricular assist device (LVAD)](definitions/hood/left-ventricular-assist-device-lvad.md)
+- [Esophageal stent](definitions/hood/esophageal-stent.md)
+- [Tracheal stent](definitions/hood/tracheal-stent.md)
+- [Bronchial stent](definitions/hood/bronchial-stent.md)
+- [Bronchial plug](definitions/hood/bronchial-plug.md)
+- [Inferior vena cava (IVC) filter](definitions/hood/ivc-filter.md)
+- [Arterial stent (non-coronary)](definitions/hood/arterial-stent.md)
+- [Coronary stent](definitions/hood/coronary-stent.md)
+- ⭐ [Aortic valve replacement](definitions/hood/aortic-valve-replacement.md)
+- Mitral valve replacement
+- Tricuspid valve replacement
+- Pulmonary valve replacement
+- [PFO closure device](definitions/hood/pfo-closure-device.md)
 - Left atrial appendage closure device  
   - Clip; Watchman plug  
-- Neurostimulator device
+- [Neurostimulator device](definitions/hood/neurostimulator-device.md)
 
 ## Chest wall (soft tissue)
 
-- ⭐ [Mastectomy](definitions/hood/mastectomy-breast-implant.md)
-  - Includes flap reconstruction, postsurgical change  
-- ⭐ [Breast implant](definitions/hood/mastectomy-breast-implant.md)
-- Breast mass  
-- Breast calcification  
-- Axillary nodal dissection  
+- ⭐ [Mastectomy](definitions/hood/mastectomy.md)
+- ⭐ [Breast implant](definitions/hood/breast-implant.md)
+- [Breast mass](definitions/hood/breast-mass.md)
+- [Breast calcification](definitions/hood/breast-calcification.md)
+- [Breast skin thickening](definitions/hood/breast-skin-thickening.md)
+- [Axillary nodal dissection](definitions/hood/axillary-nodal-dissection.md)
 - [Gynecomastia](definitions/hood/gynecomastia.md)
-- Epidermal inclusion cyst  
-  - Aka sebaceous or epidermoid cyst  
+- [Epidermal inclusion cyst](definitions/hood/epidermal-inclusion-cyst.md)
 - Fibroelastoma  
 - [Lipoma](definitions/hood/lipoma.md)
 - Fluid collection  
