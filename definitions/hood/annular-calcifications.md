@@ -1,17 +1,18 @@
-## Annular Calcifications
 
-### Identification
+# Annular Calcifications
 
-- Presence: Present / Absent
+## Identification
 
-### Characteristics
+- **Presence:** Present / Absent
 
-- Location: Mitral valve annulus / Aortic valve annulus / Tricuspid valve annulus / Pulmonary valve annulus
-- Severity: Mild / Moderate / Severe
+## Characteristics
 
-### Associated Findings
+- **Location:** Mitral valve annulus / Aortic valve annulus / Tricuspid valve annulus / Pulmonary valve annulus
+- **Severity:** Mild / Moderate / Severe
 
-- Cardiomegaly: Yes / No
-- Coronary artery disease: Yes / No
-- Left atrial enlargement: Yes / No
-- Pulmonary hypertension: Yes / No
+## Associated Findings
+
+- **Cardiomegaly:** Yes / No
+- **Coronary artery disease:** Yes / No
+- **Left atrial enlargement:** Yes / No
+- **Pulmonary hypertension:** Yes / No

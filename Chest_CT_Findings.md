@@ -85,7 +85,7 @@
 
 ## Esophagus
 
-- ⭐ [Esophageal wall thickening](definitions/nuance/esophageal_wall_thickening.json)
+- ⭐ [Esophageal wall thickening](definitions/hood/esophageal-wall-thickening.md)
 - [Esophageal stricture](definitions/hood/esophageal-dilation.md)
 - Esophageal dilation
   - Synonym: "Patulous esophagus"  
