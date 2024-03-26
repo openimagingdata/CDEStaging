@@ -1,0 +1,98 @@
+{
+  "finding_name": "pericardial effusion",
+  "description": "A collection of fluid in the pericardial space surrounding the heart",
+  "attributes": [
+    {
+      "name": "size",
+      "description": "The size of the pericardial effusion",
+      "type": "choice",
+      "values": [
+        {
+          "name": "trace",
+          "description": "≤ 5 mm"
+        },
+        {
+          "name": "small",
+          "description": "<10 mm"
+        },
+        {
+          "name": "moderate",
+          "description": "10-20 mm"
+        },
+        {
+          "name": "large",
+          "description": ">20 mm"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "density",
+      "description": "The density of the pericardial effusion",
+      "type": "choice",
+      "values": [
+        {
+          "name": "fluid",
+          "description": "Fluid density"
+        },
+        {
+          "name": "intermediate",
+          "description": "> 30 HU"
+        },
+        {
+          "name": "hemopericardium",
+          "description": "Presence of blood in the pericardial effusion"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "pericardial enhancement",
+      "description": "Presence or absence of pericardial enhancement",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "Pericardial enhancement is present"
+        },
+        {
+          "name": "absent",
+          "description": "Pericardial enhancement is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "pericardial thickening",
+      "description": "Presence or absence of pericardial thickening",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "Pericardial thickening is present"
+        },
+        {
+          "name": "absent",
+          "description": "Pericardial thickening is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "pericardial calcification",
+      "description": "Presence or absence of pericardial calcification",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "Pericardial calcification is present"
+        },
+        {
+          "name": "absent",
+          "description": "Pericardial calcification is absent"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

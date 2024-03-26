@@ -1,0 +1,91 @@
+{
+  "finding_name": "hepatic hemangioma",
+  "description": "",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right hepatic lobe",
+          "description": "None"
+        },
+        {
+          "name": "Left hepatic lobe",
+          "description": "None"
+        },
+        {
+          "name": "Segment",
+          "description": "Select segment"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Size",
+      "description": null,
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "cm",
+      "required": true
+    },
+    {
+      "name": "Enhancement Pattern",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "None",
+          "description": "None"
+        },
+        {
+          "name": "Homogeneous",
+          "description": "None"
+        },
+        {
+          "name": "Peripheral nodular",
+          "description": "None"
+        },
+        {
+          "name": "Progressive centripetal",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Number",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Single",
+          "description": "None"
+        },
+        {
+          "name": "Multiple",
+          "description": "None"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

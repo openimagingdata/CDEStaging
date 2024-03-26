@@ -1,0 +1,110 @@
+{
+  "finding_name": "Pneumomediastinum",
+  "description": "Presence of air in the mediastinum.",
+  "attributes": [
+    {
+      "name": "Presence of Pneumomediastinum",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "None"
+        },
+        {
+          "name": "No",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Extent",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Localized",
+          "description": "None"
+        },
+        {
+          "name": "Extensive",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Associated Injuries",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Tracheal Injury",
+          "description": "None"
+        },
+        {
+          "name": "Bronchial Injury",
+          "description": "None"
+        },
+        {
+          "name": "Esophageal Injury",
+          "description": "None"
+        },
+        {
+          "name": "None",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Subcutaneous Emphysema",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pneumothorax",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Other Air Leaks",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

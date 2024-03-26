@@ -1,0 +1,134 @@
+{
+  "finding_name": "IVC Filter",
+  "description": "Presence of an IVC filter and its characteristics",
+  "attributes": [
+    {
+      "name": "Presence of IVC Filter",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "New placement",
+          "description": null
+        },
+        {
+          "name": "Unchanged",
+          "description": null
+        },
+        {
+          "name": "Complication",
+          "description": null
+        },
+        {
+          "name": "Removed",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Suprarenal",
+          "description": null
+        },
+        {
+          "name": "Infrarenal",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Type",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Permanent",
+          "description": null
+        },
+        {
+          "name": "Retrievable",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Orientation",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Appropriate",
+          "description": null
+        },
+        {
+          "name": "Tilted",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Complication",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "None",
+          "description": null
+        },
+        {
+          "name": "Tine Penetration",
+          "description": null
+        },
+        {
+          "name": "Migration",
+          "description": null
+        },
+        {
+          "name": "Tilted",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Thrombosis",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    }
+  ]
+}

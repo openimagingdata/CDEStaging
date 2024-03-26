@@ -1,0 +1,154 @@
+{
+  "finding_name": "axillary nodal dissection",
+  "description": "Presence of axillary nodal dissection and its characteristics",
+  "attributes": [
+    {
+      "name": "Presence of Axillary Nodal Dissection",
+      "description": "Indicates whether the axillary nodal dissection is present or absent",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Axillary nodal dissection is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Axillary nodal dissection is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "Indicates whether the axillary nodal dissection is new or unchanged",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New",
+          "description": "Axillary nodal dissection is new"
+        },
+        {
+          "name": "Unchanged",
+          "description": "Axillary nodal dissection is unchanged"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Side",
+      "description": "Indicates the side of the axillary nodal dissection",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right",
+          "description": "Axillary nodal dissection is on the right side"
+        },
+        {
+          "name": "Left",
+          "description": "Axillary nodal dissection is on the left side"
+        },
+        {
+          "name": "Bilateral",
+          "description": "Axillary nodal dissection is on both sides"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Extent of Dissection",
+      "description": "Indicates the extent of the axillary nodal dissection",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Complete",
+          "description": "Axillary nodal dissection is complete"
+        },
+        {
+          "name": "Partial",
+          "description": "Axillary nodal dissection is partial"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Surgical Clips Present",
+      "description": "Indicates whether surgical clips are present or absent",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "Surgical clips are present"
+        },
+        {
+          "name": "No",
+          "description": "Surgical clips are absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Fluid collection",
+      "description": "Indicates the presence of fluid collection",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Fluid collection is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Fluid collection is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Breast Mass",
+      "description": "Indicates the presence of a breast mass",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Breast mass is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Breast mass is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Breast Skin Thickening",
+      "description": "Indicates the presence of breast skin thickening",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Breast skin thickening is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Breast skin thickening is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Scar Tissue",
+      "description": "Indicates the presence of scar tissue",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Scar tissue is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Scar tissue is absent"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

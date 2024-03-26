@@ -1,0 +1,182 @@
+{
+  "finding_name": "bronchial wall thickening",
+  "description": "Thickening of the bronchial wall.",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": "Presence of bronchial wall thickening.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Bronchial wall thickening is present."
+        },
+        {
+          "name": "Absent",
+          "description": "Bronchial wall thickening is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "Status of the bronchial wall thickening.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New",
+          "description": "Bronchial wall thickening is new."
+        },
+        {
+          "name": "Stable",
+          "description": "Bronchial wall thickening is stable."
+        },
+        {
+          "name": "Resolved",
+          "description": "Bronchial wall thickening has resolved."
+        },
+        {
+          "name": "Worsened",
+          "description": "Bronchial wall thickening has worsened."
+        },
+        {
+          "name": "Decreased",
+          "description": "Bronchial wall thickening has decreased."
+        },
+        {
+          "name": "Unchanged",
+          "description": "Bronchial wall thickening has remained unchanged."
+        },
+        {
+          "name": "Improved",
+          "description": "Bronchial wall thickening has improved."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Severity",
+      "description": "Severity of the bronchial wall thickening.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Mild",
+          "description": "Mild bronchial wall thickening."
+        },
+        {
+          "name": "Moderate",
+          "description": "Moderate bronchial wall thickening."
+        },
+        {
+          "name": "Severe",
+          "description": "Severe bronchial wall thickening."
+        },
+        {
+          "name": "Diffuse",
+          "description": "Bronchial wall thickening is diffuse."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Distribution",
+      "description": "Distribution of the bronchial wall thickening.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Diffuse",
+          "description": "Bronchial wall thickening is diffuse."
+        },
+        {
+          "name": "Localized",
+          "description": "Bronchial wall thickening is localized."
+        },
+        {
+          "name": "Scattered",
+          "description": "Bronchial wall thickening is scattered."
+        },
+        {
+          "name": "Bilateral",
+          "description": "Bronchial wall thickening is bilateral."
+        },
+        {
+          "name": "Central",
+          "description": "Bronchial wall thickening is central."
+        },
+        {
+          "name": "Peripheral",
+          "description": "Bronchial wall thickening is peripheral."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "Location of the bronchial wall thickening.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Upper lobes",
+          "description": "Bronchial wall thickening is in the upper lobes."
+        },
+        {
+          "name": "Middle lobe",
+          "description": "Bronchial wall thickening is in the middle lobe."
+        },
+        {
+          "name": "Lower lobes",
+          "description": "Bronchial wall thickening is in the lower lobes."
+        },
+        {
+          "name": "Lingula",
+          "description": "Bronchial wall thickening is in the lingula."
+        },
+        {
+          "name": "Right",
+          "description": "Bronchial wall thickening is in the right lung."
+        },
+        {
+          "name": "Left",
+          "description": "Bronchial wall thickening is in the left lung."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Size",
+      "description": "Size of the bronchial wall thickening.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Small (<3 mm)",
+          "description": "Bronchial wall thickening is small (<3 mm)."
+        },
+        {
+          "name": "Medium (3-6 mm)",
+          "description": "Bronchial wall thickening is medium (3-6 mm)."
+        },
+        {
+          "name": "Large (>6 mm)",
+          "description": "Bronchial wall thickening is large (>6 mm)."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Associated patterns",
+      "description": "Associated patterns with bronchial wall thickening.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Decreased tree-in-bud nodules",
+          "description": "Decreased tree-in-bud nodules are associated with bronchial wall thickening."
+        },
+        {
+          "name": "Cavitary lesions",
+          "description": "Cavitary lesions are associated with bronchial wall thickening."
+        }
+      ],
+      "required": false
+    }
+  ]
+}

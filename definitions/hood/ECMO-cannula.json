@@ -1,0 +1,162 @@
+{
+  "finding_name": "ECMO cannula",
+  "description": "Extracorporeal Membrane Oxygenation (ECMO) Cannula finding",
+  "attributes": [
+    {
+      "name": "Presence of ECMO Cannula",
+      "description": "Whether the ECMO cannula is present or absent",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "The status of the ECMO cannula",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New placement",
+          "description": "None"
+        },
+        {
+          "name": "Unchanged",
+          "description": "None"
+        },
+        {
+          "name": "Migrated",
+          "description": "None"
+        },
+        {
+          "name": "Removed",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Cannulation Site",
+      "description": "The site of cannulation",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Venous",
+          "description": "None"
+        },
+        {
+          "name": "Arterial",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Appropriate location",
+      "description": "Whether the cannula placement is appropriate or not",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "None"
+        },
+        {
+          "name": "No",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Side",
+      "description": "The side of the cannulation",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Left",
+          "description": "None"
+        },
+        {
+          "name": "Right",
+          "description": "None"
+        },
+        {
+          "name": "NA",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Vein approach (if venous)",
+      "description": "The approach used for venous cannulation",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Internal jugular",
+          "description": "None"
+        },
+        {
+          "name": "External jugular",
+          "description": "None"
+        },
+        {
+          "name": "Subclavian",
+          "description": "None"
+        },
+        {
+          "name": "Femoral",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Artery approach (if arterial)",
+      "description": "The approach used for arterial cannulation",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Femoral",
+          "description": "None"
+        },
+        {
+          "name": "Subclavian",
+          "description": "None"
+        },
+        {
+          "name": "Carotid",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Distal tip location (venous)",
+      "description": "The location of the distal tip in venous cannulation",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right atrium",
+          "description": "None"
+        },
+        {
+          "name": "SVC",
+          "description": "None"
+        },
+        {
+          "name": "IVC",
+          "description": "None"
+        }
+      ],
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "finding_name": "wedge resection",
+  "description": "A surgical procedure in which a small, wedge-shaped portion of lung tissue is removed.",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Post-operative changes observed",
+          "description": "None"
+        },
+        {
+          "name": "No post-operative changes",
+          "description": "None"
+        },
+        {
+          "name": "Healing",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right upper lobe",
+          "description": "None"
+        },
+        {
+          "name": "Right middle lobe",
+          "description": "None"
+        },
+        {
+          "name": "Right lower lobe",
+          "description": "None"
+        },
+        {
+          "name": "Left upper lobe",
+          "description": "None"
+        },
+        {
+          "name": "Left lower lobe",
+          "description": "None"
+        },
+        {
+          "name": "Bilateral",
+          "description": "None"
+        },
+        {
+          "name": "Segmental",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Resection Margin",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Clear",
+          "description": "None"
+        },
+        {
+          "name": "Involved",
+          "description": "None"
+        },
+        {
+          "name": "Not specified",
+          "description": "None"
+        },
+        {
+          "name": "Close",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Size of Resection",
+      "description": null,
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "cm",
+      "required": false
+    },
+    {
+      "name": "Number of lesions resected",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Single",
+          "description": "None"
+        },
+        {
+          "name": "Multiple",
+          "description": "None"
+        },
+        {
+          "name": "Extensive resection",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Completeness",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Complete",
+          "description": "None"
+        },
+        {
+          "name": "Incomplete",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Pleural effusion",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Pneumothorax",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Atelectasis",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Surgical clips",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Residual tumor",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        },
+        {
+          "name": "Suspected",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Scar tissue",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": false
+    }
+  ]
+}

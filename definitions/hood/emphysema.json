@@ -1,0 +1,162 @@
+{
+  "finding_name": "emphysema",
+  "description": "Emphysema is a chronic lung condition characterized by the destruction of the air sacs in the lungs, leading to difficulty in breathing.",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": "The presence or absence of emphysema.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Emphysema is present."
+        },
+        {
+          "name": "Absent",
+          "description": "Emphysema is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Type",
+      "description": "The type of emphysema.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Centrilobular",
+          "description": "Emphysema affects the central part of the lobule."
+        },
+        {
+          "name": "Panlobular",
+          "description": "Emphysema affects the entire lobule."
+        },
+        {
+          "name": "Paraseptal",
+          "description": "Emphysema affects the distal parts of the lobule."
+        },
+        {
+          "name": "Bullous",
+          "description": "Emphysema causes bullae (large air spaces) to form in the lung."
+        },
+        {
+          "name": "Irregular",
+          "description": "Emphysema has irregularly distributed areas of destruction."
+        },
+        {
+          "name": "Subpleural",
+          "description": "Emphysema is predominantly located near the pleura."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Severity",
+      "description": "The severity of emphysema.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Mild",
+          "description": "Emphysema is mild."
+        },
+        {
+          "name": "Moderate",
+          "description": "Emphysema is moderate."
+        },
+        {
+          "name": "Severe",
+          "description": "Emphysema is severe."
+        },
+        {
+          "name": "Very Severe",
+          "description": "Emphysema is very severe."
+        },
+        {
+          "name": "Extensive",
+          "description": "Emphysema is extensive."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "The location of emphysema in the lungs.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Upper Lobes",
+          "description": "Emphysema is located in the upper lobes of the lungs."
+        },
+        {
+          "name": "Lower Lobes",
+          "description": "Emphysema is located in the lower lobes of the lungs."
+        },
+        {
+          "name": "Diffuse",
+          "description": "Emphysema is distributed throughout the lungs."
+        },
+        {
+          "name": "Peribronchovascular",
+          "description": "Emphysema is located around the bronchovascular bundles."
+        },
+        {
+          "name": "Apex to Base",
+          "description": "Emphysema is distributed from the apex to the base of the lungs."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Laterality",
+      "description": "The laterality of emphysema.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right",
+          "description": "Emphysema is localized to the right lung."
+        },
+        {
+          "name": "Left",
+          "description": "Emphysema is localized to the left lung."
+        },
+        {
+          "name": "Bilateral",
+          "description": "Emphysema is present in both lungs."
+        },
+        {
+          "name": "Predominant Side",
+          "description": "Emphysema is predominantly located on one side."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Associated Findings",
+      "description": "The associated findings with emphysema.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Air trapping",
+          "description": "Emphysema is associated with air trapping."
+        },
+        {
+          "name": "Pulmonary nodules",
+          "description": "Emphysema is associated with pulmonary nodules."
+        },
+        {
+          "name": "Fibrosis",
+          "description": "Emphysema is associated with fibrosis."
+        },
+        {
+          "name": "Pleural abnormalities",
+          "description": "Emphysema is associated with pleural abnormalities."
+        },
+        {
+          "name": "Bronchiectasis",
+          "description": "Emphysema is associated with bronchiectasis."
+        }
+      ],
+      "required": false
+    }
+  ]
+}

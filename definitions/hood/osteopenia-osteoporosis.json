@@ -1,0 +1,63 @@
+{
+  "finding_name": "osteopenia osteoporosis",
+  "description": "Osteopenia and osteoporosis are two conditions characterized by low bone mineral density. Osteopenia refers to decreased bone mineral density that is not severe enough to be classified as osteoporosis. Osteoporosis is a more severe form of bone loss which can increase the risk of fractures.",
+  "attributes": [
+    {
+      "name": "presence",
+      "description": "Indicates whether osteoporosis or osteopenia is present or if the mineral density is normal.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Osteoporosis present",
+          "description": "Osteoporosis is present."
+        },
+        {
+          "name": "Osteopenia present",
+          "description": "Osteopenia is present."
+        },
+        {
+          "name": "Normal mineral density",
+          "description": "Normal bone mineral density."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "L1 Hounsfield Unit (at 120 kVp) measurement",
+      "description": "Measurement of Hounsfield units at the L1 region of the spine using a 120 kVp imaging protocol.",
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": null,
+      "required": false
+    },
+    {
+      "name": "related entities",
+      "description": "Common entities related to osteopenia and osteoporosis.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "vertebral fracture",
+          "description": "Fracture of a vertebral bone."
+        },
+        {
+          "name": "multilevel vertebral body height loss",
+          "description": "Loss of height in multiple vertebral bodies."
+        },
+        {
+          "name": "cement augmentation of vertebral body",
+          "description": "Use of cement augmentation to stabilize a vertebral body."
+        },
+        {
+          "name": "rib fracture",
+          "description": "Fracture of a rib bone."
+        },
+        {
+          "name": "sacral fracture",
+          "description": "Fracture of the sacrum bone."
+        }
+      ],
+      "required": false
+    }
+  ]
+}

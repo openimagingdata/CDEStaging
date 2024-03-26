@@ -1,0 +1,210 @@
+{
+  "finding_name": "usual interstitial pneumonia uip",
+  "description": "Usual Interstitial Pneumonia (UIP) is a pattern of lung disease characterized by fibrosis and scarring of the lung tissue.",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": "The presence or absence of UIP",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "UIP is present"
+        },
+        {
+          "name": "Absent",
+          "description": "UIP is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Confidence",
+      "description": "The level of confidence in the presence of UIP",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Definite",
+          "description": "UIP is definitely present"
+        },
+        {
+          "name": "Possible",
+          "description": "UIP is possibly present"
+        },
+        {
+          "name": "Indeterminate",
+          "description": "UIP presence is indeterminate"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pattern",
+      "description": "The pattern of UIP",
+      "type": "choice",
+      "values": [
+        {
+          "name": "UIP pattern",
+          "description": "The finding is consistent with UIP pattern"
+        },
+        {
+          "name": "Inconsistent with UIP pattern",
+          "description": "The finding is inconsistent with UIP pattern"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Distribution",
+      "description": "The distribution of UIP",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Subpleural",
+          "description": "UIP is predominantly subpleural"
+        },
+        {
+          "name": "Basal",
+          "description": "UIP is predominantly basal"
+        },
+        {
+          "name": "Diffuse",
+          "description": "UIP is diffusely distributed"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Severity",
+      "description": "The severity of UIP",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Mild",
+          "description": "UIP is mildly severe"
+        },
+        {
+          "name": "Moderate",
+          "description": "UIP is moderately severe"
+        },
+        {
+          "name": "Severe",
+          "description": "UIP is severely severe"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Honeycombing",
+      "description": "The presence or absence of honeycombing in UIP",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Honeycombing is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Honeycombing is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Reticulation",
+      "description": "The presence or absence of reticulation in UIP",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Reticulation is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Reticulation is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Traction bronchiectasis",
+      "description": "The presence or absence of traction bronchiectasis in UIP",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Traction bronchiectasis is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Traction bronchiectasis is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Ground-glass opacities",
+      "description": "The presence or absence of ground-glass opacities associated with UIP",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Ground-glass opacities are present"
+        },
+        {
+          "name": "Absent",
+          "description": "Ground-glass opacities are absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Consolidation",
+      "description": "The presence or absence of consolidation associated with UIP",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Consolidation is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Consolidation is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Emphysema",
+      "description": "The presence or absence of emphysema associated with UIP",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Emphysema is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Emphysema is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pulmonary hypertension",
+      "description": "Suggestion of pulmonary hypertension associated with UIP",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Suggested",
+          "description": "Pulmonary hypertension is suggested"
+        },
+        {
+          "name": "Not suggested",
+          "description": "Pulmonary hypertension is not suggested"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

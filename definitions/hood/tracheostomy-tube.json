@@ -1,0 +1,78 @@
+{
+  "finding_name": "tracheostomy tube",
+  "description": "A tube inserted into the trachea through a surgical incision in the neck, used to provide an airway for patients who cannot breathe on their own.",
+  "attributes": [
+    {
+      "name": "presence",
+      "description": "Presence or absence of a tracheostomy tube in the patient.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "A tracheostomy tube is present in the patient."
+        },
+        {
+          "name": "absent",
+          "description": "A tracheostomy tube is not present in the patient."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "tube_tip",
+      "description": "The location of the tip of the tracheostomy tube within the trachea.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "upper thoracic trachea",
+          "description": "The tip of the tracheostomy tube is located in the upper thoracic trachea."
+        },
+        {
+          "name": "midthoracic trachea",
+          "description": "The tip of the tracheostomy tube is located in the midthoracic trachea."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "tract",
+      "description": "The presence of soft tissue thickening around the tracheostomy tube insertion site.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "soft tissue thickening",
+          "description": "There is soft tissue thickening around the tracheostomy tube insertion site."
+        },
+        {
+          "name": "no soft tissue thickening",
+          "description": "There is no soft tissue thickening around the tracheostomy tube insertion site."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "associated_findings",
+      "description": "Any associated findings related to the tracheostomy tube.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "aspiration",
+          "description": "Aspiration related to the tracheostomy tube."
+        },
+        {
+          "name": "tracheal mucus",
+          "description": "Presence of mucus in the trachea related to the tracheostomy tube."
+        },
+        {
+          "name": "bronchial mucus",
+          "description": "Presence of mucus in the bronchial tubes related to the tracheostomy tube."
+        },
+        {
+          "name": "bronchial mucus plugs",
+          "description": "Presence of mucus plugs in the bronchial tubes related to the tracheostomy tube."
+        }
+      ],
+      "required": false
+    }
+  ]
+}

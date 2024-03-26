@@ -1,0 +1,230 @@
+{
+  "finding_name": "tree in bud",
+  "description": "Tree-in-Bud Opacities",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "New",
+          "description": "None"
+        },
+        {
+          "name": "Unchanged",
+          "description": "None"
+        },
+        {
+          "name": "Improved",
+          "description": "None"
+        },
+        {
+          "name": "Increasing",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Distribution",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Bilateral",
+          "description": "None"
+        },
+        {
+          "name": "Unilateral",
+          "description": "None"
+        },
+        {
+          "name": "Right",
+          "description": "None"
+        },
+        {
+          "name": "Left",
+          "description": "None"
+        },
+        {
+          "name": "Upper lobes",
+          "description": "None"
+        },
+        {
+          "name": "Middle lobe",
+          "description": "None"
+        },
+        {
+          "name": "Lower lobes",
+          "description": "None"
+        },
+        {
+          "name": "Lung apices",
+          "description": "None"
+        },
+        {
+          "name": "Lung bases",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Severity",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Mild",
+          "description": "None"
+        },
+        {
+          "name": "Moderate",
+          "description": "None"
+        },
+        {
+          "name": "Severe",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right upper lobe",
+          "description": "None"
+        },
+        {
+          "name": "Right lower lobe",
+          "description": "None"
+        },
+        {
+          "name": "Left upper lobe",
+          "description": "None"
+        },
+        {
+          "name": "Lingula",
+          "description": "None"
+        },
+        {
+          "name": "Middle lobe",
+          "description": "None"
+        },
+        {
+          "name": "Lower lobes",
+          "description": "None"
+        },
+        {
+          "name": "Lung apices",
+          "description": "None"
+        },
+        {
+          "name": "Posterior right upper lobe",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Consolidation",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pulmonary Fibrosis",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Groundglass Opacity",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Bronchiectasis",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Mucus Plugging",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

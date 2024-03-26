@@ -1,0 +1,266 @@
+{
+  "finding_name": "Interlobular Septal Thickening",
+  "description": "",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "New",
+          "description": "None"
+        },
+        {
+          "name": "Stable",
+          "description": "None"
+        },
+        {
+          "name": "Worsened",
+          "description": "None"
+        },
+        {
+          "name": "Improved",
+          "description": "None"
+        },
+        {
+          "name": "Progressing",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Severity",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Mild",
+          "description": "None"
+        },
+        {
+          "name": "Moderate",
+          "description": "None"
+        },
+        {
+          "name": "Severe",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Distribution",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Localized",
+          "description": "None"
+        },
+        {
+          "name": "Diffuse",
+          "description": "None"
+        },
+        {
+          "name": "Bilateral",
+          "description": "None"
+        },
+        {
+          "name": "Patchy",
+          "description": "None"
+        },
+        {
+          "name": "Throughout the lungs",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Bilateral",
+          "description": "None"
+        },
+        {
+          "name": "Unilateral",
+          "description": "None"
+        },
+        {
+          "name": "Periphery",
+          "description": "None"
+        },
+        {
+          "name": "Central",
+          "description": "None"
+        },
+        {
+          "name": "Specific lobes or segments",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pattern",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Smooth",
+          "description": "None"
+        },
+        {
+          "name": "Nodular",
+          "description": "None"
+        },
+        {
+          "name": "Irregular",
+          "description": "None"
+        },
+        {
+          "name": "Kerley lines",
+          "description": "None"
+        },
+        {
+          "name": "Reticular patterns",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pleural effusion",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Ground-glass opacities",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Honeycombing",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Consolidation",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pulmonary edema",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Lymphadenopathy",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pulmonary hypertension",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Indicated by other findings",
+          "description": "None"
+        },
+        {
+          "name": "Not indicated",
+          "description": "None"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

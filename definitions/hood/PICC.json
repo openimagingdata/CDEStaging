@@ -1,0 +1,110 @@
+{
+  "finding_name": "PICC",
+  "description": "Peripherally inserted central catheter (PICC)",
+  "attributes": [
+    {
+      "name": "Side",
+      "description": "The side of the body where the PICC is inserted",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Left upper extremity",
+          "description": null
+        },
+        {
+          "name": "Right upper extremity",
+          "description": null
+        },
+        {
+          "name": "Left lower extremity",
+          "description": null
+        },
+        {
+          "name": "Right lower extremity",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Distal tip location",
+      "description": "The location of the distal tip of the PICC",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Subclavian vein",
+          "description": null
+        },
+        {
+          "name": "Brachiocephalic vein",
+          "description": null
+        },
+        {
+          "name": "SVC",
+          "description": null
+        },
+        {
+          "name": "Superior cavoatrial junction",
+          "description": null
+        },
+        {
+          "name": "Azygous vein",
+          "description": null
+        },
+        {
+          "name": "Inferior cavoatrial junction",
+          "description": null
+        },
+        {
+          "name": "Internal jugular vein",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Appropriate location",
+      "description": "Whether the location of the PICC is appropriate",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": null
+        },
+        {
+          "name": "No",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Change from prior",
+      "description": "Any change in the PICC placement from the prior study",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New placement",
+          "description": null
+        },
+        {
+          "name": "Unchanged",
+          "description": null
+        },
+        {
+          "name": "Retracted",
+          "description": null
+        },
+        {
+          "name": "Migrated",
+          "description": null
+        },
+        {
+          "name": "Removed",
+          "description": null
+        }
+      ],
+      "required": true
+    }
+  ]
+}

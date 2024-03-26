@@ -1,0 +1,99 @@
+{
+  "finding_name": "pulmonary artery dilation",
+  "description": "Pulmonary Artery Dilation",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Diameter",
+      "description": null,
+      "type": "numeric",
+      "minimum": 0,
+      "maximum": null,
+      "unit": "mm",
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Main pulmonary artery",
+          "description": "None"
+        },
+        {
+          "name": "Right pulmonary artery",
+          "description": "None"
+        },
+        {
+          "name": "Left pulmonary artery",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pulmonary Hypertension",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Suspected",
+          "description": "None"
+        },
+        {
+          "name": "Confirmed",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Right Heart Strain",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Pulmonary Embolism",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": false
+    }
+  ]
+}

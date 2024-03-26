@@ -1,0 +1,128 @@
+{
+  "finding_name": "Tracheal Stent",
+  "description": "A stent placed in the trachea to maintain airway patency.",
+  "attributes": [
+    {
+      "name": "Presence of Tracheal Stent",
+      "description": "Indicates whether a tracheal stent is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "A tracheal stent is present."
+        },
+        {
+          "name": "Absent",
+          "description": "A tracheal stent is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "Indicates the status of the tracheal stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New placement",
+          "description": "The tracheal stent has been newly placed."
+        },
+        {
+          "name": "Unchanged",
+          "description": "The tracheal stent remains unchanged."
+        },
+        {
+          "name": "Complication",
+          "description": "The tracheal stent has developed a complication."
+        },
+        {
+          "name": "Removed",
+          "description": "The tracheal stent has been removed."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "Indicates the location of the tracheal stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Proximal trachea",
+          "description": "The tracheal stent is located in the proximal trachea."
+        },
+        {
+          "name": "Mid trachea",
+          "description": "The tracheal stent is located in the mid trachea."
+        },
+        {
+          "name": "Distal trachea",
+          "description": "The tracheal stent is located in the distal trachea."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Type",
+      "description": "Indicates the type of the tracheal stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Fully covered",
+          "description": "The tracheal stent is fully covered."
+        },
+        {
+          "name": "Partially covered",
+          "description": "The tracheal stent is partially covered."
+        },
+        {
+          "name": "Uncovered",
+          "description": "The tracheal stent is uncovered."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Stent Length",
+      "description": "Indicates the length of the tracheal stent.",
+      "type": "numeric",
+      "minimum": 0,
+      "maximum": null,
+      "unit": "cm",
+      "required": true
+    },
+    {
+      "name": "Stent Diameter",
+      "description": "Indicates the diameter of the tracheal stent.",
+      "type": "numeric",
+      "minimum": 0,
+      "maximum": null,
+      "unit": "mm",
+      "required": true
+    },
+    {
+      "name": "Complication",
+      "description": "Indicates any complication associated with the tracheal stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "None",
+          "description": "No complication associated with the tracheal stent."
+        },
+        {
+          "name": "Mucosal erosion",
+          "description": "Mucosal erosion associated with the tracheal stent."
+        },
+        {
+          "name": "Perforation",
+          "description": "Perforation associated with the tracheal stent."
+        },
+        {
+          "name": "Migration",
+          "description": "Migration of the tracheal stent."
+        }
+      ],
+      "required": false
+    }
+  ]
+}

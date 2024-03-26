@@ -1,0 +1,222 @@
+{
+  "finding_name": "Mastectomy",
+  "description": "The removal of all or part of the breast as a treatment for breast cancer or as a preventative measure.",
+  "attributes": [
+    {
+      "name": "Presence of Mastectomy",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right",
+          "description": "None"
+        },
+        {
+          "name": "Left",
+          "description": "None"
+        },
+        {
+          "name": "Bilateral",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Type of Mastectomy",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Total",
+          "description": "None"
+        },
+        {
+          "name": "Partial",
+          "description": "None"
+        },
+        {
+          "name": "Radical",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Reconstruction",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Flap",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "TRAM flap",
+          "description": "None"
+        },
+        {
+          "name": "DIEP flap",
+          "description": "None"
+        },
+        {
+          "name": "SIEA flap",
+          "description": "None"
+        },
+        {
+          "name": "Latissimus dorsi flap",
+          "description": "None"
+        },
+        {
+          "name": "Gluteal flap",
+          "description": "None"
+        },
+        {
+          "name": "TUG flap",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Breast Implant",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Breast Skin Thickening",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Scarring",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Lymphedema",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Axillary Lymphadenopathy",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Fat necrosis",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Fluid collection",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

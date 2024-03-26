@@ -1,0 +1,182 @@
+{
+  "finding_name": "Breast Implant",
+  "description": "Presence and characteristics of breast implants",
+  "attributes": [
+    {
+      "name": "Presence of Breast Implant",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "New",
+          "description": "None"
+        },
+        {
+          "name": "Unchanged",
+          "description": "None"
+        },
+        {
+          "name": "Complication",
+          "description": "None"
+        },
+        {
+          "name": "Removed",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right breast",
+          "description": "None"
+        },
+        {
+          "name": "Left breast",
+          "description": "None"
+        },
+        {
+          "name": "Bilateral",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Implant Type",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Saline",
+          "description": "None"
+        },
+        {
+          "name": "Silicone",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Position",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Preglandular",
+          "description": "None"
+        },
+        {
+          "name": "Subpectoral",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Implant Rupture",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Intracapsular",
+          "description": "None"
+        },
+        {
+          "name": "Extracapsular",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Silicone Leakage",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Capsular Contracture",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Capsular Calcifications",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Axillary Lymphadenopathy",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

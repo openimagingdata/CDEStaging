@@ -1,0 +1,198 @@
+{
+  "finding_name": "Cutaneous Cardiac Rhythm Monitor (ZIO Patch)",
+  "description": "Cutaneous cardiac rhythm monitor used for continuous heart monitoring.",
+  "attributes": [
+    {
+      "name": "Presence of ZIO Patch",
+      "description": "Indicates whether the ZIO Patch is present or absent",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "The ZIO Patch is present"
+        },
+        {
+          "name": "Absent",
+          "description": "The ZIO Patch is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "Indicates the status of the ZIO Patch",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Functioning",
+          "description": "The ZIO Patch is functioning properly"
+        },
+        {
+          "name": "Malfunctioning",
+          "description": "The ZIO Patch is not functioning properly"
+        },
+        {
+          "name": "Removed",
+          "description": "The ZIO Patch has been removed"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "Indicates the location of the ZIO Patch on the body",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Chest",
+          "description": "The ZIO Patch is located on the chest"
+        },
+        {
+          "name": "Abdomen",
+          "description": "The ZIO Patch is located on the abdomen"
+        },
+        {
+          "name": "Other",
+          "description": "The ZIO Patch is located on another area of the body"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Side",
+      "description": "Indicates the side of the body where the ZIO Patch is located",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Left",
+          "description": "The ZIO Patch is located on the left side"
+        },
+        {
+          "name": "Right",
+          "description": "The ZIO Patch is located on the right side"
+        },
+        {
+          "name": "NA",
+          "description": "Not applicable"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Orientation",
+      "description": "Indicates the orientation of the ZIO Patch on the body",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Parallel to skin",
+          "description": "The ZIO Patch is parallel to the skin"
+        },
+        {
+          "name": "Perpendicular to skin",
+          "description": "The ZIO Patch is perpendicular to the skin"
+        },
+        {
+          "name": "Other",
+          "description": "The ZIO Patch is oriented in another way"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Adherence",
+      "description": "Indicates the adherence of the ZIO Patch",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Fully adherent",
+          "description": "The ZIO Patch is fully adherent to the skin"
+        },
+        {
+          "name": "Partially detached",
+          "description": "The ZIO Patch is partially detached from the skin"
+        },
+        {
+          "name": "Completely detached",
+          "description": "The ZIO Patch is completely detached from the skin"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Skin Irritation",
+      "description": "Indicates the presence and severity of skin irritation",
+      "type": "choice",
+      "values": [
+        {
+          "name": "None",
+          "description": "No skin irritation is present"
+        },
+        {
+          "name": "Mild",
+          "description": "Mild skin irritation is present"
+        },
+        {
+          "name": "Moderate",
+          "description": "Moderate skin irritation is present"
+        },
+        {
+          "name": "Severe",
+          "description": "Severe skin irritation is present"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Infection",
+      "description": "Indicates the presence of infection",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Infection is present"
+        },
+        {
+          "name": "Absent",
+          "description": "No infection is present"
+        },
+        {
+          "name": "Suspected",
+          "description": "Infection is suspected"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Hematoma",
+      "description": "Indicates the presence of a hematoma",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Hematoma is present"
+        },
+        {
+          "name": "Absent",
+          "description": "No hematoma is present"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Evidence of Repeated Applications",
+      "description": "Indicates whether there is evidence of repeated applications of the ZIO Patch",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "There is evidence of repeated applications"
+        },
+        {
+          "name": "No",
+          "description": "There is no evidence of repeated applications"
+        }
+      ],
+      "required": true
+    }
+  ]
+}
