@@ -1,0 +1,215 @@
+{
+  "finding_name": "Mediastinal Lymph Nodes",
+  "description": "Enlarged lymph nodes in the mediastinum.",
+  "attributes": [
+    {
+      "name": "Presence of Enlarged Mediastinal Lymph Nodes",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "None"
+        },
+        {
+          "name": "No",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "IASLC Lymph Node Stations",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "1: Low Cervical, Supraclavicular, and Stellate Lymph Nodes",
+          "description": "None"
+        },
+        {
+          "name": "2R: Upper Paratracheal Right",
+          "description": "None"
+        },
+        {
+          "name": "2L: Upper Paratracheal Left",
+          "description": "None"
+        },
+        {
+          "name": "3A: Prevascular",
+          "description": "None"
+        },
+        {
+          "name": "3P: Retrotracheal",
+          "description": "None"
+        },
+        {
+          "name": "4R: Lower Paratracheal Right",
+          "description": "None"
+        },
+        {
+          "name": "4L: Lower Paratracheal Left",
+          "description": "None"
+        },
+        {
+          "name": "5: Subaortic (Aortopulmonary Window)",
+          "description": "None"
+        },
+        {
+          "name": "6: Para-Aortic (Ascending Aorta or Phrenic)",
+          "description": "None"
+        },
+        {
+          "name": "7: Subcarinal",
+          "description": "None"
+        },
+        {
+          "name": "8: Paraesophageal (Below Carina)",
+          "description": "None"
+        },
+        {
+          "name": "9: Pulmonary Ligament",
+          "description": "None"
+        },
+        {
+          "name": "10: Hilar",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Station Involvement",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Low Cervical, Supraclavicular, and Stellate Lymph Nodes",
+          "description": "None"
+        },
+        {
+          "name": "Upper Paratracheal Right",
+          "description": "None"
+        },
+        {
+          "name": "Upper Paratracheal Left",
+          "description": "None"
+        },
+        {
+          "name": "Prevascular",
+          "description": "None"
+        },
+        {
+          "name": "Retrotracheal",
+          "description": "None"
+        },
+        {
+          "name": "Lower Paratracheal Right",
+          "description": "None"
+        },
+        {
+          "name": "Lower Paratracheal Left",
+          "description": "None"
+        },
+        {
+          "name": "Subaortic (Aortopulmonary Window)",
+          "description": "None"
+        },
+        {
+          "name": "Para-Aortic (Ascending Aorta or Phrenic)",
+          "description": "None"
+        },
+        {
+          "name": "Subcarinal",
+          "description": "None"
+        },
+        {
+          "name": "Paraesophageal (Below Carina)",
+          "description": "None"
+        },
+        {
+          "name": "Pulmonary Ligament",
+          "description": "None"
+        },
+        {
+          "name": "Hilar",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Short-Axis Diameter",
+      "description": null,
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "mm",
+      "required": false
+    },
+    {
+      "name": "Shape",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Round",
+          "description": "None"
+        },
+        {
+          "name": "Oval",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Density",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Homogeneous",
+          "description": "None"
+        },
+        {
+          "name": "Heterogeneous",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Evidence of Metastasis",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Involvement of Adjacent Structures",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": false
+    }
+  ]
+}

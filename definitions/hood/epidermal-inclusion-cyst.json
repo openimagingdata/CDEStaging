@@ -1,0 +1,115 @@
+{
+  "finding_name": "Epidermal Inclusion Cyst",
+  "description": "Presence of an epidermal inclusion cyst",
+  "attributes": [
+    {
+      "name": "Presence of Epidermal Inclusion Cyst",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "New",
+          "description": "None"
+        },
+        {
+          "name": "Unchanged",
+          "description": "None"
+        },
+        {
+          "name": "Increased",
+          "description": "None"
+        },
+        {
+          "name": "Decreased",
+          "description": "None"
+        },
+        {
+          "name": "Removed",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Specify location",
+          "description": "None"
+        },
+        {
+          "name": "Not specified",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Size (cm)",
+      "description": null,
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "cm",
+      "required": true
+    },
+    {
+      "name": "Morphology",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Round",
+          "description": "None"
+        },
+        {
+          "name": "Oval",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Content",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Homogeneous",
+          "description": "None"
+        },
+        {
+          "name": "Heterogeneous",
+          "description": "None"
+        },
+        {
+          "name": "Calcified",
+          "description": "None"
+        },
+        {
+          "name": "Not specified",
+          "description": "None"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

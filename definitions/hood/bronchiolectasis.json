@@ -1,0 +1,294 @@
+{
+  "finding_name": "Bronchiolectasis",
+  "description": "Bronchiolectasis is characterized by the dilation and thickening of the bronchioles.",
+  "attributes": [
+    {
+      "name": "Presence of Bronchiolectasis",
+      "description": "Indicates whether bronchiolectasis is present or not.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "Bronchiolectasis is present."
+        },
+        {
+          "name": "No",
+          "description": "Bronchiolectasis is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Distribution",
+      "description": "The distribution pattern of bronchiolectasis.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Focal",
+          "description": null
+        },
+        {
+          "name": "Multifocal",
+          "description": null
+        },
+        {
+          "name": "Diffuse",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Severity",
+      "description": "The severity of bronchiolectasis.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Mild",
+          "description": null
+        },
+        {
+          "name": "Moderate",
+          "description": null
+        },
+        {
+          "name": "Severe",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Location",
+      "description": "The location of bronchiolectasis.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Left",
+          "description": null
+        },
+        {
+          "name": "Right",
+          "description": null
+        },
+        {
+          "name": "Bilateral",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Lung Zone",
+      "description": "The lung zone where bronchiolectasis is located.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Upper",
+          "description": null
+        },
+        {
+          "name": "Middle",
+          "description": null
+        },
+        {
+          "name": "Lower",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Segments",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right Upper Lobe",
+          "description": null
+        },
+        {
+          "name": "Right Middle Lobe",
+          "description": null
+        },
+        {
+          "name": "Right Lower Lobe",
+          "description": null
+        },
+        {
+          "name": "Left Upper Lobe",
+          "description": null
+        },
+        {
+          "name": "Left Lower Lobe",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Right Upper Lobe Segments",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Apical",
+          "description": null
+        },
+        {
+          "name": "Posterior",
+          "description": null
+        },
+        {
+          "name": "Anterior",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Right Middle Lobe Segments",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Lateral",
+          "description": null
+        },
+        {
+          "name": "Medial",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Right Lower Lobe Segments",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Superior",
+          "description": null
+        },
+        {
+          "name": "Medial Basal",
+          "description": null
+        },
+        {
+          "name": "Anterior Basal",
+          "description": null
+        },
+        {
+          "name": "Lateral Basal",
+          "description": null
+        },
+        {
+          "name": "Posterior Basal",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Left Upper Lobe Segments",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Apical",
+          "description": null
+        },
+        {
+          "name": "Posterior",
+          "description": null
+        },
+        {
+          "name": "Anterior",
+          "description": null
+        },
+        {
+          "name": "Superior Lingular",
+          "description": null
+        },
+        {
+          "name": "Inferior Lingular",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Left Lower Lobe Segments",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Superior",
+          "description": null
+        },
+        {
+          "name": "Anteromedial Basal",
+          "description": null
+        },
+        {
+          "name": "Lateral Basal",
+          "description": null
+        },
+        {
+          "name": "Posterior Basal",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Mucous Plugging",
+      "description": "Indicates the presence of mucous plugging.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Mucous plugging is present."
+        },
+        {
+          "name": "Absent",
+          "description": "Mucous plugging is absent."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Air Trapping",
+      "description": "Indicates the presence of air trapping.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Air trapping is present."
+        },
+        {
+          "name": "Absent",
+          "description": "Air trapping is absent."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Signs of Infection",
+      "description": "Indicates the presence of signs of infection.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Signs of infection are present."
+        },
+        {
+          "name": "Absent",
+          "description": "Signs of infection are absent."
+        }
+      ],
+      "required": false
+    }
+  ]
+}

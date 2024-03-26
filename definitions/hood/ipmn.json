@@ -1,0 +1,143 @@
+{
+  "finding_name": "ipmn",
+  "description": "Intraductal papillary mucinous neoplasm (IPMN) is a type of cystic lesion of the pancreas that is characterized by the presence of mucin-producing cells within the pancreatic ductal system.",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": "Presence of IPMN in the pancreas.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "IPMN is present in the pancreas."
+        },
+        {
+          "name": "Absent",
+          "description": "IPMN is not present in the pancreas."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "Status of the IPMN.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New suspected",
+          "description": "There is a new suspected IPMN."
+        },
+        {
+          "name": "Stable",
+          "description": "The IPMN is stable."
+        },
+        {
+          "name": "Enlarging",
+          "description": "The IPMN is enlarging."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Type",
+      "description": "Type of IPMN.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Main duct",
+          "description": "IPMN is located in the main pancreatic duct."
+        },
+        {
+          "name": "Branch duct",
+          "description": "IPMN is located in a branch pancreatic duct."
+        },
+        {
+          "name": "Mixed",
+          "description": "IPMN is located in both main duct and branch ducts."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Communication with Pancreatic Duct",
+      "description": "Presence of communication between the IPMN and the pancreatic duct.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "There is communication between the IPMN and the pancreatic duct."
+        },
+        {
+          "name": "Absent",
+          "description": "There is no communication between the IPMN and the pancreatic duct."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location in Pancreas",
+      "description": "Location of the IPMN within the pancreas.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Uncinate",
+          "description": "IPMN is located in the uncinate process of the pancreas."
+        },
+        {
+          "name": "Head",
+          "description": "IPMN is located in the head of the pancreas."
+        },
+        {
+          "name": "Body",
+          "description": "IPMN is located in the body of the pancreas."
+        },
+        {
+          "name": "Tail",
+          "description": "IPMN is located in the tail of the pancreas."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Size",
+      "description": "Size of the IPMN in millimeters.",
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "mm",
+      "required": true
+    },
+    {
+      "name": "Number of Cysts",
+      "description": "Number of cysts associated with the IPMN.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Single",
+          "description": "There is a single cyst associated with the IPMN."
+        },
+        {
+          "name": "Multiple",
+          "description": "There are multiple cysts associated with the IPMN."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Main Pancreatic Ductal Dilation",
+      "description": "Presence of main pancreatic ductal dilation.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "There is main pancreatic ductal dilation."
+        },
+        {
+          "name": "Absent",
+          "description": "There is no main pancreatic ductal dilation."
+        }
+      ],
+      "required": false
+    }
+  ]
+}

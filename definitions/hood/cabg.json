@@ -1,0 +1,138 @@
+{
+  "finding_name": "CABG",
+  "description": "Coronary Artery Bypass Graft",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": "Presence of CABG grafts",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "The CABG grafts are present"
+        },
+        {
+          "name": "Absent",
+          "description": "The CABG grafts are absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Number of Grafts",
+      "description": "Number of CABG grafts",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Single",
+          "description": "There is a single CABG graft"
+        },
+        {
+          "name": "Multiple",
+          "description": "There are multiple CABG grafts"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Type of Grafts",
+      "description": "Type of CABG grafts",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Arterial",
+          "description": "Arterial grafts (LIMA, RIMA, Radial)"
+        },
+        {
+          "name": "Venous",
+          "description": "Venous grafts (Saphenous vein)"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location of Grafts",
+      "description": "Location of CABG grafts",
+      "type": "choice",
+      "values": [
+        {
+          "name": "LAD",
+          "description": "Left Anterior Descending artery"
+        },
+        {
+          "name": "LCx",
+          "description": "Left Circumflex artery"
+        },
+        {
+          "name": "RCA",
+          "description": "Right Coronary Artery"
+        },
+        {
+          "name": "Intermediate",
+          "description": "Intermediate artery"
+        },
+        {
+          "name": "Diagonal branches",
+          "description": "Diagonal branches of the coronary arteries"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Graft Patency",
+      "description": "Patency of CABG grafts",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Patent",
+          "description": "The CABG grafts are patent"
+        },
+        {
+          "name": "Occluded",
+          "description": "The CABG grafts are occluded"
+        },
+        {
+          "name": "Stenosed",
+          "description": "The CABG grafts are stenosed"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Native Coronary Artery Disease",
+      "description": "Presence of native coronary artery disease",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "There is native coronary artery disease"
+        },
+        {
+          "name": "Absent",
+          "description": "There is no native coronary artery disease"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Post-surgical Changes",
+      "description": "Post-surgical changes after CABG",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Sternotomy wires",
+          "description": "Presence of sternotomy wires"
+        },
+        {
+          "name": "Pleural effusion",
+          "description": "Presence of pleural effusion"
+        },
+        {
+          "name": "Pericardial effusion",
+          "description": "Presence of pericardial effusion"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

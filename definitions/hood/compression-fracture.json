@@ -1,0 +1,246 @@
+{
+  "finding_name": "compression fracture",
+  "description": "A fracture in one or more vertebrae resulting from compression forces",
+  "attributes": [
+    {
+      "name": "presence",
+      "description": "Indicates whether a compression fracture is present or absent",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "A compression fracture is present"
+        },
+        {
+          "name": "absent",
+          "description": "No compression fracture is present"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "acuity",
+      "description": "The acuity of the compression fracture",
+      "type": "choice",
+      "values": [
+        {
+          "name": "acute",
+          "description": "Recently occurred compression fracture"
+        },
+        {
+          "name": "chronic",
+          "description": "Long-standing compression fracture"
+        },
+        {
+          "name": "subacute",
+          "description": "Compression fracture in the healing phase"
+        },
+        {
+          "name": "healing",
+          "description": "Compression fracture in the process of healing"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "location",
+      "description": "The location of the compression fracture",
+      "type": "choice",
+      "values": [
+        {
+          "name": "thoracic",
+          "description": "Compression fracture in the thoracic region"
+        },
+        {
+          "name": "lumbar",
+          "description": "Compression fracture in the lumbar region"
+        },
+        {
+          "name": "cervical",
+          "description": "Compression fracture in the cervical region"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "number_of_vertebrae_affected",
+      "description": "The number of vertebrae affected by the compression fracture",
+      "type": "choice",
+      "values": [
+        {
+          "name": "single",
+          "description": "Compression fracture only affecting a single vertebra"
+        },
+        {
+          "name": "multiple",
+          "description": "Compression fracture affecting multiple vertebrae"
+        },
+        {
+          "name": "diffuse_involvement",
+          "description": "Compression fracture with diffuse involvement of vertebrae"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "severity",
+      "description": "The severity of the compression fracture",
+      "type": "choice",
+      "values": [
+        {
+          "name": "mild",
+          "description": "Mild compression fracture"
+        },
+        {
+          "name": "moderate",
+          "description": "Moderate compression fracture"
+        },
+        {
+          "name": "severe",
+          "description": "Severe compression fracture"
+        },
+        {
+          "name": "collapse",
+          "description": "Compression fracture with collapse of the affected vertebra"
+        },
+        {
+          "name": "complete_destruction",
+          "description": "Compression fracture with complete destruction of the affected vertebra"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "morphology",
+      "description": "The morphology of the compression fracture",
+      "type": "choice",
+      "values": [
+        {
+          "name": "wedge-shaped",
+          "description": "Compression fracture with a wedge-shaped appearance"
+        },
+        {
+          "name": "biconcave",
+          "description": "Compression fracture with a biconcave appearance"
+        },
+        {
+          "name": "crush",
+          "description": "Compression fracture with a crush appearance"
+        },
+        {
+          "name": "endplate_involvement",
+          "description": "Compression fracture with endplate involvement"
+        },
+        {
+          "name": "cortical_disruption",
+          "description": "Compression fracture with cortical disruption"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "bone_marrow_edema",
+      "description": "Indicates whether bone marrow edema is present or absent",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "Bone marrow edema is present"
+        },
+        {
+          "name": "absent",
+          "description": "No bone marrow edema is present"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "adjacent_disc_involvement",
+      "description": "Indicates whether adjacent disc involvement is present, absent, or shows degenerative changes",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "Adjacent disc involvement is present"
+        },
+        {
+          "name": "absent",
+          "description": "No adjacent disc involvement is present"
+        },
+        {
+          "name": "degenerative_changes",
+          "description": "Adjacent disc involvement shows degenerative changes"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "soft_tissue_swelling",
+      "description": "Indicates whether soft tissue swelling is present or absent",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "Soft tissue swelling is present"
+        },
+        {
+          "name": "absent",
+          "description": "No soft tissue swelling is present"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "canal_compromise",
+      "description": "Indicates whether canal compromise is present, absent, or shows stenosis",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "Canal compromise is present"
+        },
+        {
+          "name": "absent",
+          "description": "No canal compromise is present"
+        },
+        {
+          "name": "stenosis",
+          "description": "Canal compromise shows stenosis"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "paravertebral_hematoma",
+      "description": "Indicates whether paravertebral hematoma is present or absent",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "Paravertebral hematoma is present"
+        },
+        {
+          "name": "absent",
+          "description": "No paravertebral hematoma is present"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "neurological_compromise",
+      "description": "Indicates whether neurological compromise is present or absent",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "Neurological compromise is present"
+        },
+        {
+          "name": "absent",
+          "description": "No neurological compromise is present"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

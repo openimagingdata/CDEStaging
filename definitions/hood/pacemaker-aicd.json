@@ -1,0 +1,178 @@
+{
+  "finding_name": "pacemaker aicd",
+  "description": "A pacemaker or implantable cardioverter-defibrillator (AICD) device.",
+  "attributes": [
+    {
+      "name": "device_location",
+      "description": "The location of the pacemaker/AICD device.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "ventral chest wall",
+          "description": null
+        },
+        {
+          "name": "subcutaneous",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "side_directional_approach",
+      "description": "The side/directional approach used for the pacemaker/AICD device.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "left",
+          "description": null
+        },
+        {
+          "name": "right",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "vascular_approach",
+      "description": "The vascular approach used for the pacemaker/AICD device.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "subclavian vein",
+          "description": null
+        },
+        {
+          "name": "axillary vein",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "device_type",
+      "description": "The type of pacemaker/AICD device.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "single chamber",
+          "description": null
+        },
+        {
+          "name": "dual chamber",
+          "description": null
+        },
+        {
+          "name": "biventricular",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "components",
+      "description": "The components of the pacemaker/AICD device.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "generator",
+          "description": null
+        },
+        {
+          "name": "tie-down",
+          "description": null
+        },
+        {
+          "name": "lead",
+          "description": null
+        },
+        {
+          "name": "manufacturer logo",
+          "description": null
+        },
+        {
+          "name": "header",
+          "description": null
+        },
+        {
+          "name": "connector",
+          "description": null
+        },
+        {
+          "name": "shock coil",
+          "description": null
+        },
+        {
+          "name": "ring electrode",
+          "description": null
+        },
+        {
+          "name": "tip electrode",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "lead_location",
+      "description": "The location of the lead in the pacemaker/AICD device.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "superior vena cava",
+          "description": null
+        },
+        {
+          "name": "right atrial appendage",
+          "description": null
+        },
+        {
+          "name": "right atrium",
+          "description": null
+        },
+        {
+          "name": "right ventricular apex",
+          "description": null
+        },
+        {
+          "name": "interventricular septum",
+          "description": null
+        },
+        {
+          "name": "coronary sinus",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "complication",
+      "description": "Possible complications associated with the pacemaker/AICD device.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "fracture",
+          "description": null
+        },
+        {
+          "name": "malposition",
+          "description": null
+        },
+        {
+          "name": "disconnection",
+          "description": null
+        },
+        {
+          "name": "migration",
+          "description": null
+        },
+        {
+          "name": "abandoned",
+          "description": null
+        }
+      ],
+      "required": true
+    }
+  ]
+}
