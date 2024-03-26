@@ -1,0 +1,110 @@
+{
+  "finding_name": "pleural effusion",
+  "description": "An accumulation of fluid in the pleural cavity.",
+  "attributes": [
+    {
+      "name": "side",
+      "description": "The side of the pleural effusion.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "left",
+          "description": null
+        },
+        {
+          "name": "right",
+          "description": null
+        },
+        {
+          "name": "bilateral",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "size",
+      "description": "The size of the pleural effusion.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "small",
+          "description": null
+        },
+        {
+          "name": "moderate",
+          "description": null
+        },
+        {
+          "name": "large",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "density",
+      "description": "The density of the pleural effusion.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "fluid density",
+          "description": "Synonym: simple"
+        },
+        {
+          "name": "intermediate density (>30 HU)",
+          "description": "Synonym: complex"
+        },
+        {
+          "name": "hemothorax",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "chronicity",
+      "description": "The chronicity of the pleural effusion.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "new",
+          "description": null
+        },
+        {
+          "name": "chronic",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "associated_features",
+      "description": "The associated features of the pleural effusion.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "loculation",
+          "description": null
+        },
+        {
+          "name": "pleural thickening",
+          "description": "Parietal pleura, Visceral pleura\nSynonyms: soft tissue rind"
+        },
+        {
+          "name": "pleural enhancement",
+          "description": null
+        },
+        {
+          "name": "presence of gas",
+          "description": "Hydropneumothorax, Hemopneumothorax, Bronchopleural fistula"
+        },
+        {
+          "name": "atelectasis of the underlying lungs",
+          "description": "Synonyms: passive atelectasis, relaxation atelectasis"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

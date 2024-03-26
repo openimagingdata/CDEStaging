@@ -1,0 +1,191 @@
+{
+  "finding_name": "Breast Skin Thickening",
+  "description": "Thickening of the skin in the breast region.",
+  "attributes": [
+    {
+      "name": "Presence of Breast Skin Thickening",
+      "description": "Whether the breast skin thickening is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Breast skin thickening is present."
+        },
+        {
+          "name": "Absent",
+          "description": "No breast skin thickening present."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "The status of the breast skin thickening.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New",
+          "description": "The breast skin thickening is new."
+        },
+        {
+          "name": "Unchanged",
+          "description": "The breast skin thickening has not changed."
+        },
+        {
+          "name": "Increased",
+          "description": "The breast skin thickening has increased."
+        },
+        {
+          "name": "Decreased",
+          "description": "The breast skin thickening has decreased."
+        },
+        {
+          "name": "Resolved",
+          "description": "The breast skin thickening has resolved."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "The location of the breast skin thickening.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right breast",
+          "description": "The breast skin thickening is in the right breast."
+        },
+        {
+          "name": "Left breast",
+          "description": "The breast skin thickening is in the left breast."
+        },
+        {
+          "name": "Bilateral",
+          "description": "The breast skin thickening is in both breasts."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Extent",
+      "description": "The extent of the breast skin thickening.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Localized",
+          "description": "The breast skin thickening is localized."
+        },
+        {
+          "name": "Diffuse",
+          "description": "The breast skin thickening is diffuse."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Thickness",
+      "description": "The thickness of the breast skin thickening.",
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "mm",
+      "required": true
+    },
+    {
+      "name": "Nipple retraction",
+      "description": "Whether nipple retraction is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Nipple retraction is present."
+        },
+        {
+          "name": "Absent",
+          "description": "Nipple retraction is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Nipple inversion",
+      "description": "Whether nipple inversion is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Nipple inversion is present."
+        },
+        {
+          "name": "Absent",
+          "description": "Nipple inversion is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Lymphedema",
+      "description": "Whether lymphedema is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Lymphedema is present."
+        },
+        {
+          "name": "Absent",
+          "description": "Lymphedema is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Breast Mass",
+      "description": "Whether a breast mass is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "A breast mass is present."
+        },
+        {
+          "name": "Absent",
+          "description": "No breast mass present."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Axillary Lymphadenopathy",
+      "description": "Whether axillary lymphadenopathy is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Axillary lymphadenopathy is present."
+        },
+        {
+          "name": "Absent",
+          "description": "No axillary lymphadenopathy present."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Breast Calcifications",
+      "description": "Whether breast calcifications are present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Breast calcifications are present."
+        },
+        {
+          "name": "Absent",
+          "description": "No breast calcifications present."
+        }
+      ],
+      "required": true
+    }
+  ]
+}

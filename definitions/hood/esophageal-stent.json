@@ -1,0 +1,132 @@
+{
+  "finding_name": "Esophageal Stent",
+  "description": "Esophageal stent is used to treat strictures or blockages in the esophagus.",
+  "attributes": [
+    {
+      "name": "Presence of Esophageal Stent",
+      "description": "Whether an esophageal stent is present or not.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "An esophageal stent is present."
+        },
+        {
+          "name": "Absent",
+          "description": "No esophageal stent is present."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "The status of the esophageal stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New placement",
+          "description": "The esophageal stent is newly placed."
+        },
+        {
+          "name": "Unchanged",
+          "description": "The esophageal stent remains unchanged."
+        },
+        {
+          "name": "Complication",
+          "description": "There is a complication related to the esophageal stent."
+        },
+        {
+          "name": "Removed",
+          "description": "The esophageal stent has been removed."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "The location of the esophageal stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Upper esophagus",
+          "description": "The esophageal stent is located in the upper esophagus."
+        },
+        {
+          "name": "Mid esophagus",
+          "description": "The esophageal stent is located in the mid esophagus."
+        },
+        {
+          "name": "Lower esophagus",
+          "description": "The esophageal stent is located in the lower esophagus."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Type",
+      "description": "The type of esophageal stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Fully covered",
+          "description": "The esophageal stent is fully covered."
+        },
+        {
+          "name": "Partially covered",
+          "description": "The esophageal stent is partially covered."
+        },
+        {
+          "name": "Uncovered",
+          "description": "The esophageal stent is uncovered."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Stent Length",
+      "description": "The length of the esophageal stent.",
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "cm",
+      "required": true
+    },
+    {
+      "name": "Stent Diameter",
+      "description": "The diameter of the esophageal stent.",
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "mm",
+      "required": true
+    },
+    {
+      "name": "Complication",
+      "description": "The complication associated with the esophageal stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "None",
+          "description": "No complication is present."
+        },
+        {
+          "name": "Mucosal erosion",
+          "description": "There is mucosal erosion related to the esophageal stent."
+        },
+        {
+          "name": "Perforation",
+          "description": "Perforation is observed related to the esophageal stent."
+        },
+        {
+          "name": "Migration",
+          "description": "Migration of the esophageal stent is observed."
+        },
+        {
+          "name": "Impaction",
+          "description": "Impaction of the esophageal stent is observed."
+        }
+      ],
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "finding_name": "coronary stent",
+  "description": "A coronary stent is a small mesh-like tube that is placed in a narrowed or blocked coronary artery to restore blood flow.",
+  "attributes": [
+    {
+      "name": "Presence of Coronary Stent",
+      "description": "Indicates whether a coronary stent is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "A coronary stent is present."
+        },
+        {
+          "name": "Absent",
+          "description": "A coronary stent is not present."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "Indicates the status of the coronary stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New placement",
+          "description": "The coronary stent has been newly placed."
+        },
+        {
+          "name": "Unchanged",
+          "description": "The coronary stent remains unchanged."
+        },
+        {
+          "name": "Complication",
+          "description": "There is a complication associated with the coronary stent."
+        },
+        {
+          "name": "Removed",
+          "description": "The coronary stent has been removed."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "Indicates the location of the coronary stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Left coronary",
+          "description": "The coronary stent is located in the left coronary artery."
+        },
+        {
+          "name": "Left anterior descending (LAD)",
+          "description": "The coronary stent is located in the left anterior descending artery."
+        },
+        {
+          "name": "Left circumflex (LCx)",
+          "description": "The coronary stent is located in the left circumflex artery."
+        },
+        {
+          "name": "Left obtuse marginal (OM)",
+          "description": "The coronary stent is located in the left obtuse marginal artery."
+        },
+        {
+          "name": "Right coronary (RCA)",
+          "description": "The coronary stent is located in the right coronary artery."
+        },
+        {
+          "name": "Right acute marginal",
+          "description": "The coronary stent is located in the right acute marginal artery."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Type",
+      "description": "Indicates the type of coronary stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Bare-metal",
+          "description": "A bare-metal coronary stent."
+        },
+        {
+          "name": "Drug-eluting",
+          "description": "A drug-eluting coronary stent."
+        },
+        {
+          "name": "Bioresorbable",
+          "description": "A bioresorbable coronary stent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "In-Stent Restenosis",
+      "description": "Indicates whether there is restenosis (re-narrowing) of the stented artery.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "There is in-stent restenosis."
+        },
+        {
+          "name": "Absent",
+          "description": "There is no in-stent restenosis."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Stent Thrombosis",
+      "description": "Indicates whether there is thrombosis (clot formation) within the stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "There is stent thrombosis."
+        },
+        {
+          "name": "Absent",
+          "description": "There is no stent thrombosis."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Stent Fracture",
+      "description": "Indicates whether there is a fracture in the coronary stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "There is a stent fracture."
+        },
+        {
+          "name": "Absent",
+          "description": "There is no stent fracture."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Peri-stent Leak",
+      "description": "Indicates whether there is a leak around the coronary stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "There is a peri-stent leak."
+        },
+        {
+          "name": "Absent",
+          "description": "There is no peri-stent leak."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Edge Dissection",
+      "description": "Indicates whether there is a dissection (tear) at the edge of the stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "There is an edge dissection."
+        },
+        {
+          "name": "Absent",
+          "description": "There is no edge dissection."
+        }
+      ],
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "finding_name": "pulmonary artery catheter",
+  "description": "A catheter used to measure pressures in the pulmonary arteries and heart chambers",
+  "attributes": [
+    {
+      "name": "Presence of Pulmonary Artery Catheter",
+      "description": "Indicates whether a pulmonary artery catheter is present or absent",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Pulmonary artery catheter is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Pulmonary artery catheter is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "Indicates the status of the pulmonary artery catheter",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New placement",
+          "description": "The catheter has been newly inserted"
+        },
+        {
+          "name": "Unchanged",
+          "description": "The catheter has not changed position or status"
+        },
+        {
+          "name": "Complication",
+          "description": "There is a complication associated with the catheter"
+        },
+        {
+          "name": "Removed",
+          "description": "The catheter has been removed"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Appropriate location",
+      "description": "Indicates whether the catheter is at the appropriate location",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "The catheter is at the appropriate location"
+        },
+        {
+          "name": "No",
+          "description": "The catheter is not at the appropriate location"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Insertion Site",
+      "description": "Indicates the site of catheter insertion",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Internal jugular",
+          "description": "Catheter inserted through the internal jugular vein"
+        },
+        {
+          "name": "Subclavian",
+          "description": "Catheter inserted through the subclavian vein"
+        },
+        {
+          "name": "Femoral",
+          "description": "Catheter inserted through the femoral vein"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Side",
+      "description": "Indicates the side of catheter placement",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Left",
+          "description": "Catheter placed on the left side"
+        },
+        {
+          "name": "Right",
+          "description": "Catheter placed on the right side"
+        },
+        {
+          "name": "NA",
+          "description": "Not applicable"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Distal tip location",
+      "description": "Indicates the location of the distal tip of the catheter",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Main pulmonary artery",
+          "description": "Distal tip of the catheter is in the main pulmonary artery"
+        },
+        {
+          "name": "Right pulmonary artery",
+          "description": "Distal tip of the catheter is in the right pulmonary artery"
+        },
+        {
+          "name": "Left pulmonary artery",
+          "description": "Distal tip of the catheter is in the left pulmonary artery"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Balloon Inflation",
+      "description": "Indicates whether the balloon of the catheter is inflated or not at the time of imaging",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Inflated",
+          "description": "Balloon of the catheter is inflated"
+        },
+        {
+          "name": "Not inflated",
+          "description": "Balloon of the catheter is not inflated"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

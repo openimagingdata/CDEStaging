@@ -1,0 +1,158 @@
+{
+  "finding_name": "glenohumeral joint",
+  "description": "The glenohumeral joint is the joint connecting the glenoid cavity of the scapula (shoulder blade) and the head of the humerus (upper arm bone).",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": "Indicates if the glenohumeral joint is normal or abnormal.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Normal",
+          "description": "The glenohumeral joint is present and normal."
+        },
+        {
+          "name": "Abnormal",
+          "description": "The glenohumeral joint is present but abnormal."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "Indicates the stability of the glenohumeral joint.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Stable",
+          "description": "The glenohumeral joint is stable."
+        },
+        {
+          "name": "Progressing",
+          "description": "The glenohumeral joint is progressing."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Articulation",
+      "description": "Describes the articulation of the glenohumeral joint.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Congruent",
+          "description": "The glenohumeral joint is congruent."
+        },
+        {
+          "name": "Subluxed",
+          "description": "The glenohumeral joint is subluxed."
+        },
+        {
+          "name": "Dislocated",
+          "description": "The glenohumeral joint is dislocated."
+        },
+        {
+          "name": "Posterior decentering",
+          "description": "The glenohumeral joint is posteriorly decentered."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Degenerative changes",
+      "description": "Indicates the degree of degenerative changes in the glenohumeral joint.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Mild",
+          "description": "Mild degenerative changes in the glenohumeral joint."
+        },
+        {
+          "name": "Moderate",
+          "description": "Moderate degenerative changes in the glenohumeral joint."
+        },
+        {
+          "name": "Severe",
+          "description": "Severe degenerative changes in the glenohumeral joint."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Bony Changes",
+      "description": "Describes the type of bony changes in the glenohumeral joint.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "None",
+          "description": "No bony changes in the glenohumeral joint."
+        },
+        {
+          "name": "Osteophytes",
+          "description": "Osteophytes in the glenohumeral joint."
+        },
+        {
+          "name": "Sclerosis",
+          "description": "Sclerosis in the glenohumeral joint."
+        },
+        {
+          "name": "Cystic changes",
+          "description": "Cystic changes in the glenohumeral joint."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Joint Effusion",
+      "description": "Indicates the presence of joint effusion in the glenohumeral joint.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Absent",
+          "description": "No joint effusion in the glenohumeral joint."
+        },
+        {
+          "name": "Present",
+          "description": "Joint effusion present in the glenohumeral joint."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Density of the Effusion",
+      "description": "Describes the density of the joint effusion in the glenohumeral joint.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Serous (Clear)",
+          "description": "Serous (clear) joint effusion in the glenohumeral joint."
+        },
+        {
+          "name": "Hemarthrosis",
+          "description": "Hemarthrosis joint effusion in the glenohumeral joint."
+        },
+        {
+          "name": "Lipohemarthrosis",
+          "description": "Lipohemarthrosis joint effusion in the glenohumeral joint."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Presence of Joint Bodies",
+      "description": "Indicates the presence of joint bodies in the glenohumeral joint.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Absent",
+          "description": "No joint bodies in the glenohumeral joint."
+        },
+        {
+          "name": "Present",
+          "description": "Joint bodies present in the glenohumeral joint."
+        }
+      ],
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "finding_name": "Bronchial Plug",
+  "description": "Presence of a bronchial plug",
+  "attributes": [
+    {
+      "name": "Presence of Bronchial Plug",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "New placement",
+          "description": "None"
+        },
+        {
+          "name": "Unchanged",
+          "description": "None"
+        },
+        {
+          "name": "Complication",
+          "description": "None"
+        },
+        {
+          "name": "Removed",
+          "description": "None"
+        },
+        {
+          "name": "Resorbed",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Main bronchus",
+          "description": "None"
+        },
+        {
+          "name": "Lobar bronchus",
+          "description": "None"
+        },
+        {
+          "name": "Segmental bronchus",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Side",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right",
+          "description": "None"
+        },
+        {
+          "name": "Left",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Device Type",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Bioresorbable",
+          "description": "None"
+        },
+        {
+          "name": "Non-bioresorbable",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Deployment",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Complete",
+          "description": "None"
+        },
+        {
+          "name": "Partial",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Complication",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "None",
+          "description": "None"
+        },
+        {
+          "name": "Mucosal erosion",
+          "description": "None"
+        },
+        {
+          "name": "Perforation",
+          "description": "None"
+        },
+        {
+          "name": "Migration",
+          "description": "None"
+        },
+        {
+          "name": "Stenosis",
+          "description": "None"
+        },
+        {
+          "name": "Occlusion",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Airspace consolidation",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": false
+    }
+  ]
+}

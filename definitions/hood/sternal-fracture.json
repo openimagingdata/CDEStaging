@@ -1,0 +1,166 @@
+{
+  "finding_name": "sternal fracture",
+  "description": "A fracture of the sternum.",
+  "attributes": [
+    {
+      "name": "presence",
+      "description": "Whether the sternal fracture is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "status",
+      "description": "The current status of the sternal fracture.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Acute",
+          "description": null
+        },
+        {
+          "name": "Remote",
+          "description": null
+        },
+        {
+          "name": "Healing",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "location",
+      "description": "The location of the sternal fracture.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Manubrium",
+          "description": null
+        },
+        {
+          "name": "Body",
+          "description": null
+        },
+        {
+          "name": "Xiphoid",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "severity",
+      "description": "The severity of the sternal fracture.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Non-displaced",
+          "description": null
+        },
+        {
+          "name": "Minimally displaced",
+          "description": null
+        },
+        {
+          "name": "Displaced",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "orientation",
+      "description": "The orientation of the sternal fracture.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Horizontal",
+          "description": null
+        },
+        {
+          "name": "Vertical",
+          "description": null
+        },
+        {
+          "name": "Oblique",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "pulmonary_contusion",
+      "description": "Whether there is a pulmonary contusion present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "cardiac_injury",
+      "description": "Whether there is a cardiac injury present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "rib_fractures",
+      "description": "Whether there are rib fractures present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "soft_tissue_injury",
+      "description": "Whether there is a soft tissue injury present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    }
+  ]
+}

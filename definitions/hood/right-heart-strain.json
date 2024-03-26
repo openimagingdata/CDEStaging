@@ -1,0 +1,79 @@
+{
+  "finding_name": "Right Heart Strain",
+  "description": "Right heart strain is characterized by the dilation of the right ventricle, right atrial enlargement, and bowing of the interventricular septum.",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": "Indicates whether right heart strain is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Right heart strain is present."
+        },
+        {
+          "name": "Absent",
+          "description": "Right heart strain is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Dilation of Right Ventricle",
+      "description": "Indicates whether there is dilation of the right ventricle.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "There is dilation of the right ventricle."
+        },
+        {
+          "name": "No",
+          "description": "There is no dilation of the right ventricle."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Right Atrial Enlargement",
+      "description": "Indicates whether there is right atrial enlargement.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "There is right atrial enlargement."
+        },
+        {
+          "name": "No",
+          "description": "There is no right atrial enlargement."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Bowing of Interventricular Septum",
+      "description": "Indicates whether there is bowing of the interventricular septum.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "There is bowing of the interventricular septum."
+        },
+        {
+          "name": "No",
+          "description": "There is no bowing of the interventricular septum."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "RV/LV Ratio",
+      "description": "Ratio of the right ventricular diameter to the left ventricular diameter.",
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": null,
+      "required": false
+    }
+  ]
+}

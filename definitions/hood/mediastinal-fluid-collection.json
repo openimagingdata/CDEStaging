@@ -1,0 +1,146 @@
+{
+  "finding_name": "mediastinal fluid collection",
+  "description": "A collection of fluid in the mediastinum, which is the central compartment of the thoracic cavity.",
+  "attributes": [
+    {
+      "name": "presence",
+      "description": "Presence of mediastinal fluid collection",
+      "type": "choice",
+      "values": [
+        {
+          "name": "yes",
+          "description": "Mediastinal fluid collection is present"
+        },
+        {
+          "name": "no",
+          "description": "Mediastinal fluid collection is not present"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "location",
+      "description": "Location of the mediastinal fluid collection",
+      "type": "choice",
+      "values": [
+        {
+          "name": "anterior",
+          "description": "Mediastinal fluid collection is located in the anterior mediastinum"
+        },
+        {
+          "name": "middle",
+          "description": "Mediastinal fluid collection is located in the middle mediastinum"
+        },
+        {
+          "name": "posterior",
+          "description": "Mediastinal fluid collection is located in the posterior mediastinum"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "extent",
+      "description": "Extent of the mediastinal fluid collection",
+      "type": "choice",
+      "values": [
+        {
+          "name": "localized",
+          "description": "Mediastinal fluid collection is localized"
+        },
+        {
+          "name": "diffuse",
+          "description": "Mediastinal fluid collection is diffuse"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "size",
+      "description": "Size of the mediastinal fluid collection",
+      "type": "choice",
+      "values": [
+        {
+          "name": "small",
+          "description": "Mediastinal fluid collection is small in size"
+        },
+        {
+          "name": "medium",
+          "description": "Mediastinal fluid collection is medium in size"
+        },
+        {
+          "name": "large",
+          "description": "Mediastinal fluid collection is large in size"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "nature",
+      "description": "Nature of the mediastinal fluid collection",
+      "type": "choice",
+      "values": [
+        {
+          "name": "serous",
+          "description": "Mediastinal fluid collection is serous in nature"
+        },
+        {
+          "name": "hemorrhagic",
+          "description": "Mediastinal fluid collection is hemorrhagic in nature"
+        },
+        {
+          "name": "mixed",
+          "description": "Mediastinal fluid collection is mixed in nature"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "compression_adjacent_structures",
+      "description": "Compression of adjacent structures",
+      "type": "choice",
+      "values": [
+        {
+          "name": "yes",
+          "description": "Compression of adjacent structures is present"
+        },
+        {
+          "name": "no",
+          "description": "Compression of adjacent structures is not present"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "infection",
+      "description": "Signs of infection",
+      "type": "choice",
+      "values": [
+        {
+          "name": "yes",
+          "description": "Signs of infection are present"
+        },
+        {
+          "name": "no",
+          "description": "Signs of infection are not present"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "neoplasm",
+      "description": "Evidence of neoplasm",
+      "type": "choice",
+      "values": [
+        {
+          "name": "yes",
+          "description": "Evidence of neoplasm is present"
+        },
+        {
+          "name": "no",
+          "description": "Evidence of neoplasm is not present"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

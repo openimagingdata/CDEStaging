@@ -1,0 +1,127 @@
+{
+  "finding_name": "cholelithiasis",
+  "description": "Cholelithiasis is the presence of gallstones in the gallbladder or bile ducts.",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": "Indicates the presence or absence of cholelithiasis.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "The finding is present."
+        },
+        {
+          "name": "Absent",
+          "description": "The finding is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Number of stones",
+      "description": "Indicates the number of stones present.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Single",
+          "description": "A single stone is present."
+        },
+        {
+          "name": "Multiple",
+          "description": "More than one stone is present."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Stone size",
+      "description": "Indicates the size of the stones.",
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "mm",
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "Indicates the location of the stones.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Gallbladder lumen",
+          "description": "The stones are located in the gallbladder lumen."
+        },
+        {
+          "name": "Bile ducts",
+          "description": "The stones are located in the bile ducts."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Gallbladder wall thickening",
+      "description": "Indicates the presence or absence of gallbladder wall thickening.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "Gallbladder wall thickening is present."
+        },
+        {
+          "name": "No",
+          "description": "Gallbladder wall thickening is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pericholecystic fluid",
+      "description": "Indicates the presence or absence of pericholecystic fluid.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "Pericholecystic fluid is present."
+        },
+        {
+          "name": "No",
+          "description": "Pericholecystic fluid is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Biliary dilatation",
+      "description": "Indicates the presence or absence of biliary dilatation.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "Biliary dilatation is present."
+        },
+        {
+          "name": "No",
+          "description": "Biliary dilatation is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Signs of acute cholecystitis",
+      "description": "Indicates the presence or absence of signs of acute cholecystitis.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "Signs of acute cholecystitis are present."
+        },
+        {
+          "name": "No",
+          "description": "Signs of acute cholecystitis are absent."
+        }
+      ],
+      "required": true
+    }
+  ]
+}

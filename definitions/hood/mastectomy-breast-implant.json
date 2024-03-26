@@ -1,0 +1,138 @@
+{
+  "finding_name": "mastectomy breast implant",
+  "description": "Finding related to mastectomy and breast implant",
+  "attributes": [
+    {
+      "name": "mastectomy",
+      "description": "Mastectomy type",
+      "type": "choice",
+      "values": [
+        {
+          "name": "right",
+          "description": null
+        },
+        {
+          "name": "left",
+          "description": null
+        },
+        {
+          "name": "bilateral",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "lumpectomy",
+      "description": "Lumpectomy type",
+      "type": "choice",
+      "values": [
+        {
+          "name": "right",
+          "description": null
+        },
+        {
+          "name": "left",
+          "description": null
+        },
+        {
+          "name": "bilateral",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "implant presence",
+      "description": "Presence of breast implant",
+      "type": "choice",
+      "values": [
+        {
+          "name": "right",
+          "description": null
+        },
+        {
+          "name": "left breast",
+          "description": null
+        },
+        {
+          "name": "bilateral",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "implant location",
+      "description": "Location of breast implant",
+      "type": "choice",
+      "values": [
+        {
+          "name": "preglandular",
+          "description": null
+        },
+        {
+          "name": "subpectoral",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "implant material",
+      "description": "Material of breast implant",
+      "type": "choice",
+      "values": [
+        {
+          "name": "saline",
+          "description": null
+        },
+        {
+          "name": "silicone",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "postoperative changes",
+      "description": "Postoperative changes",
+      "type": "choice",
+      "values": [
+        {
+          "name": "postsurgical changes",
+          "description": "Scarring"
+        },
+        {
+          "name": "flap reconstruction",
+          "description": null
+        },
+        {
+          "name": "calcifications",
+          "description": null
+        },
+        {
+          "name": "fat necrosis",
+          "description": null
+        },
+        {
+          "name": "surgical clips",
+          "description": null
+        },
+        {
+          "name": "axillary surgical clips",
+          "description": "Lymph node dissection / axillary dissection / axillary nodal dissection"
+        },
+        {
+          "name": "skin thickening",
+          "description": null
+        },
+        {
+          "name": "seroma",
+          "description": null
+        }
+      ],
+      "required": false
+    }
+  ]
+}

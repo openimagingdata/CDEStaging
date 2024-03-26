@@ -1,0 +1,126 @@
+{
+  "finding_name": "airway mucus plugging",
+  "description": "Mucus plugging in the airways.",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": "Presence of mucus plugging",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Mucus plugging is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Mucus plugging is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "Location of mucus plugging",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Central airways",
+          "description": "Mucus plugging in the central airways"
+        },
+        {
+          "name": "Segmental bronchi",
+          "description": "Mucus plugging in the segmental bronchi"
+        },
+        {
+          "name": "Subsegmental bronchi",
+          "description": "Mucus plugging in the subsegmental bronchi"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Extent",
+      "description": "Extent of mucus plugging",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Focal",
+          "description": "Mucus plugging is focal"
+        },
+        {
+          "name": "Multifocal",
+          "description": "Mucus plugging is multifocal"
+        },
+        {
+          "name": "Diffuse",
+          "description": "Mucus plugging is diffuse"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Airway Wall Thickening",
+      "description": "Presence of airway wall thickening",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Airway wall thickening is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Airway wall thickening is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Bronchiectasis",
+      "description": "Presence of bronchiectasis",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Bronchiectasis is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Bronchiectasis is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Consolidation",
+      "description": "Presence of consolidation",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Consolidation is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Consolidation is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Ground Glass Opacities",
+      "description": "Presence of ground glass opacities",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Ground glass opacities are present"
+        },
+        {
+          "name": "Absent",
+          "description": "Ground glass opacities are absent"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

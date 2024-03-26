@@ -1,0 +1,170 @@
+{
+  "finding_name": "Healed Rib Fracture",
+  "description": "Non-acute rib fracture that has healed",
+  "attributes": [
+    {
+      "name": "Multiplicity",
+      "description": "Multiplicity of the rib fracture",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Single",
+          "description": "A single rib fracture"
+        },
+        {
+          "name": "Multiple",
+          "description": "Multiple rib fractures"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Side",
+      "description": "Side of the rib fracture",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Bilateral",
+          "description": "Rib fracture on both sides"
+        },
+        {
+          "name": "Left",
+          "description": "Rib fracture on the left side"
+        },
+        {
+          "name": "Right",
+          "description": "Rib fracture on the right side"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Level",
+      "description": "Level of the rib fracture",
+      "type": "choice",
+      "values": [
+        {
+          "name": "First",
+          "description": "Rib fracture at the first level"
+        },
+        {
+          "name": "Second",
+          "description": "Rib fracture at the second level"
+        },
+        {
+          "name": "Third",
+          "description": "Rib fracture at the third level"
+        },
+        {
+          "name": "Fourth",
+          "description": "Rib fracture at the fourth level"
+        },
+        {
+          "name": "Fifth",
+          "description": "Rib fracture at the fifth level"
+        },
+        {
+          "name": "Sixth",
+          "description": "Rib fracture at the sixth level"
+        },
+        {
+          "name": "Seventh",
+          "description": "Rib fracture at the seventh level"
+        },
+        {
+          "name": "Eighth",
+          "description": "Rib fracture at the eighth level"
+        },
+        {
+          "name": "Ninth",
+          "description": "Rib fracture at the ninth level"
+        },
+        {
+          "name": "Tenth",
+          "description": "Rib fracture at the tenth level"
+        },
+        {
+          "name": "Eleventh",
+          "description": "Rib fracture at the eleventh level"
+        },
+        {
+          "name": "Twelfth",
+          "description": "Rib fracture at the twelfth level"
+        },
+        {
+          "name": "Upper",
+          "description": "Rib fracture in the upper region"
+        },
+        {
+          "name": "Lower",
+          "description": "Rib fracture in the lower region"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "Location of the rib fracture",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Anterior",
+          "description": "Rib fracture located in the anterior region"
+        },
+        {
+          "name": "Posterior",
+          "description": "Rib fracture located in the posterior region"
+        },
+        {
+          "name": "Lateral",
+          "description": "Rib fracture located in the lateral region"
+        },
+        {
+          "name": "Anterolateral",
+          "description": "Rib fracture located in the anterolateral region"
+        },
+        {
+          "name": "Posterolateral",
+          "description": "Rib fracture located in the posterolateral region"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "Status of the rib fracture",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Subacute",
+          "description": "Rib fracture in the subacute stage"
+        },
+        {
+          "name": "Healing",
+          "description": "Rib fracture in the healing stage"
+        },
+        {
+          "name": "Remote",
+          "description": "Remote rib fracture"
+        },
+        {
+          "name": "Healed",
+          "description": "Healed rib fracture"
+        },
+        {
+          "name": "Chronic",
+          "description": "Chronic rib fracture"
+        },
+        {
+          "name": "Old",
+          "description": "Old rib fracture"
+        },
+        {
+          "name": "Old healed",
+          "description": "Old healed rib fracture"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

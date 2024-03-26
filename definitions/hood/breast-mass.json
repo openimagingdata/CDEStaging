@@ -1,0 +1,247 @@
+{
+  "finding_name": "breast mass",
+  "description": "A mass observed in the breast.",
+  "attributes": [
+    {
+      "name": "Presence of Breast Mass",
+      "description": "Presence of breast mass in the breast.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "A breast mass is present."
+        },
+        {
+          "name": "Absent",
+          "description": "No breast mass is present."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "Status of the breast mass.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New",
+          "description": "A newly identified breast mass."
+        },
+        {
+          "name": "Unchanged",
+          "description": "A breast mass that has not changed in size or appearance."
+        },
+        {
+          "name": "Enlarging",
+          "description": "A breast mass that is increasing in size or appearance."
+        },
+        {
+          "name": "Decreased",
+          "description": "A breast mass that is decreasing in size or appearance."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "Location of the breast mass.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right breast",
+          "description": "The breast mass is located in the right breast."
+        },
+        {
+          "name": "Left breast",
+          "description": "The breast mass is located in the left breast."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Quadrant",
+      "description": "Quadrant of the breast mass.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Upper outer",
+          "description": "The breast mass is located in the upper outer quadrant."
+        },
+        {
+          "name": "Upper inner",
+          "description": "The breast mass is located in the upper inner quadrant."
+        },
+        {
+          "name": "Lower outer",
+          "description": "The breast mass is located in the lower outer quadrant."
+        },
+        {
+          "name": "Lower inner",
+          "description": "The breast mass is located in the lower inner quadrant."
+        },
+        {
+          "name": "Central",
+          "description": "The breast mass is located in the central quadrant."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Size",
+      "description": "Size of the breast mass.",
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "cm",
+      "required": false
+    },
+    {
+      "name": "Shape",
+      "description": "Shape of the breast mass.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Round",
+          "description": "The breast mass has a round shape."
+        },
+        {
+          "name": "Oval",
+          "description": "The breast mass has an oval shape."
+        },
+        {
+          "name": "Irregular",
+          "description": "The breast mass has an irregular shape."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Margin",
+      "description": "Margin of the breast mass.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Circumscribed",
+          "description": "The margin of the breast mass is circumscribed."
+        },
+        {
+          "name": "Indistinct",
+          "description": "The margin of the breast mass is indistinct."
+        },
+        {
+          "name": "Spiculated",
+          "description": "The margin of the breast mass is spiculated."
+        },
+        {
+          "name": "Microlobulated",
+          "description": "The margin of the breast mass is microlobulated."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Density",
+      "description": "Density of the breast mass.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Low",
+          "description": "The density of the breast mass is low."
+        },
+        {
+          "name": "Iso",
+          "description": "The density of the breast mass is iso."
+        },
+        {
+          "name": "High",
+          "description": "The density of the breast mass is high."
+        },
+        {
+          "name": "Fat-containing",
+          "description": "The density of the breast mass is fat-containing."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Enhancement",
+      "description": "Enhancement of the breast mass.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Enhancement is present in the breast mass."
+        },
+        {
+          "name": "Absent",
+          "description": "Enhancement is absent in the breast mass."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Breast calcifications",
+      "description": "Presence of breast calcifications.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Breast calcifications are present."
+        },
+        {
+          "name": "Absent",
+          "description": "No breast calcifications are present."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Skin thickening",
+      "description": "Presence of skin thickening.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Skin thickening is present."
+        },
+        {
+          "name": "Absent",
+          "description": "No skin thickening is present."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Nipple retraction",
+      "description": "Presence of nipple retraction.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Nipple retraction is present."
+        },
+        {
+          "name": "Absent",
+          "description": "No nipple retraction is present."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Axillary lymphadenopathy",
+      "description": "Presence of axillary lymphadenopathy.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Axillary lymphadenopathy is present."
+        },
+        {
+          "name": "Absent",
+          "description": "No axillary lymphadenopathy is present."
+        }
+      ],
+      "required": false
+    }
+  ]
+}

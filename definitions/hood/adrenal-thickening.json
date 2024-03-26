@@ -1,0 +1,94 @@
+{
+  "finding_name": "adrenal thickening",
+  "description": "Thickening of the adrenal gland",
+  "attributes": [
+    {
+      "name": "presence",
+      "description": "Presence of adrenal thickening",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": null
+        },
+        {
+          "name": "absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "laterality",
+      "description": "Laterality of the adrenal thickening",
+      "type": "choice",
+      "values": [
+        {
+          "name": "right",
+          "description": null
+        },
+        {
+          "name": "left",
+          "description": null
+        },
+        {
+          "name": "bilateral",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "thickness",
+      "description": "Severity of the adrenal thickening",
+      "type": "choice",
+      "values": [
+        {
+          "name": "mild",
+          "description": null
+        },
+        {
+          "name": "moderate",
+          "description": null
+        },
+        {
+          "name": "severe",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "homogeneity",
+      "description": "Homogeneity of the adrenal thickening",
+      "type": "choice",
+      "values": [
+        {
+          "name": "homogeneous",
+          "description": null
+        },
+        {
+          "name": "heterogeneous",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "lymphadenopathy",
+      "description": "Presence of lymphadenopathy",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": null
+        },
+        {
+          "name": "absent",
+          "description": null
+        }
+      ],
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "finding_name": "bronchiectasis",
+  "description": "Bronchiectasis is a condition characterized by the irreversible dilation and destruction of the bronchi.",
+  "attributes": [
+    {
+      "name": "Predominant Type(s)",
+      "description": "The predominant type(s) of bronchiectasis present.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Cylindrical",
+          "description": "Bronchiectasis with cylindrical-shaped dilated bronchi."
+        },
+        {
+          "name": "Varicose",
+          "description": "Bronchiectasis with varicose-shaped dilated bronchi."
+        },
+        {
+          "name": "Cystic",
+          "description": "Bronchiectasis with cystic-shaped dilated bronchi."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Severity",
+      "description": "The severity of bronchiectasis.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Mild",
+          "description": "Mildly severe bronchiectasis."
+        },
+        {
+          "name": "Moderate",
+          "description": "Moderately severe bronchiectasis."
+        },
+        {
+          "name": "Severe",
+          "description": "Severely severe bronchiectasis."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Regional predominance",
+      "description": "The regional predominance of bronchiectasis.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Apices",
+          "description": "Bronchiectasis predominantly affecting the apices of the lungs."
+        },
+        {
+          "name": "Upper lung zone",
+          "description": "Bronchiectasis predominantly affecting the upper lung zone."
+        },
+        {
+          "name": "Middle lung zone",
+          "description": "Bronchiectasis predominantly affecting the middle lung zone."
+        },
+        {
+          "name": "Lower lung zone",
+          "description": "Bronchiectasis predominantly affecting the lower lung zone."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Associated diagnoses",
+      "description": "Associated diagnoses related to bronchiectasis.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Immunodeficiency",
+          "description": "Bronchiectasis associated with immunodeficiency."
+        },
+        {
+          "name": "Postinfective",
+          "description": "Bronchiectasis associated with postinfective causes."
+        },
+        {
+          "name": "Allergic and autoimmune",
+          "description": "Bronchiectasis associated with allergic and autoimmune causes."
+        },
+        {
+          "name": "Obstruction",
+          "description": "Bronchiectasis associated with obstruction causes."
+        },
+        {
+          "name": "Congenital",
+          "description": "Bronchiectasis associated with congenital causes."
+        },
+        {
+          "name": "Others",
+          "description": "Other associated diagnoses related to bronchiectasis."
+        }
+      ],
+      "required": true
+    }
+  ]
+}

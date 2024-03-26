@@ -1,0 +1,200 @@
+{
+  "finding_name": "arterial stent",
+  "description": "An arterial stent is a tubular device inserted into an artery to improve blood flow.",
+  "attributes": [
+    {
+      "name": "Presence of Arterial Stent",
+      "description": "Indicates whether an arterial stent is present in the patient.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "An arterial stent is present in the patient."
+        },
+        {
+          "name": "Absent",
+          "description": "No arterial stent is present in the patient."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "Indicates the status of the arterial stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New placement",
+          "description": "The arterial stent has been newly placed."
+        },
+        {
+          "name": "Unchanged",
+          "description": "The arterial stent remains unchanged."
+        },
+        {
+          "name": "Complication",
+          "description": "The arterial stent has complications."
+        },
+        {
+          "name": "Removed",
+          "description": "The arterial stent has been removed."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "Indicates the location of the arterial stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Carotid artery",
+          "description": "The arterial stent is located in the carotid artery."
+        },
+        {
+          "name": "Subclavian artery",
+          "description": "The arterial stent is located in the subclavian artery."
+        },
+        {
+          "name": "Brachial artery",
+          "description": "The arterial stent is located in the brachial artery."
+        },
+        {
+          "name": "Cephalic artery",
+          "description": "The arterial stent is located in the cephalic artery."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Side",
+      "description": "Indicates the side of the body where the arterial stent is located.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Left",
+          "description": "The arterial stent is located on the left side of the body."
+        },
+        {
+          "name": "Right",
+          "description": "The arterial stent is located on the right side of the body."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Stent Length",
+      "description": "The length of the arterial stent.",
+      "type": "numeric",
+      "minimum": 0,
+      "maximum": null,
+      "unit": "cm",
+      "required": false
+    },
+    {
+      "name": "Stent Diameter",
+      "description": "The diameter of the arterial stent.",
+      "type": "numeric",
+      "minimum": 0,
+      "maximum": null,
+      "unit": "mm",
+      "required": false
+    },
+    {
+      "name": "Intimal Hyperplasia",
+      "description": "Indicates the presence or absence of intimal hyperplasia around the arterial stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Intimal hyperplasia is present around the arterial stent."
+        },
+        {
+          "name": "Absent",
+          "description": "No intimal hyperplasia is present around the arterial stent."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "In-Stent Restenosis",
+      "description": "Indicates the presence or absence of in-stent restenosis in the arterial stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "In-stent restenosis is present in the arterial stent."
+        },
+        {
+          "name": "Absent",
+          "description": "No in-stent restenosis is present in the arterial stent."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Stent Fracture",
+      "description": "Indicates the presence or absence of stent fracture in the arterial stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Stent fracture is present in the arterial stent."
+        },
+        {
+          "name": "Absent",
+          "description": "No stent fracture is present in the arterial stent."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Stent Migration",
+      "description": "Indicates the presence or absence of stent migration in the arterial stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Stent migration is present in the arterial stent."
+        },
+        {
+          "name": "Absent",
+          "description": "No stent migration is present in the arterial stent."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Peri-stent Leak",
+      "description": "Indicates the presence or absence of peri-stent leak in the arterial stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Peri-stent leak is present in the arterial stent."
+        },
+        {
+          "name": "Absent",
+          "description": "No peri-stent leak is present in the arterial stent."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Thrombosis",
+      "description": "Indicates the presence or absence of thrombosis in the arterial stent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Thrombosis is present in the arterial stent."
+        },
+        {
+          "name": "Absent",
+          "description": "No thrombosis is present in the arterial stent."
+        }
+      ],
+      "required": false
+    }
+  ]
+}

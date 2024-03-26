@@ -1,0 +1,178 @@
+{
+  "finding_name": "ventricular shunt catheter",
+  "description": "A ventricular shunt catheter is a medical device used to divert cerebrospinal fluid from the ventricles of the brain to another location.",
+  "attributes": [
+    {
+      "name": "Presence of Ventricular Shunt Catheter",
+      "description": "Indicates whether a ventricular shunt catheter is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "A ventricular shunt catheter is present."
+        },
+        {
+          "name": "Absent",
+          "description": "A ventricular shunt catheter is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "The status of the ventricular shunt catheter.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New placement",
+          "description": "The ventricular shunt catheter has been newly placed."
+        },
+        {
+          "name": "Unchanged",
+          "description": "The ventricular shunt catheter remains unchanged."
+        },
+        {
+          "name": "Complication",
+          "description": "There is a complication with the ventricular shunt catheter."
+        },
+        {
+          "name": "Removed",
+          "description": "The ventricular shunt catheter has been removed."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Shunt Type",
+      "description": "The type of ventricular shunt.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Ventriculoperitoneal (VP)",
+          "description": "A ventriculoperitoneal shunt."
+        },
+        {
+          "name": "Ventriculoatrial (VA)",
+          "description": "A ventriculoatrial shunt."
+        },
+        {
+          "name": "Ventriculopleural",
+          "description": "A ventriculopleural shunt."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Appropriate location",
+      "description": "Indicates whether the ventricular shunt catheter is in an appropriate location.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "The ventricular shunt catheter is in an appropriate location."
+        },
+        {
+          "name": "No",
+          "description": "The ventricular shunt catheter is not in an appropriate location."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Proximal tip location",
+      "description": "The location of the proximal tip of the ventricular shunt catheter.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right lateral ventricle",
+          "description": "The proximal tip of the ventricular shunt catheter is in the right lateral ventricle."
+        },
+        {
+          "name": "Left lateral ventricle",
+          "description": "The proximal tip of the ventricular shunt catheter is in the left lateral ventricle."
+        },
+        {
+          "name": "Third ventricle",
+          "description": "The proximal tip of the ventricular shunt catheter is in the third ventricle."
+        },
+        {
+          "name": "Not identified",
+          "description": "The location of the proximal tip of the ventricular shunt catheter is not identified."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Distal tip location",
+      "description": "The location of the distal tip of the ventricular shunt catheter.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Peritoneal cavity",
+          "description": "The distal tip of the ventricular shunt catheter is in the peritoneal cavity."
+        },
+        {
+          "name": "Right atrium",
+          "description": "The distal tip of the ventricular shunt catheter is in the right atrium."
+        },
+        {
+          "name": "Pleural cavity",
+          "description": "The distal tip of the ventricular shunt catheter is in the pleural cavity."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Valve Type",
+      "description": "The type of valve used in the ventricular shunt catheter.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Programmable",
+          "description": "A programmable valve is used."
+        },
+        {
+          "name": "Fixed pressure",
+          "description": "A fixed pressure valve is used."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Valve Setting (if programmable)",
+      "description": "The setting of the programmable valve used in the ventricular shunt catheter.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Specify setting",
+          "description": "Specify the setting of the programmable valve."
+        },
+        {
+          "name": "Not applicable",
+          "description": "A programmable valve is not applicable."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Complications",
+      "description": "Any complications associated with the ventricular shunt catheter.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "None",
+          "description": "No complications with the ventricular shunt catheter."
+        },
+        {
+          "name": "Catheter fracture",
+          "description": "A catheter fracture is present."
+        },
+        {
+          "name": "Tip migration",
+          "description": "Tip migration of the ventricular shunt catheter."
+        }
+      ],
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "finding_name": "lobectomy",
+  "description": "A surgical procedure to remove a lobe of the lung.",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": "Presence or absence of lobectomy",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "Status of lobectomy",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Post-operative changes observed",
+          "description": null
+        },
+        {
+          "name": "No post-operative changes",
+          "description": null
+        },
+        {
+          "name": "Healing",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Lobectomy Type",
+      "description": "Type of lobectomy performed",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right upper lobectomy",
+          "description": null
+        },
+        {
+          "name": "Right middle lobectomy",
+          "description": null
+        },
+        {
+          "name": "Right lower lobectomy",
+          "description": null
+        },
+        {
+          "name": "Left upper lobectomy",
+          "description": null
+        },
+        {
+          "name": "Left lower lobectomy",
+          "description": null
+        },
+        {
+          "name": "Bilobectomy",
+          "description": null
+        },
+        {
+          "name": "Segmentectomy",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Completeness",
+      "description": "Completeness of the lobectomy",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Complete",
+          "description": null
+        },
+        {
+          "name": "Partial",
+          "description": null
+        },
+        {
+          "name": "Not specified",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Surgical Technique",
+      "description": "Surgical technique used for lobectomy",
+      "type": "choice",
+      "values": [
+        {
+          "name": "VATS",
+          "description": null
+        },
+        {
+          "name": "Open",
+          "description": null
+        },
+        {
+          "name": "Robotic-assisted",
+          "description": null
+        },
+        {
+          "name": "Not specified",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pleural effusion",
+      "description": "Presence or absence of pleural effusion",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        },
+        {
+          "name": "Size and side specified",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Pneumothorax",
+      "description": "Presence or absence of pneumothorax",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        },
+        {
+          "name": "Size and management specified",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Atelectasis",
+      "description": "Presence or absence of atelectasis",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        },
+        {
+          "name": "Extent and location specified",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Surgical clips",
+      "description": "Presence or absence of surgical clips",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        },
+        {
+          "name": "Number specified",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Residual lung",
+      "description": "Status of residual lung",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Adequate expansion",
+          "description": null
+        },
+        {
+          "name": "Incomplete expansion",
+          "description": null
+        },
+        {
+          "name": "Volume loss",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Scar tissue",
+      "description": "Presence or absence of scar tissue",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        },
+        {
+          "name": "Extent specified",
+          "description": null
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Pulmonary nodules",
+      "description": "Presence or absence of pulmonary nodules",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        },
+        {
+          "name": "Characteristics specified",
+          "description": null
+        }
+      ],
+      "required": false
+    }
+  ]
+}

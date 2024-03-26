@@ -1,0 +1,230 @@
+{
+  "finding_name": "radiation fibrosis",
+  "description": "Radiation fibrosis is a condition characterized by fibrotic changes in the lung tissue due to radiation therapy.",
+  "attributes": [
+    {
+      "name": "presence",
+      "description": "Presence of radiation fibrosis",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Radiation fibrosis is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Radiation fibrosis is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "status",
+      "description": "Status of radiation fibrosis",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Stable",
+          "description": "Radiation fibrosis is stable"
+        },
+        {
+          "name": "Progressive",
+          "description": "Radiation fibrosis is progressive"
+        },
+        {
+          "name": "Regressive",
+          "description": "Radiation fibrosis is regressive"
+        },
+        {
+          "name": "New development",
+          "description": "Radiation fibrosis is a new development"
+        },
+        {
+          "name": "Unchanged over time",
+          "description": "Radiation fibrosis remains unchanged over time"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "severity",
+      "description": "Severity of radiation fibrosis",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Mild",
+          "description": "Radiation fibrosis is mild"
+        },
+        {
+          "name": "Moderate",
+          "description": "Radiation fibrosis is moderate"
+        },
+        {
+          "name": "Severe",
+          "description": "Radiation fibrosis is severe"
+        },
+        {
+          "name": "Very Severe",
+          "description": "Radiation fibrosis is very severe"
+        },
+        {
+          "name": "Extensive",
+          "description": "Radiation fibrosis is extensive"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "distribution",
+      "description": "Distribution of radiation fibrosis",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Localized",
+          "description": "Radiation fibrosis is localized"
+        },
+        {
+          "name": "Diffuse",
+          "description": "Radiation fibrosis is diffuse"
+        },
+        {
+          "name": "Peribronchovascular",
+          "description": "Radiation fibrosis is peribronchovascular"
+        },
+        {
+          "name": "Segmental",
+          "description": "Radiation fibrosis is segmental"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "location",
+      "description": "Location of radiation fibrosis",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right lung",
+          "description": "Radiation fibrosis is located in the right lung"
+        },
+        {
+          "name": "Left lung",
+          "description": "Radiation fibrosis is located in the left lung"
+        },
+        {
+          "name": "Bilateral",
+          "description": "Radiation fibrosis is located bilaterally"
+        },
+        {
+          "name": "Specific lobe(s)",
+          "description": "Radiation fibrosis is located in specific lobe(s)"
+        },
+        {
+          "name": "Mediastinal",
+          "description": "Radiation fibrosis is located in the mediastinum"
+        },
+        {
+          "name": "Subpleural",
+          "description": "Radiation fibrosis is located subpleurally"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "volume_loss",
+      "description": "Presence of volume loss",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Volume loss is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Volume loss is absent"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "pleural_thickening",
+      "description": "Presence of pleural thickening",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Pleural thickening is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Pleural thickening is absent"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "bronchiectasis",
+      "description": "Presence of bronchiectasis",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Bronchiectasis is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Bronchiectasis is absent"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "honeycombing",
+      "description": "Presence of honeycombing",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Honeycombing is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Honeycombing is absent"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "air_trapping",
+      "description": "Presence of air trapping",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Air trapping is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Air trapping is absent"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "ground_glass_opacities",
+      "description": "Presence of ground-glass opacities",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Ground-glass opacities are present"
+        },
+        {
+          "name": "Absent",
+          "description": "Ground-glass opacities are absent"
+        }
+      ],
+      "required": false
+    }
+  ]
+}

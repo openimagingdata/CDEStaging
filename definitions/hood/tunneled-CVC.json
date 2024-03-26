@@ -1,0 +1,250 @@
+{
+  "finding_name": "tunneled CVC",
+  "description": "Tunneled Central Venous Catheter",
+  "attributes": [
+    {
+      "name": "Presence of tunneled CVC",
+      "description": "Indicates whether a tunneled CVC is present or absent",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "Indicates the status of the tunneled CVC",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New placement",
+          "description": "None"
+        },
+        {
+          "name": "Unchanged",
+          "description": "None"
+        },
+        {
+          "name": "Migrated",
+          "description": "None"
+        },
+        {
+          "name": "Removed",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Appropriate location",
+      "description": "Indicates whether the tunneled CVC is in an appropriate location",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "None"
+        },
+        {
+          "name": "No",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Side",
+      "description": "Indicates the side of the tunneled CVC",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Left",
+          "description": "None"
+        },
+        {
+          "name": "Right",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Number of Lumens",
+      "description": "Indicates the number of lumens in the tunneled CVC",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Single",
+          "description": "None"
+        },
+        {
+          "name": "Double",
+          "description": "None"
+        },
+        {
+          "name": "Triple",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Vein approach",
+      "description": "Indicates the vein approach for the tunneled CVC",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Internal jugular",
+          "description": "None"
+        },
+        {
+          "name": "Subclavian",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Course",
+      "description": "Indicates the course of the tunneled CVC",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Appropriate",
+          "description": "None"
+        },
+        {
+          "name": "Kinking",
+          "description": "None"
+        },
+        {
+          "name": "Coiling",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Distal tip location",
+      "description": "Indicates the distal tip location of the tunneled CVC",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Subclavian vein",
+          "description": "None"
+        },
+        {
+          "name": "Brachiocephalic vein",
+          "description": "None"
+        },
+        {
+          "name": "SVC (superior vena cava)",
+          "description": "None"
+        },
+        {
+          "name": "Superior cavoatrial junction",
+          "description": "None"
+        },
+        {
+          "name": "Azygous vein",
+          "description": "None"
+        },
+        {
+          "name": "Inferior cavoatrial junction",
+          "description": "None"
+        },
+        {
+          "name": "Internal jugular vein",
+          "description": "None"
+        },
+        {
+          "name": "IVC (inferior vena cava)",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Complications",
+      "description": "Indicates the complications associated with the tunneled CVC",
+      "type": "choice",
+      "values": [
+        {
+          "name": "None",
+          "description": "None"
+        },
+        {
+          "name": "Occlusion",
+          "description": "None"
+        },
+        {
+          "name": "Thrombosis (fibrin sheath)",
+          "description": "None"
+        },
+        {
+          "name": "Catheter fracture",
+          "description": "None"
+        },
+        {
+          "name": "Tip Migration",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Hematoma",
+      "description": "Indicates the presence or absence of a hematoma associated with the tunneled CVC",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pneumothorax",
+      "description": "Indicates the presence or absence of a pneumothorax associated with the tunneled CVC",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Hemothorax",
+      "description": "Indicates the presence or absence of a hemothorax associated with the tunneled CVC",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

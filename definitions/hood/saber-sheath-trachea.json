@@ -1,0 +1,134 @@
+{
+  "finding_name": "saber sheath trachea",
+  "description": "A condition where the trachea appears narrowed and elongated, resembling a saber or a sheath.",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Severity",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Mild",
+          "description": "None"
+        },
+        {
+          "name": "Moderate",
+          "description": "None"
+        },
+        {
+          "name": "Severe",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Coronal Diameter Reduction",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "<50%",
+          "description": "None"
+        },
+        {
+          "name": "50-75%",
+          "description": "None"
+        },
+        {
+          "name": ">75%",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Involvement",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Upper Trachea",
+          "description": "None"
+        },
+        {
+          "name": "Mid Trachea",
+          "description": "None"
+        },
+        {
+          "name": "Lower Trachea",
+          "description": "None"
+        },
+        {
+          "name": "Entire Trachea",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "COPD Signs",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Air Trapping",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Bronchial Wall Thickening",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

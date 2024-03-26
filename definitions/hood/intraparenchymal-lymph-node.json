@@ -1,0 +1,198 @@
+{
+  "finding_name": "intraparenchymal lymph node",
+  "description": "A lymph node located within the lung tissue.",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": "Indicates whether the intraparenchymal lymph node is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "The intraparenchymal lymph node is present."
+        },
+        {
+          "name": "Absent",
+          "description": "The intraparenchymal lymph node is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "The status of the intraparenchymal lymph node.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Stable",
+          "description": "The intraparenchymal lymph node is stable in size."
+        },
+        {
+          "name": "New",
+          "description": "A new intraparenchymal lymph node has appeared."
+        },
+        {
+          "name": "Enlarged",
+          "description": "The intraparenchymal lymph node has increased in size."
+        },
+        {
+          "name": "Decreased in size",
+          "description": "The intraparenchymal lymph node has decreased in size."
+        },
+        {
+          "name": "Resolved",
+          "description": "The intraparenchymal lymph node has disappeared."
+        },
+        {
+          "name": "Unchanged",
+          "description": "The size of the intraparenchymal lymph node has remained the same."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Distribution",
+      "description": "The distribution pattern of the intraparenchymal lymph node.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Solitary",
+          "description": "There is a single intraparenchymal lymph node."
+        },
+        {
+          "name": "Multiple",
+          "description": "There are multiple intraparenchymal lymph nodes."
+        },
+        {
+          "name": "Clustered",
+          "description": "The intraparenchymal lymph nodes are clustered together."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Severity",
+      "description": "The severity of the intraparenchymal lymph node. Not applicable (N/A) for this finding.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "N/A",
+          "description": "Not applicable"
+        },
+        {
+          "name": "Mild",
+          "description": "Mild severity"
+        },
+        {
+          "name": "Moderate",
+          "description": "Moderate severity"
+        },
+        {
+          "name": "Severe",
+          "description": "Severe severity"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "The location of the intraparenchymal lymph node.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right upper lobe",
+          "description": null
+        },
+        {
+          "name": "Right middle lobe",
+          "description": null
+        },
+        {
+          "name": "Right lower lobe",
+          "description": null
+        },
+        {
+          "name": "Left upper lobe",
+          "description": null
+        },
+        {
+          "name": "Left lower lobe",
+          "description": null
+        },
+        {
+          "name": "Mediastinal",
+          "description": null
+        },
+        {
+          "name": "Hilar",
+          "description": null
+        },
+        {
+          "name": "Subpleural",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Size",
+      "description": "The size of the intraparenchymal lymph node.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "<0.5 cm",
+          "description": null
+        },
+        {
+          "name": "0.5-1 cm",
+          "description": null
+        },
+        {
+          "name": "1-2 cm",
+          "description": null
+        },
+        {
+          "name": ">2 cm",
+          "description": null
+        },
+        {
+          "name": "Not specified",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Associated Findings",
+      "description": "Any other findings that are associated with the intraparenchymal lymph node.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Pulmonary nodules",
+          "description": null
+        },
+        {
+          "name": "Pleural effusion",
+          "description": null
+        },
+        {
+          "name": "Airspace opacity",
+          "description": null
+        },
+        {
+          "name": "Ground-glass opacity",
+          "description": null
+        },
+        {
+          "name": "Fibrosis",
+          "description": null
+        },
+        {
+          "name": "Bronchiectasis",
+          "description": null
+        }
+      ],
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "finding_name": "Pulmonary Emboli",
+  "description": "Pulmonary emboli refer to blood clots that block the pulmonary arteries, which carry blood from the heart to the lungs.",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": "Indicates whether pulmonary emboli are present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Pulmonary emboli are present"
+        },
+        {
+          "name": "Absent",
+          "description": "Pulmonary emboli are absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Stage",
+      "description": "Indicates the stage of the pulmonary emboli.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Acute",
+          "description": "Acute stage of pulmonary emboli"
+        },
+        {
+          "name": "Chronic",
+          "description": "Chronic stage of pulmonary emboli"
+        },
+        {
+          "name": "Subacute",
+          "description": "Subacute stage of pulmonary emboli"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "Indicates the location of the pulmonary emboli.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Central",
+          "description": "Main pulmonary artery"
+        },
+        {
+          "name": "Right pulmonary artery",
+          "description": "Right pulmonary artery"
+        },
+        {
+          "name": "Left pulmonary artery",
+          "description": "Left pulmonary artery"
+        },
+        {
+          "name": "Lobar",
+          "description": "Lobar branch of the pulmonary artery"
+        },
+        {
+          "name": "Segmental",
+          "description": "Segmental branch of the pulmonary artery"
+        },
+        {
+          "name": "Subsegmental",
+          "description": "Subsegmental branch of the pulmonary artery"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Number",
+      "description": "Indicates the number of pulmonary emboli.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Single",
+          "description": "A single pulmonary embolus"
+        },
+        {
+          "name": "Multiple",
+          "description": "Multiple pulmonary emboli"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Burden",
+      "description": "Indicates the burden of pulmonary emboli.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Low",
+          "description": "Low burden of pulmonary emboli"
+        },
+        {
+          "name": "Moderate",
+          "description": "Moderate burden of pulmonary emboli"
+        },
+        {
+          "name": "High",
+          "description": "High burden of pulmonary emboli"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Right heart strain",
+      "description": "Indicates the presence or absence of right heart strain associated with pulmonary emboli.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "Right heart strain is present"
+        },
+        {
+          "name": "No",
+          "description": "Right heart strain is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pulmonary hypertension",
+      "description": "Indicates the presence or absence of pulmonary hypertension associated with pulmonary emboli.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "Pulmonary hypertension is present"
+        },
+        {
+          "name": "No",
+          "description": "Pulmonary hypertension is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pulmonary infarction",
+      "description": "Indicates the presence or absence of pulmonary infarction associated with pulmonary emboli.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Pulmonary infarction is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Pulmonary infarction is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pulmonary artery aneurysm",
+      "description": "Indicates the presence or absence of pulmonary artery aneurysm associated with pulmonary emboli.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "Pulmonary artery aneurysm is present"
+        },
+        {
+          "name": "No",
+          "description": "Pulmonary artery aneurysm is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pulmonary hemorrhage",
+      "description": "Indicates the presence or absence of pulmonary hemorrhage associated with pulmonary emboli.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "Pulmonary hemorrhage is present"
+        },
+        {
+          "name": "No",
+          "description": "Pulmonary hemorrhage is absent"
+        }
+      ],
+      "required": true
+    }
+  ]
+}
