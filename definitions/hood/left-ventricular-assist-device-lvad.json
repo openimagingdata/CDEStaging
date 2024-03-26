@@ -1,0 +1,70 @@
+{
+  "finding_name": "left ventricular assist device lvad",
+  "description": "A left ventricular assist device (LVAD) is a mechanical pump that is used to support the function of the left ventricle of the heart.",
+  "attributes": [
+    {
+      "name": "Presence of LVAD",
+      "description": "Indicates whether an LVAD is present or absent",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "An LVAD is present"
+        },
+        {
+          "name": "Absent",
+          "description": "No LVAD is present"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Appropriate position",
+      "description": "Indicates whether the LVAD is in an appropriate position",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "LVAD is in an appropriate position"
+        },
+        {
+          "name": "No",
+          "description": "LVAD is not in an appropriate position"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Location",
+      "description": "Indicates the location of the LVAD",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Intracorporeal",
+          "description": "LVAD is located within the body"
+        },
+        {
+          "name": "Extracorporeal",
+          "description": "LVAD is located outside the body"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Outflow Conduit Location",
+      "description": "Indicates the location of the outflow conduit of the LVAD",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Ascending aorta",
+          "description": "Outflow conduit is connected to the ascending aorta"
+        },
+        {
+          "name": "Descending aorta",
+          "description": "Outflow conduit is connected to the descending aorta"
+        }
+      ],
+      "required": false
+    }
+  ]
+}

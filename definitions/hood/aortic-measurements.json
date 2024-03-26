@@ -1,0 +1,174 @@
+{
+  "finding_name": "aortic measurements",
+  "description": "Measurements and characteristics of the thoracic aorta",
+  "attributes": [
+    {
+      "name": "segment",
+      "description": "The segment of the thoracic aorta",
+      "type": "choice",
+      "values": [
+        {
+          "name": "aortic root",
+          "description": null
+        },
+        {
+          "name": "aortic annulus",
+          "description": null
+        },
+        {
+          "name": "sinus of Valsalva",
+          "description": null
+        },
+        {
+          "name": "sinotubular junction",
+          "description": null
+        },
+        {
+          "name": "ascending aorta",
+          "description": null
+        },
+        {
+          "name": "proximal arch",
+          "description": null
+        },
+        {
+          "name": "distal arch",
+          "description": null
+        },
+        {
+          "name": "descending thoracic aorta",
+          "description": null
+        },
+        {
+          "name": "diaphragmatic hiatus",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "sac dimensions",
+      "description": "Dimensions of the aortic sac",
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "cm",
+      "required": true
+    },
+    {
+      "name": "length",
+      "description": "Length of the aortic sac",
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "cm",
+      "required": true
+    },
+    {
+      "name": "prior measurement",
+      "description": "Measurement of the aortic sac from a prior examination",
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "cm",
+      "required": false
+    },
+    {
+      "name": "luminal diameter",
+      "description": "Diameter of the aortic sac if mural thrombus is present",
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "cm",
+      "required": false
+    },
+    {
+      "name": "sac morphology",
+      "description": "Morphology of the aortic sac",
+      "type": "choice",
+      "values": [
+        {
+          "name": "dilated",
+          "description": "≥ 4.0 and < 5.0 cm"
+        },
+        {
+          "name": "aneurysm",
+          "description": "≥ 5.0 cm"
+        },
+        {
+          "name": "fusiform",
+          "description": null
+        },
+        {
+          "name": "saccular",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "characteristics of wall",
+      "description": "Characteristics of the aortic wall",
+      "type": "choice",
+      "values": [
+        {
+          "name": "mural calcification",
+          "description": "present"
+        },
+        {
+          "name": "mural calcification",
+          "description": "absent"
+        },
+        {
+          "name": "mural thrombus",
+          "description": "present"
+        },
+        {
+          "name": "mural thrombus",
+          "description": "absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "related vessels",
+      "description": "Related vessels involved",
+      "type": "choice",
+      "values": [
+        {
+          "name": "brachycephalic trunk",
+          "description": null
+        },
+        {
+          "name": "right subclavian artery",
+          "description": null
+        },
+        {
+          "name": "right common carotid artery",
+          "description": null
+        },
+        {
+          "name": "left subclavian artery",
+          "description": null
+        },
+        {
+          "name": "left common carotid artery",
+          "description": null
+        },
+        {
+          "name": "right vertebral artery",
+          "description": null
+        },
+        {
+          "name": "left vertebral artery",
+          "description": null
+        },
+        {
+          "name": "does not involve great vessels",
+          "description": null
+        }
+      ],
+      "required": true
+    }
+  ]
+}

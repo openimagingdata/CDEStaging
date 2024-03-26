@@ -1,0 +1,139 @@
+{
+  "finding_name": "endobronchial mass",
+  "description": "A mass located within the bronchial airway.",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": "Indicates whether the endobronchial mass is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "The endobronchial mass is present."
+        },
+        {
+          "name": "Absent",
+          "description": "The endobronchial mass is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "The status of the endobronchial mass.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New",
+          "description": "The endobronchial mass is new."
+        },
+        {
+          "name": "Stable",
+          "description": "The endobronchial mass is stable."
+        },
+        {
+          "name": "Increasing",
+          "description": "The endobronchial mass is increasing in size."
+        },
+        {
+          "name": "Decreasing",
+          "description": "The endobronchial mass is decreasing in size."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Location",
+      "description": "The location of the endobronchial mass.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Specify location",
+          "description": "Specify the location of the endobronchial mass."
+        },
+        {
+          "name": "None",
+          "description": "No location specified for the endobronchial mass."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Size",
+      "description": "The size of the endobronchial mass.",
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "cm",
+      "required": true
+    },
+    {
+      "name": "Shape",
+      "description": "The shape of the endobronchial mass.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Round",
+          "description": "The endobronchial mass is round."
+        },
+        {
+          "name": "Irregular",
+          "description": "The endobronchial mass is irregular."
+        },
+        {
+          "name": "Lobulated",
+          "description": "The endobronchial mass is lobulated."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Airway Obstruction",
+      "description": "Indicates whether there is airway obstruction associated with the endobronchial mass.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "There is airway obstruction associated with the endobronchial mass."
+        },
+        {
+          "name": "Absent",
+          "description": "There is no airway obstruction associated with the endobronchial mass."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Distal Atelectasis or Consolidation",
+      "description": "Indicates whether there is distal atelectasis or consolidation associated with the endobronchial mass.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "There is distal atelectasis or consolidation associated with the endobronchial mass."
+        },
+        {
+          "name": "Absent",
+          "description": "There is no distal atelectasis or consolidation associated with the endobronchial mass."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Lymphadenopathy",
+      "description": "Indicates whether there is lymphadenopathy associated with the endobronchial mass.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "There is lymphadenopathy associated with the endobronchial mass."
+        },
+        {
+          "name": "Absent",
+          "description": "There is no lymphadenopathy associated with the endobronchial mass."
+        }
+      ],
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "finding_name": "pneumobilia",
+  "description": "The presence of air in the biliary ducts.",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": "Whether pneumobilia is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "The finding is present."
+        },
+        {
+          "name": "Absent",
+          "description": "The finding is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Extent",
+      "description": "The extent of pneumobilia.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Limited",
+          "description": "Pneumobilia is limited in extent."
+        },
+        {
+          "name": "Extensive",
+          "description": "Pneumobilia is extensive."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "The location of pneumobilia.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Intrahepatic ducts",
+          "description": "Pneumobilia is located in the intrahepatic ducts."
+        },
+        {
+          "name": "Common bile duct",
+          "description": "Pneumobilia is located in the common bile duct."
+        },
+        {
+          "name": "Both",
+          "description": "Pneumobilia is located in both the intrahepatic ducts and common bile duct."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Associated bile duct dilation",
+      "description": "Whether there is associated bile duct dilation.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "There is associated bile duct dilation."
+        },
+        {
+          "name": "Absent",
+          "description": "There is no associated bile duct dilation."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Cholecystitis",
+      "description": "Whether cholecystitis is present.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Cholecystitis is present."
+        },
+        {
+          "name": "Absent",
+          "description": "Cholecystitis is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Choledocholithiasis",
+      "description": "Whether choledocholithiasis is present.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Choledocholithiasis is present."
+        },
+        {
+          "name": "Absent",
+          "description": "Choledocholithiasis is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Biliary stent",
+      "description": "Whether a biliary stent is present.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "A biliary stent is present."
+        },
+        {
+          "name": "Absent",
+          "description": "A biliary stent is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Acute pancreatitis",
+      "description": "Whether acute pancreatitis is present.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Acute pancreatitis is present."
+        },
+        {
+          "name": "Absent",
+          "description": "Acute pancreatitis is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Periportal edema",
+      "description": "Whether periportal edema is present.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Periportal edema is present."
+        },
+        {
+          "name": "Absent",
+          "description": "Periportal edema is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Portal vein gas",
+      "description": "Whether portal vein gas is present.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Portal vein gas is present."
+        },
+        {
+          "name": "Absent",
+          "description": "Portal vein gas is absent."
+        }
+      ],
+      "required": true
+    }
+  ]
+}

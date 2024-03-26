@@ -1,0 +1,122 @@
+{
+  "finding_name": "Thymus",
+  "description": "",
+  "attributes": [
+    {
+      "name": "Presence of Thymic Tissue",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": null
+        },
+        {
+          "name": "No",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Size",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Normal",
+          "description": null
+        },
+        {
+          "name": "Enlarged",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Consistency",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Homogeneous",
+          "description": null
+        },
+        {
+          "name": "Heterogeneous",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Calcifications",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Fatty Involution",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Complete",
+          "description": null
+        },
+        {
+          "name": "Partial",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Cystic Changes",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Thymoma / Thymic Mass",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    }
+  ]
+}
