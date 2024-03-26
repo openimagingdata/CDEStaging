@@ -1,0 +1,107 @@
+{
+  "finding_name": "hepatic cyst",
+  "description": "A fluid-filled sac in the liver.",
+  "attributes": [
+    {
+      "name": "Multiplicity",
+      "description": "The number of cysts present.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Single",
+          "description": null
+        },
+        {
+          "name": "Multiple",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "The specific location of the cyst.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Hepatic (unspecified)",
+          "description": "The cyst is located in the liver."
+        },
+        {
+          "name": "Left hepatic lobe",
+          "description": null
+        },
+        {
+          "name": "Right hepatic lobe",
+          "description": null
+        },
+        {
+          "name": "Hepatic segment 1",
+          "description": null
+        },
+        {
+          "name": "Hepatic segment 2",
+          "description": null
+        },
+        {
+          "name": "Hepatic segment 3",
+          "description": null
+        },
+        {
+          "name": "Hepatic segment 4a",
+          "description": null
+        },
+        {
+          "name": "Hepatic segment 4b",
+          "description": null
+        },
+        {
+          "name": "Hepatic segment 5",
+          "description": null
+        },
+        {
+          "name": "Hepatic segment 6",
+          "description": null
+        },
+        {
+          "name": "Hepatic segment 7",
+          "description": null
+        },
+        {
+          "name": "Hepatic segment 8",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Size of largest cyst",
+      "description": "The size of the largest cyst in centimeters.",
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "cm",
+      "required": true
+    },
+    {
+      "name": "Stability",
+      "description": "The stability of the cyst.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Unchanged",
+          "description": "The cyst has not changed in size."
+        },
+        {
+          "name": "Increased",
+          "description": null
+        },
+        {
+          "name": "Decreased",
+          "description": null
+        }
+      ],
+      "required": true
+    }
+  ]
+}

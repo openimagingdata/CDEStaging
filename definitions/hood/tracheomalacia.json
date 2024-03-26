@@ -1,0 +1,154 @@
+{
+  "finding_name": "tracheomalacia",
+  "description": "Tracheomalacia is the weakening or collapse of the tracheal walls, which can lead to airway obstruction.",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": "Indicates whether tracheomalacia is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Severity",
+      "description": "Indicates the severity of tracheomalacia.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Mild",
+          "description": null
+        },
+        {
+          "name": "Moderate",
+          "description": null
+        },
+        {
+          "name": "Severe",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "Indicates the location of tracheomalacia.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Trachea - Proximal",
+          "description": null
+        },
+        {
+          "name": "Trachea - Mid",
+          "description": null
+        },
+        {
+          "name": "Trachea - Distal",
+          "description": null
+        },
+        {
+          "name": "Main Bronchus - Right",
+          "description": null
+        },
+        {
+          "name": "Main Bronchus - Left",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Extent",
+      "description": "Indicates the extent of tracheomalacia.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Focal",
+          "description": null
+        },
+        {
+          "name": "Segmental",
+          "description": null
+        },
+        {
+          "name": "Diffuse",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Airway Collapse",
+      "description": "Indicates whether airway collapse is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Degree of Collapse",
+      "description": "Indicates the degree of airway collapse.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "<50%",
+          "description": null
+        },
+        {
+          "name": ">50%",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Expiratory Air Trapping",
+      "description": "Indicates whether expiratory air trapping is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Signs of Chronic Obstruction",
+      "description": "Indicates whether signs of chronic obstruction are present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    }
+  ]
+}

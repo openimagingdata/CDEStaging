@@ -1,0 +1,135 @@
+{
+  "finding_name": "mediastinal fat stranding",
+  "description": "Mediastinal fat stranding refers to increased attenuation of mediastinal fat compared to normal fat.",
+  "attributes": [
+    {
+      "name": "presence",
+      "description": "Presence of mediastinal fat stranding.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "Mediastinal fat stranding is present."
+        },
+        {
+          "name": "No",
+          "description": "Mediastinal fat stranding is not present."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "location",
+      "description": "Location of mediastinal fat stranding.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Anterior",
+          "description": "Mediastinal fat stranding is located in the anterior mediastinum."
+        },
+        {
+          "name": "Middle",
+          "description": "Mediastinal fat stranding is located in the middle mediastinum."
+        },
+        {
+          "name": "Superior",
+          "description": "Mediastinal fat stranding is located in the superior mediastinum."
+        },
+        {
+          "name": "Posterior",
+          "description": "Mediastinal fat stranding is located in the posterior mediastinum."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "extent",
+      "description": "Extent of mediastinal fat stranding.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Localized",
+          "description": "Mediastinal fat stranding is localized."
+        },
+        {
+          "name": "Diffuse",
+          "description": "Mediastinal fat stranding is diffuse."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "density",
+      "description": "Attenuation of mediastinal fat relative to normal fat.",
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": null,
+      "required": false
+    },
+    {
+      "name": "associated_findings",
+      "description": "Associated findings with mediastinal fat stranding.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Lymphadenopathy",
+          "description": "Presence of lymphadenopathy."
+        },
+        {
+          "name": "Fluid collections",
+          "description": "Presence of fluid collections."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "implications",
+      "description": "Potential implications or associated conditions.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Inflammation",
+          "description": "Inflammation is a potential implication or associated condition."
+        },
+        {
+          "name": "Infection",
+          "description": "Infection is a potential implication or associated condition."
+        },
+        {
+          "name": "Trauma",
+          "description": "Trauma is a potential implication or associated condition."
+        },
+        {
+          "name": "Postoperative changes",
+          "description": "Postoperative changes are a potential implication or associated condition."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "imaging_features",
+      "description": "Imaging features suggestive of etiology.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Radiation therapy",
+          "description": "Radiation therapy is a potential etiology."
+        },
+        {
+          "name": "Infection",
+          "description": "Infection is a potential etiology."
+        },
+        {
+          "name": "Trauma",
+          "description": "Trauma is a potential etiology."
+        },
+        {
+          "name": "Postoperative changes",
+          "description": "Postoperative changes are a potential etiology."
+        }
+      ],
+      "required": false
+    }
+  ]
+}

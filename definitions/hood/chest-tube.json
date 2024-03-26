@@ -1,0 +1,94 @@
+{
+  "finding_name": "Chest tube",
+  "description": "A tube inserted into the chest to drain fluid or air.",
+  "attributes": [
+    {
+      "name": "Side",
+      "description": "The side of the chest where the tube is inserted.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Left",
+          "description": "None"
+        },
+        {
+          "name": "Right",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Type",
+      "description": "The type of chest tube.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Pigtail",
+          "description": "None"
+        },
+        {
+          "name": "Large bore",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Directed toward",
+      "description": "The direction in which the chest tube is inserted.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Apex",
+          "description": "None"
+        },
+        {
+          "name": "Base",
+          "description": "None"
+        },
+        {
+          "name": "Costophrenic sulcus",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Intraparechymal placement",
+      "description": "Indicates whether the chest tube is placed within the lung tissue.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "None"
+        },
+        {
+          "name": "No",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Related topics",
+      "description": "Other findings or conditions related to the presence of a chest tube.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Pleural effusion",
+          "description": "None"
+        },
+        {
+          "name": "Pneumothorax",
+          "description": "None"
+        },
+        {
+          "name": "Post-surgical changes",
+          "description": "None"
+        }
+      ],
+      "required": false
+    }
+  ]
+}

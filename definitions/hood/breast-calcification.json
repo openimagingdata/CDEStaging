@@ -1,0 +1,210 @@
+{
+  "finding_name": "Breast Calcification",
+  "description": "Calcifications in the breast tissue.",
+  "attributes": [
+    {
+      "name": "Presence of Breast Calcification",
+      "description": "Presence or absence of breast calcification.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Calcifications are present."
+        },
+        {
+          "name": "Absent",
+          "description": "Calcifications are absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "Status of the breast calcification.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New",
+          "description": "New calcifications."
+        },
+        {
+          "name": "Unchanged",
+          "description": "Calcifications remain the same."
+        },
+        {
+          "name": "Increased",
+          "description": "Calcifications have increased in number or size."
+        },
+        {
+          "name": "Decreased",
+          "description": "Calcifications have decreased in number or size."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "Location of the breast calcification.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right breast",
+          "description": null
+        },
+        {
+          "name": "Left breast",
+          "description": null
+        },
+        {
+          "name": "Bilateral",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Distribution Pattern",
+      "description": "Pattern of distribution of the breast calcification.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Diffuse",
+          "description": null
+        },
+        {
+          "name": "Regional",
+          "description": null
+        },
+        {
+          "name": "Linear",
+          "description": null
+        },
+        {
+          "name": "Segmental",
+          "description": null
+        },
+        {
+          "name": "Grouped",
+          "description": null
+        },
+        {
+          "name": "Clustered",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Morphology",
+      "description": "Morphology of the breast calcification.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Round",
+          "description": null
+        },
+        {
+          "name": "Punctate",
+          "description": null
+        },
+        {
+          "name": "Vascular",
+          "description": null
+        },
+        {
+          "name": "Coarse",
+          "description": null
+        },
+        {
+          "name": "Fine Pleomorphic",
+          "description": null
+        },
+        {
+          "name": "Fine Linear or Fine Linear Branching",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Breast Skin Thickening",
+      "description": "Presence or absence of breast skin thickening.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Dermal Calcifications",
+      "description": "Presence or absence of dermal calcifications.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Vascular Calcifications",
+      "description": "Presence or absence of vascular calcifications.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Breast Mass",
+      "description": "Presence or absence of a breast mass.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Axillary Lymphadenopathy",
+      "description": "Presence or absence of axillary lymphadenopathy.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    }
+  ]
+}

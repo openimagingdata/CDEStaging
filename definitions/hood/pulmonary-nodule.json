@@ -1,0 +1,219 @@
+{
+  "finding_name": "pulmonary nodule",
+  "description": "A solid or partially solid lesion in the lung parenchyma.",
+  "attributes": [
+    {
+      "name": "presence",
+      "description": "Presence of the pulmonary nodule.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "The pulmonary nodule is present."
+        },
+        {
+          "name": "absent",
+          "description": "The pulmonary nodule is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "number",
+      "description": "Number of pulmonary nodules.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "single",
+          "description": "There is a single pulmonary nodule."
+        },
+        {
+          "name": "multiple",
+          "description": "There are multiple pulmonary nodules."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "status",
+      "description": "Status of the pulmonary nodule.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "new",
+          "description": "The pulmonary nodule is new."
+        },
+        {
+          "name": "stable",
+          "description": "The pulmonary nodule is stable."
+        },
+        {
+          "name": "enlarging",
+          "description": "The pulmonary nodule is enlarging."
+        },
+        {
+          "name": "decreasing",
+          "description": "The pulmonary nodule is decreasing in size."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "size",
+      "description": "Size of the pulmonary nodule.",
+      "type": "numeric",
+      "minimum": 0,
+      "maximum": 100,
+      "unit": "mm",
+      "required": true
+    },
+    {
+      "name": "morphology",
+      "description": "Morphology of the pulmonary nodule.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "solid",
+          "description": "The pulmonary nodule is solid."
+        },
+        {
+          "name": "subsolid",
+          "description": "The pulmonary nodule is subsolid."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "edges",
+      "description": "Edges of the pulmonary nodule.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "smooth",
+          "description": "The edges of the pulmonary nodule are smooth."
+        },
+        {
+          "name": "lobulated",
+          "description": "The edges of the pulmonary nodule are lobulated."
+        },
+        {
+          "name": "spiculated",
+          "description": "The edges of the pulmonary nodule are spiculated."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "location",
+      "description": "Location of the pulmonary nodule.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "right upper lobe",
+          "description": "The pulmonary nodule is in the right upper lobe."
+        },
+        {
+          "name": "right middle lobe",
+          "description": "The pulmonary nodule is in the right middle lobe."
+        },
+        {
+          "name": "right lower lobe",
+          "description": "The pulmonary nodule is in the right lower lobe."
+        },
+        {
+          "name": "left upper lobe",
+          "description": "The pulmonary nodule is in the left upper lobe."
+        },
+        {
+          "name": "left lower lobe",
+          "description": "The pulmonary nodule is in the left lower lobe."
+        },
+        {
+          "name": "bilateral",
+          "description": "The pulmonary nodule is bilateral."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "calcification",
+      "description": "Calcification of the pulmonary nodule.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "Calcification is present in the pulmonary nodule."
+        },
+        {
+          "name": "absent",
+          "description": "Calcification is absent in the pulmonary nodule."
+        },
+        {
+          "name": "central",
+          "description": "Central calcification in the pulmonary nodule."
+        },
+        {
+          "name": "diffuse",
+          "description": "Diffuse calcification in the pulmonary nodule."
+        },
+        {
+          "name": "laminated",
+          "description": "Laminated calcification in the pulmonary nodule."
+        },
+        {
+          "name": "popcorn",
+          "description": "Popcorn calcification in the pulmonary nodule."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "cavitation",
+      "description": "Cavitation of the pulmonary nodule.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "Cavitation is present in the pulmonary nodule."
+        },
+        {
+          "name": "absent",
+          "description": "Cavitation is absent in the pulmonary nodule."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "satellite_nodules",
+      "description": "Presence of satellite nodules.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "Satellite nodules are present."
+        },
+        {
+          "name": "absent",
+          "description": "Satellite nodules are absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "lymphadenopathy",
+      "description": "Presence of lymphadenopathy.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "Lymphadenopathy is present."
+        },
+        {
+          "name": "absent",
+          "description": "Lymphadenopathy is absent."
+        }
+      ],
+      "required": true
+    }
+  ]
+}

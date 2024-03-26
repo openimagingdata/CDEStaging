@@ -1,0 +1,134 @@
+{
+  "finding_name": "ascending aortic repair",
+  "description": "Repair of the ascending aorta",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Type of Repair",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Graft",
+          "description": "None"
+        },
+        {
+          "name": "Stent",
+          "description": "None"
+        },
+        {
+          "name": "Valve replacement",
+          "description": "None"
+        },
+        {
+          "name": "Valve-sparing",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Condition Treated",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Aneurysm",
+          "description": "None"
+        },
+        {
+          "name": "Dissection",
+          "description": "None"
+        },
+        {
+          "name": "Both",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location of Repair",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Ascending aorta",
+          "description": "None"
+        },
+        {
+          "name": "Aortic root",
+          "description": "None"
+        },
+        {
+          "name": "Aortic arch",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Aortic Dilation",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Residual Dissection",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pericardial Effusion",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

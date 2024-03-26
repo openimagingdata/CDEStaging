@@ -1,0 +1,138 @@
+{
+  "finding_name": "Neurostimulator Device",
+  "description": "Presence and characteristics of a neurostimulator device.",
+  "attributes": [
+    {
+      "name": "Presence of Neurostimulator Device",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "Current status of the neurostimulator device.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New placement",
+          "description": "None"
+        },
+        {
+          "name": "Unchanged",
+          "description": "None"
+        },
+        {
+          "name": "Complication",
+          "description": "None"
+        },
+        {
+          "name": "Removed",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Lead Location",
+      "description": "Location of the neurostimulator lead.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Spinal canal",
+          "description": "None"
+        },
+        {
+          "name": "Above FOV",
+          "description": "None"
+        },
+        {
+          "name": "Below FOV",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Appropriate position",
+      "description": "Whether the neurostimulator device is in an appropriate position.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "None"
+        },
+        {
+          "name": "No",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Device Type",
+      "description": "Type of the neurostimulator device.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Deep Brain Stimulator (DBS)",
+          "description": "None"
+        },
+        {
+          "name": "Spinal Cord Stimulator (SCS)",
+          "description": "None"
+        },
+        {
+          "name": "Vagus Nerve Stimulator (VNS)",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Device/Battery Location",
+      "description": "Location of the neurostimulator device or battery.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Chest",
+          "description": "None"
+        },
+        {
+          "name": "Abdomen",
+          "description": "None"
+        },
+        {
+          "name": "Buttock",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Fluid collection",
+      "description": "Presence of fluid collection associated with the neurostimulator device.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

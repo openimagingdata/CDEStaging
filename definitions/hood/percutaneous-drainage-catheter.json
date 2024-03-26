@@ -1,0 +1,143 @@
+{
+  "finding_name": "percutaneous drainage catheter",
+  "description": "A percutaneous drainage catheter is a tube that is inserted into the body to drain fluid collections.",
+  "attributes": [
+    {
+      "name": "Presence of Percutaneous Drainage Catheter",
+      "description": "Indicates whether a percutaneous drainage catheter is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "Indicates the status of the percutaneous drainage catheter placement.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New placement",
+          "description": null
+        },
+        {
+          "name": "Unchanged",
+          "description": null
+        },
+        {
+          "name": "Complication",
+          "description": null
+        },
+        {
+          "name": "Removed",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Appropriate location",
+      "description": "Indicates whether the percutaneous drainage catheter is appropriately located.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": null
+        },
+        {
+          "name": "No",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Side",
+      "description": "Indicates the side of the percutaneous drainage catheter.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Left",
+          "description": null
+        },
+        {
+          "name": "Right",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "Indicates the location of the percutaneous drainage catheter.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Anterior mediastinum",
+          "description": null
+        },
+        {
+          "name": "Middle mediastinum",
+          "description": null
+        },
+        {
+          "name": "Posterior mediastinum",
+          "description": null
+        },
+        {
+          "name": "Chest wall",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Catheter Size (French)",
+      "description": "Indicates the size of the percutaneous drainage catheter in French units.",
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "Fr",
+      "required": true
+    },
+    {
+      "name": "Complications",
+      "description": "Indicates whether there are any complications related to the percutaneous drainage catheter.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "None",
+          "description": null
+        },
+        {
+          "name": "Catheter migration",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Fluid collection",
+      "description": "Indicates whether there is a fluid collection associated with the percutaneous drainage catheter.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    }
+  ]
+}

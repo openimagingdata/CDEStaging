@@ -1,0 +1,171 @@
+{
+  "finding_name": "Esophageal Wall Thickening",
+  "description": "The presence of thickening of the esophageal wall.",
+  "attributes": [
+    {
+      "name": "Presence of Esophageal Wall Thickening",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "New",
+          "description": "None"
+        },
+        {
+          "name": "Unchanged",
+          "description": "None"
+        },
+        {
+          "name": "Increased",
+          "description": "None"
+        },
+        {
+          "name": "Decreased",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Upper",
+          "description": "None"
+        },
+        {
+          "name": "Middle",
+          "description": "None"
+        },
+        {
+          "name": "Lower",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Extent",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Focal",
+          "description": "None"
+        },
+        {
+          "name": "Diffuse",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Thickness",
+      "description": null,
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "mm",
+      "required": true
+    },
+    {
+      "name": "Mucosal enhancement",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Mediastinal lymphadenopathy",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Esophageal mass",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Esophageal fluid",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Hiatal hernia",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

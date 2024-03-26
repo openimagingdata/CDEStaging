@@ -1,0 +1,98 @@
+{
+  "finding_name": "Left Atrial Appendage Occlusion Device",
+  "description": "Presence of a left atrial appendage occlusion device",
+  "attributes": [
+    {
+      "name": "Presence of Left Atrial Appendage Occlusion Device",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "New placement",
+          "description": "None"
+        },
+        {
+          "name": "Unchanged",
+          "description": "None"
+        },
+        {
+          "name": "Complication",
+          "description": "None"
+        },
+        {
+          "name": "Removed",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Device Type",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Watchman",
+          "description": "None"
+        },
+        {
+          "name": "Amplatzer Cardiac Plug",
+          "description": "None"
+        },
+        {
+          "name": "Other",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Appropriate position",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "None"
+        },
+        {
+          "name": "No",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Device-Related Thrombus",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

@@ -1,107 +1,107 @@
 {
-  "finding_name": "peripherally inserted central catheter (PICC)",
-  "description": "A catheter that is inserted into a peripheral vein and advanced until the tip reaches a central vein.",
+  "finding_name": "PICC",
+  "description": "Peripherally inserted central catheter (PICC)",
   "attributes": [
     {
       "name": "Side",
-      "description": "The side of the body where the catheter is inserted.",
+      "description": "The side of the body where the PICC is inserted",
       "type": "choice",
       "values": [
         {
           "name": "Left upper extremity",
-          "description": "None"
+          "description": null
         },
         {
           "name": "Right upper extremity",
-          "description": "None"
+          "description": null
         },
         {
           "name": "Left lower extremity",
-          "description": "None"
+          "description": null
         },
         {
           "name": "Right lower extremity",
-          "description": "None"
+          "description": null
         }
       ],
       "required": true
     },
     {
       "name": "Distal tip location",
-      "description": "The location of the distal tip of the catheter.",
+      "description": "The location of the distal tip of the PICC",
       "type": "choice",
       "values": [
         {
           "name": "Subclavian vein",
-          "description": "None"
+          "description": null
         },
         {
           "name": "Brachiocephalic vein",
-          "description": "None"
+          "description": null
         },
         {
           "name": "SVC",
-          "description": "None"
+          "description": null
         },
         {
           "name": "Superior cavoatrial junction",
-          "description": "None"
+          "description": null
         },
         {
           "name": "Azygous vein",
-          "description": "None"
+          "description": null
         },
         {
           "name": "Inferior cavoatrial junction",
-          "description": "None"
+          "description": null
         },
         {
           "name": "Internal jugular vein",
-          "description": "None"
+          "description": null
         }
       ],
       "required": true
     },
     {
       "name": "Appropriate location",
-      "description": "Whether the catheter location is considered appropriate.",
+      "description": "Whether the location of the PICC is appropriate",
       "type": "choice",
       "values": [
         {
           "name": "Yes",
-          "description": "None"
+          "description": null
         },
         {
           "name": "No",
-          "description": "None"
+          "description": null
         }
       ],
       "required": true
     },
     {
       "name": "Change from prior",
-      "description": "The change in the position of the catheter compared to a prior examination.",
+      "description": "Any change in the PICC placement from the prior study",
       "type": "choice",
       "values": [
         {
           "name": "New placement",
-          "description": "None"
+          "description": null
         },
         {
           "name": "Unchanged",
-          "description": "None"
+          "description": null
         },
         {
           "name": "Retracted",
-          "description": "None"
+          "description": null
         },
         {
           "name": "Migrated",
-          "description": "None"
+          "description": null
         },
         {
           "name": "Removed",
-          "description": "None"
+          "description": null
         }
       ],
       "required": true

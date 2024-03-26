@@ -1,0 +1,258 @@
+{
+  "finding_name": "Pneumothorax",
+  "description": "A radiologic finding of abnormal air collection in the pleural space.",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": "Presence of pneumothorax.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "Status of pneumothorax.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Acute",
+          "description": null
+        },
+        {
+          "name": "Chronic",
+          "description": null
+        },
+        {
+          "name": "Resolving",
+          "description": null
+        },
+        {
+          "name": "Newly identified",
+          "description": null
+        },
+        {
+          "name": "Increased",
+          "description": null
+        },
+        {
+          "name": "Decreased",
+          "description": null
+        },
+        {
+          "name": "Resolved",
+          "description": null
+        },
+        {
+          "name": "Persisting",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Size",
+      "description": "Size of pneumothorax.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Small (<20% lung volume)",
+          "description": null
+        },
+        {
+          "name": "Medium (20-50% lung volume)",
+          "description": null
+        },
+        {
+          "name": "Large (>50% lung volume)",
+          "description": null
+        },
+        {
+          "name": "Tension",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": "Location of pneumothorax.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right",
+          "description": null
+        },
+        {
+          "name": "Left",
+          "description": null
+        },
+        {
+          "name": "Bilateral",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Distribution",
+      "description": "Distribution of pneumothorax.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Apical",
+          "description": null
+        },
+        {
+          "name": "Basilar",
+          "description": null
+        },
+        {
+          "name": "Diffuse",
+          "description": null
+        },
+        {
+          "name": "Localized",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Chest tube",
+      "description": "Presence of chest tube.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Subcutaneous emphysema",
+      "description": "Presence of subcutaneous emphysema.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Rib fractures",
+      "description": "Presence of rib fractures.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pleural effusion",
+      "description": "Presence of pleural effusion.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Lung collapse",
+      "description": "Presence of lung collapse.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pleural adhesions",
+      "description": "Presence of pleural adhesions.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Mediastinal shift",
+      "description": "Presence of mediastinal shift.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Herniation",
+      "description": "Presence of herniation.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": null
+        },
+        {
+          "name": "Absent",
+          "description": null
+        }
+      ],
+      "required": true
+    }
+  ]
+}

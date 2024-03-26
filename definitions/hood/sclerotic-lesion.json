@@ -1,0 +1,83 @@
+{
+  "finding_name": "sclerotic lesion",
+  "description": "A sclerotic lesion is a finding characterized by an area of increased bone density.",
+  "attributes": [
+    {
+      "name": "presence",
+      "description": "Indicates whether the sclerotic lesion is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "The sclerotic lesion is present."
+        },
+        {
+          "name": "absent",
+          "description": "The sclerotic lesion is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "status",
+      "description": "Indicates the status of the sclerotic lesion.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "stable",
+          "description": "The sclerotic lesion is stable."
+        },
+        {
+          "name": "enlarging",
+          "description": "The sclerotic lesion is enlarging."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "location",
+      "description": "Indicates the location of the sclerotic lesion in the bone.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Not specified",
+          "description": "The location of the sclerotic lesion is not specified."
+        },
+        {
+          "name": "Frontal bone",
+          "description": "The sclerotic lesion is located in the frontal bone."
+        },
+        {
+          "name": "Occipital bone",
+          "description": "The sclerotic lesion is located in the occipital bone."
+        },
+        {
+          "name": "Temporal bone",
+          "description": "The sclerotic lesion is located in the temporal bone."
+        },
+        {
+          "name": "Parietal bone",
+          "description": "The sclerotic lesion is located in the parietal bone."
+        },
+        {
+          "name": "Maxilla",
+          "description": "The sclerotic lesion is located in the maxilla."
+        },
+        {
+          "name": "Mandible",
+          "description": "The sclerotic lesion is located in the mandible."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "density",
+      "description": "Indicates the density of the sclerotic lesion.",
+      "type": "numeric",
+      "minimum": 1000,
+      "maximum": null,
+      "unit": "HU",
+      "required": false
+    }
+  ]
+}

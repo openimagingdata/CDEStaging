@@ -1,0 +1,178 @@
+{
+  "finding_name": "calcified granuloma",
+  "description": "A calcified granuloma is a small, usually harmless nodule that forms in the lung tissue as a result of an infection or inflammation.",
+  "attributes": [
+    {
+      "name": "presence",
+      "description": "The presence of a calcified granuloma",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "A calcified granuloma is present"
+        },
+        {
+          "name": "absent",
+          "description": "A calcified granuloma is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "status",
+      "description": "The status of a calcified granuloma",
+      "type": "choice",
+      "values": [
+        {
+          "name": "stable",
+          "description": "The calcified granuloma is stable"
+        },
+        {
+          "name": "new",
+          "description": "A new calcified granuloma has formed"
+        },
+        {
+          "name": "increasing in number",
+          "description": "The calcified granulomas are increasing in number"
+        },
+        {
+          "name": "decreasing in size",
+          "description": "The calcified granuloma is decreasing in size"
+        },
+        {
+          "name": "resolved",
+          "description": "The calcified granuloma has resolved"
+        },
+        {
+          "name": "unchanged",
+          "description": "The calcified granuloma remains unchanged"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "distribution",
+      "description": "The distribution of calcified granulomas",
+      "type": "choice",
+      "values": [
+        {
+          "name": "solitary",
+          "description": "A single calcified granuloma"
+        },
+        {
+          "name": "multiple",
+          "description": "Multiple calcified granulomas"
+        },
+        {
+          "name": "clustered",
+          "description": "Calcified granulomas clustered together"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "severity",
+      "description": "The severity of calcified granulomas",
+      "type": "choice",
+      "values": [
+        {
+          "name": "mild",
+          "description": "Mild calcified granulomas"
+        },
+        {
+          "name": "moderate",
+          "description": "Moderate calcified granulomas"
+        },
+        {
+          "name": "severe",
+          "description": "Severe calcified granulomas"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "location",
+      "description": "The location of calcified granulomas",
+      "type": "choice",
+      "values": [
+        {
+          "name": "right upper lobe",
+          "description": "Calcified granuloma in the right upper lobe"
+        },
+        {
+          "name": "right middle lobe",
+          "description": "Calcified granuloma in the right middle lobe"
+        },
+        {
+          "name": "right lower lobe",
+          "description": "Calcified granuloma in the right lower lobe"
+        },
+        {
+          "name": "left upper lobe",
+          "description": "Calcified granuloma in the left upper lobe"
+        },
+        {
+          "name": "left lower lobe",
+          "description": "Calcified granuloma in the left lower lobe"
+        },
+        {
+          "name": "bilateral",
+          "description": "Calcified granuloma in both lungs"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "size",
+      "description": "The size of calcified granulomas",
+      "type": "choice",
+      "values": [
+        {
+          "name": "<1 cm",
+          "description": "Calcified granuloma size less than 1 cm"
+        },
+        {
+          "name": "1-2 cm",
+          "description": "Calcified granuloma size between 1-2 cm"
+        },
+        {
+          "name": ">2 cm",
+          "description": "Calcified granuloma size greater than 2 cm"
+        },
+        {
+          "name": "not specified",
+          "description": "Calcified granuloma size not specified"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "associated_findings",
+      "description": "The associated findings with calcified granulomas",
+      "type": "choice",
+      "values": [
+        {
+          "name": "emphysema",
+          "description": "Calcified granuloma associated with emphysema"
+        },
+        {
+          "name": "fibrosis",
+          "description": "Calcified granuloma associated with fibrosis"
+        },
+        {
+          "name": "nodules",
+          "description": "Calcified granuloma associated with nodules"
+        },
+        {
+          "name": "pleural effusion",
+          "description": "Calcified granuloma associated with pleural effusion"
+        },
+        {
+          "name": "lymphadenopathy",
+          "description": "Calcified granuloma associated with lymphadenopathy"
+        }
+      ],
+      "required": false
+    }
+  ]
+}

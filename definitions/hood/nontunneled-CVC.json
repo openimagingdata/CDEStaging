@@ -1,0 +1,262 @@
+{
+  "finding_name": "nontunneled CVC",
+  "description": "Non-tunneled Central Venous Catheter (CVC)",
+  "attributes": [
+    {
+      "name": "Presence of Non-tunneled Central Venous Catheter (CVC)",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "New placement",
+          "description": "None"
+        },
+        {
+          "name": "Unchanged",
+          "description": "None"
+        },
+        {
+          "name": "Migrated",
+          "description": "None"
+        },
+        {
+          "name": "Removed",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Appropriate location",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "None"
+        },
+        {
+          "name": "No",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Side",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Left",
+          "description": "None"
+        },
+        {
+          "name": "Right",
+          "description": "None"
+        },
+        {
+          "name": "Unknown",
+          "description": "inferior approach"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Number of Lumens",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Single",
+          "description": "None"
+        },
+        {
+          "name": "Double",
+          "description": "None"
+        },
+        {
+          "name": "Triple",
+          "description": "None"
+        },
+        {
+          "name": "Quad",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Vein approach",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Internal jugular",
+          "description": "None"
+        },
+        {
+          "name": "Subclavian",
+          "description": "None"
+        },
+        {
+          "name": "Femoral",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Course",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Appropriate",
+          "description": "None"
+        },
+        {
+          "name": "Kinking",
+          "description": "None"
+        },
+        {
+          "name": "Coiling",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Distal tip location",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Subclavian vein",
+          "description": "None"
+        },
+        {
+          "name": "Brachiocephalic vein",
+          "description": "None"
+        },
+        {
+          "name": "SVC",
+          "description": "None"
+        },
+        {
+          "name": "Superior cavoatrial junction",
+          "description": "None"
+        },
+        {
+          "name": "Azygous vein",
+          "description": "None"
+        },
+        {
+          "name": "Inferior cavoatrial junction",
+          "description": "None"
+        },
+        {
+          "name": "Internal jugular vein",
+          "description": "None"
+        },
+        {
+          "name": "IVC",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Complications",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "None",
+          "description": "None"
+        },
+        {
+          "name": "Occlusion",
+          "description": "None"
+        },
+        {
+          "name": "Thrombosis (fibrin sheath)",
+          "description": "None"
+        },
+        {
+          "name": "Catheter fracture",
+          "description": "None"
+        },
+        {
+          "name": "Tip Migration",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Hematoma",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Pneumothorax",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "Hemothorax",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": false
+    }
+  ]
+}

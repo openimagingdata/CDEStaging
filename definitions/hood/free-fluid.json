@@ -1,0 +1,134 @@
+{
+  "finding_name": "Free Fluid",
+  "description": "Presence of free fluid in the abdominal cavity, also known as ascites",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Volume",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Small",
+          "description": "None"
+        },
+        {
+          "name": "Moderate",
+          "description": "None"
+        },
+        {
+          "name": "Large",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Upper abdominal",
+          "description": "None"
+        },
+        {
+          "name": "Perihepatic",
+          "description": "None"
+        },
+        {
+          "name": "Perisplenic",
+          "description": "None"
+        },
+        {
+          "name": "Morrison's pouch",
+          "description": "None"
+        },
+        {
+          "name": "Subphrenic",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Attenuation",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Simple",
+          "description": "None"
+        },
+        {
+          "name": "Complex",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Hemoperitoneum",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Organ Injury",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pneumoperitoneum",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

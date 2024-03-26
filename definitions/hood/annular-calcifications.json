@@ -1,0 +1,130 @@
+{
+  "finding_name": "Annular Calcifications",
+  "description": "Presence of annular calcifications",
+  "attributes": [
+    {
+      "name": "Presence",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Mitral valve annulus",
+          "description": "None"
+        },
+        {
+          "name": "Aortic valve annulus",
+          "description": "None"
+        },
+        {
+          "name": "Tricuspid valve annulus",
+          "description": "None"
+        },
+        {
+          "name": "Pulmonary valve annulus",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Severity",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Mild",
+          "description": "None"
+        },
+        {
+          "name": "Moderate",
+          "description": "None"
+        },
+        {
+          "name": "Severe",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Cardiomegaly",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "None"
+        },
+        {
+          "name": "No",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Coronary artery disease",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "None"
+        },
+        {
+          "name": "No",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Left atrial enlargement",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "None"
+        },
+        {
+          "name": "No",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pulmonary hypertension",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "None"
+        },
+        {
+          "name": "No",
+          "description": "None"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

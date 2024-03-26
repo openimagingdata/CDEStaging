@@ -1,0 +1,118 @@
+{
+  "finding_name": "Bochdalek Hernia",
+  "description": "Bochdalek Hernia is a congenital diaphragmatic hernia that allows abdominal contents to herniate into the chest cavity through a defect in the diaphragm.",
+  "attributes": [
+    {
+      "name": "Presence of Bochdalek Hernia",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "None"
+        },
+        {
+          "name": "No",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Side",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Left",
+          "description": "None"
+        },
+        {
+          "name": "Right",
+          "description": "None"
+        },
+        {
+          "name": "Bilateral",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Size",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Small",
+          "description": "None"
+        },
+        {
+          "name": "Medium",
+          "description": "None"
+        },
+        {
+          "name": "Large",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Contents",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Fat",
+          "description": "None"
+        },
+        {
+          "name": "Bowel",
+          "description": "None"
+        },
+        {
+          "name": "Both",
+          "description": "None"
+        },
+        {
+          "name": "Other",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Pulmonary Hypoplasia",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Other Diaphragmatic Hernias",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "None"
+        },
+        {
+          "name": "Absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

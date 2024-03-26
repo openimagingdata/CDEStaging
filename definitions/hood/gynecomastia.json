@@ -1,0 +1,78 @@
+{
+  "finding_name": "gynecomastia",
+  "description": "Gynecomastia is the enlargement of breast tissue in males.",
+  "attributes": [
+    {
+      "name": "presence",
+      "description": "Whether gynecomastia is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "Gynecomastia is present."
+        },
+        {
+          "name": "absent",
+          "description": "Gynecomastia is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "severity",
+      "description": "The severity of gynecomastia.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "mild",
+          "description": "Mild gynecomastia."
+        },
+        {
+          "name": "moderate",
+          "description": "Moderate gynecomastia."
+        },
+        {
+          "name": "severe",
+          "description": "Severe gynecomastia."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "symmetry",
+      "description": "The symmetry of gynecomastia.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "symmetric",
+          "description": "Symmetric gynecomastia."
+        },
+        {
+          "name": "asymmetric",
+          "description": "Asymmetric gynecomastia."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "side",
+      "description": "The side of gynecomastia.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "right",
+          "description": "Gynecomastia on the right side."
+        },
+        {
+          "name": "left",
+          "description": "Gynecomastia on the left side."
+        },
+        {
+          "name": "bilateral",
+          "description": "Gynecomastia on both sides."
+        }
+      ],
+      "required": true
+    }
+  ]
+}

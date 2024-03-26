@@ -1,0 +1,194 @@
+{
+  "finding_name": "lytic lesion",
+  "description": "A lytic lesion refers to an area of bone loss or destruction.",
+  "attributes": [
+    {
+      "name": "presence",
+      "description": "Indicates whether the lytic lesion is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "The lytic lesion is present."
+        },
+        {
+          "name": "absent",
+          "description": "The lytic lesion is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "status",
+      "description": "Describes the status of the lytic lesion.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "stable",
+          "description": "The lytic lesion is stable."
+        },
+        {
+          "name": "enlarging",
+          "description": "The lytic lesion is enlarging."
+        },
+        {
+          "name": "decreased",
+          "description": "The lytic lesion is decreased."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "location",
+      "description": "Specifies the location of the lytic lesion.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "select list for bones",
+          "description": "The location of the lytic lesion is selectable from a list of bones."
+        },
+        {
+          "name": "other",
+          "description": "Location is specified in free text."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "size",
+      "description": "Indicates the size of the lytic lesion.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "small",
+          "description": "<1 cm"
+        },
+        {
+          "name": "medium",
+          "description": "1-2 cm"
+        },
+        {
+          "name": "large",
+          "description": ">2 cm"
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "number",
+      "description": "Specifies the number of lytic lesions.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "single",
+          "description": "There is a single lytic lesion."
+        },
+        {
+          "name": "multiple",
+          "description": "There are multiple lytic lesions."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "margin",
+      "description": "Describes the margin of the lytic lesion.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "well-defined",
+          "description": "The margin of the lytic lesion is well-defined."
+        },
+        {
+          "name": "ill-defined",
+          "description": "The margin of the lytic lesion is ill-defined."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "density",
+      "description": "Indicates the density of the lytic lesion.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "high",
+          "description": "The density of the lytic lesion is high."
+        },
+        {
+          "name": "low",
+          "description": "The density of the lytic lesion is low."
+        },
+        {
+          "name": "mixed",
+          "description": "The density of the lytic lesion is mixed."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "extra-osseous extension",
+      "description": "Indicates whether there is extra-osseous extension of the lytic lesion.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "There is extra-osseous extension of the lytic lesion."
+        },
+        {
+          "name": "absent",
+          "description": "There is no extra-osseous extension of the lytic lesion."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "soft tissue component",
+      "description": "Specifies whether there is a soft tissue component associated with the lytic lesion.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "yes",
+          "description": "There is a soft tissue component associated with the lytic lesion."
+        },
+        {
+          "name": "no",
+          "description": "There is no soft tissue component associated with the lytic lesion."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "pathologic fracture",
+      "description": "Indicates whether there is a pathologic fracture associated with the lytic lesion.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "yes",
+          "description": "There is a pathologic fracture associated with the lytic lesion."
+        },
+        {
+          "name": "no",
+          "description": "There is no pathologic fracture associated with the lytic lesion."
+        }
+      ],
+      "required": false
+    },
+    {
+      "name": "surrounding bone sclerosis",
+      "description": "Specifies whether there is surrounding bone sclerosis associated with the lytic lesion.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "yes",
+          "description": "There is surrounding bone sclerosis associated with the lytic lesion."
+        },
+        {
+          "name": "no",
+          "description": "There is no surrounding bone sclerosis associated with the lytic lesion."
+        }
+      ],
+      "required": false
+    }
+  ]
+}

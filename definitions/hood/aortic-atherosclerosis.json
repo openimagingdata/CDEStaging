@@ -1,0 +1,278 @@
+{
+  "finding_name": "aortic atherosclerosis",
+  "description": "Aortic atherosclerosis is characterized by the presence of plaque buildup in the aortic walls.",
+  "attributes": [
+    {
+      "name": "presence",
+      "description": "Presence of aortic atherosclerosis",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Aortic atherosclerosis is present"
+        },
+        {
+          "name": "Absent",
+          "description": "Aortic atherosclerosis is absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "severity",
+      "description": "Severity of aortic atherosclerosis",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Mild",
+          "description": null
+        },
+        {
+          "name": "Moderate",
+          "description": null
+        },
+        {
+          "name": "Severe",
+          "description": null
+        },
+        {
+          "name": "Extensive",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "extent",
+      "description": "Extent of aortic atherosclerosis",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Focal",
+          "description": null
+        },
+        {
+          "name": "Diffuse",
+          "description": null
+        },
+        {
+          "name": "Localized",
+          "description": null
+        },
+        {
+          "name": "Throughout the aorta",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "location",
+      "description": "Location of aortic atherosclerosis",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Ascending aorta",
+          "description": null
+        },
+        {
+          "name": "Aortic arch",
+          "description": null
+        },
+        {
+          "name": "Descending aorta",
+          "description": null
+        },
+        {
+          "name": "Abdominal aorta",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "plaque_characteristics",
+      "description": "Plaque characteristics in aortic atherosclerosis",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Calcified",
+          "description": null
+        },
+        {
+          "name": "Non-calcified",
+          "description": null
+        },
+        {
+          "name": "Mixed",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "luminal_irregularities",
+      "description": "Presence of luminal irregularities",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Luminal irregularities are present in the aortic atherosclerosis"
+        },
+        {
+          "name": "Absent",
+          "description": "No luminal irregularities are present in the aortic atherosclerosis"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "specific_features",
+      "description": "Specific features of aortic atherosclerosis",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Calcification",
+          "description": null
+        },
+        {
+          "name": "Ulceration",
+          "description": null
+        },
+        {
+          "name": "Plaque",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "wall_thickness",
+      "description": "Wall thickness in aortic atherosclerosis",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Increased",
+          "description": null
+        },
+        {
+          "name": "Normal",
+          "description": null
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "aneurysmal_dilation",
+      "description": "Presence of aneurysmal dilation",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Aneurysmal dilation is present in aortic atherosclerosis"
+        },
+        {
+          "name": "Absent",
+          "description": "No aneurysmal dilation is present in aortic atherosclerosis"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "intraluminal_thrombus",
+      "description": "Presence of intraluminal thrombus",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Intraluminal thrombus is present in aortic atherosclerosis"
+        },
+        {
+          "name": "Absent",
+          "description": "No intraluminal thrombus is present in aortic atherosclerosis"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "periaortic_soft_tissue_involvement",
+      "description": "Presence of periaortic soft tissue involvement",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Periaortic soft tissue involvement is present in aortic atherosclerosis"
+        },
+        {
+          "name": "Absent",
+          "description": "No periaortic soft tissue involvement is present in aortic atherosclerosis"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "vascular_stenosis",
+      "description": "Presence of vascular stenosis",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Vascular stenosis is present in aortic atherosclerosis"
+        },
+        {
+          "name": "Absent",
+          "description": "No vascular stenosis is present in aortic atherosclerosis"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "aortic_valve_calcification",
+      "description": "Presence of aortic valve calcification",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Aortic valve calcification is present in aortic atherosclerosis"
+        },
+        {
+          "name": "Absent",
+          "description": "No aortic valve calcification is present in aortic atherosclerosis"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "coronary_artery_disease",
+      "description": "Presence of coronary artery disease",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Coronary artery disease is present in aortic atherosclerosis"
+        },
+        {
+          "name": "Absent",
+          "description": "No coronary artery disease is present in aortic atherosclerosis"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "peripheral_vascular_disease",
+      "description": "Presence of peripheral vascular disease",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Peripheral vascular disease is present in aortic atherosclerosis"
+        },
+        {
+          "name": "Absent",
+          "description": "No peripheral vascular disease is present in aortic atherosclerosis"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

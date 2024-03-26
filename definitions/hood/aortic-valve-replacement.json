@@ -1,0 +1,114 @@
+{
+  "finding_name": "Aortic Valve Replacement",
+  "description": "A finding indicating the presence or absence of an aortic valve replacement, along with its characteristics.",
+  "attributes": [
+    {
+      "name": "Presence of Aortic Valve Replacement",
+      "description": "Indication of whether an aortic valve replacement is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "The finding indicates the presence of an aortic valve replacement."
+        },
+        {
+          "name": "Absent",
+          "description": "The finding indicates the absence of an aortic valve replacement."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "The status of the aortic valve replacement.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New placement",
+          "description": "The aortic valve replacement has been newly placed."
+        },
+        {
+          "name": "Unchanged",
+          "description": "The aortic valve replacement has not changed since the previous examination."
+        },
+        {
+          "name": "Complication",
+          "description": "The aortic valve replacement is associated with a complication."
+        },
+        {
+          "name": "Removed",
+          "description": "The aortic valve replacement has been removed."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Type",
+      "description": "The type of aortic valve replacement.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Mechanical",
+          "description": "The aortic valve replacement is mechanical."
+        },
+        {
+          "name": "Biological",
+          "description": "The aortic valve replacement is biological."
+        },
+        {
+          "name": "TAVR",
+          "description": "The aortic valve replacement utilizes a transcatheter aortic valve replacement method."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Position",
+      "description": "The position of the aortic valve replacement.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Proper",
+          "description": "The aortic valve replacement is properly positioned."
+        },
+        {
+          "name": "Malpositioned",
+          "description": "The aortic valve replacement is malpositioned."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Paravalvular Leak",
+      "description": "Indication of whether a paravalvular leak is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "A paravalvular leak is present."
+        },
+        {
+          "name": "Absent",
+          "description": "No paravalvular leak is present."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Valve Thrombosis",
+      "description": "Indication of whether valve thrombosis is present or absent.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "Valve thrombosis is present."
+        },
+        {
+          "name": "Absent",
+          "description": "No valve thrombosis is present."
+        }
+      ],
+      "required": true
+    }
+  ]
+}
