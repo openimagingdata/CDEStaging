@@ -1,0 +1,214 @@
+{
+  "finding_name": "Tunneled Port Catheter",
+  "description": "A tunneled port catheter is a device used for long-term venous access that is placed under the skin and has a port for connecting to an infusion system.",
+  "attributes": [
+    {
+      "name": "Presence of Tunneled Port Catheter",
+      "description": "Indicates whether a tunneled port catheter is present or not.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present",
+          "description": "A tunneled port catheter is present."
+        },
+        {
+          "name": "Absent",
+          "description": "A tunneled port catheter is absent."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "description": "Indicates the status of the tunneled port catheter.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New placement",
+          "description": "The tunneled port catheter is newly placed."
+        },
+        {
+          "name": "Unchanged",
+          "description": "The tunneled port catheter is unchanged."
+        },
+        {
+          "name": "Migrated",
+          "description": "The tunneled port catheter has migrated from its original placement."
+        },
+        {
+          "name": "Removed",
+          "description": "The tunneled port catheter has been removed."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Appropriate location",
+      "description": "Indicates whether the tunneled port catheter is in an appropriate location.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes",
+          "description": "The tunneled port catheter is in an appropriate location."
+        },
+        {
+          "name": "No",
+          "description": "The tunneled port catheter is not in an appropriate location."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Side",
+      "description": "Indicates the side of the body where the tunneled port catheter is located.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Left",
+          "description": "The tunneled port catheter is on the left side of the body."
+        },
+        {
+          "name": "Right",
+          "description": "The tunneled port catheter is on the right side of the body."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Number of Lumens",
+      "description": "Indicates the number of lumens (channels) in the tunneled port catheter.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Single",
+          "description": "The tunneled port catheter has a single lumen."
+        },
+        {
+          "name": "Double",
+          "description": "The tunneled port catheter has two lumens."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Vein approach",
+      "description": "Indicates the vein approach used for inserting the tunneled port catheter.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Internal jugular",
+          "description": "The tunneled port catheter was inserted through the internal jugular vein."
+        },
+        {
+          "name": "Subclavian",
+          "description": "The tunneled port catheter was inserted through the subclavian vein."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Course",
+      "description": "Indicates the course of the tunneled port catheter.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Appropriate",
+          "description": "The tunneled port catheter has an appropriate course."
+        },
+        {
+          "name": "Kinking",
+          "description": "The tunneled port catheter is kinking."
+        },
+        {
+          "name": "Coiling",
+          "description": "The tunneled port catheter is coiling."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Distal tip location",
+      "description": "Indicates the location of the distal tip of the tunneled port catheter.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Subclavian vein",
+          "description": "The distal tip of the tunneled port catheter is in the subclavian vein."
+        },
+        {
+          "name": "Brachiocephalic vein",
+          "description": "The distal tip of the tunneled port catheter is in the brachiocephalic vein."
+        },
+        {
+          "name": "SVC",
+          "description": "The distal tip of the tunneled port catheter is in the superior vena cava (SVC)."
+        },
+        {
+          "name": "Superior cavoatrial junction",
+          "description": "The distal tip of the tunneled port catheter is in the superior cavoatrial junction."
+        },
+        {
+          "name": "Azygous vein",
+          "description": "The distal tip of the tunneled port catheter is in the azygous vein."
+        },
+        {
+          "name": "Inferior cavoatrial junction",
+          "description": "The distal tip of the tunneled port catheter is in the inferior cavoatrial junction."
+        },
+        {
+          "name": "Internal jugular vein",
+          "description": "The distal tip of the tunneled port catheter is in the internal jugular vein."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Port location",
+      "description": "Indicates the location of the port of the tunneled port catheter.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Pectoral",
+          "description": "The port of the tunneled port catheter is in the pectoral area."
+        },
+        {
+          "name": "Abdominal",
+          "description": "The port of the tunneled port catheter is in the abdominal area."
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Complications",
+      "description": "Indicates the complications associated with the tunneled port catheter.",
+      "type": "choice",
+      "values": [
+        {
+          "name": "None",
+          "description": "There are no complications associated with the tunneled port catheter."
+        },
+        {
+          "name": "Occlusion",
+          "description": "There is occlusion (blockage) in the tunneled port catheter."
+        },
+        {
+          "name": "Catheter fracture",
+          "description": "The tunneled port catheter has fractured."
+        },
+        {
+          "name": "Port displacement",
+          "description": "The port of the tunneled port catheter has displaced."
+        },
+        {
+          "name": "Thrombosis (fibrin sheath)",
+          "description": "There is a thrombosis (fibrin sheath) in the tunneled port catheter."
+        },
+        {
+          "name": "Tip migration",
+          "description": "The distal tip of the tunneled port catheter has migrated."
+        }
+      ],
+      "required": true
+    }
+  ]
+}

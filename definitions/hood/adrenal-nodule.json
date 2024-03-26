@@ -1,0 +1,100 @@
+{
+  "finding_name": "adrenal nodule",
+  "description": "",
+  "attributes": [
+    {
+      "name": "presence",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "None"
+        },
+        {
+          "name": "absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "status",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "new",
+          "description": "None"
+        },
+        {
+          "name": "stable",
+          "description": "None"
+        },
+        {
+          "name": "enlarged",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "size",
+      "description": null,
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": "mm",
+      "required": true
+    },
+    {
+      "name": "side",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "right",
+          "description": "None"
+        },
+        {
+          "name": "left",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Hounsfield units (HU)",
+      "description": "Hounsfield units (HU) at non-contrast CT",
+      "type": "numeric",
+      "minimum": null,
+      "maximum": null,
+      "unit": null,
+      "required": true
+    },
+    {
+      "name": "enhancement pattern",
+      "description": null,
+      "type": "choice",
+      "values": [
+        {
+          "name": "nonenhancing",
+          "description": "None"
+        },
+        {
+          "name": "enhancing",
+          "description": "None"
+        },
+        {
+          "name": "rapid wash-in and wash-out",
+          "description": "None"
+        },
+        {
+          "name": "delayed wash-out",
+          "description": "None"
+        }
+      ],
+      "required": true
+    }
+  ]
+}
