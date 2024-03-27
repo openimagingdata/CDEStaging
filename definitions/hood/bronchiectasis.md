@@ -1,48 +1,23 @@
+
 # Bronchiectasis
 
-## Predominant Type(s) (select multiple)
+## Identification
 
-- Cylindrical
-- Varicose
-- Cystic
+- **Presence of Bronchiectasis**: Present / Absent
+- **Status**: New / Unchanged / Increased / Decreased
 
-## Severity
+## Characteristics
 
-- Mild
-- Moderate
-- Severe
+- **Location**: Right upper lobe / Right middle lobe / Right lower lobe / Left upper lobe / Left lower lobe
+- **Regional Predominance**: Upper lung zone / Middle lung zone / Lower lung zone
+- **Type**: Cylindrical / Varicose / Cystic
+- **Distribution**: Focal / Multifocal / Diffuse
+- **Associated Signs**: Air trapping / Mucus plugging
 
-## Regional predominance (select multiple)
+## Associated Findings
 
-- Apices
-- Upper lung zone
-- Middle lung zone
-- Lower lung zone
-
-## Associated diagnoses
-
-- immunodeficiency
-    - cystic fibrosis
-    - primary ciliary dyskinesia
-    - primary immunodeficiency disorder
-    - HIV/AIDS 
-- postinfective
-    - bacterial pneumonia and bronchitis
-    - mycobacterial infection
-- allergic and autoimmune
-    - allergic bronchopulmonary aspergillosis (ABPA)
-    - connective tissue disease
-    - inflammatory bowel disease
-- obstruction
-    - asthma 
-    - chronic obstructive pulmonary disease (COPD)
-    - neoplasm
-    - inhaled foreign bodies
-- congenital
-    - bronchial tree malformations
-    - alpha-1-antitrypsin deficiency
-- others
-    - chronic aspiration
-    - traction bronchiectasis due to diffuse lung disease
-    - radiation-induced lung disease
-    - post-transplantation
+- **Airway Wall Thickening**: Present / Absent
+- **Tree-in-bud Appearance**: Present / Absent
+- **Mucoid Impaction**: Present / Absent
+- **Consolidation**: Present / Absent
+- **Fibrosis**: Present / Absent

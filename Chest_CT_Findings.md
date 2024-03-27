@@ -49,13 +49,12 @@
 - [Axillary nodal dissection](definitions/hood/axillary-nodal-dissection.md)
 - [Gynecomastia](definitions/hood/gynecomastia.md)
 - [Epidermal inclusion cyst](definitions/hood/epidermal-inclusion-cyst.md)
-- Fibroelastoma  
+- [Elastofibroma](definitions\hood\elastofibroma.md)  
 - [Lipoma](definitions/hood/lipoma.md)
-- Fluid collection  
-  - Seroma; abscess; hematoma  
+- Chest wall fluid collection  
 - Lymphangioma  
-- Neurogenic tumor  
-  - Neurofibroma; schwannoma  
+- Schwannoma
+- Chest wall edema
 
 ## Thyroid
 
@@ -71,24 +70,21 @@
 
 ## Trachea
 
-- Tracheal dilation  
-- Tracheal stenosis  
+- [Tracheal dilation](definitions\hood\tracheal-dilation.md) 
+- [Tracheal stenosis](definitions\hood\tracheal-stenosis.md)
 - [Tracheomalacia](definitions/hood/tracheomalacia.md)
 - [Saber-sheath trachea](definitions/hood/saber-sheath-trachea.md)
-- Tracheal calcifications  
-  - Cartilaginous rings or walls  
-- Tracheal thickening  
-  - Includes soft tissue nodularity  
-- Tracheal diverticulum  
-- Tracheal deviation  
-- Tracheal secretions  
+- [Tracheal calcifications](definitions\hood\tracheal-calcification.md)
+- [Tracheal thickening](definitions\hood\tracheal-thickening.md)
+- [Tracheal diverticulum](definitions\hood\tracheal-diverticulum.md)
+- [Tracheal deviation](definitions\hood\tracheal-deviation.md)  
+- [Tracheal secretions](definitions\hood\tracheal-secretions.md)
 
 ## Esophagus
 
 - ⭐ [Esophageal wall thickening](definitions/hood/esophageal-wall-thickening.md)
 - [Esophageal stricture](definitions/hood/esophageal-dilation.md)
-- Esophageal dilation
-  - Synonym: "Patulous esophagus"  
+- [Esophageal dilation (patulous)](definitions\hood\esophageal-dilation.md) 
 - Esophageal fluid
   - Fluid/reflux to the level of [x]  
 - Esophageal diverticulum  
@@ -105,14 +101,14 @@
 ## Bronchi
 
 - ⭐ [Bronchiectasis](definitions/hood/bronchiectasis.md)
-  - Cylindrical, varicose, cystic, traction  
+- Traction bronchiectasis
 - [Bronchiolectasis](definitions/hood/bronchiolectasis.md)
 - Bronchial stenosis  
   - Includes bronchial obliterans  
 - [Bronchial wall thickening](definitions/hood/bronchial-wall-thickening.md)
 - [Mucus plugging](definitions/hood/airway-mucus-plugging.md)
+- Bronchial secretions
 - Bronchial occlusion  
-  - Link to bronchial occlusion device  
 - [Endobronchial mass](definitions/hood/endobronchial-mass.md)
 - Variant anatomy  
   - Bronchial atresia  
@@ -122,24 +118,19 @@
 ## Mediastinum
 
 - ⭐ [Mediastinal mass](definitions/hood/mediastinal-mass.md)
-- ⭐ [Mediastinal cyst](definitions/upmedic/Cyst.cde.md)
+- ⭐ [Mediastinal cyst](definitions\hood\mediastinal-cyst.md)
   - Thymic, pericardial, duplication, neuroenteric  
 - ⭐ [Mediastinal fluid collection](definitions/hood/mediastinal-fluid-collection.md)
-  - i.e. seroma, hematoma, abscess  
 - ⭐ [Mediastinal fat stranding](definitions/hood/mediastinal-fat-stranding.md)
   - Post-surgical, post-traumatic, fibrosis, mediastinitis  
 - ⭐ [Residual thymus](definitions/hood/thymus.md)
-  - Separate from mediastinal mass  
 - [Bochdalek hernia](definitions/hood/bochdalek-hernia.md)
 - [Morgagni hernia](definitions/hood/morgagni-hernia.md)
 - [Hiatal hernia](definitions/hood/hiatal-hernia.md)  
-  - Sliding-type  
-  - Paraesophageal  
-  - Intrathoracic gastric herniation  
 - ⭐ [Pneumomediastinum](definitions/hood/pneumomediastinum.md)
-- ⭐ [Lymph nodes](definitions/hood/mediastinal-lymph-nodes.md)
-  - Standard thoracic lymph node stations  
-- Nonregional stations including internal mammary, intercostal, anterior/middle diaphragmatic  
+- ⭐ [Mediastinal lymph nodes (standard stations)](definitions/hood/mediastinal-lymph-nodes.md)
+- Internal mammary nodes
+- Diaphragmatic nodes
   - [AJR citation](https://ajronline.org/doi/full/10.2214/AJR.11.7446)  
 
 ### Pericardium
@@ -166,6 +157,7 @@
   - Subendocardial fat; LV remodeling/aneurysm; papillary muscle calcification  
 - Lipomatous atrial septal hypertrophy (LASH)  
 - Cardiac transplant
+- Fibroelastoma
 
 #### Congenital variants
 
@@ -214,8 +206,8 @@
   - [RDES254: Pleural Effusion](https://radelement.org/home/sets/set/RDES254)  
 - ⭐ [Pleural thickening](definitions/smartreporting/PleuralThickening.txt)
   - Fatty deposition; calcified plaques; s/p talc pleurodesis  
-- ⭐ Pleural nodularity
-  - [Includes mass, metastases](definitions/upmedic/PulmonaryMetastases.cde.md)  
+- Pleural nodularity
+- Pleural mass
 - ⭐ [Pneumothorax](definitions/hood/pneumothorax.md)
   - Includes hydro/hemo-pneumothorax, residual pleural space s/p lobectomy, trapped lung  
   - [RDES44: Pneumothorax](https://radelement.org/home/sets/set/RDES44)  
