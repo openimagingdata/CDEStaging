@@ -1,0 +1,3 @@
+RID510: circumflex coronary artery
+RID490: left anterior descending artery
+RID544: right coronary artery

@@ -1,0 +1,9 @@
+RID170: pancreas
+RID45811: hepatopancreatic ampulla
+RID171: head of pancreas
+RID177: main pancreatic duct
+RID172: uncinate process of pancreas
+RID182: accessory pancreatic duct
+RID176: pancreatic duct
+RID175: tail of pancreas
+RID173: neck of pancreas

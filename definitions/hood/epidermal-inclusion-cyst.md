@@ -8,7 +8,8 @@ Status: New / Unchanged / Increased / Decreased / Removed
 
 ## Characteristics
 
-Location: [Specify location]
+Anatomical Location: Chest wall / Shoulder / Arm
+Side: Right / Left / Bilateral / Anterior / Posterior
 Size (cm): [Specify size]
 Morphology: Round / Oval
 Content: Homogeneous / Heterogeneous / Calcified

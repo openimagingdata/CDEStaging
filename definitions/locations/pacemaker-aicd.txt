@@ -1,0 +1,5 @@
+RID1010: superior vena cava
+RID1387: right atrium
+RID1389: right ventricle
+RID1404: interventricular septum
+RID1216: coronary sinus
