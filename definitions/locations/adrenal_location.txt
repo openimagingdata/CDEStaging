@@ -1,0 +1,4 @@
+
+RID88: adrenal gland
+RID30325: left adrenal gland
+ID30324: right adrenal gland
