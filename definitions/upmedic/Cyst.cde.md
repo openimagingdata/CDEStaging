@@ -20,11 +20,6 @@
 * lobulated
 * pleomorphic
 
-## Wall contour 
-* ill-defined
-* smooth
-* irregular
-
 ## Wall thickness
 * [thin](<= 2mm)
 * [minimal thickening](3mm)
