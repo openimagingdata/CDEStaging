@@ -107,10 +107,8 @@
 
 - ⭐ [Mediastinal mass](definitions/hood/mediastinal-mass.md)
 - ⭐ [Mediastinal cyst](definitions/hood/mediastinal-cyst.md)
-  - Thymic, pericardial, duplication, neuroenteric  
 - ⭐ [Mediastinal fluid collection](definitions/hood/mediastinal-fluid-collection.md)
 - ⭐ [Mediastinal fat stranding](definitions/hood/mediastinal-fat-stranding.md)
-  - Post-surgical, post-traumatic, fibrosis, mediastinitis  
 - ⭐ [Residual thymus](definitions/hood/thymus.md)
 - [Bochdalek hernia](definitions/hood/bochdalek-hernia.md)
 - [Morgagni hernia](definitions/hood/morgagni-hernia.md)
@@ -143,7 +141,7 @@
   - Subendocardial fat; LV remodeling/aneurysm; papillary muscle calcification  
 - Lipomatous atrial septal hypertrophy (LASH)  
 - Cardiac transplant
-- Fibroelastoma
+- [Fibroelastoma](definitions/hood/fibroelastoma.md)
 
 #### Congenital variants
 
@@ -190,10 +188,9 @@
 
 - ⭐ [Pleural effusion](definitions/hood/pleural-effusion.md)
   - [RDES254: Pleural Effusion](https://radelement.org/home/sets/set/RDES254)  
-- ⭐ [Pleural thickening](definitions/smartreporting/PleuralThickening.txt)
+- ⭐ [Pleural thickening](definitions/hood/pleural-thickening.md)
   - Fatty deposition; calcified plaques; s/p talc pleurodesis  
-- Pleural nodularity
-- Pleural mass
+- [Pleural mass](definitions/hood/pleural-mass.md)
 - ⭐ [Pneumothorax](definitions/hood/pneumothorax.md)
   - Includes hydro/hemo-pneumothorax, residual pleural space s/p lobectomy, trapped lung  
   - [RDES44: Pneumothorax](https://radelement.org/home/sets/set/RDES44)  
