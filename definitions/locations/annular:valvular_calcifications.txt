@@ -2,6 +2,5 @@ RID1385:heart
 RID1397:tricuspid
 RID1395:mitral
 RID1394:aortic
-RID1394:aortic
 RID1396:pulmonic
 RID39309:leaflet of tricuspid valve

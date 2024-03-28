@@ -1,0 +1,4 @@
+RID584: common carotid artery
+RID773: subclavian artery
+RID865: brachial artery
+RID582: brachiocephalic artery
