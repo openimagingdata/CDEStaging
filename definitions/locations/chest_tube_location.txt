@@ -1,0 +1,5 @@
+RID32771: set of left intercostal muscles
+RID32770: set of right intercostal muscles
+RID2468: chest wall
+RID1384: mediastinum
+RID1362: pleura

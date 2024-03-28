@@ -1,0 +1,5 @@
+RID1524: diaphragm
+RID431: retroperitoneum
+RID2468: chest wall
+RID1384: mediastinum
+RID1362: pleura

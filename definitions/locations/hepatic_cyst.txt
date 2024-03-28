@@ -1,0 +1,15 @@
+RID58: liver
+RID33241: posterior superior area of posterior segment of right lobe of liver
+RID69: left lobe of liver
+RID33239: anterior superior area of anterior segment of right lobe of liver
+RID33238: lateral inferior area of lateral segment of left lobe of liver
+RID33244: medial inferior area of medial segment of left lobe of liver
+RID33242: posterior inferior area of posterior segment of right lobe of liver
+RID33237: lateral superior area of lateral segment of left lobe of liver
+RID33243: medial superior area of medial segment of left lobe of liver
+RID33240: anterior inferior area of anterior segment of right lobe of liver
+RID74: right lobe of liver
+RID77: caudate lobe of liver
+RID31748: fossa for gallbladder
+RID81: falciform ligament
+RID147: ligament of Treitz
