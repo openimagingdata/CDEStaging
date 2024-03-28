@@ -17,8 +17,10 @@
 ## Margins
 * well-defined
 * ill-defined
+* smooth
 * lobulated
 * pleomorphic
+* irregular
 
 ## Wall thickness
 * [thin](<= 2mm)
