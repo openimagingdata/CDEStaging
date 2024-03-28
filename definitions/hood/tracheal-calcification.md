@@ -16,7 +16,7 @@
 
 ## Associated Findings
 
-- **Airway Narrowing**: Absent / Present
-- **Airway Obstruction**: Absent / Present
-- **Adjacent Soft Tissue Changes**: Absent / Present
-- **Inflammatory Changes**: Absent / Present
+- **Airway Narrowing**: Present / Absent
+- **Airway Obstruction**: Present / Absent
+- **Adjacent Soft Tissue Changes**: Present / Absent
+- **Inflammatory Changes**: Present / Absent

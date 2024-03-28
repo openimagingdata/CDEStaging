@@ -16,7 +16,7 @@
 
 ## Associated Findings
 
-- **Airway Obstruction**: Absent / Present
-- **Adjacent Lymphadenopathy**: Absent / Present
-- **Inflammatory Changes**: Absent / Present
-- **Calcification**: Absent / Present
+- **Airway Obstruction**: Present / Absent
+- **Adjacent Lymphadenopathy**: Present / Absent
+- **Inflammatory Changes**: Present / Absent
+- **Calcification**: Present / Absent

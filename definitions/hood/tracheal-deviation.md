@@ -14,7 +14,7 @@
 
 ## Associated Findings
 
-- **Airway Obstruction**: Absent / Present
-- **Lung Collapse**: Absent / Present
-- **Mediastinal Shift**: Absent / Present
-- **Vascular Compression**: Absent / Present
+- **Airway Obstruction**: Present / Absent
+- **Lung Collapse**: Present / Absent
+- **Mediastinal Shift**: Present / Absent
+- **Vascular Compression**: Present / Absent

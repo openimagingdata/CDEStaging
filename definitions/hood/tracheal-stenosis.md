@@ -15,7 +15,7 @@
 
 ## **Associated Findings**
 
-- **Airway Compression**: Absent / Present
-- **Adjacent Mass Effect**: Absent / Present
-- **Mucosal Irregularities**: Absent / Present
-- **Post-stenotic Dilation**: Absent / Present
+- **Airway Compression**: Present / Absent
+- **Adjacent Mass Effect**: Present / Absent
+- **Mucosal Irregularities**: Present / Absent
+- **Post-stenotic Dilation**: Present / Absent

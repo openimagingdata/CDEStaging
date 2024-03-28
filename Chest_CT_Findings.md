@@ -49,76 +49,64 @@
 - [Axillary nodal dissection](definitions/hood/axillary-nodal-dissection.md)
 - [Gynecomastia](definitions/hood/gynecomastia.md)
 - [Epidermal inclusion cyst](definitions/hood/epidermal-inclusion-cyst.md)
-- [Elastofibroma](definitions\hood\elastofibroma.md)  
+- [Elastofibroma](definitions/hood/elastofibroma.md)  
 - [Lipoma](definitions/hood/lipoma.md)
-- Chest wall fluid collection  
-- Lymphangioma  
+- [Chest wall fluid collection](definitions/hood/chest-wall-fluid-collection.md)  
+- [Lymphangioma](definitions/hood/lymphangioma.md)  
 - Schwannoma
-- Chest wall edema
+- [Chest wall edema](definitions/hood/chest-wall-edema.md)
 
 ## Thyroid
 
-- ⭐ [Thyromegaly](definitions/upmedic/ThyroidGland.cde.md)
-- ⭐ [Thyroid nodule](definitions/upmedic/ThyroidNodules.cde.md)
-- Thyroid calcification  
+- ⭐ [Thyromegaly](definitions/hood/thyroid-goiter.md)
+- ⭐ [Thyroid nodule](definitions/hood/thyroid-nodule.md)
+- [Thyroid calcification](definitions/hood/tracheal-calcification.md)  
 - [Thyroidectomy](definitions/hood/thyroidectomy.md)
-- Thyroid goiter  
-  - Relation to other structures  
-    - Extent into superior mediastinum  
-    - Mass effect on trachea  
-- Thyroid atrophy
+- [Thyroid atrophy](definitions/hood/thyroid-atrophy.md)
 
 ## Trachea
 
-- [Tracheal dilation](definitions\hood\tracheal-dilation.md) 
-- [Tracheal stenosis](definitions\hood\tracheal-stenosis.md)
+- [Tracheal dilation](definitions/hood/tracheal-dilation.md)
+- [Tracheal stenosis](definitions/hood/tracheal-stenosis.md)
 - [Tracheomalacia](definitions/hood/tracheomalacia.md)
 - [Saber-sheath trachea](definitions/hood/saber-sheath-trachea.md)
-- [Tracheal calcifications](definitions\hood\tracheal-calcification.md)
-- [Tracheal thickening](definitions\hood\tracheal-thickening.md)
-- [Tracheal diverticulum](definitions\hood\tracheal-diverticulum.md)
-- [Tracheal deviation](definitions\hood\tracheal-deviation.md)  
-- [Tracheal secretions](definitions\hood\tracheal-secretions.md)
+- [Tracheal calcifications](definitions/hood/tracheal-calcification.md)
+- [Tracheal thickening](definitions/hood/tracheal-thickening.md)
+- [Tracheal diverticulum](definitions/hood/tracheal-diverticulum.md)
+- [Tracheal deviation](definitions/hood/tracheal-deviation.md)  
+- [Tracheal secretions](definitions/hood/tracheal-secretions.md)
 
 ## Esophagus
 
 - ⭐ [Esophageal wall thickening](definitions/hood/esophageal-wall-thickening.md)
 - [Esophageal stricture](definitions/hood/esophageal-dilation.md)
-- [Esophageal dilation (patulous)](definitions\hood\esophageal-dilation.md) 
-- Esophageal fluid
-  - Fluid/reflux to the level of [x]  
-- Esophageal diverticulum  
-  - Zenker  
-  - Killian-Jamieson  
-  - Traction  
-  - Epiphrenic  
-- Esophageal wall calcification  
-- Esophageal varices  
-- Esophageal mass  
-- Esophagectomy  
-  - Gastric pull-through  
+- [Esophageal dilation (patulous)](definitions/hood/esophageal-dilation.md)
+- [Esophageal fluid](definitions/hood/esophageal-fluid.md)
+- [Esophageal diverticulum](definitions/hood/esophageal-fluid.md)  
+- [Esophageal wall calcification](definitions/hood/esophageal-fluid.md)  
+- [Esophageal varices](definitions/hood/esophageal-varices.md)  
+- [Esophageal mass](definitions/hood/esophageal-mass.md)  
+- [Esophagectomy](definitions/hood/esophagectomy.md)  
 
 ## Bronchi
 
 - ⭐ [Bronchiectasis](definitions/hood/bronchiectasis.md)
-- Traction bronchiectasis
+- [Traction bronchiectasis](definitions/hood/traction-bronchiectasis.md)
 - [Bronchiolectasis](definitions/hood/bronchiolectasis.md)
-- Bronchial stenosis  
-  - Includes bronchial obliterans  
+- [Bronchial stenosis](definitions/hood/bronchial-stenosis.md)  
 - [Bronchial wall thickening](definitions/hood/bronchial-wall-thickening.md)
 - [Mucus plugging](definitions/hood/airway-mucus-plugging.md)
-- Bronchial secretions
-- Bronchial occlusion  
+- [Bronchial secretions](definitions/hood/bronchial-secretions.md)
+- [Bronchial occlusion](definitions/hood/bronchial-occlusion.md)  
 - [Endobronchial mass](definitions/hood/endobronchial-mass.md)
-- Variant anatomy  
-  - Bronchial atresia  
-  - Tracheal bronchus  
-  - [Bronchogenic cyst](definitions/upmedic/Cyst.cde.md)
+- [Bronchial atresia](definitions/hood/bronchial-atresia.md)  
+- Tracheal bronchus  
+- [Bronchogenic cyst](definitions/upmedic/Cyst.cde.md)
 
 ## Mediastinum
 
 - ⭐ [Mediastinal mass](definitions/hood/mediastinal-mass.md)
-- ⭐ [Mediastinal cyst](definitions\hood\mediastinal-cyst.md)
+- ⭐ [Mediastinal cyst](definitions/hood/mediastinal-cyst.md)
   - Thymic, pericardial, duplication, neuroenteric  
 - ⭐ [Mediastinal fluid collection](definitions/hood/mediastinal-fluid-collection.md)
 - ⭐ [Mediastinal fat stranding](definitions/hood/mediastinal-fat-stranding.md)
@@ -129,18 +117,16 @@
 - [Hiatal hernia](definitions/hood/hiatal-hernia.md)  
 - ⭐ [Pneumomediastinum](definitions/hood/pneumomediastinum.md)
 - ⭐ [Mediastinal lymph nodes (standard stations)](definitions/hood/mediastinal-lymph-nodes.md)
-- Internal mammary nodes
-- Diaphragmatic nodes
+- [Internal mammary nodes](definitions/hood/internal-mammary-lymph-node.md)
+- [Diaphragmatic nodes](definitions/hood/diaphragmatic-lymph-node.md)
   - [AJR citation](https://ajronline.org/doi/full/10.2214/AJR.11.7446)  
 
 ### Pericardium
 
 - ⭐ [Pericardial effusion](definitions/hood/pericardial-effusion.md)
-  - Includes pericardial recesses  
 - ⭐ [Pericardial calcification](definitions/hood/pericardial-effusion.md)
 - ⭐ [Pericardial thickening](definitions/hood/pericardial-effusion.md)
-- [Pericardial cyst](definitions/upmedic/Cyst.cde.md)
-  - Overlap with 'mediastinal cyst'  
+- [Pericardial cyst](definitions/hood/pericardial-cyst.md)
 - Pericardial mass  
 
 ### Cardiac
@@ -236,10 +222,10 @@
 - ⭐ [Hiatal hernia](definitions/hood/hiatal-hernia.md)
 - ⭐ [Hepatic cysts](definitions/hood/hepatic-cyst.md)
 - ⭐ [Pancreatic cysts](definitions/upmedic/Cyst.cde.md)
-  - Citation: [RDES207: Pancreatic Cyst on CT](https://radelement.org/home/sets/set/RDES207)  
+  - [RDES207: Pancreatic Cyst on CT](https://radelement.org/home/sets/set/RDES207)  
 - ⭐ [Renal cysts](definitions/nuance/hepatic_and_renal_cysts.json)
 - ⭐ [Adrenal nodule](definitions/hood/adrenal-nodule.md)
-  - Citation: [RDES3: Adrenal Nodule](https://radelement.org/home/sets/set/RDES3)  
+  - [RDES3: Adrenal Nodule](https://radelement.org/home/sets/set/RDES3)  
 - ⭐ [Cholelithiasis](definitions/hood/cholelithiasis.md)
 - ⭐ [Upper abdominal lymphadenopathy](definitions/nuance/upper_abdominal_lymphadenopathy.json) (🚧 Scaffold)
 - ⭐ [Adrenal gland thickening](definitions/hood/adrenal-thickening.md)
@@ -261,9 +247,9 @@
   - [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
 - ⭐ [Sternal fracture](definitions/hood/sternal-fracture.md)
 - ⭐ [Scoliosis](definitions/upmedic/ThoracicSpine.cdes.md)
-  - Status: [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
+  - [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
 - ⭐ [Vertebral compression fracture](definitions/hood/compression-fracture.md) | [Alternate](definitions/nuance/thoracic_spine_compression_deformity.json)
-  - Status: [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
+  - [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
 - [Healed rib fracture](definitions/hood/healed-rib-fracture.md)  
 - ⭐ [Hemangioma of thoracic spine](definitions/nuance/thoracic_spine_hemangioma.json)
 - ⭐ [Glenohumeral joint](definitions/hood/glenohumeral-joint.md)
