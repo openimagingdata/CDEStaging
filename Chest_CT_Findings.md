@@ -40,6 +40,9 @@
   - Clip; Watchman plug  
 - [Neurostimulator device](definitions/hood/neurostimulator-device.md)
 - CardioMEMS device
+- Spinal fusion or stabilization hardware
+- Harrington and Luque rods
+- Cotrel-Dubousset (CD) System
 
 ## Chest wall (soft tissue)
 
@@ -57,6 +60,7 @@
 - [Lymphangioma](definitions/hood/lymphangioma.md)  
 - Schwannoma
 - [Chest wall edema](definitions/hood/chest-wall-edema.md)
+- Subcutaneous emphysema
 
 ## Thyroid
 
@@ -132,6 +136,12 @@
 ### Cardiac
 
 - ⭐ [Cardiac chamber enlargement](definitions/upmedic/Cardiomegaly.cde.md)
+- RA enlargement
+- RV enlargement
+- LA enlargement
+- LV enlargement
+- LV hypertrophy
+- Subendocardial fatty metaplasia
 - ⭐ [Valvular/annular calcifications](definitions/hood/annular-calcifications.md)
 - Thrombus
   - All four chambers; left atrial appendage; catheter-associated  
@@ -145,7 +155,7 @@
 - Cardiac transplant
 - [Fibroelastoma](definitions/hood/fibroelastoma.md)
 
-#### Congenital variants
+#### Cardiovascular Congenital variants
 
 - Patent foramen ovale (PFO)  
 - Atrial septal defect (ASD)  
@@ -155,10 +165,13 @@
 - Persistent left SVC  
 - Anomalous pulmonary venous return  
   - PAPVR or TAPVR  
-- Hemiazygos continuation of the inferior vena cava  
+- Azygos / Hemiazygos continuation of the inferior vena cava  
 - Surgical repair of congenital heart disease  
   - Tetralogy of Fallot; transposition of great arteries; Ebstein anomaly; hypoplastic left heart; truncus arteriosus  
   - Includes Fontan, patch closure, aortopulmonary shunt, pulmonary banding, etc.  
+- Right-sided aortic arch
+- Aortic coarctation
+- Bicuspid aortic valve
 
 ### Aorta
 
@@ -216,6 +229,8 @@
 - [Tree-in-bud opacities](definitions/hood/tree-in-bud.md)
 - Blebs/bullae
 - Apical scarring
+- Hamartoma
+- Pulmonary interstitial emphysema
 
 ## Abdominal
 
@@ -236,29 +251,73 @@
 - ⭐ [Nephrolithiasis](definitions/hood/nephrolithiasis.md)
 - [Intraductal papillary mucinous neoplasm](definitions/hood/ipmn.md)
 
-## Musculoskeletal
+## Musculoskeletal (general)
 
-- [Median sternotomy](definitions/hood/median-sternotomy.md)
 - ⭐ [Osteopenia](definitions/hood/osteopenia-osteoporosis.md)
-- ⭐ [Degenerative changes in the thoracic skeleton](definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
 - ⭐ [Lytic lesions](definitions/hood/lytic-lesion.md)
 - ⭐ [Sclerotic lesions](definitions/hood/sclerotic-lesion.md)
-- ⭐ [Rib fracture](definitions/hood/bones-and-thoracic-cage.md)
+- ⭐ [Glenohumeral joint](definitions/hood/glenohumeral-joint.md)
+
+### Musculoskeletal - Shoulder girdle
+
+- Clavicle fracture
+- Acromioclavicular joint degenerative changes
+- Glenohumeral joint degenerative changes
+  - Effusion
+  - Joint bodies
+- Proximal humerus fracture
+- Hill-Sachs fracture
+- Bankart fracture
+- Scapular fracture
+- Rotator cuff calcification (tumoral calcinosis)
+- Osteonecrosis of humeral head
+
+#### PMusculoskeletal - Post-surgical changes of the shoulder
+
+- Shoulder arthroplasty
+  - Total shoulder
+  - Reverse total shoulder
+  - Humeral resurfacing arthroplasty
+- Rotator cuff repair
+- Latarjet
+- Distal clavicular resection
+- Clavicular ORIF
+
+### Musculoskeletal - Rib cage
+
+- Ribs 1-12
+  - ⭐ [Rib fracture](definitions/hood/bones-and-thoracic-cage.md)
   - [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
-- ⭐ [Sternal fracture](definitions/hood/sternal-fracture.md)
-- [Fibrous dysplasia](definitions/hood/fibrous-dysplasia-of-ribs.md)
+  - S/p VATS and/or thoracotomy (partial resection or widening)
+  - Osseous bridging
+  - Congenital fusion
+  - ORIF
+  - Bifid rib
+  - Cervical rib
+  - [Fibrous dysplasia](definitions/hood/fibrous-dysplasia-of-ribs.md)
+  - [Healed rib fracture](definitions/hood/healed-rib-fracture.md)  
+- Sternum
+  - [Median sternotomy](definitions/hood/median-sternotomy.md)
+  - Pectus excavatum
+  - Pectus carinatum
+  - - ⭐ [Sternal fracture](definitions/hood/sternal-fracture.md)
+- Sternoclavicular joint degenerative changes
+- Sternocostal joint degenerative changes
+- Costotransverse joint degenerative changes
+- Costal cartilage ossification
+
+### Musculoskeletal - Spine
+
+- Endplate degenerative changes
+- DISH / bridging osteophytes
+- Alignment
+- Spinal canal narrowing
+- H-shaped vertebrae
+- Rugger-jersey spine
+- Schmorl node
 - ⭐ [Scoliosis](definitions/upmedic/ThoracicSpine.cdes.md)
   - [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
 - ⭐ [Vertebral compression fracture](definitions/hood/compression-fracture.md) | [Alternate](definitions/nuance/thoracic_spine_compression_deformity.json)
   - [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
-- [Healed rib fracture](definitions/hood/healed-rib-fracture.md)  
-- ⭐ [Hemangioma of thoracic spine](definitions/nuance/thoracic_spine_hemangioma.json)
-- ⭐ [Glenohumeral joint](definitions/hood/glenohumeral-joint.md)
-- Bifid rib
-- Cervical rib
-- Osteonecrosis of humeral head
-- H-shaped vertebrae
-- Rugger-jersey spine
-- Schmorl node
-- Tumoral calcinosis of shoulder
-- Acromioclavicular joint
+- [Hemangioma of thoracic spine](definitions/nuance/thoracic_spine_hemangioma.json)
+- ⭐ [Degenerative changes in the thoracic skeleton](definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
