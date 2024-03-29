@@ -251,14 +251,16 @@
 - ⭐ [Nephrolithiasis](definitions/hood/nephrolithiasis.md)
 - [Intraductal papillary mucinous neoplasm](definitions/hood/ipmn.md)
 
-## Musculoskeletal (general)
+## Musculoskeletal
+
+### eneral
 
 - ⭐ [Osteopenia](definitions/hood/osteopenia-osteoporosis.md)
 - ⭐ [Lytic lesions](definitions/hood/lytic-lesion.md)
 - ⭐ [Sclerotic lesions](definitions/hood/sclerotic-lesion.md)
 - ⭐ [Glenohumeral joint](definitions/hood/glenohumeral-joint.md)
 
-### Musculoskeletal - Shoulder girdle
+### Shoulder girdle
 
 - Clavicle fracture
 - Acromioclavicular joint degenerative changes
@@ -272,7 +274,7 @@
 - Rotator cuff calcification (tumoral calcinosis)
 - Osteonecrosis of humeral head
 
-#### PMusculoskeletal - Post-surgical changes of the shoulder
+#### Post-surgical changes of the shoulder
 
 - Shoulder arthroplasty
   - Total shoulder
@@ -283,7 +285,7 @@
 - Distal clavicular resection
 - Clavicular ORIF
 
-### Musculoskeletal - Rib cage
+### Rib cage
 
 - Ribs 1-12
   - ⭐ [Rib fracture](definitions/hood/bones-and-thoracic-cage.md)
@@ -306,7 +308,7 @@
 - Costotransverse joint degenerative changes
 - Costal cartilage ossification
 
-### Musculoskeletal - Spine
+### Spine
 
 - Endplate degenerative changes
 - DISH / bridging osteophytes
