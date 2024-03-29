@@ -155,7 +155,7 @@
 - Cardiac transplant
 - [Fibroelastoma](definitions/hood/fibroelastoma.md)
 
-#### Cardiovascular Congenital variants
+#### Cardiovascular congenital variants
 
 - Patent foramen ovale (PFO)  
 - Atrial septal defect (ASD)  
@@ -176,7 +176,6 @@
 ### Aorta
 
 - ⭐ [Aortic atherosclerosis](definitions/hood/aortic-atherosclerosis.md)
-  - Calcified and noncalcified  
 - ⭐ [Aortic aneurysm](definitions/hood/aortic-measurements.md)
   - Size-based; includes ectasia / dilation  
   - [RDES264: Aortic Measurements](https://radelement.org/home/sets/set/RDES264)  
@@ -190,14 +189,11 @@
 
 - [Pulmonary artery dilation](definitions/hood/pulmonary-artery-dilation.md)
 - ⭐ [Pulmonary embolus](definitions/hood/pulmonary-emboli.md)
-  - Acute; chronic; acute on chronic  
   - [RDES80: Pulmonary Embolism](https://radelement.org/home/sets/set/RDES80)  
-- Pulmonary thrombus  
-  - E.g. s/p lobectomy, radiation
+- Pulmonary thrombus (s/p lobectomy, radiation)
 - Patent ductus arteriosus  
 - Calcified ligamentum arteriosum  
-- Variant pulmonary artery anatomy  
-  - Vascular sling  
+- Vascular sling  
 
 ## Pleura
 
@@ -207,7 +203,7 @@
 - [Extrapleural fat deposition](definitions/hood/extrapleural-fat-deposition.md)
 - [Pleural mass](definitions/hood/pleural-mass.md)
 - ⭐ [Pneumothorax](definitions/hood/pneumothorax.md) | [RadElement RDES44](https://radelement.org/home/sets/set/RDES44)
-- azygos fissure
+- Azygos fissure
 
 ## Pulmonary
 
@@ -253,18 +249,17 @@
 
 ## Musculoskeletal
 
-### eneral
+### General
 
 - ⭐ [Osteopenia](definitions/hood/osteopenia-osteoporosis.md)
 - ⭐ [Lytic lesions](definitions/hood/lytic-lesion.md)
 - ⭐ [Sclerotic lesions](definitions/hood/sclerotic-lesion.md)
-- ⭐ [Glenohumeral joint](definitions/hood/glenohumeral-joint.md)
 
 ### Shoulder girdle
 
 - Clavicle fracture
 - Acromioclavicular joint degenerative changes
-- Glenohumeral joint degenerative changes
+- ⭐ [Glenohumeral joint](definitions/hood/glenohumeral-joint.md)
   - Effusion
   - Joint bodies
 - Proximal humerus fracture
@@ -287,10 +282,10 @@
 
 ### Rib cage
 
-- Ribs 1-12
+- Ribs
   - ⭐ [Rib fracture](definitions/hood/bones-and-thoracic-cage.md)
   - [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
-  - S/p VATS and/or thoracotomy (partial resection or widening)
+  - Postsurgical changes of VATS and/or thoracotomy (partial rib resection or rib widening)
   - Osseous bridging
   - Congenital fusion
   - ORIF
@@ -317,6 +312,7 @@
 - H-shaped vertebrae
 - Rugger-jersey spine
 - Schmorl node
+- Physiologic wedging of lower thoracic vertebrae
 - ⭐ [Scoliosis](definitions/upmedic/ThoracicSpine.cdes.md)
   - [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
 - ⭐ [Vertebral compression fracture](definitions/hood/compression-fracture.md) | [Alternate](definitions/nuance/thoracic_spine_compression_deformity.json)
