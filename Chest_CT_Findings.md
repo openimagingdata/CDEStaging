@@ -253,7 +253,7 @@
 
 ## Musculoskeletal
 
-### eneral
+### General
 
 - ⭐ [Osteopenia](definitions/hood/osteopenia-osteoporosis.md)
 - ⭐ [Lytic lesions](definitions/hood/lytic-lesion.md)
