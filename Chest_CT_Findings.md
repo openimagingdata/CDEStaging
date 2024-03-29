@@ -20,13 +20,14 @@
 ## Devices
 
 - ⭐ [AICD / ICD / pacemaker](definitions/hood/pacemaker-aicd.md)
+- [Leadless pacemaker](definitions/hood/leadless-pacemaker.md)
 - [Loop recorder](definitions/hood/loop-recorder.md)
 - [Cutaneous cardiac rhythm monitor (ZIO patch)](definitions/hood/cutaneous-cardiac-rhythm-monitor-zio-patch.md)
 - [Left ventricular assist device (LVAD)](definitions/hood/left-ventricular-assist-device-lvad.md)
 - [Esophageal stent](definitions/hood/esophageal-stent.md)
 - [Tracheal stent](definitions/hood/tracheal-stent.md)
 - [Bronchial stent](definitions/hood/bronchial-stent.md)
-- [Bronchial plug](definitions/hood/bronchial-plug.md)
+- [Endobronchial valve](definitions/hood/endobronchial-valve.md)
 - [Inferior vena cava (IVC) filter](definitions/hood/ivc-filter.md)
 - [Arterial stent (non-coronary)](definitions/hood/arterial-stent.md)
 - [Coronary stent](definitions/hood/coronary-stent.md)
@@ -38,6 +39,7 @@
 - Left atrial appendage closure device  
   - Clip; Watchman plug  
 - [Neurostimulator device](definitions/hood/neurostimulator-device.md)
+- CardioMEMS device
 
 ## Chest wall (soft tissue)
 
@@ -153,7 +155,7 @@
 - Persistent left SVC  
 - Anomalous pulmonary venous return  
   - PAPVR or TAPVR  
-- Hemiazygous continuation of the inferior vena cava  
+- Hemiazygos continuation of the inferior vena cava  
 - Surgical repair of congenital heart disease  
   - Tetralogy of Fallot; transposition of great arteries; Ebstein anomaly; hypoplastic left heart; truncus arteriosus  
   - Includes Fontan, patch closure, aortopulmonary shunt, pulmonary banding, etc.  
@@ -168,7 +170,7 @@
 - Aortic dissection  
   - [RDES252: Thoracic Aortic Dissection](https://radelement.org/home/sets/set/RDES252)  
 - Aortic arch variant anatomy  
-  - Includes origins of great vessels; aberrant subclavian artery, etc  
+  - Includes origins of great vessels; aberrant subclavian artery, bovine arch
 - [Ascending aortic repair](definitions/hood/ascending-aortic-repair.md)
 
 ### Pulmonary artery
@@ -189,11 +191,10 @@
 - ⭐ [Pleural effusion](definitions/hood/pleural-effusion.md)
   - [RDES254: Pleural Effusion](https://radelement.org/home/sets/set/RDES254)  
 - ⭐ [Pleural thickening](definitions/hood/pleural-thickening.md)
-  - Fatty deposition; calcified plaques; s/p talc pleurodesis  
+- [Extrapleural fat deposition](definitions/hood/extrapleural-fat-deposition.md)
 - [Pleural mass](definitions/hood/pleural-mass.md)
-- ⭐ [Pneumothorax](definitions/hood/pneumothorax.md)
-  - Includes hydro/hemo-pneumothorax, residual pleural space s/p lobectomy, trapped lung  
-  - [RDES44: Pneumothorax](https://radelement.org/home/sets/set/RDES44)  
+- ⭐ [Pneumothorax](definitions/hood/pneumothorax.md) | [RadElement RDES44](https://radelement.org/home/sets/set/RDES44)
+- azygos fissure
 
 ## Pulmonary
 
@@ -213,6 +214,8 @@
 - ⭐ [Subpleural reticular opacities](definitions/hood/subpleural-reticular-opacities.md)
 - [Wedge resection](definitions/hood/wedge-resection.md)
 - [Tree-in-bud opacities](definitions/hood/tree-in-bud.md)
+- Blebs/bullae
+- Apical scarring
 
 ## Abdominal
 
@@ -243,6 +246,7 @@
 - ⭐ [Rib fracture](definitions/hood/bones-and-thoracic-cage.md)
   - [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
 - ⭐ [Sternal fracture](definitions/hood/sternal-fracture.md)
+- [Fibrous dysplasia](definitions/hood/fibrous-dysplasia-of-ribs.md)
 - ⭐ [Scoliosis](definitions/upmedic/ThoracicSpine.cdes.md)
   - [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
 - ⭐ [Vertebral compression fracture](definitions/hood/compression-fracture.md) | [Alternate](definitions/nuance/thoracic_spine_compression_deformity.json)
@@ -250,3 +254,11 @@
 - [Healed rib fracture](definitions/hood/healed-rib-fracture.md)  
 - ⭐ [Hemangioma of thoracic spine](definitions/nuance/thoracic_spine_hemangioma.json)
 - ⭐ [Glenohumeral joint](definitions/hood/glenohumeral-joint.md)
+- Bifid rib
+- Cervical rib
+- Osteonecrosis of humeral head
+- H-shaped vertebrae
+- Rugger-jersey spine
+- Schmorl node
+- Tumoral calcinosis of shoulder
+- Acromioclavicular joint

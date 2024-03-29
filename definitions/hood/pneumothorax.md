@@ -1,23 +1,22 @@
-### Pneumothorax
 
-#### Identification
+# Pneumothorax
 
-- Presence: Present / Absent
-- Status: Acute / Chronic / Resolving / Newly identified / Increased / Decreased / Resolved / Persisting
+## Identification
 
-#### Characteristics
+- **Presence of Pneumothorax**: Present / Absent
+- **Status**: New / Unchanged / Increased / Decreased
 
-- Size: Small (<20% lung volume) / Medium (20-50% lung volume) / Large (>50% lung volume) / Tension
-- Location: Right / Left / Bilateral
-- Distribution: Apical / Basilar / Diffuse / Localized
+## Characteristics
 
-#### Associated Findings
+- **Location**: Right / Left / Bilateral
+- **Size**: Small / Moderate / Large / Tension
+- **Cause**: Spontaneous / Traumatic / Iatrogenic
 
-- Chest tube: Present / Absent
-- Subcutaneous emphysema: Present / Absent
-- Rib fractures: Present / Absent
-- Pleural effusion: Present / Absent
-- Lung collapse: Present / Absent
-- Pleural adhesions: Present / Absent
-- Mediastinal shift: Present / Absent
-- Herniation: Present / Absent
+## Associated Findings
+
+- **Prior Lung Surgery**: Present / Absent
+- **Prior Cancer**: Present / Absent
+- **Pleural Thickening**: Present / Absent
+- **Residual Pleural Space**: Present / Absent
+- **Subcutaneous Emphysema**: Present / Absent
+- **Chest Tube**: Present / Absent

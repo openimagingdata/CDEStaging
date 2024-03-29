@@ -1,17 +1,17 @@
-## Pulmonary Emboli
+# Pulmonary Emboli
 
-### Identification
+## Identification
 
 - Presence: Present / Absent
-- Stage: Acute / Chronic / Subacute
+- Stage: Acute / Chronic / Acute on Chronic
 
-### Characteristics
+## Characteristics
 
 - Location: Central (main pulmonary artery) / Right pulmonary artery / Left pulmonary artery / Lobar / Segmental / Subsegmental
 - Number: Single / Multiple
 - Burden: Low / Moderate / High
 
-### Associated Findings
+## Associated Findings
 
 - Right heart strain: Yes / No
 - Pulmonary hypertension: Yes / No

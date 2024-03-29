@@ -14,8 +14,9 @@
 - **Calcification**: Yes / No
 - **Chest Wall Invasion**: Present / Absent
 - **Asbestos-related History**: Present / Absent
+- **Fat Deposition**: Present / Absent
 
 ## Associated Findings
 
 - **Pleural Effusion**: Present / Absent
-- **Underlying Lung Abnormality**: Present / Absent
+- **Pneumothorax**: Present / Absent
