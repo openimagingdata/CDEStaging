@@ -1,6 +1,23 @@
-RID34572: thoracic vertebral column
+RID29154: vertebra
+RID2507: pelvis
 RID28591: set of ribs
+RID2662: femur
+RID2871: fibula
+RID2885: tibia
+RID1971: humerus
+RID2109: radius
+RID2119: ulna
 RID1854: clavicle
 RID1860: scapula
 RID2473: sternum
-RID2476: manubrium
+RID2509: sacrum
+RID9082: mandible
+RID9236: maxilla
+RID2320: metacarpal bone
+RID2746: patella
+RID9361: temporal bone
+RID9280: parietal bone
+RID9330: occipital bone
+RID9207: frontal bone
+RID9082: mandible
+RID9236: maxilla
