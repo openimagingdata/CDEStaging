@@ -1,0 +1,14 @@
+RID1302: right lung
+RID1310: middle lobe of lung
+RID43260_RID5825: right oblique fissure
+RID43258: horizontal fissure of right lung
+RID1315: lower lobe of right lung
+RID1303: upper lobe of right lung
+RID1326: left lung
+RID43260_RID5824: left oblique fissure
+RID1333: lingula
+RID1327: upper lobe of left lung
+RID1338: lower lobe of left lung
+RID1301: lung
+RID43260: oblique fissure
+RID28584: apex of lung
