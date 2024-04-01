@@ -1,11 +1,11 @@
 
-## Mediastinal Lymph Nodes
+# Mediastinal Lymph Nodes
 
-**Identification:**
+## Identification
 
 - Presence of Enlarged Mediastinal Lymph Nodes: Yes / No
 
-**IASLC Lymph Node Stations:**
+## IASLC Lymph Node Stations
 
 - 1: Low Cervical, Supraclavicular, and Stellate Lymph Nodes
 - 2R: Upper Paratracheal Right
@@ -22,13 +22,13 @@
 - 10: Hilar
 - Station Involvement: [List stations involved]
 
-**Characteristics:**
+## Characteristics
 
 - Short-Axis Diameter: [Specify size in mm]
 - Shape: Round / Oval
 - Density: Homogeneous / Heterogeneous
 
-**Associated Findings:**
+## Associated Findings
 
 - Evidence of Metastasis: Present / Absent
 - Involvement of Adjacent Structures: Present / Absent

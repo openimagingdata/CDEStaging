@@ -17,12 +17,9 @@
 ## Margins
 * well-defined
 * ill-defined
+* smooth
 * lobulated
 * pleomorphic
-
-## Wall contour 
-* ill-defined
-* smooth
 * irregular
 
 ## Wall thickness

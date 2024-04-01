@@ -9,6 +9,7 @@
 ## Characteristics
 
 - Size: Small / Medium / Large / Not specified
+- Type: Sliding / Paraesophageal
 - Intrathoracic herniation of stomach: Present / Absent
 
 ## Associated Findings

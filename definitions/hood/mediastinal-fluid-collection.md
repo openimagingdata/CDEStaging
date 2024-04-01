@@ -1,22 +1,19 @@
 
-## Mediastinal Fluid Collection
+# Mediastinal Fluid Collection
 
-**Identification:**
+## Identification
+- **Presence of Mediastinal Fluid Collection**: Present / Absent
+- **Status**: New / Unchanged / Increased / Decreased
 
-- Presence of Mediastinal Fluid Collection: Yes / No
+## Characteristics
+- **Location**: Anterior / Middle / Posterior mediastinum
+- **Extent**: Small / Moderate / Large
+- **Peripheral Enhancement**: Present / Absent
+- **Attenuation**: Low (fluid-density) / High (due to proteinaceous or hemorrhagic content)
+- **Associated Signs**: Mass effect on adjacent structures / Encasement of mediastinal structures
 
-**Location and Extent:**
-
-- Location: Anterior / Middle / Posterior Mediastinum
-- Extent: Localized / Diffuse
-
-**Characteristics:**
-
-- Size: Small / Medium / Large
-- Nature: Serous / Hemorrhagic / Mixed
-
-**Associated Findings:**
-
-- Compression of Adjacent Structures: Yes / No
-- Signs of Infection: Yes / No
-- Evidence of Neoplasm: Yes / No
+## Associated Findings
+- **Pericardial Effusion**: Present / Absent
+- **Pleural Effusion**: Present / Absent
+- **Lymphadenopathy**: Present / Absent
+- **Signs of Infection or Inflammation**: Present / Absent
