@@ -13,9 +13,8 @@
 - ⭐ [Peripherally inserted central catheter (PICC)](definitions/hood/PICC.md)
 - ⭐ [Endotracheal tube](definitions/upmedic/EndotrachealTube.cde.md)
 - ⭐ [Tracheostomy tube](definitions/hood/tracheostomy-tube.md)
-- Gastrostomy tube
-- ⭐ [Gastric tube](definitions/upmedic/EsophagealGastricTube.cde.md)
-  - Nasogastric/orogastric, esophageal tube
+- [Gastrostomy tube](definitions\hood\gastric-tube.md)
+- ⭐ [Gastric tube](definitions\hood\gastric-tube.md)
 
 ## Devices
 
@@ -32,8 +31,8 @@
 - [Arterial stent (non-coronary)](definitions/hood/arterial-stent.md)
 - [Coronary stent](definitions/hood/coronary-stent.md)
 - ⭐ [Aortic valve replacement](definitions/hood/aortic-valve-replacement.md)
-- Mitral valve replacement
-- Tricuspid valve replacement
+- [Mitral valve replacement](definitions\hood\mitral-valve-replacement.md)
+- [Tricuspid valve replacement](definitions\hood\tricuspid-valve-replacement.md)
 - Pulmonary valve replacement
 - [PFO closure device](definitions/hood/pfo-closure-device.md)
 - Left atrial appendage closure device  
