@@ -13,8 +13,8 @@
 - ⭐ [Peripherally inserted central catheter (PICC)](definitions/hood/PICC.md)
 - ⭐ [Endotracheal tube](definitions/upmedic/EndotrachealTube.cde.md)
 - ⭐ [Tracheostomy tube](definitions/hood/tracheostomy-tube.md)
-- [Gastrostomy tube](definitions\hood\gastric-tube.md)
-- ⭐ [Gastric tube](definitions\hood\gastric-tube.md)
+- [Gastrostomy tube](definitions/hood/gastric-tube.md)
+- ⭐ [Gastric tube](definitions/hood/gastric-tube.md)
 
 ## Devices
 
@@ -31,12 +31,11 @@
 - [Arterial stent (non-coronary)](definitions/hood/arterial-stent.md)
 - [Coronary stent](definitions/hood/coronary-stent.md)
 - ⭐ [Aortic valve replacement](definitions/hood/aortic-valve-replacement.md)
-- [Mitral valve replacement](definitions\hood\mitral-valve-replacement.md)
-- [Tricuspid valve replacement](definitions\hood\tricuspid-valve-replacement.md)
-- Pulmonary valve replacement
+- [Mitral valve replacement](definitions/hood/mitral-valve-replacement.md)
+- [Tricuspid valve replacement](definitions/hood/tricuspid-valve-replacement.md)
+- [Pulmonary valve replacement](definitions/hood/pulmonary-valve-replacement.md)
 - [PFO closure device](definitions/hood/pfo-closure-device.md)
-- Left atrial appendage closure device  
-  - Clip; Watchman plug  
+- [Left atrial appendage closure device](definitions/hood/left-atrial-appendage-closure-device.md)
 - [Neurostimulator device](definitions/hood/neurostimulator-device.md)
 - CardioMEMS device
 - Spinal fusion or stabilization hardware
@@ -59,7 +58,7 @@
 - [Lymphangioma](definitions/hood/lymphangioma.md)  
 - Schwannoma
 - [Chest wall edema](definitions/hood/chest-wall-edema.md)
-- Subcutaneous emphysema
+- [Subcutaneous emphysema](definitions/hood/subcutaneous-emphysema.md)
 
 ## Thyroid
 
@@ -135,7 +134,7 @@
 ### Cardiac
 
 - ⭐ [Cardiac chamber enlargement](definitions/upmedic/Cardiomegaly.cde.md)
-- RA enlargement
+- [RA enlargement](definitions/hood/right-atrial-enlargement.md)
 - RV enlargement
 - LA enlargement
 - LV enlargement
@@ -190,7 +189,7 @@
 - ⭐ [Pulmonary embolus](definitions/hood/pulmonary-emboli.md)
   - [RDES80: Pulmonary Embolism](https://radelement.org/home/sets/set/RDES80)  
 - Pulmonary thrombus (s/p lobectomy, radiation)
-- Patent ductus arteriosus  
+- [Patent ductus arteriosus](definitions/hood/patent-ductus-arteriosus.md)  
 - Calcified ligamentum arteriosum  
 - Vascular sling  
 
@@ -202,7 +201,7 @@
 - [Extrapleural fat deposition](definitions/hood/extrapleural-fat-deposition.md)
 - [Pleural mass](definitions/hood/pleural-mass.md)
 - ⭐ [Pneumothorax](definitions/hood/pneumothorax.md) | [RadElement RDES44](https://radelement.org/home/sets/set/RDES44)
-- Azygos fissure
+- [Azygos fissure](definitions/hood/azygos-fissure.md)
 
 ## Pulmonary
 
