@@ -1,28 +1,18 @@
-# Chest tube
+# Chest Tube
 
-## Side
+## Identification
 
-- Left
-- Right
+- **Presence**: Present / Absent
+- **Status**: New / Unchanged / Complication / Resolved / Removed
 
-## Type
+## Characteristics
 
-- Pigtail
-- Large bore
+- **Location**: Right Pleural Space / Left Pleural Space
+- **Position**: Apical / Basal / Anterior / Posterior / Medial / Lateral
+- **Tip Position**: Appropriate / Intraparenchymal / Chest wall
 
-## Directed toward
+## Associated Findings
 
-- Apex
-- Base
-- Costophrenic sulcus
-
-## Intraparechymal placement
-
-- Yes
-- No
-
-## Related topics
-
-- Pleural effusion
-- Pneumothorax
-- Post-surgical changes
+- **Pneumothorax**: Present / Absent
+- **Pleural Effusion**: Present / Absent
+- **Hemothorax**: Present / Absent
