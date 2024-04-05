@@ -56,7 +56,6 @@
 - [Lipoma](definitions/hood/lipoma.md)
 - [Chest wall fluid collection](definitions/hood/chest-wall-fluid-collection.md)  
 - [Lymphangioma](definitions/hood/lymphangioma.md)  
-- Schwannoma
 - [Chest wall edema](definitions/hood/chest-wall-edema.md)
 - [Subcutaneous emphysema](definitions/hood/subcutaneous-emphysema.md)
 
@@ -104,7 +103,7 @@
 - [Bronchial occlusion](definitions/hood/bronchial-occlusion.md)  
 - [Endobronchial mass](definitions/hood/endobronchial-mass.md)
 - [Bronchial atresia](definitions/hood/bronchial-atresia.md)  
-- Tracheal bronchus  
+- [Tracheal bronchus](definitions/hood/tracheal-bronchus.md)  
 - [Bronchogenic cyst](definitions/upmedic/Cyst.cde.md)
 
 ## Mediastinum
@@ -129,28 +128,27 @@
 - ⭐ [Pericardial calcification](definitions/hood/pericardial-effusion.md)
 - ⭐ [Pericardial thickening](definitions/hood/pericardial-effusion.md)
 - [Pericardial cyst](definitions/hood/pericardial-cyst.md)
-- Pericardial mass  
+- [Pericardial mass](definitions/hood/pericardial-mass.md)  
 
 ### Cardiac
 
 - ⭐ [Cardiac chamber enlargement](definitions/upmedic/Cardiomegaly.cde.md)
 - [RA enlargement](definitions/hood/right-atrial-enlargement.md)
-- RV enlargement
-- LA enlargement
-- LV enlargement
-- LV hypertrophy
-- Subendocardial fatty metaplasia
+- [RV enlargement](definitions/hood/right-ventricular-enlargement.md)
+- [LA enlargement](definitions/hood/left-atrial-enlargement.md)
+- [LV enlargement](definitions/hood/left-ventricular-enlargement.md)
+- [LV hypertrophy](definitions/hood/left-ventricular-hypertrophy.md)
+- [Subendocardial fatty metaplasia](definitions/hood/subendocardial-fatty-metaplasia.md)
 - ⭐ [Valvular/annular calcifications](definitions/hood/annular-calcifications.md)
-- Thrombus
-  - All four chambers; left atrial appendage; catheter-associated  
+- [Cardiac thrombus](definitions/hood/cardiac-thrombus.md)
 - ⭐ [Right heart strain](definitions/hood/right-heart-strain.md)
 - ⭐ [Coronary artery calcification](definitions/nuance/coronary_calcifications.txt)
   - [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139)  
 - ⭐ [Coronary artery bypass graft (CABG)](definitions/hood/cabg.md)
-- Changes after myocardial infarction  
-  - Subendocardial fat; LV remodeling/aneurysm; papillary muscle calcification  
-- Lipomatous atrial septal hypertrophy (LASH)  
-- Cardiac transplant
+- [LV aneurysm](definitions/hood/left-ventricular-aneurysm.md)
+- [Papillary muscle calcification](definitions/hood/papillary-muscle-calcification.md)
+- [Lipomatous atrial septal hypertrophy (LASH)](definitions/hood/lipomatous-atrial-septal-hypertrophy.md)  
+- [Cardiac transplant](definitions/hood/cardiac-transplant.md)
 - [Fibroelastoma](definitions/hood/fibroelastoma.md)
 
 #### Cardiovascular congenital variants
@@ -170,17 +168,20 @@
 - Right-sided aortic arch
 - Aortic coarctation
 - Bicuspid aortic valve
+- Double aortic arch
+- Incomplete double aortic arch
+- Right aortic arch with aberrant left subclavian artery
+- Pulmonary sling
+- Bovine arch
+- [Aberrant subclavian artery](definitions/hood/aberrant-subclavian-artery.md)
 
 ### Aorta
 
 - ⭐ [Aortic atherosclerosis](definitions/hood/aortic-atherosclerosis.md)
 - ⭐ [Aortic aneurysm](definitions/hood/aortic-measurements.md)
-  - Size-based; includes ectasia / dilation  
   - [RDES264: Aortic Measurements](https://radelement.org/home/sets/set/RDES264)  
-- Aortic dissection  
+- [Aortic dissection](definitions/hood/aortic-dissection.md)  
   - [RDES252: Thoracic Aortic Dissection](https://radelement.org/home/sets/set/RDES252)  
-- Aortic arch variant anatomy  
-  - Includes origins of great vessels; aberrant subclavian artery, bovine arch
 - [Ascending aortic repair](definitions/hood/ascending-aortic-repair.md)
 
 ### Pulmonary artery
@@ -188,10 +189,9 @@
 - [Pulmonary artery dilation](definitions/hood/pulmonary-artery-dilation.md)
 - ⭐ [Pulmonary embolus](definitions/hood/pulmonary-emboli.md)
   - [RDES80: Pulmonary Embolism](https://radelement.org/home/sets/set/RDES80)  
-- Pulmonary thrombus (s/p lobectomy, radiation)
+- [Pulmonary thrombus (s/p lobectomy, radiation)](definitions/hood/pulmonary-thrombus.md)
 - [Patent ductus arteriosus](definitions/hood/patent-ductus-arteriosus.md)  
-- Calcified ligamentum arteriosum  
-- Vascular sling  
+- [Calcified ligamentum arteriosum](definitions/hood/calcified-ligamentum-arteriosum.md)
 
 ## Pleura
 
@@ -310,6 +310,8 @@
 - H-shaped vertebrae
 - Rugger-jersey spine
 - Schmorl node
+- Scheuermann’s disease
+- Ankylosing spondylitis
 - Physiologic wedging of lower thoracic vertebrae
 - ⭐ [Scoliosis](definitions/upmedic/ThoracicSpine.cdes.md)
   - [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
