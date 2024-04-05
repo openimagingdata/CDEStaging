@@ -37,10 +37,7 @@
 - [PFO closure device](definitions/hood/pfo-closure-device.md)
 - [Left atrial appendage closure device](definitions/hood/left-atrial-appendage-closure-device.md)
 - [Neurostimulator device](definitions/hood/neurostimulator-device.md)
-- CardioMEMS device
-- Spinal fusion or stabilization hardware
-- Harrington and Luque rods
-- Cotrel-Dubousset (CD) System
+- [CardioMEMS device](definitions/hood/cardiomems-device.md)
 
 ## Chest wall (soft tissue)
 
@@ -151,30 +148,6 @@
 - [Cardiac transplant](definitions/hood/cardiac-transplant.md)
 - [Fibroelastoma](definitions/hood/fibroelastoma.md)
 
-#### Cardiovascular congenital variants
-
-- Patent foramen ovale (PFO)  
-- Atrial septal defect (ASD)  
-- Ventricular septal defect (VSD)  
-- Bicuspid aortic valve  
-- Variant pulmonary vein anatomy  
-- Persistent left SVC  
-- Anomalous pulmonary venous return  
-  - PAPVR or TAPVR  
-- Azygos / Hemiazygos continuation of the inferior vena cava  
-- Surgical repair of congenital heart disease  
-  - Tetralogy of Fallot; transposition of great arteries; Ebstein anomaly; hypoplastic left heart; truncus arteriosus  
-  - Includes Fontan, patch closure, aortopulmonary shunt, pulmonary banding, etc.  
-- Right-sided aortic arch
-- Aortic coarctation
-- Bicuspid aortic valve
-- Double aortic arch
-- Incomplete double aortic arch
-- Right aortic arch with aberrant left subclavian artery
-- Pulmonary sling
-- Bovine arch
-- [Aberrant subclavian artery](definitions/hood/aberrant-subclavian-artery.md)
-
 ### Aorta
 
 - ⭐ [Aortic atherosclerosis](definitions/hood/aortic-atherosclerosis.md)
@@ -236,7 +209,7 @@
 - ⭐ [Adrenal nodule](definitions/hood/adrenal-nodule.md)
   - [RDES3: Adrenal Nodule](https://radelement.org/home/sets/set/RDES3)  
 - ⭐ [Cholelithiasis](definitions/hood/cholelithiasis.md)
-- ⭐ [Upper abdominal lymphadenopathy](definitions/nuance/upper_abdominal_lymphadenopathy.json) (🚧 Scaffold)
+- ⭐ [Upper abdominal lymphadenopathy](definitions/nuance/upper_abdominal_lymphadenopathy.json)
 - ⭐ [Adrenal gland thickening](definitions/hood/adrenal-thickening.md)
 - ⭐ [Hepatic steatosis](definitions/hood/hepatic-steatosis.md)
 - [Pneumobilia](definitions/hood/pneumobilia.md)
@@ -255,17 +228,18 @@
 
 ### Shoulder girdle
 
-- Clavicle fracture
+- [Clavicle fracture](definitions/hood/clavicle-fracture.md)
 - Acromioclavicular joint degenerative changes
-- ⭐ [Glenohumeral joint](definitions/hood/glenohumeral-joint.md)
-  - Effusion
-  - Joint bodies
+- [Glenohumeral joint degenerative changes](definitions/hood/glenohumeral-joint-degenerative-changes.md)
+- [Glenohumeral joint effusion](definitions/hood/glenohumeral-joint-effusion.md)
+- [Glenohumeral joint dislocation](definitions/hood/glenohumeral-joint-dislocation.md)
 - Proximal humerus fracture
-- Hill-Sachs fracture
-- Bankart fracture
+- [Hill-Sachs fracture](definitions/hood/hill-sachs-fracture.md)
+- [Glenoid fracture (Bankart)](definitions/hood/glenoid-fracture.md)
 - Scapular fracture
-- Rotator cuff calcification (tumoral calcinosis)
+- Rotator cuff calcification
 - Osteonecrosis of humeral head
+- Tumoral calcinosis
 
 #### Post-surgical changes of the shoulder
 
@@ -319,3 +293,34 @@
   - [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
 - [Hemangioma of thoracic spine](definitions/nuance/thoracic_spine_hemangioma.json)
 - ⭐ [Degenerative changes in the thoracic skeleton](definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
+- Spinal fusion or stabilization hardware
+  - Laminectomy
+  - Hemilaminectomy
+  - Corpectomy
+  - Posterior lumbar interbody fusion (PLIF)
+  - Harrington and Luque rods
+  - Cotrel-Dubousset (CD) system
+
+## Cardiovascular congenital variants
+
+- Patent foramen ovale (PFO)  
+- Atrial septal defect (ASD)  
+- Ventricular septal defect (VSD)  
+- Bicuspid aortic valve  
+- Variant pulmonary vein anatomy  
+- Persistent left SVC  
+- Anomalous pulmonary venous return  
+  - PAPVR or TAPVR  
+- Azygos / Hemiazygos continuation of the inferior vena cava  
+- Surgical repair of congenital heart disease  
+  - Tetralogy of Fallot; transposition of great arteries; Ebstein anomaly; hypoplastic left heart; truncus arteriosus  
+  - Includes Fontan, patch closure, aortopulmonary shunt, pulmonary banding, etc.  
+- Right-sided aortic arch
+- Aortic coarctation
+- Bicuspid aortic valve
+- Double aortic arch
+- Incomplete double aortic arch
+- Right aortic arch with aberrant left subclavian artery
+- Pulmonary sling
+- Bovine arch
+- [Aberrant subclavian artery](definitions/hood/aberrant-subclavian-artery.md)

@@ -39,7 +39,6 @@
 - **Intra-articular**
   - Yes / No
 
-
 ## Anatomical descriptors
 
 - anterior
