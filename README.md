@@ -1,6 +1,6 @@
 # CDEStaging
 
-> **Lead Ahead by Leap Day**: A multi-vendor project to generate a near-complete set of CDE Sets to represent the findings in chest CT reports.<br/>
+> A multi-vendor project to generate a near-complete set of CDE Sets to represent the findings in chest CT reports.<br/>
 > See the [Chest_CT_Findings.md](Chest_CT_Findings.md) file for information on targeted findings.<br/>
 > Contact @talkasab for info in interested in participating. 
 
