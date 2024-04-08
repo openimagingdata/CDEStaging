@@ -13,9 +13,8 @@
 - ⭐ [Peripherally inserted central catheter (PICC)](definitions/hood/PICC.md)
 - ⭐ [Endotracheal tube](definitions/upmedic/EndotrachealTube.cde.md)
 - ⭐ [Tracheostomy tube](definitions/hood/tracheostomy-tube.md)
-- Gastrostomy tube
-- ⭐ [Gastric tube](definitions/upmedic/EsophagealGastricTube.cde.md)
-  - Nasogastric/orogastric, esophageal tube
+- [Gastrostomy tube](definitions/hood/gastric-tube.md)
+- ⭐ [Gastric tube](definitions/hood/gastric-tube.md)
 
 ## Devices
 
@@ -32,17 +31,13 @@
 - [Arterial stent (non-coronary)](definitions/hood/arterial-stent.md)
 - [Coronary stent](definitions/hood/coronary-stent.md)
 - ⭐ [Aortic valve replacement](definitions/hood/aortic-valve-replacement.md)
-- Mitral valve replacement
-- Tricuspid valve replacement
-- Pulmonary valve replacement
+- [Mitral valve replacement](definitions/hood/mitral-valve-replacement.md)
+- [Tricuspid valve replacement](definitions/hood/tricuspid-valve-replacement.md)
+- [Pulmonary valve replacement](definitions/hood/pulmonary-valve-replacement.md)
 - [PFO closure device](definitions/hood/pfo-closure-device.md)
-- Left atrial appendage closure device  
-  - Clip; Watchman plug  
+- [Left atrial appendage closure device](definitions/hood/left-atrial-appendage-closure-device.md)
 - [Neurostimulator device](definitions/hood/neurostimulator-device.md)
-- CardioMEMS device
-- Spinal fusion or stabilization hardware
-- Harrington and Luque rods
-- Cotrel-Dubousset (CD) System
+- [CardioMEMS device](definitions/hood/cardiomems-device.md)
 
 ## Chest wall (soft tissue)
 
@@ -58,9 +53,8 @@
 - [Lipoma](definitions/hood/lipoma.md)
 - [Chest wall fluid collection](definitions/hood/chest-wall-fluid-collection.md)  
 - [Lymphangioma](definitions/hood/lymphangioma.md)  
-- Schwannoma
 - [Chest wall edema](definitions/hood/chest-wall-edema.md)
-- Subcutaneous emphysema
+- [Subcutaneous emphysema](definitions/hood/subcutaneous-emphysema.md)
 
 ## Thyroid
 
@@ -106,7 +100,7 @@
 - [Bronchial occlusion](definitions/hood/bronchial-occlusion.md)  
 - [Endobronchial mass](definitions/hood/endobronchial-mass.md)
 - [Bronchial atresia](definitions/hood/bronchial-atresia.md)  
-- Tracheal bronchus  
+- [Tracheal bronchus](definitions/hood/tracheal-bronchus.md)  
 - [Bronchogenic cyst](definitions/upmedic/Cyst.cde.md)
 
 ## Mediastinum
@@ -131,58 +125,36 @@
 - ⭐ [Pericardial calcification](definitions/hood/pericardial-effusion.md)
 - ⭐ [Pericardial thickening](definitions/hood/pericardial-effusion.md)
 - [Pericardial cyst](definitions/hood/pericardial-cyst.md)
-- Pericardial mass  
+- [Pericardial mass](definitions/hood/pericardial-mass.md)  
 
 ### Cardiac
 
 - ⭐ [Cardiac chamber enlargement](definitions/upmedic/Cardiomegaly.cde.md)
-- RA enlargement
-- RV enlargement
-- LA enlargement
-- LV enlargement
-- LV hypertrophy
-- Subendocardial fatty metaplasia
+- [RA enlargement](definitions/hood/right-atrial-enlargement.md)
+- [RV enlargement](definitions/hood/right-ventricular-enlargement.md)
+- [LA enlargement](definitions/hood/left-atrial-enlargement.md)
+- [LV enlargement](definitions/hood/left-ventricular-enlargement.md)
+- [LV hypertrophy](definitions/hood/left-ventricular-hypertrophy.md)
+- [Subendocardial fatty metaplasia](definitions/hood/subendocardial-fatty-metaplasia.md)
 - ⭐ [Valvular/annular calcifications](definitions/hood/annular-calcifications.md)
-- Thrombus
-  - All four chambers; left atrial appendage; catheter-associated  
+- [Cardiac thrombus](definitions/hood/cardiac-thrombus.md)
 - ⭐ [Right heart strain](definitions/hood/right-heart-strain.md)
 - ⭐ [Coronary artery calcification](definitions/nuance/coronary_calcifications.txt)
   - [RDES139: Coronary Calcification on CT](https://radelement.org/home/sets/set/RDES139)  
 - ⭐ [Coronary artery bypass graft (CABG)](definitions/hood/cabg.md)
-- Changes after myocardial infarction  
-  - Subendocardial fat; LV remodeling/aneurysm; papillary muscle calcification  
-- Lipomatous atrial septal hypertrophy (LASH)  
-- Cardiac transplant
+- [LV aneurysm](definitions/hood/left-ventricular-aneurysm.md)
+- [Papillary muscle calcification](definitions/hood/papillary-muscle-calcification.md)
+- [Lipomatous atrial septal hypertrophy (LASH)](definitions/hood/lipomatous-atrial-septal-hypertrophy.md)  
+- [Cardiac transplant](definitions/hood/cardiac-transplant.md)
 - [Fibroelastoma](definitions/hood/fibroelastoma.md)
-
-#### Cardiovascular congenital variants
-
-- Patent foramen ovale (PFO)  
-- Atrial septal defect (ASD)  
-- Ventricular septal defect (VSD)  
-- Bicuspid aortic valve  
-- Variant pulmonary vein anatomy  
-- Persistent left SVC  
-- Anomalous pulmonary venous return  
-  - PAPVR or TAPVR  
-- Azygos / Hemiazygos continuation of the inferior vena cava  
-- Surgical repair of congenital heart disease  
-  - Tetralogy of Fallot; transposition of great arteries; Ebstein anomaly; hypoplastic left heart; truncus arteriosus  
-  - Includes Fontan, patch closure, aortopulmonary shunt, pulmonary banding, etc.  
-- Right-sided aortic arch
-- Aortic coarctation
-- Bicuspid aortic valve
 
 ### Aorta
 
 - ⭐ [Aortic atherosclerosis](definitions/hood/aortic-atherosclerosis.md)
 - ⭐ [Aortic aneurysm](definitions/hood/aortic-measurements.md)
-  - Size-based; includes ectasia / dilation  
   - [RDES264: Aortic Measurements](https://radelement.org/home/sets/set/RDES264)  
-- Aortic dissection  
+- [Aortic dissection](definitions/hood/aortic-dissection.md)  
   - [RDES252: Thoracic Aortic Dissection](https://radelement.org/home/sets/set/RDES252)  
-- Aortic arch variant anatomy  
-  - Includes origins of great vessels; aberrant subclavian artery, bovine arch
 - [Ascending aortic repair](definitions/hood/ascending-aortic-repair.md)
 
 ### Pulmonary artery
@@ -190,10 +162,9 @@
 - [Pulmonary artery dilation](definitions/hood/pulmonary-artery-dilation.md)
 - ⭐ [Pulmonary embolus](definitions/hood/pulmonary-emboli.md)
   - [RDES80: Pulmonary Embolism](https://radelement.org/home/sets/set/RDES80)  
-- Pulmonary thrombus (s/p lobectomy, radiation)
-- Patent ductus arteriosus  
-- Calcified ligamentum arteriosum  
-- Vascular sling  
+- [Pulmonary thrombus (s/p lobectomy, radiation)](definitions/hood/pulmonary-thrombus.md)
+- [Patent ductus arteriosus](definitions/hood/patent-ductus-arteriosus.md)  
+- [Calcified ligamentum arteriosum](definitions/hood/calcified-ligamentum-arteriosum.md)
 
 ## Pleura
 
@@ -203,7 +174,7 @@
 - [Extrapleural fat deposition](definitions/hood/extrapleural-fat-deposition.md)
 - [Pleural mass](definitions/hood/pleural-mass.md)
 - ⭐ [Pneumothorax](definitions/hood/pneumothorax.md) | [RadElement RDES44](https://radelement.org/home/sets/set/RDES44)
-- Azygos fissure
+- [Azygos fissure](definitions/hood/azygos-fissure.md)
 
 ## Pulmonary
 
@@ -238,7 +209,7 @@
 - ⭐ [Adrenal nodule](definitions/hood/adrenal-nodule.md)
   - [RDES3: Adrenal Nodule](https://radelement.org/home/sets/set/RDES3)  
 - ⭐ [Cholelithiasis](definitions/hood/cholelithiasis.md)
-- ⭐ [Upper abdominal lymphadenopathy](definitions/nuance/upper_abdominal_lymphadenopathy.json) (🚧 Scaffold)
+- ⭐ [Upper abdominal lymphadenopathy](definitions/nuance/upper_abdominal_lymphadenopathy.json)
 - ⭐ [Adrenal gland thickening](definitions/hood/adrenal-thickening.md)
 - ⭐ [Hepatic steatosis](definitions/hood/hepatic-steatosis.md)
 - [Pneumobilia](definitions/hood/pneumobilia.md)
@@ -257,17 +228,18 @@
 
 ### Shoulder girdle
 
-- Clavicle fracture
+- [Clavicle fracture](definitions/hood/clavicle-fracture.md)
 - Acromioclavicular joint degenerative changes
-- ⭐ [Glenohumeral joint](definitions/hood/glenohumeral-joint.md)
-  - Effusion
-  - Joint bodies
+- [Glenohumeral joint degenerative changes](definitions/hood/glenohumeral-joint-degenerative-changes.md)
+- [Glenohumeral joint effusion](definitions/hood/glenohumeral-joint-effusion.md)
+- [Glenohumeral joint dislocation](definitions/hood/glenohumeral-joint-dislocation.md)
 - Proximal humerus fracture
-- Hill-Sachs fracture
-- Bankart fracture
+- [Hill-Sachs fracture](definitions/hood/hill-sachs-fracture.md)
+- [Glenoid fracture (Bankart)](definitions/hood/glenoid-fracture.md)
 - Scapular fracture
-- Rotator cuff calcification (tumoral calcinosis)
+- Rotator cuff calcification
 - Osteonecrosis of humeral head
+- Tumoral calcinosis
 
 #### Post-surgical changes of the shoulder
 
@@ -312,6 +284,8 @@
 - H-shaped vertebrae
 - Rugger-jersey spine
 - Schmorl node
+- Scheuermann’s disease
+- Ankylosing spondylitis
 - Physiologic wedging of lower thoracic vertebrae
 - ⭐ [Scoliosis](definitions/upmedic/ThoracicSpine.cdes.md)
   - [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
@@ -319,3 +293,34 @@
   - [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
 - [Hemangioma of thoracic spine](definitions/nuance/thoracic_spine_hemangioma.json)
 - ⭐ [Degenerative changes in the thoracic skeleton](definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
+- Spinal fusion or stabilization hardware
+  - Laminectomy
+  - Hemilaminectomy
+  - Corpectomy
+  - Posterior lumbar interbody fusion (PLIF)
+  - Harrington and Luque rods
+  - Cotrel-Dubousset (CD) system
+
+## Cardiovascular congenital variants
+
+- Patent foramen ovale (PFO)  
+- Atrial septal defect (ASD)  
+- Ventricular septal defect (VSD)  
+- Bicuspid aortic valve  
+- Variant pulmonary vein anatomy  
+- Persistent left SVC  
+- Anomalous pulmonary venous return  
+  - PAPVR or TAPVR  
+- Azygos / Hemiazygos continuation of the inferior vena cava  
+- Surgical repair of congenital heart disease  
+  - Tetralogy of Fallot; transposition of great arteries; Ebstein anomaly; hypoplastic left heart; truncus arteriosus  
+  - Includes Fontan, patch closure, aortopulmonary shunt, pulmonary banding, etc.  
+- Right-sided aortic arch
+- Aortic coarctation
+- Bicuspid aortic valve
+- Double aortic arch
+- Incomplete double aortic arch
+- Right aortic arch with aberrant left subclavian artery
+- Pulmonary sling
+- Bovine arch
+- [Aberrant subclavian artery](definitions/hood/aberrant-subclavian-artery.md)
