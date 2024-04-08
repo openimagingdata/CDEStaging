@@ -35,3 +35,4 @@ BONES: Normal. No suspicious lytic or blastic lesions.
   - location: anterior mediastinum
 - cardiomegaly
   - presence: absent
+  
