@@ -1,19 +1,22 @@
 # Report Text
 
+```
 Devices/Tubes/LINES: None.
 LUNGS: No consolidation. Punctate calcified left lower lobe granuloma. The airways are clear.
 PLEURA: Normal. No pleural effusion or pneumothorax.
-MEDIASTINUM: Anterior mediastinal soft tissue has the appearance of residual thymus. No thyroid nodules. Heart and pericardium are normal.
+MEDIASTINUM: Anterior mediastinal soft tissue has the appearance of residual thymus.
+  No thyroid nodules. Heart and pericardium are normal.
 LYMPH NODES: Normal. No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
 UPPER ABDOMEN: Normal. No abnormality in the upper abdomen. 
 CHEST WALL: Normal. No chest wall mass.
 BONES: Normal. No suspicious lytic or blastic lesions.
+```
 
 ## Extracted Findings
 
 - [consolidation](definitions/)
   - presence: absent
-- [calcified granuloma](definitions/hood/calcified-granuloma.json)
+- [calcified granuloma](../../definitions/hood/calcified-granuloma.md)
   - presence: present
   - location: left lower lobe
 - pleural effusion
@@ -35,5 +38,4 @@ BONES: Normal. No suspicious lytic or blastic lesions.
   - location: anterior mediastinum
 - cardiomegaly
   - presence: absent
-
-
+  
