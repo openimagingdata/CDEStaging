@@ -1,18 +1,21 @@
-# abdomen
+# Compositve Negative Statements
+
+
+## Abdomen
 
 - Normal. No abnormality in the upper abdomen
 
-## bone
+## Bone
 
 - Normal. No suspicious lytic or blastic lesions
 
-### lung
+## Lung
 
 - No consolidation. The airways are clear
 
 - Patent central airways
 
-#### mediastinum
+## Mediastinum
 
 - No chest wall mass. No thyroid nodules. Heart and pericardium are normal. No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes
 
@@ -20,6 +23,6 @@
 
 - No pleural effusion
 
-##### pleura
+## Pleura
 
 - Normal. No pleural effusion or pneumothorax
