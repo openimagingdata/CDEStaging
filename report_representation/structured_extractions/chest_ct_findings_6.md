@@ -8,58 +8,57 @@ Lymph Nodes: No enlarged supraclavicular, axillary, mediastinal, or hilar lymph 
 Chest Wall: No chest wall mass. Similar bilateral gynecomastia.
 Bones: No suspicious lytic or blastic lesions. Similar sclerotic change in T6 (6:61). Similar multilevel degenerative changes of the spine.
 
-
 ## Extracted Findings
 
 - lung scarring
   - presence: present
   - location: apical
   - side: bilateral
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: present
   - appereance: groundglass
   - size: 9 mm, 5 mm, 4 mm
   - location: left upper obe
   - series image: 12:94, 12:85, 12:50
-- bronchial wall thickening
+- [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.md)
   - prsence: present
   - severity: mild
-  - pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent
-- mass
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: present
   - location: anterior mediastinum
   - series image: 2:24
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
-- pulmonary embolism
+- [pulmonary embolism](../../definitions/hood/pulmonary-emboli.md)
   - presence: absent
-- coronary artery calcification
+- [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - presence: present
   - severity: mild
-- valve calcification
+- [valve calcification](../../definitions/hood/annular-calcifications.md)
   - presense: present
   - aortic valve
-- hiatal hernia
+- [hiatal hernia](../../definitions/hood/hiatal-hernia.md)
   - presence: present
   - size: small
-- chest wall mass
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
-- gynecomastia
+- [gynecomastia](../../definitions/hood/gynecomastia.md)
   - presence: present
   - side: bilateral
-- lytic lesion
+- [lytic lesion](../../definitions/hood/lytic-lesion.md)
   - presence: absent
 - blastic lesion
   - presence: absent
-- sclerotic changes
+- [sclerotic changes](../../definitions/hood/sclerotic-lesion.md)
   - presence: present
   - location: T6
   - series image: 6:61
-- degenerative changes
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: present
   - location: spine

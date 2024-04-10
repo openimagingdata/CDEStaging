@@ -20,7 +20,7 @@ BONES: Again note is made of multifocal predominantly sclerotic osseous metastas
 - atelectasis
   - presence: present
   - location: adjacent to the expansile right posterior ninth rib lesion
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: absent
 - [hiatal hernia](../../definitions/nuance/hiatal_hernia.json)
   - severity: small
@@ -33,7 +33,7 @@ BONES: Again note is made of multifocal predominantly sclerotic osseous metastas
   - location: chest wall
   - size: 2.0 x 1.6 cm
   - shape: oval
-- [sclerotic lesion](../../definitions/locations/bone_lesions_locations.txt)
+- [sclerotic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: present
   - amount: multiple
   - size: 5.8 x 2.4 cm, 5 cm, 8 x 2.0 cm

@@ -40,13 +40,13 @@ _ [hiatal hernia](../../definitions/nuance/hiatal_hernia.json)
   - severity: small
 _ lymphadenopathy
   - presence: absent
-_ chest wall mass
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
 _ lymphadenopathy
   - presence: absent
-- [lytic lesion](../../definitions/hood/lytic-lesion.md)n
+- [lytic lesion](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-_ blastic lesion
+ [blastic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 - [compression deformity](../../definitions/hood/compression-fracture.md)
   - presence: present
@@ -57,4 +57,8 @@ _ [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_ch
 _ multilevel augmentations
   - presence: present
   - location: vertebra
+- [pneumothorax](../../definitions/hood/pneumothorax.md)
+  - presence: absent
+- [pleural effusion](../../definitions/hood/pleural-effusion.md)
+  - presence: absent
   

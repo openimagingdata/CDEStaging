@@ -23,30 +23,29 @@ Bones: Visualized skeleton shows degenerative changes. Unchanged sclerotic lesio
   - presence: present
   - side: bilateral
   - location: apical pleural parenchymal
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: present
   - size: 2 mm, 3 mm, 3 mm
   - series image: 5:270, 5:242, 5:126
   - location:left upper lobe, left lower lobe
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.md)
+- [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent
-- pneumothorax
-  - presence: absent
-- thyroid nodule
+- [thyroid nodules](../../definitions/hood/thyroid-nodule.md)
   - presence: absence
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
 - cardiac chamber enlargement
   - presence: absent
-- coronary artery calcification
+- [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - presence: present
   - severity: mild
-- ????
+- lymphadenopathy
   - presence: present
   - location: hilar node
   - size: 9 mm
   - side: right
-- post sutgical changes
+- [post sutgical changes](../../definitions/hood/axillary-nodal-dissection.md)
   - presence: present
   - location: axillary lymph node
   - side: right
@@ -54,10 +53,9 @@ Bones: Visualized skeleton shows degenerative changes. Unchanged sclerotic lesio
   - presence: present
   - side: right
   - location: latissimus dorsi muscle
-- degenerative changes
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: present
-- sclerotic lesion
+- [sclerotic lesion](../../definitions/locations/bone_lesions_locations.txt)
   - presence: present
-  - location: lateral fourth rib
-  - side: right
+  - location: right lateral fourth rib
   - series image: 5:180

@@ -14,25 +14,25 @@ are unremarkable.
 
 ## Extracted Findings
 
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: absent
-- consolidation
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
 - sternotomy wires
   - presence: present
-- prosthetic valve
+- [prosthetic valve](../../definitions/hood/aortic-valve-replacement.md)
   - presence: present
   - location: aorta
 - lymphadenopathy
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
-- osteolytic lesion
+- [osteolytic lesion](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- osteosclerotic lesion
+- [osteosclerotic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
   

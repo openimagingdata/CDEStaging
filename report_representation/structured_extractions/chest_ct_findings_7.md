@@ -11,38 +11,38 @@ Bones: Multilevel degenerative changes of the spine. No suspicious lytic or blas
 
 ## Extracted Findings
 
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: present
   - location: right upper lobe, left upper lobe, right middle lobe
   - size: 4 mm, 3 mm, 5 mm
   - series image: 13:141, 13:183, 13:246
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent
-- thyroid nodule
+- [thyroid nodules](../../definitions/hood/thyroid-nodule.md)
   - presence: absent
   - side: bilateral
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
 - hypertrophy of the interatrial septum
   - presence: present
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
-- coronary calcification
+- [coronary calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - presence: absent
-- hepatic cyst
+- [hepatic cyst](../../definitions/hood/hepatic-cyst.md)
   - presence: present
-- chest wall mass
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
-- degenerative changes
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: present
   - location: spine
-- lytic lesion
+- [lytic lesion](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- blastic lesion
+- [blastic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
-- hiatal hernia
+- [hiatal hernia](../../definitions/hood/hiatal-hernia.md)
   - presence: present
   - size: small
   
