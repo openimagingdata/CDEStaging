@@ -2,3 +2,7 @@
   - presence: present
   - location: T6
   - series image: 6:61
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
+  - presence: present
+  - location: right lateral fourth rib
+  - series image: 5:180

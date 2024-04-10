@@ -29,13 +29,14 @@ Bones: Visualized skeleton shows degenerative changes. Unchanged sclerotic lesio
   - series image: 5:270, 5:242, 5:126
   - location:left upper lobe, left lower lobe
 - [pleural effusion](../../definitions/hood/pleural-effusion.md)
+  - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent
 - [thyroid nodules](../../definitions/hood/thyroid-nodule.md)
   - presence: absence
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
-- cardiac chamber enlargement
+- [cardiac chamber enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
 - [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - presence: present
@@ -55,7 +56,9 @@ Bones: Visualized skeleton shows degenerative changes. Unchanged sclerotic lesio
   - location: latissimus dorsi muscle
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: present
-- [sclerotic lesion](../../definitions/locations/bone_lesions_locations.txt)
-  - presence: present
   - location: right lateral fourth rib
   - series image: 5:180
+- [sclerotic lesion](../../definitions/locations/bone_lesions_locations.txt)
+  - presence: absent
+- [lytic lesion](../../definitions/hood/lytic-lesion.md)
+  - presence: absent
