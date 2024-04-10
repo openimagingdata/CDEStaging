@@ -12,53 +12,53 @@ BONES: There are degenerative changes. No suspicious lytic or blastic lesions.
 
 ## Extracted Findings
 
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent
-- lytic lesion
+- [lytic lesion](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- blastic lesion
+- [blastic lesion](../../definitions/locations/bone_lesions_locations.txt)
   - presence: absent
-- chest wall mas
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
-- bronchial wall thickening
+- [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.md)
   - presence: present
   - severity: mild
 - atelectasis
   - presence: present
   - side: bilateral
   - location: bases
-- consolidation
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
-- emphysema
+- [emphysema](../../definitions/hood/emphysema.md)
   - presence: present
   - severity: mild
   - location: centrilobular upper lobe
-- calcified granuloma
+- [calcified granuloma](../../definitions/hood/calcified-granuloma.md)
   - presence: present
   - location: base
   - side: right
-- cardiac chamber enlargement
+- [cardiac chamber enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: present
-- atherosclerotic calcification
+- [atherosclerotic calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - presence: present
   - severity: mild
   - location: coronary
-- valve calcification
+- [valve calcification](../../definitions/hood/annular-calcifications.md)
   - presence: present
   - location: aortic valve
   - severity: mild
 - lymphadenopathy
   - presence: absent
-- adrenal nodule
+- [adrenal nodule](../../definitions/hood/adrenal-nodule.md)
   - presence: present
   - amount: 2
   - location: left and right adrenal
   - size: 1.9 cm, 8 mm
-- pulmonary nodule
+- [pulmonary nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
 - pulmonary mass
   - presence: absent
