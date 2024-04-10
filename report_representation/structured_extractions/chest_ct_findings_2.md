@@ -20,20 +20,20 @@ BONES: No suspicious lytic or blastic lesions. Partially imaged thoracolumbar sp
   - presence: present
   - location: lower lobe
   - side: bilateral
-- pulmonary consolidation
+- [pulmonary consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
-_ cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
-_ enlargement of diameter of aorta
+_ [enlargement of diameter of aorta](../../definitions/hood/aortic-measurements.md)
   - presence: absent
-_ enlargement of diameter of mail pulmonary artery
+_ enlargement of diameter of main pulmonary artery
   - presence: absent
-_ atherosclerotic calcification
+_ [atherosclerotic calcification](../../definitions/hood/aortic-atherosclerosis.md)
   - presence: present
   - location: aorta and branch vessels
-_ coronary atherosclerotic calcification
+_ [coronary atherosclerotic calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - presence: absent
 _ [hiatal hernia](../../definitions/nuance/hiatal_hernia.json)
   - presence: present
@@ -44,9 +44,9 @@ _ chest wall mass
   - presence: absent
 _ lymphadenopathy
   - presence: absent
-_ lytic lesion
+- [lytic lesion](../../definitions/hood/lytic-lesion.md)n
   - presence: absent
-_ plastic lesion
+_ blastic lesion
   - presence: absent
 - [compression deformity](../../definitions/hood/compression-fracture.md)
   - presence: present
