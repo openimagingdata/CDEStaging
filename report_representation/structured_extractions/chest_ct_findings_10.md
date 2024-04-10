@@ -11,50 +11,50 @@ Bones/SOFT TISSUES: No suspicious osseous lesions. Multilevel degenerative chang
 
 ## Extracted Findings
 
-- bronchial wall thickening
+- [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.md)
   - presence: present
 - atelectasis
   - presence: present
   - side: bilateral
-- air trapping
+- [air trapping](../../definitions/upmedic/AirTrapping.cde.md)
   - presence: present
   - side: bilateral
   - location: lowe lobes
   - severity: mild
-- consolidation
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
 - pulmonary edema
   - presence: absent
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: present
   - location: left fissure
   - size: 3 mm
   - apperance: solid
-- cardiac chamber enlargement
+- [cardiac chamber enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
-- esophagial wall thickening
+- [esophagial wall thickening](../../definitions/hood/esophageal-wall-thickening.md)
   - presence: present
   - location: distal esophagus
-- adrenal nodule
+- [adrenal nodule](../../definitions/hood/adrenal-nodule.md)
   - presence: present
   - size: 2.1 cm
   - location: left adrenal
   - series image: 33 (601:69)
-- cholelithiasis
+- [cholelithiasis](../../definitions/hood/cholelithiasis.md)
   - presence: present
 - cholecystitis
   - presence: absent
-- chest wall mass
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
-- bone lesion
+- [bone lesion](../../definitions/hood/sclerotic-lesion.md), [alternale](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- degenerative changes
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: present
   - location: thoracic spine
 - idiopathic skeletal hyperostosis

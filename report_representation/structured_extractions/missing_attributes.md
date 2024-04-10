@@ -6,3 +6,8 @@
   - presence: present
   - location: right lateral fourth rib
   - series image: 5:180
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
+  - presence: present
+  - location: left fissure
+  - size: 3 mm
+  - apperance: solid
