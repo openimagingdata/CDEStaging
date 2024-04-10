@@ -50,6 +50,10 @@ lesion
 
 - No consolidation or pulmonary edema.
 
+- No CT evidence of residual/recurrent disease.
+
+- An ill-defined consolidated density is unchanged in the posterior aspect of the right
+
 ## Mediastinum
 
 - No chest wall mass. No thyroid nodules. Heart and pericardium are normal. No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes
@@ -85,6 +89,9 @@ lesion
 - Chest Wall / BREASTS: Normal.
 
 - There are no new or enlarging nodules.
+
+- The unopacified great mediastinal
+vessels are unremarkable.  
 
 ## Pleura
 
