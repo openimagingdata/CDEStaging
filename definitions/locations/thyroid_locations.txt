@@ -1,0 +1,6 @@
+RID7578:thyroid
+RID7581:right lobe of thyroid
+RID7579:left lobe of thyroid
+RID7583:pyramidal lobe of thyroid gland
+RID7584:isthmus of thyroid gland
+RID7488:neck

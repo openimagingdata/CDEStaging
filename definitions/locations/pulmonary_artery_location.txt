@@ -1,0 +1,4 @@
+RID974:pulmonary artery
+RID993:left pulmonary artery
+RID975:main pulmonary artery
+RID976:right pulmonary artery

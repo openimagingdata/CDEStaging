@@ -1,0 +1,5 @@
+RID480:aorta
+RID879:thoracic aorta
+RID580:ascending aorta
+RID35844:descending thoracic aorta
+RID905:abdominal aorta

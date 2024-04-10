@@ -1,0 +1,6 @@
+RID34572: thoracic vertebral column
+RID28591: set of ribs
+RID1854: clavicle
+RID1860: scapula
+RID2473: sternum
+RID2476: manubrium

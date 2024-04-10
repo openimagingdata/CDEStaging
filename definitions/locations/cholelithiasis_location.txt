@@ -1,0 +1,6 @@
+RID187: gallbladder
+RID199: common bile duct
+RID200: common hepatic duct
+RID201: cystic duct
+RID194: right hepatic duct
+RID193: left hepatic duct

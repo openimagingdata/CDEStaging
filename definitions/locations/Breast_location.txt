@@ -1,0 +1,45 @@
+RID29897: left female breast 
+RID29919: areola of left female breast 
+RID29908: nipple of left female breast
+RID29930: upper outer quadrant of left female breast
+RID29942: superior region of left breast
+RID29948: lateral region of left breast
+RID29945: medial region of left breast
+RID29939: lower inner quadrant of left female breast
+RID29954: sub areolar region of left breast
+RID29951: central region of left breast
+RID29936: lower outer quadrant of left female breast
+RID29933: upper inner quadrant of left female breast
+RID29895: female breast 
+RID29917: areola of female breast 
+RID29906: nipple of female breast
+RID29940: superior region of breast
+RID29937: lower inner quadrant of breast
+RID29949: central region of breast
+RID29928: upper outer quadrant of breast
+RID29946: lateral region of breast
+RID29931: upper inner quadrant of breast
+RID29934: lower outer quadrant of breast
+RID29952: sub areolar region of breast
+RID29943: medial region of breast
+RID29896: right female breast 
+RID29918: areola of right female breast 
+RID29907: nipple of right female breast
+RID29932: upper inner quadrant of right female breast
+RID29938: lower inner quadrant of right female breast
+RID29944: medial region of right breast
+RID29947: lateral region of right breast
+RID29953: sub areolar region of right breast
+RID29941: superior region of right breast
+RID29950: central region of right breast
+RID29935: lower outer quadrant of right female breast
+RID29929: upper outer quadrant of right female breast
+RID29859: anterior chest wall 
+RID43071: right pectoralis major
+RID2476: manubrium
+RID2473: sternum
+RID43074: left pectoralis minor
+RID43073: right pectoralis minor
+RID2493: pectoralis major muscle
+RID43072: left pectoralis major
+RID2496: pectoralis minor muscle

@@ -1,0 +1,4 @@
+RID95: esophagus
+RID31555: abdominal part of esophagus
+RID96: gastroesophageal junction
+RID103: lower esophageal sphincter

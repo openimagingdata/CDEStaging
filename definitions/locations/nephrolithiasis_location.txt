@@ -1,0 +1,8 @@
+RID205: kidney
+RID29662: right kidney
+RID29663: left kidney
+RID237: bladder
+RID34890: urethra
+RID229: ureter
+RID30844: right ureter
+RID30845: left ureter

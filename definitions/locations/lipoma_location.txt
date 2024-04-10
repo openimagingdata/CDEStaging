@@ -1,0 +1,10 @@
+RID1968: arm
+RID1968_RID5825: right arm
+RID1968_RID5824: left arm
+RID30781: back
+RID39518: shoulder
+RID39518_RID5825: right shoulder
+RID39518_RID5824: left shoulder
+RID7488: neck
+RID29895: female breast
+RID29898: male breast

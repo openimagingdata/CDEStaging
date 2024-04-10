@@ -1,0 +1,6 @@
+RID7147: fourth ventricle
+RID7137: third ventricle
+RID7124: lateral ventricle
+RID397: peritoneal cavity
+RID1387: right atrium
+RID1362: pleura

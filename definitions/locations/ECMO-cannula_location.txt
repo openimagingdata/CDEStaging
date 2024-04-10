@@ -1,0 +1,9 @@
+RID1024: internal jugular vein
+RID1018: external jugular vein
+RID1199: femoral vein
+RID584: common carotid artery
+RID773: subclavian artery
+RID1010: superior vena cava
+RID1178: inferior vena cava
+RID1387: right atrium
+RID958: common femoral artery

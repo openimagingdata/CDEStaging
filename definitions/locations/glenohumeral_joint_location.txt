@@ -1,0 +1,14 @@
+RID1905: glenohumeral joint
+RID1972: anatomical neck of humerus
+RID1921: middle glenohumeral ligament
+RID1953: supraspinatus tendon
+RID1916: glenohumeral ligament
+RID1909: glenoid labrum
+RID1978: lesser tuberosity of humerus
+RID1951: subscapularis tendon
+RID1973: greater tuberosity of humerus
+RID1949: infraspinatus tendon
+RID1917: inferior glenohumeral ligament
+RID1922: superior glenohumeral ligament
+RID1955: teres minor tendon
+RID29093: head of humerus

@@ -1,0 +1,5 @@
+RID34918: main bronchus
+RID1246: tracheobronchial tree
+RID1258: interlobar bronchus
+RID1275: left main bronchus
+RID1250: right main bronchus

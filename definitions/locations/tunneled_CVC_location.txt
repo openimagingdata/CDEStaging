@@ -1,0 +1,5 @@
+RID1024: internal jugular vein
+RID1011_RID5825: right brachiocephalic vein
+RID1010: superior vena cava
+RID1169: azygos vein
+RID1178: inferior vena cava
