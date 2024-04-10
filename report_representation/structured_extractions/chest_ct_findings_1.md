@@ -29,7 +29,7 @@ BONES: Normal. No suspicious lytic or blastic lesions.
   - presence: absent
 - [lytic lesion](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- blastic lesion
+- [blastic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 - residual thymus
   - presence: present

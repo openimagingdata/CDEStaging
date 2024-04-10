@@ -24,9 +24,9 @@ are unremarkable.
 - lung expansion
   - presence: present
   - side: symmetricaly bilateral
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: absent
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
@@ -34,23 +34,23 @@ are unremarkable.
   - presence: absent
 - nodule
   - presence: absent
-- cardiomegaly
+ [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
-- vessel calcification:
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - presence: present
   - location: coronary artery
   - severity: mild
-- osteolytic lesion
+- [osteolytic lesion](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- osteosclerotic lesion
+- [osteosclerotic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 - lymphadenopathy
   - presence: present
   - location: mediastinum
   - size: 21 x 17 mm
-- degenerative changes
+- [degenerative changes](../../definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
   - presence: present
   - location: spine
   

@@ -1,0 +1,4 @@
+- [sclerotic changes](../../definitions/hood/sclerotic-lesion.md)
+  - presence: present
+  - location: T6
+  - series image: 6:61
