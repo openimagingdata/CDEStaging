@@ -1,4 +1,4 @@
-### Emphysema (Final)
+### Emphysema
 
 #### Identification
 
@@ -16,8 +16,6 @@
 
 #### Associated Findings
 
-- Air trapping: Present / Absent / Extent specified
-- Pulmonary nodules: Present / Absent / Size and number specified
-- Fibrosis: Present / Absent / Pattern and distribution specified
-- Pleural abnormalities: Present / Absent / Type and extent specified
-- Bronchiectasis: Present / Absent / Location specified
+- Air trapping: Present / Absent
+- Pulmonary nodules: Present / Absent
+- Bronchiectasis: Present / Absent
