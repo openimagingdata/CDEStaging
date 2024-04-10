@@ -1,5 +1,6 @@
 # Report Text
 
+```
 Devices/Tubes/LINES: None.
 LUNGS: No consolidation. Punctate calcified left lower lobe granuloma. The airways are clear.
 PLEURA: Normal. No pleural effusion or pneumothorax.
@@ -9,6 +10,7 @@ LYMPH NODES: Normal. No enlarged supraclavicular, axillary, mediastinal, or hila
 UPPER ABDOMEN: Normal. No abnormality in the upper abdomen.
 CHEST WALL: Normal. No chest wall mass.
 BONES: Normal. No suspicious lytic or blastic lesions.
+```
 
 ## Extracted Findings
 
