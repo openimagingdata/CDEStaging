@@ -13,11 +13,10 @@
 - **Composition:** Cystic / Solid / Mixed
 - **Calcification:** Absent / Microcalcifications / Macrocalcifications / Peripheral calcifications
 - **Margins:** Smooth / Irregular / Lobulated
-- **Enhancement:** None / Mild / Moderate / Marked
+- **Enhancement:** Present / Absent
 
 ## Associated Findings
 
 - **Lymphadenopathy:** Present / Absent
 - **Tracheal Deviation:** Present / Absent
-- **Esophageal Compression:** Present / Absent
 - **Vascular Compression:** Present / Absent
