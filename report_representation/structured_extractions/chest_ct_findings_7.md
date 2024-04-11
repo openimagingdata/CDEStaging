@@ -1,5 +1,6 @@
 # Report Text
 
+```text
 Devices/Tubes/Lines: None.
 Lungs: Unchanged bilateral pulmonary nodules, including a 4 mm nodule in the right upper lobe (13:141), a 3 mm subpleural nodule in the left upper lobe (13:183), and a 5 mm nodule in the right middle lobe (13:246). No new pulmonary nodules. Central airways are patent.
 Pleura: No pleural effusion or pneumothorax.
@@ -8,14 +9,25 @@ Lymph Nodes: No enlarged supraclavicular, axillary, mediastinal, or hilar lymph 
 Upper Abdomen: Unchanged segment 4A hepatic cyst. Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
 Chest Wall: No chest wall mass.
 Bones: Multilevel degenerative changes of the spine. No suspicious lytic or blastic lesions.
+```
 
 ## Extracted Findings
 
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: present
-  - location: right upper lobe, left upper lobe, right middle lobe
-  - size: 4 mm, 3 mm, 5 mm
-  - series image: 13:141, 13:183, 13:246
+  - location: right upper lobe
+  - size: 4 mm
+  - series image: 13:141
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
+  - presence: present
+  - location: left upper lobe
+  - size: 3 mm
+  - series image: 13:183
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
+  - presence: present
+  - location: right middle lobe
+  - size: 5 mm
+  - series image: 13:246
 - [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.md)

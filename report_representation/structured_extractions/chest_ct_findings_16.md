@@ -1,5 +1,6 @@
 # Report Text
 
+```text
 PORTS AND DEVICES: Left-sided Port-A-Cath with the catheter tip in the distal SVC.
 LUNGS: No lung nodules or consolidation.
 PLEURA: No pleural effusion.
@@ -8,36 +9,39 @@ MEDIASTINUM: Heart size is normal. No pericardial effusion.
 Chest Wall / BREASTS: S/p bilateral mastectomies.
 UPPER ABDOMEN: Postcholecystectomy. Mild diffuse steatosis.
 MUSCULOSKELETAL: No lytic or blastic lesions.
+```
 
 ## Extracted Findings
 
 - port-A-Cath
   - presence: present
   - location: distal SVC
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
-- consolidation
+- [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: absent
-- axillary nodal dissection
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
+  - presence: absent
+- [axillary nodal dissection](../../definitions/hood/axillary-nodal-dissection.md)
   - presence: present
 - surgical clips
   - presence: present
   - location: right axilla
 - lymphadenopathy
   - presence: absent
-- preicardial effusion
+- [preicardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- mastectomy
+- [mastectomy](../../definitions/hood/mastectomy.md)
   - presence: present
   - side: bilateral
-- steatosis
+- [steatosis](../../definitions/hood/hepatic-steatosis.md)
   - presence: present
   - severity: mild
 - cholecystectomy
   - presence: present
-- lytic lesion
+- [lytic lesion](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- blastic lesion
+- [blastic lesion](../../definitions/locations/bone_lesions_locations.txt)
   - presence: absent

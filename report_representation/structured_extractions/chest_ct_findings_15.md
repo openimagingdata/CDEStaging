@@ -1,5 +1,6 @@
 # Report Text
 
+```text
 PORTS AND DEVICES: None.
 LUNGS: There is mild atelectasis in the medial segment of the right middle lobe. No suspicious nodules are seen. The central airways are patent.
 PLEURA: There is trace right pleural fluid.
@@ -13,6 +14,7 @@ adhesions to the prior sternotomy.
 Chest Wall / BREASTS: Normal.
 UPPER ABDOMEN: Scattered tiny hypodense hepatic lesions likely represent cysts.
 MUSCULOSKELETAL: No suspicious osseous lesions are seen.
+```
 
 ## Extracted Findings
 
@@ -20,37 +22,39 @@ MUSCULOSKELETAL: No suspicious osseous lesions are seen.
   - presence: present
   - location: medial segment of the right middle lobe
   - severity: mild
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: present
   - size: trace
 - lymphadenopathy
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- cardiac chamber enlargement
+- [cardiac chamber enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: present
   - location: left ventricular
-- coronary artery calcifications
+  - severity: mild
+- [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - presence: present
   - severity: moderate
-- aortic valve calcifications
+ [valve calcification](../../definitions/hood/annular-calcifications.md)
   - presence: present
+  - location: aortic valve
   - severity: severe
-- aortic root dilation
+- [aortic root dilation](../../definitions/hood/aortic-measurements.md)
   - presence: present
   - measurement: 4.5 x 3.9 cm
-- ascending aortic repair
+- [ascending aortic repair](../../definitions/hood/ascending-aortic-repair.md)
   - presence: present
 - postsurgical changes
   - presence: present
 - surgical clips
   - presence: present
   - location: anterior mediastinum
-- adhesions related to sternotomy
+- [adhesions related to sternotomy](../../definitions/hood/median-sternotomy.md)
   - presence: absent
-- hepatic cyst
+- [hepatic cyst](../../definitions/hood/hepatic-cyst.md)
   - presence: present
-- bone lesions
+- [bone lesion](../../definitions/hood/sclerotic-lesion.md), [alternale](../../definitions/hood/lytic-lesion.md)
   - presence: absent

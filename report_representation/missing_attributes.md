@@ -1,13 +1,12 @@
 - [sclerotic changes](../../definitions/hood/sclerotic-lesion.md)
-  - presence: present
   - location: T6
-  - series image: 6:61
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
-  - presence: present
   - location: right lateral fourth rib
   - series image: 5:180
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: present
   - location: left fissure
-  - size: 3 mm
-  - apperance: solid
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
+  - location: right breast
+- [cardiac chamber enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)
+  - location: left ventricular
+  - severity: mild

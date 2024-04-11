@@ -1,5 +1,6 @@
 # Report Text
 
+```text
 Devices/Tubes/LINES: None.
 LUNGS: Central airways are patent. Mild diffuse bronchial wall thickening. Bilateral dependent atelectasis. Mild mosaic attenuation in the bilateral lower lobes, likely representing air trapping. No consolidation or pulmonary edema. There is a 3 mm solid nodule along the left fissure (301:205), likely a perifissural lymph node. 
 PLEURA: No pleural effusion or pneumothorax.
@@ -8,6 +9,7 @@ LYMPH NODES: No enlarged supraclavicular, axillary, mediastinal, or hilar lymph 
 UPPER ABDOMEN: There is a 2.1 cm left adrenal nodule with an average Hounsfield unit of 33 (601:69). Cholelithiasis without evidence of cholecystitis.
 CHEST WALL: No chest wall mass.
 Bones/SOFT TISSUES: No suspicious osseous lesions. Multilevel degenerative changes in the thoracic spine. Bridging paraspinal osteophytes involving multiple contiguous levels with relative preservation of disc space height, suggestive of diffuse idiopathic skeletal hyperostosis (DISH).
+```
 
 ## Extracted Findings
 
@@ -59,4 +61,3 @@ Bones/SOFT TISSUES: No suspicious osseous lesions. Multilevel degenerative chang
   - location: thoracic spine
 - idiopathic skeletal hyperostosis
   - presence: present
-
