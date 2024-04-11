@@ -2,7 +2,7 @@
 
 ## Identification
 
-- **Presence**: Present / Absent
+- **Presence of Glenohumeral Joint Degenerative Changes**: Present / Absent
 - **Status**: New / Unchanged / Increased
 
 ## Characteristics
@@ -16,5 +16,6 @@
 
 ## Associated Findings
 
-- **Synovitis**: Present / Absent
-- **Capsular Thickening**: Present / Absent
+- **Glenohumeral Joint Effusion**: Present / Absent
+- **Glenoid Fracture**: Present / Absent
+- **Rotator Cuff Calcification**: Present / Absent
