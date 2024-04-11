@@ -32,6 +32,9 @@ lesion
 
 - No destructive bone lesions.
 
+- There is no retropulsion into the spinal
+canal.
+
 ## Lung
 
 - No consolidation. The airways are clear
@@ -52,7 +55,9 @@ lesion
 
 - No CT evidence of residual/recurrent disease.
 
-- An ill-defined consolidated density is unchanged in the posterior aspect of the right
+- An ill-defined consolidated density is unchanged in the posterior aspect of the right.
+
+- Airways intact.
 
 ## Mediastinum
 
@@ -93,6 +98,7 @@ lesion
 - The unopacified great mediastinal
 vessels are unremarkable.  
 
+- The imaged thyroid gland is unremarkable within limitations of overlying artifact. 
 ## Pleura
 
 - Normal. No pleural effusion or pneumothorax

@@ -1,5 +1,6 @@
 # Report Text
 
+```text
 Lungs: The lungs are clear.  There is no pneumothorax, pleural effusion, or suspicious
 focal air-space consolidation.  There is no pulmonary mass or suspicious nodule.  The
 central airways are patent.
@@ -11,10 +12,13 @@ Bones: The visualized spine is intact, and without suspicious osteolytic or oste
 lesion.
 The study is not designed to evaluate for intra-abdominal abnormality. The adrenal glands
 are unremarkable.
+```
 
 ## Extracted Findings
 
 - [pneumothorax](../../definitions/hood/pneumothorax.md)
+  - presence: absent
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
 - [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: absent

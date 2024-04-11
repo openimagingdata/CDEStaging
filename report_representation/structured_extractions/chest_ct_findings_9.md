@@ -1,5 +1,6 @@
 # Report Text
 
+```text
 Devices/Tubes/LINES: None.
 LUNGS: The central airways are patent. There is mild diffuse bronchial wall thickening. Subsegmental and dependent atelectasis in the lung bases. There is mild upper lobe predominant centrilobular emphysema. No focal consolidation.
 Tiny calcified granuloma in the RIGHT base. There are no discrete pulmonary nodules or masses.
@@ -9,6 +10,7 @@ LYMPH NODES: There is no size significant supraclavicular, axillary, mediastinal
 UPPER ABDOMEN: The visualized liver, spleen, pancreas, and kidneys are normal. There is a 1.9 cm indeterminate LEFT adrenal nodule. There is a smaller 8 mm RIGHT adrenal nodule on 4:573.
 CHEST WALL: No chest wall mass.
 BONES: There are degenerative changes. No suspicious lytic or blastic lesions.
+```
 
 ## Extracted Findings
 
@@ -55,9 +57,13 @@ BONES: There are degenerative changes. No suspicious lytic or blastic lesions.
   - presence: absent
 - [adrenal nodule](../../definitions/hood/adrenal-nodule.md)
   - presence: present
-  - amount: 2
-  - location: left and right adrenal
-  - size: 1.9 cm, 8 mm
+  - location: left adrenal
+  - size: 1.9 cm
+- [adrenal nodule](../../definitions/hood/adrenal-nodule.md)
+  - presence: present
+  - location: right adrenal
+  - size: 8 mm
+  - series image: 4:573
 - [pulmonary nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
 - pulmonary mass

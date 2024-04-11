@@ -1,6 +1,6 @@
 # Report Text
 
-```
+```text
 Devices/Tubes/LINES: None.
 LUNGS: No consolidation. Punctate calcified left lower lobe granuloma. The airways are clear.
 PLEURA: Normal. No pleural effusion or pneumothorax.
@@ -38,4 +38,3 @@ BONES: Normal. No suspicious lytic or blastic lesions.
   - location: anterior mediastinum
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-  

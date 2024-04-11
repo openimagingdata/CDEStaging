@@ -1,5 +1,6 @@
 # Report Text
 
+```text
 Devices/Tubes/Lines: None.
 Lungs: Similar biapical scarring. Unchanged 9 mm left upper lobe groundglass nodule (12:94), a 5 mm left upper lobe nodule (12:85), and a 4 mm left upper lobe nodule (12:50). No new suspicious pulmonary nodules or consolidation. Mild bronchial wall thickening and mosaic attenuation. Patent central airways..
 Pleura: No pleural effusion or pneumothorax.
@@ -7,6 +8,7 @@ Mediastinum: Similar heterogenous mass in the anterior mediastinum which is exte
 Lymph Nodes: No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes. Upper Abdomen: Please see concurrent abdominal CT for abdominal findings.
 Chest Wall: No chest wall mass. Similar bilateral gynecomastia.
 Bones: No suspicious lytic or blastic lesions. Similar sclerotic change in T6 (6:61). Similar multilevel degenerative changes of the spine.
+```
 
 ## Extracted Findings
 
@@ -17,9 +19,19 @@ Bones: No suspicious lytic or blastic lesions. Similar sclerotic change in T6 (6
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: present
   - appereance: groundglass
-  - size: 9 mm, 5 mm, 4 mm
-  - location: left upper obe
-  - series image: 12:94, 12:85, 12:50
+  - size: 9 mm
+  - location: left upper lobe
+  - series image: 12:94
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
+  - presence: present
+  - size: 5 mm
+  - location: left upper lobe
+  - series image: 12:85
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
+  - presence: present
+  - size: 4 mm
+  - location: left upper lobe
+  - series image: 12:50
 - [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.md)
   - prsence: present
   - severity: mild

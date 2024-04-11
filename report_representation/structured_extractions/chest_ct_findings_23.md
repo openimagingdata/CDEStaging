@@ -1,5 +1,6 @@
 # Report text
 
+```text
 Lungs: Moderate centrilobular emphysema is noted with upper zone predominance.
 The patient is status post right middle lobectomy and left upper lobe wedge resection.
 There is a 1.2 x 1.2 cm soft tissue nodule at the wedge resection resection site,
@@ -23,68 +24,63 @@ compression fracture is again noted at T12. There is no retropulsion into the sp
 canal.
 Assessment of the visualized upper abdomen is deferred to the separately dictated report
 of the concurrent CT abdomen and pelvis study.
+```
 
 ## Extracted findings
 
-- emphysema
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
+  - presence absent
+-[emphysema](../../definitions/hood/emphysema.md)
   - presence: Present
   - severity: Moderate
   - type: centrilobular
   - predominancy: upper zone
-- lobectomy
+- [lobectomy](../../definitions/hood/lobectomy.md)
   - presence: Present
-  - location: Right middle lobe
-- lobectomy
-  - presence: Present
-  - location: Left upper lobe
-  - type: Wedge resection
-- nodule
+  - location: Right middle lobe, left upper lobe
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: Present
   - appearance: soft tissue
   - size: 1.2 x 1.2 cm
   - location: wedge resection site (Left upper lobe)
-- consolidation
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: Present
   - pattern: Geographic densities
   - location: medial aspect of the right lower lobe
-  - etiology: post radiation changes
-- consolidation
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: Present
   - location: posteromedial aspect of the right lower lobe
   - chronicity: Chronic
   - size: 12 x 7 mm
   - series image: 3:49
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: Present
   - appearance: Solid
   - size: 3 mm
   - series: image: 36
   - Location: anterior aspect of the right upper lobe
-- consolidation
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: Present
   - appearance: ill-defined density
   - location: posterior aspect of the right upper lobe
-  - concern: multifocal lung adenocarcinoma and atypical adenomatous hyperplasia
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: Absent
-- coronary artery calcifications
+- [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - presence: Present
   - severity: Mild
-  - mediastinal lymphadenopathy
-  - presence: Absent
 - lymphadenopathy
   - presence: Absent
-- degenerative changes
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: present
   - severity: Mild-to-moderate
   - location: spine
-- osteosclerotic lesion
-  - presence: Absent
-- osteolytic lesion
-  - presence: Absent
-- wedge compression fracture
+- [lytic lesion](../../definitions/hood/lytic-lesion.md)
+  - presence: absent
+- [blastic lesion](../../definitions/locations/bone_lesions_locations.txt)
+  - presence: absent
+- [wedge compression fracture](../../definitions/hood/compression-fracture.md)
   - chronicity: Chronic
   - severity: Mild
   - location: Anterior T12
 - retropulsion into the spinal canal
-  -presence: Absent
+  - presence: Absent

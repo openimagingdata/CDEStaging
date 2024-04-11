@@ -1,5 +1,6 @@
 # Report Text
 
+```text
 Lungs: There is mild bilateral dependent atelectasis, but the lungs are symmetrically
 expanded.  There is no pneumothorax, pleural effusion, or suspicious focal air-space
 consolidation.  There is no pulmonary mass or suspicious nodule.  The central airways are
@@ -14,6 +15,7 @@ Bones: Moderate degenerative changes are noted in the visualized spine, but with
 suspicious osteolytic or osteosclerotic lesion.
 The study is not designed to evaluate for intra-abdominal abnormality. The adrenal glands
 are unremarkable.
+```
 
 ## Extracted Findings
 
@@ -32,9 +34,9 @@ are unremarkable.
   - presence: absent
 - pulmonary mass
   - presence: absent
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: absent

@@ -1,5 +1,6 @@
 # Report Text
 
+```text
 Devices/tubes/LINES: None.
 Lungs/AIRWAYS: Patent central airways. New bilateral relaxation atelectasis adjacent to pleural effusions.
 PLEURA: New small lateral pleural effusions. No pneumothoraces.
@@ -11,33 +12,34 @@ LYMPH NODES: Subcarinal lymphadenopathy to 14 mm.
 UPPER ABDOMEN: Reported separately.
 CHEST WALL: No chest wall masses.
 BONES: No suspicious bone lesions.
+```
 
 ## Extracted Findings
 
 - atelectasis
   - presence: present
   - side: bilateral
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: present
-  - size: small
-- pneumothorax
+  - volume: small
+- [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent
-- aortic dissection
+- [aortic dissection](../../definitions/hood/aortic-dissection.md), [alternate](../../definitions/hood/aortic-measurements.md)
   - presence: present
   - segment: ascending aorta
   - diameter: 64 mm
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: present
   - size: small
-- coronary artery calcification
+- [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - presense: present
   - severity: moderate
 - lymphadenopathy
   - presence: present
   - size: 14 mm
   - location: subcarinal
-- chest wall mass
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: present
-- bone lesions
+- [bone lesion](../../definitions/hood/sclerotic-lesion.md), [alternale](../../definitions/hood/lytic-lesion.md)
   - presence: absent
   

@@ -1,5 +1,6 @@
 # Report Text
 
+```text
 Devices/Tubes/Lines: None.
 Lungs: Central airways are patent. Bilateral subsegmental atelectasis. Biapical pleural parenchymal scarring.
 Stable pulmonary nodules, for example:
@@ -12,6 +13,7 @@ Lymph Nodes: Stable postsurgical changes in the right axillary lymph node statio
 Upper Abdomen: Please see concurrent abdominal CT for abdominal findings.
 Chest Wall: Stable postsurgical changes in the RIGHT axilla. There is atrophy of the RIGHT latissimus dorsi muscle..
 Bones: Visualized skeleton shows degenerative changes. Unchanged sclerotic lesion in the right lateral fourth rib (5:180) since 6/14/2022. No evidence for any suspicious lytic or blastic lesions.
+```
 
 ## Extracted Findings
 
@@ -25,9 +27,19 @@ Bones: Visualized skeleton shows degenerative changes. Unchanged sclerotic lesio
   - location: apical pleural parenchymal
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: present
-  - size: 2 mm, 3 mm, 3 mm
-  - series image: 5:270, 5:242, 5:126
-  - location:left upper lobe, left lower lobe
+  - size: 2 mm
+  - series image: 5:270,
+  - location:perifissural left upper lobee
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
+  - presence: present
+  - size: 3 mm
+  - series image: 5:242
+  - location: perifissural left lower lobe
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
+  - presence: present
+  - size: 3 mm
+  - series image: 5:126
+  - location:perifissural left upper lobe
 - [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.md)
