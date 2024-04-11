@@ -8,16 +8,16 @@
 
 ## Characteristics
 
-- **Location**: Right upper lobe / Right middle lobe / Right lower lobe / Left upper lobe / Left lower lobe
+- **Location**: [specify lung lobes]
 - **Regional Predominance**: Upper lung zone / Middle lung zone / Lower lung zone
 - **Type**: Cylindrical / Varicose / Cystic
 - **Distribution**: Focal / Multifocal / Diffuse
-- **Associated Signs**: Air trapping / Mucus plugging
+- **Mucus plugging**: Present / Absent
 
 ## Associated Findings
 
-- **Airway Wall Thickening**: Present / Absent
-- **Tree-in-bud Appearance**: Present / Absent
+- **Bronchial Wall Thickening**: Present / Absent
+- **Tree-in-bud Nodules**: Present / Absent
 - **Mucoid Impaction**: Present / Absent
-- **Consolidation**: Present / Absent
+- **Airspace Consolidation**: Present / Absent
 - **Fibrosis**: Present / Absent

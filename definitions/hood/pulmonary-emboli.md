@@ -1,20 +1,21 @@
-# Pulmonary Emboli
+# Pulmonary Embolism
 
 ## Identification
 
-- Presence: Present / Absent
-- Stage: Acute / Chronic / Acute on Chronic
+- Presence of Pulmonary Embolism: Present / Absent
+- Status: Acute / Chronic / Acute on Chronic
 
 ## Characteristics
 
-- Location: Central (main pulmonary artery) / Right pulmonary artery / Left pulmonary artery / Lobar / Segmental / Subsegmental
+- Location: Saddle / Main pulmonary artery / Lobar / Segmental / Subsegmental
+- Side: Left / Right / Bilateral
 - Number: Single / Multiple
-- Burden: Low / Moderate / High
+- Burden: Small / Moderate / Large
+- Peripheral (eccentric) thrombus: Present / Absent
+- Perfusion defect on dual energy reformats: Present / Absent
 
 ## Associated Findings
 
-- Right heart strain: Yes / No
-- Pulmonary hypertension: Yes / No
+- Right heart strain: Present / Absent
+- Pulmonary artery enlargement: Present / Absent
 - Pulmonary infarction: Present / Absent
-- Pulmonary artery aneurysm: Yes / No
-- Pulmonary hemorrhage: Yes / No

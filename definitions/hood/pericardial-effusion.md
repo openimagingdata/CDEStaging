@@ -1,29 +1,20 @@
-# Pericardial effusion
+# Pericardial Effusion
 
-## Size
+## Identification
 
-- Trace
-- Small (<10 mm)
-- Moderate (10-20 mm)
-- Large (>20 mm)
+- **Presence**: Present / Absent
+- **Status**: New / Unchanged / Increased / Decreased / Resolved
 
-## Density
+## Characteristics
 
-- Fluid density
-- Intermediate density (>30 HU)
-- Hemopericardium
+- **Size**: Trace / Small (<10 mm) / Moderate (10-20 mm) / Large (>20 mm)
+- **Density**: Fluid / Intermediate / Hemorrhage
+- **Loculated Fluid**: Present / Absent
+- **Pericardial Enhancement**: Present / Absent
 
-## Pericardial enhancement
+## Associated Findings
 
-- Present
-- Absent
-
-## Pericardial thickening
-
-- Present
-- Absent
-
-## Pericardial calcification
-
-- Present
-- Absent
+- **Pericardial Thickening**: Present / Absent
+- **Pericardial Calcifications**: Present / Absent
+- **Pleural Effusion**: Present / Absent
+- **Mediastinal Fat Stranding**: Present / Absent
