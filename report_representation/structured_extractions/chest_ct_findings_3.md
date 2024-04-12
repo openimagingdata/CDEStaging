@@ -13,43 +13,46 @@ BONES: Again note is made of multifocal predominantly sclerotic osseous metastas
 
 ## Extracted Findings
 
+- lymphadenopathy \[RID28847\]
+  - presence: absent
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: present
   - size: 2mm
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303\]
   - series image: 7:61
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: present
   - size: 2mm
-  - location: left upper lobe
+  - location: left upper lobe \[RID1327\]
   - series image: 7:108
 - atelectasis
-  - presence: present
-  - location: adjacent to the expansile right posterior ninth rib lesion
+  - location: adjacent to the expansile right posterior ninth rib lesion \[RID28591_RID6159\]
 - [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: absent
 - [hiatal hernia](../../definitions/nuance/hiatal_hernia.json)
   - severity: small
 - [gynecomastia](../../definitions/hood/gynecomastia.md)
-  - presence: present
-  - side: bilateral
+  - side: bilateral \[RID29897\], \[RID29896\], \[RID29900\], \[RID29899\]
   - severity: mild
-- [cyst](../../definitions/upmedic/Cyst.cde.md)
-  - presence: present
-  - location: chest wall
+- [sebaceous cyst](../../definitions/upmedic/Cyst.cde.md)
+  - location: chest wall \[RID2468\]
   - size: 2.0 x 1.6 cm
   - shape: oval
 - [sclerotic lesion](../../definitions/hood/sclerotic-lesion.md)
-  - presence: present
   - amount: multiple
   - size: 5.8 x 2.4 cm, 5 cm, 8 x 2.0 cm
-  - location: multifocal, for example right posterior ninth rib, bilateral ribs, posterior left ninth rib, right latral third rib, sternum, scapula and thoracic spine
+  - location: multifocal, bilateral ribs for example, right posterior ninth rib \[RID28591_RID6159_RID5825\], posterior left ninth rib \[RID28591_RID6159_RID5824\], right latral third rib \[RID28591_RID6153_RID5825\], sternum \[RID2473\], scapula \[RID1860\] and thoracic spine \[RID7741\]
   - series image: 234
 - [compression deformity](../../definitions/hood/compression-fracture.md)
-  - presence: present
-  - location: T11
+  - location: T11 \[RID29208\]
 - narrowing spinal canal
-  - presence: present
   - series image: 7:314
-  - location: T11
+  - location: T11 \[RID29208\]
   
+## Compositve Negative Statements
+
+- Lungs
+  - Scattered lung nodules are essentially unchanged. No new suspicious discrete pulmonary nodules or consolidation.
+- Pleura
+  - No pleural effusion.
+- Mediastinum
+  - Unchanged low-density 2.0 x 1.6 cm subcutaneous oval-shaped nodule likely representing a sebaceous cyst, unchanged. Bilateral mild gynecomastia.
+  - No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.

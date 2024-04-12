@@ -31,28 +31,33 @@ BONES: There are lytic metastases in the sternum best seen on image 82 in series
   - presence: absent
 - [valve calcification](../../definitions/nuance/mitral_or_aortic_valve_calcification.json)
   - presence: present
-  - location: mitral annular
+  - location: mitral annular \[RID1395\]
 - lymphadenopathy
-  - presence: present
-  - location: left axillary
+  - location: left axillary \[RID1517_RID5824\]
   - size: 1 cm
   - series image: 4:280
 - [lytic lesion](../../definitions/hood/lytic-lesion.md)
-  - presence: present
-  - location: sternum
+  - location: sternum \[RID2473\]
   - seies image: 7:82
 - [breast mass](../../definitions/hood/breast-mass.md)
-  - presence: present
-  - location: left breast
+  - location: left breast \[RID29900\], \[RID29897\]
   - size: largest is a 10.3 x 7.1 cm
   - series image: 4:431
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: present
-  - location: left anterior third intercostal space, chest wall (upper anterior and left lateral)
+  - location: left anterior third intercostal space, chest wall \[RID2468\] (upper anterior and left lateral)
   - size: up to 0.1 cm
   - series image: 4:328, 105, 201
 - [skin thickeing](../../definitions/hood/breast-skin-thickening.md)
-  - presence: present
-  - location: right breast
+  - location: right breast \[RID29896:\], \[RID29899\]
   - severity: mild
+  
+## Compositve Negative Statements
+
+- Lungs
+  - No pulmonary nodules or consolidation. The airways are clear.
+- Pleura
+  - No pleural effusion or pneumothorax.
+- Mediastinum
+  - Devices/Tubes/LINES: None.
+  - Heterogenous thyroid gland without definite thyroid nodule, however assessment is limited due to image noise. Cardiac chambers are normal in size. There is no pericardial effusion.
   

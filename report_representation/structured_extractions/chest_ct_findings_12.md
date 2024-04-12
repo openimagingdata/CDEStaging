@@ -14,18 +14,15 @@ Bones: No suspicious lytic or blastic lesions.
 ## Extracted Findings
 
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: present
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303\]
   - size: 3 mm
   - series image: 8:63
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: present
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303\]
   - size: 3 mm
   - series image: 8:74
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: present
-  - location: left upper lobe
+  - location: left upper lobe \[RID1327\]
   - size: 2 mm
   - series image: 8.85
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
@@ -38,22 +35,36 @@ Bones: No suspicious lytic or blastic lesions.
   - presence: absent
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- lymphadenopathy
+- lymphadenopathy \[RID28847\]
   - presence: absent
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
-- [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
+- [vessel calcification](../../definiti  - location: coronary artery \[RID486\], \[RID544\]ons/nuance/coronary_artery_calcification.json)
+
   - presence: absent
 - [calcification](../../definitions/hood/breast-calcification.md)
-  - presence: present
-  - location: right breast
+  - location: right breast \[RID29896\], \[RID29897\]
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
-  - presence: present
-  - location: right breast
+  - location: right breast \[RID29896\], \[RID29897\]
   - series image: 3:40
   - size: 0.9 cm
 - [lytic lesion](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- [blastic lesion](../../definitions/locations/bone_lesions_locations.txt)
+- [blastic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
-  
+
+## Compositve Negative Statements
+
+- Lungs
+  - No suspicious pulmonary nodules or consolidation. Central airways are patent.
+- Pleura
+  - No pleural effusion or pneumothorax.
+- Mediastinum
+  - Devices/Tubes/Lines: None.
+  - No thyroid nodules. Heart size is normal. No pericardial effusion. No coronary calcification.
+  - No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
+  - Unchanged 0.9 cm left breast mass (3:40).
+- Abdomen
+No abnormality detected in the visualized upper abdomen. Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
+- Bones
+  - No suspicious lytic or blastic lesions.

@@ -18,28 +18,23 @@ Bones: Visualized skeleton shows degenerative changes. Unchanged sclerotic lesio
 ## Extracted Findings
 
 - atelectasis
-  - presence: present
-  - side: bilatera
-  - location: subsegmental
-- scarring
-  - presence: present
   - side: bilateral
-  - location: apical pleural parenchymal
+  - location: subsegmental
+- [lung scarring](../../definitions/nuance/apical_pulmonary_scarring.json)
+  - side: bilateral
+  - location: apical pleural parenchymal \[RID1362\]
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: present
   - size: 2 mm
   - series image: 5:270,
-  - location:perifissural left upper lobee
+  - location: perifissural left upper lobe \[RID43260_RID5824\], \[RID1327\]
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: present
   - size: 3 mm
   - series image: 5:242
-  - location: perifissural left lower lobe
+  - location: perifissural left lower lobe \[RID43260_RID5824\], \[RID133\]
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: present
   - size: 3 mm
   - series image: 5:126
-  - location:perifissural left upper lobe
+  - location: perifissural left upper lobe
 - [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.md)
@@ -50,27 +45,35 @@ Bones: Visualized skeleton shows degenerative changes. Unchanged sclerotic lesio
   - presence: absent
 - [cardiac chamber enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - presence: present
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: mild
 - lymphadenopathy
-  - presence: present
   - location: hilar node
   - size: 9 mm
   - side: right
-- [post sutgical changes](../../definitions/hood/axillary-nodal-dissection.md)
-  - presence: present
-  - location: axillary lymph node
+- [post surgical changes](../../definitions/hood/axillary-nodal-dissection.md)
+  - location: axillary lymph node \[RID151\]
   - side: right
 - muscle atrophy
-  - presence: present
   - side: right
-  - location: latissimus dorsi muscle
+  - location: latissimus dorsi muscle \[RID13374_RID5825\]
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
-  - presence: present
-  - location: right lateral fourth rib
+  - location: right lateral fourth rib \[RID28591_RID6154_RID5825\]
   - series image: 5:180
-- [sclerotic lesion](../../definitions/locations/bone_lesions_locations.txt)
+- [sclerotic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 - [lytic lesion](../../definitions/hood/lytic-lesion.md)
   - presence: absent
+
+## Compositve Negative Statements
+
+- Lungs
+  - Central airways are patent.
+- Pleura
+  - No pleural effusion or pneumothorax.
+- Mediastinum
+  - Devices/Tubes/Lines: None.
+  - No thyroid nodules. Cardiac chambers within normal limits. No pericardial effusion.
+- Bones
+  - Unchanged sclerotic lesion in the right lateral fourth rib (5:180) since 6/14/2022. No evidence for any suspicious lytic or blastic lesions.

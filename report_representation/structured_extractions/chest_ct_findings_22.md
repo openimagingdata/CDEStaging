@@ -15,22 +15,33 @@ lesions.
 ## Extracted findings
 
 - [lobectomy](../../definitions/hood/lobectomy.md)
-  - Presence: Present
-  - Location: Right lower lobe
+  - Location: Right lower lobe \[RID1315\]
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence absent
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: Absent
+  - presence: absent
 - [pleural effusion](../../definitions/hood/pleural-effusion.md)
-  - presence: Absent
+  - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.md)
-  - presence: Absent
+  - presence: absent
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
-  - presence: Absent
-- lymphadenopathy
-  - presence: Absent
+  - presence: absent
+- lymphadenopathy \[RID28847\]
+  - presence: absent
 - [lytic lesion](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- [blastic lesion](../../definitions/locations/bone_lesions_locations.txt)
+- [blastic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
   
+## Compositve Negative Statements
+
+- Lungs and pleura
+  - No CT evidence of residual/recurrent disease. No pulmonary nodules. Airways intact. No pleural effusion or pneumothorax.
+- Mediastinum
+  - Devices/Tubes/LINES: None.
+  - Thyroid unremarkable. Heart is normal in size. There is no pericardial
+effusion. No mediastinal or hilar lymphadenopathy.
+- Abdomen
+  - Visualized upper abdomen unremarkable.
+- Bones
+  - Soft tissues unremarkable. No suspicious lytic or blastic bony lesions.
