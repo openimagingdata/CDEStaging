@@ -10,3 +10,10 @@
 - [cardiac chamber enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)
   - location: left ventricular
   - severity: mild
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
+  - appearance: ill-defined density
+- [airway trapping](../../definitions/upmedic/AirTrapping.cde.md)
+  - appearance: mosaic attenuation
+- [sebaceous cyst](../../definitions/upmedic/Cyst.cde.md)
+  - location: chest wall
+  - shape: oval

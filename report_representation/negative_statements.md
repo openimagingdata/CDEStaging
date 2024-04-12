@@ -21,6 +21,12 @@ are unremarkable
 
 - Normal. No abnormality detected in the visualized upper abdomen. Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
 
+- Adrenal glands unremarkable.
+
+- Soft tissues unremarkable.
+
+- Soft tissues otherwise unremarkable.
+
 ## Bone
 
 - Normal. No suspicious lytic or blastic lesions
@@ -36,6 +42,8 @@ lesion
 canal.
 
 ## Lung
+
+- No new focal consolidation.
 
 - No consolidation. The airways are clear
 
@@ -59,7 +67,13 @@ canal.
 
 - Airways intact.
 
+- While the cavitary component of the lesion has moderately decreased in size, the soft tissue component of the lesion is grossly unchanged.
+
+- Small right and trace left pleural effusions unchanged.
+
 ## Mediastinum
+
+- Devices/Tubes/LINES: None.
 
 - No chest wall mass. No thyroid nodules. Heart and pericardium are normal. No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes
 
@@ -98,7 +112,14 @@ canal.
 - The unopacified great mediastinal
 vessels are unremarkable.  
 
-- The imaged thyroid gland is unremarkable within limitations of overlying artifact. 
+- The imaged thyroid gland is unremarkable within limitations of overlying artifact.
+
+- The ill-defined left perihilar soft tissue density is unchanged
+
+- The great mediastinal vessels are unremarkable.
+
+- No pathologically enlarged mediastinal or hilar lymph nodes elsewhere.
+
 ## Pleura
 
 - Normal. No pleural effusion or pneumothorax
@@ -106,3 +127,7 @@ vessels are unremarkable.
 - There is no pneumothorax, pleural effusion, or suspicious focal air-space consolidation.
 
 - The pleural spaces are clear.
+
+- No pneumothorax is noted in either hemithorax.
+
+- There is no right pleural effusion.

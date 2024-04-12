@@ -1,6 +1,7 @@
 # Report text
 
 ```text
+Devices/Tubes/LINES: None.
 Lungs: Moderate centrilobular emphysema is noted with upper zone predominance.
 The patient is status post right middle lobectomy and left upper lobe wedge resection.
 There is a 1.2 x 1.2 cm soft tissue nodule at the wedge resection resection site,
@@ -31,56 +32,65 @@ of the concurrent CT abdomen and pelvis study.
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence absent
 -[emphysema](../../definitions/hood/emphysema.md)
-  - presence: Present
-  - severity: Moderate
+  - severity: moderate
   - type: centrilobular
   - predominancy: upper zone
 - [lobectomy](../../definitions/hood/lobectomy.md)
-  - presence: Present
-  - location: Right middle lobe, left upper lobe
+  - location: right middle lobe \[RID1310\], left upper lobe \[RID1327\]
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: Present
   - appearance: soft tissue
   - size: 1.2 x 1.2 cm
-  - location: wedge resection site (Left upper lobe)
+  - location: wedge resection site (Left upper lobe) \[RID1327\]
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
-  - presence: Present
   - pattern: Geographic densities
-  - location: medial aspect of the right lower lobe
+  - location: medial aspect of the right lower lobe \[RID1315\]
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
-  - presence: Present
-  - location: posteromedial aspect of the right lower lobe
+  - location: posteromedial aspect of the right lower lobe \[RID1315\]
   - chronicity: Chronic
   - size: 12 x 7 mm
   - series image: 3:49
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: Present
-  - appearance: Solid
+  - appearance: solid
   - size: 3 mm
   - series: image: 36
-  - Location: anterior aspect of the right upper lobe
+  - Location: anterior aspect of the right upper lobe \[RID1303\]
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
-  - presence: Present
   - appearance: ill-defined density
-  - location: posterior aspect of the right upper lobe
+  - location: posterior aspect of the right upper lobe \[RID1303\]
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
-  - presence: Absent
-- [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - presence: Present
-  - severity: Mild
-- lymphadenopathy
-  - presence: Absent
+  - presence: absent
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
+  - severity: mild
+- lymphadenopathy \[RID28847\]
+  - presence: absent
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
-  - presence: present
-  - severity: Mild-to-moderate
-  - location: spine
+  - severity: mild-to-moderate
+  - location: spine \[RID7741\]
 - [lytic lesion](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- [blastic lesion](../../definitions/locations/bone_lesions_locations.txt)
+- [blastic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 - [wedge compression fracture](../../definitions/hood/compression-fracture.md)
-  - chronicity: Chronic
-  - severity: Mild
-  - location: Anterior T12
+  - chronicity: chronic
+  - severity: mild
+  - location: anterior T12 \[RID29209\]
 - retropulsion into the spinal canal
-  - presence: Absent
+  - presence: absent
+
+## Compositve Negative Statements
+
+- Lungs
+  - There is a 1.2 x 1.2 cm soft tissue nodule at the wedge resection resection site,
+unchanged from 11/16/2023. While these are grossly unchanged from 11/16/2023,
+concern is raised for multifocal lung adenocarcinoma and atypical adenomatous hyperplasia.
+- Mediastinum
+  - Devices/Tubes/LINES: None.
+  - The heart is normal in size without pericardial effusion.
+  - There is no mediastinal or hilar lymphadenopathy.  The unopacified great mediastinal
+vessels are unremarkable.  
+  - The thyroid gland is grossly unremarkable.  
+- Bones
+  - Mild-to-moderate degenerative changes are noted in the visualized spine, but
+without suspicious osteolytic or osteosclerotic lesion.
+  - There is no retropulsion into the spinal canal.

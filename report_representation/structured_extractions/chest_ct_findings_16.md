@@ -15,7 +15,7 @@ MUSCULOSKELETAL: No lytic or blastic lesions.
 
 - port-A-Cath
   - presence: present
-  - location: distal SVC
+  - location: distal SVC \[RID1010\]
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
 - [pleural effusion](../../definitions/hood/pleural-effusion.md)
@@ -23,25 +23,36 @@ MUSCULOSKELETAL: No lytic or blastic lesions.
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
 - [axillary nodal dissection](../../definitions/hood/axillary-nodal-dissection.md)
-  - presence: present
+  - presence: present \[RID1517\]
 - surgical clips
-  - presence: present
-  - location: right axilla
-- lymphadenopathy
+  - location: right axilla \[RID1517\]
+- lymphadenopathy \[RID28847\]
   - presence: absent
-- [preicardial effusion](../../definitions/hood/pericardial-effusion.md)
+- [periicardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
 - [mastectomy](../../definitions/hood/mastectomy.md)
   - presence: present
-  - side: bilateral
-- [steatosis](../../definitions/hood/hepatic-steatosis.md)
-  - presence: present
+  - side: bilateral \[RID29897\], \[RID29896\], \[RID29900\], \[RID29899\]
+- [steatosis](../../definitions/hood/hepatic-steatosis.md) \[RID58\]
   - severity: mild
 - cholecystectomy
   - presence: present
 - [lytic lesion](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- [blastic lesion](../../definitions/locations/bone_lesions_locations.txt)
+- [blastic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
+
+## Compositve Negative Statements
+
+- Lungs
+  - No lung nodules or consolidation.
+- Pleura
+  - No pleural effusion.
+- Mediastinum
+  - Heart size is normal. No pericardial effusion.
+  - No enlarged supraclavicular, axillary, mediastinal or hilar lymph nodes.
+- Bones
+  - No lytic or blastic lesions.
+  

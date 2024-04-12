@@ -13,15 +13,15 @@ Bones/SOFT TISSUES: No suspicious osseous lesions. Multilevel degenerative chang
 
 ## Extracted Findings
 
-- [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.md)
+- [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.md) \[RID34918\]
   - presence: present
 - atelectasis
-  - presence: present
   - side: bilateral
+- lymphadenopathy \[RID28847\]
+  - presence: absent
 - [air trapping](../../definitions/upmedic/AirTrapping.cde.md)
-  - presence: present
   - side: bilateral
-  - location: lowe lobes
+  - location: lowe lobes \[RID1315\], \[RID1338\]
   - severity: mild
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
@@ -32,32 +32,44 @@ Bones/SOFT TISSUES: No suspicious osseous lesions. Multilevel degenerative chang
 - [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: present
-  - location: left fissure
+  - location: left fissure \[RID43260_RID5824\]
   - size: 3 mm
   - apperance: solid
 - [cardiac chamber enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)
-  - presence: absent
+  - presence: present
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
 - [esophagial wall thickening](../../definitions/hood/esophageal-wall-thickening.md)
-  - presence: present
   - location: distal esophagus
 - [adrenal nodule](../../definitions/hood/adrenal-nodule.md)
-  - presence: present
   - size: 2.1 cm
-  - location: left adrenal
+  - location: left adrenal \[RID30325\]
   - series image: 33 (601:69)
 - [cholelithiasis](../../definitions/hood/cholelithiasis.md)
   - presence: present
-- cholecystitis
+- [cholecystitis](../../definitions/hood/cholelithiasis.md)
   - presence: absent
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
 - [bone lesion](../../definitions/hood/sclerotic-lesion.md), [alternale](../../definitions/hood/lytic-lesion.md)
   - presence: absent
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
-  - presence: present
-  - location: thoracic spine
+  - location: thoracic spine \[RID7741\]
 - idiopathic skeletal hyperostosis
   - presence: present
+
+## Compositve Negative Statements
+
+- Lungs
+  - Central airways are patent. No consolidation or pulmonary edema.
+- Pleura
+  - No pleural effusion or pneumothorax.
+- Mediastinum
+  - Devices/Tubes/LINES: None.
+  - The suboptimally evaluated thyroid gland is unremarkable. No pericardial effusion.
+  - No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
+  - No chest wall mass.
+- Abdomen
+  - Cholelithiasis without evidence of cholecystitis.
+- Bones
+  - No suspicious osseous lesions.

@@ -14,14 +14,12 @@ BONES: Mild degenerative endplate changes are seen in the mid thoracic spine.
 ## Extracted Findings
 
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: present
   - size: up to 4mm
-  - location: left fissure
+  - location: left fissure \[RID43260_RID5824\]
   - series image: 3:32
 - groundglass opacities  
-  - presence: present
   - sevverity: mild
-  - location: left upper lobe, right middle lobe, and right lower lobe
+  - location: left upper lobe \[RID1327\], right middle lobe \[RID1310\], and right lower lobe \[RID1315\]
   - largest measurement: 14 mm TRV with a central solid appearing
   - series image: 3:46
 - [pleural effusion](../../definitions/hood/pleural-effusion.md)
@@ -29,34 +27,44 @@ BONES: Mild degenerative endplate changes are seen in the mid thoracic spine.
 - [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent  
 - [aortic arch calcification](../../definitions/nuance/thoracic_vessel_atherosclerotic_calcification.json)  
-  - presence: present
   - severity: mild  
-- dilation of aorta and pulmonary arteries
+- [dilation of aorta and pulmonary arteries](../../definitions/hood/pulmonary-artery-dilation.md)
   - presence: absent  
 - [valve calcification](../../definitions/nuance/mitral_or_aortic_valve_calcification.json)
-  - presence: present
-  - location: miltral valve  
+  - location: miltral valve \[RID1395\]
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent  
 - pericardial thickening
   - presence: absent  
-- [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - presence: present
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: mild-to-moderate
-- lymphadenopathy  
+- lymphadenopathy \[RID28847\]
   - presence: absent
-- [abdominal aorta calcification](../../definitions/hood/aortic-atherosclerosis.md)
-  - presence: present
+- [abdominal aorta calcification](../../definitions/hood/aortic-atherosclerosis.md), \[RID905\]
   - severity: moderate
 - [abdominal aorta aneurysm](../../definitions/hood/aortic-measurements.md)
   - presence: absent  
-- [adrenal glands nodularity](../../definitions/hood/adrenal-nodule.md)  
-  - presence: present
+- [adrenal glands nodularity](../../definitions/hood/adrenal-nodule.md), \[RID88\]
+  - presence: present \[RID88\]
   - severity: mild without discrete nodule
 - [breast calcifications](../../definitions/hood/breast-calcification.md)
   - presence: present
-  - side: bilateral
+  - side: bilateral \[RID29897\], \[RID29896\], \[RID29900\], \[RID29899\]
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
-  - presence: present
   - severity: mild
-  - location: mid thoracic spine
+  - location: thoracic spine \[RID7741\]
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json), \[RID246\]
+  - presence: absent
+
+## Compositve Negative Statements
+
+- Pleura
+  - Normal. No pleural effusion or pneumothorax.
+- Mediastinum
+  - Devices/Tubes/LINES: None.
+  - The aorta and pulmonary arteries are normal in caliber.
+  - There is no cardiomegaly or pericardial thickening.
+  - LYMPH NODES: Normal. No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
+- Abdomen
+  - There is mild nodularity to the adrenal glands without discrete nodule.

@@ -20,51 +20,57 @@ BONES: There are degenerative changes. No suspicious lytic or blastic lesions.
   - presence: absent
 - [lytic lesion](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- [blastic lesion](../../definitions/locations/bone_lesions_locations.txt)
+- [blastic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
-- [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.md)
-  - presence: present
+- [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.md) \[RID34918\]
   - severity: mild
 - atelectasis
-  - presence: present
   - side: bilateral
   - location: bases
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
 - [emphysema](../../definitions/hood/emphysema.md)
-  - presence: present
   - severity: mild
-  - location: centrilobular upper lobe
+  - location: centrilobular upper lobe \[RID1327\], \[RID1303\]
 - [calcified granuloma](../../definitions/hood/calcified-granuloma.md)
-  - presence: present
   - location: base
-  - side: right
+  - side: right \[RID1302\]
 - [cardiac chamber enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: present
 - [atherosclerotic calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - presence: present
   - severity: mild
-  - location: coronary
+  - location: coronary \[RID486\], \[RID544\]
 - [valve calcification](../../definitions/hood/annular-calcifications.md)
-  - presence: present
-  - location: aortic valve
+  - location: aortic valve \[RID1394\]
   - severity: mild
-- lymphadenopathy
+- lymphadenopathy \[RID28847\]
   - presence: absent
 - [adrenal nodule](../../definitions/hood/adrenal-nodule.md)
-  - presence: present
-  - location: left adrenal
+  - location: left adrenal \[RID30325\]
   - size: 1.9 cm
 - [adrenal nodule](../../definitions/hood/adrenal-nodule.md)
-  - presence: present
-  - location: right adrenal
+  - location: right adrenal \[RID30324\]
   - size: 8 mm
   - series image: 4:573
 - [pulmonary nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
 - pulmonary mass
   - presence: absent
+
+## Compositve Negative Statements
+
+- Lungs
+  - The central airways are patent. No focal consolidation. There are no discrete pulmonary nodules or masses.
+- Pleura
+  - The pleural spaces are clear.
+- Mediastinum
+  - Devices/Tubes/LINES: None.
+  - The thyroid gland is normal. Cardiac chambers are normal in size. There is no pericardial effusion.
+  - There is no size significant supraclavicular, axillary, mediastinal or hilar lymphadenopathy.
+  - No chest wall mass.
+- Abdomen
+  - The visualized liver, spleen, pancreas, and kidneys are normal.

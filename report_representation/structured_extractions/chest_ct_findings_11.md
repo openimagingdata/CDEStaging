@@ -20,28 +20,22 @@ BONES: No destructive bone lesions.
 ## Extracted Findings
 
 - [port with catheter](../../definitions/hood/tunneled-port-catheter.md)
-  - presence: present
-  - location: distal SVC
+  - location: distal SVC \[RID1010\]
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: present
-  - location: right middle lobe
+  - location: right middle lobe \[RID1310\]
   - size: 3 to 6 mm
   - series image: series 5, images 188, 202, 236 and 362
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: present
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303\]
   - size:3 to 4 mm
   - series image: series 5, images 226 and 232
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: present
-  - location: left lower lobe
+  - location: left lower lobe \[RID1338\]
   - size: 3 to 4 mm
   - series image: series 5, images 249, 254 and 274
-- [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.md)
-  - presence: present
+- [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.md) \[RID34918\]
   - severity: mild
 - [pleural effusion](../../definitions/hood/pleural-effusion.md)
-  - presence: present
   - severity: small
   - side: left
 - [thyroid nodules](../../definitions/hood/thyroid-nodule.md)
@@ -49,17 +43,26 @@ BONES: No destructive bone lesions.
 - [bone lesion](../../definitions/hood/sclerotic-lesion.md), [alternale](../../definitions/hood/lytic-lesion.md)
   - presence: absent
 - post operative changes
-  - presence: present
-  - location: chest wall
+  - location: chest wall \[RID2468\]
 - [nodular adrenal thickeing](../../definitions/hood/adrenal-thickening.md), [alternate](../../definitions/hood/thyroid-nodule.md)
-  - presence: present
-  - location: bilateral
+  - location: bilateral \[RID30324\], \[RID30325\]
 - lymphadenopathy
-  - presence: presnt
-  - location: paratracheal, subcarinal and bilateral hilar lymph nodes
+  - presence: present
+  - location: paratracheal \[RID1465\], subcarinal \[RID1482\] and bilateral hilar lymph nodes
   - size: up to 15 mm
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: abcent
-- [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - presence: present
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - severity: moderate
+  - location: coronary artery \[RID486\], \[RID544\]
+
+## Compositve Negative Statements
+
+- Lungs
+  - No new or enlarging pulmonary nodules.
+- Mediastinum
+  - No suspicious thyroid nodules. No pericardial effusion.
+- Abdomen
+  - Limited evaluation of the upper abdomen.
+- BONES
+  - No destructive bone lesions.

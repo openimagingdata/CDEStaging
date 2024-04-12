@@ -17,29 +17,36 @@ BONES: No suspicious bone lesions.
 ## Extracted Findings
 
 - atelectasis
-  - presence: present
   - side: bilateral
 - [pleural effusion](../../definitions/hood/pleural-effusion.md)
-  - presence: present
   - volume: small
 - [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent
 - [aortic dissection](../../definitions/hood/aortic-dissection.md), [alternate](../../definitions/hood/aortic-measurements.md)
-  - presence: present
-  - segment: ascending aorta
+  - segment: ascending aorta \[RID580\]
   - diameter: 64 mm
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
-  - presence: present
   - size: small
-- [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - presense: present
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - severity: moderate
+  - location: coronary artery \[RID486\], \[RID544\]
 - lymphadenopathy
-  - presence: present
   - size: 14 mm
-  - location: subcarinal
+  - location: subcarinal \[RID1482\]
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
-  - presence: present
+  - presence: present \[RID2468\]
 - [bone lesion](../../definitions/hood/sclerotic-lesion.md), [alternale](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-  
+
+## Compositve Negative Statements
+
+- Lungs
+  - Patent central airways.
+- Pleura
+  - New small lateral pleural effusions. No pneumothoraces.
+- Mediastinum
+  - No chest wall masses.
+  - Devices/tubes/LINES: None.
+  - Opacification of the right coronary artery is not well demonstrated, however there is normal cardiac motion artifact.
+- Bones
+  - No suspicious bone lesions.

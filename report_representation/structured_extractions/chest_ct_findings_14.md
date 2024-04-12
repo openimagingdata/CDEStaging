@@ -14,28 +14,22 @@ BONES: Median sternotomy. Degenerative changes of the spine. No suspicious lytic
 ## Extracted Findings
 
 - [stent](../../definitions/hood/arterial-stent.md)
-  - presence: present
-  - location: left subclavian
+  - location: left subclavian \[RID43896\]
 - post surgical changes
-  - presence: present
-  - location: left upper lobe of lung
+  - location: left upper lobe of lung \[RID1327\]
 - [lobectomy](../../definitions/hood/lobectomy.md)
-  - presence: present
-  - locaion: left upper lobe
+  - locaion: left upper lobe \[RID1327\]
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: present
   - size: 4 mm
-  - location: left lower lobe subpleural
+  - location: left lower lobe subpleural \[RID1338\]
   - series image: 4:192
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: present
   - size: 3 mm
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303\]
   - series image: 4:75
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
-  - presence: present
   - size: sub-5 mm
-  - location: subpleural right lower lobe
+  - location: subpleural right lower lobe \[RID1315\]
   - series image: 4:150
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
@@ -47,16 +41,15 @@ BONES: Median sternotomy. Degenerative changes of the spine. No suspicious lytic
   - presence: absent
 - [pericsrdial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
-- [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - presence: present
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: severe
-- lymphadenopathy
+- lymphadenopathy \[RID28847\]
   - presence: absent
 - [renal cyst](../../definitions/nuance/hepatic_and_renal_cysts.json)
-  - presence: present
-  - side: right
+  - side: right \[RID29662\]
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
-  - presence: absent
+  - presence: absent \[RID2468\]
 - [median sternotomy](../../definitions/hood/median-sternotomy.md)
   - presence: present
 - [lytic lesion](../../definitions/hood/lytic-lesion.md)
@@ -64,6 +57,20 @@ BONES: Median sternotomy. Degenerative changes of the spine. No suspicious lytic
 - [blastic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 _ [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
-  - presence: present
-  - location: spine
+  - location: spine \[RID7741\]
+
+## Compositve Negative Statements
+
+- Lungs
+  - Unchanged 4 mm left lower lobe subpleural nodule (4:192) and 3 mm right upper lobe nodule (4:75). No consolidation. The central airways are clear.
+- Pleura
+  - No pleural effusion or pneumothorax.
+- Mediastinum
+  - No chest wall mass.
+  - No thyroid nodules. No pericardial effusion. Severe amount of coronary calcifications.
+  - No new enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
+- Abdomen
+  - Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
+- Bones
+  - No suspicious lytic or blastic lesions.
   
