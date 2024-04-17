@@ -45,7 +45,8 @@ Bones: No suspicious lytic or blastic lesions. Similar multilevel degenerative c
   - presence: absent
 - [pulmonary embolism](../../definitions/hood/pulmonary-emboli.md)
   - presence: absent
-- [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery [RID486\], \[RID544\]
   - severity: mild
 - [valve calcification](../../definitions/hood/annular-calcifications.md)
   - aortic valve \[RID1394\]

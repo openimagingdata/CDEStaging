@@ -2,6 +2,10 @@
 
 ## Abdomen
 
+- No acute abnormality within the partially imaged upper abdomen.
+
+- Unchanged right adrenal thickening without discrete nodule.
+
 - Normal. No abnormality in the upper abdomen
 
 - The adrenal glands are unremarkable
@@ -41,7 +45,17 @@ lesion
 - There is no retropulsion into the spinal
 canal.
 
+- No acute or aggressive osseous abnormality.
+
 ## Lung
+
+- Clustered micronodules at the right lung apex, along with branching nodularity and calcification in the right lower lobe (3; 284) are unchanged.
+
+- Additional scattered faint nodules, for instance measuring 2-3 mm within the right lower lobe (3; 188 and 322) and left lung apex (3; 353) are unchanged.
+
+- Stable appearance along the suture
+
+- Stable appearance along the suture margin.
 
 - No new focal consolidation.
 
@@ -72,6 +86,11 @@ canal.
 - Small right and trace left pleural effusions unchanged.
 
 ## Mediastinum
+
+- Unchanged left atrial enlargement.
+- Unchanged 3.6 x 2.0 cm anterior mediastinal mass with calcifications.
+
+- Asymmetric prominence of breast tissue in the left upper outer quadrant/lower axillary region without discrete mass.
 
 - Devices/Tubes/LINES: None.
 

@@ -42,6 +42,22 @@
   - size:  2.1 cm
   - location: right posterior
 - mediastinal calcific lesion
-  - presence: present
 - nephrectomy
   - side: left
+- calcification
+  - location: left upper lobe
+- lung scarring
+  - side: bilateral
+  - location: base
+- enlarged mediastinal lymph nodes
+  - location: subcarinal
+- prominence of breast tissue
+  - presence: present
+  - symmetry: asymmetric
+  - location: lower axillary region
+- prominence of breast tissue
+  - presence: present
+  - symmetry: asymmetric
+  - location: left upper outer quadrant
+- gallstone
+  - number: multiple
