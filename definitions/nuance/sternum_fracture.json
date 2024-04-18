@@ -35,8 +35,12 @@
         {
           "name": "manubrium",
           "description": "RID2476"
+          "name": "manubrium",
+          "description": "RID2476"
         },
         {
+          "name": "sternum",
+          "description": "RID2473"
           "name": "sternum",
           "description": "RID2473"
         }
