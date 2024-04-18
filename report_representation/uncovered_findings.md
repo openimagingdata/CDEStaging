@@ -75,3 +75,6 @@
   - amount: trace
 - chest wall mass resection
   - location: right lower chest wall
+- bone heterogeneity
+  - location vertebral body and posterior rib
+  

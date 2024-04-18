@@ -56,7 +56,8 @@ BONES: Median sternotomy. Unchanged vertebral body and posterior rib heterogenei
   - presence: absent
 - [median sternotomy](../../definitions/hood/median-sternotomy.md)
   - presence: present
-???
+- bone heterogeneity
+  - location vertebral body and posterior rib
 
 ## Compositve Negative Statements
 
