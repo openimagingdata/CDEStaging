@@ -2,6 +2,8 @@
 
 ## Abdomen
 
+- Unchanged liver cysts and subcentimeter hypodensities are too small to characterize. Unchanged right upper pole renal cyst.
+
 - No acute abnormality within the partially imaged upper abdomen.
 
 - Unchanged right adrenal thickening without discrete nodule.
@@ -23,6 +25,8 @@ are unremarkable
 
 - There is moderate calcification of the visualized abdominal aorta without aneurysmal dilatation.
 
+- Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
+
 - Normal. No abnormality detected in the visualized upper abdomen. Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
 
 - Adrenal glands unremarkable.
@@ -32,6 +36,8 @@ are unremarkable
 - Soft tissues otherwise unremarkable.
 
 ## Bone
+
+- No suspicious lytic or blastic lesions. Multilevel degenerative changes of the spine with DISH changes.
 
 - Normal. No suspicious lytic or blastic lesions
 
@@ -47,7 +53,13 @@ canal.
 
 - No acute or aggressive osseous abnormality.
 
+- Unchanged vertebral body and posterior rib heterogeneity, likely related to prior radiation.
+
 ## Lung
+
+- A few of the nodules are unchanged
+
+- No new or enlarging pulmonary nodules. No new areas of consolidation.
 
 - Clustered micronodules at the right lung apex, along with branching nodularity and calcification in the right lower lobe (3; 284) are unchanged.
 
@@ -87,7 +99,14 @@ canal.
 
 ## Mediastinum
 
+- Resolution of previously demonstrated bilateral pleural effusions.
+
+- No coronary calcification.
+
 - Unchanged left atrial enlargement.
+
+- Resolution of air and fluid in the right supraclavicular region consistent with resolving postoperative seroma.
+
 - Unchanged 3.6 x 2.0 cm anterior mediastinal mass with calcifications.
 
 - Asymmetric prominence of breast tissue in the left upper outer quadrant/lower axillary region without discrete mass.

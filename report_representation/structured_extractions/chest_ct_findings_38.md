@@ -49,6 +49,8 @@ BONES: No suspicious osseous lesion.
   - size: 2.3 x 0.8 cm
   - side: right axillary lymph node \[RID1517_RID5825\]
   - series image: 2:40
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
+  - severity: moderate to large
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)

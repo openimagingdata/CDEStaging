@@ -12,4 +12,48 @@ BONES: No suspicious lytic or blastic lesions.
 ```
 
 ## Extracted findings
+
+- opacity
+  - appereance: ground glass
+  - size: 7 mm
+  - location: right lower lobe
+  - series image: 4:262
+- [nodule](../../definitions/hood/pulmonary-nodule.json)
+  - appereance: solid
+  - size: 3 mm
+  - location: left upper lobe
+  - size: 4:150
+  - [pleural effusion](../../definitions/hood/pleural-effusion.json)  
+  - severity: absent
+- [pneumothorax](../../definitions/hood/pneumothorax.md)
+  - presence: absent
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
+  - present: absent
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
+  - presence: absent
+- [calcified ligamentum arteriosum](../../definitions/hood/calcified-ligamentum-arteriosum.md)
+  - series image: 4:236
+- [residual thymus](../../definitions/hood/thymus.json)
+  - presence: present
+- lymphadenopathy
+  - presence: absent
+- [chest wall mass](../../definitions/hood/chest-wall.json)  
+  - presence: absent
+- [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
+  - presence: absent
+- [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
+  - presence: absent
+
 ## Compositve Negative Statements
+
+- Lungs
+  - The central airways are patent.
+  - No pleural effusion or pneumothorax.
+- Mediastinum
+  - The heart and great vessels are within normal limits in size. No pericardial effusion.
+  - No enlarged axillary, mediastinal, or hilar lymph nodes.
+- Abdomen
+  - No abnormality detected in the visualized upper abdomen.
+  - No chest wall mass.
+- Bone
+  - No suspicious lytic or blastic lesions.

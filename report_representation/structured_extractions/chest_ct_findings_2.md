@@ -48,7 +48,7 @@ BONES: No suspicious lytic or blastic lesions. Partially imaged thoracolumbar sp
 - [blastic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 - [compression deformity](../../definitions/hood/compression-fracture.md)
-  - location: T9
+  - location: T9 \[RID29206\]
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - location: spine \[RID7741\]
 - multilevel augmentations

@@ -19,3 +19,5 @@
   - shape: oval
 - [Emphysema](../../definitions/hood/emphysema.json)
   - pattern: paraseptal
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
+  - shape: triangular

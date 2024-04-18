@@ -17,7 +17,7 @@ BONES: Normal. No suspicious lytic or blastic lesions.
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
 - [calcified granuloma](../../definitions/hood/calcified-granuloma.md)
-  - location: left lower lobe \[RID133\]
+  - location: left lower lobe \[RID1338\]
 - [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.md)

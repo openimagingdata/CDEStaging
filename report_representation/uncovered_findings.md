@@ -67,3 +67,11 @@
   - location: right upper lobe
 - healed fraxture deformity
   - location: right clavicle
+- atrophic kidney
+- DISH changes
+- aspirated secretions in trachea
+  - amount: trace
+- aspirated secretions in trachea
+  - amount: trace
+- chest wall mass resection
+  - location: right lower chest wall
