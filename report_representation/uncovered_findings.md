@@ -61,3 +61,9 @@
   - location: left upper outer quadrant
 - gallstone
   - number: multiple
+- chest port
+  - location: left atrium
+- volume loss
+  - location: right upper lobe
+- healed fraxture deformity
+  - location: right clavicle

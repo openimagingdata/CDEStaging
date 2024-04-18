@@ -21,10 +21,10 @@ Bones: No acute or aggressive osseous abnormality. Multilevel moderate to severe
 
 - pleural scarring \[RID1362\]
   - side: bilateral
-  - location: apex
+  - location: apex \[RID28584\]
 - parenchymal scarring
   - side: bilateral
-  - location: apex
+  - location: apex \[RID28584\]
 - subpleural reticulation
   - severity: mild
   - distribution: scattered
