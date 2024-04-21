@@ -15,14 +15,12 @@ BONES: No evidence of lytic or blastic lesions
 ## Extracted findings
 
 - [emphysema](../../definitions/hood/emphysema.json)  
-  - Location: posterior right upper lobe  
+  - Location: posterior right upper lobe \[RID1303\]
 - [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.json)
   - presence: present
 - [bronchial atresia](../../definitions/hood/bronchial-atresia.md)
   - presence: present
 - [bronchiectasis](../../definitions/hood/bronchiectasis.json)  
-  - presence: present
-- [bronchial atresia](../../definitions/hood/bronchial-atresia.md)  
   - presence: present
 - [pleural effusion](../../definitions/hood/pleural-effusion.md)  
   - presence: absent  

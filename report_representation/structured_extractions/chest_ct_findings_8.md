@@ -34,7 +34,7 @@ Bones: Visualized skeleton shows degenerative changes. Unchanged sclerotic lesio
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 3 mm
   - series image: 5:126
-  - location: perifissural left upper lobe
+  - location: perifissural left upper lobe \[RID43260_RID5824\], \[RID1327\]
 - [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.md)

@@ -1,4 +1,3 @@
-- lymphadenopathy
 - multilevel augmentations
   - location: thoracic spine
 - atelectasis
@@ -65,7 +64,7 @@
   - location: left atrium
 - volume loss
   - location: right upper lobe
-- healed fraxture deformity
+- healed fracture deformity
   - location: right clavicle
 - atrophic kidney
 - DISH changes

@@ -16,12 +16,12 @@ BONES: No suspicious lytic or blastic lesions.
 - opacity
   - appereance: ground glass
   - size: 7 mm
-  - location: right lower lobe
+  - location: right lower lobe \[RID1315\]
   - series image: 4:262
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - appereance: solid
   - size: 3 mm
-  - location: left upper lobe
+  - location: left upper lobe \[RID1327\]
   - size: 4:150
   - [pleural effusion](../../definitions/hood/pleural-effusion.json)  
   - severity: absent

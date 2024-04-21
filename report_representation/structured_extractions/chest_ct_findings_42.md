@@ -15,7 +15,7 @@ BONES: Severe degenerative changes of the visualized spine with multilevel mild 
 ## Extracted findings
 
 - atelectasis
-  - location: right middle and lower lobes, left lower lobe
+  - location: right middle lobe \[RID1310\] and right lower lobe \[RID1315\], left lower lobe \[RID1338\]
 - opacity
   - appereance: groundglass
   - location: right lower lobe \[RID1315\], right middle lobe \[RID1310\] and paravertebral location

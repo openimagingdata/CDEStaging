@@ -54,7 +54,7 @@ BONES: No new suspicious lytic or blastic lesions. Partially visualized anterior
 - [thoracotomy](../../definitions/nuance/post-thoracotomy_defects_in_the_chest_wall.json)
   - side: left
 - [fluid collection likely seroma](../../definitions/hood/chest-wall-fluid-collection.md)
-  - location: right chest wall surgical site
+  - location: right chest wall surgical site \[RID2468\]
   - size: 8.5 x 2.6 cm
   - series image: 3:80
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
