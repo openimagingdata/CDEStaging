@@ -55,7 +55,7 @@ Bones: No suspicious lytic or blastic lesions. Multilevel degenerative changes o
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - No suspicious pulmonary nodules or consolidation. Patent central airways.

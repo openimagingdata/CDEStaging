@@ -52,7 +52,7 @@ BONES: No lytic or blastic lesions. Degenerative bone and spine disease. Status 
 - lymphadenopathy
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
 Unchanged 3 mm density in the right upper lobe (703; 261) which might represent a lung nodule versus persistent mucous bronchial plugging. No new/enlarging pulmonary nodules or consolidation. The major airways are clear.

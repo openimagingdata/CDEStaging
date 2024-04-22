@@ -60,7 +60,7 @@ Bones/SOFT TISSUES: No suspicious osseous lesions. Multilevel degenerative chang
 - DISH changes
   - presence: present
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - Central airways are patent. No consolidation or pulmonary edema.

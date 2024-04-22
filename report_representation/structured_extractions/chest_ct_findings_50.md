@@ -41,7 +41,7 @@ BONES: No new suspicious lytic or blastic lesions. New sclerosis right sixth rib
 - healed fraxture deformity
   - location: right clavicle \[RID41740\]
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - Unchanged 4 mm groundglass nodule in the right upper lobe (6:145). No new suspicious pulmonary nodules or consolidation. The central airways are clear.

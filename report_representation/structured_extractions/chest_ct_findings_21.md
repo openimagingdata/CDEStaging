@@ -51,7 +51,7 @@ BONES: There are lytic metastases in the sternum best seen on image 82 in series
   - location: right breast \[RID29896:\], \[RID29899\]
   - severity: mild
   
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - No pulmonary nodules or consolidation. The airways are clear.

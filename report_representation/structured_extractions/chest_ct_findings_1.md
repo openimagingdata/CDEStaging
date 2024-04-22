@@ -37,7 +37,7 @@ BONES: Normal. No suspicious lytic or blastic lesions.
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
 No consolidation. The airways are clear.

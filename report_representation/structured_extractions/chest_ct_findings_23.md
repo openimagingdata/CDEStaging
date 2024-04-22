@@ -78,7 +78,7 @@ of the concurrent CT abdomen and pelvis study.
 - retropulsion into the spinal canal
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - There is a 1.2 x 1.2 cm soft tissue nodule at the wedge resection resection site,

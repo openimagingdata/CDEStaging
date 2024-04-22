@@ -59,7 +59,7 @@ BONES: Median sternotomy. Degenerative changes of the spine. No suspicious lytic
 _ [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - location: spine \[RID7741\]
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - Unchanged 4 mm left lower lobe subpleural nodule (4:192) and 3 mm right upper lobe nodule (4:75). No consolidation. The central airways are clear.

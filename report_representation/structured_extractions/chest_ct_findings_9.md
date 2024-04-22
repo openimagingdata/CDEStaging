@@ -61,7 +61,7 @@ BONES: There are degenerative changes. No suspicious lytic or blastic lesions.
 - pulmonary mass
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - The central airways are patent. No focal consolidation. There are no discrete pulmonary nodules or masses.

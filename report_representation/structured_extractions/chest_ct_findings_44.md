@@ -44,7 +44,7 @@ BONES: No suspicious lytic or blastic lesions.
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - The central airways are patent.

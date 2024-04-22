@@ -60,7 +60,7 @@ No suspicious lytic or blastic bony lesions. No axillary lymphadenopathy.
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs and pleura
   - Airways intact.

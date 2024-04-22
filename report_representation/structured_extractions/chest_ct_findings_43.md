@@ -48,7 +48,7 @@ BONES: No suspicious lytic or blastic lesions.
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
  There are no new or concerning lung nodules.

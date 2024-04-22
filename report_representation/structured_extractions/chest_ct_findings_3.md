@@ -47,7 +47,7 @@ BONES: Again note is made of multifocal predominantly sclerotic osseous metastas
   - series image: 7:314
   - location: T11 \[RID29208\]
   
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - Scattered lung nodules are essentially unchanged. No new suspicious discrete pulmonary nodules or consolidation.

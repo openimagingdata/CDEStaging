@@ -82,7 +82,7 @@ BONES: Severe degenerative changes of the visualized spine with multilevel mild 
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - lungs
   - Central airways are patent.

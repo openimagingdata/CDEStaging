@@ -38,7 +38,7 @@ BONES: No suspicious bone lesions.
 - [bone lesion](../../definitions/hood/sclerotic-lesion.md), [alternale](../../definitions/hood/lytic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - Patent central airways.

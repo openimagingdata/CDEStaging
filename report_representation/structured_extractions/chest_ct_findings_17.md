@@ -51,7 +51,7 @@ BONES: Mild multilevel degenerative changes of the thoracolumbar spine. No suspi
 - [blastic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - The central airways are patent.

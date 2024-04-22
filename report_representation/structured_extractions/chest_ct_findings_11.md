@@ -56,7 +56,7 @@ BONES: No destructive bone lesions.
   - severity: moderate
   - location: coronary artery \[RID486\], \[RID544\]
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - No new or enlarging pulmonary nodules.

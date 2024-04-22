@@ -78,7 +78,7 @@ BONES: No suspicious lytic or blastic lesions. Postsurgical left 5th rib defect.
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
   
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - The nonresected central airways are patent.

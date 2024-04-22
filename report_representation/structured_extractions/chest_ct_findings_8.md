@@ -66,7 +66,7 @@ Bones: Visualized skeleton shows degenerative changes. Unchanged sclerotic lesio
 - [lytic lesion](../../definitions/hood/lytic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - Central airways are patent.

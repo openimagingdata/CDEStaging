@@ -111,7 +111,7 @@ Bones: No acute or aggressive osseous abnormality. Multilevel moderate to severe
   - specific structure: thoracolumbar
   - distribution: multilevel
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - Central airways are patent.

@@ -47,8 +47,7 @@ BONES: No suspicious lytic or blastic lesions. Multilevel degenerative changes o
 - DISH changes
   - presence: present
 
-
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - No suspicious pulmonary nodules. Scattered calcified granulomas. The central airways are patent.
@@ -61,3 +60,4 @@ BONES: No suspicious lytic or blastic lesions. Multilevel degenerative changes o
   - No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
 - Bones
   - No suspicious lytic or blastic lesions. Multilevel degenerative changes of the spine with DISH changes.
+  

@@ -53,7 +53,7 @@ Bones: No suspicious lytic or blastic lesions.
 - [blastic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - No suspicious pulmonary nodules or consolidation. Central airways are patent.

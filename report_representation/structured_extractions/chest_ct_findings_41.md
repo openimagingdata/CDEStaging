@@ -52,7 +52,7 @@ BONES: No suspicious lytic or blastic lesions. Status post clamshell sternotomy
 - [sternotomy changes](../../definitions/hood/median-sternotomy.md)
   - presence: present
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - No evidence of bronchial stenosis.

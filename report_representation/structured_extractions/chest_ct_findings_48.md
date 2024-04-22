@@ -67,7 +67,7 @@ BONES: No new suspicious lytic or blastic lesions. Partially visualized anterior
 - [degenerative changes](../../definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
   - location: spine \[RID7741\]
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - A few of the nodules are unchanged

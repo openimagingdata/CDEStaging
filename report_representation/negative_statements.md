@@ -1,4 +1,4 @@
-# Compositve Negative Statements
+# Composite Negative Statements
 
 ## Abdomen
 

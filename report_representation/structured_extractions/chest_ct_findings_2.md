@@ -58,7 +58,7 @@ BONES: No suspicious lytic or blastic lesions. Partially imaged thoracolumbar sp
 - [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: absent
   
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Mediastinum
   - Devices/Tubes/LINES: None.

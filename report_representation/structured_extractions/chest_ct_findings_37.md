@@ -39,7 +39,7 @@ BONES: No evidence of lytic or blastic lesions
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Pleura
   - No evidence of pleural effusion or pneumothorax the heart

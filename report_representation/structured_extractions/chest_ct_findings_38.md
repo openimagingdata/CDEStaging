@@ -58,7 +58,7 @@ BONES: No suspicious osseous lesion.
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - Unchanged pulmonary nodules, for example 2 mm left upper lobe nodule (10:71) and 2 mm right upper lobe nodule (10:59).

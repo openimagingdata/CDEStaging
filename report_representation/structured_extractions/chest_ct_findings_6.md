@@ -63,7 +63,7 @@ Bones: No suspicious lytic or blastic lesions. Similar multilevel degenerative c
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - location: spine \[RID7741\]
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - Unchanged 9 mm left upper lobe groundglass nodule (12:94), a 5 mm left upper lobe nodule (12:85), and a 4 mm left upper lobe nodule (12:50). No new suspicious pulmonary nodules or consolidation. Patent central airways.

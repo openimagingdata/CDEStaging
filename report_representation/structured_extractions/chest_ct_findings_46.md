@@ -59,7 +59,7 @@ BONES: Median sternotomy. Unchanged vertebral body and posterior rib heterogenei
 - bone heterogeneity
   - location vertebral body and posterior rib
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Pleura
   - No pneumothorax.

@@ -62,7 +62,7 @@ suspicious lytic or blastic bony lesions.
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs and pleura
   - No pleural effusion or pneumothorax.
