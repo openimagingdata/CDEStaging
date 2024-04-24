@@ -179,7 +179,7 @@
 ## Pulmonary
 
 - ⭐ [Calcified granulomas](definitions/hood/calcified-granuloma.md)
-- ⭐ [Pulmonary nodules (solitary, multiple)](definitions/upmedic/NodularPattern.cde.md)
+- ⭐ [Pulmonary nodule (solitary)](definitions/hood/pulmonary-nodule-harmonized.md)
   - [RDES195: Pulmonary Nodule](https://radelement.org/home/sets/set/RDES195)  
   - [RDES208: Fleischner](https://radelement.org/home/sets/set/RDES208)  
   - [RDES99: Incidental Pulmonary Nodules](https://radelement.org/home/sets/set/RDES99)  
@@ -229,17 +229,17 @@
 ### Shoulder girdle
 
 - [Clavicle fracture](definitions/hood/clavicle-fracture.md)
-- Acromioclavicular joint degenerative changes
+- [Acromioclavicular joint degenerative changes](definitions/hood/acromioclavicular-joint-degenerative-changes.md)
 - [Glenohumeral joint degenerative changes](definitions/hood/glenohumeral-joint-degenerative-changes.md)
 - [Glenohumeral joint effusion](definitions/hood/glenohumeral-joint-effusion.md)
 - [Glenohumeral joint dislocation](definitions/hood/glenohumeral-joint-dislocation.md)
-- Proximal humerus fracture
+- [Proximal humerus fracture](definitions/hood/proximal-humerus-fracture.md)
 - [Hill-Sachs fracture](definitions/hood/hill-sachs-fracture.md)
 - [Glenoid fracture (Bankart)](definitions/hood/glenoid-fracture.md)
-- Scapular fracture
-- Rotator cuff calcification
-- Osteonecrosis of humeral head
-- Tumoral calcinosis
+- [Scapular fracture](definitions/hood/scapular-fracture.md)
+- [Rotator cuff calcification](definitions/hood/rotator-cuff-calcification.md)
+- [Osteonecrosis of humeral head](definitions/hood/osteonecrosis-humeral-head.md)
+- [Tumoral calcinosis of the shoulder](definitions/hood/tumoral-calcinosis-shoulder.md)
 
 #### Post-surgical changes of the shoulder
 
@@ -255,9 +255,9 @@
 ### Rib cage
 
 - Ribs
-  - ⭐ [Rib fracture](definitions/hood/bones-and-thoracic-cage.md)
-  - [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
-  - Postsurgical changes of VATS and/or thoracotomy (partial rib resection or rib widening)
+  - ⭐ [Rib fracture](definitions/hood/bones-and-thoracic-cage.md) | [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
+  - Postsurgical changes of VATS
+  - Postsurgical changes of thoracotomy (partial rib resection or rib widening)
   - Osseous bridging
   - Congenital fusion
   - ORIF
@@ -267,7 +267,7 @@
   - [Healed rib fracture](definitions/hood/healed-rib-fracture.md)  
 - Sternum
   - [Median sternotomy](definitions/hood/median-sternotomy.md)
-  - Pectus excavatum
+  - [Pectus excavatum](definitions/hood/pectus-excavatum.md)
   - Pectus carinatum
   - - ⭐ [Sternal fracture](definitions/hood/sternal-fracture.md)
 - Sternoclavicular joint degenerative changes
