@@ -19,7 +19,7 @@ BONES: Degenerative changes no evidence of lytic or blastic lesions.
   - appereance: tree-in-bud
 - opacities
   - pattern: groundglass
-  - location: right upper lobe and peripherally at left lung base
+  - location: right upper lobe \[RID1303\] and peripherally at left lung base
 - [multifocal consolidation](../../definitions/smartreporting/consolidation.txt)
   - location: right lung base
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)

@@ -16,7 +16,7 @@ Bones/SOFT TISSUES: No suspicious osseous lesions. Multilevel degenerative chang
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - appereance; solid
   - size: 2mm
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303\]
   - series image: 3:225
 - [calcified granuloma](../../definitions/nuance/calcified_pulmonary_granuloma.json)
   - presence: present
@@ -31,14 +31,14 @@ Bones/SOFT TISSUES: No suspicious osseous lesions. Multilevel degenerative chang
 - [pericardial fluid](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - location: coronary artery [RID486\], \[RID544\]
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: mild
 - [esophageal wall thickening](../../definitions/hood/esophageal-wall-thickening.json)
-  - location: distal
+  - location: distal esophagus \[RID95\]
 - lymphadenopathy
   - presence: absent
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
-  - location: thoracic spine
+  - location: thoracic spine \[RID7741\]
 - bone lesion
   - presence: absent
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)

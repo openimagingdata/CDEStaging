@@ -13,20 +13,20 @@ BONES: No suspicious lytic or blastic lesions.
 ## Extracted findings
 
 - [lobectomy](../../definitions/hood/lobectomy.json)
-  - location: right lower lobe
+  - location: right lower lobe \[RID1315\]
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - size: 5 mm
-  - location: subpleural nodule in the basilar left lower lobe
+  - location: subpleural nodule in the basilar left lower lobe \[ RID1338\]
   - image: 359
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - size: 2 to 3 mm
-  - location: right middle lobe
+  - location: right middle lobe \[RID1310\]
   - image: 359
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - size: 2 to 3 mm
-  - location: left major fissure
+  - location: left major fissure \[RID43260_RID5824\]
   - image: 348
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - volume: trace

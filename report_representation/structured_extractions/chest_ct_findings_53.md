@@ -18,23 +18,23 @@ BONES: No suspicious lytic or blastic lesions.
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - size: 3 mm
   - series image: 3:167
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303\]
 - [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)  
   - presence: absent
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - apperance: calcified
-  - location: left lower lobe
+  - location: left lower lobe \[RID1338\]
   - series image: 3:270
 - nodular atelectasis
   - size: 4mm
-  - location: subpleural right lower lobe
+  - location: subpleural right lower lobe \[RID1315\]
   - series image: 3:302
 - band like atelectasis
   - location: lung bases
 - thyroid calcification
-  - location: left thyroid
+  - location: left thyroid \[RID7579\]
 - [esophageal diverticulum(Killian-Jamieson diverticulum)](../../definitions/hood/esophageal-diverticulum.md)
   - size: 14 x 16 mm
 - [mediastinal lymph nodes](../../definitions/hood/mediastinal-lymph-nodes.md)

@@ -22,9 +22,9 @@ BONES: Skeletal degenerative changes without suspicious lytic or blastic lesions
 - [thickening of interlobular septae](../../definitions/hood/interlobular-septal-thickening.json)
   - presence: present
 - atelectasis
-  - location lingula, right middle lobe, and lower lobes
+  - location: lingula \[RID1333\], right middle lobe \[RID1310\], and right lower lobe \[RID1315\]
 - [granuloma](../../definitions/nuance/calcified_pulmonary_granuloma.json)
-  - location: Left lower lobe
+  - location: Left lower lobe \[RID1338\]
   - series image: 2:175
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - size: 0.9 cm
@@ -41,7 +41,7 @@ BONES: Skeletal degenerative changes without suspicious lytic or blastic lesions
 - [main pulmonary artery dilation](../../definitions/hood/pulmonary-artery-dilation.json)
   - measurement: 3.7 cm
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - location: coronary artery
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: severe
 - lymphadenopathy
   - presence: absent
@@ -52,20 +52,20 @@ BONES: Skeletal degenerative changes without suspicious lytic or blastic lesions
 - surgical clips
   - location: right axilla
 - [fluid collection](../../definitions/hood/chest-wall-fluid-collection.md)
-  - location: right anterior chest wall
+  - location: right anterior chest wall \[RID29859\]
   - probable reason: corresponding to removed IMPELLA catheter
 - gas collection
-  - location: right anterior chest wall
+  - location: right anterior chest wall \[RID29859\]
   - probable reason: corresponding to removed IMPELLA catheter
 - skin defect
-  - location: right anterior chest wall
+  - location: right anterior chest wall \[RID29859\]
   - probable reason: corresponding to removed IMPELLA catheter
   - size: 3.9 cm
   - series image: 2:14
 - postsurgical change
   - attribution: trace residual fat stranding
 - subcutaneus nodule
-  - location: upper right anterior chest wall
+  - location: upper right anterior chest wall \[RID29859\]
   - probable reason: prior port or catheter placement
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: present

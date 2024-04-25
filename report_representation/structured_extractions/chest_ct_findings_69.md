@@ -16,23 +16,23 @@ BONES: There are mild degenerative changes within the thoracic spine . No suspic
 - [emphysema](../../definitions/hood/emphysema.json)
   - severity: mild
   - type: centrilobular
-  - location: upper lobe
+  - location: upper lobe \[RID1303\], \[RID1327\]
 - opacity
-  - location: left lower lobe
+  - location: left lower lobe \[RID1338\]
   - size: 2 mm
   - series image: 4:196
 - opacity
   - size: 4 mm
-  - location: right lower lobe
+  - location: right lower lobe \[RID1315\]
   - series image: 4:328
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent
 - calcification of thyroid nodule
-  - location: left thyroid
+  - location: left thyroid \[RID7579\]
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - location: coronary artery
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: mild
 - lymphadenopathy
   - presence: absent

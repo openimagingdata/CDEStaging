@@ -14,19 +14,19 @@ BONES: No suspicious osseous lesion.
 ## Extracted findings
 
 - [ij port catheter](../../definitions/hood/tunneled-port-catheter.json)
-  - ternimation: svc
+  - ternimation: svc \[RID1010\]
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - appearance: tree-in-bud
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303\]
   - series image: 6:217
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - size: 6 mm
-  - location; right lower lobe
+  - location: right lower lobe \[RID1315\]
   - series image: 6:312
 - [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.json)
   - presence: present
 - [endobronchial mucus](../../definitions/hood/airway-mucus-plugging.json)
-  - location: most severe in right upper lobe
+  - location: most severe in right upper lobe \[RID1303\]
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.md)
@@ -45,7 +45,7 @@ BONES: No suspicious osseous lesion.
   - presence: present
 - [gynecomastia](../../definitions/hood/gynecomastia.json)
   - severity: moderate
-  - side: bilateral
+  - side: bilateral \[RID29897\], \[RID29896\], \[RID29900\], \[RID29899\]
 - [bone lesion](../../definitions/hood/lytic-lesion.md), [alternate](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 

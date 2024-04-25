@@ -14,9 +14,9 @@ BONES: Sternotomy wires are intact. There are degenerative changes without suspi
 ## Extracted findings
 
 - [leadless pacemaker](../../definitions/hood/leadless-pacemaker.md)
-  - location: right ventricule
+  - location: right ventricule \[RID1389\]
 - [leadless pacemaker](../../definitions/hood/leadless-pacemaker.md)
-  - location: posterior RIGHT hepatic lobe, most likely in right hepatic vein
+  - location: posterior right hepatic lobe \[RID74\], most likely in right hepatic vein \[RID1179\]
 - [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.json)
   - severity: mild
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
@@ -26,7 +26,7 @@ BONES: Sternotomy wires are intact. There are degenerative changes without suspi
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: present
 - opacity
-  - location: bilateral lower lobes
+  - location: bilateral lower lobes \[RID1315\], \[RID1338\]
 - [thickening of interlobular septae](../../definitions/hood/interlobular-septal-thickening.json)
   - severity: mild
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
@@ -37,9 +37,9 @@ BONES: Sternotomy wires are intact. There are degenerative changes without suspi
 - [cardiac chamber enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: present
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - location: coronary artery
+  - location: coronary artery \[RID486\], \[RID544\]
 - vessel atherosclerotic calcification
-  - location: thoracic aorta and arch vessels
+  - location: thoracic aorta \[RID879\]and arch vessels \[RID581\]
 - [dilated fluid-filled esophagus](../../definitions/hood/esophageal-fluid.md), [alternate](../../definitions/hood/esophageal-dilation.md)
   - presence: present
 - [thyroid nodule](../../definitions/hood/thyroid-nodule.md)
@@ -48,7 +48,7 @@ BONES: Sternotomy wires are intact. There are degenerative changes without suspi
   - presence: absent
 - [gynecomastia](../../definitions/hood/gynecomastia.json)
   - severity: mild
-  - silde: bilateral
+  - silde: bilateral \[RID29897\], \[RID29896\], \[RID29900\], \[RID29899\]
 - sternotomy wires
   - presence: present
 [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
@@ -58,7 +58,7 @@ BONES: Sternotomy wires are intact. There are degenerative changes without suspi
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 - [bone fractures](../../definitions/hood/rib-fracture.md)
-  - location: left 10th rib and anterior right eighth rib
+  - location: left 10th rib \[RID28591_RID6160_RID5824\] and anterior right eighth rib \[RID28591_RID6158_RID5825\]
   
 ## Composite Negative Statements
 

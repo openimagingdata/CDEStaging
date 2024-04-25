@@ -17,10 +17,10 @@ BONES: Degenerative change thoracic spine. Glenohumeral joint degenerative chang
   - size: tiny
 - atelectasis
   - severity: mild
-  - location: subsegmental atelectasis in the lingula
+  - location: subsegmental atelectasis in the lingula \[RID1333\]
 - fissural nodularity
   - severity: mild
-  - location: right minor fissure
+  - location: right minor fissure \[RID43258\]
   - series image: 10:189
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
@@ -35,9 +35,9 @@ BONES: Degenerative change thoracic spine. Glenohumeral joint degenerative chang
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
 [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
-  - location: thoracic spine
+  - location: thoracic spine \[RID7741\]
 [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
-  - location: Glenohumeral joint degenerative change with loose body on the right
+  - location: Glenohumeral joint degenerative change with loose body on the right \[RID1905\]
 - [bone lesion](../../definitions/hood/lytic-lesion.md), [alternate](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 

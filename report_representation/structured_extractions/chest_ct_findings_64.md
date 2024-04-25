@@ -11,7 +11,7 @@ Tiny sclerotic foci in the left humeral head, likely bone islands. No gross dest
 ## Extracted findings
 
 - [calcified granuloma](../../definitions/nuance/calcified_pulmonary_granuloma.json)
-  - location: right lower lobe
+  - location: right lower lobe \[RID1315\]
   - series image: 5:272
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
@@ -26,7 +26,7 @@ Tiny sclerotic foci in the left humeral head, likely bone islands. No gross dest
 - [hepatic steatosis](../../definitions/hood/hepatic-steatosis.json)
   - presence: present
 - sclerotic foci likely bone island
-  - location: humeral head
+  - location: humeral head \[RID2909\]
 - [bone lesion](../../definitions/hood/lytic-lesion.md), [alternate](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 

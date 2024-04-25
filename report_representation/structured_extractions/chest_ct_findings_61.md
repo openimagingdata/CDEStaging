@@ -28,7 +28,7 @@ BONES: Mild multilevel degenerative changes in the thoracic spine.. No suspiciou
 - [pericardial fluid](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
 - [vessel calcification](../../definitions/nuance/coronary_calcifications.txt)
-  - location: left anterior descending artery
+  - location: left anterior descending artery \[RID490\]
 - lymphadenopathy
   - presence: absent
 - hyperattenuation in the stomach, likely ingested material
@@ -43,7 +43,7 @@ BONES: Mild multilevel degenerative changes in the thoracic spine.. No suspiciou
   - presence: absent
 [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - severity: mild
-  - location: thoracic spine
+  - location: thoracic spine \[RID7741\]
 
 ## Composite Negative Statements
 

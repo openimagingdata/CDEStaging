@@ -16,7 +16,7 @@ BONES: No suspicious lytic or blastic lesions. Multilevel degenerative changes o
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - presence: absent
 - atelectasis
-  - right lower lobe
+  - location: right lower lobe \[RID1315\]
 - [esophagectomy](../../definitions/hood/esophagectomy.md)
   - presence: present
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
@@ -30,16 +30,16 @@ BONES: No suspicious lytic or blastic lesions. Multilevel degenerative changes o
 - [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - presence: absent
 - [soft tissue opacity likeyly thymic tissue](../../definitions/nuance/residual_thymus.json)
-  - location: anterior mediastinum
+  - location: anterior mediastinum \[RID1384\]
   - severity: mild
 - [diaphragmatic lymph node](../../definitions/hood/diaphragmatic-lymph-node.md)
-  - location: right anterior diaphragm
+  - location: right anterior diaphragm \[RID1526\]
   - series image: 2:82
 - [gynecomastia](../../definitions/hood/gynecomastia.json)
   - severity: mild
-  - side: bilateral
+  - side: bilateral \[RID29897\], \[RID29896\], \[RID29900\], \[RID29899\]
 [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
-  - location: thoracic spine
+  - location: thoracic spine \[RID7741\]
   - severity: mild
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   presence: absent

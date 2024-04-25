@@ -14,14 +14,14 @@ BONES: No suspicious lytic or blastic lesions. Hill-Sachs fracture of the right 
 ## Extracted findings
 
 - opacity
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303\]
 - pulmonary mass
   - size: 4.2 x 2.7 cm
   - series image: 4:103
 - [interlobular septal thickening](../../definitions/hood/interlobular-septal-thickening.json)
-  - location: right upper lobe, right middle and lower lobes
+  - location: right upper lobe \[RID1303\], right middle and lower lobes \[RID1310\], \[RID1315\], \[RID1303\]
 - thickening along the bronchovascular bundles
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303\]
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - side: bilateral
   - size: 2 mm
@@ -29,17 +29,17 @@ BONES: No suspicious lytic or blastic lesions. Hill-Sachs fracture of the right 
   - series image: 4:69
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - appereance: groundglass
-  - location: left upper lobe
+  - location: left upper lobe \[RID1327\]
   - series image: 4:76
   - size: 3 mm
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - appereance: groundglass
   - size: 14 x 8 mm
-  - location: left lower lobe
+  - location: left lower lobe \[RID1338\]
   - series image: 4:140
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - size: 5 mm
-  - location: right lower lobe
+  - location: right lower lobe \[RID1315\]
   - series image: 4:276
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - size: small
@@ -49,9 +49,9 @@ BONES: No suspicious lytic or blastic lesions. Hill-Sachs fracture of the right 
 - [pericardial fluid](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - location: coronary artery
+  - location: coronary artery \[RID486\], \[RID544\]
 - soft tissue opacification
-  - location: mediastinal nodal stations
+  - location: mediastinal nodal stations \[RID28852\]
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
@@ -59,7 +59,7 @@ BONES: No suspicious lytic or blastic lesions. Hill-Sachs fracture of the right 
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 - [Hill-Sachs fracture](../../definitions/hood/hill-sachs-fracture.md)
-  - location: right shoulder joint with dislocation
+  - location: right shoulder joint with dislocation \[RID39518_RID5825\]
 
 ## Composite Negative Statements
 

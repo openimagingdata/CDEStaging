@@ -14,17 +14,17 @@ BONES: Partially imaged cervical spine fusion. No suspicious lytic or blastic le
 ## Extracted findings
 
 - [stent](../../definitions/hood/esophageal-stent.json)
-  - location: upper esophagus
+  - location: upper esophagus \[RID95\]
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303\]
   - series image: 4:58
   - size: 3 mm
 - atelectasis
   - pattern: linear
-  - location; lower lobe
+  - location: lower lobes \[RID1315\], \[RID1338\]
 - atelectasis
   - pattern: round
-  - basilar right lower lobe
+  - basilar right lower lobe \[RID1315\]
 - [pleural thickening](../../definitions/hood/pleural-thickening.md)
   - severity: minimal
   - side: right

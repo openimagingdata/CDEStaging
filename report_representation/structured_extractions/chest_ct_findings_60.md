@@ -25,17 +25,17 @@ BONES: No destructive osseous lesion. Mild levoconvex upper and dextroconvex low
   - presence: present
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - size: 6 mm
-  - location: right lower lobe
+  - location: right lower lobe \[RID1315\]
   - series image: 4:201
 - [mucus plugging](../../definitions/hood/airway-mucus-plugging.json)
   - presence: present
 - atelectasis/scarring
   - pattern: linear
-  - location: bilateral lung bases and in the lingula and medial right middle lobe
+  - location: bilateral lung bases and in the lingula \[RID1333\] and medial right middle lobe \[RID1310\]
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - presence: absent
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
-  - location: posterior right lung
+  - location: posterior right lung \[RID1302\]
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.md)

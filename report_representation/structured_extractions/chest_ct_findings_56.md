@@ -18,21 +18,21 @@ BONES: Unchanged lytic lesion at C6. No new osseous lesions.
 - [pulmonary cyst](../../definitions/upmedic/Cyst.cde.md)
   - presence: present
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303]
   - image: 116
   - size: 2 mm
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - shape: triangular
-  - location: right middle lobe
+  - location: right middle lobe \[RID1310\]
   - image: 209
   - size: 5 mm
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - size: 2mm
-  - location: left upper lobe
+  - location: left upper lobe \[RID1327\]
   image: 107
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - size: 2mm
-  - location:left upper lobe
+  - location:left upper lobe \[RID1327\]
   - image: 118
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
@@ -43,7 +43,7 @@ BONES: Unchanged lytic lesion at C6. No new osseous lesions.
 - [pericardial fluid](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
 - [esophageal mass](../../definitions/hood/esophageal-mass.md)
-  - location: upper esophageal
+  - location: upper esophageal \[RID95\]
   - size: 3.4 x 3.1 cm
   - series image: 6:31
 - subcardinal lymphnode

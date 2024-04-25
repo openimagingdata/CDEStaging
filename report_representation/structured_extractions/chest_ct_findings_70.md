@@ -32,7 +32,7 @@ BONES: The patient has a severe upper thoracic kyphosis at the T1-3 level. There
 - [thyroid nodule](../../definitions/hood/thyroid-nodule.md)
   - presence: absent
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - location: coronary artery
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: moderate
 - lymphadenopathy
   - presence; absent
@@ -47,9 +47,9 @@ BONES: The patient has a severe upper thoracic kyphosis at the T1-3 level. There
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: present
 - osteophyte
-  - attribute; marginal and bridging
+  - attribute: marginal and bridging
 - [ipmn](../../definitions/hood/ipmn.json)
-  - location: posterior body of the pancreas
+  - location: posterior body of the pancreas \[RID170\]
   - size: 9 x 10 mm
   - series image: 5:378
 

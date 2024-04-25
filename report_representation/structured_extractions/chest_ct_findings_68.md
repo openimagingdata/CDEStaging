@@ -14,9 +14,9 @@ BONES: Normal. No suspicious lytic or blastic lesions.
 ## Extracted findings
 
 - [port-a-cath](../../definitions/hood/tunneled-port-catheter.json)
-  - termination: right atrium
+  - termination: right atrium \[RID1387\]
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303\]
   - size: 2mm
   - image: 132
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
@@ -30,14 +30,14 @@ BONES: Normal. No suspicious lytic or blastic lesions.
 - cardiophrenic lymphnode
   - size: 7mm
   - image: 329
-- supraclavicular  lymph node
+- supraclavicular lymph node \[RID1516\]
   - size: 8 mm
   - image: 19
 - [diaphragmatic lymph node](../../definitions/hood/diaphragmatic-lymph-node.md)
   - location; left anterior diaphragmatic lymph node
   - size: 8 mm
   - image: 375
-- [internal mammary lymph nodes](../../definitions/hood/internal-mammary-lymph-node.md)
+- [internal mammary lymph nodes](../../definitions/hood/internal-mammary-lymph-node.md) \[RID34263\]
   - size: 6 mm
   - image: 121
 - axillary lyphadenopathy

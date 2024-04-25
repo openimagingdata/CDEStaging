@@ -16,16 +16,16 @@ unremarkable. No suspicious lytic or blastic bony lesions.
 ## Extracted findings
 
 - [lobectomy](../../definitions/hood/lobectomy.json)
-  - location: right lower lobe
+  - location: right lower lobe \[RID1315\]
 - postsurgical changes
   - location: suture margin
 - opacity
-  - location: right subpleural upper lobe
+  - location: right subpleural upper lobe \[RID1303\]
 - opacity
   - pattern: groundglass
-  - location: right middle lobe
+  - location: right middle lobe \[RID1310\]
 - [scarring](../../definitions/nuance/apical_pulmonary_scarring.json)
-  - location: left lung apex
+  - location: left lung apex \[RID28584\]
 - [pneumothorax](../../definitions/hood/pneumothorax.md)
   - absent
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
@@ -41,7 +41,7 @@ unremarkable. No suspicious lytic or blastic bony lesions.
   - presence: present
 - [kidney stone](../../definitions/nuance/renal_stone.json)
   - size: 1.2 cm
-  - location: right kidney
+  - location: right kidney \[RID29662\]
   - obstruction: absent
 - [Bochdalek hernia](../../definitions/hood/bochdalek-hernia.json)
   - severity: small

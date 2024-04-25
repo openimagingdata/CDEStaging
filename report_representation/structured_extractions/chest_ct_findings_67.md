@@ -17,7 +17,7 @@ BONES: No suspicious lytic or blastic lesions.
   - location: greater in the lower lungs
 - opacities
   - pattern: linear
-  - location: lower lungs
+  - location: lower lungs \[RID1315\], \[RID1338\]
 - [air trapping](../../definitions/upmedic/AirTrapping.cde.md)
   - presence: absent
 - reticular opacities
@@ -30,7 +30,7 @@ BONES: No suspicious lytic or blastic lesions.
 - [pericardial fluid](../../definitions/hood/pericardial-effusion.md)
   - size: trace
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - location: coronary artery
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: mild
 - lymphadenopathy
   - presence: absent
