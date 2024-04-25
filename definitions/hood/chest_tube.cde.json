@@ -1,0 +1,422 @@
+{
+  "id": "TO_BE_DETERMINED4347",
+  "name": "chest tube",
+  "description": "A tube inserted into the chest to drain air or fluid",
+  "set_version": {
+    "number": 1,
+    "date": "2024-04-25"
+  },
+  "schema_version": "1.0.0",
+  "status": {
+    "date": "2024-04-25",
+    "name": "Proposed"
+  },
+  "index_codes": [],
+  "history": [
+    {
+      "date": "2024-04-25",
+      "status": {
+        "date": "2024-04-25",
+        "name": "Proposed"
+      }
+    }
+  ],
+  "specialties": [],
+  "elements": [
+    {
+      "id": "TO_BE_DETERMINED0562",
+      "name": "presence",
+      "element_version": {
+        "number": 1,
+        "date": "2024-04-25"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-04-25",
+        "name": "Proposed"
+      },
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "TO_BE_DETERMINED0562.0",
+            "value": "present",
+            "name": "present",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED0562.1",
+            "value": "absent",
+            "name": "absent",
+            "definition": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TO_BE_DETERMINED0609",
+      "name": "status",
+      "element_version": {
+        "number": 1,
+        "date": "2024-04-25"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-04-25",
+        "name": "Proposed"
+      },
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "TO_BE_DETERMINED0609.0",
+            "value": "new",
+            "name": "new",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED0609.1",
+            "value": "unchanged",
+            "name": "unchanged",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED0609.2",
+            "value": "complication",
+            "name": "complication",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED0609.3",
+            "value": "resolved",
+            "name": "resolved",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED0609.4",
+            "value": "removed",
+            "name": "removed",
+            "definition": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TO_BE_DETERMINED4445",
+      "name": "side",
+      "element_version": {
+        "number": 1,
+        "date": "2024-04-25"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-04-25",
+        "name": "Proposed"
+      },
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "TO_BE_DETERMINED4445.0",
+            "value": "right",
+            "name": "right",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED4445.1",
+            "value": "left",
+            "name": "left",
+            "definition": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TO_BE_DETERMINED4326",
+      "name": "location",
+      "element_version": {
+        "number": 1,
+        "date": "2024-04-25"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-04-25",
+        "name": "Proposed"
+      },
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "TO_BE_DETERMINED4326.0",
+            "value": "apical",
+            "name": "apical",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED4326.1",
+            "value": "basal",
+            "name": "basal",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED4326.2",
+            "value": "anterior",
+            "name": "anterior",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED4326.3",
+            "value": "posterior",
+            "name": "posterior",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED4326.4",
+            "value": "medial",
+            "name": "medial",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED4326.5",
+            "value": "lateral",
+            "name": "lateral",
+            "definition": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TO_BE_DETERMINED1486",
+      "name": "current_tip_position",
+      "element_version": {
+        "number": 1,
+        "date": "2024-04-25"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-04-25",
+        "name": "Proposed"
+      },
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "TO_BE_DETERMINED1486.0",
+            "value": "pleural_space",
+            "name": "pleural space",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED1486.1",
+            "value": "intraparenchymal",
+            "name": "intraparenchymal",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED1486.2",
+            "value": "chest_wall",
+            "name": "chest wall",
+            "definition": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TO_BE_DETERMINED5619",
+      "name": "previous_tip_position",
+      "element_version": {
+        "number": 1,
+        "date": "2024-04-25"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-04-25",
+        "name": "Proposed"
+      },
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "TO_BE_DETERMINED5619.0",
+            "value": "pleural_space",
+            "name": "pleural space",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED5619.1",
+            "value": "intraparenchymal",
+            "name": "intraparenchymal",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED5619.2",
+            "value": "chest_wall",
+            "name": "chest wall",
+            "definition": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TO_BE_DETERMINED1500",
+      "name": "pneumothorax",
+      "element_version": {
+        "number": 1,
+        "date": "2024-04-25"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-04-25",
+        "name": "Proposed"
+      },
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "TO_BE_DETERMINED1500.0",
+            "value": "present",
+            "name": "present",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED1500.1",
+            "value": "absent",
+            "name": "absent",
+            "definition": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TO_BE_DETERMINED8911",
+      "name": "pleural_effusion",
+      "element_version": {
+        "number": 1,
+        "date": "2024-04-25"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-04-25",
+        "name": "Proposed"
+      },
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "TO_BE_DETERMINED8911.0",
+            "value": "present",
+            "name": "present",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED8911.1",
+            "value": "absent",
+            "name": "absent",
+            "definition": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TO_BE_DETERMINED9884",
+      "name": "hemothorax",
+      "element_version": {
+        "number": 1,
+        "date": "2024-04-25"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-04-25",
+        "name": "Proposed"
+      },
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "TO_BE_DETERMINED9884.0",
+            "value": "present",
+            "name": "present",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED9884.1",
+            "value": "absent",
+            "name": "absent",
+            "definition": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TO_BE_DETERMINED6120",
+      "name": "rib_fracture",
+      "element_version": {
+        "number": 1,
+        "date": "2024-04-25"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-04-25",
+        "name": "Proposed"
+      },
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "TO_BE_DETERMINED6120.0",
+            "value": "present",
+            "name": "present",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED6120.1",
+            "value": "absent",
+            "name": "absent",
+            "definition": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TO_BE_DETERMINED4976",
+      "name": "pulmonary_bleb",
+      "element_version": {
+        "number": 1,
+        "date": "2024-04-25"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-04-25",
+        "name": "Proposed"
+      },
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "TO_BE_DETERMINED4976.0",
+            "value": "present",
+            "name": "present",
+            "definition": "None"
+          },
+          {
+            "code": "TO_BE_DETERMINED4976.1",
+            "value": "absent",
+            "name": "absent",
+            "definition": "None"
+          }
+        ]
+      }
+    }
+  ]
+}
