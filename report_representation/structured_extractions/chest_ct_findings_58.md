@@ -45,3 +45,18 @@ Bones/SOFT TISSUES: No suspicious osseous lesions. Multilevel degenerative chang
   presence: absent
 
 ## Composite Negative Statements
+
+- Lungs
+  - Central airways are patent. No consolidation or suspicious nodules.
+- Pleura
+  - No pleural effusion or pneumothorax.
+MEDIASTINUM:
+  - Devices/Tubes/LINES: None.
+  - The thyroid gland cannot be accurately evaluated secondary to overlying artifact. Cardiac chambers are within normal limits in size. No pericardial effusion. Mild amount of coronary calcifications.
+  - No chest wall mass.
+- No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
+- Aabdomen
+  - No abnormality detected in the visualized upper abdomen.
+- Bones
+  - No suspicious osseous lesions.
+  

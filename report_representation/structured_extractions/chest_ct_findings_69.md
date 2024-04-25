@@ -50,3 +50,16 @@ BONES: There are mild degenerative changes within the thoracic spine . No suspic
   - presence: absent
 
 ## Composite Negative Statements
+
+- Lungs
+  - The major airways are patent
+- Pleura
+  - Normal. No pleural effusion or pneumothorax.
+- Mediastinum
+  - Devices/Tubes/LINES: None.
+  - Heart and pericardium are normal.
+  - LYMPH NODES: Normal. No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
+  - CHEST WALL: Normal. No chest wall mass.
+- Bones
+  - No suspicious lytic or blastic lesions.
+  

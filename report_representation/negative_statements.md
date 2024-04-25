@@ -2,6 +2,14 @@
 
 ## Abdomen
 
+- There is a low-attenuation lesion in the posterior body of the pancreas measuring 9 x 10 mm. This is seen on axial series 5 image 378. This is not significantly changed in size since 2018 when it measured 8 x 9 mm. This may represent a branch IPMN.
+
+- Normal. No abnormality detected in the visualized upper abdomen. Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
+
+- There are no focal lesions visualized liver, spleen, adrenals. There are vascular calcifications in the upper abdomen. Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
+
+- No abnormality detected in the visualized upper abdomen. Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
+
 - Unchanged liver cysts and subcentimeter hypodensities are too small to characterize. Unchanged right upper pole renal cyst.
 
 - No acute abnormality within the partially imaged upper abdomen.
@@ -37,6 +45,11 @@ are unremarkable
 
 ## Bone
 
+- Median sternotomy with intact sternotomy wires.
+
+- There is a small right Bochdalek hernia. Soft tissues otherwise
+unremarkable.
+
 - No suspicious lytic or blastic lesions. Multilevel degenerative changes of the spine with DISH changes.
 
 - Normal. No suspicious lytic or blastic lesions
@@ -56,6 +69,10 @@ canal.
 - Unchanged vertebral body and posterior rib heterogeneity, likely related to prior radiation.
 
 ## Lung
+
+- Resolution of previously demonstrated diffuse airspace opacities. No air trapping. No reticular opacities on prone imaging.
+
+- Slightly decreased thickening of interlobular septae. Decreased subsegmental atelectasis within the lingula, right middle lobe, and lower lobes.
 
 - A few of the nodules are unchanged
 
@@ -98,6 +115,29 @@ canal.
 - Small right and trace left pleural effusions unchanged.
 
 ## Mediastinum
+
+- There are no nodules visualized thyroid gland.
+
+- No pathologically enlarged lymph node.
+
+- Visualized portion of the thyroid gland appears unremarkable.
+
+- Thyroid gland is not visible. Heart is of normal size and there is no pericardial effusion. Moderate amount of coronary calcifications.
+
+- LYMPH NODES: Soft tissue opacification is seen within the mediastinal nodal stations but there are no measurable nodes that are enlarged.
+
+- There is a decreased fluid and gas collection with associated skin defect at the right anterior chest wall corresponding to removed IMPELLA catheter, measuring up to 3.9 cm (2:14).
+
+- Mild soft tissue opacity in anterior mediastinum, likely representing thymic tissue. Surgical margins appear intact.
+
+- The thyroid gland cannot be accurately evaluated secondary to overlying artifact.
+
+- Right internal jugular port catheter terminates at the superior cavoatrial junction
+Heart size is normal. No pericardial effusion. Upper esophageal mass has substantially decreased in size, previously 5.2 x 4.4 cm, presently at most 3.4 x 3.1 cm (series 6 image 31).
+
+- Subcarinal lymph node has decreased from 1.5 cm to 0.8 cm on image 50. Previously seen left hilar lymphadenopathy has resolved.
+
+- Previously seen surgical drain in the mediastinum has been removed. There is an unchanged small gas collection at the level of the subcarinal space  measuring 1.3 cm on series 2 image 48, unchanged.
 
 - Resolution of previously demonstrated bilateral pleural effusions.
 
@@ -160,6 +200,8 @@ vessels are unremarkable.
 
 ## Pleura
 
+- There is resolved pleural effusions.
+
 - Normal. No pleural effusion or pneumothorax
 
 - There is no pneumothorax, pleural effusion, or suspicious focal air-space consolidation.
@@ -169,3 +211,5 @@ vessels are unremarkable.
 - No pneumothorax is noted in either hemithorax.
 
 - There is no right pleural effusion.
+
+- No change in small right-sided pleural effusion.

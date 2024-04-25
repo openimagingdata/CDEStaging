@@ -47,3 +47,12 @@ BONES: No suspicious lytic or blastic lesions.
   - presence: absent
 
 ## Composite Negative Statements
+
+- Mediastinum
+  - Cardiac chambers are normal in size. No pericardial effusion.
+  - LYMPH NODES: Normal. No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
+- Abdomen
+  - No abnormality detected in the visualized spleen or adrenal glands.
+  - CHEST WALL: No chest wall mass.
+- Bones
+  - No suspicious lytic or blastic lesions.

@@ -61,3 +61,9 @@ BONES: Sternotomy wires are intact. There are degenerative changes without suspi
   - location: left 10th rib and anterior right eighth rib
   
 ## Composite Negative Statements
+
+- Mediastinum
+  - There are no nodules visualized thyroid gland.
+  - LYMPH NODES: Normal. No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
+- Bones
+  - Sternotomy wires are intact.

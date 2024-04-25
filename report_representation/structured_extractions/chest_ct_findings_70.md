@@ -54,3 +54,15 @@ BONES: The patient has a severe upper thoracic kyphosis at the T1-3 level. There
   - series image: 5:378
 
 ## Composite Negative Statements
+
+- Lungs
+  - No focal lung consolidation or suspicious nodules.
+- Pleura
+  - Normal. No pleural effusion or pneumothorax.
+- Mediastinum
+  - Devices/Tubes/LINES: None.
+  - Normal. No thyroid nodules.
+  - LYMPH NODES: Normal. No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
+  - CHEST WALL: Normal. No chest wall mass.
+- Abdomen
+  - There is a low-attenuation lesion in the posterior body of the pancreas measuring 9 x 10 mm. This is seen on axial series 5 image 378. This is not significantly changed in size since 2018 when it measured 8 x 9 mm. This may represent a branch IPMN.

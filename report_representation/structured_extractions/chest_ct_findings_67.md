@@ -42,3 +42,15 @@ BONES: No suspicious lytic or blastic lesions.
   - presence: absent
 
 ## Composite Negative Statements
+
+- Lungs
+  - The central airways are patent. Resolution of previously demonstrated diffuse airspace opacities. No air trapping. No reticular opacities on prone imaging.
+- Mediastinum
+  - Devices/Tubes/LINES: None.
+  - LYMPH NODES: Normal. No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
+  - CHEST WALL: Normal. No chest wall mass.
+- Abdomen
+  - Normal. No abnormality detected in the visualized upper abdomen. Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
+- Bones
+  - No suspicious lytic or blastic lesions.
+  

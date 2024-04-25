@@ -42,3 +42,16 @@ BONES: Degenerative change thoracic spine. Glenohumeral joint degenerative chang
   - presence: absent
 
 ## Composite Negative Statements
+
+- Lungs
+  - Unchanged mild fissural nodularity in the right minor fissure (10:189).
+- Pleura
+  - No pleural effusion or pneumothorax.
+- Mediastinum
+  - Devices/Tubes/LINES: None.
+  - Normal heart size. No pericardial effusion. No mediastinal mass.
+  - No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
+  - No chest wall mass.
+- Bones
+  - No suspicious osseous lesion.
+  

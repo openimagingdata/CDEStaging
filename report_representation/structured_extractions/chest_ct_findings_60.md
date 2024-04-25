@@ -63,3 +63,16 @@ BONES: No destructive osseous lesion. Mild levoconvex upper and dextroconvex low
   - attribute: levoconvex upper and dextroconvex lower thoracic scoliotic curvature
 
 ## Composite Negative Statements
+
+- Lungs
+  - Central airways are patent. No new or enlarging pulmonary nodule.
+- Pleura
+  - No pneumothorax.
+- Mediastinum
+  - Devices/Tubes/LINES: None.
+  - No thyroid nodule. Cardiac chambers are within normal limits for size.
+  - No abnormally enlarged lymph nodes.
+  - No chest wall mass.
+- Bones
+  - No destructive osseous lesion.
+  

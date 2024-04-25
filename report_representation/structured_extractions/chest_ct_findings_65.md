@@ -79,3 +79,17 @@ BONES: Skeletal degenerative changes without suspicious lytic or blastic lesions
   - presence: absent
 
 ## Composite Negative Statements
+
+- Lungs
+  - Slightly decreased thickening of interlobular septae. Decreased subsegmental atelectasis within the lingula, right middle lobe, and lower lobes.
+- Pleura
+  - There is resolved pleural effusions.
+- Mediastinum
+  - No thyroid nodules.
+  - LYMPH NODES: No supraclavicular, axillary, mediastinal, or hilar lymphadenopathy.
+  - There is a decreased fluid and gas collection with associated skin defect at the right anterior chest wall corresponding to removed IMPELLA catheter, measuring up to 3.9 cm (2:14).
+- Abdomen
+  - There are no focal lesions visualized liver, spleen, adrenals. There are vascular calcifications in the upper abdomen. Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
+- Bones
+  - Median sternotomy with intact sternotomy wires.
+  

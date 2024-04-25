@@ -47,3 +47,13 @@ BONES: Degenerative changes no evidence of lytic or blastic lesions.
   - presence: present
 
 ## Composite Negative Statements
+
+- Pleura
+  - No evidence of pleural effusion or pneumothorax
+- Mediastinum
+  - The heart and pericardium remain stable. No evidence of pericardial effusion.
+  - LYMPH NODES: No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
+  - No chest wall mass.
+- Bones
+  - Degenerative changes no evidence of lytic or blastic lesions.
+  

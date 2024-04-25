@@ -46,3 +46,15 @@ BONES: Mild multilevel degenerative changes in the thoracic spine.. No suspiciou
   - location: thoracic spine
 
 ## Composite Negative Statements
+
+- Lungs
+  - No new or enlarging pulmonary nodules. The airways are clear.
+- Pleura
+  - No pleural effusion or pneumothorax.
+- Mediastinum
+  - No thyroid nodules. No pericardial effusion.
+  - No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
+  - No chest wall mass.
+- Bones
+  - No suspicious lytic or blastic lesions.
+  

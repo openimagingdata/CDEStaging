@@ -31,3 +31,14 @@ Tiny sclerotic foci in the left humeral head, likely bone islands. No gross dest
   - presence: absent
 
 ## Composite Negative Statements
+
+- Lungs
+  - No consolidation.
+  - No pleural effusion or pneumothorax. There is no pericardial effusion.
+- Mediastinum
+  - No enlarged axillary, mediastinal, or hilar lymph nodes.
+- Abdomen
+  - Limited visualization of the upper abdomen demonstrates no acute abnormality but otherwise is limited in assessment due to limited excursion and contrast timing.
+- Bones
+  - Tiny sclerotic foci in the left humeral head, likely bone islands. No gross destructive osseous lesions are seen along the spine.
+  

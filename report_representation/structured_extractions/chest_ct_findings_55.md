@@ -55,3 +55,17 @@ BONES: Partially imaged cervical spine fusion. No suspicious lytic or blastic le
   - presence: absent
 
 ## Composite Negative Statements
+
+- Lungs
+  - The central airways are patent.
+- Pleura
+  - No effusions.
+- Mediastinum
+  - Normal heart size. No pericardial effusion. Previously seen surgical drain in the mediastinum has been removed. There is an unchanged small gas collection at the level of the subcarinal space  measuring 1.3 cm on series 2 image 48, unchanged.
+  - LYMPH NODES: Normal. No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
+  - CHEST WALL: Normal. No chest wall mass.
+- Abdomen
+  - No abnormality detected in the visualized upper abdomen.
+- Bones
+  - No suspicious lytic or blastic lesions.
+  

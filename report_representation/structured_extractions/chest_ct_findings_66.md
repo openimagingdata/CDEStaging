@@ -62,3 +62,13 @@ BONES: No suspicious lytic or blastic lesions. Hill-Sachs fracture of the right 
   - location: right shoulder joint with dislocation
 
 ## Composite Negative Statements
+
+- Pleura
+  - No change in small right-sided pleural effusion.
+- Mediastinum
+  - Devices/Tubes/LINES: None.
+  - Thyroid gland is not visible. Heart is of normal size and there is no pericardial effusion. Moderate amount of coronary calcifications.
+  - LYMPH NODES: Soft tissue opacification is seen within the mediastinal nodal stations but there are no measurable nodes that are enlarged.
+  - CHEST WALL: Normal. No chest wall mass.
+- Bones
+  - No suspicious lytic or blastic lesions.

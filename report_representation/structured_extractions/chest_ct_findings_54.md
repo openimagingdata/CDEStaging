@@ -52,3 +52,13 @@ unremarkable. No suspicious lytic or blastic bony lesions.
   - presence: absent
 
 ## Composite Negative Statements
+
+- Lungs and pleura
+  - No new pulmonary nodules or masses. No pleural effusion or pneumothorax.
+- Mediastinum
+  - Thyroid unremarkable. Heart is normal in size. No mediastinal or hilar lymphadenopathy. There is fluid within the esophagus.
+- Abdomen
+  - Adrenal glands unremarkable.
+- Bone
+  - There is a small right Bochdalek hernia. Soft tissues otherwise
+unremarkable. No suspicious lytic or blastic bony lesions.

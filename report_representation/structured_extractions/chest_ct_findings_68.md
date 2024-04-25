@@ -54,3 +54,15 @@ BONES: Normal. No suspicious lytic or blastic lesions.
   - presence: absent
 
 ## Composite Negative Statements
+
+- Lungs
+  - Central airways are patent.
+- Pleura
+  - Normal. No pleural effusion or pneumothorax.
+- Mediastinum
+  - Visualized portion of the thyroid gland appears unremarkable. Cardiac chambers are normal in size. No pericardial effusion.
+  - No enlarged axillary, mediastinal, or hilar lymph nodes.
+  - No chest wall mass.
+- Bones
+  - Normal. No suspicious lytic or blastic lesions.
+  

@@ -49,3 +49,14 @@ BONES: No suspicious lytic or blastic lesions. Multilevel degenerative changes o
   - presence: absent
 
 ## Composite Negative Statements
+
+- Lungs
+  - No suspicious pulmonary nodules. The central airways are clear.
+- Pleura
+  - No pleural effusion or pneumothorax.
+- Mediastinum
+  - Devices/Tubes/LINES: None.
+  - Heart size is normal. Trace pericardial effusion. No coronary calcification. Mild soft tissue opacity in anterior mediastinum, likely representing thymic tissue. Surgical margins appear intact.
+- Bones
+  - No suspicious lytic or blastic lesions.
+  

@@ -59,3 +59,16 @@ BONES: Unchanged lytic lesion at C6. No new osseous lesions.
   - presence: absent
 
 ## Composite Negative Statements
+
+- Lungs
+  - Multiple pulmonary cysts, with perivascular distribution, are unchanged. The central airways are patent.
+- Pleura
+  - Normal. No pleural effusion or pneumothorax.
+- Mediastinum
+  - Right internal jugular port catheter terminates at the superior cavoatrial junction
+Heart size is normal. No pericardial effusion. Upper esophageal mass has substantially decreased in size, previously 5.2 x 4.4 cm, presently at most 3.4 x 3.1 cm (series 6 image 31).
+  - LYMPH NODES: Subcarinal lymph node has decreased from 1.5 cm to 0.8 cm on image 50. Previously seen left hilar lymphadenopathy has resolved.
+  - CHEST WALL: Normal. No chest wall mass.
+- Bones
+  - Unchanged lytic lesion at C6. No new osseous lesions.
+  

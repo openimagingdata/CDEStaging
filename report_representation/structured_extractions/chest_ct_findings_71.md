@@ -50,3 +50,14 @@ BONES: No suspicious osseous lesion.
   - presence: absent
 
 ## Composite Negative Statements
+
+- Pleura
+  - No pleural effusion or pneumothorax.
+- Mediastinum
+  - Heart size is normal. No pericardial effusion.
+  - No pathologically enlarged lymph node.
+- Abdomen
+  - Status post ventral abdominal wall hernia repair.
+- Bones
+  - No suspicious osseous lesion.
+  
