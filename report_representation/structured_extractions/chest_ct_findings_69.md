@@ -16,9 +16,9 @@ BONES: There are mild degenerative changes within the thoracic spine . No suspic
 - [emphysema](../../definitions/hood/emphysema.json)
   - severity: mild
   - type: centrilobular
-  - location; upper lobe
+  - location: upper lobe
 - opacity
-  - location; left lower lobe
+  - location: left lower lobe
   - size: 2 mm
   - series image: 4:196
 - opacity

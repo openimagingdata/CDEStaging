@@ -25,7 +25,7 @@ BONES: Degenerative changes no evidence of lytic or blastic lesions.
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.md)
-  - presence; absent
+  - presence: absent
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
 - [pericardial fluid](../../definitions/hood/pericardial-effusion.md)

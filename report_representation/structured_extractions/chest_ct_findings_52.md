@@ -32,7 +32,7 @@ BONES: No suspicious lytic or blastic lesions.
   - location: coronary artery [RID486\], \[RID544\]
   - severity: mild
 - lymphadenopathy
-  - presence; absent
+  - presence: absent
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)

@@ -27,7 +27,7 @@ Bones/SOFT TISSUES: No suspicious osseous lesions. Multilevel degenerative chang
 - [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent
 - [cardiac chamber enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)
-  - presence; absent
+  - presence: absent
 - [pericardial fluid](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
@@ -40,7 +40,7 @@ Bones/SOFT TISSUES: No suspicious osseous lesions. Multilevel degenerative chang
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - location: thoracic spine
 - bone lesion
-  - presence; absent
+  - presence: absent
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   presence: absent
 

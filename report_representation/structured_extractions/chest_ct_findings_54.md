@@ -38,7 +38,7 @@ unremarkable. No suspicious lytic or blastic bony lesions.
 - lymphadenopathy
   - presence: absent
 - [fluid within esophagus](../../definitions/hood/esophageal-fluid.md)
-  - presence; present
+  - presence: present
 - [kidney stone](../../definitions/nuance/renal_stone.json)
   - size: 1.2 cm
   - location: right kidney

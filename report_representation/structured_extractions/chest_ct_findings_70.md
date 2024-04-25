@@ -44,11 +44,11 @@ BONES: The patient has a severe upper thoracic kyphosis at the T1-3 level. There
 - kyphosis
   - location: T1- 3
   - severity: severe
-[degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: present
 - osteophyte
   - attribute; marginal and bridging
-- [IPMN](../../definitions/hood/ipmn.json)
+- [ipmn](../../definitions/hood/ipmn.json)
   - location: posterior body of the pancreas
   - size: 9 x 10 mm
   - series image: 5:378

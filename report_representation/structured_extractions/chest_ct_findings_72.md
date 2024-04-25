@@ -35,7 +35,7 @@ BONES: Sternotomy wires are intact. There are degenerative changes without suspi
 - [cabg](../../definitions/hood/cabg.json)
   - presence: present
 - [cardiac chamber enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)
-  - presence; present
+  - presence: present
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - location: coronary artery
 - vessel atherosclerotic calcification

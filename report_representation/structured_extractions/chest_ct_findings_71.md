@@ -32,7 +32,7 @@ BONES: No suspicious osseous lesion.
 - [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
-  - presence; absent
+  - presence: absent
 - lymphadenopathy
   - presence: absent
 - [pericardial fluid](../../definitions/hood/pericardial-effusion.md)
