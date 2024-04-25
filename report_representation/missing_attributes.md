@@ -1,0 +1,30 @@
+- [sclerotic changes](../../definitions/hood/sclerotic-lesion.md)
+  - location: T6
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
+  - location: right lateral fourth rib
+  - series image: 5:180
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
+  - location: left fissure
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
+  - location: right breast
+- [cardiac chamber enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)
+  - location: left ventricular
+  - severity: mild
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
+  - appearance: ill-defined density
+- [airway trapping](../../definitions/upmedic/AirTrapping.cde.md)
+  - appearance: mosaic attenuation
+- [sebaceous cyst](../../definitions/upmedic/Cyst.cde.md)
+  - location: chest wall
+  - shape: oval
+- [Emphysema](../../definitions/hood/emphysema.json)
+  - pattern: paraseptal
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
+  - shape: triangular
+- [esophageal diverticulum(Killian-Jamieson diverticulum)](../../definitions/hood/esophageal-diverticulum.md)
+  - size: 14 x 16 mm
+- [esophageal mass](../../definitions/hood/esophageal-mass.md)
+  - location: upper esophageal
+  - size: 3.4 x 3.1 cm
+- [internal mammary lymph nodes](../../definitions/hood/internal-mammary-lymph-node.md)
+  - size: 6 mm
