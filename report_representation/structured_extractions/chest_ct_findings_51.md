@@ -46,4 +46,4 @@ BONES: No suspicious lytic or blastic lesions.
   - No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
   - No chest wall mass.
 - Bones
-  - No suspicious lytic or blastic lesions.
+  - No suspicious lytic or blastic lesions

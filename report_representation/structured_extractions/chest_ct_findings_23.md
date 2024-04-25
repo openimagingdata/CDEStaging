@@ -31,7 +31,7 @@ of the concurrent CT abdomen and pelvis study.
 
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence absent
--[emphysema](../../definitions/hood/emphysema.md)
+- [emphysema](../../definitions/hood/emphysema.md)
   - severity: moderate
   - type: centrilobular
   - predominancy: upper zone

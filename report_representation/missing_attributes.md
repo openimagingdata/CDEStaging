@@ -21,3 +21,10 @@
   - pattern: paraseptal
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
   - shape: triangular
+- [esophageal diverticulum(Killian-Jamieson diverticulum)](../../definitions/hood/esophageal-diverticulum.md)
+  - size: 14 x 16 mm
+- [esophageal mass](../../definitions/hood/esophageal-mass.md)
+  - location: upper esophageal
+  - size: 3.4 x 3.1 cm
+- [internal mammary lymph nodes](../../definitions/hood/internal-mammary-lymph-node.md)
+  - size: 6 mm
