@@ -55,3 +55,17 @@ BONES: No suspicious lytic or blastic lesions.
   - presence: absent
 
 ## Composite Negative Statements
+
+- Lungs
+  - The central airways.
+- Pleura
+  - No pleural effusion or pneumothorax.
+- Mediastinum
+  - Devices/Tubes/LINES: None.
+  - No lymphadenopathy by size criteria.
+  - No chest wall mass.
+- Abdomen
+  - No abnormality detected in the visualized upper abdomen. Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
+- Bone
+  - No suspicious lytic or blastic lesions.
+  
