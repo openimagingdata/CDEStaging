@@ -14,7 +14,7 @@ BONES: Unchanged subcentimeter lucent lesion with peripheral sclerosis (9:178), 
 ## Extracted findings
 
 - [nodule](../../definitions/hood/adrenal-nodule.json)
-  - location: left lower lobe
+  - location: left lower lobe \[RID1338\]
   - size: 4 mm
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
