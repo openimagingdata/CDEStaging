@@ -1,0 +1,183 @@
+{
+  "finding_name": "Thyroid Nodule",
+  "description": "A finding characterized by the presence of a nodule in the thyroid gland.",
+  "attributes": [
+    {
+      "name": "Presence of Thyroid Nodule",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present"
+        },
+        {
+          "name": "Absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Status",
+      "type": "choice",
+      "values": [
+        {
+          "name": "New"
+        },
+        {
+          "name": "Unchanged"
+        },
+        {
+          "name": "Increased"
+        },
+        {
+          "name": "Decreased"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Location",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Right lobe"
+        },
+        {
+          "name": "Left lobe"
+        },
+        {
+          "name": "Isthmus"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Size (cm)",
+      "type": "numeric",
+      "unit": "cm",
+      "required": true
+    },
+    {
+      "name": "Composition",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Cystic"
+        },
+        {
+          "name": "Solid"
+        },
+        {
+          "name": "Mixed"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Calcification",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present"
+        },
+        {
+          "name": "Absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Margins",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Smooth"
+        },
+        {
+          "name": "Irregular"
+        },
+        {
+          "name": "Lobulated"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Enhancement",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present"
+        },
+        {
+          "name": "Absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Prior Fine Needle Aspiration",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Yes"
+        },
+        {
+          "name": "No"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Prior Fine Needle Aspiration Date",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Specify date"
+        },
+        {
+          "name": "Not specified"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Invasion Into Adjacent Structures",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present"
+        },
+        {
+          "name": "Absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Cervical Lymphadenopathy",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present"
+        },
+        {
+          "name": "Absent"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "Thyroid Goiter",
+      "type": "choice",
+      "values": [
+        {
+          "name": "Present"
+        },
+        {
+          "name": "Absent"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

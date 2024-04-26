@@ -1,0 +1,203 @@
+{
+  "id": "TO_BE_DETERMINED3032",
+  "name": "bronchiectasis",
+  "description": "Bronchiectasis is a condition characterized by the irreversible dilation and destruction of the bronchi.",
+  "set_version": {
+    "number": 1,
+    "date": "2024-04-25"
+  },
+  "schema_version": "1.0.0",
+  "status": {
+    "date": "2024-04-25",
+    "name": "Proposed"
+  },
+  "index_codes": [],
+  "history": [
+    {
+      "date": "2024-04-25",
+      "status": {
+        "date": "2024-04-25",
+        "name": "Proposed"
+      }
+    }
+  ],
+  "specialties": [],
+  "elements": [
+    {
+      "id": "TO_BE_DETERMINED7989",
+      "name": "Predominant Type(s)",
+      "definition": "The predominant type(s) of bronchiectasis present.",
+      "element_version": {
+        "number": 1,
+        "date": "2024-04-25"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-04-25",
+        "name": "Proposed"
+      },
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "TO_BE_DETERMINED7989.0",
+            "value": "cylindrical",
+            "name": "Cylindrical",
+            "definition": "Bronchiectasis with cylindrical-shaped dilated bronchi."
+          },
+          {
+            "code": "TO_BE_DETERMINED7989.1",
+            "value": "varicose",
+            "name": "Varicose",
+            "definition": "Bronchiectasis with varicose-shaped dilated bronchi."
+          },
+          {
+            "code": "TO_BE_DETERMINED7989.2",
+            "value": "cystic",
+            "name": "Cystic",
+            "definition": "Bronchiectasis with cystic-shaped dilated bronchi."
+          }
+        ]
+      }
+    },
+    {
+      "id": "TO_BE_DETERMINED4512",
+      "name": "Severity",
+      "definition": "The severity of bronchiectasis.",
+      "element_version": {
+        "number": 1,
+        "date": "2024-04-25"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-04-25",
+        "name": "Proposed"
+      },
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "TO_BE_DETERMINED4512.0",
+            "value": "mild",
+            "name": "Mild",
+            "definition": "Mildly severe bronchiectasis."
+          },
+          {
+            "code": "TO_BE_DETERMINED4512.1",
+            "value": "moderate",
+            "name": "Moderate",
+            "definition": "Moderately severe bronchiectasis."
+          },
+          {
+            "code": "TO_BE_DETERMINED4512.2",
+            "value": "severe",
+            "name": "Severe",
+            "definition": "Severely severe bronchiectasis."
+          }
+        ]
+      }
+    },
+    {
+      "id": "TO_BE_DETERMINED8942",
+      "name": "Regional predominance",
+      "definition": "The regional predominance of bronchiectasis.",
+      "element_version": {
+        "number": 1,
+        "date": "2024-04-25"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-04-25",
+        "name": "Proposed"
+      },
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "TO_BE_DETERMINED8942.0",
+            "value": "apices",
+            "name": "Apices",
+            "definition": "Bronchiectasis predominantly affecting the apices of the lungs."
+          },
+          {
+            "code": "TO_BE_DETERMINED8942.1",
+            "value": "upper_lung_zone",
+            "name": "Upper lung zone",
+            "definition": "Bronchiectasis predominantly affecting the upper lung zone."
+          },
+          {
+            "code": "TO_BE_DETERMINED8942.2",
+            "value": "middle_lung_zone",
+            "name": "Middle lung zone",
+            "definition": "Bronchiectasis predominantly affecting the middle lung zone."
+          },
+          {
+            "code": "TO_BE_DETERMINED8942.3",
+            "value": "lower_lung_zone",
+            "name": "Lower lung zone",
+            "definition": "Bronchiectasis predominantly affecting the lower lung zone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "TO_BE_DETERMINED2299",
+      "name": "Associated diagnoses",
+      "definition": "Associated diagnoses related to bronchiectasis.",
+      "element_version": {
+        "number": 1,
+        "date": "2024-04-25"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-04-25",
+        "name": "Proposed"
+      },
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "TO_BE_DETERMINED2299.0",
+            "value": "immunodeficiency",
+            "name": "Immunodeficiency",
+            "definition": "Bronchiectasis associated with immunodeficiency."
+          },
+          {
+            "code": "TO_BE_DETERMINED2299.1",
+            "value": "postinfective",
+            "name": "Postinfective",
+            "definition": "Bronchiectasis associated with postinfective causes."
+          },
+          {
+            "code": "TO_BE_DETERMINED2299.2",
+            "value": "allergic_and_autoimmune",
+            "name": "Allergic and autoimmune",
+            "definition": "Bronchiectasis associated with allergic and autoimmune causes."
+          },
+          {
+            "code": "TO_BE_DETERMINED2299.3",
+            "value": "obstruction",
+            "name": "Obstruction",
+            "definition": "Bronchiectasis associated with obstruction causes."
+          },
+          {
+            "code": "TO_BE_DETERMINED2299.4",
+            "value": "congenital",
+            "name": "Congenital",
+            "definition": "Bronchiectasis associated with congenital causes."
+          },
+          {
+            "code": "TO_BE_DETERMINED2299.5",
+            "value": "others",
+            "name": "Others",
+            "definition": "Other associated diagnoses related to bronchiectasis."
+          }
+        ]
+      }
+    }
+  ]
+}

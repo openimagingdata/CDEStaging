@@ -12,12 +12,12 @@
 - **Regional Predominance**: Upper lung zone / Middle lung zone / Lower lung zone
 - **Type**: Cylindrical / Varicose / Cystic
 - **Distribution**: Focal / Multifocal / Diffuse
-- **Mucus plugging**: Present / Absent
+- **Intraluminal Mucus**: Present / Absent
 
 ## Associated Findings
 
 - **Bronchial Wall Thickening**: Present / Absent
 - **Tree-in-bud Nodules**: Present / Absent
-- **Mucoid Impaction**: Present / Absent
+- **Bronchial Occlusion**: Present / Absent
 - **Airspace Consolidation**: Present / Absent
-- **Fibrosis**: Present / Absent
+- **Pulmonary Fibrosis**: Present / Absent
