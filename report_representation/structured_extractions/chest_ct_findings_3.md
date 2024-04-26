@@ -17,6 +17,7 @@ BONES: Again note is made of multifocal predominantly sclerotic osseous metastas
   - presence: absent
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 2mm
+  - appereance: groundglass
   - location: right upper lobe \[RID1303\]
   - series image: 7:61
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
