@@ -132,3 +132,16 @@
   - presence: present
 - portosystemic varices
   - presence: present
+- subpectoral lymphadenopathy
+  - size: 10 mm
+- foci of air
+  - location: lower neck
+- butterfly deformity
+  - location: T11
+- honey combing
+  - location: lung bases and anterior upper lobes bilaterally
+- sleeve gastrectomy
+- splenectomy with prominent splenules
+- subaortic node
+  - size: 1.8 x 1.0 cm
+  - series image: 3:40

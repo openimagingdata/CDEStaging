@@ -2,6 +2,10 @@
 
 ## Abdomen
 
+- Unremarkable postsurgical changes from the sleeve gastrectomy.
+
+- Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
+
 - There is a low-attenuation lesion in the posterior body of the pancreas measuring 9 x 10 mm. This is seen on axial series 5 image 378. This is not significantly changed in size since 2018 when it measured 8 x 9 mm. This may represent a branch IPMN.
 
 - Normal. No abnormality detected in the visualized upper abdomen. Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
@@ -45,6 +49,10 @@ are unremarkable
 
 ## Bone
 
+- Unchanged hemangioma in T5, T7 and T9 vertebral bodies.
+
+- SOFT TISSUE/AXILLAE: Within normal limits.
+
 - Median sternotomy with intact sternotomy wires.
 
 - There is a small right Bochdalek hernia. Soft tissues otherwise
@@ -69,6 +77,21 @@ canal.
 - Unchanged vertebral body and posterior rib heterogeneity, likely related to prior radiation.
 
 ## Lung
+
+- Unchanged 4 mm nodule in the super segment of the right lower lobe (series 7 image 174). The airways are clear.
+
+- Unchanged 3 mm nodule left upper lobe (301:290) was present
+
+- Unchanged 2 mm nodule right upper lobe (139).
+
+- There are scattered granulomas present. Otherwise, there is no evidence of
+acute or chronic consolidation or pleural effusion.
+
+- Unchanged few sub-4 mm bilateral lung nodules for example 3 mm right apical nodule (5:77), 4 mm peri-fissural nodules along the right minor fissure (5:209, 217) and 3 mm left lower lobe peri-fissural nodule (5:148), likely intrapulmonary lymph nodes. 
+
+- Limited assessment of the lower lung due to breathing related motion artifacts.
+
+- Resolution of small right and left lower lobe irregular consolidative and groundglass opacities. Unchanged since 2021, a 4 mm left lower lobe subpleural nodule.
 
 - Resolution of previously demonstrated diffuse airspace opacities. No air trapping. No reticular opacities on prone imaging.
 
@@ -115,6 +138,16 @@ canal.
 - Small right and trace left pleural effusions unchanged.
 
 ## Mediastinum
+
+- Interval resolution of previously seen fluid collection and extraluminal gas posterior to the upper esophagus (series 3 image 9). No pneumomediastinum.
+
+- No new or growing lymphadenopathy within the chest.
+
+- No central pulmonary embolism.
+
+- The great vessels appear normal.
+
+- The previously seen filling defect adjacent to the catheter in the right internal jugular vein is not visualized at this scan.
 
 - There are no nodules visualized thyroid gland.
 
