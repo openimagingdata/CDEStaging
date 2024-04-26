@@ -14,7 +14,7 @@ BONES: Also see lung section. Mild degenerative changes and osteopenia in the sp
 ## Extracted findings
 
 - perilesional interlobular septal thickening likely lymphangitis carcinomatosis
-  - location: left lung
+  - location: left lung \[RID1326\]
   - series image: 5:110, 194
 - [emphysema](../../definitions/hood/emphysema.json)
   - type: centrilobular
@@ -22,7 +22,7 @@ BONES: Also see lung section. Mild degenerative changes and osteopenia in the sp
 - [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.json)
   - severity: mild
 - [calcified granuloma](../../definitions/hood/calcified-granuloma.json)
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303\]
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.json)
@@ -48,16 +48,16 @@ abs
   - size: 1.2 cm
   - series image: 3:93
 - [mastectomy](../../definitions/hood/mastectomy.json)
-  - side: bilateral
+  - side: bilateral \[RID29897\], \[RID29896\], \[RID29900\], \[RID29899\]
 - Postsurgical change
-  - location: left anterior chest wall
+  - location: left anterior chest wall \[RID29859\]
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - severity: mild
-  - location:spine
+  - location:spine \[RID7741\]
 - [osteopenia](../../definitions/nuance/osteopenia.json)
-  - location: spine
+  - location: spine \[RID7741\]
 - [compression deformity](../../definitions/hood/compression-fracture.json)
-  - location: T12, T9
+  - location: T12 \[RID29209\], T9 \[RID29206\]
 
 ## Composite Negative Statements
 

@@ -14,9 +14,9 @@ BONES: No suspicious lytic or blastic lesions.
 ## Extracted findings
 
 - [endotracheal tube](../../definitions/upmedic/EndotrachealTube.cde.md)
-  - location: 4.5 cm above the carina
+  - location: 4.5 cm above the carina \[RID1248\]
 - [mucus layering](../../definitions/hood/airway-mucus-plugging.json)
-  - location: lower trachea
+  - location: lower trachea \[RID1247\]
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - lung bases
 - [calcified granuloma](../../definitions/hood/calcified-granuloma.json)
@@ -26,7 +26,7 @@ BONES: No suspicious lytic or blastic lesions.
 - [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
 - foci of air
-  - location: lower neck
+  - location: lower neck \[RID7488\]
 - [cardiac chamber enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence; absent
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
@@ -34,7 +34,7 @@ BONES: No suspicious lytic or blastic lesions.
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - location: coronary artery \[RID486\], \[RID544\]
   - severity: mild
-- axillary lymphadenopathy
+- axillary lymphadenopathy \[RID1517\]
   - size: 10 mm
 - subpectoral lymphadenopathy
   - size: 10 mm

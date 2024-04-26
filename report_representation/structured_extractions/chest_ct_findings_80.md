@@ -14,11 +14,11 @@ BONES: No suspicious focal osseous lesion.
 ## Extracted findings
 
 - [lobectomy](../../definitions/hood/lobectomy.json)
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303\]
 - [calcified granuloma](../../definitions/hood/calcified-granuloma.json)
   - presence: present
 - [nodule](../../definitions/hood/adrenal-nodule.json)
-  - location: left upper lobe
+  - location: left upper lobe \[RID1327\]
   - series image: 3:332
   - size: up to 2 mm
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)

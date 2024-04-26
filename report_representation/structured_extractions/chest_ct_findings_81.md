@@ -32,7 +32,7 @@ BONES: Unchanged subcentimeter lucent lesion with peripheral sclerosis (9:178), 
 - lymphadenopthy
   - presence: absent
 - [gynecomastia](../../definitions/hood/gynecomastia.json)
-  - side: bilateral
+  - side: bilateral \[RID29897\], \[RID29896\], \[RID29900\], \[RID29899\]
 - [sclerotic bone lesion likely benign](../../definitions/hood/sclerotic-lesion.json)
   - size: subcentimeter
   - series image: 9:178

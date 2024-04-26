@@ -14,9 +14,9 @@ BONES: There is a non-healed fracture of the left lateral 8th rib. Degenerative 
 ## Extracted findings
 
 - [lobectomy](../../definitions/hood/lobectomy.json)
-  - location: left lower lobe
+  - location: left lower lobe \[RID1338\]
 - honey combing
-  - location: lung bases and anterior upper lobes bilaterally
+  - location: lung bases and anterior upper lobes \[RID1303\], \[RID1327\] bilaterally
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - presence: absent
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
@@ -41,7 +41,7 @@ BONES: There is a non-healed fracture of the left lateral 8th rib. Degenerative 
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
 - [rib fracture](../../definitions/hood/rib-fracture.json)
-  - location: left 8th rib
+  - location: left 8th rib \[RID28591_RID6158_RID5824\]
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: present
 

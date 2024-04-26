@@ -14,18 +14,18 @@ BONES: No suspicious lytic or blastic lesions. Similar T8 vertebral body lesion 
 ## Extracted findings
 
 - [ij port catheter](../../definitions//upmedic/VeinCatheter.cde.md)
-  - termination:L right atrium
+  - termination: right atrium \[RID1387\]
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 3mm
-  - locationL: right apical
+  - locationL: right apical \[RID28584\]
   - series image: 5:77
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 4 mm
-  - location: peri-fissural nodules along the right minor fissure
+  - location: peri-fissural nodules along the right minor fissure \[RID43258\]
   - series image: 5:209, 217
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 3 mm
-  - location: left lower lobe peri-fissural nodule
+  - location: left lower lobe peri-fissural nodule \[RID43260_RID5824\]
   - series image: 5:148
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
@@ -49,10 +49,10 @@ BONES: No suspicious lytic or blastic lesions. Similar T8 vertebral body lesion 
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
 - [hemangioma](../../definitions/nuance/thoracic_spine_hemangioma.json)
-  - locationL T8
+  - location: T8 \[RID29205\]
   - series image: 7:86
 - butterfly deformity
-  - location: T11
+  - location: T11 \[RID29208\]
   - series image: 6:77
 
 ## Composite Negative Statements

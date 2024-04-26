@@ -20,10 +20,10 @@ BONES: Degenerative changes of the visualized spine. Unchanged hemangioma in T5,
   - presence: present
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 4 mmm
-  - location: right lower lob
+  - location: right lower lobe \[RID1315\]
   - series image: 7:174
 - opacity/atelectasis
-  - location: lower lobes
+  - location: lower lobes \[RID1315\]
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.json)
@@ -43,13 +43,13 @@ BONES: Degenerative changes of the visualized spine. Unchanged hemangioma in T5,
 - postsurgical changes
   - presence: present
 - [hepatic cyst](../../definitions/hood/hepatic-cyst.json)
-  - location: left hepatic lobe
+  - location: left hepatic lobe \[RID69\]
 - splenectomy with prominent splenules
   - presence: present
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
-  - location: spine
+  - location: spine \[RID7741\]
 - [hemangioma](../../definitions/nuance/thoracic_spine_hemangioma.json)
-  - location:T5, T7 and T9 vertebral bodies
+  - location:T5, T7 and T9 vertebral bodies \[RID29202\], \[RID29204\], \[RID29206\]
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
