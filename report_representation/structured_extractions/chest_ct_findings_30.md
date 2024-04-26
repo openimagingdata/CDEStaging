@@ -50,7 +50,7 @@ suspicious lytic or blastic bony lesions.
   - size: 1.2 x 0.5 cm
 - hilar lymphadenopathy
   - presence: absent
-- [cyst in the kidney](../../definitions/nuance/hepatic_and_renal_cysts.json)
+- [renal cyst](../../definitions/nuance/hepatic_and_renal_cysts.json)
   - side: right \[RID29662\]
   - size: 1.2 cm
 - calcification within the right adrenal gland \[RID3032\]
@@ -62,7 +62,7 @@ suspicious lytic or blastic bony lesions.
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs and pleura
   - No pleural effusion or pneumothorax.

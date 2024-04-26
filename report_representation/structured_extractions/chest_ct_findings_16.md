@@ -44,7 +44,7 @@ MUSCULOSKELETAL: No lytic or blastic lesions.
 - [blastic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - No lung nodules or consolidation.

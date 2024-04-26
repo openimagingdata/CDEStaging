@@ -4,19 +4,21 @@
 ## Identification
 
 - **Presence of Thyroid Nodule:** Present / Absent
-- **Status:** New / Unchanged / Increased / Decreased / Complicated / Removed
+- **Status:** New / Unchanged / Increased / Decreased
 
 ## Characteristics
 
 - **Location:** Right lobe / Left lobe / Isthmus
 - **Size (cm):** [Specify size]
 - **Composition:** Cystic / Solid / Mixed
-- **Calcification:** Absent / Microcalcifications / Macrocalcifications / Peripheral calcifications
+- **Calcification:** Present / Absent
 - **Margins:** Smooth / Irregular / Lobulated
 - **Enhancement:** Present / Absent
+- **Prior Fine Needle Aspiration:** Yes / No
+- **Prior Fine Needle Aspiration Date:** [Specify date]
+- **Invasion Into Adjacent Structures**: Present / Absent
 
 ## Associated Findings
 
-- **Lymphadenopathy:** Present / Absent
-- **Tracheal Deviation:** Present / Absent
-- **Vascular Compression:** Present / Absent
+- **Cervical Lymphadenopathy:** Present / Absent
+- **Thyroid Goiter:** Present / Absent

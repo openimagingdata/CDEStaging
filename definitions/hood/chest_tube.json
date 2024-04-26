@@ -1,0 +1,207 @@
+{
+  "finding_name": "chest tube",
+  "description": "A tube inserted into the chest to drain air or fluid",
+  "attributes": [
+    {
+      "name": "presence",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "None"
+        },
+        {
+          "name": "absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "status",
+      "type": "choice",
+      "values": [
+        {
+          "name": "new",
+          "description": "None"
+        },
+        {
+          "name": "unchanged",
+          "description": "None"
+        },
+        {
+          "name": "complication",
+          "description": "None"
+        },
+        {
+          "name": "resolved",
+          "description": "None"
+        },
+        {
+          "name": "removed",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "side",
+      "type": "choice",
+      "values": [
+        {
+          "name": "right",
+          "description": "None"
+        },
+        {
+          "name": "left",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "location",
+      "type": "choice",
+      "values": [
+        {
+          "name": "apical",
+          "description": "None"
+        },
+        {
+          "name": "basal",
+          "description": "None"
+        },
+        {
+          "name": "anterior",
+          "description": "None"
+        },
+        {
+          "name": "posterior",
+          "description": "None"
+        },
+        {
+          "name": "medial",
+          "description": "None"
+        },
+        {
+          "name": "lateral",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "current_tip_position",
+      "type": "choice",
+      "values": [
+        {
+          "name": "pleural space",
+          "description": "None"
+        },
+        {
+          "name": "intraparenchymal",
+          "description": "None"
+        },
+        {
+          "name": "chest wall",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "previous_tip_position",
+      "type": "choice",
+      "values": [
+        {
+          "name": "pleural space",
+          "description": "None"
+        },
+        {
+          "name": "intraparenchymal",
+          "description": "None"
+        },
+        {
+          "name": "chest wall",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "pneumothorax",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "None"
+        },
+        {
+          "name": "absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "pleural_effusion",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "None"
+        },
+        {
+          "name": "absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "hemothorax",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "None"
+        },
+        {
+          "name": "absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "rib_fracture",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "None"
+        },
+        {
+          "name": "absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    },
+    {
+      "name": "pulmonary_bleb",
+      "type": "choice",
+      "values": [
+        {
+          "name": "present",
+          "description": "None"
+        },
+        {
+          "name": "absent",
+          "description": "None"
+        }
+      ],
+      "required": true
+    }
+  ]
+}

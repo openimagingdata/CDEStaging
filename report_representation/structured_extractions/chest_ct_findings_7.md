@@ -55,7 +55,7 @@ Bones: Multilevel degenerative changes of the spine. No suspicious lytic or blas
 - [hiatal hernia](../../definitions/hood/hiatal-hernia.md)
   - size: small
   
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - Unchanged bilateral pulmonary nodules.

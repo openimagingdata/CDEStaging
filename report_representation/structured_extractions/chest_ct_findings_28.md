@@ -53,7 +53,7 @@ bony lesions.
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs and pleura
   - No pulmonary mass. Right lower lobe 5 mm pulmonary nodule (S7: 311) is

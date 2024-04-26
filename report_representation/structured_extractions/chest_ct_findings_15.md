@@ -53,7 +53,7 @@ MUSCULOSKELETAL: No suspicious osseous lesions are seen.
 - [bone lesion](../../definitions/hood/sclerotic-lesion.md), [alternale](../../definitions/hood/lytic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - No suspicious nodules are seen. The central airways are patent.

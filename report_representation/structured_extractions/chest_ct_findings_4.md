@@ -41,7 +41,7 @@ are unremarkable.
 - [osteosclerotic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
   
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - The lungs are clear.  There is no pneumothorax, pleural effusion, or suspicious

@@ -44,7 +44,7 @@ lesions.
   - size: 1.2 cm
 - [renal cysts](../../definitions/nuance/hepatic_and_renal_cysts.json)
   - presence: present
-  - side: bilateral
+  - side: bilateral \[RID29662\], \[RID29663\]
 - [aortic calcifications](../../definitions/hood/aortic-atherosclerosis.md)
   - presence: present
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
@@ -52,7 +52,7 @@ lesions.
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs and pleura
   - Small right and trace left pleural effusions unchanged. No focal consolidation. No pneumothorax. Airways intact.

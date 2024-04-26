@@ -33,7 +33,7 @@ lesions.
 - [blastic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
   
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs and pleura
   - No CT evidence of residual/recurrent disease. No pulmonary nodules. Airways intact. No pleural effusion or pneumothorax.

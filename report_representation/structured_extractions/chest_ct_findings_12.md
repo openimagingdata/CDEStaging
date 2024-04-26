@@ -39,8 +39,8 @@ Bones: No suspicious lytic or blastic lesions.
   - presence: absent
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
-- [vessel calcification](../../definiti  - location: coronary artery \[RID486\], \[RID544\]ons/nuance/coronary_artery_calcification.json)
-
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
   - presence: absent
 - [calcification](../../definitions/hood/breast-calcification.md)
   - location: right breast \[RID29896\], \[RID29897\]
@@ -53,7 +53,7 @@ Bones: No suspicious lytic or blastic lesions.
 - [blastic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - No suspicious pulmonary nodules or consolidation. Central airways are patent.

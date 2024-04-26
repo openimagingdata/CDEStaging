@@ -53,7 +53,7 @@ BONES: No suspicious lytic or blastic lesions. Multilevel degenerative changes i
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - location: spine \[RID7741\]
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - Unchanged focal bronchiectasis in inferior right upper lobe with endobronchial mucous plugging (7:219). Unchanged 4 mm right lower lobe subpleural triangular nodule on image 406 of series 7 which is consistent with a benign intrapulmonary lymph node. No focal consolidation. The central airways are clear.

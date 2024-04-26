@@ -44,16 +44,29 @@ _ lymphadenopathy
   - presence: absent
 _ lytic lesion
   - presence: absent
-_ plastic lesion
+- [compression deformity](../../definitions/hood/compression-fracture.md)
+  - location: T9 \[RID29206\]
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
+  - location: spine \[RID7741\]
+- multilevel augmentations
+  - location: thoracic spine \[RID7741\]
+- [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent
-_ compression deformity
-  _ presence: present
-  _ location: T9
-_ degenerative changes
-  _ presence: present
-  _ location: spine
-_ multilevel augmentations
-  - presence: present
-  - location: vertebra
+- [pleural effusion](../../definitions/hood/pleural-effusion.md)
+  - presence: absent
+  
+## Composite Negative Statements
 
-   
+- Mediastinum
+  - Devices/Tubes/LINES: None.
+  - Normal heart size. No pericardial effusion. Nonenlarged aorta and main pulmonary artery. No coronary calcification.
+  - No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
+  - No chest wall mass.
+- Lungs
+  - Unchanged 3 mm right upper (6:24) and right middle (6:53) nodules.
+  - No new suspicious nodules or consolidation. Similar bilateral lower lobe subsegmental atelectasis.
+- Pleura
+  - No pleural effusion or pneumothorax.
+- Bones
+  - No suspicious lytic or blastic lesions.
+  

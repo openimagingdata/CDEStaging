@@ -57,7 +57,7 @@ BONES: Mild degenerative endplate changes are seen in the mid thoracic spine.
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json), \[RID246\]
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Pleura
   - Normal. No pleural effusion or pneumothorax.

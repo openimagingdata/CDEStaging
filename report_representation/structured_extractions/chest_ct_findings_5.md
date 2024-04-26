@@ -51,7 +51,7 @@ are unremarkable.
 - [degenerative changes](../../definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
   - location: spine \[RID7741\]
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - There is no pneumothorax, pleural effusion, or suspicious focal air-space

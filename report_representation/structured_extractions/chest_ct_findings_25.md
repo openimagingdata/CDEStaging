@@ -53,7 +53,7 @@ lesions.
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs and pleura
   - No new focal consolidation. No pleural effusion or pneumothorax. Airways intact.

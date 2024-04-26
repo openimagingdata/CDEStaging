@@ -57,8 +57,10 @@ Bones/SOFT TISSUES: No suspicious osseous lesions. Multilevel degenerative chang
   - location: thoracic spine \[RID7741\]
 - idiopathic skeletal hyperostosis
   - presence: present
+- DISH changes
+  - presence: present
 
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - Central airways are patent. No consolidation or pulmonary edema.

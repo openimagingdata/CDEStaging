@@ -1,4 +1,3 @@
-- lymphadenopathy
 - multilevel augmentations
   - location: thoracic spine
 - atelectasis
@@ -42,6 +41,39 @@
   - size:  2.1 cm
   - location: right posterior
 - mediastinal calcific lesion
-  - presence: present
 - nephrectomy
   - side: left
+- calcification
+  - location: left upper lobe
+- lung scarring
+  - side: bilateral
+  - location: base
+- enlarged mediastinal lymph nodes
+  - location: subcarinal
+- prominence of breast tissue
+  - presence: present
+  - symmetry: asymmetric
+  - location: lower axillary region
+- prominence of breast tissue
+  - presence: present
+  - symmetry: asymmetric
+  - location: left upper outer quadrant
+- gallstone
+  - number: multiple
+- chest port
+  - location: left atrium
+- volume loss
+  - location: right upper lobe
+- healed fracture deformity
+  - location: right clavicle
+- atrophic kidney
+- DISH changes
+- aspirated secretions in trachea
+  - amount: trace
+- aspirated secretions in trachea
+  - amount: trace
+- chest wall mass resection
+  - location: right lower chest wall
+- bone heterogeneity
+  - location vertebral body and posterior rib
+  

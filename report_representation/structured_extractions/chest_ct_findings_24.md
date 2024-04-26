@@ -76,7 +76,7 @@ are unremarkable.
 - [osteolytic lesion](../../definitions/hood/lytic-lesion.md)
   - presence: absent
   
-## Compositve Negative Statements
+## Composite Negative Statements
 
 - Lungs
   - While the cavitary component of the lesion has moderately decreased in size, the soft tissue component of the lesion is grossly unchanged.

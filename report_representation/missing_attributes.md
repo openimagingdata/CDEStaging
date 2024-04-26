@@ -17,3 +17,7 @@
 - [sebaceous cyst](../../definitions/upmedic/Cyst.cde.md)
   - location: chest wall
   - shape: oval
+- [Emphysema](../../definitions/hood/emphysema.json)
+  - pattern: paraseptal
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
+  - shape: triangular
