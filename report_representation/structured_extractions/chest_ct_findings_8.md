@@ -59,10 +59,10 @@ Bones: Visualized skeleton shows degenerative changes. Unchanged sclerotic lesio
   - side: right
   - location: latissimus dorsi muscle \[RID13374_RID5825\]
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
+  - presence: present
+- [sclerotic lesion](../../definitions/hood/sclerotic-lesion.md)
   - location: right lateral fourth rib \[RID28591_RID6154_RID5825\]
   - series image: 5:180
-- [sclerotic lesion](../../definitions/hood/sclerotic-lesion.md)
-  - presence: absent
 - [lytic lesion](../../definitions/hood/lytic-lesion.md)
   - presence: absent
 

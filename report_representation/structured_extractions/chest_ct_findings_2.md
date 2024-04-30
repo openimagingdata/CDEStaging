@@ -4,7 +4,7 @@
 Devices/Tubes/LINES: None.  
 LUNGS: Unchanged 3 mm right upper (6:24) and right middle (6:53) nodules. No new suspicious nodules or consolidation. Similar bilateral lower lobe subsegmental atelectasis. Patent central airways.
 PLEURA: No pleural effusion or pneumothorax.
-MEDIASTINUM: Normal heart size. No pericardial effusion. Nonenlarged aorta and main pulmonary artery. Atherosclerotic calcification of the aorta and branch vessels. No coronary calcification. Small hiatal hernia.
+MEDIASTINUM: ormal heart Nsize. No pericardial effusion. Nonenlarged aorta and main pulmonary artery. Atherosclerotic calcification of the aorta and branch vessels. No coronary calcification. Small hiatal hernia.
 LYMPH NODES: Normal. No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
 UPPER ABDOMEN: Please see concurrent abdominal CT for abdominal findings.
 CHEST WALL: No chest wall mass.
@@ -34,7 +34,7 @@ BONES: No suspicious lytic or blastic lesions. Partially imaged thoracolumbar sp
 - [enlargement of diameter of main pulmonary artery](../../definitions/hood/pulmonary-artery-dilation.md)
   - presence: absent
 - [atherosclerotic calcification](../../definitions/hood/aortic-atherosclerosis.md)
-  - location: aorta and branch vessels
+  - location: aorta \[RID480\] and branch vessels
 - [coronary atherosclerotic calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - presence: absent
 - [hiatal hernia](../../definitions/nuance/hiatal_hernia.json)

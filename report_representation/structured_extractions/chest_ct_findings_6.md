@@ -12,11 +12,13 @@ Bones: No suspicious lytic or blastic lesions. Similar multilevel degenerative c
 
 ## Extracted Findings
 
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
+  - presence: absent
 - lymphadenopathy \[RID28847\]
   - presence: absent
 - [lung scarring](../../definitions/nuance/apical_pulmonary_scarring.json)
-  - location: apical
-  - side: bilateral \[RID1302\], \[RID1326\]
+  - location: apical \[RID28584\]
+  - side: bilateral
 - [nodule](../../definitions/hood/pulmonary-nodule.md)
   - appereance: groundglass
   - size: 9 mm
@@ -46,7 +48,7 @@ Bones: No suspicious lytic or blastic lesions. Similar multilevel degenerative c
 - [pulmonary embolism](../../definitions/hood/pulmonary-emboli.md)
   - presence: absent
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - location: coronary artery [RID486\], \[RID544\]
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: mild
 - [valve calcification](../../definitions/hood/annular-calcifications.md)
   - aortic valve \[RID1394\]

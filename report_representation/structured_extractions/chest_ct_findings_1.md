@@ -33,8 +33,10 @@ BONES: Normal. No suspicious lytic or blastic lesions.
 - [blastic lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 - [residual thymus](../../definitions/nuance/residual_thymus.json)
-  - location: anterior mediastinum
+  - location: anterior mediastinum \[RID1384\]
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
+  - presence: absent
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
 
 ## Composite Negative Statements
