@@ -39,8 +39,8 @@ BONES: There are mild degenerative changes within the thoracic spine . No suspic
 - [pericardial fluid](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
-  - absent
-[degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
+  - presence: absent
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: thoracic spine
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent

@@ -34,9 +34,9 @@ BONES: Degenerative change thoracic spine. Glenohumeral joint degenerative chang
   - presence: absent
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
-[degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - location: thoracic spine \[RID7741\]
-[degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - location: Glenohumeral joint degenerative change with loose body on the right \[RID1905\]
 - [bone lesion](../../definitions/hood/lytic-lesion.md), [alternate](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent

@@ -17,12 +17,12 @@ BONES: No suspicious lytic or blastic lesions. Similar T8 vertebral body lesion 
   - termination: right atrium \[RID1387\]
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 3mm
-  - locationL: right apical \[RID28584\]
+  - location: right apical \[RID28584\]
   - series image: 5:77
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 4 mm
   - location: peri-fissural nodules along the right minor fissure \[RID43258\]
-  - series image: 5:209, 217
+  - series image: 5:209
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 3 mm
   - location: left lower lobe peri-fissural nodule \[RID43260_RID5824\]

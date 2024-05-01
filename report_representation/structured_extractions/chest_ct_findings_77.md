@@ -35,7 +35,7 @@ BONES: There is a non-healed fracture of the left lateral 8th rib. Degenerative 
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
 - [pulmonary artery dilation](../../definitions/hood/pulmonary-artery-dilation.md)
-  - presence; absent
+  - presence: absent
 - lymphadenopathy
   - presence: absent
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)

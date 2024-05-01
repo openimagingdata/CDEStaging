@@ -33,7 +33,7 @@ unremarkable. No suspicious lytic or blastic bony lesions.
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - presence: absent
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - location: coronary artery [RID486\], \[RID544\]
+  - location: coronary artery \[RID486\], \[RID544\]
   - presence: present
 - lymphadenopathy
   - presence: absent

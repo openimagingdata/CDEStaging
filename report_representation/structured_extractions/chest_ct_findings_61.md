@@ -33,15 +33,17 @@ BONES: Mild multilevel degenerative changes in the thoracic spine.. No suspiciou
   - presence: absent
 - hyperattenuation in the stomach, likely ingested material
   - presence: present
-- hypoattenuating lesion likely a [cyst](../../definitions/hood/hepatic-cyst.json) or [hemangioma](../../definitions/hood/hepatic-hemangioma.json)
+- [cyst](../../definitions/hood/hepatic-cyst.json)
+  - location: near the hepatic dome
+- [hemangioma](../../definitions/hood/hepatic-hemangioma.json)
   - location: near the hepatic dome
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
-  presence: absent
+  - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
-[degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - severity: mild
   - location: thoracic spine \[RID7741\]
 

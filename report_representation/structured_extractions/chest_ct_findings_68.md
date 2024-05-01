@@ -34,7 +34,7 @@ BONES: Normal. No suspicious lytic or blastic lesions.
   - size: 8 mm
   - image: 19
 - [diaphragmatic lymph node](../../definitions/hood/diaphragmatic-lymph-node.md)
-  - location; left anterior diaphragmatic lymph node
+  - location: left anterior diaphragmatic lymph node
   - size: 8 mm
   - image: 375
 - [internal mammary lymph nodes](../../definitions/hood/internal-mammary-lymph-node.md) \[RID34263\]

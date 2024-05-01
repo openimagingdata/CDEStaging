@@ -16,8 +16,7 @@ BONES: Degenerative changes no evidence of lytic or blastic lesions.
 - [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.json)
   - severity: mild
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
-  - appereance: tree-in-bud
-- opacities
+  - appearance: tree-in-bud opacities
   - pattern: groundglass
   - location: right upper lobe \[RID1303\] and peripherally at left lung base
 - [multifocal consolidation](../../definitions/smartreporting/consolidation.txt)
@@ -38,7 +37,7 @@ BONES: Degenerative changes no evidence of lytic or blastic lesions.
 - lymphadenopathy
   - presence: absent
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
-  presence: absent
+  - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)

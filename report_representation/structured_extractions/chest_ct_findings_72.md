@@ -39,11 +39,11 @@ BONES: Sternotomy wires are intact. There are degenerative changes without suspi
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - location: coronary artery \[RID486\], \[RID544\]
 - vessel atherosclerotic calcification
-  - location: thoracic aorta \[RID879\]and arch vessels \[RID581\]
+  - location: thoracic aorta \[RID879\] and arch vessels \[RID581\]
 - [dilated fluid-filled esophagus](../../definitions/hood/esophageal-fluid.md), [alternate](../../definitions/hood/esophageal-dilation.md)
   - presence: present
 - [thyroid nodule](../../definitions/hood/thyroid-nodule.md)
-  - presence; absent
+  - presence: absent
 - lymphadenopathy
   - presence: absent
 - [gynecomastia](../../definitions/hood/gynecomastia.json)
@@ -51,7 +51,7 @@ BONES: Sternotomy wires are intact. There are degenerative changes without suspi
   - silde: bilateral \[RID29897\], \[RID29896\], \[RID29900\], \[RID29899\]
 - sternotomy wires
   - presence: present
-[degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: present
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent

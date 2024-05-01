@@ -17,9 +17,8 @@ BONES: Median sternotomy. Unchanged vertebral body and posterior rib heterogenei
   - location: right basilar
 - aspirated secretions in trachea
   - amount: trace
-- opacity
   - location: bilateral upper lobe \[RID1303\], \[RID1303\]
-  - appereance: ground glass
+  - appearance: ground glass opacity
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - location: right upper lobe \[RID1303\]
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
@@ -30,7 +29,7 @@ BONES: Median sternotomy. Unchanged vertebral body and posterior rib heterogenei
   - size: 3 mm
   - series image: 203:587, 557
 - atelectasis
-  - right middle and lower lobe \[RID1310\], \[RID1315\]
+  - location: right middle and lower lobe \[RID1310\], \[RID1315\]
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - severity: moderate
 - [pleural thickening](../../definitions/hood/pleural-thickening.md)
@@ -57,7 +56,7 @@ BONES: Median sternotomy. Unchanged vertebral body and posterior rib heterogenei
 - [median sternotomy](../../definitions/hood/median-sternotomy.md)
   - presence: present
 - bone heterogeneity
-  - location vertebral body and posterior rib
+  - location:vertebral body and posterior rib
 
 ## Composite Negative Statements
 

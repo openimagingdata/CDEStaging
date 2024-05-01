@@ -14,8 +14,8 @@ Bones/SOFT TISSUES: No suspicious osseous lesions. Multilevel degenerative chang
 ## Extracted findings
 
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
-  - appereance; solid
-  - size: 2mm
+  - appereance: solid
+  - size: 2 mm
   - location: right upper lobe \[RID1303\]
   - series image: 3:225
 - [calcified granuloma](../../definitions/nuance/calcified_pulmonary_granuloma.json)
@@ -42,7 +42,7 @@ Bones/SOFT TISSUES: No suspicious osseous lesions. Multilevel degenerative chang
 - bone lesion
   - presence: absent
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
-  presence: absent
+  - presence: absent
 
 ## Composite Negative Statements
 

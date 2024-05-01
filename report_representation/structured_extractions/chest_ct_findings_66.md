@@ -19,7 +19,7 @@ BONES: No suspicious lytic or blastic lesions. Hill-Sachs fracture of the right 
   - size: 4.2 x 2.7 cm
   - series image: 4:103
 - [interlobular septal thickening](../../definitions/hood/interlobular-septal-thickening.json)
-  - location: right upper lobe \[RID1303\], right middle and lower lobes \[RID1310\], \[RID1315\], \[RID1303\]
+  - location: right upper lobe \[RID1303\], right middle \[RID1310\] and lower lobes \[RID1315\]
 - thickening along the bronchovascular bundles
   - location: right upper lobe \[RID1303\]
 - [nodule](../../definitions/hood/pulmonary-nodule.json)

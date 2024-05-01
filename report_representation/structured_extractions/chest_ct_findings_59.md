@@ -24,7 +24,7 @@ BONES: No suspicious lytic or blastic lesions. Multilevel degenerative changes o
 - [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
-  - presence; absent
+  - presence: absent
 - [pericardial fluid](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
 - [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
@@ -38,11 +38,11 @@ BONES: No suspicious lytic or blastic lesions. Multilevel degenerative changes o
 - [gynecomastia](../../definitions/hood/gynecomastia.json)
   - severity: mild
   - side: bilateral \[RID29897\], \[RID29896\], \[RID29900\], \[RID29899\]
-[degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - location: thoracic spine \[RID7741\]
   - severity: mild
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
-  presence: absent
+  - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)

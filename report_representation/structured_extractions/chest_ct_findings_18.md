@@ -42,8 +42,8 @@ BONES: No suspicious lytic or blastic lesions. Multilevel degenerative changes i
   - presence: present
 - colonic diverticulosis
   - presence: present
-- [aortic atherosclerotic calcifications](../../definitions/hood/aortic-atherosclerosis.md) \[RID480\]
-  - presence: present
+- [aortic atherosclerotic calcifications](../../definitions/hood/aortic-atherosclerosis.md)
+  - location: abdominal aorta \[RID905\]
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json), \[RID246\]
   - presence: absent
 - [lytic lesion](../../definitions/hood/lytic-lesion.md)

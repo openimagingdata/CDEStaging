@@ -30,7 +30,7 @@ BONES: No suspicious lytic or blastic lesions.
   - image: 348
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - volume: trace
-  - right basilar
+  - location: right basilar
 - [cardiac chamber enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
 - [pericardial fluid](../../definitions/hood/pericardial-effusion.md)
@@ -40,7 +40,7 @@ BONES: No suspicious lytic or blastic lesions.
 - lymphadenopathy
   - presence: absent
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
-  presence: absent
+  - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)

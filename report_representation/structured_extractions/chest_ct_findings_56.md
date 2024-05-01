@@ -29,7 +29,7 @@ BONES: Unchanged lytic lesion at C6. No new osseous lesions.
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - size: 2mm
   - location: left upper lobe \[RID1327\]
-  image: 107
+  - image: 107
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - size: 2mm
   - location:left upper lobe \[RID1327\]
@@ -37,7 +37,7 @@ BONES: Unchanged lytic lesion at C6. No new osseous lesions.
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.md)
-  - presence; absent
+  - presence: absent
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
 - [pericardial fluid](../../definitions/hood/pericardial-effusion.md)
@@ -52,7 +52,7 @@ BONES: Unchanged lytic lesion at C6. No new osseous lesions.
 - hilar lymphadenopathy
   - presence: absent
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
-  presence: absent
+  - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)

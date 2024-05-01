@@ -18,7 +18,7 @@ BONES: No suspicious lytic or blastic lesions.
 - [mucus layering](../../definitions/hood/airway-mucus-plugging.json)
   - location: lower trachea \[RID1247\]
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
-  - lung bases
+  - location: lung bases
 - [calcified granuloma](../../definitions/hood/calcified-granuloma.json)
   - presence: present
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
@@ -28,7 +28,7 @@ BONES: No suspicious lytic or blastic lesions.
 - foci of air
   - location: lower neck \[RID7488\]
 - [cardiac chamber enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)
-  - presence; absent
+  - presence: absent
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)

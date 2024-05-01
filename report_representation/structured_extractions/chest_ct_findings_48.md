@@ -38,7 +38,7 @@ BONES: No new suspicious lytic or blastic lesions. Partially visualized anterior
   - presence: absent
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - severity: moderate
-- [pleural thickening](../../definitions/hood/pleural-thickening.md)
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: present
 - [pneumothorax](../../definitions/hood/pneumothorax.md)
   - presence: absent

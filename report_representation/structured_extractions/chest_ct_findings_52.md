@@ -29,7 +29,7 @@ BONES: No suspicious lytic or blastic lesions.
 - [pericardial fluid](../../definitions/hood/pericardial-effusion.md)
   - severity: trace
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - location: coronary artery [RID486\], \[RID544\]
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: mild
 - lymphadenopathy
   - presence: absent

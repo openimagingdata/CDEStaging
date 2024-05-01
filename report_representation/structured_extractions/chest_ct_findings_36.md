@@ -62,11 +62,11 @@ Bones: No acute or aggressive osseous abnormality. Multilevel moderate to severe
   - pattern: Clustered
   - series image: 3:284
 - [branching nodularity](../../definitions/hood/pulmonary-nodule.md)
-  - location: right lower lobe series
+  - location: right lower lobe series \[RID1315\]
   - pattern: branching
   - series image: 3:284
 - calcification
-  - location: right lower lobe series
+  - location: right lower lobe series \[RID1315\]
   - series image: 3:284
 - [calcified granuloma](../../definitions/hood/calcified-granuloma.md)
   - pattern: scattered

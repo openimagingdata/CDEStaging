@@ -33,7 +33,7 @@ BONES: No suspicious lytic or blastic lesions.
 - [dilated esophagus](../../definitions/hood/esophageal-dilation.md)
   - presence: present
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - location: coronary artery [RID486\], \[RID544\]
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: severe
 - [cabg](../../definitions/hood/cabg.json)
   - presence: present

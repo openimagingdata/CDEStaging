@@ -22,7 +22,7 @@ BONES: Skeletal degenerative changes without suspicious lytic or blastic lesions
 - [thickening of interlobular septae](../../definitions/hood/interlobular-septal-thickening.json)
   - presence: present
 - atelectasis
-  - location: lingula \[RID1333\], right middle lobe \[RID1310\], and right lower lobe \[RID1315\]
+  - location: lingula \[RID1333\], right middle lobe \[RID1310\] and right lower lobe \[RID1315\]
 - [granuloma](../../definitions/nuance/calcified_pulmonary_granuloma.json)
   - location: Left lower lobe \[RID1338\]
   - series image: 2:175
@@ -33,7 +33,7 @@ BONES: Skeletal degenerative changes without suspicious lytic or blastic lesions
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
 - thyroid nodule
-  - presence; absent
+  - presence: absent
 - [pericardial fluid](../../definitions/hood/pericardial-effusion.md)
   - volume: small
 - [cardiac chamber enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)

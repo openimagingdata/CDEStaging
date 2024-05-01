@@ -28,7 +28,7 @@ BONES: Also see lung section. Mild degenerative changes and osteopenia in the sp
 - [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
 - [thyroid nodule](../../definitions/hood/thyroid-nodule.md)
-abs
+  - presence: absent
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)

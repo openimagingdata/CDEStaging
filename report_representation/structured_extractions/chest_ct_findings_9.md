@@ -16,8 +16,6 @@ BONES: There are degenerative changes. No suspicious lytic or blastic lesions.
 
 - [pleural effusion](../../definitions/hood/pleural-effusion.md)
   - presence: absent
-- [pneumothorax](../../definitions/hood/pneumothorax.md)
-  - presence: absent
 - [lytic lesion](../../definitions/hood/lytic-lesion.md)
   - presence: absent
 - [blastic lesion](../../definitions/hood/sclerotic-lesion.md)

@@ -31,7 +31,7 @@ BONES: No suspicious lytic or blastic lesions.
 - [pulmonary embolism](../../definitions/hood/pulmonary-emboli.json)
   - presence: absent
 - lymphadenopathy
-  - absent
+  - presence: absent
 - [liver hemangioma](../../definitions/nuance/liver_hemangioma.json)
   - presence: presen
 - [chest wall mass](../../definitions/hood/chest-wall.json)  

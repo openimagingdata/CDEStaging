@@ -45,18 +45,18 @@ BONES: No destructive osseous lesion. Mild levoconvex upper and dextroconvex low
 - [cardiac chambers enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)
   - size: normal limit
 - [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - presence; present
+  - presence: present
 - [aortic calcification](../../definitions/hood/aortic-atherosclerosis.json)
   - presence: present
 - surgical clips
-  - location; paraesophageal
+  - location: paraesophageal
 - lymphadenopathy
   - presence: absent
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
 - [bone lesion](../../definitions/hood/lytic-lesion.md), [alternate](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
-[degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: present
 - [scoliosis](../../definitions/nuance/thoracic_spine_scoliosis.json)
   - severity: mild

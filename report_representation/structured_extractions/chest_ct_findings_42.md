@@ -53,10 +53,10 @@ BONES: Severe degenerative changes of the visualized spine with multilevel mild 
   - part of aorta: descending aorta \[RID35844\]
   - diameter: 3 cm
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - location: coronary artery [RID486\], \[RID544\]
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: severe
 - [atherosclerosis](../../definitions/hood/aortic-atherosclerosis.json)
-  - location: thoracic aorta \[RID879]\ and its branch vessels
+  - location: thoracic aorta \[RID879\] and its branch vessels
 - lymphadenopathy
   - size: measuring up to 2.2 cm
   - appereance: coarse calcification
@@ -76,7 +76,7 @@ BONES: Severe degenerative changes of the visualized spine with multilevel mild 
 - [compression deformity](../../definitions/hood/compression-fracture.md)
   - severity: mild
 - [clavicle fractute](../../definitions/hood/clavicle-fracture.md)
-  - side: right
+  - side: right clavicle \[RID41740\]
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)

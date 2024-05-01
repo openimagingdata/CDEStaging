@@ -35,7 +35,7 @@ BONES: Partially imaged cervical spine fusion. No suspicious lytic or blastic le
 - [pericardial fluid](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
-  - location: coronary artery [RID486\], \[RID544\]
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: mild
 - post surgical changes
   - presence: present

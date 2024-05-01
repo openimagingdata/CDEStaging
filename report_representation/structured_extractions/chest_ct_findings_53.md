@@ -5,7 +5,7 @@ Devices/Tubes/LINES: None.
 LUNGS: The central airways. Mild diffuse bronchial wall thickening. Bandlike right upper lobe opacity with associated 3 mm nodule (3:167). Punctate calcified left lower lobe pulmonary nodule (3:270). 4 mm subpleural right lower lobe nodule (3:302), likely nodular atelectasis. Bandlike atelectasis at the lung bases.
 PLEURA: No pleural effusion or pneumothorax.
 MEDIASTINUM: Punctate left thyroid calcification. There is a 14 x 16 mm left paraesophageal structure containing air, favored to reflect a esophageal diverticulum (Killian-Jamieson diverticulum). Heart and pericardium are normal. Mild amount of coronary calcifications. Aerated secretions in the
-LYMPH NODES: 7 mm left supraclavicular lymph node, unchanged from March 2021. Numerous subcentimeter axillary and mediastinal lymph nodes. No lymphadenopathy by size criteria.
+LYMPH NODES: Numerous subcentimeter axillary and mediastinal lymph nodes. No lymphadenopathy by size criteria.
 UPPER ABDOMEN: No abnormality detected in the visualized upper abdomen. Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
 CHEST WALL: No chest wall mass.
 BONES: No suspicious lytic or blastic lesions.
@@ -49,7 +49,7 @@ BONES: No suspicious lytic or blastic lesions.
   - presence: absent
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
-- [pericardial fluid](../../definitions/hood/pericardial-effusion.md)
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent

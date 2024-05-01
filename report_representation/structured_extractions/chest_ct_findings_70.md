@@ -35,10 +35,10 @@ BONES: The patient has a severe upper thoracic kyphosis at the T1-3 level. There
   - location: coronary artery \[RID486\], \[RID544\]
   - severity: moderate
 - lymphadenopathy
-  - presence; absent
+  - presence: absent
 - [lipoma](../../definitions/hood/lipoma.json)
   - location: gastric wall
-  - size; small
+  - size: small
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
 - kyphosis
