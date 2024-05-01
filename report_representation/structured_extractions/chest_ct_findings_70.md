@@ -42,7 +42,7 @@ BONES: The patient has a severe upper thoracic kyphosis at the T1-3 level. There
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
 - kyphosis
-  - location: T1- 3
+  - location: T1- 3 \[RID29198\], \[\RID29199\], \[RID29200\]
   - severity: severe
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: present

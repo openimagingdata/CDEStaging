@@ -18,7 +18,7 @@ BONES: No suspicious lytic or blastic lesions.
 - [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.md)
   - severity: mild
 - [emphysema](../../definitions/hood/emphysema.md)
-  - location: centrilobular
+  - type: centrilobular
   - severity: mild
 - atelectasis  
   - size: small

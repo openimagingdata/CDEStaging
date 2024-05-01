@@ -48,7 +48,7 @@ BONES: There are lytic metastases in the sternum best seen on image 82 in series
   - size: up to 0.1 cm
   - series image: 4:328, 105, 201
 - [skin thickeing](../../definitions/hood/breast-skin-thickening.md)
-  - location: right breast \[RID29896:\], \[RID29899\]
+  - location: right breast \[RID29896\], \[RID29899\]
   - severity: mild
   
 ## Composite Negative Statements

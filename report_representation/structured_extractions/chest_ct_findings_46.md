@@ -17,7 +17,7 @@ BONES: Median sternotomy. Unchanged vertebral body and posterior rib heterogenei
   - location: right basilar
 - aspirated secretions in trachea
   - amount: trace
-  - location: bilateral upper lobe \[RID1303\], \[RID1303\]
+  - location: bilateral upper lobe \[RID1303\], \[RID1327\]
   - appearance: ground glass opacity
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - location: right upper lobe \[RID1303\]

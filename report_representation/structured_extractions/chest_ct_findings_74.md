@@ -34,7 +34,7 @@ BONES: Also see lung section. Mild degenerative changes and osteopenia in the sp
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - location: coronary artery \[RID486\], \[RID544\]
   - severity: severe
-- [calcification of thoracic aorta](../../definitions/nuance/thoracic_vessel_atherosclerotic_calcification.json)
+- [calcification of thoracic aorta](../../definitions/nuance/thoracic_vessel_atherosclerotic_calcification.json) \[RID879\], \[RID581\]
   - severity: mild
 - subaortic node
   - size: 1.8 x 1.0 cm

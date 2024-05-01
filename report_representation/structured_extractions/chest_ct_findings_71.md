@@ -37,7 +37,7 @@ BONES: No suspicious osseous lesion.
   - presence: absent
 - [pericardial fluid](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
-- [ivc filter](../../definitions/hood/ivc-filter.json)
+- [ivc filter](../../definitions/hood/ivc-filter.json) \[RID1178\]
   - presence: present
 - abdominal wall hernia repair
   - presence: present

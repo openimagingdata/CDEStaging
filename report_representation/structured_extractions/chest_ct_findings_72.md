@@ -20,7 +20,7 @@ BONES: Sternotomy wires are intact. There are degenerative changes without suspi
 - [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.json)
   - severity: mild
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
-  - location: centrilobular nodules predominantly in the lower lungs
+  - location: centrilobular nodules predominantly in the lower lungs \[RID1315\], \[RID1338\]
 - pulmonary edema
   - presence: present
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
@@ -38,7 +38,7 @@ BONES: Sternotomy wires are intact. There are degenerative changes without suspi
   - presence: present
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - location: coronary artery \[RID486\], \[RID544\]
-- vessel atherosclerotic calcification
+- [vessel atherosclerotic calcification](../../definitions/nuance/thoracic_vessel_atherosclerotic_calcification.json)
   - location: thoracic aorta \[RID879\] and arch vessels \[RID581\]
 - [dilated fluid-filled esophagus](../../definitions/hood/esophageal-fluid.md), [alternate](../../definitions/hood/esophageal-dilation.md)
   - presence: present

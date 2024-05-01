@@ -16,7 +16,7 @@ BONES: No suspicious lytic or blastic lesions.
 - [interlobular septal thickening](../../definitions/hood/interlobular-septal-thickening.md)
   - presence: present, greater in lower lungs
 - linear opacities
-  - location: lower lungs
+  - location: lower lungs \[RID1315\], \[RID1339\]
 - [air trapping](../../definitions/upmedic/AirTrapping.cde.md)
   - presence: absent
 - reticular opacities
