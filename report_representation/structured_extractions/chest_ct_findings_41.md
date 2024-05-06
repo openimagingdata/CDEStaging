@@ -51,6 +51,8 @@ BONES: No suspicious lytic or blastic lesions. Status post clamshell sternotomy
   - presence: absent
 - [sternotomy changes](../../definitions/hood/median-sternotomy.md)
   - presence: present
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
+  - presence: absent
 
 ## Composite Negative Statements
 

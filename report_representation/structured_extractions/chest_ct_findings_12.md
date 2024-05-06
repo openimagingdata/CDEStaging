@@ -65,6 +65,6 @@ Bones: No suspicious lytic or blastic lesions.
   - No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
   - Unchanged 0.9 cm left breast mass (3:40).
 - Abdomen
-No abnormality detected in the visualized upper abdomen. Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
+  - No abnormality detected in the visualized upper abdomen. Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
 - Bones
   - No suspicious lytic or blastic lesions.

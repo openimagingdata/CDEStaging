@@ -34,6 +34,10 @@ BONES: No suspicious lytic or blastic lesions.
   - presence: absent
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)  
+  - presence: absent
+- [pneumothorax](../../definitions/hood/pneumothorax.md)
+  - presence: absent
 
 ## Composite Negative Statements
 

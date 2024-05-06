@@ -13,6 +13,10 @@ BONES: No lytic or blastic lesions. Degenerative bone and spine disease. Status 
 
 ## Extracted findings
 
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
+  - presence: absent
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
+  - presence: absent
 - [nodule](../../definitions/hood/pulmonary-nodule.json)
   - size: 3 mm
   - location: right upper lobe \[RID1303\]

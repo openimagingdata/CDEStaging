@@ -48,8 +48,7 @@ are unremarkable.
 focal air-space consolidation.  There is no pulmonary mass or suspicious nodule.  The
 central airways are patent.
 - Mediastinum
-  - The heart is normal in
-size without pericardial effusion. Median sternotomy wires are intact.
+  - The heart is normal in size without pericardial effusion. Median sternotomy wires are intact.
 There is no mediastinal or hilar lymphadenopathy.  The unopacified great mediastinal
 vessels are unremarkable.  The thyroid gland is grossly unremarkable.  
 - Bones
