@@ -13,32 +13,32 @@ BONES: Normal. No suspicious lytic or blastic lesions.
 
 ## Extracted findings
 
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - location: perilymphatic involving all lobes of both lungs
 - nodule opacities
   - series image: 7:97
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- vessel calcification
-  - location: coronary artery
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: moderate
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - size: 1.6 cm
   - series image: 2:28
   - location: right paratracheal lymph node
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - location: Para-aortic lymph node
   - image: 34
   - size: 8 mm
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - location: Subcarinal lymph node
   - size: 11 mm
   - image: 49
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - size: large
   - location: bilateral hilar lymph nodes
 - gastrohepatic ligament lymphnode

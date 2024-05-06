@@ -13,35 +13,35 @@ BONES: Spondylitic changes in the spine. Scoliosis of the mid thoracic spine con
 
 ## Extracted findings
 
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: measuring up to 3 mm
 - pulmonary parenchymal mass
   - presence: absent
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- atherosclerosis
+- [atherosclerosis](../../definitions/nuance/thoracic_vessel_atherosclerotic_calcification.json)
   - location: thoracic aorta
-- aneurysmal dilation
+- [aneurysmal dilation](../../definitions/nuance/aortic_aneurysm_or_dilation.json)
   - presence: absent
-- vessel calcification
-  - location: coronary artery
-- lymphadenopathy
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- cholelithiasis
+- [cholelithiasis](../../definitions/hood/cholelithiasis.json)
   - presence: present
-- liver cyst
+- [liver cyst](../../definitions/nuance/hepatic_and_renal_cysts.json)
   - presence: present
-- chest wall mass
+- [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
-- Spondylitic changes in the spine
+- spondylitic changes in the spine
   - presence: present
-- Scoliosis
+- [scoliosis](../../definitions/nuance/thoracic_spine_scoliosis.json)
   - location: thoracic spine
   - severity: mild
 

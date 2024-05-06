@@ -17,23 +17,23 @@ SOFT TISSUE/AXILLAE: Within normal limits.
 
 - subpleural reticulation
   - location: both upper and lower lobes
-- bronchiectasis
+- [bronchiectasis](../../definitions/hood/bronchiectasis.json)
   - severity: mild
-- honeycomb fibrosis
+- [honeycomb fibrosis](../../definitions/nuance/fibrotic_changes_or_honeycombing.json)
   - presence: absent
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- vessel calcification
-  - location: coronary artery
-- atherosclerotic changes
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
+- [atherosclerotic changes](../../definitions/nuance/thoracic_vessel_atherosclerotic_calcification.json)
   - location: aorta
-- aneurysmal dilation of aorta
+- [aneurysmal dilation of aorta](../../definitions/nuance/aortic_aneurysm_or_dilation.json)
   - presence: absent
-- dilation of pulmonary artery
+- [dilation of pulmonary artery](../../definitions/hood/pulmonary-artery-dilation.json)
   - presence: present
 - bone fracture
   - presence: absent
-- degenerative changes
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: present
 
 ## Composite Negative Statements

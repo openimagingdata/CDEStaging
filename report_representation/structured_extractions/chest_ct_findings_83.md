@@ -12,9 +12,9 @@ BONES: No osseous lesions.
 
 ## Extracted findings
 
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - presence: absent
-- consolidation
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
@@ -22,16 +22,16 @@ BONES: No osseous lesions.
   - presence: absent
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- mediastinal mass
+- [mediastinal mass](../../definitions/hood/mediastinal-mass.json)
   - size: 9 x 8 x 7 cm
   - location: anterior and middle mediastinum
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - presence: absent
-- dilation of thoracic aorta
+- [dilation of thoracic aorta](../../definitions/hood/aortic-measurements.json)
   - presence: absent
-- dilation of pulmonary artery
+- [dilation of pulmonary artery](../../definitions/hood/pulmonary-artery-dilation.md)
   - presence: absent
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent

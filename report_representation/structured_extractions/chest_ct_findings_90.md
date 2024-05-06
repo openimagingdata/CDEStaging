@@ -13,38 +13,38 @@ BONES: No suspicious bone lesion.
 
 ## Extracted findings
 
-- calcified granuloma
+- [calcified granuloma](../../definitions/nuance/calcified_pulmonary_granuloma.json)
   - presence: present
   - amount: few
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - appereance: noncalcified
   - size: small measuring up to 5 mm
   - amount: few
   - location: right lower lobe
   - series image: 6:393
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - appereance: noncalcified
   - size: small measuring up to 5 mm
   - amount: few
   - location: left lower lobe
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- vessel calcification
-  - location: coronary artery
-- pericardial effusion
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- residual thymus
+- [residual thymus](../../definitions/hood/thymus.json)
   - location: anterior mdiastinum
 - thoracic adenopathy
   - presence: absent
 - hypodensity
   - location: dome of liver
   - series image: 6:438 and 7:55
-- renal cyst
+- [renal cyst](../../definitions/nuance/hepatic_and_renal_cysts.json)
   - location: right kidney
-- renal stone
+- [renal stone](../../definitions/nuance/renal_stone.json)
   - size: 7mm
   - location: right upper pole
   - obstrustion: absent

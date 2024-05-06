@@ -13,32 +13,32 @@ BONES: No suspicious lytic or blastic lesions. Multilevel degenerative changes o
 
 ## Extracted findings
 
-- cavitary nodule
+- [cavitary nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 18 mm
   - location: left lower lobe
   - series image: 5:293
-- cavitary nodule
+- [cavitary nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 11 mm
   - location: right lower lobe
   - series image: 5:282
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 16 mm
   - location: right upper lobe
   - series image: 5:272
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- vessel calcification
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: mild
-  - location: coronary artery
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- renal cyst
+- [renal cyst](../../definitions/nuance/hepatic_and_renal_cysts.json)
   - location: right kidney
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
@@ -46,9 +46,9 @@ BONES: No suspicious lytic or blastic lesions. Multilevel degenerative changes o
   - presence: absent
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
-- degenerative changes
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - location: spine
-- osteopenia
+- [osteopenia](../../definitions/nuance/osteopenia.json)
   - presence: present
 
 ## Composite Negative Statements

@@ -19,23 +19,23 @@ BONES: Right clavicle fixation hardware. No new suspicious lytic or blastic lesi
 - hypodensity
   - location: right brachiocephalic vein
   - series image: 5:53-55; 2:26
-- PICC line
+- [picc line](../../definitions/hood/PICC.json)
   - tip location: right atrium
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - presence; absent
-- consolidation
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- thyroid nodule
+- [thyroid nodule](../../definitions/hood/thyroid_nodule.cde.json)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence; absent
-- subcutaneus nodule
+- [subcutaneus nodule](../../definitions/nuance/subcutaneous_soft_tissue_nodule.json)
   - location: right anterior chest wall at Port-A-Cath removal site
   - size: 1.5 x 1.0 cm
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)

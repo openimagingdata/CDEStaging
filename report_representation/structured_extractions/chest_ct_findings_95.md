@@ -13,30 +13,30 @@ BONES: No suspicious lytic or blastic lesions. Degenerative changes of the spine
 
 ## Extracted findings
 
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 2-3 mm
   - side: subpleural left upper and lower lobe
   - series image: 7:87 and 7:209
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 3 mm
   - location: right lower lobe
   - series image: 7:200
-- scarring
+- [scarring](../../definitions/nuance/apical_pulmonary_scarring.json)
   - severity: mild
   - location: biapical pleural-parenchymal
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- coronary artery calcification
+- [coronary artery calcification](../../definitions/nuance/coronary_calcifications.txt)
   - presence: absent
 - postsurgical changes
   - location: lower neck
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
@@ -44,9 +44,9 @@ BONES: No suspicious lytic or blastic lesions. Degenerative changes of the spine
   - presence: absent
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
-- degenerative changes
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - location: spine
-- osteopenia
+- [osteopenia](../../definitions/nuance/osteopenia.json)
   - presence: present
 
 ## Composite Negative Statements

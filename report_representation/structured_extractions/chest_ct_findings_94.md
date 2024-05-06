@@ -13,30 +13,30 @@ BONES: No suspicious lytic or blastic lesions. Diffuse osteopenia. Mild degenera
 
 ## Extracted findings
 
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - location: left lower lobe
   - series image: 12:307
   - size: 5 mm
 - atelectasis
   - location: subsegmental and bilateral
-- bronchial wall thickening
+- [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.json)
   - severity: mild
-- pleural thickening
+- [pleural thickening](../../definitions/hood/pleural-thickening.md)
   - severity: mild
   - side: left pleura
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- pulmonary metastases
+- [pulmonary metastases](../../definitions/upmedic/PulmonaryMetastases.cde.md)
   - presence: absent
-- coronary artery calcification
+- [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - presence: absent
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
@@ -44,12 +44,12 @@ BONES: No suspicious lytic or blastic lesions. Diffuse osteopenia. Mild degenera
   - presence: absent
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
-- osteopenia
+- [osteopenia](../../definitions/nuance/osteopenia.json)
   - presence: absent
-- degenerative changes
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - severity: mild
   - location: spine
-- hemangioma
+- [hemangioma](../../definitions/nuance/thoracic_spine_hemangioma.json)
   - location: T9 and T10
 
 ## Composite Negative Statements

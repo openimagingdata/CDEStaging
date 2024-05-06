@@ -18,33 +18,33 @@ BONES: Posterior thoracolumbar spine fusion hardware. Severe S shaped scoliosis 
   - location: bibasilar
 - scarring/atelectasis
   - location: left lower lobe
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - presence: absent
-- consolidation
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
 - ground glass opacity
   - presence: absent
-- air trapping
+- [air trapping](../../definitions/upmedic/AirTrapping.cde.md)
   - presence: absent
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence; absent
-- PFO closure device
+- [pfo closure device](../../definitions/hood/pfo-closure-device.json)
   - presence: present
 - cholecystectomy
   - presence: present
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
-- hardware
-- location: posterior thoracolumbar spine fusion
+- [hardware](../../definitions/nuance/thoracic_spine_fusion_hardware.json)
+  - location: posterior thoracolumbar spine fusion
 - bone deformity
   - location: deformity of the left glenohumeral joint
-- osteopenia
+- [osteopenia](../../definitions/nuance/osteopenia.json)
   - presence: present
 
 ## Composite Negative Statements

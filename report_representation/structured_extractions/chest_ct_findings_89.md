@@ -17,23 +17,23 @@ BONES: Post thoracotomy changes. No suspicious lytic or blastic lesions.
   - location: left upper lobe and multiple right sided resection
 - bronchiectasis
   - severity: mild
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - presence: absent
-- consolidation
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
 - patulous esophagus
   - severity: mild
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- coronary artery calcification
+- [coronary artery calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - presence: absent
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
@@ -41,7 +41,7 @@ BONES: Post thoracotomy changes. No suspicious lytic or blastic lesions.
   - presence: absent
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
-- thoracotomy
+- [post thoracotomy changes](../../definitions/nuance/post-thoracotomy_defects_in_the_chest_wall.json)
   - presence: present
 
 ## Composite Negative Statements

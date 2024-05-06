@@ -13,38 +13,38 @@ BONES: Healing sternal fracture. Similar hemangiomas in thoracic vertebral bodie
 
 ## Extracted findings
 
-- port- catheter
+- [port- catheter](../../definitions/hood/tunneled-port-catheter.json)
   - termination: superior cavoatrial junction
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 5 mm
   - location: left lower lobe
   - image series: 4:333
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 2 mm
   - location: subpleural nodule in the lingula
   - series image: 4:243
 - atelectasis
   - location: middle lobe, lingula and both lower lobes
-- consolidation
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
-- pleural effusiom
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- vessel calcification
-  - location: coronary artery
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: mild
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence; absent
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
 - healing fracture
   - location: sternum
-- hemangioma
+- [hemangioma](../../definitions/nuance/thoracic_spine_hemangioma.json)
   - location: thoracic vertebral bodies
-- fracture
+- [fracture](../../definitions/hood/rib-fracture.json)
   - location: right sided rib
 
 ## Composite Negative Statements

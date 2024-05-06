@@ -15,30 +15,32 @@ BONES: No suspicious lytic or blastic lesions.
 
 - postsurgical changes
   - llcation: left upper lobe
-- calcified granuloma
+- [calcified granuloma](../../definitions/nuance/calcified_pulmonary_granuloma.json)
   - presence: present
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - location: right upper lobe
   - size: 2-4 mm
   - image: 90
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - location: left lower lobe
   - size: 2-4 mm
   - image: 306
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- thyroid nodule
+- [thyroid nodule](../../definitions/hood/thyroid_nodule.cde.json)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- vessel calcification
-  - location: coronary artery
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
+  - presence: absent
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: moderate
-- atherosclerotic calcification
+- [atherosclerotic calcification](../../definitions/nuance/thoracic_vessel_atherosclerotic_calcification.json)
   - location: aorta, arch vessel
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent

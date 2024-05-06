@@ -13,43 +13,43 @@ BONES: Diffuse osteopenia. Severe wedging and compression deformity of a lower t
 
 ## Extracted findings
 
-- scarring
+- [scarring](../../definitions/nuance/apical_pulmonary_scarring.json)
   - location: peribronchial
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - presence: absence
-- consolidation
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absence
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - location: right and left pleura
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- pneumomediastinum
+- [pneumomediastinum](../../definitions/hood/pneumomediastinum.json)
   - location: anterior mediastinum
-- esophagus thickening
+- [esophagus thickening](../../definitions/hood/esophageal-wall-thickening.json)
   - severity: mild
   - location: lower esophagus
-- thyroid nodule
+- [thyroid nodule](../../definitions/hood/thyroid-nodule.md)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence; absent
-- pleural effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- vessel calcification
-  - location: coronary artery
-- lymphadenopathy
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
 - cholecystectomy
   - presence: present
-- emphysema
+- [emphysema](../../definitions/hood/emphysema.json)
   - location: subcutaneus lower neck
-- chest wall mass
+- [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
-- osteopenia
+- [osteopenia](../../definitions/nuance/osteopenia.json)
   - presence: present
-- compression deformity
+- [compression deformity](../../definitions/hood/compression-fracture.json)
   - location: lower thoracic vertebral body
   - series image: 5:66
-- hemangiomas
+- [hemangiomas](../../definitions/nuance/thoracic_spine_hemangioma.json)
   - location: mid thoracic spine
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent

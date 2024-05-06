@@ -21,29 +21,29 @@ BONES: Normal. No suspicious lytic or blastic lesions.
   - presence: absent
 - pulmonary metastasis
   - presence: present
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 1.4 cm
   - location: left lower lobe
   - series image: 4:77
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - location: centrally located right upper lobe
   - size: 1.2 cm
   - series image: 4:54
-- consolidation
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- thyroid nodule
+- [thyroid nodule](../../definitions/hood/thyroid_nodule.json)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- coronary calcification
+- [coronary artery calcification](../../definitions/nuance/coronary_calcifications.txt)
   - presence: absent
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
 
 ## Composite Negative Statements

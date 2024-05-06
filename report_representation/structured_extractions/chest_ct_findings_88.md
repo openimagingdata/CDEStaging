@@ -14,28 +14,28 @@ BONES: No suspicious lytic or blastic lesions.
 
 ## Extracted findings
 
-- post radiation changes
+- [post radiation changes](../../definitions/nuance/post-radiation_pulmonary_changes.json)
   - location: left apical
 - opacity
   - location: upper/midlung
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - location: right upper lobe
   - size: 3 mm
   - series image: 4: 60
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: tiny measuring up to 3 mm
   - amount: multiple
   - location: left lower lobe
   - series image: 4: 252
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- thyroid nodule
+- [thyroid nodule](../../definitions/hood/thyroid_nodule.cde.json)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pneumothorax
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
 - axillary node
   - size: 3 mm

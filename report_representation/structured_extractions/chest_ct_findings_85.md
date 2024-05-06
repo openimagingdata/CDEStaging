@@ -13,9 +13,9 @@ BONES: Multilevel degenerative disc disease in the thoracic spine. No suspicious
 
 ## Extracted findings
 
-- radiation fibrosis
+- [radiation fibrosis](../../definitions/hood/radiation-fibrosis.json)
   - location: anterior right lung
-- linear scarring
+- [linear scarring](../../definitions/nuance/apical_pulmonary_scarring.json)
   - presence: present
 - reticulation representing interstitial lung abnormality
   - severity: mild
@@ -24,18 +24,18 @@ BONES: Multilevel degenerative disc disease in the thoracic spine. No suspicious
   - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - severity: mild
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - location: coronary artery \[RID486\], \[RID544\]
   - severity: severe
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- pneumobilia
+- [pneumobilia](../../definitions/hood/pneumobilia.json)
   - presence: present
-- degenerative changes
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - location: disc in thoracic spine
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent

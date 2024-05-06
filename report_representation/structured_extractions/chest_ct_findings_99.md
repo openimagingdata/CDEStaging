@@ -20,30 +20,30 @@ BONES: Multifocal osteosclerotic metastases with increased size and density of s
   - location: left lower lobe
   - size: 2.3 x 1.3 cm
   - series image: 4:354
-- interlobular septal thickening may represent lymphangitis carcinomatosis
+- [interlobular septal thickening may represent lymphangitis carcinomatosis](../../definitions/upmedic/LymphangiticCarcinomatosis.cde.md)
   - location: bilateral in the left lower lobe
-- nodule
+- [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 4 mm
   - series image: 4:97
   - location:left upper lobe
-- scarring
+- [scarring](../../definitions/nuance/apical_pulmonary_scarring.json)
   - location: Biapical pleuroparenchymal
-- bronchial wall thickening
+- [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.json)
   - presence: present
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - size: trace
-- coronary calcification
+- [coronary calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - presence: absent
-- thickening of esophagus, may represent esophagitis.
+- [thickening of esophagus, may represent esophagitis](../../definitions/hood/esophageal-wall-thickening.json)
   - severity: mild
   - location: circumferential wall thickening of the distal esophagus
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
