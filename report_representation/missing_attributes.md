@@ -28,3 +28,5 @@
   - size: 3.4 x 3.1 cm
 - [internal mammary lymph nodes](../../definitions/hood/internal-mammary-lymph-node.md)
   - size: 6 mm
+- healing fracture
+  - location: sternum

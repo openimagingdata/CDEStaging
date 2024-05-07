@@ -14,7 +14,7 @@ BONES: Multilevel degenerative disc disease in the thoracic spine. No suspicious
 ## Extracted findings
 
 - [radiation fibrosis](../../definitions/hood/radiation-fibrosis.json)
-  - location: anterior right lung
+  - location: anterior right lung \[RID1302\]
 - [linear scarring](../../definitions/nuance/apical_pulmonary_scarring.json)
   - presence: present
 - reticulation representing interstitial lung abnormality
@@ -36,7 +36,7 @@ BONES: Multilevel degenerative disc disease in the thoracic spine. No suspicious
 - [pneumobilia](../../definitions/hood/pneumobilia.json)
   - presence: present
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
-  - location: disc in thoracic spine
+  - location: disc in thoracic spine \[RID7741\]
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)

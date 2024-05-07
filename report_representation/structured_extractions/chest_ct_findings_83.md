@@ -24,7 +24,7 @@ BONES: No osseous lesions.
   - presence: absent
 - [mediastinal mass](../../definitions/hood/mediastinal-mass.json)
   - size: 9 x 8 x 7 cm
-  - location: anterior and middle mediastinum
+  - location: anterior and middle mediastinum \[RID1384\]
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - presence: absent
 - [dilation of thoracic aorta](../../definitions/hood/aortic-measurements.json)

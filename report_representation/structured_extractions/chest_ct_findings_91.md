@@ -40,10 +40,10 @@ BONES: Healing sternal fracture. Similar hemangiomas in thoracic vertebral bodie
   - presence; absent
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
-- healing fracture
-  - location: sternum
+- [healing fracture](../../definitions/nuance/sternum_fracture.json)
+  - location: sternum \[RID2473\]
 - [hemangioma](../../definitions/nuance/thoracic_spine_hemangioma.json)
-  - location: thoracic vertebral bodies
+  - location: thoracic vertebral bodies \[RID3457\]
 - [fracture](../../definitions/hood/rib-fracture.json)
   - location: right sided rib
 

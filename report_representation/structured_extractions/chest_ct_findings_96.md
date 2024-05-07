@@ -26,7 +26,7 @@ BONES: Spondylitic changes in the spine. Scoliosis of the mid thoracic spine con
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
 - [atherosclerosis](../../definitions/nuance/thoracic_vessel_atherosclerotic_calcification.json)
-  - location: thoracic aorta
+  - location: thoracic aorta \[RID879\]
 - [aneurysmal dilation](../../definitions/nuance/aortic_aneurysm_or_dilation.json)
   - presence: absent
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
@@ -42,7 +42,7 @@ BONES: Spondylitic changes in the spine. Scoliosis of the mid thoracic spine con
 - spondylitic changes in the spine
   - presence: present
 - [scoliosis](../../definitions/nuance/thoracic_spine_scoliosis.json)
-  - location: thoracic spine
+  - location: thoracic spine \[RID7741\]
   - severity: mild
 
 ## Composite Negative Statements

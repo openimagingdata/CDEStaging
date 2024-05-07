@@ -19,11 +19,11 @@ BONES: No suspicious lytic or blastic lesions. Degenerative changes of the spine
   - series image: 7:87 and 7:209
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 3 mm
-  - location: right lower lobe
+  - location: right lower lobe \[RID1315\]
   - series image: 7:200
 - [scarring](../../definitions/nuance/apical_pulmonary_scarring.json)
   - severity: mild
-  - location: biapical pleural-parenchymal
+  - location: biapical pleural-parenchymal \[RID28584\]
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.json)
@@ -35,7 +35,7 @@ BONES: No suspicious lytic or blastic lesions. Degenerative changes of the spine
 - [coronary artery calcification](../../definitions/nuance/coronary_calcifications.txt)
   - presence: absent
 - postsurgical changes
-  - location: lower neck
+  - location: lower neck \[RID7488\]
 - [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
@@ -45,7 +45,7 @@ BONES: No suspicious lytic or blastic lesions. Degenerative changes of the spine
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
-  - location: spine
+  - location: spine \[RID7741\]
 - [osteopenia](../../definitions/nuance/osteopenia.json)
   - presence: present
 

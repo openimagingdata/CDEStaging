@@ -17,7 +17,7 @@ BONES: Posterior thoracolumbar spine fusion hardware. Severe S shaped scoliosis 
   - severity: mild
   - location: bibasilar
 - scarring/atelectasis
-  - location: left lower lobe
+  - location: left lower lobe \[RID1338]
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - presence: absent
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
@@ -41,9 +41,9 @@ BONES: Posterior thoracolumbar spine fusion hardware. Severe S shaped scoliosis 
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
 - [hardware](../../definitions/nuance/thoracic_spine_fusion_hardware.json)
-  - location: posterior thoracolumbar spine fusion
-- bone deformity
-  - location: deformity of the left glenohumeral joint
+  - location: posterior thoracolumbar spine fusion \[RID7741\]
+- [bone deformity](../../definitions/hood/organization/bones-and-thoracic-cage.md)
+  - location: deformity of the left glenohumeral joint \[RID42241\]
 - [osteopenia](../../definitions/nuance/osteopenia.json)
   - presence: present
 

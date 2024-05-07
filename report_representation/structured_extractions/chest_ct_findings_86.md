@@ -20,14 +20,14 @@ BONES: Diffuse osteopenia. Severe wedging and compression deformity of a lower t
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absence
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
-  - location: right and left pleura
+  - location: right and left pleura \[RID1362\]
 - [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
 - [pneumomediastinum](../../definitions/hood/pneumomediastinum.json)
-  - location: anterior mediastinum
+  - location: anterior mediastinum \[RID1384\]
 - [esophagus thickening](../../definitions/hood/esophageal-wall-thickening.json)
   - severity: mild
-  - location: lower esophagus
+  - location: lower esophagus \[RID95\]
 - [thyroid nodule](../../definitions/hood/thyroid-nodule.md)
   - presence: absent
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
@@ -41,16 +41,16 @@ BONES: Diffuse osteopenia. Severe wedging and compression deformity of a lower t
 - cholecystectomy
   - presence: present
 - [emphysema](../../definitions/hood/emphysema.json)
-  - location: subcutaneus lower neck
+  - location: subcutaneus lower neck \[RID7488\]
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
 - [osteopenia](../../definitions/nuance/osteopenia.json)
   - presence: present
 - [compression deformity](../../definitions/hood/compression-fracture.json)
-  - location: lower thoracic vertebral body
+  - location: lower thoracic vertebral body \[RID34572\]
   - series image: 5:66
 - [hemangiomas](../../definitions/nuance/thoracic_spine_hemangioma.json)
-  - location: mid thoracic spine
+  - location: mid thoracic spine \[RID7741\]
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)

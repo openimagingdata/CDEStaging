@@ -23,10 +23,10 @@ BONES: Normal. No suspicious lytic or blastic lesions.
   - presence: present
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 1.4 cm
-  - location: left lower lobe
+  - location: left lower lobe \[RID1338\]
   - series image: 4:77
 - [nodule](../../definitions/hood/adrenal-nodule.json)
-  - location: centrally located right upper lobe
+  - location: centrally located right upper lobe \[RID1303\]
   - size: 1.2 cm
   - series image: 4:54
 - [consolidation](../../definitions/smartreporting/consolidation.txt)

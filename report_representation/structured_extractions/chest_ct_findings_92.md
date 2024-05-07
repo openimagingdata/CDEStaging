@@ -17,10 +17,10 @@ BONES: Right clavicle fixation hardware. No new suspicious lytic or blastic lesi
 - soft tissue thickening
   - series image: 2:8
 - hypodensity
-  - location: right brachiocephalic vein
-  - series image: 5:53-55; 2:26
+  - location: right brachiocephalic vein \[RID1011_RID5825\]
+  - series image: 5:53-55, 2:26
 - [picc line](../../definitions/hood/PICC.json)
-  - tip location: right atrium
+  - tip location: right atrium \[RID1387\]
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - presence; absent
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
@@ -36,14 +36,14 @@ BONES: Right clavicle fixation hardware. No new suspicious lytic or blastic lesi
 - [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence; absent
 - [subcutaneus nodule](../../definitions/nuance/subcutaneous_soft_tissue_nodule.json)
-  - location: right anterior chest wall at Port-A-Cath removal site
+  - location: right anterior chest wall at Port-A-Cath removal site \[RID29859\]
   - size: 1.5 x 1.0 cm
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 - hard ware
-  - location: right clavicle
+  - location: right clavicle \[RID41740\]
 
 ## Composite Negative Statements
 

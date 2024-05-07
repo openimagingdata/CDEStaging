@@ -15,17 +15,17 @@ BONES: No suspicious lytic or blastic lesions.
 ## Extracted findings
 
 - [post radiation changes](../../definitions/nuance/post-radiation_pulmonary_changes.json)
-  - location: left apical
+  - location: left apical \[RID28584\]
 - opacity
   - location: upper/midlung
 - [nodule](../../definitions/hood/adrenal-nodule.json)
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303\]
   - size: 3 mm
   - series image: 4: 60
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: tiny measuring up to 3 mm
   - amount: multiple
-  - location: left lower lobe
+  - location: left lower lobe \[RID1338\]
   - series image: 4: 252
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
@@ -39,12 +39,12 @@ BONES: No suspicious lytic or blastic lesions.
   - presence: absent
 - axillary node
   - size: 3 mm
-  - location: right axillary node
+  - location: right axillary node \[RID1517_RID5825\]
 - aneurysm
-  - location: left renal aneurysm
+  - location: left renal aneurysm \[RID37860\]
   - diameter of the vessel: 1.4 cm
 - vessel calcification
-  - location: abdominal aorta
+  - location: abdominal aorta \[RID905\]
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)

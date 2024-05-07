@@ -14,15 +14,15 @@ BONES: No suspicious lytic or blastic lesions.
 ## Extracted findings
 
 - postsurgical changes
-  - llcation: left upper lobe
+  - location: left upper lobe \[RID1327\]
 - [calcified granuloma](../../definitions/nuance/calcified_pulmonary_granuloma.json)
   - presence: present
 - [nodule](../../definitions/hood/adrenal-nodule.json)
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303\]
   - size: 2-4 mm
   - image: 90
 - [nodule](../../definitions/hood/adrenal-nodule.json)
-  - location: left lower lobe
+  - location: left lower lobe \[RID1338\]
   - size: 2-4 mm
   - image: 306
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
@@ -39,7 +39,7 @@ BONES: No suspicious lytic or blastic lesions.
   - location: coronary artery \[RID486\], \[RID544\]
   - severity: moderate
 - [atherosclerotic calcification](../../definitions/nuance/thoracic_vessel_atherosclerotic_calcification.json)
-  - location: aorta, arch vessel
+  - location: aorta \[RID879\], arch vessel \[RID581\]
 - [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
 - [chest wall mass](../../definitions/hood/chest-wall.json)  

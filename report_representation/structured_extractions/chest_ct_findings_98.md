@@ -15,7 +15,7 @@ BONES: Normal. No suspicious lytic or blastic lesions.
 
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - location: perilymphatic involving all lobes of both lungs
-- nodule opacities
+- [nodule opacities](../../definitions/hood/adrenal-nodule.json)
   - series image: 7:97
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
@@ -35,13 +35,13 @@ BONES: Normal. No suspicious lytic or blastic lesions.
   - image: 34
   - size: 8 mm
 - [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
-  - location: Subcarinal lymph node
+  - location: Subcarinal lymph node \[RID148\]
   - size: 11 mm
   - image: 49
 - [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - size: large
   - location: bilateral hilar lymph nodes
-- gastrohepatic ligament lymphnode
+- [gastrohepatic ligament lymphnode](../../definitions/nuance/upper_abdominal_lymphadenopathy.json)
   - size: 1.7 cm
   - series image: 2:92
 - [chest wall mass](../../definitions/hood/chest-wall.json)  

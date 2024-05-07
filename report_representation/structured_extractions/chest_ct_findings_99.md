@@ -17,15 +17,15 @@ BONES: Multifocal osteosclerotic metastases with increased size and density of s
   - location: peribronchial and subpleural
   - pattern: groundglass and patchy opacities
 - pulmonary mass
-  - location: left lower lobe
+  - location: left lower lobe \[RID1338\]
   - size: 2.3 x 1.3 cm
   - series image: 4:354
 - [interlobular septal thickening may represent lymphangitis carcinomatosis](../../definitions/upmedic/LymphangiticCarcinomatosis.cde.md)
-  - location: bilateral in the left lower lobe
+  - location: bilateral in the left lower lobe \[RID1338\]
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 4 mm
   - series image: 4:97
-  - location:left upper lobe
+  - location:left upper lobe \[RID1327\]
 - [scarring](../../definitions/nuance/apical_pulmonary_scarring.json)
   - location: Biapical pleuroparenchymal
 - [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.json)
@@ -50,7 +50,7 @@ BONES: Multifocal osteosclerotic metastases with increased size and density of s
 - breast nodule
   - presence: absent
 - osteosclerotic metastases
-  - location: T9, T10, T12 and L1 vertebral bodies and sternal manubrium
+  - location: T9 \[RID29206\], T10 \[RID2920\], T12 \[RID29209\] and L1 \[RID29193\] vertebral bodies and sternal \[RID2473\] manubrium \[RID2476\]
   - series image: 4:107
 
 ## Composite Negative Statements

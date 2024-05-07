@@ -16,7 +16,7 @@ SOFT TISSUE/AXILLAE: Within normal limits.
 ## Extracted findings
 
 - subpleural reticulation
-  - location: both upper and lower lobes
+  - location: both upper and lower lobes \[RID1315\], \[RID1327\]
 - [bronchiectasis](../../definitions/hood/bronchiectasis.json)
   - severity: mild
 - [honeycomb fibrosis](../../definitions/nuance/fibrotic_changes_or_honeycombing.json)
@@ -26,12 +26,12 @@ SOFT TISSUE/AXILLAE: Within normal limits.
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - location: coronary artery \[RID486\], \[RID544\]
 - [atherosclerotic changes](../../definitions/nuance/thoracic_vessel_atherosclerotic_calcification.json)
-  - location: aorta
+  - location: aorta \[RID480\]
 - [aneurysmal dilation of aorta](../../definitions/nuance/aortic_aneurysm_or_dilation.json)
   - presence: absent
 - [dilation of pulmonary artery](../../definitions/hood/pulmonary-artery-dilation.json)
   - presence: present
-- bone fracture
+- [fracture](../../definitions/hood/organization/fracture.md)
   - presence: absent
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: present
@@ -41,7 +41,7 @@ SOFT TISSUE/AXILLAE: Within normal limits.
 - Lungs/Pleura
   - There is no definite honeycomb fibrosis.
 - Mediastinum
-  - There is no evidence of mediastinal or hilar adenopathy. There is atherosclerotic change within the aorta without
+  - There is no evidence of mediastinal or hilar adenopathy. There is atherosclerotic change within the aorta without evidence of aneurysmal dilatation.
 - Bones
   - There are no acute fractures.
   - SOFT TISSUE/AXILLAE: Within normal limits.

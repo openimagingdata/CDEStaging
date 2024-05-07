@@ -145,3 +145,36 @@
 - subaortic node
   - size: 1.8 x 1.0 cm
   - series image: 3:40
+- High attenuation of the liver, reflecting iron deposition
+  - presence: present
+- reticulation representing interstitial lung abnormality
+  - severity: mild
+  - location: right lung base
+- aneurysm
+  - location: left renal aneurysm
+  - diameter of the vessel: 1.4 cm
+- vessel calcification
+  - location: abdominal aorta
+- thoracic adenopathy
+  - presence: absent
+- hypodensity
+  - location: dome of liver
+  - series image: 6:438 and 7:55
+- soft tissue thickening
+  - series image: 2:8
+- hypodensity
+  - location: right brachiocephalic vein
+  - series image: 5:53-55, 2:26
+- hard ware
+  - location: right clavicle
+- postsurgical changes
+  - location: lower neck
+- spondylitic changes in the spine
+  - presence: present
+- subpleural reticulation
+  - location: both upper and lower lobes
+ breast nodule
+  - presence: absent
+- osteosclerotic metastases
+  - location: T9, T10, T12 and L1 vertebral bodies and sternal manubrium
+  - series image: 4:107

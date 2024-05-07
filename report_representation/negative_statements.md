@@ -2,6 +2,12 @@
 
 ## Abdomen
 
+- A 1.3 cm rounded hypodensity in the dome of the liver (6:438 and 7:55) is unchanged from February 2022 CT in December 2022 MRI.
+
+- No abnormality detected in the visualized upper abdomen. Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
+
+- Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
+
 - Unremarkable postsurgical changes from the sleeve gastrectomy.
 
 - Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
@@ -49,6 +55,8 @@ are unremarkable
 
 ## Bone
 
+- Multifocal osteosclerotic metastases with increased size and density of some lesions for example in T9, T10, T12 and L1 vertebral bodies and sternal manubrium (4:107). Preserved vertebral body heights.
+
 - Unchanged hemangioma in T5, T7 and T9 vertebral bodies.
 
 - SOFT TISSUE/AXILLAE: Within normal limits.
@@ -76,7 +84,27 @@ canal.
 
 - Unchanged vertebral body and posterior rib heterogeneity, likely related to prior radiation.
 
+- Vertebral body heights are preserved.
+
 ## Lung
+
+- No significant change in number, size and appearance of pulmonary metastasis. No new superimposed consolidation. The airways are clear.
+
+- Unchanged multiple pulmonary nodules including a 18 mm cavitary nodule in the left lower lobe (5:293), a 11 mm right lower lobe cavitary nodule (5:282) and a 16mm right upper lobe nodule (5:272). Patent central airways.
+
+- No significant change in the size of the left lower lobe irregular mass measuring 2.3 x 1.3 cm (4:354). Unchanged 4 mm left upper lobe nodule (4:97). Patent central airways.
+
+- Unchanged left lower lobe nodule on series 12 image 307 measuring 5 mm. The airways are clear.
+
+- Central airways are patent. Unchanged 5 mm nodule in left lower lobe (4:333) and 2 mm subpleural nodule in the lingula (4:243).No new suspicious lung nodule or consolidation.
+
+- As before, there are a few calcified pulmonary granulomata. Few small noncalcified pulmonary nodules measuring up to 5 mm (for example 6:306 in the right lower lobe and 6:393 in the left lower lobe) are unchanged from February 2022. No new or enlarging pulmonary nodule.
+
+- Postsurgical changes from left upper lobectomy and multiple right-sided resection with stable volume loss. No new suspicious pulmonary nodules or consolidation. The airways are clear.
+
+- The central airways are patent. Stable left apical post radiation changes. No significant change in upper/midlung predominant linear opacities. Unchanged 3 mm right upper lobe nodule series 4 image 60.
+
+- The unresected airways are patent. Unchanged calcified granulomas and a few 2-4 mm scattered pulmonary nodules for example in the right upper lobe on image 90.
 
 - Unchanged 4 mm nodule in the super segment of the right lower lobe (series 7 image 174). The airways are clear.
 
@@ -138,6 +166,10 @@ acute or chronic consolidation or pleural effusion.
 - Small right and trace left pleural effusions unchanged.
 
 ## Mediastinum
+
+- There is no evidence of mediastinal or hilar adenopathy. There is atherosclerotic change within the aorta without evidence of aneurysmal dilatation.
+
+- 1.3 cm right axillary node.
 
 - Interval resolution of previously seen fluid collection and extraluminal gas posterior to the upper esophagus (series 3 image 9). No pneumomediastinum.
 
@@ -232,6 +264,8 @@ vessels are unremarkable.
 - No pathologically enlarged mediastinal or hilar lymph nodes elsewhere.
 
 ## Pleura
+
+- Unchanged mild left posterior pleural thickening. No pleural effusion or pneumothorax.
 
 - There is resolved pleural effusions.
 

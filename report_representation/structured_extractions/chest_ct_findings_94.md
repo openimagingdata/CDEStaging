@@ -14,7 +14,7 @@ BONES: No suspicious lytic or blastic lesions. Diffuse osteopenia. Mild degenera
 ## Extracted findings
 
 - [nodule](../../definitions/hood/adrenal-nodule.json)
-  - location: left lower lobe
+  - location: left lower lobe \[RID1338\]
   - series image: 12:307
   - size: 5 mm
 - atelectasis
@@ -48,9 +48,9 @@ BONES: No suspicious lytic or blastic lesions. Diffuse osteopenia. Mild degenera
   - presence: absent
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - severity: mild
-  - location: spine
+  - location: spine \[RID7741\]
 - [hemangioma](../../definitions/nuance/thoracic_spine_hemangioma.json)
-  - location: T9 and T10
+  - location: T9 \[RID29206\] and T10 \[RID29207\]
 
 ## Composite Negative Statements
 

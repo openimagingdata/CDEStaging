@@ -20,13 +20,13 @@ BONES: No suspicious bone lesion.
   - appereance: noncalcified
   - size: small measuring up to 5 mm
   - amount: few
-  - location: right lower lobe
+  - location: right lower lobe \[RID1315\]
   - series image: 6:393
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - appereance: noncalcified
   - size: small measuring up to 5 mm
   - amount: few
-  - location: left lower lobe
+  - location: left lower lobe \[RID1338\]
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.json)
@@ -36,11 +36,11 @@ BONES: No suspicious bone lesion.
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
 - [residual thymus](../../definitions/hood/thymus.json)
-  - location: anterior mdiastinum
+  - location: anterior mdiastinum \[RID1384\]
 - thoracic adenopathy
   - presence: absent
 - hypodensity
-  - location: dome of liver
+  - location: dome of liver \[RID58\]
   - series image: 6:438 and 7:55
 - [renal cyst](../../definitions/nuance/hepatic_and_renal_cysts.json)
   - location: right kidney

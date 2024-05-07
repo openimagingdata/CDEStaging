@@ -14,12 +14,12 @@ BONES: No suspicious lytic or blastic lesions.
 ## Extracted findings
 
 - [ij port catheter](../../definitions//upmedic/VeinCatheter.cde.md)
-  - termination: right atrium
+  - termination: right atrium \[RID1390\]
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - appereance: groundglass
   - location: peribronchial
   - size: small
-  - side: both lungs predominately in the lower lobes
+  - side: both lungs predominately in the lower lobes \[RID1315\], \[RID1338\]
 - [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.json)
   - severity: mild
 - [bronchiectasis](../../definitions/hood/bronchiectasis.cde.json)
@@ -38,8 +38,8 @@ BONES: No suspicious lytic or blastic lesions.
   - severity: mild
 - [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- High attenuation of the liver, reflecting iron deposition
-  - presence; present
+- High attenuation of the liver, reflecting iron deposition \[RID58\]
+  - presence: present
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)

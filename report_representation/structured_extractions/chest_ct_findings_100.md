@@ -15,15 +15,15 @@ BONES: No suspicious lytic or blastic lesions. Multilevel degenerative changes o
 
 - [cavitary nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 18 mm
-  - location: left lower lobe
+  - location: left lower lobe \[RID1338\]
   - series image: 5:293
 - [cavitary nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 11 mm
-  - location: right lower lobe
+  - location: right lower lobe \[RID1315\]
   - series image: 5:282
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 16 mm
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303\]
   - series image: 5:272
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
@@ -39,7 +39,7 @@ BONES: No suspicious lytic or blastic lesions. Multilevel degenerative changes o
 - [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
 - [renal cyst](../../definitions/nuance/hepatic_and_renal_cysts.json)
-  - location: right kidney
+  - location: right kidney \[RID29662\]
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
@@ -47,7 +47,7 @@ BONES: No suspicious lytic or blastic lesions. Multilevel degenerative changes o
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
-  - location: spine
+  - location: spine \[RID7741\]
 - [osteopenia](../../definitions/nuance/osteopenia.json)
   - presence: present
 

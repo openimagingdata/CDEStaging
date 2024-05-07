@@ -13,9 +13,9 @@ BONES: Post thoracotomy changes. No suspicious lytic or blastic lesions.
 
 ## Extracted findings
 
-- lobectomy
-  - location: left upper lobe and multiple right sided resection
-- bronchiectasis
+- [lobectomy](../../definitions/hood/lobectomy.json)
+  - location: left upper lobe \[RID1327\] and multiple right sided resection
+- [bronchiectasis](../../definitions/hood/bronchiectasis.cde.json)
   - severity: mild
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - presence: absent
@@ -25,7 +25,7 @@ BONES: Post thoracotomy changes. No suspicious lytic or blastic lesions.
   - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- patulous esophagus
+- [patulous esophagus](../../definitions/hood/esophageal-dilation.md)
   - severity: mild
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
