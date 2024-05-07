@@ -38,7 +38,7 @@ BONES: Posterior thoracolumbar spine fusion hardware. Severe S shaped scoliosis 
   - presence: present
 - cholecystectomy
   - presence: present
-- [chest wall mass](../../definitions/hood/chest-wall.json)  
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)  
   - presence: absent
 - [hardware](../../definitions/nuance/thoracic_spine_fusion_hardware.json)
   - location: posterior thoracolumbar spine fusion \[RID7741\]

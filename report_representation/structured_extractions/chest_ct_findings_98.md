@@ -44,7 +44,7 @@ BONES: Normal. No suspicious lytic or blastic lesions.
 - [gastrohepatic ligament lymphnode](../../definitions/nuance/upper_abdominal_lymphadenopathy.json)
   - size: 1.7 cm
   - series image: 2:92
-- [chest wall mass](../../definitions/hood/chest-wall.json)  
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent

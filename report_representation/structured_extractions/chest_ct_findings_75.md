@@ -39,7 +39,7 @@ BONES: Normal. No suspicious lytic or blastic lesions.
   - presence: absent
 - lymphadenopathy
   - presence: absent
-- [chest wall mass](../../definitions/hood/chest-wall.json)  
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent

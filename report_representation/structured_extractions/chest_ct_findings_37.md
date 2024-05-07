@@ -30,7 +30,7 @@ BONES: No evidence of lytic or blastic lesions
   - location: coronary artery [RID486\], \[RID544\]
 - lymphadenopathy
   - Presence: absent
-- [chest wall mass](../../definitions/hood/chest-wall.json)  
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)  
   - presence: absent  
 - [mastectomy](../../definitions/hood/mastectomy.json)
   - location: right breast \[RID29896\], \[RID29899\]

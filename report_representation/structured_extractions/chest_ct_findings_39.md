@@ -43,7 +43,7 @@ BONES: No lytic or blastic lesions. Degenerative bone and spine disease. Status 
   - present: absent
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.md)
   - presence: absent
-- [chest wall mass](../../definitions/hood/chest-wall.json)  
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)  
   - presence: absent  
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent

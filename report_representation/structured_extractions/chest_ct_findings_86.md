@@ -42,7 +42,7 @@ BONES: Diffuse osteopenia. Severe wedging and compression deformity of a lower t
   - presence: present
 - [emphysema](../../definitions/hood/emphysema.json)
   - location: subcutaneus lower neck \[RID7488\]
-- [chest wall mass](../../definitions/hood/chest-wall.json)  
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)  
   - presence: absent
 - [osteopenia](../../definitions/nuance/osteopenia.json)
   - presence: present

@@ -46,7 +46,7 @@ BONES: No suspicious lytic or blastic lesions. Similar T8 vertebral body lesion 
   - presence: absent
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
-- [chest wall mass](../../definitions/hood/chest-wall.json)  
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)  
   - presence: absent
 - [hemangioma](../../definitions/nuance/thoracic_spine_hemangioma.json)
   - location: T8 \[RID29205\]

@@ -37,7 +37,7 @@ BONES: Multilevel degenerative disc disease in the thoracic spine. No suspicious
   - presence: present
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - location: disc in thoracic spine \[RID7741\]
-- [chest wall mass](../../definitions/hood/chest-wall.json)  
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)  
   - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent

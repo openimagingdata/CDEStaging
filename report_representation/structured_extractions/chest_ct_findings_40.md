@@ -75,7 +75,7 @@ BONES: No suspicious lytic or blastic lesions. Postsurgical left 5th rib defect.
   - presence: absent
 - [rib defect](../../definitions/hood/healed-rib-fracture.json)
   - location: left fifth rib \[RID28591_RID6155_RID5824\]
-- [chest wall mass](../../definitions/hood/chest-wall.json)  
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)  
   - presence: absent
   
 ## Composite Negative Statements

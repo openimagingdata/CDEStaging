@@ -50,7 +50,7 @@ BONES: Degenerative changes of the visualized spine. Unchanged hemangioma in T5,
   - location: spine \[RID7741\]
 - [hemangioma](../../definitions/nuance/thoracic_spine_hemangioma.json)
   - location:T5, T7 and T9 vertebral bodies \[RID29202\], \[RID29204\], \[RID29206\]
-- [chest wall mass](../../definitions/hood/chest-wall.json)  
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent

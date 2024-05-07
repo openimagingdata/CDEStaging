@@ -42,7 +42,7 @@ BONES: There are mild degenerative changes within the thoracic spine . No suspic
   - presence: absent
 - [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: thoracic spine
-- [chest wall mass](../../definitions/hood/chest-wall.json)  
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent

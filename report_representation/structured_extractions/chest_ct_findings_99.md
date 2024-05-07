@@ -45,7 +45,7 @@ BONES: Multifocal osteosclerotic metastases with increased size and density of s
   - location: circumferential wall thickening of the distal esophagus
 - [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- [chest wall mass](../../definitions/hood/chest-wall.json)  
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)  
   - presence: absent
 - breast nodule
   - presence: absent

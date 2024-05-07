@@ -51,7 +51,7 @@ BONES: Median sternotomy. Unchanged vertebral body and posterior rib heterogenei
   - size: too small
 - [renal cyst](../../definitions/nuance/hepatic_and_renal_cysts.json)
   - location: right kidney \[RID29662\]
-- [chest wall mass](../../definitions/hood/chest-wall.json)  
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)  
   - presence: absent
 - [median sternotomy](../../definitions/hood/median-sternotomy.md)
   - presence: present

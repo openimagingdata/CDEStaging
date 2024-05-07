@@ -37,7 +37,7 @@ BONES: Spondylitic changes in the spine. Scoliosis of the mid thoracic spine con
   - presence: present
 - [liver cyst](../../definitions/nuance/hepatic_and_renal_cysts.json)
   - presence: present
-- [chest wall mass](../../definitions/hood/chest-wall.json)  
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)  
   - presence: absent
 - spondylitic changes in the spine
   - presence: present

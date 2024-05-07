@@ -38,7 +38,7 @@ BONES: No suspicious lytic or blastic lesions. Degenerative changes of the spine
   - location: lower neck \[RID7488\]
 - [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- [chest wall mass](../../definitions/hood/chest-wall.json)  
+- [chest wall mass](../../definitions/nuance/chest_wall_mass.json)
   - presence: absent
 - [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
