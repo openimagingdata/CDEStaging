@@ -37,7 +37,7 @@ BONES: Healing sternal fracture. Similar hemangiomas in thoracic vertebral bodie
   - location: coronary artery \[RID486\], \[RID544\]
   - severity: mild
 - [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
-  - presence; absent
+  - presence: absent
 - [chest wall mass](../../definitions/nuance/chest_wall_mass.json)  
   - presence: absent
 - [healing fracture](../../definitions/nuance/sternum_fracture.json)

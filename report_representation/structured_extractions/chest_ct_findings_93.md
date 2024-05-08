@@ -33,7 +33,7 @@ BONES: Posterior thoracolumbar spine fusion hardware. Severe S shaped scoliosis 
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
 - [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
-  - presence; absent
+  - presence: absent
 - [pfo closure device](../../definitions/hood/pfo-closure-device.json)
   - presence: present
 - cholecystectomy

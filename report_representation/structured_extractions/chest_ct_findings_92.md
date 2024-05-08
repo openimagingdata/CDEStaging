@@ -22,7 +22,7 @@ BONES: Right clavicle fixation hardware. No new suspicious lytic or blastic lesi
 - [picc line](../../definitions/hood/PICC.json)
   - tip location: right atrium \[RID1387\]
 - [nodule](../../definitions/hood/adrenal-nodule.json)
-  - presence; absent
+  - presence: absent
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
@@ -34,7 +34,7 @@ BONES: Right clavicle fixation hardware. No new suspicious lytic or blastic lesi
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
 - [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
-  - presence; absent
+  - presence: absent
 - [subcutaneus nodule](../../definitions/nuance/subcutaneous_soft_tissue_nodule.json)
   - location: right anterior chest wall at Port-A-Cath removal site \[RID29859\]
   - size: 1.5 x 1.0 cm

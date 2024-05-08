@@ -31,7 +31,7 @@ BONES: Diffuse osteopenia. Severe wedging and compression deformity of a lower t
 - [thyroid nodule](../../definitions/hood/thyroid-nodule.md)
   - presence: absent
 - [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
-  - presence; absent
+  - presence: absent
 - [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
 - [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
