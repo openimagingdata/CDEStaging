@@ -43,7 +43,7 @@ BONES: No suspicious bone lesion.
   - location: dome of liver \[RID58\]
   - series image: 6:438 and 7:55
 - [renal cyst](../../definitions/nuance/hepatic_and_renal_cysts.json)
-  - location: right kidney
+  - location: right kidney \[RID29662\]
 - [renal stone](../../definitions/nuance/renal_stone.json)
   - size: 7mm
   - location: right upper pole
