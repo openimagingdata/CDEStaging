@@ -13,9 +13,9 @@ BONES: Normal. No suspicious lytic or blastic lesions.
 
 ## Extracted findings
 
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - location: perilymphatic involving all lobes of both lungs
-- [nodule opacities](../../definitions/hood/adrenal-nodule.json)
+- [nodule opacities](../../definitions/hood/pulmonary-nodule.md)
   - series image: 7:97
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent

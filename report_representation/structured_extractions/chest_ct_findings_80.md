@@ -17,7 +17,7 @@ BONES: No suspicious focal osseous lesion.
   - location: right upper lobe \[RID1303\]
 - [calcified granuloma](../../definitions/hood/calcified-granuloma.json)
   - presence: present
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - location: left upper lobe \[RID1327\]
   - series image: 3:332
   - size: up to 2 mm

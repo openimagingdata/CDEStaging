@@ -21,7 +21,7 @@ BONES: Right clavicle fixation hardware. No new suspicious lytic or blastic lesi
   - series image: 5:53-55, 2:26
 - [picc line](../../definitions/hood/PICC.json)
   - tip location: right atrium \[RID1387\]
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent

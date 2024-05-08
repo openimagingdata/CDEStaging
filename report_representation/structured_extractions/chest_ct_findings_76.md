@@ -15,15 +15,15 @@ BONES: No suspicious lytic or blastic lesions. Similar T8 vertebral body lesion 
 
 - [ij port catheter](../../definitions//upmedic/VeinCatheter.cde.md)
   - termination: right atrium \[RID1387\]
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 3mm
   - location: right apical \[RID28584\]
   - series image: 5:77
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 4 mm
   - location: peri-fissural nodules along the right minor fissure \[RID43258\]
   - series image: 5:209
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 3 mm
   - location: left lower lobe peri-fissural nodule \[RID43260_RID5824\]
   - series image: 5:148

@@ -17,11 +17,11 @@ BONES: There are mild degenerative changes within the thoracic spine . No suspic
   - severity: mild
   - type: centrilobular
   - location: upper lobe \[RID1303\], \[RID1327\]
-- opacity
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - location: left lower lobe \[RID1338\]
   - size: 2 mm
   - series image: 4:196
-- opacity
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 4 mm
   - location: right lower lobe \[RID1315\]
   - series image: 4:328

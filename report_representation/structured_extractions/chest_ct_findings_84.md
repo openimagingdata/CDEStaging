@@ -15,7 +15,7 @@ BONES: No suspicious lytic or blastic lesions.
 
 - [ij port catheter](../../definitions//upmedic/VeinCatheter.cde.md)
   - termination: right atrium \[RID1390\]
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - appereance: groundglass
   - location: peribronchial
   - size: small

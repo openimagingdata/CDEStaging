@@ -18,7 +18,7 @@ BONES: Posterior thoracolumbar spine fusion hardware. Severe S shaped scoliosis 
   - location: bibasilar
 - scarring/atelectasis
   - location: left lower lobe \[RID1338]
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent

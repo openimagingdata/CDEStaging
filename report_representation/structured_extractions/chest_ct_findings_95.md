@@ -13,11 +13,11 @@ BONES: No suspicious lytic or blastic lesions. Degenerative changes of the spine
 
 ## Extracted findings
 
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 2-3 mm
   - side: subpleural left upper and lower lobe
   - series image: 7:87 and 7:209
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 3 mm
   - location: right lower lobe \[RID1315\]
   - series image: 7:200

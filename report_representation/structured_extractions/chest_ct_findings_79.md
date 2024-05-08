@@ -20,7 +20,7 @@ BONES: No suspicious lytic or blastic lesions.
   - size: 3 mm
   - location: left upper lobe \[RID1327\]
   - series image: 301:290
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 2 mm
   - location: right upper lobe \[RID1303\]
   - image: 139

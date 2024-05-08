@@ -22,7 +22,7 @@ BONES: Multifocal osteosclerotic metastases with increased size and density of s
   - series image: 4:354
 - [interlobular septal thickening may represent lymphangitis carcinomatosis](../../definitions/upmedic/LymphangiticCarcinomatosis.cde.md)
   - location: bilateral in the left lower lobe \[RID1338\]
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 4 mm
   - series image: 4:97
   - location:left upper lobe \[RID1327\]

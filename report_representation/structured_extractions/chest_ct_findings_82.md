@@ -18,12 +18,12 @@ BONES: Degenerative changes of the visualized spine. Unchanged hemangioma in T5,
   - presence: present
 - [surgical drain](../../definitions/hood/percutaneous-drainage-catheter.json)
   - presence: present
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 4 mmm
   - location: right lower lobe \[RID1315\]
   - series image: 7:174
 - opacity/atelectasis
-  - location: lower lobes \[RID1315\]
+  - location: lower lobes \[RID1315\], \[RID1327\]
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
 - [pneumothorax](../../definitions/hood/pneumothorax.json)

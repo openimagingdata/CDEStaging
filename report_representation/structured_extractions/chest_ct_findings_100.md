@@ -13,15 +13,15 @@ BONES: No suspicious lytic or blastic lesions. Multilevel degenerative changes o
 
 ## Extracted findings
 
-- [cavitary nodule](../../definitions/hood/adrenal-nodule.json)
+- [cavitary nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 18 mm
   - location: left lower lobe \[RID1338\]
   - series image: 5:293
-- [cavitary nodule](../../definitions/hood/adrenal-nodule.json)
+- [cavitary nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 11 mm
   - location: right lower lobe \[RID1315\]
   - series image: 5:282
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 16 mm
   - location: right upper lobe \[RID1303\]
   - series image: 5:272

@@ -21,11 +21,11 @@ BONES: Normal. No suspicious lytic or blastic lesions.
   - presence: absent
 - pulmonary metastasis
   - presence: present
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 1.4 cm
   - location: left lower lobe \[RID1338\]
   - series image: 4:77
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - location: centrally located right upper lobe \[RID1303\]
   - size: 1.2 cm
   - series image: 4:54

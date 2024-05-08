@@ -15,7 +15,7 @@ BONES: Diffuse osteopenia. Severe wedging and compression deformity of a lower t
 
 - [scarring](../../definitions/nuance/apical_pulmonary_scarring.json)
   - location: peribronchial
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absence
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absence

@@ -15,11 +15,11 @@ BONES: Healing sternal fracture. Similar hemangiomas in thoracic vertebral bodie
 
 - [port- catheter](../../definitions/hood/tunneled-port-catheter.json)
   - termination: superior cavoatrial junction
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 5 mm
   - location: left lower lobe \[RID1338\]
   - image series: 4:333
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 2 mm
   - location: subpleural nodule in the lingula \[RID1333\]
   - series image: 4:243

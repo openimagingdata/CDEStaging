@@ -17,7 +17,7 @@ BONES: There is a non-healed fracture of the left lateral 8th rib. Degenerative 
   - location: left lower lobe \[RID1338\]
 - honey combing
   - location: lung bases and anterior upper lobes \[RID1303\], \[RID1327\] bilaterally
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent

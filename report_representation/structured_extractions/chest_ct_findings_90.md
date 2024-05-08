@@ -16,13 +16,13 @@ BONES: No suspicious bone lesion.
 - [calcified granuloma](../../definitions/nuance/calcified_pulmonary_granuloma.json)
   - presence: present
   - amount: few
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - appereance: noncalcified
   - size: small measuring up to 5 mm
   - amount: few
   - location: right lower lobe \[RID1315\]
   - series image: 6:393
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - appereance: noncalcified
   - size: small measuring up to 5 mm
   - amount: few

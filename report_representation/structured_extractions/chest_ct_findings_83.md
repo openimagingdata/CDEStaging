@@ -12,7 +12,7 @@ BONES: No osseous lesions.
 
 ## Extracted findings
 
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent

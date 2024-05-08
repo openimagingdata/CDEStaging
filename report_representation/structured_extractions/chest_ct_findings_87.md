@@ -17,11 +17,11 @@ BONES: No suspicious lytic or blastic lesions.
   - location: left upper lobe \[RID1327\]
 - [calcified granuloma](../../definitions/nuance/calcified_pulmonary_granuloma.json)
   - presence: present
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - location: right upper lobe \[RID1303\]
   - size: 2-4 mm
   - image: 90
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - location: left lower lobe \[RID1338\]
   - size: 2-4 mm
   - image: 306

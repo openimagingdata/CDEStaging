@@ -17,7 +17,7 @@ BONES: Post thoracotomy changes. No suspicious lytic or blastic lesions.
   - location: left upper lobe \[RID1327\] and multiple right sided resection
 - [bronchiectasis](../../definitions/hood/bronchiectasis.cde.json)
   - severity: mild
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent

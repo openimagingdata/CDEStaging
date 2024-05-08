@@ -13,7 +13,7 @@ BONES: Spondylitic changes in the spine. Scoliosis of the mid thoracic spine con
 
 ## Extracted findings
 
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: measuring up to 3 mm
 - pulmonary parenchymal mass
   - presence: absent

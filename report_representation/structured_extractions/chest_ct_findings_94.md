@@ -13,7 +13,7 @@ BONES: No suspicious lytic or blastic lesions. Diffuse osteopenia. Mild degenera
 
 ## Extracted findings
 
-- [nodule](../../definitions/hood/adrenal-nodule.json)
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - location: left lower lobe \[RID1338\]
   - series image: 12:307
   - size: 5 mm
