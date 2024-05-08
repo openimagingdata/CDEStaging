@@ -2,19 +2,13 @@
 
 ```text
 Devices/Tubes/LINES: None.
- 
-LUNGS: The central airways are patent. The lungs are clear
- 
-PLEURA: There is a well-circumscribed lipoma of the RIGHT chest wall and pleura measuring 2.5 cm x 2.5 cm (3:33) consistent with a lipoma. A benign etiology.
- 
-No evidence of destructive process or bony abnormality or chest wall abnormality otherwise.
- 
-MEDIASTINUM: The heart and pericardium are within normal limits. There is coronary artery calcification. No evidence of mediastinal or hilar lymphadenopathy
- 
+LUNGS: There are secretions in the trachea. There is mild diffuse bronchial wall thickening with endobronchial mucus plugging in the subsegmental bronchi. There is mild bibasilar atelectasis. Unchanged mild biapical pleural-parenchymal scarring. There are calcified granulomas. Unchanged solid noncalcified 2 mm nodule in the right upper lobe (303:190) since 12/2021. There are no new or enlarging pulmonary nodules.
+PLEURA: No pleural effusion or pneumothorax.
+MEDIASTINUM: No thyroid nodules in the imaged portion of the thyroid gland. The cardiac chambers are normal in size. There is no pericardial effusion. Aortic valve and punctate left ventricle of papillary muscle calcifications. 
 LYMPH NODES: No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
- 
-UPPER ABDOMEN: No abnormality detected in the visualized upper abdomen. There is hepatic status. This limits the sensitivity examination. An exophytic renal cyst on the RIGHT measures water attenuation.
- 
+UPPER ABDOMEN: Please see concurrent abdominal CT for abdominal findings.
 CHEST WALL: No chest wall mass.
- 
-BONES: Degenerative changes, no evidence of lytic or blastic lesions
+BONES: There are degenerative changes in the bones without suspicious lytic or blastic lesions.
+```
+
+## Extracted findings
