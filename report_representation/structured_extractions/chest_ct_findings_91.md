@@ -17,14 +17,14 @@ BONES: Healing sternal fracture. Similar hemangiomas in thoracic vertebral bodie
   - termination: superior cavoatrial junction
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 5 mm
-  - location: left lower lobe
+  - location: left lower lobe \[RID1338\]
   - image series: 4:333
 - [nodule](../../definitions/hood/adrenal-nodule.json)
   - size: 2 mm
-  - location: subpleural nodule in the lingula
+  - location: subpleural nodule in the lingula \[RID1333\]
   - series image: 4:243
 - atelectasis
-  - location: middle lobe, lingula and both lower lobes
+  - location: middle lobe \[RID1333\], lingula \[RID1333\] and both lower lobes \[RID1315\], \[RID1338\]
 - [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
 - [pleural effusion](../../definitions/hood/pleural-effusion.json)
