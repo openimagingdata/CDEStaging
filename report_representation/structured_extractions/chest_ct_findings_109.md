@@ -12,3 +12,57 @@ BONES: No suspicious lytic or blastic lesions. Status post right shoulder arthro
 ```
 
 ## Extracted findings
+
+- loop recorder
+  - location: left anterior chest wall
+- opacity
+  - pattern: ground glass
+  - location: medial and posterior basal right lower lobe
+  - series image: 7:196
+- cyst
+  - location: paramediastinal subpleural left upper lobe
+- pleural effusion
+  - presence: absent
+- pneumothorax
+  - presence: absent
+- pericardial effusion
+  - presence: absent
+- cardiomegaly
+  - presence: absent
+- vessel calcification
+  - location: coronary artery
+  - severity: mild
+- annular calcification
+  - location: mitral
+- post surgical changes
+  - presence: present
+- sleeve gastrectomy
+  - presence: present
+- hiatal hernia
+  - size: small
+- lymphadenopathy
+  - presence: present
+- chest wall mass
+  - presence: absent
+- lytic lesion
+  - presence: absent
+- blastic lesions
+  - presence: absent
+- arthroplasty
+  - location: right shoulder
+- degenerative changes
+  - location: spine
+
+## Composite Negative Statements
+
+- Lungs
+  - Unchanged paramediastinal subpleural left upper lobe thin-walled cyst. The central airways are clear.
+- Pleura
+  - No pleural effusion or pneumothorax.
+- Mediastinum
+  - Heart size is normal. Unchanged small pericardial effusion. Mild amount of coronary calcifications. Unchanged small hiatal hernia.
+  - No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
+  - No chest wall mass.
+- Bones
+  - No suspicious lytic or blastic lesions.
+  

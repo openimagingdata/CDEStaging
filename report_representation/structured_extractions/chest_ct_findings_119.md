@@ -12,3 +12,50 @@ BONES: There are no osseous lesions concerning for malignancy or infection.
 ```
 
 ## Extracted findings
+
+- lobectomy
+  - location: right upper lobe
+- pulmonary mass
+  - presence: absent
+- nodule
+  - presence: absent
+- consolidation
+  - presence: absent
+- pneumothorax
+  - presence: absent
+- pleural effusion
+  - presence: absent
+- coronary artery calcification
+  - severity: moderate
+- lymphadenopathy
+  - presence: absent
+- hiatal hernia
+  - size: small
+  - series image: 4: 205
+- nephrolithiasis
+  - side: bilateral
+  - series image: 4:292, 284
+- hydronephrosis
+  - presence: absent
+- chest wall mass
+  - presence: absent
+- lytic lesion
+  - presence: absent
+- blastic lesion
+  - presence: absent
+
+## Composite Negative Statements
+
+- Lungs
+  - No recurrent mass is demonstrated at the resection site. No new or growing pulmonary nodules are detected. There is no focal consolidation.
+- Pleura
+  - There is no pneumothorax or pleural effusion.
+- Mediastinum
+  - The heart size is normal. There is no pericardial effusion. The thyroid is not well-visualized.
+  - LYMPH NODES: There is no axillary, mediastinal, or hilar lymphadenopathy.
+  - CHEST WALL: No concerning chest wall lesions are detected.
+- Abdomen
+  - There is no hydronephrosis.
+- Bones
+  - There are no osseous lesions concerning for malignancy or infection.
+  

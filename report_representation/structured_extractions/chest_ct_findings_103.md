@@ -12,3 +12,64 @@ BONES: Degenerative changes of the thoracic spine. Similar sclerotic lesion in t
 ```
 
 ## Extracted findings
+
+- opacity
+  - pattern: ground glass
+  - location: left lower lobe
+- opacity
+  - pattern: consilidative
+  - location: left lower lobe
+- nodule
+  - location: left lower lobe
+  - size: 5 mm
+  - series image: 7:340
+- peribronchial nodularity
+  - location: right middle lobe
+  - series image: 7:254
+- atelectasis
+  - pattern: linear
+  - location: lower lobes
+- scarring
+  - location: biapical, right greater than left.
+- pleural effusion
+  - presence: absent
+- pneumothorax
+  - presence: absent
+- multichamber cardiomegaly
+  - presence: present
+- myocardial wall thickening
+  - presence: present
+  - attribute: involving the apical interventricular septum and apex of the left ventricle
+- left ventricular aneurysm
+  - presence: present
+- prosthetic valve with the foot calcification
+  - location: aortic valve
+- coronary calcifications
+  - severity: severe
+- calcific atherosclerosis
+  - location: thoracic aorta
+- aneurysmal dilatation
+  - location:  ascending thoracic aorta
+  - measurements of diameter: up to 4.7 x 4.5 cm in multiplanar reformats
+- atrophic thyroid gland
+  - presence: present
+- lymphadenopathy
+  - presence: absent
+- chest wall mass
+  - presence: absent
+- degenerative changes
+  - location: thoracic spine
+- sclerotic lesion
+  - T5 vertebral body
+
+## Composite Negative Statements
+
+- Lungs
+  - Decreased groundglass and consolidative opacities in the left lower lobe with near complete resolution of the previously described associated left lower lobe peribronchial wall thickening and endobronchial mucous plugging. Decreased peribronchial nodularity in the right middle lobe (7:254). Patent central airways.
+- pleura
+  - No pleural effusion or pneumothorax.
+- Mediastinum
+  - Devices/Tubes/LINES: None.
+  - Large area of myocardial wall thickening involving the apical interventricular septum and apex of the left ventricle with ballooning is unchanged, corresponding to a left ventricular aneurysm Prosthetic aortic valve with the foot calcification.
+  - LYMPH NODES: No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.
+  - CHEST WALL: No chest wall mass.

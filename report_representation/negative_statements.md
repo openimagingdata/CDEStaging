@@ -2,6 +2,14 @@
 
 ## Abdomen
 
+- There is no hydronephrosis.
+
+- Absence of intravenous contrast limits sensitivity for detecting solid organ findings. MRI abdomen reported separately.
+
+- small hiatal hernia unchanged.
+
+- Partially imaged upper abdomen demonstrates benign hepatic cysts, otherwise grossly unremarkable.
+
 - A 1.3 cm rounded hypodensity in the dome of the liver (6:438 and 7:55) is unchanged from February 2022 CT in December 2022 MRI.
 
 - No abnormality detected in the visualized upper abdomen. Absence of intravenous contrast limits sensitivity for detecting solid organ findings.
@@ -55,6 +63,12 @@ are unremarkable
 
 ## Bone
 
+- Degenerative changes of the spine Unchanged mild compression fractures of T3 and T4.
+
+- There are no osseous lesions concerning for malignancy or infection.
+
+- Unchanged hemangioma in T5, T7 and T9 vertebral bodies. No suspicious lytic or blastic lesions.
+
 - Multifocal osteosclerotic metastases with increased size and density of some lesions for example in T9, T10, T12 and L1 vertebral bodies and sternal manubrium (4:107). Preserved vertebral body heights.
 
 - Unchanged hemangioma in T5, T7 and T9 vertebral bodies.
@@ -88,6 +102,18 @@ canal.
 
 ## Lung
 
+- Decreased lingular opacity (5:240) and subpleural left lower lobe opacity (5:234). New 4 mm left upper lobe nodules (5:93,197). A few calcified granulomas. No new suspicious nodule or consolidation. The central airways are clear.
+
+- Unchanged 4 mm nodule in the super segment of the right lower lobe (series 7 image 174). The airways are clear.
+
+- no evidence of new or growing pulmonary nodules.
+
+- Decreased groundglass and consolidative opacities in the left lower lobe with near complete resolution of the previously described associated left lower lobe peribronchial wall thickening and endobronchial mucous plugging. Decreased peribronchial nodularity in the right middle lobe (7:254).
+
+- No endotracheal lesions are apparent. No endobronchial lesions are seen. No pulmonary nodules.
+
+- Unchanged mild biapical pleural-parenchymal scarring. Unchanged solid noncalcified 2 mm nodule in the right upper lobe (303:190) since 12/2021. There are no new or enlarging pulmonary nodules.
+
 - No significant change in number, size and appearance of pulmonary metastasis. No new superimposed consolidation. The airways are clear.
 
 - Unchanged multiple pulmonary nodules including a 18 mm cavitary nodule in the left lower lobe (5:293), a 11 mm right lower lobe cavitary nodule (5:282) and a 16mm right upper lobe nodule (5:272). Patent central airways.
@@ -115,7 +141,7 @@ canal.
 - There are scattered granulomas present. Otherwise, there is no evidence of
 acute or chronic consolidation or pleural effusion.
 
-- Unchanged few sub-4 mm bilateral lung nodules for example 3 mm right apical nodule (5:77), 4 mm peri-fissural nodules along the right minor fissure (5:209, 217) and 3 mm left lower lobe peri-fissural nodule (5:148), likely intrapulmonary lymph nodes. 
+- Unchanged few sub-4 mm bilateral lung nodules for example 3 mm right apical nodule (5:77), 4 mm peri-fissural nodules along the right minor fissure (5:209, 217) and 3 mm left lower lobe peri-fissural nodule (5:148), likely intrapulmonary lymph nodes.
 
 - Limited assessment of the lower lung due to breathing related motion artifacts.
 
@@ -145,6 +171,8 @@ acute or chronic consolidation or pleural effusion.
 
 - The lungs are clear
 
+- Decreased groundglass and consolidative opacities in the left lower lobe with near complete resolution of the previously described associated left lower lobe peribronchial wall thickening and endobronchial mucous plugging. Decreased peribronchial nodularity in the right middle lobe (7:254). Patent central airways.
+
 - There is no pulmonary mass or suspicious nodule
 
 - The central airways are patent
@@ -166,6 +194,24 @@ acute or chronic consolidation or pleural effusion.
 - Small right and trace left pleural effusions unchanged.
 
 ## Mediastinum
+
+- There is an unchanged Morgagni hernia containing omental fat.
+
+- Unchanged mild dilatation of the ascending aorta measuring 4.2 cm.
+
+- No central pulmonary embolism.
+  
+- Unchanged mediastinal lymph nodes measuring up to 1 cm in the paratracheal region.
+
+- No internal gas locules or significant peripheral enhancement.
+
+- Interval resolution of previously seen fluid collection and extraluminal gas posterior to the upper esophagus (series 3 image 9). No pneumomediastinum.
+
+- No chest wall mass. No evidence of pectus deformity. Similar anatomic appearing fragmentation and minimally bowing of the inferior sternum/xiphoid, with unchanged linear soft tissue along the inferior margin (2:94), without surrounding stranding, unchanged compared to multiple priors. No mediastinal fat stranding.
+
+- Large area of myocardial wall thickening involving the apical interventricular septum and apex of the left ventricle with ballooning is unchanged, corresponding to a left ventricular aneurysm Prosthetic aortic valve with the foot calcification.
+
+- Large area of myocardial wall thickening involving the apical interventricular septum and apex of the left ventricle with ballooning is unchanged, corresponding to a left ventricular aneurysm Prosthetic aortic valve with the foot calcification.
 
 - There is no evidence of mediastinal or hilar adenopathy. There is atherosclerotic change within the aorta without evidence of aneurysmal dilatation.
 
