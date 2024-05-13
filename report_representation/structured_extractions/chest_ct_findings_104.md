@@ -15,45 +15,45 @@ BONES: No suspicious lytic or blastic lesions. Healing left-sided rib fractures.
 
 - opacity
   - pattern: ground glass
-  - location: left upper lobe
-- interlobular septal thickening
+  - location: left upper lobe \[RID1327\]
+- [interlobular septal thickening](../../definitions/hood/interlobular-septal-thickening.json)
   - severity: mild
-- bronchial wall thickening
+- [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.json)
   - presence: present
 - pulmonary edema
   - severity: mild
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - Presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- vessel calcification
-  - location: cprpnary artery
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: severe
-- atherosclerotic calcification
-  - location: thoracic aorta
+- [atherosclerosis](../../definitions/nuance/thoracic_vessel_atherosclerotic_calcification.json)
+  - location: thoracic aorta \[RID879\]
   - severity: mild
-- patulous esophagus
+- [patulous esophagus](../../definitions/hood/esophageal-dilation.md)
   - severity: mild
-- mediastinal lymph nodes
+- [mediastinal lymph nodes](../../definitions/hood/mediastinal-lymph-nodes.json)
   - size: 7 mm prevascular lymph node
   - series image: 5:33
-- fluid in chest wall
+- [fluid in chest wall](../../definitions/hood/chest-wall-fluid-collection.md)
   - location: distal aspect of the LVAD
   - series image: 5:92
-- lytic lesion
+- [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- blastic lesions
+- [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
-- healing rib fractures
+- [healing rib fractures](../../definitions/hood/healed-rib-fracture.json)
   - location: left sided
-- median sternotomy
+- [median sternotomy](../../definitions/hood/median-sternotomy.json)
   - presence: present
-- compression fracture
-  - location: T12
+- [compression fracture](../../definitions/hood/compression-fracture.json)
+  - location: T12 \[RID29209\]
   - severity: mild
 
 ## Composite Negative Statements

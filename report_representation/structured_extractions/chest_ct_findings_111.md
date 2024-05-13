@@ -17,41 +17,40 @@ BONES: No lytic or blastic lesions. Right thoracotomy. Degenerative joint and sp
 
 ## Extracted findings
 
-- lobectomy
-  - location: right upper lobe
+- [lobectomy](../../definitions/hood/lobectomy.json)
+  - location: right upper lobe \[RID1303\]
 - ground glass density
-  - location: left lower
+  - location: left lower lobe \[RID1338\]
   - series image: 3:57
-- bronchial wall thickening
+- [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.json)
   - severity: mild
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- thyroid nodule
+- [thyroid nodule](../../definitions/hood/thyroid_nodule.json)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- hiatal hernia
+- [hiatal hernia](../../definitions/hood/hiatal-hernia.json)
   - size: small
-- esophagus wall thickening
+- [esophagus wall thickening](../../definitions/hood/esophageal-wall-thickening.md)
   - presence: present
-- mediastinal cyst
+- [mediastinal cyst](../../definitions/hood/mediastinal-cyst.md)
   - size: 17 mm
-  - location: anterior superior mediastinum
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- thoracotomy
+- [thoracotomy](../../definitions/nuance/post-thoracotomy_defects_in_the_chest_wall.json)
   - side: right
-- degenerative changes
-  - location: spine
-- chest wall mass
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
+  - location: spine \[RID7741\]
+- [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
-- lytic lesion
+- [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- blastic lesions
+- [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
 ## Composite Negative Statements

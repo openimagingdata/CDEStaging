@@ -13,25 +13,27 @@ BONES: No suspicious lytic or blastic lesions.
 
 ## Extracted findings
 
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
-- consolidation
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- hiatal hernia
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
+  - presence: absent
+- [hiatal hernia](../../definitions/hood/hiatal-hernia.json)
   - size: tiny
-- morgagni hernia
+- [morgagni hernia](../../definitions/hood/morgagni-hernia.json)
   - presence: present
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- chest wall mass
+- [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
-- lytic lesion
+- [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- blastic lesion
+- [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
 ## Composite Negative Statements

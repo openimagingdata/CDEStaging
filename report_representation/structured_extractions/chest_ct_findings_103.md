@@ -15,52 +15,52 @@ BONES: Degenerative changes of the thoracic spine. Similar sclerotic lesion in t
 
 - opacity
   - pattern: ground glass
-  - location: left lower lobe
-- opacity
-  - pattern: consilidative
-  - location: left lower lobe
-- nodule
-  - location: left lower lobe
+  - location: left lower lobe \[RID1338\]
+- [consolidative opacity](../../definitions/smartreporting/consolidation.txt)
+  - location: left lower lobe \[RID1338\]
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
+  - location: left lower lobe \[RID1338\]
   - size: 5 mm
   - series image: 7:340
 - peribronchial nodularity
-  - location: right middle lobe
+  - location: right middle lobe \[RID1310\]
   - series image: 7:254
 - atelectasis
   - pattern: linear
-  - location: lower lobes
-- scarring
-  - location: biapical, right greater than left.
-- pleural effusion
+  - location: lower lobes \[RID1315\], \[RID1338\]
+- [scarring](../../definitions/nuance/apical_pulmonary_scarring.json)
+  - location: biapical, right greater than left \[RID28584\]
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- multichamber cardiomegaly
+- [multichamber cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: present
 - myocardial wall thickening
   - presence: present
   - attribute: involving the apical interventricular septum and apex of the left ventricle
-- left ventricular aneurysm
+- [left ventricular aneurysm](../../definitions/hood/left-ventricular-aneurysm.md)
   - presence: present
-- prosthetic valve with the foot calcification
-  - location: aortic valve
-- coronary calcifications
+- [prosthetic valve with the foot calcification](../../definitions/hood/aortic-valve-replacement.json)
+  - location: aortic valve \[RID1394\]
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: severe
-- calcific atherosclerosis
-  - location: thoracic aorta
-- aneurysmal dilatation
-  - location:  ascending thoracic aorta
+- [atherosclerosis](../../definitions/nuance/thoracic_vessel_atherosclerotic_calcification.json)
+  - location: thoracic aorta \[RID879\]
+- [aneurysmal dilatation](../../definitions/hood/aortic-measurements.json)
+  - location:  ascending thoracic aorta \[RID580\]
   - measurements of diameter: up to 4.7 x 4.5 cm in multiplanar reformats
-- atrophic thyroid gland
+- [atrophic thyroid gland](../../definitions/hood/thyroid-atrophy.md)
   - presence: present
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- chest wall mass
+- [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
-- degenerative changes
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - location: thoracic spine
-- sclerotic lesion
-  - T5 vertebral body
+- [sclerotic lesion](../../definitions/hood/sclerotic-lesion.md)
+  -location: T5 vertebral body \[RID29202\]
 
 ## Composite Negative Statements
 

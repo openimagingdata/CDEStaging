@@ -12,44 +12,47 @@ BONES: No new suspicious lytic or blastic lesions. Median sternotomy. Degenerati
 
 ## Extracted findings
 
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
+  - presence: absent
 - opacity
-  - location: lingula
+  - location: lingula \[RID1333\]
   - series image: 5:240
 - opacity
-  - location: subpleural left lower lobe
+  - location: subpleural left lower lobe \[RID1338\]
   - series image: 5:234
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 4 mm
-  - location: left upper lobe
+  - location: left upper lobe \[RID1327\]
   - series image: 5:93,197
-- calcified granuloma
+- [calcified granuloma](../../definitions/hood/calcified-granuloma.md)
   - presence: present
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- thyroid nodules
+- [thyroid nodules](../../definitions/hood/thyroid_nodule.cde.json)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- valve replacement
-  - location: aortic and mitral valve
-- dilatation of aorta
-  - location: ascending aorta
-  - measurements of diameter: 4.2 cm
-- lymphadenopathy
+- [valve replacement](../../definitions/hood/aortic-valve-replacement.json)
+  - location: aortic valve \[RID1394\]
+- [valve replacement](../../definitions/hood/mitral-valve-replacement.md)
+  - location: mitral valve \[RID1395\]
+- [dilatation of aorta](../../definitions/hood/aortic-measurements.json)
+  - location: ascending aorta \[RID580\]
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- gynecomastia
+- [gynecomastia](../../definitions/hood/gynecomastia.json)
   - severity: mild
-  - location: right greater than left.
-- lytic lesion
+  - location: right greater than left \[RID29897\], \[RID29896\], \[RID29900\], \[RID29899\]
+- [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- blastic lesion
+- [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
-- median sternotomy
+- [median sternotomy](../../definitions/hood/median-sternotomy.json)
   - presence: present
-- degenerative changes
-  - location: spine
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
+  - location: spine \[RID7741\]
 
 ## Composite Negative Statements
 

@@ -13,48 +13,48 @@ BONES: There are degenerative changes in the bones without suspicious lytic or b
 
 ## Extracted findings
 
-- trachea secretions
+- [trachea secretions](../../definitions/hood/tracheal-secretions.md)
   - presence: present
-- bronchial wall thickening
+- [bronchial wall thickening](../../definitions/hood/bronchial-wall-thickening.json)
   - severity: mild
-- mucus plugging
-  - location: bronchi
+- [mucus plugging](../../definitions/hood/airway-mucus-plugging.json)
+  - location: bronchi \[RID34918\]
 - atelectasis
   - severity: mild
   - location: bibasilar
-- scarring
-  - location: biapical
+- [scarring](../../definitions/nuance/apical_pulmonary_scarring.json)
+  - location: biapical \[RID28584\]
   - severity: mild
-- calcified granuloma
+- [calcified granuloma](../../definitions/hood/calcified-granuloma.md)
   - presece: present
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - appereance: calcifed
   - size: 2 mm
-  - location: right upper lobe
+  - location: right upper lobe \[RID1303\]
   - series image: 303:190
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- thyroid nodule
+- [thyroid nodule](../../definitions/hood/thyroid_nodule.json)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- valve calcification
-  - location: aortic valve
-- papillary muscle calcifications
+- [valve calcification](../../definitions/nuance/mitral_or_aortic_valve_calcification.json)
+  - location: aortic valve \[RID1394\]
+- [papillary muscle calcifications](../../definitions/hood/papillary-muscle-calcification.md)
   - presence: present
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- chest wall mass
+- [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
-- degenerative changes
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: present
-- lytic lesion
+- [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- blastic lesions
+- [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
 ## Composite Negative Statements

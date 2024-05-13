@@ -13,27 +13,27 @@ BONES: No suspicious lytic or blastic lesions. Sternotomy.
 
 ## Extracted findings
 
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
-- consolidation
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- mediastinal mass
+- [mediastinal mass](../../definitions/hood/mediastinal-mass.json)
   - presence: absent
-- coronary calcification
+- [coronary calcification](../../definitions/nuance/coronary_artery_calcification.json)
   - presence: absent
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- liver cyst
+- [liver cyst](../../definitions/hood/hepatic-cyst.md)
   - presence: present
-- chest wall mass
+- [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
-- lytic lesion
+- [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- blastic lesion
+- [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
 ## Composite Negative Statements

@@ -18,28 +18,28 @@ left.
 
 ## Extracted findings
 
-- consolidation
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
-- calcified granuloma
-  - location: right lower lobe
-- mucous plugging
+- [calcified granuloma](../../definitions/hood/calcified-granuloma.md)
+  - location: right lower lobe \[RID1315\]
+- [mucous plugging](../../definitions/hood/thyroid_nodule.json)
   - location: distal airway
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- left atrial enlargement
+- [left atrial enlargement](../../definitions/hood/left-atrial-enlargement.md)
   - presence: present
-- mitral annular calcification
+-[mitral annular calcification](../../definitions/nuance/mitral_or_aortic_valve_calcification.json)
   - presence: present
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- liver cyst
+- [liver cyst](../../definitions/hood/hepatic-cyst.json)
   - presence: present
-- degenarative changes
-  - location: spine
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
+  - location: spine \[RID7741\]
   - severity: mild
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
@@ -47,15 +47,15 @@ left.
   - presence: absent
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- thyroid nodule
-  - location: right thyroid lobe
+- [thyroid nodule](../../definitions/hood/thyroid_nodule.cde.json)
+  - location: right thyroid lobe \[RID7581\]
   - size: 4.5 cm
-- trachea deviation
+- [trachea deviation](../../definitions/hood/tracheal-deviation.md)
   - side: left
-- atherosclerotic calcification
-  - location: aortic arch
+- [atherosclerotic calcification](../../definitions/nuance/thoracic_vessel_atherosclerotic_calcification.json)
+  - location: aortic arch \[RID581\]
 
 ## Composite Negative Statements
 

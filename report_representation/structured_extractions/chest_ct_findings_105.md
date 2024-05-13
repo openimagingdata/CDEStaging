@@ -13,30 +13,31 @@ BONES: Deformity of the left third posterior rib. No acute fracture.
 
 ## Extracted findings
 
-- endotracheal lesion
+- [endotracheal lesion](../../definitions/hood/endobronchial-mass.json)
   - presence: absent
-- endobronchial lesion
+- [endobronchial lesion](../../definitions/hood/endobronchial-mass.json)
   - presence: absent
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
-- pleural effusio
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- aneurysm
+- [aneurysm](../../definitions/hood/aortic-measurements.json)
   - dilation: 4 cm
-  - location: thoracic aorta
-- coronary calcification
+  - location: thoracic aorta \[pRID879\]
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: moderate
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- heart chamber enlargement
+- [heart chamber enlargement](../../definitions/upmedic/Cardiomegaly.cde.md)
   - location: left ventricule
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absnet
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
 - bone deformity
-  - location: third posterior rib
-- bone fracture
+  - location: third posterior rib \[RID28591_RID6153\]
+- [acute fracture](../../definitions/hood/organization/fracture.md)
   - presence: absent
 
 ## Composite Negative Statements

@@ -13,46 +13,46 @@ BONES: No suspicious lytic or blastic lesions. Sequelae of recent sternotomy. Ri
 
 ## Extracted findings
 
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
 - atelectasis
-  - location: left lower lobe
-- pleural effusion
+  - location: left lower lobe \[RID1338]
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- valve replacement
-  - location: pulmonary valve
-- pulmonary artery dilation
+- [valve replacement](../../definitions/hood/pulmonary-valve-replacement.md)
+  - location: pulmonary valve \[RID1396\]
+- [pulmonary artery dilation](../../definitions/hood/pulmonary-artery-dilation.json)
   - diameter: 3.5 cm
   - series image: 2:40
-- fluid collection
+- [fluid collection](../../definitions/hood/chest-wall-fluid-collection.md)
   - measurment: 2.7 x 1.3 x 1.2 cm
   - series image: 5:61 and 2:31
   - size: small
-  - location: anterior mediastinal
-- lymphadenopathy
+  - location: anterior mediastinal \[RID1384\]
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
 - postsurgical changes
-  - location: anterior chest wall
+  - location: anterior chest wall \[RID29859\]
 - superficial skin defect
   - location: at the level of the sternomanubrial joint
   - size: up to 7 mm
   - series image: 5:62
   - depth size: up to 5 mm in maximal depth
   - series image: 6: 115
-- lytic lesion
+- [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- blastic lesions
-  - presence; absnet
-- sternotomy
+- [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
+  - presence: absent
+- [sternotomy](../../definitions/hood/median-sternotomy.json)
   - presence: present
-- rib fracture
-  - location: right first posterior rib
+- [rib fracture](../../definitions/hood/rib-fracture.json)
+  - location: right first posterior rib \[RID28591_RID6151_RID5825\]
   - series image: 6:27
 
 ## Composite Negative Statements

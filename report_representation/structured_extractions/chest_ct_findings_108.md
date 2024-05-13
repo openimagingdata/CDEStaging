@@ -13,21 +13,21 @@ BONES: Degenerative changes, no evidence of lytic or blastic lesions
 
 ## Extracted findings
 
-- lipoma
-  - location: right chest wall and pleura
+- [lipoma](../../definitions/hood/lipoma.json)
+  - location: right chest wall and pleura \[RID2468\], \[RID1362\]
   - size: 2.5 cm x 2.5 cm
   - series image: 3:33
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- vessel calcification
-  - location: coronary artery
-- lymphadenopathy
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- renal cyst
-  - location: right kidney
-- degenerative changes
+- [renal cyst](../../definitions/nuance/hepatic_and_renal_cysts.json)
+  - location: right kidney \[RID29662\]
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: absent
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent

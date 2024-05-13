@@ -14,48 +14,48 @@ BONES: Degenerative changes of the visualized spine. Unchanged hemangioma in T5,
 
 ## Extracted findings
 
-- enteric tube
+- [enteric tube](../../definitions/hood/gastric-tube.md)
   - termination: stomach
 - surgical drain
   - tip: upper esophagus
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 4 mm
   - location: right lower lobe
   - series image: 7: 174
 - opacity/ atelectasis
-  - location: both lower lobes
-- pleural effusion
+  - location: both lower lobes \[RID1315\], \[RID1338\]
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- pneumomediastinum
+- [pneumomediastinum](../../definitions/hood/pneumomediastinum.json)
   - presence: absent
-- thyroid nodules
+- [thyroid nodule](../../definitions/hood/thyroid_nodule.json)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - size:subcentimeter
-  - location: mediastinal lymph nodes
+  - location: mediastinal lymph nodes \[RID28852\]
 - postsurgical changes
   - presence: present
 - sleeve gastrectomy
   - presence: present
-- liver cyst
-  - location: Left hepatic lobe
+- [liver cyst](../../definitions/hood/hepatic-cyst.md)
+  - location: Left hepatic lobe \[RID69\]
 - splenectomy with prominent splenules
   - presence: present
-- chest wall mass
+- [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
-- degenerative changes
-  - location: spine
-- hemangioma
-  - location: T5, T7 and T9 vertebral bodies
-- lytic lesion
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
+  - location: spine \[RID7741\]
+- [hemangioma](../../definitions/nuance/thoracic_spine_hemangioma.json)
+  - location: T5, T7 and T9 vertebral bodies \[RID29202\], \[RID29204\], \[RID29206\]
+- [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- blastic lesion
+- [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
 ## Composite Negative Statements

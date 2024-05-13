@@ -12,32 +12,32 @@ BONES: Skeletal degenerative changes. No suspicious lytic or blastic lesions.
 
 ## Extracted findings
 
-- consolidation
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
 - pulmonary edema
   - presence: absent
 - atelectasis
   - location: bibasilar
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- thyroid nodule
+- [thyroid nodule](../../definitions/hood/thyroid_nodule.json)
   - presence; absent
-- left atrial enlargement
+- [left atrial enlargement](../../definitions/hood/left-atrial-enlargement.md)
   - severity: mild
-- left ventricular hypertrophy
+- [left ventricular hypertrophy](../../definitions/hood/left-ventricular-enlargement.md)
   - presence: present
-- vessel calcification
-  - location: coronary artery
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: mild
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - presence: absent
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- gynecomastia
+- [gynecomastia](../../definitions/hood/gynecomastia.json)
   - side: bilateral
 - [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
@@ -45,7 +45,7 @@ BONES: Skeletal degenerative changes. No suspicious lytic or blastic lesions.
   - presence: absent
 - [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
-- degenerative changes
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: present
 
 ## Composite Negative Statements

@@ -14,32 +14,34 @@ BONES: No suspicious lytic or blastic lesions. Degenerative change
 
 ## Extracted findings
 
-- bronchiectasis
+- [bronchiectasis](../../definitions/hood/bronchiectasis.json)
   - severity: mild
   - location: right middle lobe, lingula and left lower lobe
-- nodule
-  - location: left lower lobe
-- tracheobronchial secretion
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
+  - location: left lower lobe \[RID1327\]
+- [tracheobronchial secretion](../../definitions/hood/tracheal-secretions.md)
   - side: left
   - series image: 2:145
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 1.3 cm
   - series image: 2:139
-- pneumothorax
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pericardial effusion
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- mediastinal cystic lesion representing cyst or lymphangioma
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
+  - presence: absent
+- mediastinal cystic lesion representing cyst or [lymphangioma](../../definitions/hood/lymphangioma.md)
   - location: posterior inferior mediastinum
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- chest wall mass
+- [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
-- lytic lesion
+- [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- blastic lesions
+- [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
-- degenerative changes
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
   - presence: present
 
 ## Composite Negative Statements

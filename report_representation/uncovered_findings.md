@@ -178,3 +178,27 @@
 - osteosclerotic metastases
   - location: T9, T10, T12 and L1 vertebral bodies and sternal manubrium
   - series image: 4:107
+- hydronephrosis
+  - presence: absent
+- peribronchial nodularity
+  - location: right middle lobe
+- myocardial wall thickening
+  - presence: present
+- bone deformity
+  - location: third posterior rib
+- sleeve gastrectomy
+  - presence: present
+- bowing of bone
+  - location: inferior sternum/xiphoid
+- surgical drain
+  - tip: upper esophagus
+- hydronephrosis
+  - presence: absent
+- prominent piriform sinuses
+  - presence: present
+- superficial skin defect
+  - location: at the level of the sternomanubrial joint
+  - size: up to 7 mm
+  - series image: 5:62
+  - depth size: up to 5 mm in maximal depth
+  - series image: 6: 115

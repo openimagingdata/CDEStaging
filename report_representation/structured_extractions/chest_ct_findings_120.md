@@ -13,47 +13,48 @@ BONES: No suspicious lytic or blastic lesions. Degenerative changes of the spine
 
 ## Extracted findings
 
-- neurostimulator device
+- [neurostimulator device](../../definitions/hood/neurostimulator-device.json)
   - location: right chest wall
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - size: 0.9 cm
-  - location: left lower lobe
+  - location: left lower lobe \[RID1338\]
   - series image: 8:322
 - atelectasis
   - location: bibasilar
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- thyroid nodules
+- [thyroid nodule](../../definitions/hood/thyroid_nodule.json)
   - presence: absent
-- cardiomegaly
+- [cardiomegaly](../../definitions/upmedic/Cardiomegaly.cde.md)
   - presence: absent
-- coronary artery calcifications
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: mild
-- pericardial effusion
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
   - size: trace
-- patulous esophagus
+- [patulous esophagus](../../definitions/hood/esophageal-dilation.md)
   - presence: present
-- hiatal hernia
+- [hiatal hernia](../../definitions/hood/hiatal-hernia.json)
   - size: small
 - prominent piriform sinuses
   - presence: present
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- chest wall mass
+- [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
-- lytic lesion
+- [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- blastic lesion
+- [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
-- degenerative changes
-  - location: spine
-- thoracic kyphosis
+- [degenerative changes](../../definitions/nuance/thoracic_spine_degenerative_changes.json)
+  - location: spine \[RID7741\]
+- [thoracic kyphosis](../../definitions/upmedic/ThoracicSpine.cdes.md)
   - presence: present
-- compression fracture
+- [compression fracture](../../definitions/nuance/thoracic_spine_compression_deformity.json)
   - severity: mild
-  - location: T3 and T4
+  - location: T3 and T4 \[RID29200\], \[RID29201\]
 
 ## Composite Negative Statements
 

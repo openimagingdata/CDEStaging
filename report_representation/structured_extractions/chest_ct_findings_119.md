@@ -13,35 +13,38 @@ BONES: There are no osseous lesions concerning for malignancy or infection.
 
 ## Extracted findings
 
-- lobectomy
-  - location: right upper lobe
+- [lobectomy](../../definitions/hood/lobectomy.json)
+  - location: right upper lobe \[RID1303\]
 - pulmonary mass
   - presence: absent
-- nodule
+- [nodule](../../definitions/hood/pulmonary-nodule.md)
   - presence: absent
-- consolidation
+- [consolidation](../../definitions/smartreporting/consolidation.txt)
   - presence: absent
-- pneumothorax
+- [pneumothorax](../../definitions/hood/pneumothorax.json)
   - presence: absent
-- pleural effusion
+- [pleural effusion](../../definitions/hood/pleural-effusion.json)
   - presence: absent
-- coronary artery calcification
+- [pericardial effusion](../../definitions/hood/pericardial-effusion.json)
+  - presence: absent
+- [vessel calcification](../../definitions/nuance/coronary_artery_calcification.json)
+  - location: coronary artery \[RID486\], \[RID544\]
   - severity: moderate
-- lymphadenopathy
+- [lymphadenopathy](../../definitions/hood/mediastinal-lymph-nodes.json)
   - presence: absent
-- hiatal hernia
+- [hiatal hernia](../../definitions/hood/hiatal-hernia.json)
   - size: small
   - series image: 4: 205
-- nephrolithiasis
+- [nephrolithiasis](../../definitions/hood/nephrolithiasis.json)
   - side: bilateral
   - series image: 4:292, 284
 - hydronephrosis
   - presence: absent
-- chest wall mass
+- [chest wall mass](../../definitions/hood/chest-wall.json)  
   - presence: absent
-- lytic lesion
+- [lytic bony lesions](../../definitions/hood/lytic-lesion.md)
   - presence: absent
-- blastic lesion
+- [blastic bony lesion](../../definitions/hood/sclerotic-lesion.md)
   - presence: absent
 
 ## Composite Negative Statements
