@@ -4,11 +4,11 @@
 ## Identification
 
 - **Presence of Bronchiectasis**: Present / Absent
-- **Status**: New / Unchanged / Increased / Decreased
+- **Status**: New / Unchanged / Increased
 
 ## Characteristics
 
-- **Location**: [specify lung lobes]
+- **Location**: Right upper lobe / Right lower lobe / Right middle lobe / Left upper lobe / Lingula / Left Lower Lobe
 - **Regional Predominance**: Upper lung zone / Middle lung zone / Lower lung zone
 - **Type**: Cylindrical / Varicose / Cystic
 - **Distribution**: Focal / Multifocal / Diffuse
