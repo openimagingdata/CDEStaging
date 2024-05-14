@@ -2,6 +2,8 @@
 
 ## Abdomen
 
+- Subcentimeter hepatic hypodense foci are too small to characterize. Imaged portions of the spleen, gallbladder, pancreas, adrenal glands and kidneys demonstrate no focal lesion.
+
 - There is no hydronephrosis.
 
 - Absence of intravenous contrast limits sensitivity for detecting solid organ findings. MRI abdomen reported separately.
@@ -100,7 +102,19 @@ canal.
 
 - Vertebral body heights are preserved.
 
-## Lung
+## lung
+
+- Unchanged 3 mm left lower lobe nodule (12:302). No consolidation. The central airways are clear.
+
+- Unchanged radiation fibrosis in anterior left lung. Unchanged subpleural nodule in the right upper lobe measuring 5 mm (7:75). Unchanged subpleural nodule measuring 9 mm (7:239) with adjacent atelectatic band in the lingula, likely atelectasis/scar. Focal linear atelectasis in right lower lobe.
+
+- A 5 mm nodule in the right lower lobe (3:71), unchanged. A few subcentimeter subpleural nodular opacities in the right middle and lower lobe (3:58) are unchanged. Interval improvement in the previously demonstrated bilateral upper lobe centrilobular groundglass attenuation and lingular and left lower lobe consolidative opacities.
+
+- Central airways are patent. Unchanged 3 mm left lower lobe and lingular morphology nodule likely intrapulmonary lymph node (9:255). New nodules. No focal consolidation.
+
+- The airways are clear. In the LEFT lower lobe is a solid noncalcified 3 mm nodule, unchanged since at least 2019 and likely benign.
+
+- Unchanged nodules at the fissures such as along the right major fissure (7:200). Patent central airways.
 
 - Decreased lingular opacity (5:240) and subpleural left lower lobe opacity (5:234). New 4 mm left upper lobe nodules (5:93,197). A few calcified granulomas. No new suspicious nodule or consolidation. The central airways are clear.
 
@@ -194,6 +208,22 @@ acute or chronic consolidation or pleural effusion.
 - Small right and trace left pleural effusions unchanged.
 
 ## Mediastinum
+
+- LYMPH NODES: No acute change since prior CT abdomen pelvis 3/19/2024.
+
+- CHEST WALL: Heterogeneously enhancing left axillary/chest wall mass has not significantly changed since prior and measures 2.9 x 2.6 cm (2:44), previously 3.9 x 2.7 cm is unchanged soft tissue thickening and stranding involving the left pectoral and shoulder musculature. Subcutaneous nodule measuring 1.7 cm in posterior to left scapula (2:15) is also unchanged.
+
+- Small noncontrast feeding area in the right segmental branch of pulmonary artery (2:57), likely remnant of prior pulmonary thrombus.
+
+- Anterior pericardiac enhancing lymph node measures up to 9 mm, unchanged compared to most recent prior but increased in size compared to 2019. No enlarged supraclavicular, axillary, or hilar lymph nodes.
+
+- The thyroid gland is normal.  No significant mediastinal, or hilar lymphadenopathy is seen. The cardiac chambers are within normal limits. There are stable postsurgical changes in the LEFT ventricular apex. There are no new or increased mediastinal or hilar lymph nodes. There are stable hypodensities in the thymus, best seen on image 49.
+
+- Unchanged lobulated fluid-attenuating focus in the right pericardial fat pad, measuring 4.2 x 3.1 cm (2:76), likely a pericardial cyst.
+
+- CHEST WALL: Near complete resolution of previously extensive fluid collection in the right axillary region and along the right lateral chest wall with drainage in place and minimal residual fluid collection measuring 2.1 x 1.4 cm (6:27), previously 15.5 x 5.2 cm.
+
+- Chest Wall / BREASTS: Normal.
 
 - There is an unchanged Morgagni hernia containing omental fat.
 
