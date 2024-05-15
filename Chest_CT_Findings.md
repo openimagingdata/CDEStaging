@@ -178,14 +178,14 @@
 
 ## Pulmonary
 
-- ⭐ [Calcified granulomas](definitions/hood/calcified-granuloma.md)
 - ⭐ [Pulmonary nodule (solitary)](definitions/hood/pulmonary-nodule-harmonized.md)
   - [RDES195: Pulmonary Nodule](https://radelement.org/home/sets/set/RDES195)  
   - [RDES208: Fleischner](https://radelement.org/home/sets/set/RDES208)  
   - [RDES99: Incidental Pulmonary Nodules](https://radelement.org/home/sets/set/RDES99)  
-- ⭐ [Pulmonary Consolidation](definitions/smartreporting/consolidation.txt)
+- ⭐ [Airspace consolidation](definitions/smartreporting/consolidation.txt)
 - ⭐ [Interlobular septal thickening](definitions/hood/interlobular-septal-thickening.md)
 - ⭐ [Air trapping](definitions/upmedic/AirTrapping.cde.md)
+- ⭐ [Calcified granulomas](definitions/hood/calcified-granuloma.md)
 - ⭐ [Honeycombing](definitions/nuance/fibrotic_changes_honeycombing.txt)
 - [Intraparenchymal lymph nodes](definitions/hood/intraparenchymal-lymph-node.md)
 - [Usual interstitial pneumonia (UIP)](definitions/hood/usual-interstitial-pneumonia-uip.md)
@@ -195,8 +195,7 @@
 - [Wedge resection](definitions/hood/wedge-resection.md)
 - [Tree-in-bud opacities](definitions/hood/tree-in-bud.md)
 - [Apical scarring](definitions/hood/apical-scarring.md)
-- Hamartoma
-- Pulmonary interstitial emphysema
+- [Hamartoma](definitions/hood/pulmonary-hamartoma.md)
 
 ## Abdominal
 
@@ -267,20 +266,20 @@
   - [Pectus excavatum](definitions/hood/pectus-excavatum.md)
   - [Pectus carinatum](definitions/hood/pectus-carinatum.md)
   - ⭐ [Sternal fracture](definitions/hood/sternal-fracture.md)
-- Sternoclavicular joint degenerative changes
+- [Sternoclavicular joint degenerative changes](definitions/hood/sternoclavicular-joint-degenerative-changes.md)
 
 
 ### Spine
 
 - [Endplate degenerative changes](definitions/hood/thoracic-spine-endplate-degenerative-changes.md) | [Alternate](definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
 - [DISH / bridging osteophytes](definitions/hood/diffuse-idiopathic-skeletal-hyperostosis-dish.md)
-- Alignment
+- [Anterolisthesis](definitions/hood/anterolisthesis.md)
+- [Retrolisthesis](definitions/hood/retrolisthesis.md)
 - Spinal canal narrowing
 - H-shaped vertebrae
 - Rugger-jersey spine
 - Schmorl node
 - Scheuermann’s disease
-- Ankylosing spondylitis
 - Physiologic wedging of lower thoracic vertebrae
 - ⭐ [Scoliosis](definitions/upmedic/ThoracicSpine.cdes.md)
   - [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
@@ -296,11 +295,11 @@
 
 ## Cardiovascular congenital variants
 
-- Patent foramen ovale (PFO)  
-- Atrial septal defect (ASD)  
-- Ventricular septal defect (VSD)  
-- Bicuspid aortic valve  
-- Variant pulmonary vein anatomy  
+- [Patent foramen ovale (PFO)](definitions/hood/patent-foramen-ovale-pfo.md)
+- [Atrial septal defect (ASD)](definitions/hood/atrial-septal-defect-asd.md)
+- [Ventricular septal defect (VSD)](definitions/hood/ventricular-septal-defect.md)
+- Bicuspid aortic valve
+- Variant pulmonary vein anatomy
 - Persistent left SVC  
 - Anomalous pulmonary venous return  
   - PAPVR or TAPVR  
