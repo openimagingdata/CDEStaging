@@ -194,8 +194,7 @@
 - ⭐ [Subpleural reticular opacities](definitions/hood/subpleural-reticular-opacities.md)
 - [Wedge resection](definitions/hood/wedge-resection.md)
 - [Tree-in-bud opacities](definitions/hood/tree-in-bud.md)
-- Blebs/bullae
-- Apical scarring
+- [Apical scarring](definitions/hood/apical-scarring.md)
 - Hamartoma
 - Pulmonary interstitial emphysema
 
