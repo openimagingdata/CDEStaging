@@ -243,42 +243,38 @@
 
 #### Post-surgical changes of the shoulder
 
-- Shoulder arthroplasty
-  - Total shoulder
-  - Reverse total shoulder
-  - Humeral resurfacing arthroplasty
-- Rotator cuff repair
-- Latarjet
-- Distal clavicular resection
-- Clavicular ORIF
+- [Total shoulder arthroplasty](definitions/hood/total-shoulder-arthroplasty.md)
+- [Reverse total shoulder arthroplasty](definitions/hood/total-shoulder-arthroplasty.md)
+- [Humeral resurfacing arthroplasty](definitions/hood/humeral-resurfacing-arthroplasty.md)
+- [Latarjet](definitions/hood/latarjet-procedure.md)
+- [Distal clavicular resection](definitions/hood/distal-clavicular-resection.md)
+- [Clavicular ORIF](definitions/hood/orif-clavicle.md)
 
 ### Rib cage
 
 - Ribs
   - ⭐ [Rib fracture](definitions/hood/bones-and-thoracic-cage.md) | [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
-  - Postsurgical changes of VATS
-  - Postsurgical changes of thoracotomy (partial rib resection or rib widening)
-  - Osseous bridging
-  - Congenital fusion
-  - ORIF
-  - Bifid rib
-  - Cervical rib
+  - [Postsurgical changes of VATS](definitions/hood/postsurgical-changes-vats.md)
+  - [Postsurgical changes of thoracotomy](definitions/hood/postsurgical-changes-thoracotomy.md)
+  - [Osseous bridging](definitions/hood/ribs-osseous-bridging.md)
+  - [Congenital fusion](definitions/hood/ribs-congenital-fusion.md)
+  - [ORIF ribs](definitions/hood/orif-ribs.md)
+  - [Bifid rib](definitions/hood/ribs-bifid.md)
+  - [Cervical rib](definitions/hood/rib-cervical.md)
   - [Fibrous dysplasia](definitions/hood/fibrous-dysplasia-of-ribs.md)
   - [Healed rib fracture](definitions/hood/healed-rib-fracture.md)  
 - Sternum
   - [Median sternotomy](definitions/hood/median-sternotomy.md)
   - [Pectus excavatum](definitions/hood/pectus-excavatum.md)
-  - Pectus carinatum
-  - - ⭐ [Sternal fracture](definitions/hood/sternal-fracture.md)
+  - [Pectus carinatum](definitions/hood/pectus-carinatum.md)
+  - ⭐ [Sternal fracture](definitions/hood/sternal-fracture.md)
 - Sternoclavicular joint degenerative changes
-- Sternocostal joint degenerative changes
-- Costotransverse joint degenerative changes
-- Costal cartilage ossification
+
 
 ### Spine
 
-- Endplate degenerative changes
-- DISH / bridging osteophytes
+- [Endplate degenerative changes](definitions/hood/thoracic-spine-endplate-degenerative-changes.md) | [Alternate](definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
+- [DISH / bridging osteophytes](definitions/hood/diffuse-idiopathic-skeletal-hyperostosis-dish.md)
 - Alignment
 - Spinal canal narrowing
 - H-shaped vertebrae
@@ -292,12 +288,10 @@
 - ⭐ [Vertebral compression fracture](definitions/hood/compression-fracture.md) | [Alternate](definitions/nuance/thoracic_spine_compression_deformity.json)
   - [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
 - [Hemangioma of thoracic spine](definitions/nuance/thoracic_spine_hemangioma.json)
-- ⭐ [Degenerative changes in the thoracic skeleton](definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
-- Spinal fusion or stabilization hardware
+- [Posterior rod and screw fixation hardware](definitions/hood/posterior-rod-screw-fixation.md)
   - Laminectomy
   - Hemilaminectomy
   - Corpectomy
-  - Posterior lumbar interbody fusion (PLIF)
   - Harrington and Luque rods
   - Cotrel-Dubousset (CD) system
 
