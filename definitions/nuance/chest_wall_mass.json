@@ -1,111 +1,633 @@
-{
-  "_id": "TEMP",
-  "name": "chest wall mass",
-  "description": "Chest wall mass refers to an abnormal growth or lesion located within the structures of the chest wall, including the skin, muscles, ribs, or connective tissues. Radiological imaging techniques such as X-rays, CT scans, or MRI are used to characterize the size, location, composition, and extent of the chest wall mass.",
-  "attributes": [
-    {
-      "name": "presence",
-      "description": "This indicates whether chest wall mass is present.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "absent",
-          "description": "No chest wall mass is present."
-        },
-        {
-          "name": "present",
-          "description": "Chest wall mass is present."
-        },
-        {
-          "name": "indeterminate",
-          "description": "It is uncertain whether a chest wall mass is present."
-        },
-        {
-          "name": "unknown",
-          "description": "There is uncertainty regarding the presence of chest wall mass."
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "This indicates the anatomical region of the chest wall mass",
-      "type": "choice",
-      "values": [
-        {
-          "name": "thorax",
-          "description": "RID1243"
+[
+  {
+    "_id": "TEMP",
+    "name": "chest wall mass",
+    "description": "Chest wall mass refers to an abnormal growth or lesion located within the structures of the chest wall, including the skin, muscles, ribs, or connective tissues. Radiological imaging techniques such as X-rays, CT scans, or MRI are used to characterize the size, location, composition, and extent of the chest wall mass.",
+    "codes": [
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID2468",
+        "display": "chest wall"
       },
       {
-          "name": "chest wall",
-          "description": "RID2468"
+        "system": "RADLEX",
+        "code": "RID2468",
+        "display": "chest wall"
       },
       {
-          "name": "left female breast",
-          "description": "RID29897"
+        "system": "ACRCOMMON",
+        "code": "4013613",
+        "display": "chest wall"
       },
       {
-          "name": "subareolar region of left breast",
-          "description": "RID29954"
+        "system": "SNOMEDCT",
+        "code": "78904004",
+        "display": "Chest wall structure (body structure)"
       },
       {
-          "name": "female breast",
-          "description": "RID29895"
+        "system": "RADLEX",
+        "code": "RID3874",
+        "display": "mass"
       },
       {
-          "name": "right female breast",
-          "description": "RID29896"
-      },
-      {
-          "name": "anterior chest wall",
-          "description": "RID29859"
-      },
-      {
-          "name": "right pectoralis major",
-          "description": "RID43071"
-      },
-      {
-          "name": "manubrium",
-          "description": "RID2476"
-      },
-      {
-          "name": "sternum",
-          "description": "RID2473"
-      },
-      {
-          "name": "left pectoralis minor",
-          "description": "RID43074"
-      },
-      {
-          "name": "right pectoralis minor",
-          "description": "RID43073"
-      },
-      {
-          "name": "pectoralis major muscle",
-          "description": "RID2493"
-      },
-      {
-          "name": "left pectoralis major",
-          "description": "RID43072"
-      },
-      {
-          "name": "pectoralis minor muscle",
-          "description": "RID2496"
-      },
-      {
-          "name": "male breast",
-          "description": "RID29898"
-      },
-      {
-          "name": "left male breast",
-          "description": "RID29900"
-      },
-      {
-          "name": "right male breast",
-          "description": "RID29899"
+        "system": "SNOMEDCT",
+        "code": "4147007",
+        "display": "Mass (morphologic abnormality)"
       }
-      ],
-      "required": false
-    }
-  ]
-}
+    ],
+    "attributes": [
+      {
+        "name": "presence",
+        "description": "This indicates whether chest wall mass is present.",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "705057003",
+            "display": "Presence (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "absent",
+            "description": "No chest wall mass is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28473",
+                "display": "absent"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "2667000",
+                "display": "Absent (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "present",
+            "description": "Chest wall mass is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28472",
+                "display": "present"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "52101004",
+                "display": "Present (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "indeterminate",
+            "description": "It is uncertain whether a chest wall mass is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39110",
+                "display": "indeterminate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "82334004",
+                "display": "Indeterminate (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "unknown",
+            "description": "There is uncertainty regarding the presence of chest wall mass.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5655",
+                "display": "unknown"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "261665006",
+                "display": "Unknown (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "This indicates the anatomical region of the chest wall mass",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "thorax",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "125",
+                "display": "thorax"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1243",
+                "display": "thorax"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1243",
+                "display": "thorax"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015442",
+                "display": "thorax"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "51185008",
+                "display": "Thoracic structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "chest wall",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID2468",
+                "display": "chest wall"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID2468",
+                "display": "chest wall"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013613",
+                "display": "chest wall"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "78904004",
+                "display": "Chest wall structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left female breast",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29897",
+                "display": "left female breast"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID29897",
+                "display": "left female breast"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014168",
+                "display": "left female breast"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "722418002",
+                "display": "Structure of left female mammary gland structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "subareolar region of left breast",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29954",
+                "display": "subareolar region of left breast"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID29954",
+                "display": "subareolar region of left breast"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "245525003",
+                "display": "Structure of subareolar region (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "female breast",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29895",
+                "display": "female breast"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID29895",
+                "display": "female breast"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013819",
+                "display": "female breast"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "91532001",
+                "display": "Female mammary gland structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "right female breast",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29896",
+                "display": "right female breast"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID29896",
+                "display": "right female breast"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014939",
+                "display": "right female breast"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "722419005",
+                "display": "Structure of right female mammary gland structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "anterior chest wall",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "245",
+                "display": "anterior region of thorax"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29859",
+                "display": "anterior chest wall"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID29859",
+                "display": "anterior chest wall"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013462",
+                "display": "anterior chest wall"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "63698005",
+                "display": "Anterior chest wall structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "right pectoralis major",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID43071",
+                "display": "right pectoralis major"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID43071",
+                "display": "right pectoralis major"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015081",
+                "display": "right pectoralis major"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1240443007",
+                "display": "Structure of tendon of right pectoralis major muscle (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "manubrium",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1130",
+                "display": "manubrium of sternum"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID2476",
+                "display": "manubrium"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID2476",
+                "display": "manubrium"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014488",
+                "display": "manubrium"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "37285002",
+                "display": "Bone structure of manubrium (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "sternum",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1129",
+                "display": "sternum"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID2473",
+                "display": "sternum"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID2473",
+                "display": "sternum"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "RID2473",
+                "display": "4015283"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "56873002",
+                "display": "Bone structure of sternum (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left pectoralis minor",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID43074",
+                "display": "left pectoralis minor"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID43074",
+                "display": "left pectoralis minor"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014311",
+                "display": "left pectoralis minor"
+              }
+            ]
+          },
+          {
+            "name": "right pectoralis minor",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID43073",
+                "display": "right pectoralis minor"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID43073",
+                "display": "right pectoralis minor"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015082",
+                "display": "right pectoralis minor"
+              }
+            ]
+          },
+          {
+            "name": "pectoralis major muscle",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "2301",
+                "display": "pectoralis major muscle"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID2493",
+                "display": "pectoralis major muscle"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID2493",
+                "display": "pectoralis major muscle"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014700",
+                "display": "pectoralis major muscle"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "60005003",
+                "display": "Pectoralis major muscle structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left pectoralis major",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID43072",
+                "display": "left pectoralis major"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID43072",
+                "display": "left pectoralis major"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014310",
+                "display": "left pectoralis major"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1240442002",
+                "display": "Structure of tendon of left pectoralis major muscle (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "pectoralis minor muscle",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "2305",
+                "display": "pectoralis minor muscle"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID2496",
+                "display": "pectoralis minor muscle"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID2496",
+                "display": "pectoralis minor muscle"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014701",
+                "display": "pectoralis minor muscle"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "18686000",
+                "display": "Pectoralis minor muscle structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "male breast",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29898",
+                "display": "male breast"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID29898",
+                "display": "male breast"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014481",
+                "display": "male breast"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "67770001",
+                "display": "Male mammary gland structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left male breast",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29900",
+                "display": "left male breast"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID29900",
+                "display": "left male breast"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014247",
+                "display": "left male breast"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "7771000",
+                "display": "Left (qualifier value)"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "67770001",
+                "display": "Male mammary gland structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "right male breast",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29899",
+                "display": "right male breast"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID29899",
+                "display": "right male breast"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015018",
+                "display": "right male breast"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "24028007",
+                "display": "Right (qualifier value)"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "67770001",
+                "display": "Male mammary gland structure (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ]
+  }
+]

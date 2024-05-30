@@ -1,95 +1,454 @@
-{
-  "_id": "TEMP",
-  "name": "upper abdominal lymphadenopathy",
-  "description": "Upper abdominal lymphadenopathy refers to the enlargement of lymph nodes in the upper abdominal region, which can be detected via imaging modalities. In radiologic evaluation, it is characterized by the presence of enlarged lymph nodes with a short-axis diameter typically greater than 1 cm on cross-sectional imaging, with CT and MRI.",
-  "attributes": [
-    {
-      "name": "presence",
-      "description": "Upper abdominal lymphadenopathy is detected.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "absent",
-          "description": "No upper abdominal lymphadenopathy is present."
-        },
-        {
-          "name": "present",
-          "description": "Upper abdominal lymphadenopathy is present."
-        },
-        {
-          "name": "indeterminate",
-          "description": "Cannot determine whether upper abdominal lymphadenopathy is present."
-        },
-        {
-          "name": "unknown",
-          "description": "It indicates uncertainty regarding whether upper abdominal lymphadenopathy is present."
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "This refers to the anatomical region where upper abdominal lymphadenopathy is situated.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "gastric lymph node group",
-          "description": "RID31919"
-        },
-        {
-          "name": "celiac lymph node group",
-          "description": "RID31912"
-        },
-        {
-          "name": "retroperitoneum",
-          "description": "RID431"
-        },
-        {
-          "name": "pancreaticoduodenal lymph node",
-          "description": "RID28857"
-        },
-        {
-          "name": "paracolic lymph node group",
-          "description": "RID31959"
-        },
-        {
-          "name": "hepatoportal lymph node group",
-          "description": "RID31997"
-        },
-        {
-          "name": "precaval lymph node group",
-          "description": "RID31977"
-        },
-        {
-          "name": "right common iliac lymph node group",
-          "description": "RID32012"
-        },
-        {
-          "name": "left common iliac lymph node group",
-          "description": "RID32013"
-        },
-        {
-          "name": "common iliac lymph node group",
-          "description": "RID32011"
-        },
-        {
-          "name": "pancreatic lymph node group",
-          "description": "RID31931"
-        },
-        {
-          "name": "mesenteric lymph node group",
-          "description": "RID31968"
-        },
-        {
-          "name": "abdominal lymph node group",
-          "description": "RID28854"
-        },
-        {
-          "name": "gastrohepatic lymph node group",
-          "description": "RID453"
-        }
-      ],
-      "required": false
-    }
-  ]
-}
+[
+  {
+    "_id": "TEMP",
+    "name": "upper abdominal lymphadenopathy",
+    "description": "Upper abdominal lymphadenopathy refers to the enlargement of lymph nodes in the upper abdominal region, which can be detected via imaging modalities. In radiologic evaluation, it is characterized by the presence of enlarged lymph nodes with a short-axis diameter typically greater than 1 cm on cross-sectional imaging, with CT and MRI.",
+    "codes": [
+      {
+        "system": "RADLEX",
+        "code": "RID46057",
+        "display": "upper"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "261183002",
+        "display": "Upper (qualifier value)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID3798",
+        "display": "lymphadenopathy"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "30746006",
+        "display": "Lymphadenopathy (disorder)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "presence",
+        "description": "Upper abdominal lymphadenopathy is detected.",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "705057003",
+            "display": "Presence (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "absent",
+            "description": "No upper abdominal lymphadenopathy is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28473",
+                "display": "absent"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "2667000",
+                "display": "Absent (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "present",
+            "description": "Upper abdominal lymphadenopathy is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28472",
+                "display": "present"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "52101004",
+                "display": "Present (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "indeterminate",
+            "description": "Cannot determine whether upper abdominal lymphadenopathy is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39110",
+                "display": "indeterminate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "82334004",
+                "display": "Indeterminate (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "unknown",
+            "description": "It indicates uncertainty regarding whether upper abdominal lymphadenopathy is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5655",
+                "display": "unknown"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "261665006",
+                "display": "Unknown (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "This refers to the anatomical region where upper abdominal lymphadenopathy is situated.",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "gastric lymph node group",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID31919",
+                "display": "gastric lymph node group"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID31919",
+                "display": "gastric lymph node group"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013880",
+                "display": "gastric lymph node group"
+              }
+            ]
+          },
+          {
+            "name": "celiac lymph node group",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID31912",
+                "display": "celiac lymph node group"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID31912",
+                "display": "celiac lymph node group"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013595",
+                "display": "celiac lymph node group"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "245286003",
+                "display": "Celiac lymph node group (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "retroperitoneum",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID431",
+                "display": "retroperitoneum"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID431",
+                "display": "retroperitoneum"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013400",
+                "display": "retroperitoneum"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "82849001",
+                "display": "Retroperitoneal compartment structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "pancreaticoduodenal lymph node",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID28857",
+                "display": "pancreaticoduodenal lymph node"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID28857",
+                "display": "pancreaticoduodenal lymph node"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014683",
+                "display": "pancreaticoduodenal lymph node"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "76659008",
+                "display": "Structure of pancreaticoduodenal lymph node (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "paracolic lymph node group",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID31959",
+                "display": "paracolic lymph node group"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID31959",
+                "display": "paracolic lymph node group"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014687",
+                "display": "paracolic lymph node group"
+              }
+            ]
+          },
+          {
+            "name": "hepatoportal lymph node group",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID31997",
+                "display": "hepatoportal lymph node group"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID31997",
+                "display": "hepatoportal lymph node group"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013934",
+                "display": "hepatoportal lymph node group"
+              }
+            ]
+          },
+          {
+            "name": "precaval lymph node group",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID31977",
+                "display": "precaval lymph node group"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID31977",
+                "display": "precaval lymph node group"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014779",
+                "display": "precaval lymph node group"
+              }
+            ]
+          },
+          {
+            "name": "right common iliac lymph node group",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID32012",
+                "display": "right common iliac lymph node group"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID32012",
+                "display": "right common iliac lymph node group"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014903",
+                "display": "right common iliac lymph node group"
+              }
+            ]
+          },
+          {
+            "name": "left common iliac lymph node group",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID32013",
+                "display": "left common iliac lymph node group"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID32013",
+                "display": "left common iliac lymph node group"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014132",
+                "display": "left common iliac lymph node group"
+              }
+            ]
+          },
+          {
+            "name": "common iliac lymph node group",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID32011",
+                "display": "common iliac lymph node group"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID32011",
+                "display": "common iliac lymph node group"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013637",
+                "display": "common iliac lymph node group"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "84219008",
+                "display": "Structure of iliac lymph node (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "pancreatic lymph node group",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID31931",
+                "display": "pancreatic lymph node group"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID31931",
+                "display": "pancreatic lymph node group"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014681",
+                "display": "pancreatic lymph node group"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "77778009",
+                "display": "Structure of pancreatic lymph node (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "mesenteric lymph node group",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID31968",
+                "display": "mesenteric lymph node group"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID31968",
+                "display": "mesenteric lymph node group"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014535",
+                "display": "mesenteric lymph node group"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "303139006",
+                "display": "Mesenteric artery lymph node group (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "abdominal lymph node group",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "5268",
+                "display": "abdominal lymph nodes"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID28854",
+                "display": "abdominal lymph node group"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID28854",
+                "display": "abdominal lymph node group"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013421",
+                "display": "abdominal lymph node group"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "245284000",
+                "display": "Abdominal lymph node group (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "gastrohepatic lymph node group",
+            "description": "",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID453",
+                "display": "gastrohepatic lymph node group"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ]
+  }
+]

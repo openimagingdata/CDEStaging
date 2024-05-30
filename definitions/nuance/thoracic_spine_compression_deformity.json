@@ -1,301 +1,889 @@
-{
-  "_id": "655a6321e95c030654d5e5ad",
-  "name": "thoracic spine compression deformity",
-  "description": "A structural change in one or more vertebrae of the thoracic spine, where the vertebral body has decreased in height due to compression.",
-  "attributes": [
-    {
-      "name": "multiplicity",
-      "description": "The number of compression deformities in the thoracic spine",
-      "type": "choice",
-      "values": [
-        {
-          "name": "single",
-          "description": "A single compression deformity"
-        },
-        {
-          "name": "multiple",
-          "description": "Multiple compression deformities"
+[
+  {
+    "_id": "655a6321e95c030654d5e5ad",
+    "name": "thoracic spine compression deformity",
+    "description": "A structural change in one or more vertebrae of the thoracic spine, where the vertebral body has decreased in height due to compression.",
+    "codes": [
+      {
+        "system": "TA2",
+        "code": "1059",
+        "display": "thoracic vertebra"
+      },
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID34572",
+        "display": "thoracic vertebral column"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID7390",
+        "display": "thoracic column"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4015441",
+        "display": "thoracic vertebral column"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "35769007",
+        "display": "Bone structure of thoracic vertebra (body structure)"
+      },
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID7741",
+        "display": "spine"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID7741",
+        "display": "spine"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4015269",
+        "display": "spine"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "421060004",
+        "display": "Structure of vertebral column (body structure)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID4741",
+        "display": "compression"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "71173004",
+        "display": "Compression (morphologic abnormality)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID39218",
+        "display": "deformity"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "417893002",
+        "display": "Deformity (finding)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "multiplicity",
+        "description": "The number of compression deformities in the thoracic spine",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "263648007",
+            "display": "Multiplicity (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "single",
+            "description": "A single compression deformity",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5762",
+                "display": "single"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "50607009",
+                "display": "Singular (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "multiple",
+            "description": "Multiple compression deformities",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5765",
+                "display": "multiple"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255204007",
+                "display": "Multiple (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "The specific vertebra or vertebrae in the thoracic spine where the compression deformity is located",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "thoracic",
+            "description": "Multiple thoracic vertebrae",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1059",
+                "display": "thoracic vertebra"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID34572",
+                "display": "thoracic vertebral column"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID7390",
+                "display": "thoracic column"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015441",
+                "display": "thoracic vertebral column"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "35769007",
+                "display": "Bone structure of thoracic vertebra (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "upper thoracic",
+            "description": "Upper thoracic vertebrae",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "34387001",
+                "display": "Structure of upper thoracic spinal cord (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "mid thoracic",
+            "description": "Mid thoracic vertebrae",
+            "codes": []
+          },
+          {
+            "name": "lower thoracic",
+            "description": "Lower thoracic vertebrae",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1065",
+                "display": "Lower thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "73025004",
+                "display": "Structure of lower thoracic spinal cord (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "lumbar",
+            "description": "Lumbar vertebrae",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1068",
+                "display": "lumbar vertebra"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID34573",
+                "display": "lumbar vertebral column"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID29157",
+                "display": "lumbar vertebra"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014468",
+                "display": "lumbar vertebral column"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "73903008",
+                "display": "Bone structure of lumbar vertebra (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "thoracolumbar",
+            "description": "Thoracic and lumbar vertebrae",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID35771",
+                "display": "thoracolumbar vertebral column"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "264232007",
+                "display": "Thoracolumbar (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "T1",
+            "description": "First thoracic vertebra",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1063",
+                "display": ""
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29198",
+                "display": "first thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6151",
+                "display": "T1"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "64864005",
+                "display": "Bone structure of T1 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T2",
+            "description": "Second thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29199",
+                "display": "second thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6152",
+                "display": "T2"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "53733008",
+                "display": "Bone structure of T2 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T3",
+            "description": "Third thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29200",
+                "display": "third thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6153",
+                "display": "T3"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1626008",
+                "display": "Bone structure of T3 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T4",
+            "description": "Fourth thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29201",
+                "display": "fourth thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6154",
+                "display": "T4"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "73071006",
+                "display": "Bone structure of T4 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T5",
+            "description": "Fifth thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29202",
+                "display": "fifth thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6155",
+                "display": "T5"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "56401006",
+                "display": "Bone structure of T5 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T6",
+            "description": "Sixth thoracic vertebra",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1059",
+                "display": "thoracic vertebra"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29203",
+                "display": "sixth thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6156",
+                "display": "T6"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "45296009",
+                "display": "Bone structure of T6 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T7",
+            "description": "Seventh thoracic vertebra",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1060",
+                "display": "thoracic vertebra"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29204",
+                "display": "seventh thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6157",
+                "display": "T7"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "62487009",
+                "display": "Bone structure of T7 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T8",
+            "description": "Eighth thoracic vertebra",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1061",
+                "display": "thoracic vertebra"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29205",
+                "display": "eight thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6157",
+                "display": "T8"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "11068009",
+                "display": "Bone structure of T8 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T9",
+            "description": "Ninth thoracic vertebra",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1062",
+                "display": "thoracic vertebra"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29206",
+                "display": "ninth thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6159",
+                "display": "T9"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "82687006",
+                "display": "Bone structure of T9 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T10",
+            "description": "Tenth thoracic vertebra",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1063",
+                "display": "thoracic vertebra"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29207",
+                "display": "tenth thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6160",
+                "display": "T10"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "7610001",
+                "display": "Bone structure of T10 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T11",
+            "description": "Eleventh thoracic vertebra",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1059",
+                "display": "thoracic vertebra"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29208",
+                "display": "eleventh thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6161",
+                "display": "T11"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "12989004",
+                "display": "Bone structure of T11 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T12",
+            "description": "Twelfth thoracic vertebra",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1059",
+                "display": "thoracic vertebra"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29209",
+                "display": "twelfth thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6162",
+                "display": "T12"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "23215003",
+                "display": "Bone structure of T12 (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "severity",
+        "description": "The extent of the compression deformity, often described in relation to the loss of height of the vertebral body",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "246112005",
+            "display": "Severity (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "mild",
+            "description": "Minor loss of height of the vertebral body",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5671",
+                "display": "mild"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255604002",
+                "display": "Mild (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "moderate",
+            "description": "Moderate loss of height of the vertebral body",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5672",
+                "display": "moderate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1255665007",
+                "display": "Moderate (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "severe",
+            "description": "Significant loss of height of the vertebral body",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5673",
+                "display": "severe"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "24484000",
+                "display": "Severe (severity modifier) (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "retropulsion",
+        "description": "The backward displacement of the vertebral body into the spinal canal",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "35136003",
+            "display": "Retropulsion (finding)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "none",
+            "description": "No significant backward displacement of the vertebral body",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28454",
+                "display": "none"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "260413007",
+                "display": "None (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "mild",
+            "description": "Minor backward displacement of the vertebral body",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5671",
+                "display": "mild"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255604002",
+                "display": "Mild (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "severe",
+            "description": "Significant backward displacement of the vertebral body",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5673",
+                "display": "severe"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "24484000",
+                "display": "Severe (severity modifier) (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "chronicity",
+        "description": "The duration or persistence of the compression deformity",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID5719",
+            "display": "chronicity"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "90734009",
+            "display": "Chronic (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "acute",
+            "description": "Recent or new compression deformity",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5718",
+                "display": "acute"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "272118002",
+                "display": "Acuteness (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "unchanged",
+            "description": "Compression deformity that has not changed in duration or severity since prior imaging",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39268",
+                "display": "unchanged"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "260388006",
+                "display": "No status change (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "chronic",
+            "description": "Long-standing or unchanged compression deformity; synonyms include stable and unchanged",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5719",
+                "display": "chronic"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "90734009",
+                "display": "Chronic (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "indeterminate",
+            "description": "Unknown duration of compression deformity",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39110",
+                "display": "indeterminate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "82334004",
+                "display": "Indeterminate (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": [
+      {
+        "report_text": "Compression deformity of T7 in thoracic spine, similar to prior.",
+        "observation": {
+          "finding_name": "thoracic_spine_compression_deformity",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "single"
+            },
+            {
+              "attribute": "location",
+              "value": "T7"
+            },
+            {
+              "attribute": "chronicity",
+              "value": "chronic"
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "The specific vertebra or vertebrae in the thoracic spine where the compression deformity is located",
-      "type": "choice",
-      "values": [
-        {
-          "name": "thoracic",
-          "description": "Multiple thoracic vertebrae"
-        },
-        {
-          "name": "upper thoracic",
-          "description": "Upper thoracic vertebrae"
-        },
-        {
-          "name": "mid thoracic",
-          "description": "Mid thoracic vertebrae"
-        },
-        {
-          "name": "lower thoracic",
-          "description": "Lower thoracic vertebrae"
-        },
-        {
-          "name": "lumbar",
-          "description": "Lumbar vertebrae"
-        },
-        {
-          "name": "thoracolumbar",
-          "description": "Thoracic and lumbar vertebrae"
-        },
-        {
-          "name": "T1",
-          "description": "First thoracic vertebra"
-        },
-        {
-          "name": "T2",
-          "description": "Second thoracic vertebra"
-        },
-        {
-          "name": "T3",
-          "description": "Third thoracic vertebra"
-        },
-        {
-          "name": "T4",
-          "description": "Fourth thoracic vertebra"
-        },
-        {
-          "name": "T5",
-          "description": "Fifth thoracic vertebra"
-        },
-        {
-          "name": "T6",
-          "description": "Sixth thoracic vertebra"
-        },
-        {
-          "name": "T7",
-          "description": "Seventh thoracic vertebra"
-        },
-        {
-          "name": "T8",
-          "description": "Eighth thoracic vertebra"
-        },
-        {
-          "name": "T9",
-          "description": "Ninth thoracic vertebra"
-        },
-        {
-          "name": "T10",
-          "description": "Tenth thoracic vertebra"
-        },
-        {
-          "name": "T11",
-          "description": "Eleventh thoracic vertebra"
-        },
-        {
-          "name": "T12",
-          "description": "Twelfth thoracic vertebra"
+      },
+      {
+        "report_text": "Bones: There is stable compression of multiple thoracic vertebral bodies. Post kyphoplasty changes are noted at L1",
+        "observation": {
+          "finding_name": "thoracic_spine_compression_deformity",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple"
+            },
+            {
+              "attribute": "chronicity",
+              "value": "chronic"
+            },
+            {
+              "attribute": "location",
+              "value": "thoracic"
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "severity",
-      "description": "The extent of the compression deformity, often described in relation to the loss of height of the vertebral body",
-      "type": "choice",
-      "values": [
-        {
-          "name": "mild",
-          "description": "Minor loss of height of the vertebral body"
-        },
-        {
-          "name": "moderate",
-          "description": "Moderate loss of height of the vertebral body"
-        },
-        {
-          "name": "severe",
-          "description": "Significant loss of height of the vertebral body"
+      },
+      {
+        "report_text": "Bones: Osteopenia. Accentuated thoracic kyphosis. Status post median sternotomy. Skeletal degenerative changes with multiple similar appearing wedge-shaped compression deformities. Unchanged L2 vertebral body compression deformity harboring a",
+        "observation": {
+          "finding_name": "thoracic_spine_compression_deformity",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "single"
+            },
+            {
+              "attribute": "chronicity",
+              "value": "chronic"
+            },
+            {
+              "attribute": "location",
+              "value": "L2"
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "retropulsion",
-      "description": "The backward displacement of the vertebral body into the spinal canal",
-      "type": "choice",
-      "values": [
-        {
-          "name": "none",
-          "description": "No significant backward displacement of the vertebral body"
-        },
-        {
-          "name": "mild",
-          "description": "Minor backward displacement of the vertebral body"
-        },
-        {
-          "name": "severe",
-          "description": "Significant backward displacement of the vertebral body"
+      },
+      {
+        "report_text": "THORACIC AND LUMBAR SPINE: Alignment and Curvature: No traumatic malalignment. Stable anterolisthesis of L4 on L5   Vertebrae: New compression deformity of the T9 vertebral body.",
+        "observation": {
+          "finding_name": "thoracic_spine_compression_deformity",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "single"
+            },
+            {
+              "attribute": "location",
+              "value": "T9"
+            },
+            {
+              "attribute": "chronicity",
+              "value": "acute"
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "chronicity",
-      "description": "The duration or persistence of the compression deformity",
-      "type": "choice",
-      "values": [
-        {
-          "name": "acute",
-          "description": "Recent or new compression deformity"
-        },
-        {
-          "name": "unchanged",
-          "description": "Compression deformity that has not changed in duration or severity since prior imaging"
-        },
-        {
-          "name": "chronic",
-          "description": "Long-standing or unchanged compression deformity; synonyms include stable and unchanged"
-        },
-        {
-          "name": "indeterminate",
-          "description": "Unknown duration of compression deformity"
+      },
+      {
+        "report_text": "thoracic and upper lumbar spine. Multilevel osteoporotic compression deformities of the thoracic spine, most severe at T4 with approximately 70% loss of height.",
+        "observation": {
+          "finding_name": "thoracic_spine_compression_deformity",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple"
+            },
+            {
+              "attribute": "location",
+              "value": "thoracic"
+            }
+          ]
         }
-      ],
-      "required": false
-    }
-  ],
-  "examples": [
-    {
-      "report_text": "Compression deformity of T7 in thoracic spine, similar to prior.",
-      "observation": {
-        "finding_name": "thoracic_spine_compression_deformity",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "single"
-          },
-          {
-            "attribute": "location",
-            "value": "T7"
-          },
-          {
-            "attribute": "chronicity",
-            "value": "chronic"
-          }
-        ]
+      },
+      {
+        "report_text": "Vertebrae: Compression deformities involving T3, T4, T5, T7, T8, L1, L3 and L5vertebral bodies. The compression deformities in the lumbar spine are chronic. The compression deformities in the thoracic spine are age-indeterminate, likely chronic.",
+        "observation": {
+          "finding_name": "thoracic_spine_compression_deformity",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple"
+            },
+            {
+              "attribute": "location",
+              "value": "thoracolumbar"
+            },
+            {
+              "attribute": "chronicity",
+              "value": "chronic"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "2.  Several osteoporotic compression deformities of the thoracic spine, status post vertebroplasty of T10-T11, and fixation of the lower thoracic/upper lumbar spine with partially imaged spinal rods and screws",
+        "observation": {
+          "finding_name": "thoracic_spine_compression_deformity",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple"
+            },
+            {
+              "attribute": "location",
+              "value": "lower thoracic"
+            }
+          ]
+        }
       }
-    },
-    {
-      "report_text": "Bones: There is stable compression of multiple thoracic vertebral bodies. Post kyphoplasty changes are noted at L1",
-      "observation": {
-        "finding_name": "thoracic_spine_compression_deformity",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          },
-          {
-            "attribute": "chronicity",
-            "value": "chronic"
-          },
-          {
-            "attribute": "location",
-            "value": "thoracic"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Bones: Osteopenia. Accentuated thoracic kyphosis. Status post median sternotomy. Skeletal degenerative changes with multiple similar appearing wedge-shaped compression deformities. Unchanged L2 vertebral body compression deformity harboring a",
-      "observation": {
-        "finding_name": "thoracic_spine_compression_deformity",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "single"
-          },
-          {
-            "attribute": "chronicity",
-            "value": "chronic"
-          },
-          {
-            "attribute": "location",
-            "value": "L2"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "THORACIC AND LUMBAR SPINE: Alignment and Curvature: No traumatic malalignment. Stable anterolisthesis of L4 on L5   Vertebrae: New compression deformity of the T9 vertebral body.",
-      "observation": {
-        "finding_name": "thoracic_spine_compression_deformity",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "single"
-          },
-          {
-            "attribute": "location",
-            "value": "T9"
-          },
-          {
-            "attribute": "chronicity",
-            "value": "acute"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "thoracic and upper lumbar spine. Multilevel osteoporotic compression deformities of the thoracic spine, most severe at T4 with approximately 70% loss of height.",
-      "observation": {
-        "finding_name": "thoracic_spine_compression_deformity",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          },
-          {
-            "attribute": "location",
-            "value": "thoracic"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Vertebrae: Compression deformities involving T3, T4, T5, T7, T8, L1, L3 and L5vertebral bodies. The compression deformities in the lumbar spine are chronic. The compression deformities in the thoracic spine are age-indeterminate, likely chronic.",
-      "observation": {
-        "finding_name": "thoracic_spine_compression_deformity",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          },
-          {
-            "attribute": "location",
-            "value": "thoracolumbar"
-          },
-          {
-            "attribute": "chronicity",
-            "value": "chronic"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "2.  Several osteoporotic compression deformities of the thoracic spine, status post vertebroplasty of T10-T11, and fixation of the lower thoracic/upper lumbar spine with partially imaged spinal rods and screws",
-      "observation": {
-        "finding_name": "thoracic_spine_compression_deformity",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          },
-          {
-            "attribute": "location",
-            "value": "lower thoracic"
-          }
-        ]
-      }
-    }
-  ]
-}
+    ]
+  }
+]

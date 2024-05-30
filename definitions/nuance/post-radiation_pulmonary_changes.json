@@ -1,304 +1,913 @@
-{
-  "_id": "6539961f2f4080dec0124f2e",
-  "name": "post-radiation pulmonary changes",
-  "description": "Changes to the lungs following radiation treatment, including fibrosis, consolidation, or other structural modifications",
-  "attributes": [
-    {
-      "name": "location",
-      "description": "The anatomical region of the post-radiation changes",
-      "type": "choice",
-      "values": [
-        {
-          "name": "right lung",
-          "description": "Changes in the right lung"
-        },
-        {
-          "name": "left lung",
-          "description": "Changes in the left lung"
-        },
-        {
-          "name": "bilateral lungs",
-          "description": "Changes in both lungs"
-        },
-        {
-          "name": "left upper lung",
-          "description": "Changes in the upper part of the left lung"
-        },
-        {
-          "name": "right upper lung",
-          "description": "Changes in the upper part of the right lung"
-        },
-        {
-          "name": "left lower lung",
-          "description": "Changes in the lower part of the left lung"
-        },
-        {
-          "name": "right lower lung",
-          "description": "Changes in the lower part of the right lung"
-        },
-        {
-          "name": "bilateral perihilar",
-          "description": "Changes in the perihilar or perimediastinal region of the lungs"
-        },
-        {
-          "name": "left perihilar",
-          "description": "Changes in the perihilar or perimediastinal region of the left lung"
-        },
-        {
-          "name": "right perihilar",
-          "description": "Changes in the perihilar or perimediastinal region of the right lung"
-        },
-        {
-          "name": "apical",
-          "description": "Changes in the apices of the lungs"
+[
+  {
+    "_id": "6539961f2f4080dec0124f2e",
+    "name": "post-radiation pulmonary changes",
+    "description": "Changes to the lungs following radiation treatment, including fibrosis, consolidation, or other structural modifications",
+    "codes": [
+      {
+        "system": "SNOMEDCT",
+        "code": "264908009",
+        "display": "Post-radiation (qualifier value)"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "738985004",
+        "display": "Pulmonary (intended site)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "location",
+        "description": "The anatomical region of the post-radiation changes",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "right lung",
+            "description": "Changes in the right lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3283",
+                "display": "right lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1302",
+                "display": "right lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1302",
+                "display": "right lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "RID1302",
+                "display": "right lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "3341006",
+                "display": "Right lung structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left lung",
+            "description": "Changes in the left lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3299",
+                "display": "left lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1326",
+                "display": "left lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1326",
+                "display": "left lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "3299",
+                "display": "left lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "44029006",
+                "display": "Left lung structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "bilateral lungs",
+            "description": "Changes in both lungs",
+            "codes": []
+          },
+          {
+            "name": "left upper lung",
+            "description": "Changes in the upper part of the left lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3300",
+                "display": "superior lobe of left lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1327",
+                "display": "upper lobe of left lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1327",
+                "display": "upper lobe of left lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015503",
+                "display": "upper lobe of left lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "44714003",
+                "display": "Structure of upper lobe of left lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "right upper lung",
+            "description": "Changes in the upper part of the right lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3284",
+                "display": "Superior lobe of right lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1303",
+                "display": "upper lobe of right lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1303",
+                "display": "upper lobe of right lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015504",
+                "display": "upper lobe of right lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "42400003",
+                "display": "Structure of upper lobe of right lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left lower lung",
+            "description": "Changes in the lower part of the left lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3308",
+                "display": "Inferior lobe of left lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1338",
+                "display": "lower lobe of left lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1338",
+                "display": "lower lobe of left lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014461",
+                "display": "lower lobe of left lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "41224006",
+                "display": "Structure of lower lobe of left lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "right lower lung",
+            "description": "Changes in the lower part of the right lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3293",
+                "display": "Inferior lobe of right lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1315",
+                "display": "lower lobe of right lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1315",
+                "display": "lower lobe of right lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014462",
+                "display": "lower lobe of right lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "266005",
+                "display": "Structure of lower lobe of right lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "bilateral perihilar",
+            "description": "Changes in the perihilar or perimediastinal region of the lungs",
+            "codes": []
+          },
+          {
+            "name": "left perihilar",
+            "description": "Changes in the perihilar or perimediastinal region of the left lung",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "21519003",
+                "display": "Structure of perihilar region of left lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "right perihilar",
+            "description": "Changes in the perihilar or perimediastinal region of the right lung",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "56860001",
+                "display": "Structure of perihilar region of right lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "apical",
+            "description": "Changes in the apices of the lungs",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "23",
+                "display": "apical"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID28584",
+                "display": "apex of lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID5833",
+                "display": "apical"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013504",
+                "display": "apex of lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "43674008",
+                "display": "Apical (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "change status",
+        "description": "The status of the post-radiation changes over time",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID49896",
+            "display": "change"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "new",
+            "description": "Changes are new and have not been previously observed",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5720",
+                "display": "new"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "7147002",
+                "display": "New (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "stable",
+            "description": "Changes are stable and have not significantly changed over time; also called unchanged",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5734",
+                "display": "stable"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "58158008",
+                "display": "Stable (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "increased",
+            "description": "Changes have increased or worsened",
+            "codes": []
+          },
+          {
+            "name": "decreased",
+            "description": "Changes have decreased or improved",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID36044",
+                "display": "decreased"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1250004",
+                "display": "Decreased (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "evolving",
+            "description": "Changes are evolving and show signs of progression",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "59381007",
+                "display": "Evolving (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "type of changes",
+        "description": "The type of structural changes observed in the lung post-radiation",
+        "codes": [],
+        "type": "choice",
+        "values": [
+          {
+            "name": "fibrotic",
+            "description": "Presence of fibrotic tissue",
+            "codes": []
+          },
+          {
+            "name": "consolidative",
+            "description": "Presence of consolidation",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "9656002",
+                "display": "Consolidation (morphologic abnormality)"
+              }
+            ]
+          },
+          {
+            "name": "atelectasis",
+            "description": "Presence of atelectasis",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28493",
+                "display": "atelectasis"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "46621007",
+                "display": "Atelectasis (disorder)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": [
+      {
+        "report_text": "Post radiation fibrosis noted in the anterior left upper lung.",
+        "observation": {
+          "finding_name": "post-radiation_pulmonary_changes",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "left upper lung",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3300",
+                  "display": "superior lobe of left lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1327",
+                  "display": "upper lobe of left lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1327",
+                  "display": "upper lobe of left lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4015503",
+                  "display": "upper lobe of left lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "44714003",
+                  "display": "Structure of upper lobe of left lung (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "type_of_changes",
+              "value": "fibrotic",
+              "codes": []
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "change status",
-      "description": "The status of the post-radiation changes over time",
-      "type": "choice",
-      "values": [
-        {
-          "name": "new",
-          "description": "Changes are new and have not been previously observed"
-        },
-        {
-          "name": "stable",
-          "description": "Changes are stable and have not significantly changed over time; also called unchanged"
-        },
-        {
-          "name": "increased",
-          "description": "Changes have increased or worsened"
-        },
-        {
-          "name": "decreased",
-          "description": "Changes have decreased or improved"
-        },
-        {
-          "name": "evolving",
-          "description": "Changes are evolving and show signs of progression"
+      },
+      {
+        "report_text": "Stable postradiation changes in the right upper lung.",
+        "observation": {
+          "finding_name": "post-radiation_pulmonary_changes",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "right upper lung",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3284",
+                  "display": "Superior lobe of right lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1303",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1303",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4015504",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "42400003",
+                  "display": "Structure of upper lobe of right lung (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "change_status",
+              "value": "stable",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5734",
+                  "display": "stable"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "58158008",
+                  "display": "Stable (qualifier value)"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "type of changes",
-      "description": "The type of structural changes observed in the lung post-radiation",
-      "type": "choice",
-      "values": [
-        {
-          "name": "fibrotic",
-          "description": "Presence of fibrotic tissue"
-        },
-        {
-          "name": "consolidative",
-          "description": "Presence of consolidation"
-        },
-        {
-          "name": "atelectasis",
-          "description": "Presence of atelectasis"
+      },
+      {
+        "report_text": "Observations of stable postradiation changes in the left perihilar lung, with traces of emphysematous changes and bronchial wall thickening.",
+        "observation": {
+          "finding_name": "post-radiation_pulmonary_changes",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "left perihilar",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "21519003",
+                  "display": "Structure of perihilar region of left lung (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "change_status",
+              "value": "stable",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5734",
+                  "display": "stable"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "58158008",
+                  "display": "Stable (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "type_of_changes",
+              "value": "emphysematous",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "263747008",
+                  "display": "Emphysematous (qualifier value)"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID5876",
+                  "display": "emphysematous "
+                }
+              ]  
+            }
+          ]
         }
-      ],
-      "required": false
-    }
-  ],
-  "examples": [
-    {
-      "report_text": "Post radiation fibrosis noted in the anterior left upper lung.",
-      "observation": {
-        "finding_name": "post-radiation_pulmonary_changes",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "left upper lung"
-          },
-          {
-            "attribute": "type_of_changes",
-            "value": "fibrotic"
-          }
-        ]
+      },
+      {
+        "report_text": "and left lower lobe likely representing postradiation changes. Unchanged scattered bilateral pulmonary nodules, for example:",
+        "observation": {
+          "finding_name": "post-radiation_pulmonary_changes",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "left lower lobe",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3308",
+                  "display": "Inferior lobe of left lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1338",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1338",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4014461",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "41224006",
+                  "display": "Structure of lower lobe of left lung (body structure)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Stable post radiation changes in the right upper lung, possibly due to post radiation or post inflammatory scarring.",
+        "observation": {
+          "finding_name": "post-radiation_pulmonary_changes",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "right lung",
+              "codes": [
+              {
+                "system": "TA2",
+                "code": "3283",
+                "display": "right lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1302",
+                "display": "right lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1302",
+                "display": "right lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "RID1302",
+                "display": "right lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "3341006",
+                "display": "Right lung structure (body structure)"
+              }
+            ]
+            },
+            {
+              "attribute": "change_status",
+              "value": "stable",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5734",
+                  "display": "stable"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "58158008",
+                  "display": "Stable (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Unchanged postradiation changes in both lungs. Right-sided pleural effusion also present.",
+        "observation": {
+          "finding_name": "post-radiation_pulmonary_changes",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "bilateral lungs",
+              "codes": []
+            },
+            {
+              "attribute": "change_status",
+              "value": "unchanged",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID39268",
+                  "display": "unchanged"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "260388006",
+                  "display": "No status change (qualifier value)"
+                }
+              ]
+            }  
+          ]
+        }
+      },
+      {
+        "report_text": "3.  Consolidative opacities in the right upper lobe and right middle lobe, which most likely represent postradiation changes.    4.  Mild pulmonary edema with a trace right pleural effusion.",
+        "observation": {
+          "finding_name": "post-radiation_pulmonary_changes",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "right upper lung",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3284",
+                  "display": "Superior lobe of right lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1303",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1303",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4015504",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "42400003",
+                  "display": "Structure of upper lobe of right lung (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "type_of_changes",
+              "value": "consolidative",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "9656002",
+                  "display": "Consolidation (morphologic abnormality)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Post radiation changes are noted in the right perihilar lung.   Pleura: No pleural effusion or pneumothorax.   Mediastinum: No central pulmonary embolism.   Lymph Nodes: No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.",
+        "observation": {
+          "finding_name": "post-radiation_pulmonary_changes",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "right perihilar",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "56860001",
+                  "display": "Structure of perihilar region of right lung (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "change_status",
+              "value": "new",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5720",
+                  "display": "new"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "7147002",
+                  "display": "New (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "likely represents a focus of postobstructive pneumonia. Post radiation change in the left upper lobe and right lower lobe is stable. There are bilateral solid and subsolid nodules measuring up to 13 mm in the subpleural left lower lobe (4:254) and",
+        "observation": {
+          "finding_name": "post-radiation_pulmonary_changes",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "bilateral lungs",
+              "codes": []
+            },
+            {
+              "attribute": "change_status",
+              "value": "stable",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5734",
+                  "display": "stable"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "58158008",
+                  "display": "Stable (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Left perihilar patchy opacity with traction bronchiectasis, representing postradiation changes.",
+        "observation": {
+          "finding_name": "post-radiation_pulmonary_changes",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "left perihilar",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "21519003",
+                  "display": "Structure of perihilar region of left lung (body structure)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Postradiation changes observed in the anterior right upper and middle lobe.",
+        "observation": {
+          "finding_name": "post-radiation_pulmonary_changes",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "right upper lung",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3284",
+                  "display": "Superior lobe of right lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1303",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1303",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4015504",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "42400003",
+                  "display": "Structure of upper lobe of right lung (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "type_of_changes",
+              "value": "fibrotic",
+              "codes": []
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "lung likely representing post radiation changes. Near complete resolution of numerous extensive tree-in-bud nodules throughout all lobes with few residual tree-in-bud nodules",
+        "observation": {
+          "finding_name": "post-radiation_pulmonary_changes",
+          "attributes": []
+        }
+      },
+      {
+        "report_text": "IMPRESSION:    1.  Post radiation changes in the anterior left upper lung. 2.  Multiple 2 to 3 mm solid pulmonary nodules.   RECOMMENDATION:",
+        "observation": {
+          "finding_name": "post-radiation_pulmonary_changes",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "left lung",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3299",
+                  "display": "left lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1326",
+                  "display": "left lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1326",
+                  "display": "left lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "3299",
+                  "display": "left lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "44029006",
+                  "display": "Left lung structure (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "type_of_changes",
+              "value": "fibrotic",
+              "codes": []
+            }
+          ]
+        }
       }
-    },
-    {
-      "report_text": "Stable postradiation changes in the right upper lung.",
-      "observation": {
-        "finding_name": "post-radiation_pulmonary_changes",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "right upper lung"
-          },
-          {
-            "attribute": "change_status",
-            "value": "stable"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Observations of stable postradiation changes in the left perihilar lung, with traces of emphysematous changes and bronchial wall thickening.",
-      "observation": {
-        "finding_name": "post-radiation_pulmonary_changes",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "left perihilar"
-          },
-          {
-            "attribute": "change_status",
-            "value": "stable"
-          },
-          {
-            "attribute": "type_of_changes",
-            "value": "emphysematous"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "and left lower lobe likely representing postradiation changes. Unchanged scattered bilateral pulmonary nodules, for example:",
-      "observation": {
-        "finding_name": "post-radiation_pulmonary_changes",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "left lower lobe"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Stable post radiation changes in the right upper lung, possibly due to post radiation or post inflammatory scarring.",
-      "observation": {
-        "finding_name": "post-radiation_pulmonary_changes",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "right lung"
-          },
-          {
-            "attribute": "change_status",
-            "value": "stable"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Unchanged postradiation changes in both lungs. Right-sided pleural effusion also present.",
-      "observation": {
-        "finding_name": "post-radiation_pulmonary_changes",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "bilateral lungs"
-          },
-          {
-            "attribute": "change_status",
-            "value": "unchanged"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "3.  Consolidative opacities in the right upper lobe and right middle lobe, which most likely represent postradiation changes.    4.  Mild pulmonary edema with a trace right pleural effusion.",
-      "observation": {
-        "finding_name": "post-radiation_pulmonary_changes",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "right upper lung"
-          },
-          {
-            "attribute": "type_of_changes",
-            "value": "consolidative"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Post radiation changes are noted in the right perihilar lung.   Pleura: No pleural effusion or pneumothorax.   Mediastinum: No central pulmonary embolism.   Lymph Nodes: No enlarged supraclavicular, axillary, mediastinal, or hilar lymph nodes.",
-      "observation": {
-        "finding_name": "post-radiation_pulmonary_changes",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "right perihilar"
-          },
-          {
-            "attribute": "change_status",
-            "value": "new"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "likely represents a focus of postobstructive pneumonia. Post radiation change in the left upper lobe and right lower lobe is stable. There are bilateral solid and subsolid nodules measuring up to 13 mm in the subpleural left lower lobe (4:254) and",
-      "observation": {
-        "finding_name": "post-radiation_pulmonary_changes",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "bilateral lungs"
-          },
-          {
-            "attribute": "change_status",
-            "value": "stable"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Left perihilar patchy opacity with traction bronchiectasis, representing postradiation changes.",
-      "observation": {
-        "finding_name": "post-radiation_pulmonary_changes",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "left perihilar"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Postradiation changes observed in the anterior right upper and middle lobe.",
-      "observation": {
-        "finding_name": "post-radiation_pulmonary_changes",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "right upper lung"
-          },
-          {
-            "attribute": "type_of_changes",
-            "value": "fibrotic"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "lung likely representing post radiation changes. Near complete resolution of numerous extensive tree-in-bud nodules throughout all lobes with few residual tree-in-bud nodules",
-      "observation": {
-        "finding_name": "post-radiation_pulmonary_changes",
-        "attributes": []
-      }
-    },
-    {
-      "report_text": "IMPRESSION:    1.  Post radiation changes in the anterior left upper lung. 2.  Multiple 2 to 3 mm solid pulmonary nodules.   RECOMMENDATION:",
-      "observation": {
-        "finding_name": "post-radiation_pulmonary_changes",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "left lung"
-          },
-          {
-            "attribute": "type_of_changes",
-            "value": "fibrotic"
-          }
-        ]
-      }
-    }
-  ]
-}
+    ]
+  }
+]

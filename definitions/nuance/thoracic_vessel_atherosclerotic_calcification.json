@@ -1,233 +1,634 @@
-{
-  "_id": "655a705473c4899d1f211c85",
-  "name": "thoracic vessel atherosclerotic calcification",
-  "description": "A disease characterized by the deposition of calcified and non-calcified plaques on the inner walls of the arteries in the chest area",
-  "attributes": [
-    {
-      "name": "severity",
-      "description": "The degree of the atherosclerosis",
-      "type": "choice",
-      "values": [
-        {
-          "name": "mild",
-          "description": "Minor extent of atherosclerotic disease"
-        },
-        {
-          "name": "moderate",
-          "description": "Intermediate extent of atherosclerotic disease"
-        },
-        {
-          "name": "severe",
-          "description": "Significant extent of atherosclerotic disease"
+[
+  {
+    "_id": "655a705473c4899d1f211c85",
+    "name": "thoracic vessel atherosclerotic calcification",
+    "description": "A disease characterized by the deposition of calcified and non-calcified plaques on the inner walls of the arteries in the chest area",
+    "codes": [
+      {
+        "system": "SNOMEDCT",
+        "code": "304066000",
+        "display": "Structure of thoracic great vessel (body structure)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID5196",
+        "display": "calcification"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "237897009",
+        "display": "Vascular calcification (disorder)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "severity",
+        "description": "The degree of the atherosclerosis",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "246112005",
+            "display": "Severity (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "mild",
+            "description": "Minor extent of atherosclerotic disease",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5671",
+                "display": "mild"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255604002",
+                "display": "Mild (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "moderate",
+            "description": "Intermediate extent of atherosclerotic disease",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5672",
+                "display": "moderate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1255665007",
+                "display": "Moderate (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "severe",
+            "description": "Significant extent of atherosclerotic disease",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5673",
+                "display": "severe"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "24484000",
+                "display": "Severe (severity modifier) (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "The anatomical region of the atherosclerosis",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "aortic arch",
+            "description": "The top part of the main artery carrying blood away from the heart",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "4177",
+                "display": "aortic arch"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID581",
+                "display": "aortic arch"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID581",
+                "display": "aortic arch"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013501",
+                "display": "aortic arch"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "57034009",
+                "display": "Aortic arch structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "descending thoracic aorta",
+            "description": "The part of the aorta that travels down through the chest",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "4185",
+                "display": "descending aorta"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID35844",
+                "display": "descending thoracic aorta"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID35844",
+                "display": "descending thoracic aorta"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013713",
+                "display": "descending thoracic aorta"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "32672002",
+                "display": "Structure of descending thoracic aorta (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "ascending thoracic aorta",
+            "description": "The part of the aorta that travels up through the chest",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "4176",
+                "display": "ascending aorta"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID580",
+                "display": "ascending aorta"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID580",
+                "display": "ascending aorta"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013525",
+                "display": "ascending aorta"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "54247002",
+                "display": "Ascending aorta structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "thoracic aortic and great vessels",
+            "description": "The part of the aorta that travels through the chest and the great vessels that branch off of it",
+            "codes": []
+          },
+          {
+            "name": "thoracic aorta",
+            "description": "The part of the aorta that travels through the chest",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "4186",
+                "display": "thoracic aorta"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID879",
+                "display": "thoracic aorta"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID879",
+                "display": "thoracic aorta"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015438",
+                "display": "thoracic aorta"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "113262008",
+                "display": "Thoracic aorta structure (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": [
+      {
+        "report_text": "Atherosclerosis of the thoracic aorta. Cardiomegaly. Severe amount of coronary calcifications.",
+        "observation": {
+          "finding_name": "thoracic_vessel_atherosclerotic_calcification",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "thoracic aorta",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "4186",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID879",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID879",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4015438",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "113262008",
+                  "display": "Thoracic aorta structure (body structure)"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "The anatomical region of the atherosclerosis",
-      "type": "choice",
-      "values": [
-        {
-          "name": "aortic arch",
-          "description": "The top part of the main artery carrying blood away from the heart"
-        },
-        {
-          "name": "descending thoracic aorta",
-          "description": "The part of the aorta that travels down through the chest"
-        },
-        {
-          "name": "ascending thoracic aorta",
-          "description": "The part of the aorta that travels up through the chest"
-        },
-        {
-          "name": "thoracic aortic and great vessels",
-          "description": "The part of the aorta that travels through the chest and the great vessels that branch off of it"
-        },
-        {
-          "name": "thoracic aorta",
-          "description": "The part of the aorta that travels through the chest"
+      },
+      {
+        "report_text": "Mediastinum: Atherosclerotic calcification of the aorta and major aortic branch vessels. Calcification again demonstrated at the aortic arch. Vascular evaluation limited in the absence of intravenous contrast. Similar ectasia of the ascending",
+        "observation": {
+          "finding_name": "thoracic_vessel_atherosclerotic_calcification",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "thoracic aortic and great vessels",
+              "codes": []
+            }
+          ]
         }
-      ],
-      "required": false
-    }
-  ],
-  "examples": [
-    {
-      "report_text": "Atherosclerosis of the thoracic aorta. Cardiomegaly. Severe amount of coronary calcifications.",
-      "observation": {
-        "finding_name": "thoracic_vessel_atherosclerotic_calcification",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "thoracic aorta"
-          }
-        ]
+      },
+      {
+        "report_text": "There is mild atherosclerotic calcification throughout the the thoracic aorta. There is moderate coronary artery calcification.",
+        "observation": {
+          "finding_name": "thoracic_vessel_atherosclerotic_calcification",
+          "attributes": [
+            {
+              "attribute": "severity",
+              "value": "mild",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5671",
+                  "display": "mild"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255604002",
+                  "display": "Mild (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "thoracic aorta",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "4186",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID879",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID879",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4015438",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "113262008",
+                  "display": "Thoracic aorta structure (body structure)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Atherosclerotic calcification present within thoracic vessels. No change since last scan.",
+        "observation": {
+          "finding_name": "thoracic_vessel_atherosclerotic_calcification",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "thoracic aortic and great vessels",
+              "codes": []
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "There is significant atherosclerotic calcification in the thoracic vessels.",
+        "observation": {
+          "finding_name": "thoracic_vessel_atherosclerotic_calcification",
+          "attributes": [
+            {
+              "attribute": "severity",
+              "value": "severe",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5673",
+                  "display": "severe"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "24484000",
+                  "display": "Severe (severity modifier) (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "thoracic aortic and great vessels",
+              "codes": []
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Atherosclerotic calcification of the thoracic vessels is observed.",
+        "observation": {
+          "finding_name": "thoracic_vessel_atherosclerotic_calcification",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "thoracic aortic and great vessels",
+              "codes": []
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "evaluation of the hila. There are atherosclerotic calcifications throughout the thoracic aorta and coronary arteries.     Axillae: There is no axillary lymphadenopathy.",
+        "observation": {
+          "finding_name": "thoracic_vessel_atherosclerotic_calcification",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "thoracic aorta",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "4186",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID879",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID879",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4015438",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "113262008",
+                  "display": "Thoracic aorta structure (body structure)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "thyroid gland. There are atherosclerotic calcification of the thoracic aorta..",
+        "observation": {
+          "finding_name": "thoracic_vessel_atherosclerotic_calcification",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "thoracic aorta",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "4186",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID879",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID879",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4015438",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "113262008",
+                  "display": "Thoracic aorta structure (body structure)"
+                }
+              ]
+              
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Thoracic vessels show atherosclerotic calcification. No signs of further complications.",
+        "observation": {
+          "finding_name": "thoracic_vessel_atherosclerotic_calcification",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "thoracic aortic and great vessels",
+              "codes": []
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "artery calcification. Aortic and branch artery atherosclerotic calcification. Essentially unchanged segmental mural thickening of the mid and distal esophagus.",
+        "observation": {
+          "finding_name": "thoracic_vessel_atherosclerotic_calcification",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "thoracic aortic and great vessels",
+              "codes": []
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Atherosclerotic calcification of the abdominal aorta and splenic artery.",
+        "observation": null
+      },
+      {
+        "report_text": "Minimal thoracic aortic atherosclerotic calcification. Small hiatal hernia.",
+        "observation": {
+          "finding_name": "thoracic_vessel_atherosclerotic_calcification",
+          "attributes": [
+            {
+              "attribute": "severity",
+              "value": "mild",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5671",
+                  "display": "mild"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255604002",
+                  "display": "Mild (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "thoracic aorta",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "4186",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID879",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID879",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4015438",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "113262008",
+                  "display": "Thoracic aorta structure (body structure)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Notable thoracic vessel atherosclerotic calcification detected.",
+        "observation": {
+          "finding_name": "thoracic_vessel_atherosclerotic_calcification",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "thoracic aortic and great vessels",
+              "codes": []
+            },
+            {
+              "attribute": "severity",
+              "value": "moderate",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5672",
+                  "display": "moderate"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "1255665007",
+                  "display": "Moderate (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "thyroid gland. There are atherosclerotic calcification of the thoracic aorta..",
+        "observation": {
+          "finding_name": "thoracic_vessel_atherosclerotic_calcification",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "thoracic aorta",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "4186",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID879",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID879",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4015438",
+                  "display": "thoracic aorta"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "113262008",
+                  "display": "Thoracic aorta structure (body structure)"
+                }
+              ]
+            }
+          ]
+        }
       }
-    },
-    {
-      "report_text": "Mediastinum: Atherosclerotic calcification of the aorta and major aortic branch vessels. Calcification again demonstrated at the aortic arch. Vascular evaluation limited in the absence of intravenous contrast. Similar ectasia of the ascending",
-      "observation": {
-        "finding_name": "thoracic_vessel_atherosclerotic_calcification",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "thoracic aortic and great vessels"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "There is mild atherosclerotic calcification throughout the the thoracic aorta. There is moderate coronary artery calcification.",
-      "observation": {
-        "finding_name": "thoracic_vessel_atherosclerotic_calcification",
-        "attributes": [
-          {
-            "attribute": "severity",
-            "value": "mild"
-          },
-          {
-            "attribute": "location",
-            "value": "thoracic aorta"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Atherosclerotic calcification present within thoracic vessels. No change since last scan.",
-      "observation": {
-        "finding_name": "thoracic_vessel_atherosclerotic_calcification",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "thoracic aortic and great vessels"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "There is significant atherosclerotic calcification in the thoracic vessels.",
-      "observation": {
-        "finding_name": "thoracic_vessel_atherosclerotic_calcification",
-        "attributes": [
-          {
-            "attribute": "severity",
-            "value": "severe"
-          },
-          {
-            "attribute": "location",
-            "value": "thoracic aortic and great vessels"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Atherosclerotic calcification of the thoracic vessels is observed.",
-      "observation": {
-        "finding_name": "thoracic_vessel_atherosclerotic_calcification",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "thoracic aortic and great vessels"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "evaluation of the hila. There are atherosclerotic calcifications throughout the thoracic aorta and coronary arteries.     Axillae: There is no axillary lymphadenopathy.",
-      "observation": {
-        "finding_name": "thoracic_vessel_atherosclerotic_calcification",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "thoracic aorta"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "thyroid gland. There are atherosclerotic calcification of the thoracic aorta..",
-      "observation": {
-        "finding_name": "thoracic_vessel_atherosclerotic_calcification",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "thoracic aorta"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Thoracic vessels show atherosclerotic calcification. No signs of further complications.",
-      "observation": {
-        "finding_name": "thoracic_vessel_atherosclerotic_calcification",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "thoracic aortic and great vessels"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "artery calcification. Aortic and branch artery atherosclerotic calcification. Essentially unchanged segmental mural thickening of the mid and distal esophagus.",
-      "observation": {
-        "finding_name": "thoracic_vessel_atherosclerotic_calcification",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "thoracic aortic and great vessels"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Atherosclerotic calcification of the abdominal aorta and splenic artery.",
-      "observation": null
-    },
-    {
-      "report_text": "Minimal thoracic aortic atherosclerotic calcification. Small hiatal hernia.",
-      "observation": {
-        "finding_name": "thoracic_vessel_atherosclerotic_calcification",
-        "attributes": [
-          {
-            "attribute": "severity",
-            "value": "mild"
-          },
-          {
-            "attribute": "location",
-            "value": "thoracic aorta"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Notable thoracic vessel atherosclerotic calcification detected.",
-      "observation": {
-        "finding_name": "thoracic_vessel_atherosclerotic_calcification",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "thoracic aortic and great vessels"
-          },
-          {
-            "attribute": "severity",
-            "value": "moderate"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "thyroid gland. There are atherosclerotic calcification of the thoracic aorta..",
-      "observation": {
-        "finding_name": "thoracic_vessel_atherosclerotic_calcification",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "thoracic aorta"
-          }
-        ]
-      }
-    }
-  ]
-}
+    ]
+  }
+]

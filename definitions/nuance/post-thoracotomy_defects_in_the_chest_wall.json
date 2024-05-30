@@ -3,19 +3,87 @@
     "_id": "6539a1552f4080dec0124f2f",
     "name": "post-thoracotomy defects in the chest wall",
     "description": "Changes in the structure of the chest wall following surgery, typically involving the removal of part of the chest wall or a thoracotomy",
+    "codes": [
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID2468",
+        "display": "chest wall"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4013613",
+        "display": "chest wall"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID2468",
+        "display": "chest wall"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "78904004",
+        "display": "Chest wall structure (body structure)"
+      }
+    ],
     "attributes": [
       {
         "name": "location",
         "description": "The anatomical region of the chest wall where the surgery was performed",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
         "type": "choice",
         "values": [
           {
             "name": "left",
-            "description": "Left side of the chest wall"
+            "description": "Left side of the chest wall",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "8",
+                "display": "left"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID5824",
+                "display": "left"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "7771000",
+                "display": "Left (qualifier value)"
+              }
+            ]
           },
           {
             "name": "right",
-            "description": "Right side of the chest wall"
+            "description": "Right side of the chest wall",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "7",
+                "display": "right"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID5825",
+                "display": "right"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "24028007",
+                "display": "Right (qualifier value)"
+              }
+            ]
           }
         ],
         "required": false
@@ -23,23 +91,62 @@
       {
         "name": "surgery type",
         "description": "The type of surgery that was performed on the chest wall",
+        "codes": [],
         "type": "choice",
         "values": [
           {
             "name": "mastectomy",
-            "description": "Surgical removal of one or both breasts"
+            "description": "Surgical removal of one or both breasts",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID49910",
+                "display": "mastectomy"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1231734007",
+                "display": "Excision of breast (procedure)"
+              }
+            ]
           },
           {
             "name": "sternotomy",
-            "description": "Surgical procedure that involves cutting through the sternum"
+            "description": "Surgical procedure that involves cutting through the sternum",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "27779004",
+                "display": "Sternotomy (procedure)"
+              }
+            ]
           },
           {
             "name": "thoracotomy",
-            "description": "Surgical procedure that involves cutting into the chest wall"
+            "description": "Surgical procedure that involves cutting into the chest wall",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "thoracotomy",
+                "display": "Opening of chest (procedure)"
+              }
+            ]
           },
           {
             "name": "reconstruction",
-            "description": "Surgical procedure to restore the appearance or function of the chest wall"
+            "description": "Surgical procedure to restore the appearance or function of the chest wall",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28665",
+                "display": "reconstruction"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "122465003",
+                "display": "Reconstruction procedure (procedure)"
+              }
+            ]
           }
         ],
         "required": false
@@ -47,19 +154,45 @@
       {
         "name": "abnormality",
         "description": "The presence or absence of additional abnormalities in the chest wall",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID28453",
+            "display": "abnormal"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "263654008",
+            "display": "Abnormal (qualifier value)"
+          }
+        ],
         "type": "choice",
         "values": [
           {
             "name": "no significant abnormality",
-            "description": "No significant abnormalities detected"
+            "description": "No significant abnormalities detected",
+            "codes": []
           },
           {
             "name": "mass",
-            "description": "Presence of a mass"
+            "description": "Presence of a mass",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID3874",
+                "display": "mass"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "4147007",
+                "display": "Mass (morphologic abnormality)"
+              }
+            ]
           },
           {
             "name": "defect",
-            "description": "Presence of a defect"
+            "description": "Presence of a defect",
+            "codes": []
           }
         ],
         "required": false
@@ -71,19 +204,77 @@
     "_id": "65776fa4532f638bca28e0c2",
     "name": "post-thoracotomy defects in the chest wall",
     "description": "Changes in the chest wall following thoracotomy surgery",
+    "codes": [
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID2468",
+        "display": "chest wall"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID2468",
+        "display": "chest wall"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "78904004",
+        "display": "Chest wall structure (body structure)"
+      }
+    ],
     "attributes": [
       {
         "name": "side",
         "description": "The side of the chest wall where the post-thoracotomy defects are located",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "182353008",
+            "display": "Side (qualifier value)"
+          }
+        ],
         "type": "choice",
         "values": [
           {
             "name": "left",
-            "description": "Left side of the chest wall"
+            "description": "Left side of the chest wall",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "8",
+                "display": "left"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID5824",
+                "display": "left"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "7771000",
+                "display": "Left (qualifier value)"
+              }
+            ]
           },
           {
             "name": "right",
-            "description": "Right side of the chest wall"
+            "description": "Right side of the chest wall",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "7",
+                "display": "right"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID5825",
+                "display": "right"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "24028007",
+                "display": "Right (qualifier value)"
+              }
+            ]
           }
         ],
         "required": false
@@ -91,15 +282,24 @@
       {
         "name": "presence of mass",
         "description": "The presence or absence of a mass in the chest wall",
+        "codes": [],
         "type": "choice",
         "values": [
           {
             "name": "mass present",
-            "description": "Presence of a mass in the chest wall"
+            "description": "Presence of a mass in the chest wall",
+            "codes": []
           },
           {
             "name": "no mass",
-            "description": "Absence of a mass in the chest wall"
+            "description": "Absence of a mass in the chest wall",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "300870000",
+                "display": "No mass present (situation)"
+              }
+            ]
           }
         ],
         "required": false
@@ -107,19 +307,46 @@
       {
         "name": "type of surgery",
         "description": "The type of surgery that resulted in the post-thoracotomy defects",
+        "codes": [],
         "type": "choice",
         "values": [
           {
             "name": "mastectomy",
-            "description": "Surgical removal of one or both breasts"
+            "description": "Surgical removal of one or both breasts",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID49910",
+                "display": "mastectomy"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1231734007",
+                "display": "Excision of breast (procedure)"
+              }
+            ]
           },
           {
             "name": "thoracotomy",
-            "description": "Surgical incision into the chest wall"
+            "description": "Surgical incision into the chest wall",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "thoracotomy",
+                "display": "Opening of chest (procedure)"
+              }
+            ]
           },
           {
             "name": "sternotomy",
-            "description": "Surgical incision through the sternum"
+            "description": "Surgical incision through the sternum",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "27779004",
+                "display": "Sternotomy (procedure)"
+              }
+            ]
           }
         ],
         "required": false
@@ -127,15 +354,24 @@
       {
         "name": "presence of abnormalities",
         "description": "The presence or absence of abnormalities in the chest wall",
+        "codes": [],
         "type": "choice",
         "values": [
           {
             "name": "abnormalities present",
-            "description": "Presence of abnormalities in the chest wall"
+            "description": "Presence of abnormalities in the chest wall",
+            "codes": []
           },
           {
             "name": "no abnormalities",
-            "description": "Absence of abnormalities in the chest wall"
+            "description": "Absence of abnormalities in the chest wall",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "23875004",
+                "display": "No pathologic diagnosis (finding)"
+              }
+            ]
           }
         ],
         "required": false

@@ -1,19 +1,81 @@
-{
+[
+  {
     "finding_name": "Esophageal thickening",
     "description": "Esophageal thickening refers to abnormal increase in the wall thickness of the esophagus, often indicating inflammation or an underlying medical condition.",
     "attributes": [
       {
         "name": "Location",
         "description": "This refers to the anatomical region where esophageal thickening is situated",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
         "type": "choice",
         "values": [
           {
             "name": "lower esophageal sphincter",
-            "description": "RID103"
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID103",
+                "display": "lower esophageal sphincter"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID103",
+                "display": "lower esophageal sphincter"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014456",
+                "display": "lower esophageal sphincter"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "19898001",
+                "display": "Inferior esophageal sphincter structure (body structure)"
+              }
+            ]
           },
           {
             "name": "esophagus",
-            "description": "RID95"
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "2887",
+                "display": "esophagus"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID95",
+                "display": "esophagus"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID95",
+                "display": "esophagus"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013773",
+                "display": "esophagus"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "32849002",
+                "display": "Esophageal structure (body structure)"
+              }
+            ]
           }
         ],
         "required": true
@@ -21,19 +83,62 @@
       {
         "name": "Severity",
         "description": "Severity refers to the degree of abnormal thickening observed in the esophageal wall.",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "246112005",
+            "display": "Severity (attribute)"
+          }
+        ],
         "type": "choice",
         "values": [
           {
             "name": "Mild",
-            "description": "The thickening is mild."
+            "description": "The thickening is mild.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5671",
+                "display": "mild"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255604002",
+                "display": "Mild (qualifier value)"
+              }
+            ]
           },
           {
             "name": "Moderate",
-            "description": "The thickening is moderate."
+            "description": "The thickening is moderate.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5672",
+                "display": "moderate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1255665007",
+                "display": "Moderate (qualifier value)"
+              }
+            ]
           },
           {
             "name": "Severe",
-            "description": "The thickening is severe."
+            "description": "The thickening is severe.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5673",
+                "display": "severe"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "24484000",
+                "display": "Severe (severity modifier) (qualifier value)"
+              }
+            ]
           }
         ],
         "required": true
@@ -41,31 +146,99 @@
       {
         "name": "Cause",
         "description": "Indicates the possible cause of the esophageal wall thickening.",
+        "codes": [],
         "type": "choice",
         "values": [
           {
             "name": "Esophagitis",
-            "description": "The thickening is caused by esophagitis."
+            "description": "The thickening is caused by esophagitis.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID3440",
+                "display": "Esophagitis"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "16761005",
+                "display": "Esophagitis (disorder)"
+              }
+            ]
           },
           {
             "name": "Gastroesophageal Reflux",
-            "description": "The thickening is caused by gastroesophageal reflux."
+            "description": "The thickening is caused by gastroesophageal reflux.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5260",
+                "display": "Gastroesophageal Reflux"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "235595009",
+                "display": "Gastroesophageal reflux disease (disorder)"
+              }
+            ]
           },
           {
             "name": "Inflammation",
-            "description": "The thickening is caused by inflammation."
+            "description": "The thickening is caused by inflammation.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID3382",
+                "display": "Inflammation"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "257552002",
+                "display": "Inflammation (qualifier value)"
+              }
+            ]
           },
           {
             "name": "infection",
-            "description": "The thickening is caused by infection."
+            "description": "The thickening is caused by infection.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID3710",
+                "display": "infection"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "40733004",
+                "display": "Infectious disease (disorder)"
+              }
+            ]
           },
           {
             "name": "tumor",
-            "description": "The thickening is caused by a tumor."
+            "description": "The thickening is caused by a tumor.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID3957",
+                "display": "neoplasm"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "108369006",
+                "display": "Neoplasm (morphologic abnormality)"
+              }
+            ]
           },
           {
             "name": "Nonspecific",
-            "description": "The cause of the thickening is nonspecific or not clearly defined."
+            "description": "The cause of the thickening is nonspecific or not clearly defined.",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "10003008",
+                "display": "Non-specific (qualifier value)"
+              }
+            ]
           }
         ],
         "required": true
@@ -73,36 +246,98 @@
       {
         "name": "Size",
         "description": "The size of the esophageal thickening",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "246115007",
+            "display": "Size (attribute)"
+          }
+        ],
         "type": "numeric",
         "minimum": 1,
         "maximum": 10,
         "unit": "mm",
         "required": false
-      }, 
+      },
       {
         "name": "presence",
-      "description": "Esophageal wall thickening is detected.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "absent",
-          "description": "No esophageal wall thickening is present."
-        },
-        {
-          "name": "present",
-          "description": "Esophageal wall thickening is present."
-        },
-        {
-          "name": "indeterminate",
-          "description": "Cannot determine whether esophageal wall thickening is present."
-        },
-        {
-          "name": "unknown",
-          "description": "It indicates uncertainty regarding whether esophageal wall thickening is present."
-        }
-      ],
-      "required": false
+        "description": "Esophageal wall thickening is detected.",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "705057003",
+            "display": "Presence (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "absent",
+            "description": "No esophageal wall thickening is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28473",
+                "display": "absent"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "2667000",
+                "display": "Absent (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "present",
+            "description": "Esophageal wall thickening is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28472",
+                "display": "present"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "52101004",
+                "display": "Present (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "indeterminate",
+            "description": "Cannot determine whether esophageal wall thickening is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39110",
+                "display": "indeterminate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "82334004",
+                "display": "Indeterminate (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "unknown",
+            "description": "It indicates uncertainty regarding whether esophageal wall thickening is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5655",
+                "display": "unknown"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "261665006",
+                "display": "Unknown (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
       }
     ]
   }
-  
+]

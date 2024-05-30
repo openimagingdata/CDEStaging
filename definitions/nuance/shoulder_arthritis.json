@@ -1,91 +1,460 @@
-{
-  "_id": "TEMP",
-  "name": "Shoulder arthritis",
-  "description": " Shoulder arthritis is a degenerative joint condition which is characterized by the gradual breakdown of cartilage in the shoulder joint. Radiological assessment reveals joint space narrowing, osteophyte formation, subchondral sclerosis, and sometimes cyst formation in the glenohumeral or acromioclavicular joints. Imaging modalities such as X-rays or MRI are utilized to evaluate the extent of joint damage.",
-  "name": "Shoulder arthritis",
-  "description": " Shoulder arthritis is a degenerative joint condition which is characterized by the gradual breakdown of cartilage in the shoulder joint. Radiological assessment reveals joint space narrowing, osteophyte formation, subchondral sclerosis, and sometimes cyst formation in the glenohumeral or acromioclavicular joints. Imaging modalities such as X-rays or MRI are utilized to evaluate the extent of joint damage.",
-  "attributes": [
-    {
-      "name": "presence",
-      "description": "This indicates whether shoulder arthritis is present.",
-      "description": "This indicates whether shoulder arthritis is present.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "absent",
-          "description": "No shoulder arthritis is present."
-          "description": "No shoulder arthritis is present."
-        },
-        {
-          "name": "present",
-          "description": "Shoulder arthritis is present."
-          "description": "Shoulder arthritis is present."
-        },
-        {
-          "name": "indeterminate",
-          "description": "It is uncertain whether a shoulder arthritis is present."
-          "description": "It is uncertain whether a shoulder arthritis is present."
-        },
-        {
-          "name": "unknown",
-          "description": "There is uncertainty regarding the presence of shoulder arthritis."
-          "description": "There is uncertainty regarding the presence of shoulder arthritis."
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "This indicates the anatomical region of the shulder arthritis.",
-      "description": "This indicates the anatomical region of the shulder arthritis.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "shoulder",
-          "description": "RID39518"
-        },
-        {
-          "name": "glenohumeral joint",
-          "description": "RID1905"
-        },
-        {
-          "name": "acromioclavicular joint",
-          "description": "RID1895"
-        },
-        {
-          "name": "glenoid labrum",
-          "description": "RID1909"
-        },
-        {
-          "name": "supraspinatus tendo",
-          "description": "RID1953"
-        },
-        {
-          "name": "subscapularis tendon",
-          "description": "RID1951"
-        },
-        {
-          "name": "glenohumeral ligament",
-          "description": "RID1916"
-        },
-        {
-          "name": "head of humerus",
-          "description": "RID29093"
-        },
-        {
-          "name": "acromion",
-          "description": "RID1862"
-        },
-        {
-          "name": "clavicle",
-          "description": "RID1854"
-        },
-        {
-          "name": "coracoid process",
-          "description": "RID1863"
-        }
-      ],
-      "required": false
-    }
-  ]
-}
+[
+  {
+    "_id": "TEMP",
+    "name": "Shoulder arthritis",
+    "description": " Shoulder arthritis is a degenerative joint condition which is characterized by the gradual breakdown of cartilage in the shoulder joint. Radiological assessment reveals joint space narrowing, osteophyte formation, subchondral sclerosis, and sometimes cyst formation in the glenohumeral or acromioclavicular joints. Imaging modalities such as X-rays or MRI are utilized to evaluate the extent of joint damage.",
+    "codes": [
+      {
+        "system": "TA2",
+        "code": "139",
+        "display": "shoulder"
+      },
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID39518",
+        "display": "shoulder"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID39518",
+        "display": "shoulder"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4015252",
+        "display": "shoulder"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "16982005",
+        "display": "Shoulder region structure (body structure)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID3555",
+        "display": "osteoarthritis"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "396275006",
+        "display": "Osteoarthritis (disorder)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "presence",
+        "description": "This indicates whether shoulder arthritis is present.",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "705057003",
+            "display": "Presence (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "absent",
+            "description": "No shoulder arthritis is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28473",
+                "display": "absent"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "2667000",
+                "display": "Absent (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "present",
+            "description": "Shoulder arthritis is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28472",
+                "display": "present"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "52101004",
+                "display": "Present (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "indeterminate",
+            "description": "It is uncertain whether a shoulder arthritis is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39110",
+                "display": "indeterminate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "82334004",
+                "display": "Indeterminate (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "unknown",
+            "description": "There is uncertainty regarding the presence of shoulder arthritis.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5655",
+                "display": "unknown"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "261665006",
+                "display": "Unknown (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "This indicates the anatomical region of the shulder arthritis.",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "shoulder",
+            "description": "RID39518",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "139",
+                "display": "shoulder"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID39518",
+                "display": "shoulder"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID39518",
+                "display": "shoulder"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015252",
+                "display": "shoulder"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "16982005",
+                "display": "Shoulder region structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "glenohumeral joint",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1764",
+                "display": "glenohumeral joint"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1905",
+                "display": "glenohumeral joint"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1905",
+                "display": "glenohumeral joint"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013895",
+                "display": "glenohumeral joint"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "85537004",
+                "display": "Glenohumeral joint structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "acromioclavicular joint",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1744",
+                "display": "acromioclavicular joint"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1895",
+                "display": "acromioclavicular joint"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1895",
+                "display": "acromioclavicular joint"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013440",
+                "display": "acromioclavicular joint"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "85856004",
+                "display": "Acromioclavicular joint structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "glenoid labrum",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1765",
+                "display": "glenoid labrum"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1909",
+                "display": "glenoid labrum"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1909",
+                "display": "glenoid labrum"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013897",
+                "display": "glenoid labrum"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "86721001",
+                "display": "Structure of glenoid labrum (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "supraspinatus tendo",
+            "description": "RID1953",
+            "codes": []
+          },
+          {
+            "name": "subscapularis tendon",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "2460",
+                "display": "subscapularis muscle"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1951",
+                "display": "subscapularis tendon"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1951",
+                "display": "subscapularis tendon"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015355",
+                "display": "subscapularis tendon"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "282104000",
+                "display": "Entire tendon of subscapularis muscle (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "glenohumeral ligament",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1766",
+                "display": "glenohumeral ligament"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1916",
+                "display": "glenohumeral ligament"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1916",
+                "display": "glenohumeral ligament"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013896",
+                "display": "glenohumeral ligament"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "182390009",
+                "display": "Entire glenohumeral ligament (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "head of humerus",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1181",
+                "display": "head of humerus"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29093",
+                "display": "head of humerus"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID29093",
+                "display": "head of humerus"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013920",
+                "display": "head of humerus"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "81965001",
+                "display": "Structure of head of humerus (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "acromion",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1152",
+                "display": "acromion"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1862",
+                "display": "acromion"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1862",
+                "display": "acromion"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013441",
+                "display": "acromion"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "31934006",
+                "display": "Structure of acromion (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "clavicle",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1168",
+                "display": "clavicle"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1854",
+                "display": "clavicle"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1854",
+                "display": "clavicle"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013624",
+                "display": "clavicle"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "51299004",
+                "display": "Bone structure of clavicle (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "coracoid process",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1159",
+                "display": "coracoid process"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1863",
+                "display": "coracoid process"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1863",
+                "display": "coracoid process"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013648",
+                "display": "coracoid process"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "8931003",
+                "display": "Structure of coracoid process of scapula (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ]
+  }
+]

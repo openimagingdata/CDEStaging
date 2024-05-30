@@ -1,96 +1,401 @@
-{
-  "_id": "6577564f532f638bca28e0c0",
-  "name": "aortic aneurysm or dilation",
-  "description": "An enlargement of the aorta to greater than the normal size, or a ballooning of a portion of the aorta",
-  "attributes": [
-    {
-      "name": "location",
-      "description": "The anatomical region of the aortic dilation or aneurysm",
-      "type": "choice",
-      "values": [
-        {
-          "name": "ascending",
-          "description": "Ascending portion of the aorta"
-        },
-        {
-          "name": "descending",
-          "description": "Descending portion of the aorta"
-        },
-        {
-          "name": "abdominal",
-          "description": "Abdominal portion of the aorta"
-        },
-        {
-          "name": "thoracic",
-          "description": "Thoracic portion of the aorta"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "size",
-      "description": "The extent of the dilation or aneurysm in relation to the normal aortic size",
-      "type": "numeric",
-      "minimum": 1.9,
-      "maximum": 5.1,
-      "required": false
-    },
-    {
-      "name": "change",
-      "description": "The change in size or condition of the aneurysm or dilation over time",
-      "type": "choice",
-      "values": [
-        {
-          "name": "stable",
-          "description": "No significant change in size or condition"
-        },
-        {
-          "name": "unchanged",
-          "description": "No change in size or condition"
-        },
-        {
-          "name": "increased",
-          "description": "Increase in size or worsening condition"
-        },
-        {
-          "name": "decreased",
-          "description": "Decrease in size or improved condition"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "associated condition",
-      "description": "The presence of other medical conditions associated with the aneurysm or dilation",
-      "type": "choice",
-      "values": [
-        {
-          "name": "calcification",
-          "description": "Accumulation of calcium in the aortic wall"
-        },
-        {
-          "name": "atherosclerosis",
-          "description": "The build-up of fats, cholesterol and other substances in and on the artery walls"
-        },
-        {
-          "name": "occlusion",
-          "description": "The closure or blockage of a blood vessel"
-        },
-        {
-          "name": "dissection",
-          "description": "A tear in the inner layer of the aorta"
-        },
-        {
-          "name": "stenosis",
-          "description": "The abnormal narrowing of a blood vessel"
-        },
-        {
-          "name": "pulmonary hypertension",
-          "description": "A type of high blood pressure that affects the arteries in your lungs and the right side of your heart"
-        }
-      ],
-      "required": false
-    }
-  ],
-  "examples": null
-}
+[
+  {
+    "_id": "6577564f532f638bca28e0c0",
+    "name": "aortic aneurysm or dilation",
+    "description": "An enlargement of the aorta to greater than the normal size, or a ballooning of a portion of the aorta",
+    "codes": [
+      {
+        "system": "TA2",
+        "code": "4175",
+        "display": "aorta"
+
+      },
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID480",
+        "display": "aorta"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID480",
+        "display": "aorta"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4013402",
+        "display": "aorta"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "15825003",
+        "display": "Aortic structure (body structure)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID3321",
+        "display": "aneurysm"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "85659009",
+        "display": "Aneurysm (morphologic abnormality)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID4743",
+        "display": "dilation"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "25322007",
+        "display": "Dilatation (morphologic abnormality)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "location",
+        "description": "The anatomical region of the aortic dilation or aneurysm",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "ascending",
+            "description": "Ascending portion of the aorta",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "4176",
+                "display": "ascending aorta"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID580",
+                "display": "ascending aorta"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID580",
+                "display": "ascending aorta"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013525",
+                "display": "ascending aorta"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "54247002",
+                "display": "Ascending aorta structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "descending",
+            "description": "Descending portion of the aorta",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "4185",
+                "display": "descending aorta"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID35844",
+                "display": "descending thoracic aorta"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID481",
+                "display": "descending aorta"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013713",
+                "display": "descending thoracic aorta"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "32672002",
+                "display": "Structure of descending thoracic aorta (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "abdominal",
+            "description": "Abdominal portion of the aorta",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "4205",
+                "display": "abdominal aorta"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID905",
+                "display": "abdominal aorta"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID905",
+                "display": "abdominal aorta"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013401",
+                "display": "abdominal aorta"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "7832008",
+                "display": "Abdominal aorta structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "thoracic",
+            "description": "Thoracic portion of the aorta",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "4186",
+                "display": "thoracic aorta"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID879",
+                "display": "thoracic aorta"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID879",
+                "display": "thoracic aorta"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015438",
+                "display": "thoracic aorta"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "113262008",
+                "display": "Thoracic aorta structure (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "size",
+        "description": "The extent of the dilation or aneurysm in relation to the normal aortic size",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "246115007",
+            "display": "Size (attribute)"
+          }
+        ],
+        "type": "numeric",
+        "minimum": 1.9,
+        "maximum": 5.1,
+        "required": false
+      },
+      {
+        "name": "changed",
+        "description": "The change in size or condition of the aneurysm or dilation over time",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "263703002",
+            "display": "Changed status (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "stable",
+            "description": "No significant change in size or condition",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5734",
+                "display": "stable"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "58158008",
+                "display": "Stable (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "unchanged",
+            "description": "No change in size or condition",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39268",
+                "display": "unchanged"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "260388006",
+                "display": "No status change (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "increased",
+            "description": "Increase in size or worsening condition",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID36043",
+                "display": "increased"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "35105006",
+                "display": "Increased (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "decreased",
+            "description": "Decrease in size or improved condition",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID36044",
+                "display": "decreased"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1250004",
+                "display": "Decreased (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "associated condition",
+        "description": "The presence of other medical conditions associated with the aneurysm or dilation",
+        "codes": [],
+        "type": "choice",
+        "values": [
+          {
+            "name": "calcification",
+            "description": "Accumulation of calcium in the aortic wall",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5196",
+                "display": "calcification"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "237897009",
+                "display": "Vascular calcification (disorder)"
+              }
+            ]
+          },
+          {
+            "name": "atherosclerosis",
+            "description": "The build-up of fats, cholesterol and other substances in and on the artery walls",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39049",
+                "display": "atherosclerosis"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "38716007",
+                "display": "Atherosclerosis (morphologic abnormality)"
+              }
+            ]
+          },
+          {
+            "name": "occlusion",
+            "description": "The closure or blockage of a blood vessel",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID4962",
+                "display": "obstruction"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "50173008",
+                "display": "Complete obstruction (morphologic abnormality)"
+              }
+            ]
+          },
+          {
+            "name": "dissection",
+            "description": "A tear in the inner layer of the aorta",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID3317",
+                "display": "dissection"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "5399005",
+                "display": "Dissecting hemorrhage (morphologic abnormality)"
+              }
+            ]
+          },
+          {
+            "name": "stenosis",
+            "description": "The abnormal narrowing of a blood vessel",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5016",
+                "display": "stenosis"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "415582006",
+                "display": "Stenosis (morphologic abnormality)"
+              }
+            ]
+          },
+          {
+            "name": "pulmonary hypertension",
+            "description": "A type of high blood pressure that affects the arteries in your lungs and the right side of your heart",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID3299",
+                "display": "pulmonary hypertension"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "70995007",
+                "display": "Pulmonary hypertension (disorder)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": null
+  }
+]

@@ -1,51 +1,224 @@
-{
-  "_id": "TEMP",
-  "name": "adrenal gland thickening",
-  "description": "Adrenal gland thickening is evidenced by increased uniform or focal gland thickness on CT or MRI, with the normal limb width typically less than 10 mm; imaging features such as attenuation values, enhancement patterns, and presence of mass effect may assist in differentiating between benign and malignant etiologies.",
-  "attributes": [
-    {
-      "name": "presence",
-      "description": "This indicates whether adrenal gland thickening is detected.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "absent",
-          "description": "No adrenal gland thickening is present."
-        },
-        {
-          "name": "present",
-          "description": "Adrenal gland thickeing is present."
-        },
-        {
-          "name": "indeterminate",
-          "description": "Cannot determine whether adrenal gland thickening is present."
-        },
-        {
-          "name": "unknown",
-          "description": "The status regarding adrenal gland thickening is uncertain."
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "This refers to the anatomical region where adrenal gland thickening is located.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "right adrenal gland",
-          "description": "RID30324"
-        },
-        {
-          "name": "left adrenal gland",
-          "description": "RID30325"
-        },
-        {
-          "name": "adrenal gland",
-          "description": "RID88"
-        }
-      ],
-      "required": false
-    }
-  ]
-}
+[
+  {
+    "_id": "TEMP",
+    "name": "adrenal gland thickening",
+    "description": "Adrenal gland thickening is evidenced by increased uniform or focal gland thickness on CT or MRI, with the normal limb width typically less than 10 mm; imaging features such as attenuation values, enhancement patterns, and presence of mass effect may assist in differentiating between benign and malignant etiologies.",
+    "codes": [
+      {
+        "system": "TA2",
+        "code": "3874",
+        "display": "suprarenal gland"
+      },
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID88",
+        "display": "adrenal gland"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID88",
+        "display": "adrenal gland"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4013411",
+        "display": "adrenal gland"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "23451007",
+        "display": "Adrenal structure (body structure)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID28509",
+        "display": "thickening"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "89977008",
+        "display": "Increased thickness (finding)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "presence",
+        "description": "This indicates whether adrenal gland thickening is detected.",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "705057003",
+            "display": "Presence (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "absent",
+            "description": "No adrenal gland thickening is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28473",
+                "display": "absent"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "2667000",
+                "display": "Absent (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "present",
+            "description": "Adrenal gland thickeing is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28472",
+                "display": "present"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "52101004",
+                "display": "Present (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "indeterminate",
+            "description": "Cannot determine whether adrenal gland thickening is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39110",
+                "display": "indeterminate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "82334004",
+                "display": "Indeterminate (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "unknown",
+            "description": "The status regarding adrenal gland thickening is uncertain.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5655",
+                "display": "unknown"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "261665006",
+                "display": "Unknown (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "This refers to the anatomical region where adrenal gland thickening is located.",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "code": "758637006",
+        "type": "choice",
+        "values": [
+          {
+            "name": "right adrenal gland",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID30324",
+                "display": "right adrenal gland"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID30324",
+                "display": "right adrenal gland"
+              },
+              {
+                "system": "COMMONACR",
+                "code": "4013412",
+                "display": "right adrenal gland"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "29392005",
+                "display": "Structure of right adrenal gland (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left adrenal gland",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID30325",
+                "display": "left adrenal gland"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID30325",
+                "display": "left adrenal gland"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013413",
+                "display": "left adrenal gland"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "12003004",
+                "display": "Structure of left adrenal gland (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "adrenal gland",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3874",
+                "display": "Suprarenal gland"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID88",
+                "display": "adrenal gland"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID88",
+                "display": "adrenal gland"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "23451007",
+                "display": "Adrenal structure (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ]
+  }
+]

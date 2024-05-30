@@ -1,129 +1,276 @@
-{
-  "_id": "6536ef92697c3ad012ddeec2",
-  "name": "apical pulmonary scarring",
-  "description": "Formation of fibrous tissue in the apex of the lungs following an injury or long-term lung disease",
-  "attributes": [
-    {
-      "name": "location",
-      "description": "The anatomical region of the scarring",
-      "type": "choice",
-      "values": [
-        {
-          "name": "biapical",
-          "description": "Both apices of the lungs; used when no side is specified"
-        },
-        {
-          "name": "right apical",
-          "description": "Apex of the right lung"
-        },
-        {
-          "name": "left apical",
-          "description": "Apex of the left lung"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "change",
-      "description": "The change in the scarring over time",
-      "type": "choice",
-      "values": [
-        {
-          "name": "unchanged",
-          "description": "No change in the scarring over time; synonym for stable"
-        },
-        {
-          "name": "increased",
-          "description": "Increase in the scarring over time"
-        },
-        {
-          "name": "improved",
-          "description": "Decrease in the scarring over time"
-        },
-        {
-          "name": "new",
-          "description": "New scarring"
-        }
-      ],
-      "required": false
-    }
-  ],
-  "examples": [
-    {
-      "report_text": "scarring in the right upper lung probably represent sequela of prior talc pleurodesis. 2.  Unchanged few scattered 2-3 mm pulmonary nodules.",
-      "observation": {
-        "finding_name": "apical_pulmonary_scarring",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "right apical"
-          }
-        ]
+[
+  {
+    "_id": "6536ef92697c3ad012ddeec2",
+    "name": "apical pulmonary scarring",
+    "description": "Formation of fibrous tissue in the apex of the lungs following an injury or long-term lung disease",
+    "codes": [
+      {
+        "system": "TA2",
+        "code": "23",
+        "display": "apical"
+      },
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID28584",
+        "display": "apex of lung"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID5833",
+        "display": "apical"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4013504",
+        "display": "apex of lung"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "245515008",
+        "display": "Structure of apical segment of upper lobe of lung (body structure)"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "738985004",
+        "display": "Pulmonary (intended site)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID3829",
+        "display": "scar"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "48677004",
+        "display": "Healing scar (morphologic abnormality)"
       }
-    },
-    {
-      "report_text": "LUNGS/PLEURA: Left apical pleural-parenchymal scarring. Unchanged 3 mm nodule in the lingula (5:229). Opacity in the right middle lobe is less ovoid and more linear in",
-      "observation": {
-        "finding_name": "apical_pulmonary_scarring",
-        "attributes": [
+    ],
+    "attributes": [
+      {
+        "name": "location",
+        "description": "The anatomical region of the scarring",
+        "codes": [
           {
-            "attribute": "location",
-            "value": "left apical"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "increased pleural-parenchymal scarring, rather than a true pulmonary nodule.",
-      "observation": {
-        "finding_name": "apical_pulmonary_scarring",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "biapical"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Biapical scarring is present. No new nodules or masses are observed.",
-      "observation": {
-        "finding_name": "apical_pulmonary_scarring",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "biapical"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Apical scarring is noted within the lungs. No new nodules or masses were found.",
-      "observation": {
-        "finding_name": "apical_pulmonary_scarring",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "biapical"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Findings:   Lungs and pleura: Similar appearance of biapical scarring. There is an unchanged 1.4 cm well-circumscribed nodule in the left lower lobe. There is subsegmental",
-      "observation": {
-        "finding_name": "apical_pulmonary_scarring",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "biapical"
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
           },
           {
-            "attribute": "change",
-            "value": "unchanged"
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
           }
-        ]
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "biapical",
+            "description": "Both apices of the lungs; used when no side is specified",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID28584",
+                "display": "apex of lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "86598002",
+                "display": "Structure of apex of lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "right apical",
+            "description": "Apex of the right lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3285",
+                "display": "Apical segment of right lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1304",
+                "display": "apical segment of upper lobe of right lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "62884005",
+                "display": "Structure of apex of right lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left apical",
+            "description": "Apex of the left lung",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "14559000",
+                "display": "Structure of apex of left lung (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "change",
+        "description": "The change in the scarring over time",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "263703002",
+            "display": "Changed status (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "unchanged",
+            "description": "No change in the scarring over time; synonym for stable",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39268",
+                "display": "unchanged"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "260388006",
+                "display": "No status change (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "increased",
+            "description": "Increase in the scarring over time",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID36043",
+                "display": "increased"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "35105006",
+                "display": "Increased (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "improved",
+            "description": "Decrease in the scarring over time",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39105",
+                "display": "improved"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "385425000",
+                "display": "Improved (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "new",
+            "description": "New scarring",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5720",
+                "display": "new"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "7147002",
+                "display": "New (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
       }
-    }
-  ]
-}
+    ],
+    "examples": [
+      {
+        "report_text": "scarring in the right upper lung probably represent sequela of prior talc pleurodesis. 2.  Unchanged few scattered 2-3 mm pulmonary nodules.",
+        "observation": {
+          "finding_name": "apical_pulmonary_scarring",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "right apical"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "LUNGS/PLEURA: Left apical pleural-parenchymal scarring. Unchanged 3 mm nodule in the lingula (5:229). Opacity in the right middle lobe is less ovoid and more linear in",
+        "observation": {
+          "finding_name": "apical_pulmonary_scarring",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "left apical"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "increased pleural-parenchymal scarring, rather than a true pulmonary nodule.",
+        "observation": {
+          "finding_name": "apical_pulmonary_scarring",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "biapical"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Biapical scarring is present. No new nodules or masses are observed.",
+        "observation": {
+          "finding_name": "apical_pulmonary_scarring",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "biapical"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Apical scarring is noted within the lungs. No new nodules or masses were found.",
+        "observation": {
+          "finding_name": "apical_pulmonary_scarring",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "biapical"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Findings:   Lungs and pleura: Similar appearance of biapical scarring. There is an unchanged 1.4 cm well-circumscribed nodule in the left lower lobe. There is subsegmental",
+        "observation": {
+          "finding_name": "apical_pulmonary_scarring",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "biapical"
+            },
+            {
+              "attribute": "change",
+              "value": "unchanged"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

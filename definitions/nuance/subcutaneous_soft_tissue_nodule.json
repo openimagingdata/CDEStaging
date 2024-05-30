@@ -1,92 +1,339 @@
-{
-  "_id": "65b0077809818fbf3f7be8ea",
-  "name": "subcutaneous soft tissue nodule",
-  "description": "A small swelling or aggregation of cells in the body, typically benign and located in the subcutaneous soft tissue",
-  "attributes": [
-    {
-      "name": "size",
-      "description": "The dimensions of the nodule, often measured in centimeters or millimeters",
-      "type": "numeric",
-      "minimum": 0.0,
-      "maximum": null,
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "The anatomical region of the nodule",
-      "type": "choice",
-      "values": [
-        {
-          "name": "back",
-          "description": "The back of the body"
-        },
-        {
-          "name": "chest wall",
-          "description": "The chest area of the body"
-        },
-        {
-          "name": "scalp",
-          "description": "The top of the head"
-        },
-        {
-          "name": "shoulder/axilla",
-          "description": "The shoulder or upper arm area"
-        },
-        {
-          "name": "pelvic",
-          "description": "The lower abdomen area"
-        },
-        {
-          "name": "breasts",
-          "description": "The breast area"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "appearance",
-      "description": "The visual or physical characteristics of the nodule",
-      "type": "choice",
-      "values": [
-        {
-          "name": "sebaceous cyst",
-          "description": "A small, noncancerous bump beneath the skin, which can be filled with a yellowish, oily substance"
-        },
-        {
-          "name": "inclusion cyst",
-          "description": "A type of cyst that results from trauma to the skin or clogged pores"
-        },
-        {
-          "name": "low-attenuation",
-          "description": "Appears less dense or less absorbing on imaging"
-        },
-        {
-          "name": "nonspecific",
-          "description": "Not indicating a definite disease or condition"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "change",
-      "description": "The change in the nodule over time",
-      "type": "choice",
-      "values": [
-        {
-          "name": "unchanged",
-          "description": "The nodule has not changed since the last observation"
-        },
-        {
-          "name": "stable",
-          "description": "The nodule has remained steady or constant"
-        },
-        {
-          "name": "increased",
-          "description": "The nodule has grown or enlarged"
-        }
-      ],
-      "required": false
-    }
-  ],
-  "examples": null
-}
+[
+  {
+    "_id": "65b0077809818fbf3f7be8ea",
+    "name": "subcutaneous soft tissue nodule",
+    "description": "A small swelling or aggregation of cells in the body, typically benign and located in the subcutaneous soft tissue",
+    "codes": [
+      {
+        "system": "SNOMEDCT",
+        "code": "181607009",
+        "display": "Soft tissue (navigational concept)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID3875",
+        "display": "nodule"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "27925004",
+        "display": "Nodule (morphologic abnormality)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "size",
+        "description": "The dimensions of the nodule, often measured in centimeters or millimeters",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "246115007",
+            "display": "Size (attribute)"
+          }
+        ],
+        "type": "numeric",
+        "minimum": 0.0,
+        "maximum": null,
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "The anatomical region of the nodule",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "back",
+            "description": "The back of the body",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "135",
+                "display": "back"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID30781",
+                "display": "back"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID30781",
+                "display": "back"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013537",
+                "display": "back"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "77568009",
+                "display": "Structure of back of trunk (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "chest wall",
+            "description": "The chest area of the body",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID2468",
+                "display": "chest wall"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID2468",
+                "display": "chest wall"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013613",
+                "display": "chest wall"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "78904004",
+                "display": "Chest wall structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "scalp",
+            "description": "The top of the head",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "7113",
+                "display": "scalp"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID9919",
+                "display": "scalp"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID9919",
+                "display": "scalp"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015208",
+                "display": "scalp"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "41695006",
+                "display": "Scalp structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "shoulder/axilla",
+            "description": "The shoulder or upper arm area",
+            "codes": []
+          },
+          {
+            "name": "pelvic",
+            "description": "The lower abdomen area",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "130",
+                "display": "pelvic"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID250",
+                "display": "pelvic bone"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID2527",
+                "display": "pelvic bone"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013403",
+                "display": "pelvic bone"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "818972007",
+                "display": "Structure of organ within cavity of true pelvis (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "breasts",
+            "description": "The breast area",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "7097",
+                "display": "breast"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID28749",
+                "display": "breast"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013566",
+                "display": "breast"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "76752008",
+                "display": "Breast structure (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "appearance",
+        "description": "The visual or physical characteristics of the nodule",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID49903",
+            "display": "appearance"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "703248002",
+            "display": "Appearance (observable entity)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "sebaceous cyst",
+            "description": "A small, noncancerous bump beneath the skin, which can be filled with a yellowish, oily substance",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "417992006",
+                "display": "Sebaceous cyst (morphologic abnormality)"
+              }
+            ]
+          },
+          {
+            "name": "inclusion cyst",
+            "description": "A type of cyst that results from trauma to the skin or clogged pores",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "419893006",
+                "display": "Epidermoid cyst (disorder)"
+              }
+            ]
+          },
+          {
+            "name": "low-attenuation",
+            "description": "Appears less dense or less absorbing on imaging",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID6039",
+                "display": "low-attenuation"
+              }
+            ]
+          },
+          {
+            "name": "nonspecific",
+            "description": "Not indicating a definite disease or condition",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "10003008",
+                "display": "Non-specific (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "change",
+        "description": "The change in the nodule over time",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "263703002",
+            "display": "Changed status (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "unchanged",
+            "description": "The nodule has not changed since the last observation",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39268",
+                "display": "unchanged"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "260388006",
+                "display": "No status change (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "stable",
+            "description": "The nodule has remained steady or constant",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5734",
+                "display": "stable"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "58158008",
+                "display": "Stable (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "increased",
+            "description": "The nodule has grown or enlarged",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID36043",
+                "display": "increased"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "35105006",
+                "display": "Increased (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": null
+  }
+]

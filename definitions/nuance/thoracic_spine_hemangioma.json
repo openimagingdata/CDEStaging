@@ -1,341 +1,1151 @@
-{
-  "_id": "655a60d4e449c2ce07ebf474",
-  "name": "thoracic spine hemangioma",
-  "description": "A benign vascular tumor of the spine",
-  "attributes": [
-    {
-      "name": "multiplicity",
-      "description": "The number of hemangiomas present",
-      "type": "choice",
-      "values": [
-        {
-          "name": "single",
-          "description": "A single hemangioma"
-        },
-        {
-          "name": "multiple",
-          "description": "Multiple hemangiomas"
+[
+  {
+    "_id": "655a60d4e449c2ce07ebf474",
+    "name": "thoracic spine hemangioma",
+    "description": "A benign vascular tumor of the spine",
+    "codes": [
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID7741",
+        "display": "spine"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID34572",
+        "display": "thoracic vertebral column"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4015269",
+        "display": "spine"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "122495006",
+        "display": "Structure of thoracic vertebral column (body structure)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "multiplicity",
+        "description": "The number of hemangiomas present",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "263648007",
+            "display": "Multiplicity (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "single",
+            "description": "A single hemangioma",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5762",
+                "display": "single"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "50607009",
+                "display": "Singular (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "multiple",
+            "description": "Multiple hemangiomas",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5765",
+                "display": "multiple"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255204007",
+                "display": "Multiple (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "The vertebral body where the hemangioma is located",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "246267002",
+            "display": "Location (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "upper thoracic",
+            "description": "The upper thoracic vertebrae",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "mid thoracic",
+            "description": "The middle thoracic vertebrae",
+            "codes": []
+          },
+          {
+            "name": "lower thoracic",
+            "description": "The lower thoracic vertebrae",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1065",
+                "display": "lower thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "73025004",
+                "display": "Structure of lower thoracic spinal cord (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "upper lumbar",
+            "description": "The upper lumbar vertebrae",
+            "codes": []
+          },
+          {
+            "name": "T1",
+            "description": "The first thoracic vertebra",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1063",
+                "display": "first thoracic vertebra"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29198",
+                "display": "first thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6151",
+                "display": "T1"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013835",
+                "display": "first thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "64864005",
+                "display": "Bone structure of T1 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T2",
+            "description": "The second thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29199",
+                "display": "second thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6152",
+                "display": "T2"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015220",
+                "display": "second thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "53733008",
+                "display": "Bone structure of T2 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T3",
+            "description": "The third thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29200",
+                "display": "third thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6153",
+                "display": "T3"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015436",
+                "display": "third thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1626008",
+                "display": "Bone structure of T3 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T4",
+            "description": "The fourth thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29201",
+                "display": "fourth thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6154",
+                "display": "T4"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013867",
+                "display": "fourth thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "73071006",
+                "display": "Bone structure of T4 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T5",
+            "description": "The fifth thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29202",
+                "display": "fifth thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6155",
+                "display": "T5"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013829",
+                "display": "fifth thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "56401006",
+                "display": "Bone structure of T5 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T6",
+            "description": "The sixth thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29203",
+                "display": "sixth thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6156",
+                "display": "T6"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015258",
+                "display": "sixth thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "45296009",
+                "display": "Bone structure of T6 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T7",
+            "description": "The seventh thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29204",
+                "display": "seventh thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6157",
+                "display": "T7"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015249",
+                "display": "seventh thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "62487009",
+                "display": "Bone structure of T7 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T8",
+            "description": "The eighth thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29205",
+                "display": "eight thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6157",
+                "display": "T8"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013760",
+                "display": "eight thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "11068009",
+                "display": "Bone structure of T8 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T9",
+            "description": "The ninth thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29206",
+                "display": "ninth thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6159",
+                "display": "T9"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "4014611",
+                "display": "ninth thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "82687006",
+                "display": "Bone structure of T9 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T10",
+            "description": "The tenth thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29207",
+                "display": "tenth thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6160",
+                "display": "T10"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015419",
+                "display": "tenth thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "7610001",
+                "display": "Bone structure of T10 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T11",
+            "description": "The eleventh thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29208",
+                "display": "eleventh thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6161",
+                "display": "T11"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013766",
+                "display": "eleventh thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "12989004",
+                "display": "Bone structure of T11 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T12",
+            "description": "The twelfth thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29209",
+                "display": "twelfth thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6162",
+                "display": "T12"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015481",
+                "display": "twelfth thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "23215003",
+                "display": "Bone structure of T12 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "L1",
+            "description": "The first lumbar vertebra",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1068",
+                "display": "lumbar vertebra"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29193",
+                "display": "first lumbar vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6164",
+                "display": "L1"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "66794005",
+                "display": "Bone structure of L1 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "L2",
+            "description": "The second lumbar vertebra",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1068",
+                "display": "lumbar vertebra"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29194",
+                "display": "second lumbar vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6165",
+                "display": "L2"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "14293000",
+                "display": "Bone structure of L2 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "L3",
+            "description": "The third lumbar vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29195",
+                "display": "third lumbar vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6166",
+                "display": "L3"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "36470004",
+                "display": "Bone structure of L3 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "L4",
+            "description": "The fourth lumbar vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29196",
+                "display": "fourth lumbar vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6167",
+                "display": "L4"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "11994002",
+                "display": "Bone structure of L4 (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": [
+      {
+        "report_text": "Bones: Hemangiomas likely present in T8 and T11 vertebral bodies. No suspicious lytic or blastic lesions.",
+        "observation": {
+          "finding_name": "spine_hemangioma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5765",
+                  "display": "multiple"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255204007",
+                  "display": "Multiple (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "lower thoracic",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "1065",
+                  "display": "lower thoracic vertebra"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "73025004",
+                  "display": "Structure of lower thoracic spinal cord (body structure)"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "The vertebral body where the hemangioma is located",
-      "type": "choice",
-      "values": [
-        {
-          "name": "upper thoracic",
-          "description": "The upper thoracic vertebrae"
-        },
-        {
-          "name": "mid thoracic",
-          "description": "The middle thoracic vertebrae"
-        },
-        {
-          "name": "lower thoracic",
-          "description": "The lower thoracic vertebrae"
-        },
-        {
-          "name": "upper lumbar",
-          "description": "The upper lumbar vertebrae"
-        },
-        {
-          "name": "T1",
-          "description": "The first thoracic vertebra"
-        },
-        {
-          "name": "T2",
-          "description": "The second thoracic vertebra"
-        },
-        {
-          "name": "T3",
-          "description": "The third thoracic vertebra"
-        },
-        {
-          "name": "T4",
-          "description": "The fourth thoracic vertebra"
-        },
-        {
-          "name": "T5",
-          "description": "The fifth thoracic vertebra"
-        },
-        {
-          "name": "T6",
-          "description": "The sixth thoracic vertebra"
-        },
-        {
-          "name": "T7",
-          "description": "The seventh thoracic vertebra"
-        },
-        {
-          "name": "T8",
-          "description": "The eighth thoracic vertebra"
-        },
-        {
-          "name": "T9",
-          "description": "The ninth thoracic vertebra"
-        },
-        {
-          "name": "T10",
-          "description": "The tenth thoracic vertebra"
-        },
-        {
-          "name": "T11",
-          "description": "The eleventh thoracic vertebra"
-        },
-        {
-          "name": "T12",
-          "description": "The twelfth thoracic vertebra"
-        },
-        {
-          "name": "L1",
-          "description": "The first lumbar vertebra"
-        },
-        {
-          "name": "L2",
-          "description": "The second lumbar vertebra"
-        },
-        {
-          "name": "L3",
-          "description": "The third lumbar vertebra"
-        },
-        {
-          "name": "L4",
-          "description": "The fourth lumbar vertebra"
+      },
+      {
+        "report_text": "Bones: Scattered thoracic vertebral body hemangiomas remain. No suspicious lytic or blastic lesions.",
+        "observation": {
+          "finding_name": "spine_hemangioma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5765",
+                  "display": "multiple"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255204007",
+                  "display": "Multiple (qualifier value)"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "required": false
-    }
-  ],
-  "examples": [
-    {
-      "report_text": "Bones: Hemangiomas likely present in T8 and T11 vertebral bodies. No suspicious lytic or blastic lesions.",
-      "observation": {
-        "finding_name": "spine_hemangioma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          },
-          {
-            "attribute": "location",
-            "value": "lower thoracic"
-          }
-        ]
+      },
+      {
+        "report_text": "Bones: No suspicious lytic or blastic lesions. Thoracic spine degenerative changes. T1 there are multilevel thoracic vertebral body hemangiomas.",
+        "observation": {
+          "finding_name": "spine_hemangioma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5765",
+                  "display": "multiple"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255204007",
+                  "display": "Multiple (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Bones: Hemangioma in L4 vertebral body. No other osseous lesions. Vertebral body heights remain intact.",
+        "observation": {
+          "finding_name": "spine_hemangioma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "single",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5762",
+                  "display": "single"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "50607009",
+                  "display": "Singular (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "L4",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "1068",
+                  "display": "lumbar vertebra"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID29194",
+                  "display": "second lumbar vertebra"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID6165",
+                  "display": "L2"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "14293000",
+                  "display": "Bone structure of L2 (body structure)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Bones: No suspicious lytic or blastic lesions. Unchanged L1 vertebral body hemangioma. There are degenerative changes of the spine.",
+        "observation": {
+          "finding_name": "spine_hemangioma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "single",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5762",
+                  "display": "single"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "50607009",
+                  "display": "Singular (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "L1",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "1068",
+                  "display": "lumbar vertebra"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID29193",
+                  "display": "first lumbar vertebra"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID6164",
+                  "display": "L1"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "66794005",
+                  "display": "Bone structure of L1 (body structure)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Bones: Scattered vertebral hemangiomas stable. Dextrocurvature of the thoracic spine noted. No suspicious lytic or blastic lesions.",
+        "observation": {
+          "finding_name": "spine_hemangioma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5765",
+                  "display": "multiple"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255204007",
+                  "display": "Multiple (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Bones: No suspicious lytic or blastic lesions. Osteopenia. Several thoracic vertebral body hemangiomas. Multilevel degenerative changes of the imaged spine.",
+        "observation": {
+          "finding_name": "spine_hemangioma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5765",
+                  "display": "multiple"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255204007",
+                  "display": "Multiple (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Bones: Scattered thoracic vertebral body hemangiomas remain. No suspicious lytic or blastic lesions.",
+        "observation": {
+          "finding_name": "spine_hemangioma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5765",
+                  "display": "multiple"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255204007",
+                  "display": "Multiple (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Bones: Hemangioma in T11 vertebral body unchanged. No suspicious lytic or blastic lesions detected.",
+        "observation": {
+          "finding_name": "spine_hemangioma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "single",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5762",
+                  "display": "single"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "50607009",
+                  "display": "Singular (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "T11",
+              "codes": [
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID29208",
+                  "display": "eleventh thoracic vertebra"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID6161",
+                  "display": "T11"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4013766",
+                  "display": "eleventh thoracic vertebra"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "12989004",
+                  "display": "Bone structure of T11 (body structure)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Bones: Redemonstrated hemangioma in L2 vertebral bodies. No suspicious lytic or blastic lesions.",
+        "observation": {
+          "finding_name": "spine_hemangioma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "single",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5762",
+                  "display": "single"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "50607009",
+                  "display": "Singular (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "L2",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "1068",
+                  "display": "lumbar vertebra"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID29194",
+                  "display": "second lumbar vertebra"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID6165",
+                  "display": "L2"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "14293000",
+                  "display": "Bone structure of L2 (body structure)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "changes of a probable osseous hemangioma within the T6 vertebral body, as before.",
+        "observation": {
+          "finding_name": "spine_hemangioma",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "T6",
+              "codes": [
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID29203",
+                  "display": "sixth thoracic vertebra"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID6156",
+                  "display": "T6"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4015258",
+                  "display": "sixth thoracic vertebra"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "45296009",
+                  "display": "Bone structure of T6 (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "multiplicity",
+              "value": "single",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5762",
+                  "display": "single"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "50607009",
+                  "display": "Singular (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Bones: No suspicious lytic or blastic lesions. Osteopenia detected. Hemangiomas in several thoracic vertebral bodies. Multilevel degenerative changes in the spine.",
+        "observation": {
+          "finding_name": "spine_hemangioma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5765",
+                  "display": "multiple"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255204007",
+                  "display": "Multiple (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Bones: Degenerative changes in the spine observed. Hemangioma in L3 vertebral body. No other osseous lesions found.",
+        "observation": {
+          "finding_name": "spine_hemangioma",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "L3",
+              "codes": [
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID29195",
+                  "display": "third lumbar vertebra"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID6166",
+                  "display": "L3"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "36470004",
+                  "display": "Bone structure of L3 (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "associated_findings",
+              "value": "degenerative changes",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5043",
+                  "display": "degenerative disorder"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "362975008",
+                  "display": "Degenerative disorder (disorder)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Bones: Hemangioma identified in T7 vertebral body. No suspicious osseous lesion found.",
+        "observation": {
+          "finding_name": "spine_hemangioma",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "T7",
+              "codes": [
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID29204",
+                  "display": "seventh thoracic vertebra"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID6157",
+                  "display": "T7"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4015249",
+                  "display": "seventh thoracic vertebra"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "62487009",
+                  "display": "Bone structure of T7 (body structure)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Bones: No suspicious lytic or blastic lesions. Degenerative changes of the spine. Lucency in T9 and T12 vertebral bodies likely represent hemangiomas.",
+        "observation": {
+          "finding_name": "spine_hemangioma",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "T9",
+              "codes": [
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID29206",
+                  "display": "ninth thoracic vertebra"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID6159",
+                  "display": "T9"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "4014611",
+                  "display": "ninth thoracic vertebra"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "82687006",
+                  "display": "Bone structure of T9 (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "associated_findings",
+              "value": "degenerative changes",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5043",
+                  "display": "degenerative disorder"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "362975008",
+                  "display": "Degenerative disorder (disorder)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Bones: No suspicious lytic or blastic lesions. Degenerative changes of the spine. Lucency in T9 and T12 vertebral bodies likely represent hemangiomas.",
+        "observation": {
+          "finding_name": "spine_hemangioma",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "lower thoracic",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "1065",
+                  "display": "lower thoracic vertebra"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "73025004",
+                  "display": "Structure of lower thoracic spinal cord (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "multiplicity",
+              "value": "multiple",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5765",
+                  "display": "multiple"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255204007",
+                  "display": "Multiple (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
       }
-    },
-    {
-      "report_text": "Bones: Scattered thoracic vertebral body hemangiomas remain. No suspicious lytic or blastic lesions.",
-      "observation": {
-        "finding_name": "spine_hemangioma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Bones: No suspicious lytic or blastic lesions. Thoracic spine degenerative changes. T1 there are multilevel thoracic vertebral body hemangiomas.",
-      "observation": {
-        "finding_name": "spine_hemangioma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Bones: Hemangioma in L4 vertebral body. No other osseous lesions. Vertebral body heights remain intact.",
-      "observation": {
-        "finding_name": "spine_hemangioma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "single"
-          },
-          {
-            "attribute": "location",
-            "value": "L4"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Bones: No suspicious lytic or blastic lesions. Unchanged L1 vertebral body hemangioma. There are degenerative changes of the spine.",
-      "observation": {
-        "finding_name": "spine_hemangioma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "single"
-          },
-          {
-            "attribute": "location",
-            "value": "L1"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Bones: Scattered vertebral hemangiomas stable. Dextrocurvature of the thoracic spine noted. No suspicious lytic or blastic lesions.",
-      "observation": {
-        "finding_name": "spine_hemangioma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Bones: No suspicious lytic or blastic lesions. Osteopenia. Several thoracic vertebral body hemangiomas. Multilevel degenerative changes of the imaged spine.",
-      "observation": {
-        "finding_name": "spine_hemangioma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Bones: Scattered thoracic vertebral body hemangiomas remain. No suspicious lytic or blastic lesions.",
-      "observation": {
-        "finding_name": "spine_hemangioma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Bones: Hemangioma in T11 vertebral body unchanged. No suspicious lytic or blastic lesions detected.",
-      "observation": {
-        "finding_name": "spine_hemangioma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "single"
-          },
-          {
-            "attribute": "location",
-            "value": "T11"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Bones: Redemonstrated hemangioma in L2 vertebral bodies. No suspicious lytic or blastic lesions.",
-      "observation": {
-        "finding_name": "spine_hemangioma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "single"
-          },
-          {
-            "attribute": "location",
-            "value": "L2"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "changes of a probable osseous hemangioma within the T6 vertebral body, as before.",
-      "observation": {
-        "finding_name": "spine_hemangioma",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "T6"
-          },
-          {
-            "attribute": "multiplicity",
-            "value": "single"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Bones: No suspicious lytic or blastic lesions. Osteopenia detected. Hemangiomas in several thoracic vertebral bodies. Multilevel degenerative changes in the spine.",
-      "observation": {
-        "finding_name": "spine_hemangioma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Bones: Degenerative changes in the spine observed. Hemangioma in L3 vertebral body. No other osseous lesions found.",
-      "observation": {
-        "finding_name": "spine_hemangioma",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "L3"
-          },
-          {
-            "attribute": "associated_findings",
-            "value": "degenerative changes"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Bones: Hemangioma identified in T7 vertebral body. No suspicious osseous lesion found.",
-      "observation": {
-        "finding_name": "spine_hemangioma",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "T7"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Bones: No suspicious lytic or blastic lesions. Degenerative changes of the spine. Lucency in T9 and T12 vertebral bodies likely represent hemangiomas.",
-      "observation": {
-        "finding_name": "spine_hemangioma",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "T9"
-          },
-          {
-            "attribute": "associated_findings",
-            "value": "degenerative changes"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Bones: No suspicious lytic or blastic lesions. Degenerative changes of the spine. Lucency in T9 and T12 vertebral bodies likely represent hemangiomas.",
-      "observation": {
-        "finding_name": "spine_hemangioma",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "lower thoracic"
-          },
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          }
-        ]
-      }
-    }
-  ]
-}
+    ]
+  }
+]

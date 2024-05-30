@@ -1,47 +1,116 @@
-{
-  "_id": "TEMP",
-  "name": "",
-  "description": "",
-  "attributes": [
-    {
-      "name": "presence",
-      "description": "",
-      "type": "choice",
-      "values": [
-        {
-          "name": "absent",
-          "description": ""
-        },
-        {
-          "name": "present",
-          "description": ""
-        },
-        {
-          "name": "indeterminate",
-          "description": ""
-        },
-        {
-          "name": "unknown",
-          "description": ""
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "The anatomical region of the ",
-      "type": "choice",
-      "values": [
-        {
-          "name": "",
-          "description": ""
-        },
-        {
-          "name": "",
-          "description": ""
-        }
-      ],
-      "required": false
-    }
-  ]
-}
+[
+  {
+    "_id": "TEMP",
+    "name": "",
+    "description": "",
+    "attributes": [
+      {
+        "name": "presence",
+        "description": "",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "705057003",
+            "display": "Presence (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "absent",
+            "description": "",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28473",
+                "display": "absent"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "2667000",
+                "display": "Absent (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "present",
+            "description": "",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28472",
+                "display": "present"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "52101004",
+                "display": "Present (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "indeterminate",
+            "description": "",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39110",
+                "display": "indeterminate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "82334004",
+                "display": "Indeterminate (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "unknown",
+            "description": "",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5655",
+                "display": "unknown"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "261665006",
+                "display": "Unknown (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "The anatomical region of the ",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          }
+        ],
+        "required": false
+      }
+    ]
+  }
+]

@@ -1,385 +1,671 @@
-{
-  "_id": "65415a084dce57a1316a6708",
-  "name": "mastectomy",
-  "description": "A surgical operation to remove one or both breasts, sometimes including the removal and replacement of breast tissue with an implant",
-  "attributes": [
-    {
-      "name": "type",
-      "description": "The type of mastectomy performed",
-      "type": "choice",
-      "values": [
-        {
-          "name": "bilateral",
-          "description": "Both breasts have been removed"
-        },
-        {
-          "name": "left",
-          "description": "Only the left breast has been removed"
-        },
-        {
-          "name": "right",
-          "description": "Only the right breast has been removed"
+[
+  {
+    "_id": "65415a084dce57a1316a6708",
+    "name": "mastectomy",
+    "description": "A surgical operation to remove one or both breasts, sometimes including the removal and replacement of breast tissue with an implant",
+    "codes": [
+      {
+        "system": "RADLEX",
+        "code": "RID49910",
+        "display": "mastectomy"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "1231734007",
+        "display": "Excision of breast (procedure)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "type",
+        "description": "The type of mastectomy performed",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "410656007",
+            "display": "Type (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "bilateral",
+            "description": "Both breasts have been removed",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5771",
+                "display": "bilateral"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "51440002",
+                "display": "Right and left (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "left",
+            "description": "Only the left breast has been removed",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "8",
+                "display": "left"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID5824",
+                "display": "left"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "7771000",
+                "display": "Left (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "right",
+            "description": "Only the right breast has been removed",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "7",
+                "display": "right"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID5825",
+                "display": "right"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "24028007",
+                "display": "Right (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "implant",
+        "description": "Presence of breast implants after mastectomy",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID28790",
+            "display": ""
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "827107003",
+            "display": "Implant (administration method)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "bilateral implant reconstruction",
+            "description": "Both breasts have implants",
+            "codes": []
+          },
+          {
+            "name": "left implant reconstruction",
+            "description": "Only the left breast has an implant",
+            "codes": []
+          },
+          {
+            "name": "right implant reconstruction",
+            "description": "Only the right breast has an implant",
+            "codes": []
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "implant material",
+        "description": "The material of the implant",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "256576001",
+            "display": "Implant material (substance)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "saline",
+            "description": "The implants are made of saline",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID49954",
+                "display": "saline"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "373757009",
+                "display": "Sodium chloride solution (substance"
+              }
+            ]
+          },
+          {
+            "name": "silicone",
+            "description": "The implants are made of silicone",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "13652007",
+                "display": "Silicone (substance"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "axillary lymph node dissection",
+        "description": "Evidence of prior lymph node dissection in one or both axillae",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "234262008",
+            "display": "Excision of axillary lymph node (procedure)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "left",
+            "description": "Evidence of lymph node dissection in the left axilla",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "8",
+                "display": "left"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID5824",
+                "display": "left"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "7771000",
+                "display": "Left (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "right",
+            "description": "Evidence of lymph node dissection in the right axilla",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "7",
+                "display": "right"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID5825",
+                "display": "right"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "24028007",
+                "display": "Right (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "bilateral",
+            "description": "Evidence of lymph node dissection in the both axillae",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5771",
+                "display": "bilateral"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "51440002",
+                "display": "Right and left (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "postoperative changes",
+        "description": "Changes observed after the surgery",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID4591",
+            "display": "postoperative changes"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "surgical clips",
+            "description": "Surgical clips are noted in the axilla",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5607",
+                "display": "surgical clips"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "386010000",
+                "display": "Surgical clip, device (physical object)"
+              }
+            ]
+          },
+          {
+            "name": "intracapsular implant rupture",
+            "description": "There is a rupture in the implant within the capsule",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID50236",
+                "display": "intracapsular breast implant rupture"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "237473006",
+                "display": "Rupture of breast implant (disorder)"
+              }
+            ]
+          },
+          {
+            "name": "calcification",
+            "description": "Calcification is present",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5196",
+                "display": "calcification"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "237897009",
+                "display": "Vascular calcification (disorder)"
+              }
+            ]
+          },
+          {
+            "name": "skin thickening",
+            "description": "Thickening of the skin is observed",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID34270",
+                "display": "skin thickening"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "17417006",
+                "display": "Thickening of skin (disorder)"
+              }
+            ]
+          },
+          {
+            "name": "chest wall mass",
+            "description": "No chest wall mass is observed",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID2468",
+                "display": "chest wall"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID2468",
+                "display": "chest wall"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "78904004",
+                "display": "Chest wall structure (body structure)"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013613",
+                "display": "chest wall"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID3874",
+                "display": "mass"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "4147007",
+                "display": "Mass (morphologic abnormality)"
+              }
+            ]
+          },
+          {
+            "name": "subcutaneous nodularity",
+            "description": "Nodularity in the subcutaneous tissue is observed",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "95325000",
+                "display": "Subcutaneous nodule (finding)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "flap reconstruction",
+        "description": "Whether there has been muscle flap reconstruction",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "1202018003",
+            "display": "Reconstruction using flap (procedure)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "absent",
+            "description": "There has not been flap reconstruction",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28473",
+                "display": "absent"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "2667000",
+                "display": "Absent (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "present",
+            "description": "There has been flap reconstruction",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28472",
+                "display": "present"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "52101004",
+                "display": "Present (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": [
+      {
+        "report_text": "Chest Wall: Status post right mastectomy with flap reconstruction. Left axillary node dissection.",
+        "observation": {
+          "finding_name": "mastectomy",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "right"
+            },
+            {
+              "attribute": "flap_reconstruction",
+              "value": "present"
+            },
+            {
+              "attribute": "axillary_lymph_node_dissection",
+              "value": "left"
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "implant",
-      "description": "Presence of breast implants after mastectomy",
-      "type": "choice",
-      "values": [
-        {
-          "name": "bilateral implant reconstruction",
-          "description": "Both breasts have implants"
-        },
-        {
-          "name": "left implant reconstruction",
-          "description": "Only the left breast has an implant"
-        },
-        {
-          "name": "right implant reconstruction",
-          "description": "Only the right breast has an implant"
+      },
+      {
+        "report_text": "Chest Wall: Status post bilateral mastectomy.",
+        "observation": {
+          "finding_name": "mastectomy",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "bilateral"
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "implant material",
-      "description": "The material of the implant",
-      "type": "choice",
-      "values": [
-        {
-          "name": "saline",
-          "description": "The implants are made of saline"
-        },
-        {
-          "name": "silicone",
-          "description": "The implants are made of silicone"
+      },
+      {
+        "report_text": "Chest Wall: Surgical changes status post bilateral mastectomies with breast reconstructions.",
+        "observation": {
+          "finding_name": "mastectomy",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "bilateral"
+            },
+            {
+              "attribute": "implant",
+              "value": "bilateral implant reconstruction"
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "axillary lymph node dissection",
-      "description": "Evidence of prior lymph node dissection in one or both axillae",
-      "type": "choice",
-      "values": [
-        {
-          "name": "left",
-          "description": "Evidence of lymph node dissection in the left axilla"
-        },
-        {
-          "name": "right",
-          "description": "Evidence of lymph node dissection in the right axilla"
-        },
-        {
-          "name": "bilateral",
-          "description": "Evidence of lymph node dissection in the both axillae"
+      },
+      {
+        "report_text": "SOFT TISSUE: Within normal limits. Status post right mastectomy with breast implant in place.",
+        "observation": {
+          "finding_name": "mastectomy",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "right"
+            },
+            {
+              "attribute": "implant",
+              "value": "right implant reconstruction"
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "postoperative changes",
-      "description": "Changes observed after the surgery",
-      "type": "choice",
-      "values": [
-        {
-          "name": "surgical clips",
-          "description": "Surgical clips are noted in the axilla"
-        },
-        {
-          "name": "intracapsular implant rupture",
-          "description": "There is a rupture in the implant within the capsule"
-        },
-        {
-          "name": "calcification",
-          "description": "Calcification is present"
-        },
-        {
-          "name": "skin thickening",
-          "description": "Thickening of the skin is observed"
-        },
-        {
-          "name": "chest wall mass",
-          "description": "No chest wall mass is observed"
-        },
-        {
-          "name": "subcutaneous nodularity",
-          "description": "Nodularity in the subcutaneous tissue is observed"
+      },
+      {
+        "report_text": "Chest Wall: Postsurgical changes are seen within the breasts bilaterally consistent bilateral mastectomy and flap reconstruction.",
+        "observation": {
+          "finding_name": "mastectomy",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "bilateral"
+            },
+            {
+              "attribute": "flap_reconstruction",
+              "value": "present"
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "flap reconstruction",
-      "description": "Whether there has been muscle flap reconstruction",
-      "type": "choice",
-      "values": [
-        {
-          "name": "absent",
-          "description": "There has not been flap reconstruction"
-        },
-        {
-          "name": "present",
-          "description": "There has been flap reconstruction"
+      },
+      {
+        "report_text": "IMPRESSION: Stable postsurgical changes following the left mastectomy.",
+        "observation": {
+          "finding_name": "mastectomy",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "left"
+            }
+          ]
         }
-      ],
-      "required": false
-    }
-  ],
-  "examples": [
-    {
-      "report_text": "Chest Wall: Status post right mastectomy with flap reconstruction. Left axillary node dissection.",
-      "observation": {
-        "finding_name": "mastectomy",
-        "attributes": [
-          {
-            "attribute": "type",
-            "value": "right"
-          },
-          {
-            "attribute": "flap_reconstruction",
-            "value": "present"
-          },
-          {
-            "attribute": "axillary_lymph_node_dissection",
-            "value": "left"
-          }
-        ]
+      },
+      {
+        "report_text": "Chest Wall: Status post left mastectomy with implantation, no suspicious osseous lytic or blastic lesions.",
+        "observation": {
+          "finding_name": "mastectomy",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "left"
+            },
+            {
+              "attribute": "implant",
+              "value": "left implant reconstruction"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Chest Wall: Postsurgical changes in the right breast status post lumpectomy.   Bones: No suspicious lytic or blastic lesions. Mild multilevel degenerative changes of the axial skeleton.",
+        "observation": null
+      },
+      {
+        "report_text": "Chest Wall: Status post right mastectomy with flap reconstruction. The assessment of the breasts is limited on this chest CT, and please also refer to dedicated breast imaging for breast findings.",
+        "observation": {
+          "finding_name": "mastectomy",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "right"
+            },
+            {
+              "attribute": "flap_reconstruction",
+              "value": "present"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Chest Wall: Bilateral mastectomy with implant reconstruction, no chest wall mass.",
+        "observation": {
+          "finding_name": "mastectomy",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "bilateral"
+            },
+            {
+              "attribute": "implant",
+              "value": "bilateral implant reconstruction"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Chest Wall: Right mastectomy with implant reconstruction. Multiple surgical clips in the right axilla post lymph node dissection.. No chest wall mass.",
+        "observation": {
+          "finding_name": "mastectomy",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "right"
+            },
+            {
+              "attribute": "implant",
+              "value": "right implant reconstruction"
+            },
+            {
+              "attribute": "axillary_lymph_node_dissection",
+              "value": "right"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Chest Wall: Status post left breast mastectomy with implantation.   Bones: Osteopenia. Skeletal degenerative changes. No suspicious osseous lytic or blastic lesions.",
+        "observation": {
+          "finding_name": "mastectomy",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "left"
+            },
+            {
+              "attribute": "implant",
+              "value": "left implant reconstruction"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Chest Wall: Postsurgical changes are seen within the breasts bilaterally consistent bilateral mastectomy and flap reconstruction. Partially calcified nodule in the left breast is stable in size.   Bones: No suspicious lytic or blastic lesions.",
+        "observation": {
+          "finding_name": "mastectomy",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "bilateral"
+            },
+            {
+              "attribute": "flap_reconstruction",
+              "value": "present"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Chest Wall: Status post left mastectomy, surgical changes present.",
+        "observation": {
+          "finding_name": "mastectomy",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "left"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Chest Wall: Bilateral mastectomy with bilateral prostheses in place. No chest wall mass.   Bones: Degenerative changes of the spine.",
+        "observation": {
+          "finding_name": "mastectomy",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "bilateral"
+            },
+            {
+              "attribute": "implant",
+              "value": "bilateral implant reconstruction"
+            },
+            {
+              "attribute": "postoperative_changes",
+              "value": "chest wall mass"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Chest Wall: Right mastectomy. Similar 4.5 x 2.1 cm right anterior chest wall enhancing soft tissue.",
+        "observation": {
+          "finding_name": "mastectomy",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "right"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "IMPRESSION:    1.  Stable 1.9 cm peripherally enhancing nodule in the RIGHT mastectomy site is likely secondary to postoperative change. Continued attention at follow-up advised.",
+        "observation": {
+          "finding_name": "mastectomy",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "right"
+            }
+          ]
+        }
       }
-    },
-    {
-      "report_text": "Chest Wall: Status post bilateral mastectomy.",
-      "observation": {
-        "finding_name": "mastectomy",
-        "attributes": [
-          {
-            "attribute": "type",
-            "value": "bilateral"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Chest Wall: Surgical changes status post bilateral mastectomies with breast reconstructions.",
-      "observation": {
-        "finding_name": "mastectomy",
-        "attributes": [
-          {
-            "attribute": "type",
-            "value": "bilateral"
-          },
-          {
-            "attribute": "implant",
-            "value": "bilateral implant reconstruction"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "SOFT TISSUE: Within normal limits. Status post right mastectomy with breast implant in place.",
-      "observation": {
-        "finding_name": "mastectomy",
-        "attributes": [
-          {
-            "attribute": "type",
-            "value": "right"
-          },
-          {
-            "attribute": "implant",
-            "value": "right implant reconstruction"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Chest Wall: Postsurgical changes are seen within the breasts bilaterally consistent bilateral mastectomy and flap reconstruction.",
-      "observation": {
-        "finding_name": "mastectomy",
-        "attributes": [
-          {
-            "attribute": "type",
-            "value": "bilateral"
-          },
-          {
-            "attribute": "flap_reconstruction",
-            "value": "present"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "IMPRESSION: Stable postsurgical changes following the left mastectomy.",
-      "observation": {
-        "finding_name": "mastectomy",
-        "attributes": [
-          {
-            "attribute": "type",
-            "value": "left"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Chest Wall: Status post left mastectomy with implantation, no suspicious osseous lytic or blastic lesions.",
-      "observation": {
-        "finding_name": "mastectomy",
-        "attributes": [
-          {
-            "attribute": "type",
-            "value": "left"
-          },
-          {
-            "attribute": "implant",
-            "value": "left implant reconstruction"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Chest Wall: Postsurgical changes in the right breast status post lumpectomy.   Bones: No suspicious lytic or blastic lesions. Mild multilevel degenerative changes of the axial skeleton.",
-      "observation": null
-    },
-    {
-      "report_text": "Chest Wall: Status post right mastectomy with flap reconstruction. The assessment of the breasts is limited on this chest CT, and please also refer to dedicated breast imaging for breast findings.",
-      "observation": {
-        "finding_name": "mastectomy",
-        "attributes": [
-          {
-            "attribute": "type",
-            "value": "right"
-          },
-          {
-            "attribute": "flap_reconstruction",
-            "value": "present"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Chest Wall: Bilateral mastectomy with implant reconstruction, no chest wall mass.",
-      "observation": {
-        "finding_name": "mastectomy",
-        "attributes": [
-          {
-            "attribute": "type",
-            "value": "bilateral"
-          },
-          {
-            "attribute": "implant",
-            "value": "bilateral implant reconstruction"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Chest Wall: Right mastectomy with implant reconstruction. Multiple surgical clips in the right axilla post lymph node dissection.. No chest wall mass.",
-      "observation": {
-        "finding_name": "mastectomy",
-        "attributes": [
-          {
-            "attribute": "type",
-            "value": "right"
-          },
-          {
-            "attribute": "implant",
-            "value": "right implant reconstruction"
-          },
-          {
-            "attribute": "axillary_lymph_node_dissection",
-            "value": "right"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Chest Wall: Status post left breast mastectomy with implantation.   Bones: Osteopenia. Skeletal degenerative changes. No suspicious osseous lytic or blastic lesions.",
-      "observation": {
-        "finding_name": "mastectomy",
-        "attributes": [
-          {
-            "attribute": "type",
-            "value": "left"
-          },
-          {
-            "attribute": "implant",
-            "value": "left implant reconstruction"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Chest Wall: Postsurgical changes are seen within the breasts bilaterally consistent bilateral mastectomy and flap reconstruction. Partially calcified nodule in the left breast is stable in size.   Bones: No suspicious lytic or blastic lesions.",
-      "observation": {
-        "finding_name": "mastectomy",
-        "attributes": [
-          {
-            "attribute": "type",
-            "value": "bilateral"
-          },
-          {
-            "attribute": "flap_reconstruction",
-            "value": "present"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Chest Wall: Status post left mastectomy, surgical changes present.",
-      "observation": {
-        "finding_name": "mastectomy",
-        "attributes": [
-          {
-            "attribute": "type",
-            "value": "left"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Chest Wall: Bilateral mastectomy with bilateral prostheses in place. No chest wall mass.   Bones: Degenerative changes of the spine.",
-      "observation": {
-        "finding_name": "mastectomy",
-        "attributes": [
-          {
-            "attribute": "type",
-            "value": "bilateral"
-          },
-          {
-            "attribute": "implant",
-            "value": "bilateral implant reconstruction"
-          },
-          {
-            "attribute": "postoperative_changes",
-            "value": "chest wall mass"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Chest Wall: Right mastectomy. Similar 4.5 x 2.1 cm right anterior chest wall enhancing soft tissue.",
-      "observation": {
-        "finding_name": "mastectomy",
-        "attributes": [
-          {
-            "attribute": "type",
-            "value": "right"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "IMPRESSION:    1.  Stable 1.9 cm peripherally enhancing nodule in the RIGHT mastectomy site is likely secondary to postoperative change. Continued attention at follow-up advised.",
-      "observation": {
-        "finding_name": "mastectomy",
-        "attributes": [
-          {
-            "attribute": "type",
-            "value": "right"
-          }
-        ]
-      }
-    }
-  ]
-}
+    ]
+  }
+]

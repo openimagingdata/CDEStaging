@@ -1,137 +1,346 @@
-{
-  "_id": "6543d9c34dce57a1316a670a",
-  "name": "hiatal hernia",
-  "description": "A condition in which part of the stomach pushes up through the diaphragm muscle",
-  "attributes": [
-    {
-      "name": "size",
-      "description": "The size of the hiatal hernia",
-      "type": "choice",
-      "values": [
-        {
-          "name": "large",
-          "description": "A large hiatal hernia"
-        },
-        {
-          "name": "moderate",
-          "description": "A moderate hiatal hernia"
-        },
-        {
-          "name": "small",
-          "description": "A small hiatal hernia"
+[
+  {
+    "_id": "6543d9c34dce57a1316a670a",
+    "name": "hiatal hernia",
+    "description": "A condition in which part of the stomach pushes up through the diaphragm muscle",
+    "codes": [
+      {
+        "system": "RADLEX",
+        "code": "RID4897",
+        "display": "hiatal hernia"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "84089009",
+        "display": "Hiatal hernia (disorder)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "size",
+        "description": "The size of the hiatal hernia",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "246115007",
+            "display": "Size (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "large",
+            "description": "A large hiatal hernia",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5778",
+                "display": "large"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255509001",
+                "display": "Large (qualifier value"
+              }
+            ]
+          },
+          {
+            "name": "moderate",
+            "description": "A moderate hiatal hernia",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5672",
+                "display": "moderate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1255665007",
+                "display": "Moderate (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "small",
+            "description": "A small hiatal hernia",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5774",
+                "display": "small"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255507004",
+                "display": "Small (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "contents",
+        "description": "The contents of the hiatal hernia",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID5956",
+            "display": "contents"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "276824008",
+            "display": "Contents (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "fluid-filled",
+            "description": "The hernia contains fluid",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID35228",
+                "display": "fluid-filled level"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "93457003",
+                "display": "Fluid-filled abdomen (disorder)"
+              }
+            ]
+          },
+          {
+            "name": "patulous",
+            "description": "The hernia is dilated and filled with air or fluid",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5896",
+                "display": "patulous"
+              }
+            ]
+          },
+          {
+            "name": "empty",
+            "description": "The hernia does not contain fluid or air",
+            "codes": []
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "type",
+        "description": "The type of the hiatal hernia",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "410656007",
+            "display": "Type (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "sliding",
+            "description": "A sliding hiatal hernia; synonym type 1",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5922",
+                "display": "sliding"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "7988003",
+                "display": "Sliding (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "rolling",
+            "description": "A paraesophageal hiatal hernia; synonym type 2",
+            "codes": []
+          },
+          {
+            "name": "compound",
+            "description": "A mixed or compound hiatal hernia; synonyms mixed or type 3",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "62105006",
+                "display": "Compound (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "complex",
+            "description": "A mixed or compound hiatal hernia involving other viscera; synonym type 4",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5757",
+                "display": "complex"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "103360007",
+                "display": "Complex (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": [
+      {
+        "report_text": "Small hiatal hernia with patulous esophagus.",
+        "observation": {
+          "finding_name": "hiatal_hernia",
+          "attributes": [
+            {
+              "attribute": "size",
+              "value": "small",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5774",
+                  "display": "small"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255507004",
+                  "display": "Small (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "contents",
+              "value": "patulous",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5896",
+                  "display": "patulous"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "contents",
-      "description": "The contents of the hiatal hernia",
-      "type": "choice",
-      "values": [
-        {
-          "name": "fluid-filled",
-          "description": "The hernia contains fluid"
-        },
-        {
-          "name": "patulous",
-          "description": "The hernia is dilated and filled with air or fluid"
-        },
-        {
-          "name": "empty",
-          "description": "The hernia does not contain fluid or air"
+      },
+      {
+        "report_text": "A large hiatal hernia with fluid level in the upper esophagus.",
+        "observation": {
+          "finding_name": "hiatal_hernia",
+          "attributes": [
+            {
+              "attribute": "size",
+              "value": "large",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5778",
+                  "display": "large"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255509001",
+                  "display": "Large (qualifier value"
+                }
+              ]
+            },
+            {
+              "attribute": "contents",
+              "value": "fluid-filled",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID35228",
+                  "display": "fluid-filled level"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "93457003",
+                  "display": "Fluid-filled abdomen (disorder)"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "type",
-      "description": "The type of the hiatal hernia",
-      "type": "choice",
-      "values": [
-        {
-          "name": "sliding",
-          "description": "A sliding hiatal hernia; synonym type 1"
-        },
-        {
-          "name": "rolling",
-          "description": "A paraesophageal hiatal hernia; synonym type 2"
-        },
-        {
-          "name": "compound",
-          "description": "A mixed or compound hiatal hernia; synonyms mixed or type 3"
-        },
-        {
-          "name": "complex",
-          "description": "A mixed or compound hiatal hernia involving other viscera; synonym type 4"
+      },
+      {
+        "report_text": "Large mixed hiatal hernia.",
+        "observation": {
+          "finding_name": "hiatal_hernia",
+          "attributes": [
+            {
+              "attribute": "size",
+              "value": "large",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5778",
+                  "display": "large"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255509001",
+                  "display": "Large (qualifier value"
+                }
+              ]
+            },
+            {
+              "attribute": "type",
+              "value": "compound",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "62105006",
+                  "display": "Compound (qualifier value)"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "required": false
-    }
-  ],
-  "examples": [
-    {
-      "report_text": "Small hiatal hernia with patulous esophagus.",
-      "observation": {
-        "finding_name": "hiatal_hernia",
-        "attributes": [
-          {
-            "attribute": "size",
-            "value": "small"
-          },
-          {
-            "attribute": "contents",
-            "value": "patulous"
-          }
-        ]
+      },
+      {
+        "report_text": " Large sliding and paraesophageal hiatal hernia with no findings of gastric volvulus.",
+        "observation": {
+          "finding_name": "hiatal_hernia",
+          "attributes": [
+            {
+              "attribute": "size",
+              "value": "large",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5778",
+                  "display": "large"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255509001",
+                  "display": "Large (qualifier value"
+                }
+              ]
+            },
+            {
+              "attribute": "type",
+              "value": "compound",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "62105006",
+                  "display": "Compound (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
       }
-    },
-    {
-      "report_text": "A large hiatal hernia with fluid level in the upper esophagus.",
-      "observation": {
-        "finding_name": "hiatal_hernia",
-        "attributes": [
-          {
-            "attribute": "size",
-            "value": "large"
-          },
-          {
-            "attribute": "contents",
-            "value": "fluid-filled"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Large mixed hiatal hernia.",
-      "observation": {
-        "finding_name": "hiatal_hernia",
-        "attributes": [
-          {
-            "attribute": "size",
-            "value": "large"
-          },
-          {
-            "attribute": "type",
-            "value": "compound"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": " Large sliding and paraesophageal hiatal hernia with no findings of gastric volvulus.",
-      "observation": {
-        "finding_name": "hiatal_hernia",
-        "attributes": [
-          {
-            "attribute": "size",
-            "value": "large"
-          },
-          {
-            "attribute": "type",
-            "value": "compound"
-          }
-        ]
-      }
-    }
-  ]
-}
+    ]
+  }
+]

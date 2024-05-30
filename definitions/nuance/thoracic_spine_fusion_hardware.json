@@ -1,92 +1,321 @@
-{
-  "_id": "6597071aad97525a9be7d43f",
-  "name": "thoracic spine fusion hardware",
-  "description": "A thoracic spine fusion hardware is a device used to treat spinal disorders. It is used to stabilize the spine and promote fusion between two or more vertebrae.",
-  "attributes": [
-    {
-      "name": "location",
-      "description": "The level of the spine where the fusion hardware is placed",
-      "type": "choice",
-      "values": [
-        {
-          "name": "cervical",
-          "description": "Neck region of the spine"
-        },
-        {
-          "name": "thoracic",
-          "description": "Mid-back region of the spine"
-        },
-        {
-          "name": "lumbar",
-          "description": "Lower back region of the spine"
-        },
-        {
-          "name": "sacral",
-          "description": "Bottom of the spine"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "status",
-      "description": "The condition of the hardware",
-      "type": "choice",
-      "values": [
-        {
-          "name": "intact",
-          "description": "No signs of failure or damage"
-        },
-        {
-          "name": "discontinuity",
-          "description": "Signs of failure or damage"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "position",
-      "description": "The orientation of the hardware in the spine",
-      "type": "choice",
-      "values": [
-        {
-          "name": "anterior",
-          "description": "Front of the spine"
-        },
-        {
-          "name": "posterior",
-          "description": "Back of the spine"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "device",
-      "description": "Type of hardware device used in the fusion",
-      "type": "choice",
-      "values": [
-        {
-          "name": "screws",
-          "description": "A type of hardware used to secure the fusion"
-        },
-        {
-          "name": "rods",
-          "description": "A type of hardware used to stabilize the spine"
-        },
-        {
-          "name": "spacer",
-          "description": "A device used to maintain the space between vertebrae"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "number_of_vertebral_level",
-      "description": "The number of vertebral levels involved in the fusion",
-      "type": "numeric",
-      "minimum": 1.0,
-      "maximum": null,
-      "required": false
-    }
-  ],
-  "examples": null
-}
+[
+  {
+    "_id": "6597071aad97525a9be7d43f",
+    "name": "thoracic spine fusion hardware",
+    "description": "A thoracic spine fusion hardware is a device used to treat spinal disorders. It is used to stabilize the spine and promote fusion between two or more vertebrae.",
+    "codes": [
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID7741",
+        "display": "spine"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID34572",
+        "display": "thoracic vertebral column"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "122495006",
+        "display": "Structure of thoracic vertebral column (body structure)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID3800",
+        "display": "fusion"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "122501008",
+        "display": "Fusion procedure (procedure)"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "761960006",
+        "display": "Orthopedic hardware in situ (finding)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "location",
+        "description": "The level of the spine where the fusion hardware is placed",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "cervical",
+            "description": "Neck region of the spine",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1032",
+                "display": "cervical vertebra"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID34571",
+                "display": "cervical vertebral column"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID29155",
+                "display": "cervical vertebra"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013611",
+                "display": "cervical vertebral column"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "84667006",
+                "display": "Bone structure of cervical vertebra (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "thoracic",
+            "description": "Mid-back region of the spine",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1059",
+                "display": "thoracic vertebra"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID34572",
+                "display": "thoracic vertebral column"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID7390",
+                "display": "thoracic column"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015441",
+                "display": "thoracic vertebral column"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "35769007",
+                "display": "Bone structure of thoracic vertebra (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "lumbar",
+            "description": "Lower back region of the spine",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1068",
+                "display": "lumbar vertebra"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID34573",
+                "display": "lumbar vertebral column"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID29157",
+                "display": "lumbar vertebra"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014468",
+                "display": "lumbar vertebral column"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "73903008",
+                "display": "Bone structure of lumbar vertebra (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "sacral",
+            "description": "Bottom of the spine",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1071",
+                "display": "sacral vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID29158",
+                "display": "sacral vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "87141009",
+                "display": "Sacral vertebra structure (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "status",
+        "description": "The condition of the hardware",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "263490005",
+            "display": "Status (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "intact",
+            "description": "No signs of failure or damage",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39115",
+                "display": "intact"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "11163003",
+                "display": "Intact (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "discontinuity",
+            "description": "Signs of failure or damage",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "421286000",
+                "display": "Discontinue - dosing instruction imperative (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "position",
+        "description": "The orientation of the hardware in the spine",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "246268007",
+            "display": "Position (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "anterior",
+            "description": "Front of the spine",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5818",
+                "display": "anterior"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255549009",
+                "display": "Anterior (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "posterior",
+            "description": "Back of the spine",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5819",
+                "display": "posterior"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255551008",
+                "display": "Posterior (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "device",
+        "description": "Type of hardware device used in the fusion",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "49062001",
+            "display": "Device (physical object)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "screws",
+            "description": "A type of hardware used to secure the fusion",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5477",
+                "display": "orthopedic screw"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "705749009",
+                "display": "Screw (physical object)"
+              }
+            ]
+          },
+          {
+            "name": "rods",
+            "description": "A type of hardware used to stabilize the spine",
+            "codes": []
+          },
+          {
+            "name": "spacer",
+            "description": "A device used to maintain the space between vertebrae",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "243135003",
+                "display": "Spacer (physical object)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "number_of_vertebral_level",
+        "description": "The number of vertebral levels involved in the fusion",
+        "codes": [],
+        "type": "numeric",
+        "minimum": 1.0,
+        "maximum": null,
+        "required": false
+      }
+    ],
+    "examples": null
+  }
+]

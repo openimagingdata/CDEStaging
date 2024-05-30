@@ -1,88 +1,362 @@
-{
-  "_id": "65428e5e4dce57a1316a6709",
-  "name": "liver or spleen granuloma",
-  "description": "A small area of inflammation due to tissue injury, most often caused by an infection, in the liver or spleen",
-  "attributes": [
-    {
-      "name": "location",
-      "description": "The location of the granuloma within the organ",
-      "type": "choice",
-      "values": [
-        {
-          "name": "liver",
-          "description": "Granuloma located in the liver"
-        },
-        {
-          "name": "spleen",
-          "description": "Granuloma located in the spleen"
-        },
-        {
-          "name": "right hepatic lobe",
-          "description": "Granuloma located in the right lobe of the liver"
-        },
-        {
-          "name": "hepatic dome",
-          "description": "Granuloma located in the dome of the liver"
-        },
-        {
-          "name": "upper pole of the spleen",
-          "description": "Granuloma located in the upper pole of the spleen"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "characteristics",
-      "description": "The characteristics of the granuloma",
-      "type": "choice",
-      "values": [
-        {
-          "name": "calcified",
-          "description": "The granuloma has become hardened due to the deposition of calcium salts"
-        },
-        {
-          "name": "unchanged",
-          "description": "The granuloma has not changed in size or appearance since the last examination"
-        },
-        {
-          "name": "small",
-          "description": "The granuloma is small in size"
-        },
-        {
-          "name": "scattered",
-          "description": "The granulomas are spread out within the organ"
-        },
-        {
-          "name": "multiple",
-          "description": "There are multiple granulomas present within the organ"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "size",
-      "description": "The size of the granuloma",
-      "type": "numeric",
-      "minimum": 0,
-      "maximum": 100,
-      "required": false
-    },
-    {
-      "name": "disease",
-      "description": "The underlying disease process that caused the granuloma",
-      "type": "choice",
-      "values": [
-        {
-          "name": "prior granulomatous disease",
-          "description": "The granuloma is a sequela of a prior granulomatous disease"
-        },
-        {
-          "name": "postinflammatory",
-          "description": "The granuloma is a result of a previous inflammatory process"
-        }
-      ],
-      "required": false
-    }
-  ],
-  "examples": null
-}
+[
+  {
+    "_id": "65428e5e4dce57a1316a6709",
+    "name": "liver or spleen granuloma",
+    "description": "A small area of inflammation due to tissue injury, most often caused by an infection, in the liver or spleen",
+    "codes": [
+      {
+        "system": "TA2",
+        "code": "3023",
+        "display": "liver"
+      },
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID58",
+        "display": "liver"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID58",
+        "display": "liver"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4014450",
+        "display": "liver"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "10200004",
+        "display": "Liver structure (body structure)"
+      },
+      {
+        "system": "TA2",
+        "code": "5159",
+        "display": "spleen"
+      },
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID86",
+        "display": "spleen"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID86",
+        "display": "spleen"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4015270",
+        "display": "spleen"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "78961009",
+        "display": "Splenic structure (body structure)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID3953",
+        "display": "granuloma"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "45647009",
+        "display": "Granuloma (morphologic abnormality)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "location",
+        "description": "The location of the granuloma within the organ",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "liver",
+            "description": "Granuloma located in the liver",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3023",
+                "display": "liver"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID58",
+                "display": "liver"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID58",
+                "display": "liver"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014450",
+                "display": "liver"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "10200004",
+                "display": "Liver structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "spleen",
+            "description": "Granuloma located in the spleen",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "5159",
+                "display": "spleen"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID86",
+                "display": "spleen"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID86",
+                "display": "spleen"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015270",
+                "display": "spleen"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "78961009",
+                "display": "Splenic structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "right hepatic lobe",
+            "description": "Granuloma located in the right lobe of the liver",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3049",
+                "display": "right lobe of liver"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID74",
+                "display": "right lobe of liver"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID74",
+                "display": "right lobe of liver"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015010",
+                "display": "right lobe of liver"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "48521005",
+                "display": "Structure of right lobe of liver (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "hepatic dome",
+            "description": "Granuloma located in the dome of the liver",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID85",
+                "display": "dome of liver"
+              },
+              {
+                "system": "TA2",
+                "code": "3024",
+                "display": "diaphragmatic surface of liver"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "45306004",
+                "display": "Structure of diaphragmatic aspect of liver (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "upper pole of the spleen",
+            "description": "Granuloma located in the upper pole of the spleen",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "5169",
+                "display": "superior border of the spleen"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID33535",
+                "display": "upper pole of the spleen"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "245375002",
+                "display": "structure of upper pole of spleen (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "characteristics",
+        "description": "The characteristics of the granuloma",
+        "codes": [],
+        "type": "choice",
+        "values": [
+          {
+            "name": "calcified",
+            "description": "The granuloma has become hardened due to the deposition of calcium salts",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5747",
+                "display": "calcified"
+              }
+            ]
+          },
+          {
+            "name": "unchanged",
+            "description": "The granuloma has not changed in size or appearance since the last examination",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39268",
+                "display": "unchanged"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "260388006",
+                "display": "No status change (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "small",
+            "description": "The granuloma is small in size",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5774",
+                "display": "small"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255507004",
+                "display": "Small (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "scattered",
+            "description": "The granulomas are spread out within the organ",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5705",
+                "display": "scattered"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255393008",
+                "display": "Scattered (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "multiple",
+            "description": "There are multiple granulomas present within the organ",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5765",
+                "display": "multiple"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255204007",
+                "display": "Multiple (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "size",
+        "description": "The size of the granuloma",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "246115007",
+            "display": "Size (attribute)"
+          }
+        ],
+        "type": "numeric",
+        "minimum": 0,
+        "maximum": 100,
+        "required": false
+      },
+      {
+        "name": "disease",
+        "description": "The underlying disease process that caused the granuloma",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "64572001",
+            "display": "Disease (disorder)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "prior granulomatous disease",
+            "description": "The granuloma is a sequela of a prior granulomatous disease",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID34787",
+                "display": "granulomatous disease"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "128561003",
+                "display": "Disorder characterized by granuloma formation (disorder)"
+              }
+            ]
+          },
+          {
+            "name": "postinflammatory",
+            "description": "The granuloma is a result of a previous inflammatory process",
+            "codes": []
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": null
+  }
+]

@@ -1,249 +1,841 @@
-{
-  "_id": "652d7f32d352a4d3ffcfd2de",
-  "name": "calcified pulmonary granuloma",
-  "description": "A small, benign calcified lesion in the lungs typically resulting from previous infection or inflammation",
-  "attributes": [
-    {
-      "name": "multiplicity",
-      "description": "Whether there is one or more than one granuloma in the lungs",
-      "type": "choice",
-      "values": [
-        {
-          "name": "single",
-          "description": "A single granuloma"
-        },
-        {
-          "name": "multiple",
-          "description": "Multiple granulomas (or granulomata)"
+[
+  {
+    "_id": "652d7f32d352a4d3ffcfd2de",
+    "name": "calcified pulmonary granuloma",
+    "description": "A small, benign calcified lesion in the lungs typically resulting from previous infection or inflammation",
+    "codes": [
+      {
+        "system": "RADLEX",
+        "code": "RID5747",
+        "display": "calcified"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID3953",
+        "display": "granuloma"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "multiplicity",
+        "description": "Whether there is one or more than one granuloma in the lungs",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "263648007",
+            "display": "Multiplicity (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "single",
+            "description": "A single granuloma",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5762",
+                "display": "single"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "50607009",
+                "display": "Singular (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "multiple",
+            "description": "Multiple granulomas (or granulomata)",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5765",
+                "display": "multiple"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255204007",
+                "display": "Multiple (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "size",
+        "description": "The diameter of the calcified granuloma in the lungs, in millimeters",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "246115007",
+            "display": "Size (attribute)"
+          }
+        ],
+        "type": "numeric",
+        "minimum": 0,
+        "maximum": 10,
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "The anatomical region of the calcified granuloma in the lungs",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "right upper lobe",
+            "description": "Upper section of the right lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3284"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1303",
+                "display": "upper lobe of right lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1303",
+                "display": "upper lobe of right lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015504",
+                "display": "upper lobe of right lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "42400003",
+                "display": "Structure of upper lobe of right lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "right lower lobe",
+            "description": "Lower section of the right lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3293"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1315",
+                "display": "lower lobe of right lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1315",
+                "display": "lower lobe of right lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014462",
+                "display": "lower lobe of right lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "266005",
+                "display": "Structure of lower lobe of right lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left upper lobe",
+            "description": "Upper section of the left lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3300"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1327",
+                "display": "upper lobe of left lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1327",
+                "display": "upper lobe of left lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015503",
+                "display": "upper lobe of left lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "44714003",
+                "display": "Structure of upper lobe of left lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left lower lobe",
+            "description": "Lower section of the left lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3308"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1338",
+                "display": "lower lobe of left lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1338",
+                "display": "lower lobe of left lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014461",
+                "display": "lower lobe of left lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "41224006",
+                "display": "Structure of lower lobe of left lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "right middle lobe",
+            "description": "Middle section of the right lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3289"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1310",
+                "display": "middle lobe of right lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1310",
+                "display": "middle lobe of right lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014565",
+                "display": "middle lobe of right lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "72481006",
+                "display": "Structure of middle lobe of right lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "lingula",
+            "description": "Lingula of the left lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3304"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1333",
+                "display": "lingula"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1333",
+                "display": "lingula"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014449",
+                "display": "lingula"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "50837003",
+                "display": "Structure of lingula of left lung (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "change",
+        "description": "Indicates whether the calcified granuloma has changed in size or appearance",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "263703002",
+            "display": "Changed status (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "unchanged",
+            "description": "No changes in size or appearance of the granuloma",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39268",
+                "display": "unchanged"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "260388006",
+                "display": "No status change (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "new",
+            "description": "New granuloma",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5720",
+                "display": "new"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "7147002",
+                "display": "New (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "enlarging",
+            "description": "Existing granuloma is increasing in size",
+            "codes": []
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": [
+      {
+        "report_text": "Stable calcified granuloma in the left lower lobe. Airways remain clear.",
+        "observation": {
+          "finding_name": "calcified_pulmonary_granuloma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "single",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5762",
+                  "display": "single"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "50607009",
+                  "display": "Singular (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "left lower lobe",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3308"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1338",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1338",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4014461",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "41224006",
+                  "display": "Structure of lower lobe of left lung (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "change",
+              "value": "unchanged",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID39268",
+                  "display": "unchanged"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "260388006",
+                  "display": "No status change (qualifier value)"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "size",
-      "description": "The diameter of the calcified granuloma in the lungs, in millimeters",
-      "type": "numeric",
-      "minimum": 0,
-      "maximum": 10,
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "The anatomical region of the calcified granuloma in the lungs",
-      "type": "choice",
-      "values": [
-        {
-          "name": "right upper lobe",
-          "description": "Upper section of the right lung"
-        },
-        {
-          "name": "right lower lobe",
-          "description": "Lower section of the right lung"
-        },
-        {
-          "name": "left upper lobe",
-          "description": "Upper section of the left lung"
-        },
-        {
-          "name": "left lower lobe",
-          "description": "Lower section of the left lung"
-        },
-        {
-          "name": "right middle lobe",
-          "description": "Middle section of the right lung"
-        },
-        {
-          "name": "lingula",
-          "description": "Lingula of the left lung"
+      },
+      {
+        "report_text": "calcified granuloma. Right lower lobe dense: Right basilar  scarring/atelectasis. The central airways are clear.",
+        "observation": {
+          "finding_name": "calcified_pulmonary_granuloma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "single",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5762",
+                  "display": "single"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "50607009",
+                  "display": "Singular (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "right lower lobe",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3293"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1315",
+                  "display": "lower lobe of right lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1315",
+                  "display": "lower lobe of right lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4014462",
+                  "display": "lower lobe of right lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "266005",
+                  "display": "Structure of lower lobe of right lung (body structure)"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "change",
-      "description": "Indicates whether the calcified granuloma has changed in size or appearance",
-      "type": "choice",
-      "values": [
-        {
-          "name": "unchanged",
-          "description": "No changes in size or appearance of the granuloma"
-        },
-        {
-          "name": "new",
-          "description": "New granuloma"
-        },
-        {
-          "name": "enlarging",
-          "description": "Existing granuloma is increasing in size"
+      },
+      {
+        "report_text": "Unchanged calcified granulomas including a 4 mm calcified subpleural right upper lobe nodule, 2:52.",
+        "observation": {
+          "finding_name": "calcified_pulmonary_granuloma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5765",
+                  "display": "multiple"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255204007",
+                  "display": "Multiple (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "size",
+              "value": 4,
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "246115007",
+                  "display": "Size (attribute)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "right upper lobe",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3284"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1303",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1303",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4015504",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "42400003",
+                  "display": "Structure of upper lobe of right lung (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "change",
+              "value": "unchanged",
+              "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39268",
+                "display": "unchanged"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "260388006",
+                "display": "No status change (qualifier value)"
+              }
+            ]
+            }
+          ]
         }
-      ],
-      "required": false
-    }
-  ],
-  "examples": [
-    {
-      "report_text": "Stable calcified granuloma in the left lower lobe. Airways remain clear.",
-      "observation": {
-        "finding_name": "calcified_pulmonary_granuloma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "single"
-          },
-          {
-            "attribute": "location",
-            "value": "left lower lobe"
-          },
-          {
-            "attribute": "change",
-            "value": "unchanged"
-          }
-        ]
+      },
+      {
+        "report_text": "or underlying smoking-related fibrosis. There are calcified granulomas in the lungs, for example in the left lower lobe, 4:61.",
+        "observation": {
+          "finding_name": "calcified_pulmonary_granuloma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5765",
+                  "display": "multiple"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255204007",
+                  "display": "Multiple (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "left lower lobe",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3308"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1338",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1338",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4014461",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "41224006",
+                  "display": "Structure of lower lobe of left lung (body structure)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "are calcified granulomas in the lungs.",
+        "observation": {
+          "finding_name": "calcified_pulmonary_granuloma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5765",
+                  "display": "multiple"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255204007",
+                  "display": "Multiple (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Calcified granuloma in the left lower lobe. No new suspicious pulmonary nodules detected.",
+        "observation": {
+          "finding_name": "calcified_pulmonary_granuloma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "single",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5762",
+                  "display": "single"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "50607009",
+                  "display": "Singular (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "left lower lobe",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3308"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1338",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1338",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4014461",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "41224006",
+                  "display": "Structure of lower lobe of left lung (body structure)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "calcified granulomas. Unchanged irregular pulmonary nodule in the right upper lobe measuring 0.8 x 0.5 cm (4:88). No new suspicious pulmonary nodule.",
+        "observation": {
+          "finding_name": "calcified_pulmonary_granuloma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5765",
+                  "display": "multiple"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255204007",
+                  "display": "Multiple (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "since February 2021. There is a 4 mm calcified granuloma in the left lower lobe. No new or enlarging pulmonary nodules or masses. No evidence of pulmonary embolism or consolidation.",
+        "observation": {
+          "finding_name": "calcified_pulmonary_granuloma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "single",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5762",
+                  "display": "single"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "50607009",
+                  "display": "Singular (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "size",
+              "value": 4,
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "246115007",
+                  "display": "Size (attribute)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "left lower lobe",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3308"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1338",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1338",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4014461",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "41224006",
+                  "display": "Structure of lower lobe of left lung (body structure)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Lungs: Small calcified granuloma in the right lower lobe (4:82). Status post left upper lobectomy.",
+        "observation": {
+          "finding_name": "calcified_pulmonary_granuloma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "single",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5762",
+                  "display": "single"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "50607009",
+                  "display": "Singular (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "right lower lobe",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3293"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1315",
+                  "display": "lower lobe of right lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1315",
+                  "display": "lower lobe of right lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4014462",
+                  "display": "lower lobe of right lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "266005",
+                  "display": "Structure of lower lobe of right lung (body structure)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "small calcified pulmonary granulomata scattered throughout both lungs. Emphysema.",
+        "observation": {
+          "finding_name": "calcified_pulmonary_granuloma",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5765",
+                  "display": "multiple"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255204007",
+                  "display": "Multiple (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
       }
-    },
-    {
-      "report_text": "calcified granuloma. Right lower lobe dense: Right basilar  scarring/atelectasis. The central airways are clear.",
-      "observation": {
-        "finding_name": "calcified_pulmonary_granuloma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "single"
-          },
-          {
-            "attribute": "location",
-            "value": "right lower lobe"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Unchanged calcified granulomas including a 4 mm calcified subpleural right upper lobe nodule, 2:52.",
-      "observation": {
-        "finding_name": "calcified_pulmonary_granuloma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          },
-          {
-            "attribute": "size",
-            "value": 4
-          },
-          {
-            "attribute": "location",
-            "value": "right upper lobe"
-          },
-          {
-            "attribute": "change",
-            "value": "unchanged"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "or underlying smoking-related fibrosis. There are calcified granulomas in the lungs, for example in the left lower lobe, 4:61.",
-      "observation": {
-        "finding_name": "calcified_pulmonary_granuloma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          },
-          {
-            "attribute": "location",
-            "value": "left lower lobe"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "are calcified granulomas in the lungs.",
-      "observation": {
-        "finding_name": "calcified_pulmonary_granuloma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Calcified granuloma in the left lower lobe. No new suspicious pulmonary nodules detected.",
-      "observation": {
-        "finding_name": "calcified_pulmonary_granuloma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "single"
-          },
-          {
-            "attribute": "location",
-            "value": "left lower lobe"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "calcified granulomas. Unchanged irregular pulmonary nodule in the right upper lobe measuring 0.8 x 0.5 cm (4:88). No new suspicious pulmonary nodule.",
-      "observation": {
-        "finding_name": "calcified_pulmonary_granuloma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "since February 2021. There is a 4 mm calcified granuloma in the left lower lobe. No new or enlarging pulmonary nodules or masses. No evidence of pulmonary embolism or consolidation.",
-      "observation": {
-        "finding_name": "calcified_pulmonary_granuloma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "single"
-          },
-          {
-            "attribute": "size",
-            "value": 4
-          },
-          {
-            "attribute": "location",
-            "value": "left lower lobe"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Lungs: Small calcified granuloma in the right lower lobe (4:82). Status post left upper lobectomy.",
-      "observation": {
-        "finding_name": "calcified_pulmonary_granuloma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "single"
-          },
-          {
-            "attribute": "location",
-            "value": "right lower lobe"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "small calcified pulmonary granulomata scattered throughout both lungs. Emphysema.",
-      "observation": {
-        "finding_name": "calcified_pulmonary_granuloma",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          }
-        ]
-      }
-    }
-  ]
-}
+    ]
+  }
+]

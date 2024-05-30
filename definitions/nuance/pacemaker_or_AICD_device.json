@@ -1,153 +1,385 @@
-{
-  "_id": "653044e51359fa810f7deb28",
-  "name": "pacemaker or AICD device",
-  "description": "An implantable electronic device that can help regulate the heartbeat, either by sending electrical impulses to the heart to maintain a regular beat, or by monitoring the heart's activity and delivering a shock to restore a normal rhythm if necessary",
-  "attributes": [
-    {
-      "name": "type",
-      "description": "The specific type of device",
-      "type": "choice",
-      "values": [
-        {
-          "name": "pacemaker",
-          "description": "An electronic device that helps regulate the heart's rhythm"
-        },
-        {
-          "name": "AICD",
-          "description": "Automated Implantable Cardioverter Defibrillator, a device that monitors heart activity and delivers a shock if necessary"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "The location of the device",
-      "type": "choice",
-      "values": [
-        {
-          "name": "left chest wall",
-          "description": "The device is located in the left chest wall"
-        },
-        {
-          "name": "right chest wall",
-          "description": "The device is located in the right chest wall"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "chambers",
-      "description": "The number of heart chambers the device interacts with",
-      "type": "choice",
-      "values": [
-        {
-          "name": "dual chamber",
-          "description": "The device interacts with both the atrium and the ventricle"
-        },
-        {
-          "name": "single chamber",
-          "description": "The device interacts with either the atrium or the ventricle"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "lead position",
-      "description": "The location where the leads from the device are positioned",
-      "type": "choice",
-      "values": [
-        {
-          "name": "right atrium",
-          "description": "The leads from the device are positioned in the right atrium"
-        },
-        {
-          "name": "right ventricle",
-          "description": "The leads from the device are positioned in the right ventricle"
-        },
-        {
-          "name": "right atrium and right ventricle",
-          "description": "The leads from the device are positioned in the right atrium and right ventricle"
-        },
-        {
-          "name": "right atrium, right ventricle, and coronary sinus",
-          "description": "The leads from the device are positioned in the right atrium, right ventricle, and coronary sinus"
-        }
-      ],
-      "required": false
-    }
-  ],
-  "examples": [
-    {
-      "report_text": "Devices/Tubes/Lines: There is a dual-chamber pacemaker device in the left chest wall, its leads are in the right atrium and right ventricle.",
-      "observation": {
-        "finding_name": "pacemaker_or_AICD_device",
-        "attributes": [
-          {
-            "attribute": "type",
-            "value": "pacemaker"
-          },
-          {
-            "attribute": "location",
-            "value": "left chest wall"
-          },
-          {
-            "attribute": "chambers",
-            "value": "dual chamber"
-          },
-          {
-            "attribute": "lead_position",
-            "value": "right atrium and right ventricle"
-          }
-        ]
+[
+  {
+    "_id": "653044e51359fa810f7deb28",
+    "name": "pacemaker or AICD device",
+    "description": "An implantable electronic device that can help regulate the heartbeat, either by sending electrical impulses to the heart to maintain a regular beat, or by monitoring the heart's activity and delivering a shock to restore a normal rhythm if necessary",
+    "codes": [
+      {
+        "system": "RADLEX",
+        "code": "RID5436",
+        "display": "pace maker"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "14106009",
+        "display": "Cardiac pacemaker, device (physical object)"
       }
-    },
-    {
-      "report_text": "Devices/Tubes/Lines: Left pectoral pulse generator, with pacemaker lead in the right atrial appendage, and ICD leads in the right ventricle.   Lungs: Peripheral areas of mild bronchial wall thickening.",
-      "observation": {
-        "finding_name": "pacemaker_or_AICD_device",
-        "attributes": [
+    ],
+    "attributes": [
+      {
+        "name": "type",
+        "description": "The specific type of device",
+        "codes": [
           {
-            "attribute": "type",
-            "value": "pacemaker"
-          },
-          {
-            "attribute": "location",
-            "value": "left chest wall"
-          },
-          {
-            "attribute": "chambers",
-            "value": "dual chamber"
-          },
-          {
-            "attribute": "lead_position",
-            "value": "right atrium and right ventricle"
+            "system": "SNOMEDCT",
+            "code": "410656007",
+            "display": "Type (property) (qualifier value)"
           }
-        ]
-      }
-    },
-    {
-      "report_text": "COMPARISON: CT chest, abdomen/pelvis -----   FINDINGS:   CHEST:  Lines, Tubes and Devices: Left chest pacemaker with right atrial and right ventricular leads.",
-      "observation": {
-        "finding_name": "pacemaker_or_AICD_device",
-        "attributes": [
+        ],
+        "type": "choice",
+        "values": [
           {
-            "attribute": "type",
-            "value": "pacemaker"
+            "name": "pacemaker",
+            "description": "An electronic device that helps regulate the heart's rhythm",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5436",
+                "display": "pace maker"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "14106009",
+                "display": "Cardiac pacemaker, device (physical object)"
+              }
+            ]
           },
           {
-            "attribute": "location",
-            "value": "left chest wall"
-          },
-          {
-            "attribute": "chambers",
-            "value": "dual chamber"
-          },
-          {
-            "attribute": "lead_position",
-            "value": "right atrium and right ventricle"
+            "name": "AICD",
+            "description": "Automated Implantable Cardioverter Defibrillator, a device that monitors heart activity and delivers a shock if necessary",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5434",
+                "display": "automated implantable cardiac defibrillator"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "233169004",
+                "display": "Automatic defibrillator procedure (procedure)"
+              }
+            ]
           }
-        ]
+        ],
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "The location of the device",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "left chest wall",
+            "description": "The device is located in the left chest wall",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID29870",
+                "display": "left lateral chest wall"
+              }
+            ]
+          },
+          {
+            "name": "right chest wall",
+            "description": "The device is located in the right chest wall",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID29869",
+                "display": "right lateral chest wall"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "chambers",
+        "description": "The number of heart chambers the device interacts with",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID1386",
+            "display": "cardiac chamber"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "43487005",
+            "display": "All chambers of the heart (body structure)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "dual chamber",
+            "description": "The device interacts with both the atrium and the ventricle",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "443419000",
+                "display": "Dual chamber pulse generator, device (physical object)"
+              }
+            ]
+          },
+          {
+            "name": "single chamber",
+            "description": "The device interacts with either the atrium or the ventricle",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "443507006",
+                "display": "Single chamber pulse generator, device (physical object)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "lead position",
+        "description": "The location where the leads from the device are positioned",
+        "codes": [],
+        "type": "choice",
+        "values": [
+          {
+            "name": "right atrium",
+            "description": "The leads from the device are positioned in the right atrium",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "4022",
+                "display": "right atrium"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1387",
+                "display": "right atrium"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1387",
+                "display": "right atrium"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014877",
+                "display": "right atrium"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "73829009",
+                "display": "Right atrial structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "right ventricle",
+            "description": "The leads from the device are positioned in the right ventricle",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "4038",
+                "display": "right ventricle"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1389",
+                "display": "right ventricle"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1389",
+                "display": "right ventricle"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015197",
+                "display": "right ventricle"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "53085002",
+                "display": "Right cardiac ventricular structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "right atrium and right ventricle",
+            "description": "The leads from the device are positioned in the right atrium and right ventricle",
+            "codes": []
+          },
+          {
+            "name": "right atrium, right ventricle, and coronary sinus",
+            "description": "The leads from the device are positioned in the right atrium, right ventricle, and coronary sinus",
+            "codes": []
+          }
+        ],
+        "required": false
       }
-    }
-  ]
-}
+    ],
+    "examples": [
+      {
+        "report_text": "Devices/Tubes/Lines: There is a dual-chamber pacemaker device in the left chest wall, its leads are in the right atrium and right ventricle.",
+        "observation": {
+          "finding_name": "pacemaker_or_AICD_device",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "pacemaker",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5436",
+                  "display": "pace maker"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "14106009",
+                  "display": "Cardiac pacemaker, device (physical object)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "left chest wall",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID29870",
+                  "display": "left lateral chest wall"
+                }
+              ]
+            },
+            {
+              "attribute": "chambers",
+              "value": "dual chamber",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "443419000",
+                  "display": "Dual chamber pulse generator, device (physical object)"
+                }
+              ]
+            },
+            {
+              "attribute": "lead_position",
+              "value": "right atrium and right ventricle"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Devices/Tubes/Lines: Left pectoral pulse generator, with pacemaker lead in the right atrial appendage, and ICD leads in the right ventricle.   Lungs: Peripheral areas of mild bronchial wall thickening.",
+        "observation": {
+          "finding_name": "pacemaker_or_AICD_device",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "pacemaker",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5436",
+                  "display": "pace maker"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "14106009",
+                  "display": "Cardiac pacemaker, device (physical object)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "left chest wall",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID29870",
+                  "display": "left lateral chest wall"
+                }
+              ]
+            },
+            {
+              "attribute": "chambers",
+              "value": "dual chamber",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "443419000",
+                  "display": "Dual chamber pulse generator, device (physical object)"
+                }
+              ]
+            },
+            {
+              "attribute": "lead_position",
+              "value": "right atrium and right ventricle"
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "COMPARISON: CT chest, abdomen/pelvis -----   FINDINGS:   CHEST:  Lines, Tubes and Devices: Left chest pacemaker with right atrial and right ventricular leads.",
+        "observation": {
+          "finding_name": "pacemaker_or_AICD_device",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "pacemaker",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5436",
+                  "display": "pace maker"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "14106009",
+                  "display": "Cardiac pacemaker, device (physical object)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "left chest wall",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID29870",
+                  "display": "left lateral chest wall"
+                }
+              ]
+            },
+            {
+              "attribute": "chambers",
+              "value": "dual chamber",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "443419000",
+                  "display": "Dual chamber pulse generator, device (physical object)"
+                }
+              ]
+            },
+            {
+              "attribute": "lead_position",
+              "value": "right atrium and right ventricle"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

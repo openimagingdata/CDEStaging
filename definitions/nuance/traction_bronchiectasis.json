@@ -1,282 +1,899 @@
-{
-  "_id": "655a27c8f95487d3266ec297",
-  "name": "traction bronchiectasis",
-  "description": "A respiratory disorder characterized by an abnormal, irreversible dilation of the bronchi, often associated with chronic inflammation or infection. In the case of 'traction bronchiectasis', the dilation is caused by fibrosis pulling the bronchial walls apart.",
-  "attributes": [
-    {
-      "name": "location",
-      "description": "The anatomical region of the traction bronchiectasis",
-      "type": "choice",
-      "values": [
-        {
-          "name": "right lower lobe",
-          "description": "Right lower lobe of the lung"
-        },
-        {
-          "name": "left lower lobe",
-          "description": "Left lower lobe of the lung"
-        },
-        {
-          "name": "right upper lobe",
-          "description": "Right upper lobe of the lung"
-        },
-        {
-          "name": "left upper lobe",
-          "description": "Left upper lobe of the lung"
-        },
-        {
-          "name": "lingula",
-          "description": "Lingula of the lung, part of the left upper lobe"
-        },
-        {
-          "name": "right middle lobe",
-          "description": "Right middle lobe of the lung"
-        },
-        {
-          "name": "bilateral lungs",
-          "description": "Both lungs"
-        },
-        {
-          "name": "lower lungs",
-          "description": "Lower zones of both lungs; synonym bibasilar"
+[
+  {
+    "_id": "655a27c8f95487d3266ec297",
+    "name": "traction bronchiectasis",
+    "description": "A respiratory disorder characterized by an abnormal, irreversible dilation of the bronchi, often associated with chronic inflammation or infection. In the case of 'traction bronchiectasis', the dilation is caused by fibrosis pulling the bronchial walls apart.",
+    "codes": [
+      {
+        "system": "SNOMEDCT",
+        "code": "19325002",
+        "display": "Traction bronchiectasis (disorder)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "location",
+        "description": "The anatomical region of the traction bronchiectasis",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "right lower lobe",
+            "description": "Right lower lobe of the lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3293",
+                "display": "Inferior lobe of right lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1315",
+                "display": "lower lobe of right lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1315",
+                "display": "lower lobe of right lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015504",
+                "display": "lower lobe of right lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "266005",
+                "display": "Structure of lower lobe of right lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left lower lobe",
+            "description": "Left lower lobe of the lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3308",
+                "display": "Inferior lobe of left lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1338",
+                "display": "lower lobe of left lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1338",
+                "display": "lower lobe of left lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014461",
+                "display": "lower lobe of left lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "41224006",
+                "display": "Structure of lower lobe of left lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "right upper lobe",
+            "description": "Right upper lobe of the lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3284",
+                "display": "Superior lobe of right lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1303",
+                "display": "upper lobe of right lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1303",
+                "display": "upper lobe of right lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014461",
+                "display": "upper lobe of right lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "42400003",
+                "display": "Structure of upper lobe of right lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left upper lobe",
+            "description": "Left upper lobe of the lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3300",
+                "display": "Superior lobe of left lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1327",
+                "display": "upper lobe of left lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1327",
+                "display": "upper lobe of left lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015503",
+                "display": "upper lobe of left lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "44714003",
+                "display": "Structure of upper lobe of left lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "lingula",
+            "description": "Lingula of the lung, part of the left upper lobe",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3304",
+                "display": "Lingula of left lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1333",
+                "display": "lingula"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1333",
+                "display": "lingula"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014449",
+                "display": "lingula"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "50837003",
+                "display": "Structure of lingula of left lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "right middle lobe",
+            "description": "Right middle lobe of the lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3289",
+                "display": "Middle lobe of right lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1310",
+                "display": "middle lobe of right lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1310",
+                "display": "middle lobe of right lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014565",
+                "display": "middle lobe of right lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "72481006",
+                "display": "Structure of middle lobe of right lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "bilateral lungs",
+            "description": "Both lungs",
+            "codes": []
+          },
+          {
+            "name": "lower lungs",
+            "description": "Lower zones of both lungs; synonym bibasilar",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID34696",
+                "display": "lower lobe of lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "90572001",
+                "display": "Structure of lower lobe of lung (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "associated findings",
+        "description": "Other findings identified concurrently with the traction bronchiectasis",
+        "codes": [],
+        "type": "choice",
+        "values": [
+          {
+            "name": "scarring",
+            "description": "Scarring in the lung",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID3829",
+                "display": "scar"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "48677004",
+                "display": "Healing scar (morphologic abnormality)"
+              }
+            ]
+          },
+          {
+            "name": "atelectasis",
+            "description": "Collapsed or closed part of the lung; also called volume loss",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28493",
+                "display": "atelectasis"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "46621007",
+                "display": "Atelectasis (disorder)"
+              }
+            ]
+          },
+          {
+            "name": "consolidation",
+            "description": "Area of the lung tissue filled with liquid instead of air",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "9656002",
+                "display": "Consolidation (morphologic abnormality)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID43255",
+                "display": "Consolidation"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "change over time",
+        "description": "Change in the traction bronchiectasis compared to previous imaging",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID49896",
+            "display": "change"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "unchanged",
+            "description": "No significant change compared to prior imaging",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39268",
+                "display": "unchanged"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "260388006",
+                "display": "No status change (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "improved",
+            "description": "Improvement compared to prior imaging",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39105",
+                "display": "improved"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "385425000",
+                "display": "Improved (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "worsened",
+            "description": "Worsening compared to prior imaging",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "231877006",
+                "display": "Worse (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "new",
+            "description": "New finding compared to prior imaging",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5720",
+                "display": "new"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "7147002",
+                "display": "New (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "severity",
+        "description": "The severity of the traction bronchiectasis",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "246112005",
+            "display": "Severity (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "mild",
+            "description": "Mild",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5671",
+                "display": "mild"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255604002",
+                "display": "Mild (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "moderate",
+            "description": "Moderate",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5672",
+                "display": "moderate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1255665007",
+                "display": "Moderate (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "severe",
+            "description": "Severe",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5673",
+                "display": "severe"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "24484000",
+                "display": "Severe (severity modifier) (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": [
+      {
+        "report_text": "Subpleural reticulation accompanied by distal traction bronchiectasis. No signs of pulmonary embolism.",
+        "observation": {
+          "finding_name": "traction_bronchiectasis",
+          "attributes": []
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "associated findings",
-      "description": "Other findings identified concurrently with the traction bronchiectasis",
-      "type": "choice",
-      "values": [
-        {
-          "name": "scarring",
-          "description": "Scarring in the lung"
-        },
-        {
-          "name": "atelectasis",
-          "description": "Collapsed or closed part of the lung; also called volume loss"
-        },
-        {
-          "name": "consolidation",
-          "description": "Area of the lung tissue filled with liquid instead of air"
+      },
+      {
+        "report_text": "There is a new focus of consolidation causing traction bronchiectasis around a right apical bronchus.",
+        "observation": {
+          "finding_name": "traction_bronchiectasis",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "right upper lobe",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3284",
+                  "display": "Superior lobe of right lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1303",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1303",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4014461",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "42400003",
+                  "display": "Structure of upper lobe of right lung (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "associated_findings",
+              "value": "consolidation",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "9656002",
+                  "display": "Consolidation (morphologic abnormality)"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID43255",
+                  "display": "Consolidation"
+                }
+              ]
+            },
+            {
+              "attribute": "change_over_time",
+              "value": "new",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5720",
+                  "display": "new"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "7147002",
+                  "display": "New (qualifier value)"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "change over time",
-      "description": "Change in the traction bronchiectasis compared to previous imaging",
-      "type": "choice",
-      "values": [
-        {
-          "name": "unchanged",
-          "description": "No significant change compared to prior imaging"
-        },
-        {
-          "name": "improved",
-          "description": "Improvement compared to prior imaging"
-        },
-        {
-          "name": "worsened",
-          "description": "Worsening compared to prior imaging"
-        },
-        {
-          "name": "new",
-          "description": "New finding compared to prior imaging"
+      },
+      {
+        "report_text": "Extensive fibrotic changes noted in both lungs, along with traction bronchiectasis and honeycombing.",
+        "observation": {
+          "finding_name": "traction_bronchiectasis",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "bilateral lungs",
+              "codes": []
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "severity",
-      "description": "The severity of the traction bronchiectasis",
-      "type": "choice",
-      "values": [
-        {
-          "name": "mild",
-          "description": "Mild"
-        },
-        {
-          "name": "moderate",
-          "description": "Moderate"
-        },
-        {
-          "name": "severe",
-          "description": "Severe"
+      },
+      {
+        "report_text": "Extensive increase of fibrotic changes with traction bronchiectasis and honeycombing in both lungs.",
+        "observation": {
+          "finding_name": "traction_bronchiectasis",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "bilateral lungs",
+              "codes": []
+            },
+            {
+              "attribute": "change_over_time",
+              "value": "worsened",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "231877006",
+                  "display": "Worse (qualifier value)"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "required": false
-    }
-  ],
-  "examples": [
-    {
-      "report_text": "Subpleural reticulation accompanied by distal traction bronchiectasis. No signs of pulmonary embolism.",
-      "observation": {
-        "finding_name": "traction_bronchiectasis",
-        "attributes": []
+      },
+      {
+        "report_text": "Traction bronchiectasis visible in the right lower lobe, suggestive of fibrotic changes. No definite honeycombing noted.",
+        "observation": {
+          "finding_name": "traction_bronchiectasis",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "right lower lobe",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3293",
+                  "display": "Inferior lobe of right lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1315",
+                  "display": "lower lobe of right lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1315",
+                  "display": "lower lobe of right lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4015504",
+                  "display": "lower lobe of right lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "266005",
+                  "display": "Structure of lower lobe of right lung (body structure)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Mild traction bronchiectasis in the left lower lobe, possibly indicating early interstitial lung disease.",
+        "observation": {
+          "finding_name": "traction_bronchiectasis",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "left lower lobe",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3308",
+                  "display": "Inferior lobe of left lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1338",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1338",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4014461",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "41224006",
+                  "display": "Structure of lower lobe of left lung (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "severity",
+              "value": "mild",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5671",
+                  "display": "mild"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255604002",
+                  "display": "Mild (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "wall thickening. Traction bronchiectasis along the nondependent left upper lobe with associated peribronchial reticulation and minimal thickening (4:125), in similar distribution to prior, likely related to scarring from prior infectious or",
+        "observation": {
+          "finding_name": "traction_bronchiectasis",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "left upper lobe",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3304",
+                  "display": "Lingula of left lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1333",
+                  "display": "lingula"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1333",
+                  "display": "lingula"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4014449",
+                  "display": "lingula"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "50837003",
+                  "display": "Structure of lingula of left lung (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "associated_findings",
+              "value": "scarring",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID3829",
+                  "display": "scar"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "48677004",
+                  "display": "Healing scar (morphologic abnormality)"
+                }
+              ]
+            },
+            {
+              "attribute": "change_over_time",
+              "value": "unchanged",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID39268",
+                  "display": "unchanged"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "260388006",
+                  "display": "No status change (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "traction bronchiectasis. Associated rounded atelectases the stability right lower lobe mass (series 9 image 415).",
+        "observation": {
+          "finding_name": "traction_bronchiectasis",
+          "attributes": []
+        }
+      },
+      {
+        "report_text": "may be related to early interstitial lung disease. Central airways are patent. Bibasilar traction bronchiectasis.",
+        "observation": {
+          "finding_name": "traction_bronchiectasis",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "lower lungs",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID34696",
+                  "display": "lower lobe of lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "90572001",
+                  "display": "Structure of lower lobe of lung (body structure)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "There is a new focus of consolidation causing traction bronchiectasis around a right apical bronchus.",
+        "observation": {
+          "finding_name": "traction_bronchiectasis",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "right upper lobe",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3284",
+                  "display": "Superior lobe of right lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1303",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1303",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4014461",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "42400003",
+                  "display": "Structure of upper lobe of right lung (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "associated_findings",
+              "value": "consolidation",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "9656002",
+                  "display": "Consolidation (morphologic abnormality)"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID43255",
+                  "display": "Consolidation"
+                }
+              ]
+            },
+            {
+              "attribute": "change_over_time",
+              "value": "new",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5720",
+                  "display": "new"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "7147002",
+                  "display": "New (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "subpleural reticulation with areas of distal traction bronchiectasis. The central airways are clear.",
+        "observation": {
+          "finding_name": "traction_bronchiectasis",
+          "attributes": []
+        }
+      },
+      {
+        "report_text": "Significant traction bronchiectasis in the right upper lobe, with associated volume loss. No other abnormalities detected.",
+        "observation": {
+          "finding_name": "traction_bronchiectasis",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "right upper lobe",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3284",
+                  "display": "Superior lobe of right lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1303",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1303",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4014461",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "42400003",
+                  "display": "Structure of upper lobe of right lung (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "associated_findings",
+              "value": "atelectasis",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID28493",
+                  "display": "atelectasis"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "46621007",
+                  "display": "Atelectasis (disorder)"
+                }
+              ]
+            },
+            {
+              "attribute": "severity",
+              "value": "severe",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5673",
+                  "display": "severe"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "24484000",
+                  "display": "Severe (severity modifier) (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
       }
-    },
-    {
-      "report_text": "There is a new focus of consolidation causing traction bronchiectasis around a right apical bronchus.",
-      "observation": {
-        "finding_name": "traction_bronchiectasis",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "right upper lobe"
-          },
-          {
-            "attribute": "associated_findings",
-            "value": "consolidation"
-          },
-          {
-            "attribute": "change_over_time",
-            "value": "new"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Extensive fibrotic changes noted in both lungs, along with traction bronchiectasis and honeycombing.",
-      "observation": {
-        "finding_name": "traction_bronchiectasis",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "bilateral lungs"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Extensive increase of fibrotic changes with traction bronchiectasis and honeycombing in both lungs.",
-      "observation": {
-        "finding_name": "traction_bronchiectasis",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "bilateral lungs"
-          },
-          {
-            "attribute": "change_over_time",
-            "value": "worsened"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Traction bronchiectasis visible in the right lower lobe, suggestive of fibrotic changes. No definite honeycombing noted.",
-      "observation": {
-        "finding_name": "traction_bronchiectasis",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "right lower lobe"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Mild traction bronchiectasis in the left lower lobe, possibly indicating early interstitial lung disease.",
-      "observation": {
-        "finding_name": "traction_bronchiectasis",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "left lower lobe"
-          },
-          {
-            "attribute": "severity",
-            "value": "mild"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "wall thickening. Traction bronchiectasis along the nondependent left upper lobe with associated peribronchial reticulation and minimal thickening (4:125), in similar distribution to prior, likely related to scarring from prior infectious or",
-      "observation": {
-        "finding_name": "traction_bronchiectasis",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "left upper lobe"
-          },
-          {
-            "attribute": "associated_findings",
-            "value": "scarring"
-          },
-          {
-            "attribute": "change_over_time",
-            "value": "unchanged"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "traction bronchiectasis. Associated rounded atelectases the stability right lower lobe mass (series 9 image 415).",
-      "observation": {
-        "finding_name": "traction_bronchiectasis",
-        "attributes": []
-      }
-    },
-    {
-      "report_text": "may be related to early interstitial lung disease. Central airways are patent. Bibasilar traction bronchiectasis.",
-      "observation": {
-        "finding_name": "traction_bronchiectasis",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "lower lungs"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "There is a new focus of consolidation causing traction bronchiectasis around a right apical bronchus.",
-      "observation": {
-        "finding_name": "traction_bronchiectasis",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "right upper lobe"
-          },
-          {
-            "attribute": "associated_findings",
-            "value": "consolidation"
-          },
-          {
-            "attribute": "change_over_time",
-            "value": "new"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "subpleural reticulation with areas of distal traction bronchiectasis. The central airways are clear.",
-      "observation": {
-        "finding_name": "traction_bronchiectasis",
-        "attributes": []
-      }
-    },
-    {
-      "report_text": "Significant traction bronchiectasis in the right upper lobe, with associated volume loss. No other abnormalities detected.",
-      "observation": {
-        "finding_name": "traction_bronchiectasis",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "right upper lobe"
-          },
-          {
-            "attribute": "associated_findings",
-            "value": "atelectasis"
-          },
-          {
-            "attribute": "severity",
-            "value": "severe"
-          }
-        ]
-      }
-    }
-  ]
-}
+    ]
+  }
+]

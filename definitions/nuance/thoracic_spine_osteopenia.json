@@ -1,60 +1,188 @@
-{
-  "_id": "655a6937a34015ff13e07995",
-  "name": "thoracic spine osteopenia",
-  "description": "A decrease in bone density in the thoracic spine, which can lead to increased risk of fractures and degenerative changes",
-  "attributes": [
-    {
-      "name": "severity",
-      "description": "The extent of the osteopenia in relation to the normal bone density",
-      "type": "choice",
-      "values": [
-        {
-          "name": "mild",
-          "description": "Slight decrease in bone density"
-        },
-        {
-          "name": "moderate",
-          "description": "Moderate decrease in bone density"
-        },
-        {
-          "name": "diffuse",
-          "description": "Widespread decrease in bone density"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "associated conditions",
-      "description": "Other bone conditions associated with the osteopenia",
-      "type": "choice",
-      "values": [
-        {
-          "name": "degenerative changes",
-          "description": "Changes in the bone structure due to aging or wear and tear"
-        },
-        {
-          "name": "lytic lesions",
-          "description": "Areas of bone damage or loss"
-        },
-        {
-          "name": "blastic lesions",
-          "description": "Areas of excessive bone formation"
-        },
-        {
-          "name": "compression fractures",
-          "description": "Fractures caused by the bone collapsing due to weakened structure"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "The specific vertebrae affected by the osteopenia",
-      "type": "numeric",
-      "minimum": null,
-      "maximum": null,
-      "required": false
-    }
-  ],
-  "examples": null
-}
+[
+  {
+    "_id": "655a6937a34015ff13e07995",
+    "name": "thoracic spine osteopenia",
+    "description": "A decrease in bone density in the thoracic spine, which can lead to increased risk of fractures and degenerative changes",
+    "codes": [
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID7741",
+        "display": "spine"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID34572",
+        "display": "thoracic vertebral column"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4015269",
+        "display": "spine"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "122495006",
+        "display": "Structure of thoracic vertebral column (body structure)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID5388",
+        "display": "osteopenia"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "severity",
+        "description": "The extent of the osteopenia in relation to the normal bone density",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "246112005",
+            "display": "Severity (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "mild",
+            "description": "Slight decrease in bone density",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5671",
+                "display": "mild"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255604002",
+                "display": "Mild (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "moderate",
+            "description": "Moderate decrease in bone density",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5672",
+                "display": "moderate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1255665007",
+                "display": "Moderate (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "diffuse",
+            "description": "Widespread decrease in bone density",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5701",
+                "display": ""
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "19648000",
+                "display": "Diffuse (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "associated conditions",
+        "description": "Other bone conditions associated with the osteopenia",
+        "codes": [],
+        "type": "choice",
+        "values": [
+          {
+            "name": "degenerative changes",
+            "description": "Changes in the bone structure due to aging or wear and tear",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5043",
+                "display": "degenerative disorder"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "362975008",
+                "display": "Degenerative disorder (disorder)"
+              }
+            ]
+          },
+          {
+            "name": "lytic lesions",
+            "description": "Areas of bone damage or loss",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID45729",
+                "display": "lytic"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "441684001",
+                "display": "Lytic lesion of bone on X-ray (finding)"
+              }
+            ]
+          },
+          {
+            "name": "blastic lesions",
+            "description": "Areas of excessive bone formation",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID45724",
+                "display": "sclerotic"
+              }
+            ]
+          },
+          {
+            "name": "compression fractures",
+            "description": "Fractures caused by the bone collapsing due to weakened structure",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID4658",
+                "display": "compression fracture"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "443395009",
+                "display": " Compression fracture (disorder)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "The specific vertebrae affected by the osteopenia",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "numeric",
+        "minimum": null,
+        "maximum": null,
+        "required": false
+      }
+    ],
+    "examples": null
+  }
+]

@@ -1,71 +1,348 @@
-{
-  "_id": "TEMP",
-  "name": "kidney stone",
-  "description": "Renal calculi or nephrolithiasis, refers to a solid concretion or crystal aggregation formed in the kidney from substances found in urine. These stones can vary in size, composition, and location. Imaging modalities, assess the size, location, and characteristics of kidney stones, aiding in diagnosis.",
-  "attributes": [
-    {
-      "name": "presence",
-      "description": "This indicates whether kidney stone is present.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "absent",
-          "description": "This signifies no kidney stone is present."
-        },
-        {
-          "name": "present",
-          "description": "It suggests kidney stone is present."
-        },
-        {
-          "name": "indeterminate",
-          "description": "It suggests that it cannot be determined whether kidney stone is present."
-        },
-        {
-          "name": "unknown",
-          "description": "It represents uncertainty regarding the presence of kidney stone."
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "It indicates the anatomical region of the kidney stone.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "right kidney",
-          "description": "RID29662"
-        },
-        {
-          "name": "left kidney",
-          "description": "RID29663"
-        },
-        {
-          "name": "calyx of renal collecting system",
-          "description": "RID225"
-        },
-        {
-          "name": "kidney",
-          "description": "RID205"
-        },
-        {
-          "name": "ureter",
-          "description": "RID229"
-        },
-        {
-          "name": "right ureter",
-          "description": "RID30844"
-        },
-        {
-          "name": "left urete",
-          "description": "RID30845"
-        },
-        {
-          "name": "renal pelvis",
-          "description": "RID228"
-        }
-      ],
-      "required": false
-    }
-  ]
-}
+[
+  {
+    "_id": "TEMP",
+    "name": "kidney stone",
+    "description": "Renal calculi or nephrolithiasis, refers to a solid concretion or crystal aggregation formed in the kidney from substances found in urine. These stones can vary in size, composition, and location. Imaging modalities, assess the size, location, and characteristics of kidney stones, aiding in diagnosis.",
+    "codes": [
+      {
+        "system": "TA2",
+        "code": "3358",
+        "display": "kidney"
+      },
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID205",
+        "display": "kidney"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID38586",
+        "display": "renal calculus"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4014027",
+        "display": "kidney"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "95570007",
+        "display": "Kidney stone (disorder)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "presence",
+        "description": "This indicates whether kidney stone is present.",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "705057003",
+            "display": "Presence (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "absent",
+            "description": "This signifies no kidney stone is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28473",
+                "display": "absent"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "2667000",
+                "display": "Absent (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "present",
+            "description": "It suggests kidney stone is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28472",
+                "display": "present"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "52101004",
+                "display": "Present (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "indeterminate",
+            "description": "It suggests that it cannot be determined whether kidney stone is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39110",
+                "display": "indeterminate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "82334004",
+                "display": "Indeterminate (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "unknown",
+            "description": "It represents uncertainty regarding the presence of kidney stone.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5655",
+                "display": "unknown"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "261665006",
+                "display": "Unknown (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "It indicates the anatomical region of the kidney stone.",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "right kidney",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29662",
+                "display": "right kidney"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID29662",
+                "display": "right kidney"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014993",
+                "display": "right kidney"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "9846003",
+                "display": "Right kidney structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left kidney",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29663",
+                "display": "left kidney"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID29663",
+                "display": "left kidney"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014222",
+                "display": "left kidney"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "18639004",
+                "display": "Left kidney structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "calyx of renal collecting system",
+            "description": "",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "2334006",
+                "display": "structure of calyx (body structure)"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013581",
+                "display": "calyx of renal collecting system"
+              }
+            ]
+          },
+          {
+            "name": "kidney",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3358",
+                "display": "kidney"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID205",
+                "display": "kidney"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID205",
+                "display": "kidney"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014027",
+                "display": "kidney"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "64033007",
+                "display": "Kidney structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "ureter",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3394",
+                "display": "ureter"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID229",
+                "display": "ureter"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID229",
+                "display": "ureter"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015509",
+                "display": "ureter"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "87953007",
+                "display": "Ureteric structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "right ureter",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID30844",
+                "display": "right ureter"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID30844",
+                "display": "right ureter"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015194",
+                "display": "right ureter"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "25308007",
+                "display": "Structure of right ureter (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left ureter",
+            "description": "",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID30845",
+                "display": "left ureter"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID30845",
+                "display": "left ureter"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014423",
+                "display": "left ureter"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "26559004",
+                "display": "Structure of left ureter (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "renal pelvis",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3384",
+                "display": ""
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID228",
+                "display": "renal pelvis"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID228",
+                "display": "renal pelvis"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014840",
+                "display": "renal pelvis"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "25990002",
+                "display": "Renal pelvis structure (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ]
+  }
+]

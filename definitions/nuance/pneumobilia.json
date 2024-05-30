@@ -1,59 +1,202 @@
-{
-  "_id": "TEMP",
-  "name": "pneumobilia",
-  "description": "Pneumobilia refers to the presence of air within the biliary tree, typically observed as linear or branching lucencies within the hepatic ducts or common bile duct on imaging studies such as X-rays, CT scans, or MRIs.",
-  "name": "pneumobilia",
-  "description": "Pneumobilia refers to the presence of air within the biliary tree, typically observed as linear or branching lucencies within the hepatic ducts or common bile duct on imaging studies such as X-rays, CT scans, or MRIs.",
-  "attributes": [
-    {
-      "name": "presence",
-      "description": "This indicates whether pneumobilia is present.",
-      "description": "This indicates whether pneumobilia is present.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "absent",
-          "description": "It indicates no pneumobilia is present."
-          "description": "It indicates no pneumobilia is present."
-        },
-        {
-          "name": "present",
-          "description": "It signifies that pneumobilia is present."
-          "description": "It signifies that pneumobilia is present."
-        },
-        {
-          "name": "indeterminate",
-          "description": "It suggests that it cannot be determined whether pneumobilia is present."
-          "description": "It suggests that it cannot be determined whether pneumobilia is present."
-        },
-        {
-          "name": "unknown",
-          "description": "It represents uncertainty regarding the presence of pneumobilia."
-          "description": "It represents uncertainty regarding the presence of pneumobilia."
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "This indicates the anatomical region of the pneumobilia.",
-      "description": "This indicates the anatomical region of the pneumobilia.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "gallbladder",
-          "description": "RID187"
-        },
-        {
-          "name": "common bile duct",
-          "description": "RID199"
-        },
-        {
-          "name": "common hepatic duct",
-          "description": "RID200"
-        }
-      ],
-      "required": false
-    }
-  ]
-}
+[
+  {
+    "_id": "TEMP",
+    "name": "pneumobilia",
+    "description": "Pneumobilia refers to the presence of air within the biliary tree, typically observed as linear or branching lucencies within the hepatic ducts or common bile duct on imaging studies such as X-rays, CT scans, or MRIs.",
+    "codes": [],
+    "attributes": [
+      {
+        "name": "presence",
+        "description": "This indicates whether pneumobilia is present.",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "705057003",
+            "display": "Presence (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "absent",
+            "description": "It indicates no pneumobilia is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28473",
+                "display": "absent"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "2667000",
+                "display": "Absent (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "present",
+            "description": "It signifies that pneumobilia is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28472",
+                "display": "present"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "52101004",
+                "display": "Present (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "indeterminate",
+            "description": "It suggests that it cannot be determined whether pneumobilia is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39110",
+                "display": "indeterminate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "82334004",
+                "display": "Indeterminate (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "unknown",
+            "description": "It represents uncertainty regarding the presence of pneumobilia.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5655",
+                "display": "unknown"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "261665006",
+                "display": "Unknown (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "This indicates the anatomical region of the pneumobilia.",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "246267002",
+            "display": "Location (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "gallbladder",
+            "description": "RID187",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3081",
+                "display": "gallbladder"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID187",
+                "display": "gallbladder"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID187",
+                "display": "gallbladder"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013877",
+                "display": "gallbladder"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "28231008",
+                "display": "Gallbladder structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "common bile duct",
+            "description": "RID199",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3103",
+                "display": "bile duct"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID199",
+                "display": "common bile duct"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID199",
+                "display": "common bile duct"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013630",
+                "display": "common bile duct"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "79741001",
+                "display": "Common bile duct structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "common hepatic duct",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3092",
+                "display": "common hepatic duct"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID200",
+                "display": "common hepatic duct"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID200",
+                "display": "common hepatic duct"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013635",
+                "display": "common hepatic duct"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "725502003",
+                "display": "Structure of common hepatic duct (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ]
+  }
+]

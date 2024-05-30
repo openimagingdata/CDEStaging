@@ -3,39 +3,267 @@
     "_id": "653993fd2f4080dec0124f2d",
     "name": "post-operative changes in the lung",
     "description": "Changes in the lung tissues observed after surgical procedures",
+    "codes": [
+      {
+        "system": "TA2",
+        "code": "3265",
+        "display": "lungs"
+      },
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID1301",
+        "display": "lung"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID1301",
+        "display": "lung"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4014472",
+        "display": "lung"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "39607008",
+        "display": "Lung structure (body structure)"
+      }
+    ],
     "attributes": [
       {
         "name": "location",
         "description": "The lung or lobe where the surgery took place",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
         "type": "choice",
         "values": [
           {
             "name": "right lung",
-            "description": "The entire right lung"
+            "description": "The entire right lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3283",
+                "display": "right lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1302",
+                "display": "right lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "3283",
+                "display": "right lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "RID1302",
+                "display": "right lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "3341006",
+                "display": "Right lung structure (body structure)"
+              }
+            ]
           },
           {
             "name": "left lung",
-            "description": "The entire left lung"
+            "description": "The entire left lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3299",
+                "display": "left lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1326",
+                "display": "left lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1326",
+                "display": "left lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "3299",
+                "display": "left lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "44029006",
+                "display": "Left lung structure (body structure)"
+              }
+            ]
           },
           {
             "name": "right upper lobe",
-            "description": "Upper lobe of the right lung"
+            "description": "Upper lobe of the right lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3284",
+                "display": "Superior lobe of right lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1303",
+                "display": "upper lobe of right lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1303",
+                "display": "upper lobe of right lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015504",
+                "display": "upper lobe of right lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "42400003",
+                "display": "Structure of upper lobe of right lung (body structure)"
+              }
+            ]
           },
           {
             "name": "right middle lobe",
-            "description": "Middle lobe of the right lung"
+            "description": "Middle lobe of the right lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3289",
+                "display": "Middle lobe of right lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1310",
+                "display": "middle lobe of right lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1310",
+                "display": "middle lobe of right lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014565",
+                "display": "middle lobe of right lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "72481006",
+                "display": "Structure of middle lobe of right lung (body structure)"
+              }
+            ]
           },
           {
             "name": "right lower lobe",
-            "description": "Lower lobe of the right lung"
+            "description": "Lower lobe of the right lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3293",
+                "display": "Inferior lobe of right lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1315",
+                "display": "lower lobe of right lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1315",
+                "display": "lower lobe of right lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014462",
+                "display": "lower lobe of right lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "266005",
+                "display": "Structure of lower lobe of right lung (body structure)"
+              }
+            ]
           },
           {
             "name": "left upper lobe",
-            "description": "Upper lobe of the left lung"
+            "description": "Upper lobe of the left lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3300",
+                "display": "Superior lobe of left lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1327",
+                "display": "upper lobe of left lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1327",
+                "display": "upper lobe of left lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015503",
+                "display": "upper lobe of left lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "44714003",
+                "display": "Structure of upper lobe of left lung (body structure)"
+              }
+            ]
           },
           {
             "name": "left lower lobe",
-            "description": "Lower lobe of the left lung"
+            "description": "Lower lobe of the left lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3308",
+                "display": "Inferior lobe of left lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1338",
+                "display": "lower lobe of left lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1338",
+                "display": "lower lobe of left lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014461",
+                "display": "lower lobe of left lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "41224006",
+                "display": "Structure of lower lobe of left lung (body structure)"
+              }
+            ]
           }
         ],
         "required": false
@@ -43,31 +271,68 @@
       {
         "name": "surgery type",
         "description": "The type of surgery performed",
+        "codes": [],
         "type": "choice",
         "values": [
           {
             "name": "lobectomy",
-            "description": "Removal of a lobe of the lung"
+            "description": "Removal of a lobe of the lung",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "125571002",
+                "display": "Lobectomy (procedure)"
+              }
+            ]
           },
           {
             "name": "wedge resection",
-            "description": "Removal of a small wedge-shaped portion of the lung"
+            "description": "Removal of a small wedge-shaped portion of the lung",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "20418004",
+                "display": "Wedge resection (procedure)"
+              }
+            ]
           },
           {
             "name": "segmentectomy",
-            "description": "Removal of a segment of the lung"
+            "description": "Removal of a segment of the lung",
+            "codes": []
           },
           {
             "name": "pneumonectomy",
-            "description": "Removal of an entire lung"
+            "description": "Removal of an entire lung",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "49795001",
+                "display": "Total pneumonectomy (procedure)"
+              }
+            ]
           },
           {
             "name": "pleurectomy",
-            "description": "Removal of the pleura, the membrane that lines the lungs"
+            "description": "Removal of the pleura, the membrane that lines the lungs",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "23979009",
+                "display": "Pleurectomy (procedure"
+              }
+            ]
           },
           {
             "name": "transplant",
-            "description": "Replacement of a diseased lung with a healthy lung from a donor"
+            "description": "Replacement of a diseased lung with a healthy lung from a donor",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "24486003",
+                "display": "Structure of transplant (body structure)"
+              }
+            ]
           }
         ],
         "required": false
@@ -75,23 +340,67 @@
       {
         "name": "change from prior",
         "description": "Whether the changes are different from prior imaging",
+        "codes": [],
         "type": "choice",
         "values": [
           {
             "name": "new",
-            "description": "New changes"
+            "description": "New changes",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5720",
+                "display": "new"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "7147002",
+                "display": "New (qualifier value)"
+              }
+            ]
           },
           {
             "name": "unchanged",
-            "description": "Changes are the same as prior imaging; synonym of stable"
+            "description": "Changes are the same as prior imaging; synonym of stable",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39268",
+                "display": "unchanged"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "260388006",
+                "display": "No status change (qualifier value)"
+              }
+            ]
           },
           {
             "name": "improved",
-            "description": "Changes are better than prior imaging"
+            "description": "Changes are better than prior imaging",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39105",
+                "display": "improved"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "385425000",
+                "display": "Improved (qualifier value)"
+              }
+            ]
           },
           {
             "name": "worsened",
-            "description": "Changes are worse than prior imaging"
+            "description": "Changes are worse than prior imaging",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "231877006",
+                "display": "Worse (qualifier value)"
+              }
+            ]
           }
         ],
         "required": false
@@ -105,15 +414,56 @@
           "attributes": [
             {
               "attribute": "location",
-              "value": "right lung"
+              "value": "right lung",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3283",
+                  "display": "right lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1302",
+                  "display": "right lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1302",
+                  "display": "right lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "3341006",
+                  "display": "Right lung structure (body structure)"
+                }
+              ]
             },
             {
               "attribute": "surgery_type",
-              "value": "lobectomy"
+              "value": "lobectomy",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "125571002",
+                  "display": "Lobectomy (procedure)"
+                }
+              ]
             },
             {
               "attribute": "change_from_prior",
-              "value": "unchanged"
+              "value": "unchanged",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID39268",
+                  "display": "unchanged"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "260388006",
+                  "display": "No status change (qualifier value)"
+                }
+              ]
             }
           ]
         }
@@ -125,15 +475,56 @@
           "attributes": [
             {
               "attribute": "location",
-              "value": "right lung"
+              "value": "right lung",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3283",
+                  "display": "right lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1302",
+                  "display": "right lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1302",
+                  "display": "right lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "3341006",
+                  "display": "Right lung structure (body structure)"
+                }
+              ]
             },
             {
               "attribute": "change_from_prior",
-              "value": "unchanged"
+              "value": "unchanged",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID39268",
+                  "display": "unchanged"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "260388006",
+                  "display": "No status change (qualifier value)"
+                }
+              ]
             },
             {
               "attribute": "surgery_type",
-              "value": "lobectomy"
+              "value": "lobectomy",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "125571002",
+                  "display": "Lobectomy (procedure)"
+                }
+              ]
             }
           ]
         }
@@ -145,11 +536,50 @@
           "attributes": [
             {
               "attribute": "location",
-              "value": "left lung"
+              "value": "left lung",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3299",
+                  "display": "left lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1326",
+                  "display": "left lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1326",
+                  "display": "left lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "3299",
+                  "display": "left lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "44029006",
+                  "display": "Left lung structure (body structure)"
+                }
+              ]
             },
             {
               "attribute": "change_from_prior",
-              "value": "unchanged"
+              "value": "unchanged",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID39268",
+                  "display": "unchanged"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "260388006",
+                  "display": "No status change (qualifier value)"
+                }
+              ]
             }
           ]
         }
@@ -165,15 +595,61 @@
           "attributes": [
             {
               "attribute": "location",
-              "value": "right upper lobe"
+              "value": "right upper lobe",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3284",
+                  "display": "Superior lobe of right lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1303",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1303",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4015504",
+                  "display": "upper lobe of right lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "42400003",
+                  "display": "Structure of upper lobe of right lung (body structure)"
+                }
+              ]
             },
             {
               "attribute": "change_from_prior",
-              "value": "unchanged"
+              "value": "unchanged",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID39268",
+                  "display": "unchanged"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "260388006",
+                  "display": "No status change (qualifier value)"
+                }
+              ]
             },
             {
               "attribute": "surgery_type",
-              "value": "lobectomy"
+              "value": "lobectomy",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "125571002",
+                  "display": "Lobectomy (procedure)"
+                }
+              ]
             }
           ]
         }
@@ -185,7 +661,34 @@
           "attributes": [
             {
               "attribute": "location",
-              "value": "left lung"
+              "value": "left lung",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3299",
+                  "display": "left lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1326",
+                  "display": "left lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1326",
+                  "display": "left lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "3299",
+                  "display": "left lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "44029006",
+                  "display": "Left lung structure (body structure)"
+                }
+              ]
             }
           ]
         }
@@ -197,11 +700,45 @@
           "attributes": [
             {
               "attribute": "location",
-              "value": "left lower lobe"
+              "value": "left lower lobe",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3308",
+                  "display": "Inferior lobe of left lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1338",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1338",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4014461",
+                  "display": "lower lobe of left lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "41224006",
+                  "display": "Structure of lower lobe of left lung (body structure)"
+                }
+              ]
             },
             {
               "attribute": "surgery_type",
-              "value": "lobectomy"
+              "value": "lobectomy",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "125571002",
+                  "display": "Lobectomy (procedure)"
+                }
+              ]
             }
           ]
         }
@@ -213,11 +750,50 @@
           "attributes": [
             {
               "attribute": "location",
-              "value": "right lower lobe"
+              "value": "right lower lobe",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3293",
+                  "display": "Inferior lobe of right lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1315",
+                  "display": "lower lobe of right lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1315",
+                  "display": "lower lobe of right lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4014462",
+                  "display": "lower lobe of right lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "266005",
+                  "display": "Structure of lower lobe of right lung (body structure)"
+                }
+              ]
             },
             {
               "attribute": "change_from_prior",
-              "value": "unchanged"
+              "value": "unchanged",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID39268",
+                  "display": "unchanged"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "260388006",
+                  "display": "No status change (qualifier value)"
+                }
+              ]
             }
           ]
         }
@@ -229,11 +805,40 @@
           "attributes": [
             {
               "attribute": "location",
-              "value": "right lung"
+              "value": "right lung",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3283",
+                  "display": "right lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1302",
+                  "display": "right lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1302",
+                  "display": "right lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "3341006",
+                  "display": "Right lung structure (body structure)"
+                }
+              ]
             },
             {
               "attribute": "surgery_type",
-              "value": "lobectomy"
+              "value": "lobectomy",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "125571002",
+                  "display": "Lobectomy (procedure)"
+                }
+              ]
             }
           ]
         }
@@ -244,31 +849,112 @@
     "_id": "65775ff7532f638bca28e0c1",
     "name": "post-operative changes in the lung",
     "description": "Changes in the lung tissue following a surgical procedure",
+    "codes": [
+      {
+        "system": "TA2",
+        "code": "3265",
+        "display": "lung"
+      },
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID1301",
+        "display": "lung"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID1301",
+        "display": "lung"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "39607008",
+        "display": "Lung structure (body structure)"
+      }
+    ],
     "attributes": [
       {
         "name": "location",
         "description": "The anatomical region of the post-operative changes",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "246267002",
+            "display": "Location (attribute)"
+          }
+        ],
         "type": "choice",
         "values": [
           {
             "name": "right lung",
-            "description": "Changes are in the right lung"
+            "description": "Changes are in the right lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3283",
+                "display": "right lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1302",
+                "display": "right lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1302",
+                "display": "right lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "3341006",
+                "display": "Right lung structure (body structure)"
+              }
+            ]
           },
           {
             "name": "left lung",
-            "description": "Changes are in the left lung"
+            "description": "Changes are in the left lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3299",
+                "display": "left lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1326",
+                "display": "left lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1326",
+                "display": "left lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "44029006",
+                "display": "Left lung structure (body structure)"
+              }
+            ]
           },
           {
             "name": "upper lobe",
-            "description": "Changes are in the upper lobe of the lung"
+            "description": "Changes are in the upper lobe of the lung",
+            "codes": []
           },
           {
             "name": "middle lobe",
-            "description": "Changes are in the middle lobe of the lung"
+            "description": "Changes are in the middle lobe of the lung",
+            "codes": []
           },
           {
             "name": "lower lobe",
-            "description": "Changes are in the lower lobe of the lung"
+            "description": "Changes are in the lower lobe of the lung",
+            "codes": []
           }
         ],
         "required": false
@@ -276,31 +962,83 @@
       {
         "name": "change",
         "description": "The nature of the post-operative change in the lung",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "263703002",
+            "display": "Changed status (qualifier value)"
+          }
+        ],
         "type": "choice",
         "values": [
           {
             "name": "stable",
-            "description": "The changes have remained the same over time"
+            "description": "The changes have remained the same over time",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5734",
+                "display": "stable"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "58158008",
+                "display": "Stable (qualifier value)"
+              }
+            ]
           },
           {
             "name": "unchanged",
-            "description": "The changes have not altered since last observation"
+            "description": "The changes have not altered since last observation",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39268",
+                "display": "unchanged"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "260388006",
+                "display": "No status change (qualifier value)"
+              }
+            ]
           },
           {
             "name": "worsening",
-            "description": "The changes have deteriorated since last observation"
+            "description": "The changes have deteriorated since last observation",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "230993007",
+                "display": "Worsening (qualifier value)"
+              }
+            ]
           },
           {
             "name": "improved",
-            "description": "The changes have improved since last observation"
+            "description": "The changes have improved since last observation",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39105",
+                "display": "improved"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "385425000",
+                "display": "Improved (qualifier value)"
+              }
+            ]
           },
           {
             "name": "increased",
-            "description": "The changes have increased in extent or severity"
+            "description": "The changes have increased in extent or severity",
+            "codes": []
           },
           {
             "name": "similar",
-            "description": "The changes are similar to a previous observation"
+            "description": "The changes are similar to a previous observation",
+            "codes": []
           }
         ],
         "required": false
@@ -308,55 +1046,169 @@
       {
         "name": "associated findings",
         "description": "Additional findings associated with the post-operative changes",
+        "codes": [],
         "type": "choice",
         "values": [
           {
             "name": "nodule",
-            "description": "An abnormal growth of tissue"
+            "description": "An abnormal growth of tissue",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID3875",
+                "display": "nodule"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "27925004",
+                "display": "Nodule (morphologic abnormality)"
+              }
+            ]
           },
           {
             "name": "scarring",
-            "description": "Areas of fibrous tissue that replace normal tissue after injury"
+            "description": "Areas of fibrous tissue that replace normal tissue after injury",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID3829",
+                "display": "scar"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "48677004",
+                "display": "Healing scar (morphologic abnormality)"
+              }
+            ]
           },
           {
             "name": "bronchiectasis",
-            "description": "Permanent enlargement of the airways of the lung"
+            "description": "Permanent enlargement of the airways of the lung",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28496",
+                "display": "bronchiectasis"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "12295008",
+                "display": "Bronchiectasis (disorder)"
+              }
+            ]
           },
           {
             "name": "atelectasis",
-            "description": "Partial or complete collapse of the lung"
+            "description": "Partial or complete collapse of the lung",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28493",
+                "display": "atelectasis"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "46621007",
+                "display": "Atelectasis (disorder)"
+              }
+            ]
           },
           {
             "name": "consolidation",
-            "description": "An area of the lung tissue filled with liquid instead of air"
+            "description": "An area of the lung tissue filled with liquid instead of air",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "9656002",
+                "display": "Consolidation (morphologic abnormality)"
+              }
+            ]
           },
           {
             "name": "pleural effusion",
-            "description": "Excess fluid that accumulates in the pleural cavity"
+            "description": "Excess fluid that accumulates in the pleural cavity",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID34539",
+                "display": "pleural effusion"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "pleural effusion",
+                "display": "Pleural effusion (disorder)"
+              }
+            ]
           },
           {
             "name": "pneumothorax",
-            "description": "Presence of air or gas in the pleural space"
+            "description": "Presence of air or gas in the pleural space",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5352",
+                "display": "pneumothorax"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "36118008",
+                "display": "Pneumothorax (disorder)"
+              }
+            ]
           },
           {
             "name": "emphysema",
-            "description": "Damage to the air sacs in the lungs leading to shortness of breath"
+            "description": "Damage to the air sacs in the lungs leading to shortness of breath",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID4799",
+                "display": "emphysema"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "49158009",
+                "display": "Emphysema (morphologic abnormality)"
+              }
+            ]
           },
           {
             "name": "calcified granuloma",
-            "description": "A mass of tissue that forms in response to infection or inflammation, and has become calcified over time"
+            "description": "A mass of tissue that forms in response to infection or inflammation, and has become calcified over time",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "48391002",
+                "display": "Calcified granuloma (morphologic abnormality)"
+              }
+            ]
           },
           {
             "name": "airways patent",
-            "description": "The airways of the lungs are clear and unblocked"
+            "description": "The airways of the lungs are clear and unblocked",
+            "codes": []
           },
           {
             "name": "lobectomy",
-            "description": "Surgical removal of a lobe of the lung"
+            "description": "Surgical removal of a lobe of the lung",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "125571002",
+                "display": "Lobectomy (procedure)"
+              }
+            ]
           },
           {
             "name": "wedge resection",
-            "description": "Surgical removal of a triangular section of tissue, often used to remove a tumor and a small amount of surrounding healthy tissue"
+            "description": "Surgical removal of a triangular section of tissue, often used to remove a tumor and a small amount of surrounding healthy tissue",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "20418004",
+                "display": "Wedge resection (procedure)"
+              }
+            ]
           }
         ],
         "required": false

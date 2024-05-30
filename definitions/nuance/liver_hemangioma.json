@@ -1,59 +1,290 @@
-{
-  "_id": "TEMP",
-  "name": "liver hemangioma",
-  "description": "Liver hemangioma is characterized by benign growth of blood vessels in the liver, often discovered accidentally during abdominal imaging scans. It appears as a distinct bright spot on ultrasound and CT scans, and as a bright area on MRI.",
-  "attributes": [
-    {
-      "name": "presence",
-      "description": "This indicates whether liver hemangioma is present.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "absent",
-          "description": "It signifies no liver hemangioma is present."
-        },
-        {
-          "name": "present",
-          "description": "It suggests liver hemangioma is present."
-        },
-        {
-          "name": "indeterminate",
-          "description": "It suggests that it cannot be determined whether liver hemangioma is present."
-        },
-        {
-          "name": "unknown",
-          "description": "It represents uncertainty regarding the presence of liver hemangioma."
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "This indicates the anatomical region of the liver hemangioma.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "liver",
-          "description": "RID58"
-        },
-        {
-          "anatomical_part": "right hepatic artery",
-          "description": "RID918"
-        },
-        {
-          "anatomical_part": "proper hepatic artery",
-          "description": "RID914"
-        },
-        {
-          "anatomical_part": "right hepatic duct",
-          "description": "RID194"
-        },
-        {
-          "anatomical_part": "left hepatic duct",
-          "description": "RID193"
-        }
-      ],
-      "required": false
-    }
-  ]
-}
+[
+  {
+    "_id": "TEMP",
+    "name": "liver hemangioma",
+    "description": "Liver hemangioma is characterized by benign growth of blood vessels in the liver, often discovered accidentally during abdominal imaging scans. It appears as a distinct bright spot on ultrasound and CT scans, and as a bright area on MRI.",
+    "codes": [
+      {
+        "system": "TA2",
+        "code": "3023",
+        "display": "liver"
+      },
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID58",
+        "display": "liver"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4014450",
+        "display": "liver"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID58",
+        "display": "liver"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "10200004",
+        "display": "Liver structure (body structure)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "presence",
+        "description": "This indicates whether liver hemangioma is present.",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "705057003",
+            "display": "Presence (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "absent",
+            "description": "It signifies no liver hemangioma is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28473",
+                "display": "absent"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "2667000",
+                "display": "Absent (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "present",
+            "description": "It suggests liver hemangioma is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28472",
+                "display": "present"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "52101004",
+                "display": "Present (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "indeterminate",
+            "description": "It suggests that it cannot be determined whether liver hemangioma is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39110",
+                "display": "indeterminate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "82334004",
+                "display": "Indeterminate (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "unknown",
+            "description": "It represents uncertainty regarding the presence of liver hemangioma.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5655",
+                "display": "unknown"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "261665006",
+                "display": "Unknown (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "This indicates the anatomical region of the liver hemangioma.",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "liver",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3023",
+                "display": "liver"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID58",
+                "display": "liver"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014450",
+                "display": "liver"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID58",
+                "display": "liver"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "10200004",
+                "display": "Liver structure (body structure)"
+              }
+            ]
+          },
+          {
+            "anatomical_part": "right hepatic artery",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "4229",
+                "display": "right hepatic artery"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID918",
+                "display": "right hepatic artery"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014970",
+                "display": "right hepatic artery"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID918",
+                "display": "right hepatic artery"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "244265008",
+                "display": "Entire right branch of hepatic artery (body structure)"
+              }
+            ]
+          },
+          {
+            "anatomical_part": "proper hepatic artery",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "4227",
+                "display": "proper hepatic artery"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID914",
+                "display": "proper hepatic artery"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014786",
+                "display": "proper hepatic artery"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID914",
+                "display": "proper hepatic artery"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "18112008",
+                "display": "Structure of hepatic artery proper (body structure)"
+              }
+            ]
+          },
+          {
+            "anatomical_part": "right hepatic duct",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3093",
+                "display": "right hepatic duct"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID194",
+                "display": "right hepatic duct"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014786",
+                "display": "right hepatic duct"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID194",
+                "display": "right hepatic duct"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "Structure of right hepatic duct (body structure)",
+                "display": "Structure of right hepatic duct (body structure)"
+              }
+            ]
+          },
+          {
+            "anatomical_part": "left hepatic duct",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3096",
+                "display": "right hepatic duct"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID193",
+                "display": "left hepatic duct"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014200",
+                "display": "left hepatic duct"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID193",
+                "display": "left hepatic duct"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "64281006",
+                "display": "Structure of left hepatic duct (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ]
+  }
+]

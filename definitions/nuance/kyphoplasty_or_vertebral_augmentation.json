@@ -1,108 +1,433 @@
-{
-  "_id": "657b6258532f638bca28e0c3",
-  "name": "kyphoplasty or vertebral augmentation",
-  "description": "A surgical procedure performed to alleviate pain caused by vertebral compression fractures, to stabilize the spine, and to restore lost vertebral body height due to compression fracture.",
-  "attributes": [
-    {
-      "name": "location",
-      "description": "The specific vertebrae where the procedure has been performed",
-      "type": "choice",
-      "values": [
-        {
-          "name": "T11",
-          "description": "Eleventh thoracic vertebra"
-        },
-        {
-          "name": "T12",
-          "description": "Twelfth thoracic vertebra"
-        },
-        {
-          "name": "L1",
-          "description": "First lumbar vertebra"
-        },
-        {
-          "name": "L2",
-          "description": "Second lumbar vertebra"
-        },
-        {
-          "name": "T6",
-          "description": "Sixth thoracic vertebra"
-        },
-        {
-          "name": "T7",
-          "description": "Seventh thoracic vertebra"
-        },
-        {
-          "name": "T8",
-          "description": "Eighth thoracic vertebra"
-        },
-        {
-          "name": "T9",
-          "description": "Ninth thoracic vertebra"
-        },
-        {
-          "name": "T10",
-          "description": "Tenth thoracic vertebra"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "postoperative changes",
-      "description": "Changes seen after the procedure",
-      "type": "choice",
-      "values": [
-        {
-          "name": "stable compression",
-          "description": "No change in the degree of compression of the vertebrae"
-        },
-        {
-          "name": "height loss",
-          "description": "Loss in height of the vertebrae"
-        },
-        {
-          "name": "degenerative changes",
-          "description": "Changes associated with the aging process"
-        },
-        {
-          "name": "exaggerated kyphosis",
-          "description": "Increased backward curve of the spine"
-        },
-        {
-          "name": "compression deformities",
-          "description": "Deformities due to pressure on the vertebrae"
-        },
-        {
-          "name": "retropulsion",
-          "description": "Backward displacement of the vertebrae"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "additional findings",
-      "description": "Additional findings associated with the spine",
-      "type": "choice",
-      "values": [
-        {
-          "name": "osteopenia",
-          "description": "Decreased bone density, but not as severe as osteoporosis"
-        },
-        {
-          "name": "skeletal degenerative changes",
-          "description": "Changes associated with the aging process affecting the skeleton"
-        },
-        {
-          "name": "lytic or blastic lesions",
-          "description": "Abnormalities in the bone suggestive of tumors or metastasis"
-        },
-        {
-          "name": "multilevel wedge deformities",
-          "description": "Deformities affecting multiple levels of the spine, characterized by a wedge-like shape of the vertebrae"
-        }
-      ],
-      "required": false
-    }
-  ],
-  "examples": null
-}
+[
+  {
+    "_id": "657b6258532f638bca28e0c3",
+    "name": "kyphoplasty or vertebral augmentation",
+    "description": "A surgical procedure performed to alleviate pain caused by vertebral compression fractures, to stabilize the spine, and to restore lost vertebral body height due to compression fracture.",
+    "codes": [
+      {
+        "system": "RADLEX",
+        "code": "RID1840",
+        "display": "kyphoplasty"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID49776",
+        "display": "vertebral augmentation"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "129351000",
+        "display": "Surgical augmentation - action (qualifier value)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "location",
+        "description": "The specific vertebrae where the procedure has been performed",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "T11",
+            "description": "Eleventh thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29208",
+                "display": "eleventh thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "4013766",
+                "display": "T11"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013766",
+                "display": "eleventh thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "12989004",
+                "display": "Bone structure of T11 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T12",
+            "description": "Twelfth thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29209",
+                "display": "twelfth thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6162",
+                "display": "T12"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015481",
+                "display": "twelfth thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "23215003",
+                "display": "Bone structure of T12 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "L1",
+            "description": "First lumbar vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29193",
+                "display": "first lumbar vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6164",
+                "display": "L1"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013830",
+                "display": "first lumbar vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "66794005",
+                "display": "Bone structure of L1 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "L2",
+            "description": "Second lumbar vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29194",
+                "display": "second lumbar vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6165",
+                "display": "L2"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015215",
+                "display": "second lumbar vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "14293000",
+                "display": "Bone structure of L2 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T6",
+            "description": "Sixth thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29203",
+                "display": "sixth thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6156",
+                "display": "T6"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015258",
+                "display": "sixth thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "45296009",
+                "display": "Bone structure of T6 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T7",
+            "description": "Seventh thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29204",
+                "display": "seventh thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6157",
+                "display": "T7"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015249",
+                "display": "seventh thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "62487009",
+                "display": "Bone structure of T7 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T8",
+            "description": "Eighth thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29205",
+                "display": "eight thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6157",
+                "display": "T8"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013760",
+                "display": "eight thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "11068009",
+                "display": "Bone structure of T8 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T9",
+            "description": "Ninth thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29206",
+                "display": "ninth thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6159",
+                "display": "T9"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "RID294014611206",
+                "display": "ninth thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "82687006",
+                "display": "Bone structure of T9 (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "T10",
+            "description": "Tenth thoracic vertebra",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29207",
+                "display": "tenth thoracic vertebra"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID6160",
+                "display": "T10"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015419",
+                "display": "tenth thoracic vertebra"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "7610001",
+                "display": "Bone structure of T10 (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "postoperative changes",
+        "description": "Changes seen after the procedure",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID4591",
+            "display": "postoperative changes"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "stable compression",
+            "description": "No change in the degree of compression of the vertebrae",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID4741",
+                "display": "compression"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "71173004",
+                "display": "Compression (morphologic abnormality)"
+              }
+            ]
+          },
+          {
+            "name": "height loss",
+            "description": "Loss in height of the vertebrae",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5785",
+                "display": "decreased in height"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "71173004",
+                "display": "decrease in height (finding)"
+              }
+            ]
+          },
+          {
+            "name": "degenerative changes",
+            "description": "Changes associated with the aging process",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5043",
+                "display": "degenerative disorder"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "362975008",
+                "display": "Degenerative disorder (disorder)"
+              }
+            ]
+          },
+          {
+            "name": "exaggerated kyphosis",
+            "description": "Increased backward curve of the spine",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID4759",
+                "display": "kyphosis"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "414564002",
+                "display": "Kyphosis deformity of spine (disorder)"
+              }
+            ]
+          },
+          {
+            "name": "compression deformities",
+            "description": "Deformities due to pressure on the vertebrae",
+            "codes": []
+          },
+          {
+            "name": "retropulsion",
+            "description": "Backward displacement of the vertebrae",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "35136003",
+                "display": "Retropulsion (finding)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "additional findings",
+        "description": "Additional findings associated with the spine",
+        "codes": [],
+        "type": "choice",
+        "values": [
+          {
+            "name": "osteopenia",
+            "description": "Decreased bone density, but not as severe as osteoporosis",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5388",
+                "display": "osteopenia"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "312894000",
+                "display": "Osteopenia (disorder)"
+              }
+            ]
+          },
+          {
+            "name": "skeletal degenerative changes",
+            "description": "Changes associated with the aging process affecting the skeleton",
+            "codes": []
+          },
+          {
+            "name": "lytic or blastic lesions",
+            "description": "Abnormalities in the bone suggestive of tumors or metastasis",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID45723",
+                "display": "mixed lytic and sclerotic"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "879976004",
+                "display": "Lesion of bone (disorder)"
+              }
+            ]
+          },
+          {
+            "name": "multilevel wedge deformities",
+            "description": "Deformities affecting multiple levels of the spine, characterized by a wedge-like shape of the vertebrae",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID4699",
+                "display": "wedge compression fracture"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": null
+  }
+]

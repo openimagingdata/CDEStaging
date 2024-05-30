@@ -1,349 +1,1257 @@
-{
-  "_id": "6533dfcf5ec16d6f2fdd9652",
-  "name": "healed or chronic rib fracture",
-  "description": "A previously fractured rib that has healed or is in a chronic state",
-  "attributes": [
-    {
-      "name": "multiplicity",
-      "description": "The number of rib fractures",
-      "type": "choice",
-      "values": [
-        {
-          "name": "single",
-          "description": "A single rib fracture"
-        },
-        {
-          "name": "multiple",
-          "description": "Multiple rib fractures"
+[
+  {
+    "_id": "6533dfcf5ec16d6f2fdd9652",
+    "name": "healed or chronic rib fracture",
+    "description": "A previously fractured rib that has healed or is in a chronic state",
+    "codes": [
+      {
+        "system": "RADLEX",
+        "code": "RID6353",
+        "display": "healed"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "90910008",
+        "display": "Healed (qualifier value)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID5719",
+        "display": "chronic"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "90734009",
+        "display": "Chronic (qualifier value)"
+      },
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID28591",
+        "display": "set of ribs"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID2471",
+        "display": "rib"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4015243",
+        "display": "rib"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "113197003",
+        "display": "Bone structure of rib (body structure)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID4650",
+        "display": "fracture"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "72704001",
+        "display": "Fracture (morphologic abnormality)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "multiplicity",
+        "description": "The number of rib fractures",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "263648007",
+            "display": "Multiplicity (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "single",
+            "description": "A single rib fracture",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5762",
+                "display": "single"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "50607009",
+                "display": "Singular (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "multiple",
+            "description": "Multiple rib fractures",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5765",
+                "display": "multiple"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255204007",
+                "display": "Multiple (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "side",
+        "description": "The side of the body where the rib fracture is located",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "182353008",
+            "display": "Side (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "bilateral",
+            "description": "Fractures on both sides of the rib cage",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5771",
+                "display": "bilateral"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "51440002",
+                "display": "Right and left (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "left",
+            "description": "Fractures of the left-sided ribs",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "8",
+                "display": "left"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID5824",
+                "display": "left"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "7771000",
+                "display": "Left (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "right",
+            "description": "Fractures of the right-sided ribs",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "7",
+                "display": "right"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID5825",
+                "display": "right"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "24028007",
+                "display": "Right (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "level",
+        "description": "The level of the rib fracture, in general or a specific rib",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "276625007",
+            "display": "Level (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "1",
+            "description": "First rib",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1107",
+                "display": "first rib"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID28591_RID6151",
+                "display": "first rib"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013833",
+                "display": "first rib"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "48535007",
+                "display": "Bone structure of first rib (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "2",
+            "description": "Second rib",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1111",
+                "display": "second rib"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID28591_RID6152",
+                "display": "second rib"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015218",
+                "display": "second rib"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "78247007",
+                "display": "Bone structure of second rib (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "3",
+            "description": "Third rib",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID28591_RID6153",
+                "display": "third rib"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015434",
+                "display": "third rib"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "25888004",
+                "display": "Bone structure of third rib (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "4",
+            "description": "Fourth rib",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID28591_RID6154",
+                "display": "fourth rib"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013865",
+                "display": "fourth rib"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "25523003",
+                "display": "Bone structure of fourth rib (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "5",
+            "description": "Fifth rib",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID28591_RID6155",
+                "display": "fifth rib"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013827",
+                "display": "fifth rib"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "15339008",
+                "display": "Bone structure of fifth rib (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "6",
+            "description": "Sixth rib",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID28591_RID6156",
+                "display": "sixth rib"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015257",
+                "display": "sixth rib"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "59558009",
+                "display": "Bone structure of sixth rib (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "7",
+            "description": "Seventh rib",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID28591_RID6157",
+                "display": "seventh rib"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015248",
+                "display": "seventh rib"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "24915002",
+                "display": "Bone structure of seventh rib (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "8",
+            "description": "Eighth rib",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID28591_RID6158",
+                "display": "eighth rib"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013761",
+                "display": "eighth rib"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "5953002",
+                "display": "Bone structure of eighth rib (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "9",
+            "description": "Ninth rib",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID28591_RID6159",
+                "display": "ninth rib"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014610",
+                "display": "ninth rib"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "22565002",
+                "display": "Bone structure of ninth rib (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "10",
+            "description": "Tenth rib",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID28591_RID6160",
+                "display": "tenth rib"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015418",
+                "display": "tenth rib"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "77644006",
+                "display": "Bone structure of tenth rib (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "11",
+            "description": "Eleventh rib",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID28591_RID6161",
+                "display": "eleventh rib"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4013765",
+                "display": "eleventh rib"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "58830002",
+                "display": "Bone structure of eleventh rib (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "12",
+            "description": "Twelfth rib",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID28591_RID6162",
+                "display": "twelfth rib"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015480",
+                "display": "twelfth rib"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "43993008",
+                "display": "Bone structure of twelfth rib (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "upper",
+            "description": "Upper ribs",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID46057",
+                "display": "upper"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "261183002",
+                "display": "Upper (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "lower",
+            "description": "Lower ribs",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID46058",
+                "display": "lower"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "261122009",
+                "display": "Lower (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "The specific location of the rib fracture",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "anterior",
+            "description": "Fracture is located on the front of the rib cage",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5818",
+                "display": "anterior"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255549009",
+                "display": "Anterior (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "posterior",
+            "description": "Fracture is located on the back of the rib cage",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5819",
+                "display": "posterior"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255551008",
+                "display": "Posterior (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "lateral",
+            "description": "Fracture is located on the side of the rib cage",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39121",
+                "display": "lateral"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "49370004",
+                "display": "Lateral (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "anterolateral",
+            "description": "Fracture is located on the front and side of the rib cage",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID38810",
+                "display": "anterolateral"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "37197008",
+                "display": "Anterolateral (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "posterolateral",
+            "description": "Fracture is located on the back and side of the rib cage",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39143",
+                "display": "posterolateral"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "90069004",
+                "display": "Posterolateral (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "status",
+        "description": "The current state of the rib fracture",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "263490005",
+            "display": "Status (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "healed",
+            "description": "Fracture has completely healed",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID6353",
+                "display": "healed"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "90910008",
+                "display": "Healed (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "subacute",
+            "description": "Fracture is in a subacute state, recent but not acute, including healing fractures",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "19939008",
+                "display": "Subacute (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "chronic",
+            "description": "Fracture is old; synonym: remote",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5719",
+                "display": "chronic"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "90734009",
+                "display": "Chronic (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": [
+      {
+        "report_text": "Bones: There is a stable healing fracture of the posterior RIGHT 11th rib. Status-post resection of 7-9th right ribs with mesh reconstruction. No suspicious lytic or blastic lesions.",
+        "observation": {
+          "finding_name": "healed_or_chronic_rib_fracture",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "single",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5762",
+                  "display": "single"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "50607009",
+                  "display": "Singular (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "side",
+              "value": "right",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "7",
+                  "display": "right"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID5825",
+                  "display": "right"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "24028007",
+                  "display": "Right (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "level",
+              "value": "11",
+              "codes": [
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID28591_RID6161",
+                  "display": "eleventh rib"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4013765",
+                  "display": "eleventh rib"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "58830002",
+                  "display": "Bone structure of eleventh rib (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "posterior",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5819",
+                  "display": "posterior"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255551008",
+                  "display": "Posterior (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "status",
+              "value": "healing",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID6352",
+                  "display": "Healing"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "18867006",
+                  "display": "Structure resulting from tissue repair process (morphologic abnormality)"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "side",
-      "description": "The side of the body where the rib fracture is located",
-      "type": "choice",
-      "values": [
-        {
-          "name": "bilateral",
-          "description": "Fractures on both sides of the rib cage"
-        },
-        {
-          "name": "left",
-          "description": "Fractures of the left-sided ribs"
-        },
-        {
-          "name": "right",
-          "description": "Fractures of the right-sided ribs"
+      },
+      {
+        "report_text": "Bones: There is a healed rib fracture in the right posterior 10th rib. No other acute fracture or dislocation. No suspicious lytic or blastic lesions.",
+        "observation": {
+          "finding_name": "healed_or_chronic_rib_fracture",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "single",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5762",
+                  "display": "single"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "50607009",
+                  "display": "Singular (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "side",
+              "value": "right",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "7",
+                  "display": "right"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID5825",
+                  "display": "right"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "24028007",
+                  "display": "Right (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "level",
+              "value": "10",
+              "codes": [
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID28591_RID6160",
+                  "display": "tenth rib"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4015418",
+                  "display": "tenth rib"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "77644006",
+                  "display": "Bone structure of tenth rib (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "posterior",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5819",
+                  "display": "posterior"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255551008",
+                  "display": "Posterior (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "status",
+              "value": "healed",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID6353",
+                  "display": "healed"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "90910008",
+                  "display": "Healed (qualifier value)"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "level",
-      "description": "The level of the rib fracture, in general or a specific rib",
-      "type": "choice",
-      "values": [
-        {
-          "name": "1",
-          "description": "First rib"
-        },
-        {
-          "name": "2",
-          "description": "Second rib"
-        },
-        {
-          "name": "3",
-          "description": "Third rib"
-        },
-        {
-          "name": "4",
-          "description": "Fourth rib"
-        },
-        {
-          "name": "5",
-          "description": "Fifth rib"
-        },
-        {
-          "name": "6",
-          "description": "Sixth rib"
-        },
-        {
-          "name": "7",
-          "description": "Seventh rib"
-        },
-        {
-          "name": "8",
-          "description": "Eighth rib"
-        },
-        {
-          "name": "9",
-          "description": "Ninth rib"
-        },
-        {
-          "name": "10",
-          "description": "Tenth rib"
-        },
-        {
-          "name": "11",
-          "description": "Eleventh rib"
-        },
-        {
-          "name": "12",
-          "description": "Twelfth rib"
-        },
-        {
-          "name": "upper",
-          "description": "Upper ribs"
-        },
-        {
-          "name": "lower",
-          "description": "Lower ribs"
+      },
+      {
+        "report_text": "Healed anterior right sixth rib fracture and anterolateral left fifth rib fracture are observed with no acute rib fractures.",
+        "observation": {
+          "finding_name": "healed_or_chronic_rib_fracture",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5765",
+                  "display": "multiple"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255204007",
+                  "display": "Multiple (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "side",
+              "value": "bilateral"
+            },
+            {
+              "attribute": "status",
+              "value": "healed",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID6353",
+                  "display": "healed"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "90910008",
+                  "display": "Healed (qualifier value)"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "The specific location of the rib fracture",
-      "type": "choice",
-      "values": [
-        {
-          "name": "anterior",
-          "description": "Fracture is located on the front of the rib cage"
-        },
-        {
-          "name": "posterior",
-          "description": "Fracture is located on the back of the rib cage"
-        },
-        {
-          "name": "lateral",
-          "description": "Fracture is located on the side of the rib cage"
-        },
-        {
-          "name": "anterolateral",
-          "description": "Fracture is located on the front and side of the rib cage"
-        },
-        {
-          "name": "posterolateral",
-          "description": "Fracture is located on the back and side of the rib cage"
+      },
+      {
+        "report_text": "Healing fracture of the RIGHT seventh rib is observed with mild degenerative changes within the thoracic spine.",
+        "observation": {
+          "finding_name": "healed_or_chronic_rib_fracture",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "single",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5762",
+                  "display": "single"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "50607009",
+                  "display": "Singular (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "side",
+              "value": "right",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "7",
+                  "display": "right"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID5825",
+                  "display": "right"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "24028007",
+                  "display": "Right (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "level",
+              "value": "7",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "7",
+                  "display": "right"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID5825",
+                  "display": "right"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "24028007",
+                  "display": "Right (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "status",
+              "value": "healing"
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "status",
-      "description": "The current state of the rib fracture",
-      "type": "choice",
-      "values": [
-        {
-          "name": "healed",
-          "description": "Fracture has completely healed"
-        },
-        {
-          "name": "subacute",
-          "description": "Fracture is in a subacute state, recent but not acute, including healing fractures"
-        },
-        {
-          "name": "chronic",
-          "description": "Fracture is old; synonym: remote"
+      },
+      {
+        "report_text": "Multiple remote healed right rib fractures are visible with no suspicious lytic or blastic lesions.",
+        "observation": {
+          "finding_name": "healed_or_chronic_rib_fracture",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5765",
+                  "display": "multiple"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255204007",
+                  "display": "Multiple (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "side",
+              "value": "right",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "7",
+                  "display": "right"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID5825",
+                  "display": "right"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "24028007",
+                  "display": "Right (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "status",
+              "value": "healed",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID6353",
+                  "display": "healed"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "90910008",
+                  "display": "Healed (qualifier value)"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "required": false
-    }
-  ],
-  "examples": [
-    {
-      "report_text": "Bones: There is a stable healing fracture of the posterior RIGHT 11th rib. Status-post resection of 7-9th right ribs with mesh reconstruction. No suspicious lytic or blastic lesions.",
-      "observation": {
-        "finding_name": "healed_or_chronic_rib_fracture",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "single"
-          },
-          {
-            "attribute": "side",
-            "value": "right"
-          },
-          {
-            "attribute": "level",
-            "value": "11"
-          },
-          {
-            "attribute": "location",
-            "value": "posterior"
-          },
-          {
-            "attribute": "status",
-            "value": "healing"
-          }
-        ]
+      },
+      {
+        "report_text": "Old, healed fracture involving the proximal sternal body and a few subacute/chronic left-sided rib fractures are observed.",
+        "observation": {
+          "finding_name": "healed_or_chronic_rib_fracture",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5765",
+                  "display": "multiple"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255204007",
+                  "display": "Multiple (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "side",
+              "value": "left",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "8",
+                  "display": "left"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID5824",
+                  "display": "left"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "7771000",
+                  "display": "Left (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "status",
+              "value": "healed",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID6353",
+                  "display": "healed"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "90910008",
+                  "display": "Healed (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "height loss. Old healed right lower rib fractures. No new osseous destructive lesion.",
+        "observation": {
+          "finding_name": "healed_or_chronic_rib_fracture",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "multiple",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5765",
+                  "display": "multiple"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255204007",
+                  "display": "Multiple (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "side",
+              "value": "right",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "7",
+                  "display": "right"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID5825",
+                  "display": "right"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "24028007",
+                  "display": "Right (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "level",
+              "value": "lower",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID46058",
+                  "display": "lower"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "261122009",
+                  "display": "Lower (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "status",
+              "value": "healed",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID6353",
+                  "display": "healed"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "90910008",
+                  "display": "Healed (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Healed rib fracture in the left posterior 10th rib is observed with mild osteopenia and degenerative changes of the thoracic spine.",
+        "observation": {
+          "finding_name": "healed_or_chronic_rib_fracture",
+          "attributes": [
+            {
+              "attribute": "multiplicity",
+              "value": "single",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5762",
+                  "display": "single"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "50607009",
+                  "display": "Singular (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "side",
+              "value": "left",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "8",
+                  "display": "left"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID5824",
+                  "display": "left"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "7771000",
+                  "display": "Left (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "level",
+              "value": "10",
+              "codes": [
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID28591_RID6160",
+                  "display": "tenth rib"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4015418",
+                  "display": "tenth rib"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "77644006",
+                  "display": "Bone structure of tenth rib (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "posterior",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5819",
+                  "display": "posterior"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255551008",
+                  "display": "Posterior (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "status",
+              "value": "healed",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID6353",
+                  "display": "healed"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "90910008",
+                  "display": "Healed (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
       }
-    },
-    {
-      "report_text": "Bones: There is a healed rib fracture in the right posterior 10th rib. No other acute fracture or dislocation. No suspicious lytic or blastic lesions.",
-      "observation": {
-        "finding_name": "healed_or_chronic_rib_fracture",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "single"
-          },
-          {
-            "attribute": "side",
-            "value": "right"
-          },
-          {
-            "attribute": "level",
-            "value": "10"
-          },
-          {
-            "attribute": "location",
-            "value": "posterior"
-          },
-          {
-            "attribute": "status",
-            "value": "healed"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Healed anterior right sixth rib fracture and anterolateral left fifth rib fracture are observed with no acute rib fractures.",
-      "observation": {
-        "finding_name": "healed_or_chronic_rib_fracture",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          },
-          {
-            "attribute": "side",
-            "value": "bilateral"
-          },
-          {
-            "attribute": "status",
-            "value": "healed"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Healing fracture of the RIGHT seventh rib is observed with mild degenerative changes within the thoracic spine.",
-      "observation": {
-        "finding_name": "healed_or_chronic_rib_fracture",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "single"
-          },
-          {
-            "attribute": "side",
-            "value": "right"
-          },
-          {
-            "attribute": "level",
-            "value": "7"
-          },
-          {
-            "attribute": "status",
-            "value": "healing"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Multiple remote healed right rib fractures are visible with no suspicious lytic or blastic lesions.",
-      "observation": {
-        "finding_name": "healed_or_chronic_rib_fracture",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          },
-          {
-            "attribute": "side",
-            "value": "right"
-          },
-          {
-            "attribute": "status",
-            "value": "healed"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Old, healed fracture involving the proximal sternal body and a few subacute/chronic left-sided rib fractures are observed.",
-      "observation": {
-        "finding_name": "healed_or_chronic_rib_fracture",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          },
-          {
-            "attribute": "side",
-            "value": "left"
-          },
-          {
-            "attribute": "status",
-            "value": "healed"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "height loss. Old healed right lower rib fractures. No new osseous destructive lesion.",
-      "observation": {
-        "finding_name": "healed_or_chronic_rib_fracture",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "multiple"
-          },
-          {
-            "attribute": "side",
-            "value": "right"
-          },
-          {
-            "attribute": "level",
-            "value": "lower"
-          },
-          {
-            "attribute": "status",
-            "value": "healed"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Healed rib fracture in the left posterior 10th rib is observed with mild osteopenia and degenerative changes of the thoracic spine.",
-      "observation": {
-        "finding_name": "healed_or_chronic_rib_fracture",
-        "attributes": [
-          {
-            "attribute": "multiplicity",
-            "value": "single"
-          },
-          {
-            "attribute": "side",
-            "value": "left"
-          },
-          {
-            "attribute": "level",
-            "value": "10"
-          },
-          {
-            "attribute": "location",
-            "value": "posterior"
-          },
-          {
-            "attribute": "status",
-            "value": "healed"
-          }
-        ]
-      }
-    }
-  ]
-}
+    ]
+  }
+]

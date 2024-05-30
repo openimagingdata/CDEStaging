@@ -1,157 +1,407 @@
-{
-  "_id": "655a6408d2df6d5d7489c372",
-  "name": "emphysematous change",
-  "description": "A pathological change in the lung tissue caused by emphysema, characterized by the enlargement of air spaces distal to the terminal bronchioles and destruction of alveolar walls",
-  "attributes": [
-    {
-      "name": "severity",
-      "description": "The extent or seriousness of the emphysematous change",
-      "type": "choice",
-      "values": [
-        {
-          "name": "mild",
-          "description": "Small in extent or seriousness"
-        },
-        {
-          "name": "moderate",
-          "description": "Neither mild nor severe"
-        },
-        {
-          "name": "severe",
-          "description": "Of a great or serious extent or degree"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "type",
-      "description": "The specific pattern of emphysematous change",
-      "type": "choice",
-      "values": [
-        {
-          "name": "centrilobular",
-          "description": "Involving the central part of the lobule, typically associated with smoking"
-        },
-        {
-          "name": "paraseptal",
-          "description": "Involving the outer parts of the lobule, near the pleura"
-        },
-        {
-          "name": "panlobular",
-          "description": "Involving the entire lobule, typically seen in alpha-1 antitrypsin deficiency"
-        },
-        {
-          "name": "centrilobular and paraseptal",
-          "description": "Combined features of centrilobular and paraseptal emphysema"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "The anatomical region of the emphysematous change",
-      "type": "choice",
-      "values": [
-        {
-          "name": "upper lobes",
-          "description": "The upper portion of the lungs"
-        },
-        {
-          "name": "lower lobes",
-          "description": "The lower portion of the lungs"
-        },
-        {
-          "name": "bilateral",
-          "description": "Both the left and right lungs"
-        },
-        {
-          "name": "right lung",
-          "description": "The right lung"
-        },
-        {
-          "name": "left lung",
-          "description": "The left lung"
-        }
-      ],
-      "required": false
-    }
-  ],
-  "examples": [
-    {
-      "report_text": "Emphysematous lung changes are severe. Persistent extensive mucous plugging within bilateral lower lobe bronchi.",
-      "observation": {
-        "finding_name": "emphysematous_change",
-        "attributes": [
-          {
-            "attribute": "severity",
-            "value": "severe"
-          }
-        ]
+[
+  {
+    "_id": "655a6408d2df6d5d7489c372",
+    "name": "emphysematous change",
+    "description": "A pathological change in the lung tissue caused by emphysema, characterized by the enlargement of air spaces distal to the terminal bronchioles and destruction of alveolar walls",
+    "codes": [
+      {
+        "system": "SNOMEDCT",
+        "code": "263703002",
+        "display": "Changed status (qualifier value)"
       }
-    },
-    {
-      "report_text": "Upper lobes show mild emphysematous change.",
-      "observation": {
-        "finding_name": "emphysematous_change",
-        "attributes": [
+    ],
+    "attributes": [
+      {
+        "name": "severity",
+        "description": "The extent or seriousness of the emphysematous change",
+        "codes": [
           {
-            "attribute": "severity",
-            "value": "mild"
+            "system": "SNOMEDCT",
+            "code": "246112005",
+            "display": "Severity (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "mild",
+            "description": "Small in extent or seriousness",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5671",
+                "display": "mild"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255604002",
+                "display": "Mild (qualifier value)"
+              }
+            ]
           },
           {
-            "attribute": "location",
-            "value": "upper lobes"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Emphysematous changes of centrilobular and paraseptal type are detected. No consolidation present.",
-      "observation": {
-        "finding_name": "emphysematous_change",
-        "attributes": [
+            "name": "moderate",
+            "description": "Neither mild nor severe",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5672",
+                "display": "moderate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1255665007",
+                "display": "Moderate (qualifier value)"
+              }
+            ]
+          },
           {
-            "attribute": "type",
-            "value": "centrilobular and paraseptal"
+            "name": "severe",
+            "description": "Of a great or serious extent or degree",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5673",
+                "display": "severe"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "24484000",
+                "display": "Severe (severity modifier) (qualifier value)"
+              }
+            ]
           }
-        ]
-      }
-    },
-    {
-      "report_text": "Centrilobular emphysematous changes observed. Small amount of mucus in the trachea.",
-      "observation": {
-        "finding_name": "emphysematous_change",
-        "attributes": [
+        ],
+        "required": false
+      },
+      {
+        "name": "type",
+        "description": "The specific pattern of emphysematous change",
+        "codes": [
           {
-            "attribute": "type",
-            "value": "centrilobular"
+            "system": "SNOMEDCT",
+            "code": "410656007",
+            "display": "Type (property) (qualifier value)"
           }
-        ]
-      }
-    },
-    {
-      "report_text": "3.  Stable background of centrilobular and paraseptal emphysematous changes with bronchial wall thickening, mucus plugging, bronchiectasis.",
-      "observation": {
-        "finding_name": "emphysematous_change",
-        "attributes": [
+        ],
+        "type": "choice",
+        "values": [
           {
-            "attribute": "type",
-            "value": "centrilobular and paraseptal"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "There is a relatively avascular areas in keeping with panlobular emphysema.   There is posterior basal segmental right lower lobar bronchiectatic change, not significantly changed.   No consolidation. The airways are clear.",
-      "observation": {
-        "finding_name": "emphysematous_change",
-        "attributes": [
+            "name": "centrilobular",
+            "description": "Involving the central part of the lobule, typically associated with smoking",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28505",
+                "display": "centrilobular"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "263970007",
+                "display": "Centrilobular (qualifier value)"
+              }
+            ]
+          },
           {
-            "attribute": "type",
-            "value": "panlobular"
+            "name": "paraseptal",
+            "description": "Involving the outer parts of the lobule, near the pleura",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID46024",
+                "display": "paraseptal"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "264123000",
+                "display": "Paraseptal (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "panlobular",
+            "description": "Involving the entire lobule, typically seen in alpha-1 antitrypsin deficiency",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "263831002",
+                "display": "Panlobular (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "centrilobular and paraseptal",
+            "description": "Combined features of centrilobular and paraseptal emphysema",
+            "codes": []
           }
-        ]
+        ],
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "The anatomical region of the emphysematous change",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "upper lobes",
+            "description": "The upper portion of the lungs",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID34695",
+                "display": "upper lobe of lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "45653009",
+                "display": "Structure of upper lobe of lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "lower lobes",
+            "description": "The lower portion of the lungs",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID34696",
+                "display": "lower lobe of lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "90572001",
+                "display": "Structure of lower lobe of lung (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "bilateral",
+            "description": "Both the left and right lungs",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5771",
+                "display": "bilateral"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "51440002",
+                "display": "Right and left (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "right lung",
+            "description": "The right lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3283",
+                "display": "right lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1302",
+                "display": "right lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1302",
+                "display": "right lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015016",
+                "display": "right lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "3341006",
+                "display": "Right lung structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left lung",
+            "description": "The left lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3299",
+                "display": "left lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1326",
+                "display": "left lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1326",
+                "display": "left lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014245",
+                "display": "left lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "44029006",
+                "display": "Left lung structure (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
       }
-    }
-  ]
-}
+    ],
+    "examples": [
+      {
+        "report_text": "Emphysematous lung changes are severe. Persistent extensive mucous plugging within bilateral lower lobe bronchi.",
+        "observation": {
+          "finding_name": "emphysematous_change",
+          "attributes": [
+            {
+              "attribute": "severity",
+              "value": "severe",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5673",
+                  "display": "severe"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "24484000",
+                  "display": "Severe (severity modifier) (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Upper lobes show mild emphysematous change.",
+        "observation": {
+          "finding_name": "emphysematous_change",
+          "attributes": [
+            {
+              "attribute": "severity",
+              "value": "mild",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5671",
+                  "display": "mild"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "255604002",
+                  "display": "Mild (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "location",
+              "value": "upper lobes",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID34695",
+                  "display": "upper lobe of lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "45653009",
+                  "display": "Structure of upper lobe of lung (body structure)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Emphysematous changes of centrilobular and paraseptal type are detected. No consolidation present.",
+        "observation": {
+          "finding_name": "emphysematous_change",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "centrilobular and paraseptal",
+              "codes": []
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "Centrilobular emphysematous changes observed. Small amount of mucus in the trachea.",
+        "observation": {
+          "finding_name": "emphysematous_change",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "centrilobular",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID28505",
+                  "display": "centrilobular"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "263970007",
+                  "display": "Centrilobular (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "3.  Stable background of centrilobular and paraseptal emphysematous changes with bronchial wall thickening, mucus plugging, bronchiectasis.",
+        "observation": {
+          "finding_name": "emphysematous_change",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "centrilobular and paraseptal",
+              "Codes": []
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "There is a relatively avascular areas in keeping with panlobular emphysema.   There is posterior basal segmental right lower lobar bronchiectatic change, not significantly changed.   No consolidation. The airways are clear.",
+        "observation": {
+          "finding_name": "emphysematous_change",
+          "attributes": [
+            {
+              "attribute": "type",
+              "value": "panlobular",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "263831002",
+                  "display": "Panlobular (qualifier value)"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

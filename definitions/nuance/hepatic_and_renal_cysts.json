@@ -1,84 +1,337 @@
-{
-  "_id": "6546a214d70dc759aae8ac34",
-  "name": "hepatic and renal cysts",
-  "description": "Fluid-filled sacs in the liver (hepatic) and kidneys (renal)",
-  "attributes": [
-    {
-      "name": "size",
-      "description": "The size of the cysts in the liver or kidneys",
-      "type": "numeric",
-      "minimum": 0,
-      "maximum": null,
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "The anatomical region of the cysts in the liver or kidneys",
-      "type": "choice",
-      "values": [
-        {
-          "name": "right kidney",
-          "description": "Right kidney"
-        },
-        {
-          "name": "left kidney",
-          "description": "Left kidney"
-        },
-        {
-          "name": "hepatic segment",
-          "description": "Specific segment of the liver"
-        },
-        {
-          "name": "right hepatic lobe",
-          "description": "Right lobe of the liver"
-        },
-        {
-          "name": "left hepatic lobe",
-          "description": "Left lobe of the liver"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "number",
-      "description": "The number of cysts in the liver or kidneys",
-      "type": "choice",
-      "values": [
-        {
-          "name": "single",
-          "description": "Single cyst"
-        },
-        {
-          "name": "multiple",
-          "description": "Multiple cysts"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "stability",
-      "description": "The change or lack thereof in the size and number of cysts over time",
-      "type": "choice",
-      "values": [
-        {
-          "name": "stable",
-          "description": "No significant change"
-        },
-        {
-          "name": "unchanged",
-          "description": "No change"
-        },
-        {
-          "name": "increased",
-          "description": "Increased in size or number"
-        },
-        {
-          "name": "decreased",
-          "description": "Decreased in size or number"
-        }
-      ],
-      "required": false
-    }
-  ],
-  "examples": null
-}
+[
+  {
+    "_id": "6546a214d70dc759aae8ac34",
+    "name": "hepatic and renal cysts",
+    "description": "Fluid-filled sacs in the liver (hepatic) and kidneys (renal)",
+    "codes": [
+      {
+        "system": "TA2",
+        "code": "3023",
+        "display": "liver"
+      },
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID58",
+        "display": "liver"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID58",
+        "display": "liver"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4014450",
+        "display": "liver"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "10200004",
+        "display": "Liver structure (body structure)"
+      },
+      {
+        "system": "TA2",
+        "code": "3358",
+        "display": "kidney"
+      },
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID205",
+        "display": "kidney"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID205",
+        "display": "kidney"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4014027",
+        "display": "kidney"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "64033007",
+        "display": "Kidney structure (body structure)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "size",
+        "description": "The size of the cysts in the liver or kidneys",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "246115007",
+            "display": "Size (attribute)"
+          }
+        ],
+        "type": "numeric",
+        "minimum": 0,
+        "maximum": null,
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "The anatomical region of the cysts in the liver or kidneys",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "right kidney",
+            "description": "Right kidney",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29662",
+                "display": "right kidney"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID29662",
+                "display": "right kidney"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014993",
+                "display": "right kidney"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "9846003",
+                "display": "Right kidney structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left kidney",
+            "description": "Left kidney",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID29663",
+                "display": "left kidney"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID29663",
+                "display": "left kidney"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014222",
+                "display": "left kidney"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "18639004",
+                "display": "Left kidney structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "hepatic segment",
+            "description": "Specific segment of the liver",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID29237",
+                "display": "segment of liver"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "277955006",
+                "display": "Structure of liver segment (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "right hepatic lobe",
+            "description": "Right lobe of the liver",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID74",
+                "display": "right lobe of liver"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID74",
+                "display": "right lobe of liver"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015010",
+                "display": "right lobe of liver"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "48521005",
+                "display": "Structure of right lobe of liver (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left hepatic lobe",
+            "description": "Left lobe of the liver",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID69",
+                "display": "left lobe of liver"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID69",
+                "display": "left lobe of liver"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014239",
+                "display": "left lobe of liver"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "69842003",
+                "display": "Structure of left lobe of liver (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "number",
+        "description": "The number of cysts in the liver or kidneys",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "410680006",
+            "display": "Number (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "single",
+            "description": "Single cyst",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5762",
+                "display": "single"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "50607009",
+                "display": "Singular (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "multiple",
+            "description": "Multiple cysts",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5765",
+                "display": "multiple"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255204007",
+                "display": "Multiple (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "stability",
+        "description": "The change or lack thereof in the size and number of cysts over time",
+        "codes": [],
+        "type": "choice",
+        "values": [
+          {
+            "name": "stable",
+            "description": "No significant change",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5734",
+                "display": "stable"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "58158008",
+                "display": "Stable (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "unchanged",
+            "description": "No change",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39268",
+                "display": "unchanged"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "260388006",
+                "display": "No status change (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "increased",
+            "description": "Increased in size or number",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID36043",
+                "display": "increased"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "35105006",
+                "display": "Increased (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "decreased",
+            "description": "Decreased in size or number",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID36044",
+                "display": "decreased"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1250004",
+                "display": "Decreased (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": null
+  }
+]

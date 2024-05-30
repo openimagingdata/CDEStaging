@@ -1,51 +1,182 @@
-{
-  "_id": "TEMP",
-  "name": "sternal fracture",
-  "description": "A sternal fracture is characterized by a break or crack in the breastbone, typically resulting from direct trauma to the chest. Adiological imaging such as X-rays or CT scans is utilized to visualize and assess the extent of the sternal injury, aiding in diagnosis and determining appropriate management strategies.",
-  "attributes": [
-    {
-      "name": "presence",
-      "description": "This indicates whether sternal fracture is present.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "absent",
-          "description": "No sternal fracture is present."
-        },
-        {
-          "name": "present",
-          "description": "Sternal fracture is observed."
-        },
-        {
-          "name": "indeterminate",
-          "description": "It is uncertain whether a sternal fracture is present."
-        },
-        {
-          "name": "unknown",
-          "description": "There is uncertainty regarding the presence of sternal fracture."
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "This indicates the anatomical region of the sternal fracture.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "manubrium",
-          "description": "RID2476"
-          "name": "manubrium",
-          "description": "RID2476"
-        },
-        {
-          "name": "sternum",
-          "description": "RID2473"
-          "name": "sternum",
-          "description": "RID2473"
-        }
-      ],
-      "required": false
-    }
-  ]
-}
+[
+  {
+    "_id": "TEMP",
+    "name": "sternal fracture",
+    "description": "A sternal fracture is characterized by a break or crack in the breastbone, typically resulting from direct trauma to the chest. Adiological imaging such as X-rays or CT scans is utilized to visualize and assess the extent of the sternal injury, aiding in diagnosis and determining appropriate management strategies.",
+    "codes": [
+      {
+        "system": "RADLEX",
+        "code": "RID4650",
+        "display": "fracture"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "72704001",
+        "display": "Fracture (morphologic abnormality)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "presence",
+        "description": "This indicates whether sternal fracture is present.",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "705057003",
+            "display": "Presence (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "absent",
+            "description": "No sternal fracture is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28473",
+                "display": "absent"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "2667000",
+                "display": "Absent (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "present",
+            "description": "Sternal fracture is observed.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28472",
+                "display": "present"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "52101004",
+                "display": "Present (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "indeterminate",
+            "description": "It is uncertain whether a sternal fracture is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39110",
+                "display": "indeterminate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "82334004",
+                "display": "Indeterminate (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "unknown",
+            "description": "There is uncertainty regarding the presence of sternal fracture.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5655",
+                "display": "unknown"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "261665006",
+                "display": "Unknown (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "This indicates the anatomical region of the sternal fracture.",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "manubrium",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1130",
+                "display": "Manubrium of sternum"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID2476",
+                "display": "manubrium"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID2476",
+                "display": "manubrium"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014488",
+                "display": "manubrium"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "37285002",
+                "display": "Bone structure of manubrium (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "sternum",
+            "description": "",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "1129",
+                "display": "sternum"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID2473",
+                "display": "sternum"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID2473",
+                "display": "sternum"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015283",
+                "display": "sternum"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "56873002",
+                "display": "Bone structure of sternum (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ]
+  }
+]

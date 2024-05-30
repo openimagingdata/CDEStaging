@@ -1,51 +1,182 @@
-{
-  "_id": "TEMP",
-  "name": "hepatic steatosis",
-  "description": "Hepatic steatosis is characterized by fat buildup in liver, which is seen as hypodensity on CT scans, often with liver appearing less dense than spleen, and on MRI, fat causing signal loss. Ultrasound shows liver as brighter due to fat, affecting how sound waves pass through.",
-  "attributes": [
-    {
-      "name": "presence",
-      "description": "This indicates the presence of hepatic steatosis.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "absent",
-          "description": "This signifies that no hepatic steatosis is present."
-        },
-        {
-          "name": "present",
-          "description": "This indicates that hepatic steatosis is present."
-        },
-        {
-          "name": "indeterminate",
-          "description": "It cannot determine whether hepatic steatosis is present."
-        },
-        {
-          "name": "unknown",
-          "description": "It suggests that it cannot be determined whether hepatic steatosis is present."
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "severity field",
-      "description": "It indicates the degree of fat accumulation in the liver.",
-      "type": "choice",
-      "values": [
-        {
-          "name": "mild",
-          "description": "It signifies a small amount of fat accumulation in the liver."
-        },
-        {
-          "name": "moderate",
-          "description": "It indicates a moderate amount of fat accumulation in the liver."
-        },
-        {
-          "name": "severe",
-          "description": "It represents a severe amount of fat accumulation in the liver."
-        }
-      ],
-      "required": false
-    }
-  ]
-}
+[
+  {
+    "_id": "TEMP",
+    "name": "hepatic steatosis",
+    "description": "Hepatic steatosis is characterized by fat buildup in liver, which is seen as hypodensity on CT scans, often with liver appearing less dense than spleen, and on MRI, fat causing signal loss. Ultrasound shows liver as brighter due to fat, affecting how sound waves pass through.",
+    "codes": [
+      {
+        "system": "TA2",
+        "code": "3023",
+        "display": "liver"
+      },
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID58",
+        "display": "liver"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID58",
+        "display": "liver"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4014450",
+        "display": "liver"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "10200004",
+        "display": "Liver structure (body structure)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID5217",
+        "display": "steatosis"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "29185008",
+        "display": "Fatty degeneration (morphologic abnormality)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "presence",
+        "description": "This indicates the presence of hepatic steatosis.",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "705057003",
+            "display": "Presence (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "absent",
+            "description": "This signifies that no hepatic steatosis is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28473",
+                "display": "absent"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "2667000",
+                "display": "Absent (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "present",
+            "description": "This indicates that hepatic steatosis is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28472",
+                "display": "present"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "52101004",
+                "display": "Present (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "indeterminate",
+            "description": "It cannot determine whether hepatic steatosis is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39110",
+                "display": "indeterminate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "82334004",
+                "display": "Indeterminate (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "unknown",
+            "description": "It suggests that it cannot be determined whether hepatic steatosis is present.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5655",
+                "display": "unknown"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "261665006",
+                "display": "Unknown (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "severity field",
+        "description": "It indicates the degree of fat accumulation in the liver.",
+        "codes": [],
+        "type": "choice",
+        "values": [
+          {
+            "name": "mild",
+            "description": "It signifies a small amount of fat accumulation in the liver.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5671",
+                "display": "mild"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255604002",
+                "display": "Mild (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "moderate",
+            "description": "It indicates a moderate amount of fat accumulation in the liver.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5672",
+                "display": "moderate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1255665007",
+                "display": "Moderate (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "severe",
+            "description": "It represents a severe amount of fat accumulation in the liver.",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5673",
+                "display": "severe"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "24484000",
+                "display": "Severe (severity modifier) (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ]
+  }
+]

@@ -1,80 +1,275 @@
-{
-  "_id": "65932d8c33bbe02d72eea1c4",
-  "name": "calcified pleural plaques",
-  "description": "Calcified formations that develop on the pleura, often due to asbestos exposure",
-  "attributes": [
-    {
-      "name": "calcification",
-      "description": "The presence or degree of calcification in the pleural plaques",
-      "type": "choice",
-      "values": [
-        {
-          "name": "calcified",
-          "description": "The pleural plaques are calcified"
-        },
-        {
-          "name": "partially calcified",
-          "description": "The pleural plaques are partially calcified"
-        },
-        {
-          "name": "noncalcified",
-          "description": "The pleural plaques are not calcified"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "The anatomical region of the calcified pleural plaques",
-      "type": "choice",
-      "values": [
-        {
-          "name": "bilateral",
-          "description": "The pleural plaques are present on both sides"
-        },
-        {
-          "name": "right",
-          "description": "The pleural plaques are present on the right side"
-        },
-        {
-          "name": "left",
-          "description": "The pleural plaques are present on the left side"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "quantity",
-      "description": "The number of calcified pleural plaques found",
-      "type": "choice",
-      "values": [
-        {
-          "name": "multiple",
-          "description": "There are several pleural plaques"
-        },
-        {
-          "name": "scattered",
-          "description": "The plaques are dispersed in no particular pattern"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "change",
-      "description": "The change in the calcified pleural plaques over time",
-      "type": "choice",
-      "values": [
-        {
-          "name": "unchanged",
-          "description": "There has been no change in the plaques"
-        },
-        {
-          "name": "redemonstration",
-          "description": "The plaques have been shown again, suggesting no change"
-        }
-      ],
-      "required": false
-    }
-  ],
-  "examples": null
-}
+[
+  {
+    "_id": "65932d8c33bbe02d72eea1c4",
+    "name": "calcified pleural plaques",
+    "description": "Calcified formations that develop on the pleura, often due to asbestos exposure",
+    "codes": [
+      {
+        "system": "RADLEX",
+        "code": "RID5747",
+        "display": "calcified"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "48391002",
+        "display": "Calcified granuloma (morphologic abnormality)"
+      },
+      {
+        "system": "TA2",
+        "code": "3322",
+        "display": "pleura"
+      },
+      {
+        "system": "ANATOMICLOCATIONS",
+        "code": "RID1362",
+        "display": "pleura"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID1362",
+        "display": "pleura"
+      },
+      {
+        "system": "ACRCOMMON",
+        "code": "4014735",
+        "display": "pleura"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "3120008",
+        "display": "Pleural membrane structure (body structure"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID43269",
+        "display": "pleural plaque"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "calcification",
+        "description": "The presence or degree of calcification in the pleural plaques",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID5196",
+            "display": "calcification"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "32931001",
+            "display": "Calcification of pleura (disorder)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "calcified",
+            "description": "The pleural plaques are calcified",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5747",
+                "display": "calcified"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "48391002",
+                "display": "Calcified granuloma (morphologic abnormality)"
+              }
+            ]
+          },
+          {
+            "name": "partially calcified",
+            "description": "The pleural plaques are partially calcified",
+            "codes": []
+          },
+          {
+            "name": "noncalcified",
+            "description": "The pleural plaques are not calcified",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39226",
+                "display": "noncalcified"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "17589002",
+                "display": "Non-calcified (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "The anatomical region of the calcified pleural plaques",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "bilateral",
+            "description": "The pleural plaques are present on both sides",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5771",
+                "display": "bilateral"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "51440002",
+                "display": "Right and left (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "right",
+            "description": "The pleural plaques are present on the right side",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "7",
+                "display": "right"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID5825",
+                "display": "right"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "24028007",
+                "display": "Right (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "left",
+            "description": "The pleural plaques are present on the left side",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "8",
+                "display": "left"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID5824",
+                "display": "left"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "7771000",
+                "display": "Left (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "quantity",
+        "description": "The number of calcified pleural plaques found",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID5761",
+            "display": "quantity descriptor"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "246205007",
+            "display": "Quantity (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "multiple",
+            "description": "There are several pleural plaques",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5765",
+                "display": "multiple"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255204007",
+                "display": "Multiple (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "scattered",
+            "description": "The plaques are dispersed in no particular pattern",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5705",
+                "display": "scattered"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255393008",
+                "display": "Scattered (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "change",
+        "description": "The change in the calcified pleural plaques over time",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "263703002",
+            "display": "Changed status (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "unchanged",
+            "description": "There has been no change in the plaques",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39268",
+                "display": "unchanged"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "260388006",
+                "display": "No status change (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "redemonstration",
+            "description": "The plaques have been shown again, suggesting no change",
+            "codes": []
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": null
+  }
+]

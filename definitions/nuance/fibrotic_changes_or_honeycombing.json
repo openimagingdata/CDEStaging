@@ -1,240 +1,703 @@
-{
-  "_id": "655a28fd44ead967e214563b",
-  "name": "fibrotic changes or honeycombing",
-  "description": "A pattern of lung disease characterized by irreversible fibrosis, leading to a honeycomb appearance due to thickened interlobular septa and intralobular lines",
-  "attributes": [
-    {
-      "name": "location",
-      "description": "The anatomical region of the fibrotic changes or honeycombing",
-      "type": "choice",
-      "values": [
-        {
-          "name": "biteral lower",
-          "description": "Lower parts of the lungs; also called basilar or bibasilar or the lung bases"
-        },
-        {
-          "name": "bilateral upper zone",
-          "description": "Upper parts of the lungs"
-        },
-        {
-          "name": "bilateral",
-          "description": "Throughout both lungs"
-        },
-        {
-          "name": "right lung",
-          "description": "Right lung"
-        },
-        {
-          "name": "left lung",
-          "description": "Left lung"
+[
+  {
+    "_id": "655a28fd44ead967e214563b",
+    "name": "fibrotic changes or honeycombing",
+    "description": "A pattern of lung disease characterized by irreversible fibrosis, leading to a honeycomb appearance due to thickened interlobular septa and intralobular lines",
+    "codes": [
+      {
+        "system": "SNOMEDCT",
+        "code": "47260009",
+        "display": "Honeycomb appearance (morphologic abnormality)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID35280",
+        "display": "Honeycomb lung"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "location",
+        "description": "The anatomical region of the fibrotic changes or honeycombing",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "biteral lower",
+            "description": "Lower parts of the lungs; also called basilar or bibasilar or the lung bases",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "90572001",
+                "display": "Structure of lower lobe of lung (body structure)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID34696",
+                "display": "lower lobe of lung"
+              }
+            ]
+          },
+          {
+            "name": "bilateral upper zone",
+            "description": "Upper parts of the lungs",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "45653009",
+                "display": "Structure of upper lobe of lung (body structure)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID34695",
+                "display": "upper lobe of lung"
+              }
+            ]
+          },
+          {
+            "name": "bilateral",
+            "description": "Throughout both lungs",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5771",
+                "display": "bilateral"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "51440002",
+                "display": "Right and left (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "right lung",
+            "description": "Right lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3283",
+                "display": "right lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1302",
+                "display": "right lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1302",
+                "display": "right lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4015016",
+                "display": "right lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "3341006",
+                "display": "Right lung structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left lung",
+            "description": "Left lung",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "3299",
+                "display": "left lung"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID1326",
+                "display": "left lung"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1326",
+                "display": "left lung"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "44029006",
+                "display": "left lung"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "44029006",
+                "display": "Left lung structure (body structure)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "change",
+        "description": "The progression of the fibrotic changes or honeycombing over time",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "263703002",
+            "display": "Changed status (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "progression",
+            "description": "Increase or worsening of fibrotic changes or honeycombing",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "246450006",
+                "display": "Progression (attribute)"
+              }
+            ]
+          },
+          {
+            "name": "stable",
+            "description": "No significant change in fibrotic changes or honeycombing",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5734",
+                "display": "stable"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "58158008",
+                "display": "Stable (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "unchanged",
+            "description": "No change in fibrotic changes or honeycombing",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID39268",
+                "display": "unchanged"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "260388006",
+                "display": "No status change (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "honeycombing",
+        "description": "Whether or not honeycombing is present",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "227599006",
+            "display": "Honeycomb (substance)"
+          },
+          {
+            "system": "RADLEX",
+            "code": "RID35280",
+            "display": "Honeycomb lung"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "present",
+            "description": "Honeycombing is present",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28472",
+                "display": "present"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "52101004",
+                "display": "Present (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "absent",
+            "description": "Honeycombing is not present",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28473",
+                "display": "absent"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "2667000",
+                "display": "Absent (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "associated features",
+        "description": "Other radiological findings associated with the fibrotic changes or honeycombing",
+        "codes": [],
+        "type": "choice",
+        "values": [
+          {
+            "name": "groundglass opacities",
+            "description": "Areas of increased attenuation in the lung with preserved bronchial and vascular markings",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28531",
+                "display": "Ground-glass opacity"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1217294009",
+                "display": "Ground glass lung opacity (finding)"
+              }
+            ]
+          },
+          {
+            "name": "consolidation",
+            "description": "An area of the lung parenchyma that has filled with liquid instead of air",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "9656002",
+                "display": "Consolidation (morphologic abnormality)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID43255",
+                "display": "Consolidation"
+              }
+            ]
+          },
+          {
+            "name": "traction bronchiectasis",
+            "description": "Irreversible widening of the bronchi or bronchioles caused by destruction of the muscle and elastic tissue",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "19325002",
+                "display": "Traction bronchiectasis (disorder)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID28528",
+                "display": "Traction bronchiectasis"
+              }
+            ]
+          },
+          {
+            "name": "reticulations",
+            "description": "A network of lines in the lung",
+            "codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID38794",
+              "display": "reticulation"
+            }
+          ]
+          },
+          {
+            "name": "interlobular and intralobular septal thickening",
+            "description": "Thickening of the walls that separate the lobules of the lungs",
+            "codes": []
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": [
+      {
+        "report_text": "opacities in the right lower lobe associated with traction bronchiectasis, suggestive of fibrotic changes. No definite honeycombing, however please note that low-dose technique",
+        "observation": {
+          "finding_name": "fibrotic_changes_or_honeycombing",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "right lung",
+              "codes": [
+                {
+                  "system": "TA2",
+                  "code": "3283",
+                  "display": "right lung"
+                },
+                {
+                  "system": "ANATOMICLOCATIONS",
+                  "code": "RID1302",
+                  "display": "right lung"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID1302",
+                  "display": "right lung"
+                },
+                {
+                  "system": "ACRCOMMON",
+                  "code": "4015016",
+                  "display": "right lung"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "3341006",
+                  "display": "Right lung structure (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "associated_features",
+              "value": "traction bronchiectasis",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "19325002",
+                  "display": "Traction bronchiectasis (disorder)"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID28528",
+                  "display": "Traction bronchiectasis"
+                }
+              ]
+            },
+            {
+              "attribute": "honeycombing",
+              "value": "absent",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID28473",
+                  "display": "absent"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "2667000",
+                  "display": "Absent (qualifier value)"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "change",
-      "description": "The progression of the fibrotic changes or honeycombing over time",
-      "type": "choice",
-      "values": [
-        {
-          "name": "progression",
-          "description": "Increase or worsening of fibrotic changes or honeycombing"
-        },
-        {
-          "name": "stable",
-          "description": "No significant change in fibrotic changes or honeycombing"
-        },
-        {
-          "name": "unchanged",
-          "description": "No change in fibrotic changes or honeycombing"
+      },
+      {
+        "report_text": "or bronchiolitis. Moderate emphysematous changes with fibrotic changes and honeycombing in the lung bases. New consolidation in the left lower lobe with heterogeneous enhancement, which is concerning for pneumonia. Increased groundglass opacities in",
+        "observation": {
+          "finding_name": "fibrotic_changes_or_honeycombing",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "lower zone",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID1354",
+                  "display": "lower lung zone"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "281394001",
+                  "display": "Structure of lower zone of lung (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "honeycombing",
+              "value": "present",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID28472",
+                  "display": "present"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "52101004",
+                  "display": "Present (qualifier value)"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "honeycombing",
-      "description": "Whether or not honeycombing is present",
-      "type": "choice",
-      "values": [
-        {
-          "name": "present",
-          "description": "Honeycombing is present"
-        },
-        {
-          "name": "absent",
-          "description": "Honeycombing is not present"
+      },
+      {
+        "report_text": "1.  No significant change in basilar predominant fibrotic interstitial lung disease when compared back to January 2023 without honeycombing. Fibrosis has progressed when compared to -----. Differential diagnosis is similar to prior exams including",
+        "observation": {
+          "finding_name": "fibrotic_changes_or_honeycombing",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "lower zone",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID1354",
+                  "display": "lower lung zone"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "281394001",
+                  "display": "Structure of lower zone of lung (body structure)"
+                }
+              ]
+            },
+            {
+              "attribute": "change",
+              "value": "unchanged",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID39268",
+                  "display": "unchanged"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "260388006",
+                  "display": "No status change (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "honeycombing",
+              "value": "absent",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID28473",
+                  "display": "absent"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "2667000",
+                  "display": "Absent (qualifier value)"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "required": false
-    },
-    {
-      "name": "associated features",
-      "description": "Other radiological findings associated with the fibrotic changes or honeycombing",
-      "type": "choice",
-      "values": [
-        {
-          "name": "groundglass opacities",
-          "description": "Areas of increased attenuation in the lung with preserved bronchial and vascular markings"
-        },
-        {
-          "name": "consolidation",
-          "description": "An area of the lung parenchyma that has filled with liquid instead of air"
-        },
-        {
-          "name": "traction bronchiectasis",
-          "description": "Irreversible widening of the bronchi or bronchioles caused by destruction of the muscle and elastic tissue"
-        },
-        {
-          "name": "reticulations",
-          "description": "A network of lines in the lung"
-        },
-        {
-          "name": "interlobular and intralobular septal thickening",
-          "description": "Thickening of the walls that separate the lobules of the lungs"
+      },
+      {
+        "report_text": "Unchanged fibrotic changes throughout the lungs with interlobular and intralobular septal thickening and honeycombing. Increased groundglass opacities and consolidation in the left lower lobe, which may represent acute exacerbation of interstitial",
+        "observation": {
+          "finding_name": "fibrotic_changes_or_honeycombing",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "bilateral",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5771",
+                  "display": "bilateral"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "51440002",
+                  "display": "Right and left (qualifier value)"
+                }
+              ]
+
+            },
+            {
+              "attribute": "change",
+              "value": "unchanged",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID39268",
+                  "display": "unchanged"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "260388006",
+                  "display": "No status change (qualifier value)"
+                }
+              ]
+            },
+            {
+              "attribute": "associated_features",
+              "value": "interlobular and intralobular septal thickening"
+            },
+            {
+              "attribute": "honeycombing",
+              "value": "present",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID28473",
+                  "display": "absent"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "2667000",
+                  "display": "Absent (qualifier value)"
+                }
+              ]
+
+            }
+          ]
         }
-      ],
-      "required": false
-    }
-  ],
-  "examples": [
-    {
-      "report_text": "opacities in the right lower lobe associated with traction bronchiectasis, suggestive of fibrotic changes. No definite honeycombing, however please note that low-dose technique",
-      "observation": {
-        "finding_name": "fibrotic_changes_or_honeycombing",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "right lung"
-          },
-          {
-            "attribute": "associated_features",
-            "value": "traction bronchiectasis"
-          },
-          {
-            "attribute": "honeycombing",
-            "value": "absent"
-          }
-        ]
+      },
+      {
+        "report_text": "Similar subpleural reticulations and fibrotic changes of the lungs.",
+        "observation": {
+          "finding_name": "fibrotic_changes_or_honeycombing",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "bilateral",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5771",
+                  "display": "bilateral"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "51440002",
+                  "display": "Right and left (qualifier value)"
+                }
+              ]
+
+            },
+            {
+              "attribute": "associated_features",
+              "value": "reticulations",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID38794",
+                  "display": "reticulation"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "4.  Similar subpleural reticulations and fibrotic changes of the lungs.",
+        "observation": {
+          "finding_name": "fibrotic_changes_or_honeycombing",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "bilateral",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5771",
+                  "display": "bilateral"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "51440002",
+                  "display": "Right and left (qualifier value)"
+                }
+              ]
+
+            },
+            {
+              "attribute": "associated_features",
+              "value": "reticulations",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID38794",
+                  "display": "reticulation"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "report_text": "for a background fibrotic change.",
+        "observation": {
+          "finding_name": "fibrotic_changes_or_honeycombing",
+          "attributes": []
+        }
+      },
+      {
+        "report_text": "Diffuse bilateral interstitial thickening with honeycombing and traction bronchiectasis, consistent with pulmonary fibrosis.",
+        "observation": {
+          "finding_name": "fibrotic_changes_or_honeycombing",
+          "attributes": [
+            {
+              "attribute": "location",
+              "value": "bilateral",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID5771",
+                  "display": "bilateral"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "51440002",
+                  "display": "Right and left (qualifier value)"
+                }
+              ]
+
+            },
+            {
+              "attribute": "honeycombing",
+              "value": "present",
+              "codes": [
+                {
+                  "system": "RADLEX",
+                  "code": "RID28473",
+                  "display": "absent"
+                },
+                {
+                  "system": "SNOMEDCT",
+                  "code": "2667000",
+                  "display": "Absent (qualifier value)"
+                }
+              ]
+
+            },
+            {
+              "attribute": "associated_features",
+              "value": "traction bronchiectasis",
+              "codes": [
+                {
+                  "system": "SNOMEDCT",
+                  "code": "19325002",
+                  "display": "Traction bronchiectasis (disorder)"
+                },
+                {
+                  "system": "RADLEX",
+                  "code": "RID28528",
+                  "display": "Traction bronchiectasis"
+                }
+              ]
+
+            }
+          ]
+        }
       }
-    },
-    {
-      "report_text": "or bronchiolitis. Moderate emphysematous changes with fibrotic changes and honeycombing in the lung bases. New consolidation in the left lower lobe with heterogeneous enhancement, which is concerning for pneumonia. Increased groundglass opacities in",
-      "observation": {
-        "finding_name": "fibrotic_changes_or_honeycombing",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "lower zone"
-          },
-          {
-            "attribute": "honeycombing",
-            "value": "present"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "1.  No significant change in basilar predominant fibrotic interstitial lung disease when compared back to January 2023 without honeycombing. Fibrosis has progressed when compared to -----. Differential diagnosis is similar to prior exams including",
-      "observation": {
-        "finding_name": "fibrotic_changes_or_honeycombing",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "lower zone"
-          },
-          {
-            "attribute": "change",
-            "value": "unchanged"
-          },
-          {
-            "attribute": "honeycombing",
-            "value": "absent"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Unchanged fibrotic changes throughout the lungs with interlobular and intralobular septal thickening and honeycombing. Increased groundglass opacities and consolidation in the left lower lobe, which may represent acute exacerbation of interstitial",
-      "observation": {
-        "finding_name": "fibrotic_changes_or_honeycombing",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "bilateral"
-          },
-          {
-            "attribute": "change",
-            "value": "unchanged"
-          },
-          {
-            "attribute": "associated_features",
-            "value": "interlobular and intralobular septal thickening"
-          },
-          {
-            "attribute": "honeycombing",
-            "value": "present"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "Similar subpleural reticulations and fibrotic changes of the lungs.",
-      "observation": {
-        "finding_name": "fibrotic_changes_or_honeycombing",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "bilateral"
-          },
-          {
-            "attribute": "associated_features",
-            "value": "reticulations"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "4.  Similar subpleural reticulations and fibrotic changes of the lungs.",
-      "observation": {
-        "finding_name": "fibrotic_changes_or_honeycombing",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "bilateral"
-          },
-          {
-            "attribute": "associated_features",
-            "value": "reticulations"
-          }
-        ]
-      }
-    },
-    {
-      "report_text": "for a background fibrotic change.",
-      "observation": {
-        "finding_name": "fibrotic_changes_or_honeycombing",
-        "attributes": []
-      }
-    },
-    {
-      "report_text": "Diffuse bilateral interstitial thickening with honeycombing and traction bronchiectasis, consistent with pulmonary fibrosis.",
-      "observation": {
-        "finding_name": "fibrotic_changes_or_honeycombing",
-        "attributes": [
-          {
-            "attribute": "location",
-            "value": "bilateral"
-          },
-          {
-            "attribute": "honeycombing",
-            "value": "present"
-          },
-          {
-            "attribute": "associated_features",
-            "value": "traction bronchiectasis"
-          }
-        ]
-      }
-    }
-  ]
-}
+    ]
+  }
+]

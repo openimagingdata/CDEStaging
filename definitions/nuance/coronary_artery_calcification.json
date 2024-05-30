@@ -1,80 +1,298 @@
-{
-  "_id": "655a71e24c807ad4e3bb5275",
-  "name": "coronary artery calcification",
-  "description": "The presence of calcium in the coronary arteries",
-  "attributes": [
-    {
-      "name": "severity",
-      "description": "The degree of the atherosclerotic calcification",
-      "type": "choice",
-      "values": [
-        {
-          "name": "mild",
-          "description": "Minor extent of atherosclerotic disease"
-        },
-        {
-          "name": "moderate",
-          "description": "Intermediate extent of atherosclerotic disease"
-        },
-        {
-          "name": "severe",
-          "description": "Significant extent of atherosclerotic disease"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "location",
-      "description": "The location of the atherosclerotic calcification",
-      "type": "choice",
-      "values": [
-        {
-          "name": "left main",
-          "description": "The left main coronary artery"
-        },
-        {
-          "name": "left anterior descending",
-          "description": "The left anterior descending coronary artery"
-        },
-        {
-          "name": "left circumflex",
-          "description": "The left circumflex coronary artery"
-        },
-        {
-          "name": "left coronary system",
-          "description": "The left coronary artery system"
-        },
-        {
-          "name": "right coronary",
-          "description": "The right coronary artery"
-        },
-        {
-          "name": "throughout",
-          "description": "Throughout the coronary arteries"
-        }
-      ],
-      "required": false
-    },
-    {
-      "name": "stents",
-      "description": "The presence of stents in the coronary arteries",
-      "type": "choice",
-      "values": [
-        {
-          "name": "absent",
-          "description": "Stents are not present"
-        },
-        {
-          "name": "present",
-          "description": "Stents are present"
-        },
-        {
-          "name": "multiple",
-          "description": "Multiple stents are present"
-        }
-      ],
-      "required": false
-    }
-  ],
-  "examples": null
-}
+[
+  {
+    "_id": "655a71e24c807ad4e3bb5275",
+    "name": "coronary artery calcification",
+    "description": "The presence of calcium in the coronary arteries",
+    "codes": [
+      {
+        "system": "RADLEX",
+        "code": "RID5196",
+        "display": "calcification"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "445512009",
+        "display": "Calcification of coronary artery (disorder)"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "severity",
+        "description": "The degree of the atherosclerotic calcification",
+        "codes": [
+          {
+            "system": "SNOMEDCT",
+            "code": "246112005",
+            "display": "Severity (attribute)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "mild",
+            "description": "Minor extent of atherosclerotic disease",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5671",
+                "display": "mild"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255604002",
+                "display": "Mild (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "moderate",
+            "description": "Intermediate extent of atherosclerotic disease",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5672",
+                "display": "moderate"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "1255665007",
+                "display": "Moderate (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "severe",
+            "description": "Significant extent of atherosclerotic disease",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5673",
+                "display": "severe"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "24484000",
+                "display": "Severe (severity modifier) (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "The location of the atherosclerotic calcification",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID39038",
+            "display": "location"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "758637006",
+            "display": "Anatomic location (property) (qualifier value)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "left main",
+            "description": "The left main coronary artery",
+            "codes": [
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID486",
+                "display": "left coronary artery"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID486",
+                "display": "left coronary artery"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "3227004",
+                "display": "Structure of left coronary artery main stem (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left anterior descending",
+            "description": "The left anterior descending coronary artery",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "4143",
+                "display": "anterior interventricular artery"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID490",
+                "display": "left anterior descending artery"
+              },
+              {
+                "system": "RADLEX",
+                "code": "4014099",
+                "display": "left anterior descending artery"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "RID490",
+                "display": "left anterior descending artery"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "59438005",
+                "display": "Structure of anterior descending branch of left coronary artery (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left circumflex",
+            "description": "The left circumflex coronary artery",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "4148",
+                "display": "circumflex artery of heart"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID510",
+                "display": "circumflex coronary artery"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID510",
+                "display": "circumflex coronary artery"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "57396003",
+                "display": "Structure of circumflex branch of left coronary artery (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "left coronary system",
+            "description": "The left coronary artery system",
+            "codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "25372900",
+                "display": "Left dominant coronary system (disorder)"
+              }
+            ]
+          },
+          {
+            "name": "right coronary",
+            "description": "The right coronary artery",
+            "codes": [
+              {
+                "system": "TA2",
+                "code": "4143",
+                "display": "right coronary artery"
+              },
+              {
+                "system": "ANATOMICLOCATIONS",
+                "code": "RID544",
+                "display": "right coronary"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID544",
+                "display": "right coronary"
+              },
+              {
+                "system": "ACRCOMMON",
+                "code": "4014909",
+                "display": "right coronary"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "13647002",
+                "display": "Right coronary artery structure (body structure)"
+              }
+            ]
+          },
+          {
+            "name": "throughout",
+            "description": "Throughout the coronary arteries",
+            "codes": []
+          }
+        ],
+        "required": false
+      },
+      {
+        "name": "stents",
+        "description": "The presence of stents in the coronary arteries",
+        "codes": [
+          {
+            "system": "RADLEX",
+            "code": "RID50361",
+            "display": "vascular stent"
+          },
+          {
+            "system": "SNOMEDCT",
+            "code": "65818007",
+            "display": "Stent (physical object)"
+          }
+        ],
+        "type": "choice",
+        "values": [
+          {
+            "name": "absent",
+            "description": "Stents are not present",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28473",
+                "display": "absent"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "2667000",
+                "display": "Absent (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "present",
+            "description": "Stents are present",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID28472",
+                "display": "present"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "52101004",
+                "display": "Present (qualifier value)"
+              }
+            ]
+          },
+          {
+            "name": "multiple",
+            "description": "Multiple stents are present",
+            "codes": [
+              {
+                "system": "RADLEX",
+                "code": "RID5765",
+                "display": "multiple"
+              },
+              {
+                "system": "SNOMEDCT",
+                "code": "255204007",
+                "display": "Multiple (qualifier value)"
+              }
+            ]
+          }
+        ],
+        "required": false
+      }
+    ],
+    "examples": null
+  }
+]
