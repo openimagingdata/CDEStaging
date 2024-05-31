@@ -43,6 +43,11 @@
         "system": "RADLEX",
         "code": "RID43269",
         "display": "pleural plaque"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "233658003",
+        "display": "Pleural plaque (disorder)"
       }
     ],
     "attributes": [

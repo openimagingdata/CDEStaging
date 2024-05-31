@@ -21,18 +21,13 @@
       },
       {
         "system": "SNOMEDCT",
-        "code": "78904004",
-        "display": "Chest wall structure (body structure)"
+        "code": "441124000",
+        "display": "Mass of chest wall (finding)"
       },
       {
         "system": "RADLEX",
         "code": "RID3874",
         "display": "mass"
-      },
-      {
-        "system": "SNOMEDCT",
-        "code": "4147007",
-        "display": "Mass (morphologic abnormality)"
       }
     ],
     "attributes": [

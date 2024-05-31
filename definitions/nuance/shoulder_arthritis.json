@@ -38,6 +38,11 @@
         "system": "SNOMEDCT",
         "code": "396275006",
         "display": "Osteoarthritis (disorder)"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "67315001",
+        "display": "Degenerative joint disease of shoulder region (disorder)"
       }
     ],
     "attributes": [

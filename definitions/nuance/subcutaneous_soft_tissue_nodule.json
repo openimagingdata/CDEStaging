@@ -16,8 +16,8 @@
       },
       {
         "system": "SNOMEDCT",
-        "code": "27925004",
-        "display": "Nodule (morphologic abnormality)"
+        "code": "95325000",
+        "display": "Subcutaneous nodule (finding)"
       }
     ],
     "attributes": [

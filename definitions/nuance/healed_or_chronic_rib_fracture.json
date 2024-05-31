@@ -15,6 +15,11 @@
         "display": "Healed (qualifier value)"
       },
       {
+        "system": "SNOMEDCT",
+        "code": "9661000",
+        "display": " Fracture, healed (morphologic abnormality)"
+      },
+      {
         "system": "RADLEX",
         "code": "RID5719",
         "display": "chronic"

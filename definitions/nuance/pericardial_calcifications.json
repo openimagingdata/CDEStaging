@@ -1,7 +1,7 @@
 [
   {
     "_id": "653b0955fdb92c1a0bf6997b",
-    "name": "pericardial calcifications",
+    "name": "v",
     "description": "A condition characterized by abnormal deposits of calcium in the pericardium, the sac-like structure around the heart. Usually a result of injury to the heart or pericardium and can lead to constrictive pericarditis.",
     "codes": [
       {
@@ -23,6 +23,11 @@
         "system": "RADLEX",
         "code": "RID5196",
         "display": "calcification"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "42653000",
+        "display": "Calcification of pericardium (disorder)"
       },
       {
         "system": "SNOMEDCT",

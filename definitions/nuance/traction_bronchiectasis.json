@@ -8,6 +8,11 @@
         "system": "SNOMEDCT",
         "code": "19325002",
         "display": "Traction bronchiectasis (disorder)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID28528",
+        "display": "Traction bronchiectasis"
       }
     ],
     "attributes": [

@@ -30,6 +30,11 @@
         "display": "Liver structure (body structure)"
       },
       {
+        "system": "SNOMEDCT",
+        "code": "85057007",
+        "display": "Cyst of liver (disorder)"
+      },
+      {
         "system": "TA2",
         "code": "3358",
         "display": "kidney"
@@ -53,6 +58,16 @@
         "system": "SNOMEDCT",
         "code": "64033007",
         "display": "Kidney structure (body structure)"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "722223000",
+        "display": "Cyst of kidney (disorder)"
+      },
+      {
+        "system": "RADLEX",
+        "code": "RID35811",
+        "display": "renal cyst"
       }
     ],
     "attributes": [

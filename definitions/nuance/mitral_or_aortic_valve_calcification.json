@@ -30,6 +30,11 @@
         "display": "Mitral valve structure (body structure)"
       },
       {
+        "system": "SNOMEDCT",
+        "code": "473372009",
+        "display": "Calcification of mitral valve (disorder)"
+      },
+      {
         "system": "TA2",
         "code": "3993",
         "display": "aortic valve"
@@ -53,6 +58,11 @@
         "system": "ACRCOMMON",
         "code": "4013502",
         "display": "aortic valve"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "250978003",
+        "display": "Aortic valve calcification (disorder)"
       },
       {
         "system": "RADLEX",

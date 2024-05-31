@@ -28,6 +28,11 @@
         "system": "SNOMEDCT",
         "code": "10200004",
         "display": "Liver structure (body structure)"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "93469006",
+        "display": " Hemangioma of liver (disorder)"
       }
     ],
     "attributes": [

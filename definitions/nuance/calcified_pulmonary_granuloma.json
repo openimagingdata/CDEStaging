@@ -13,6 +13,11 @@
         "system": "RADLEX",
         "code": "RID3953",
         "display": "granuloma"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "16841131000119100",
+        "display": "Calcified granuloma (morphologic abnormality)"
       }
     ],
     "attributes": [

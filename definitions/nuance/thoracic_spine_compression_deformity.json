@@ -5,6 +5,11 @@
     "description": "A structural change in one or more vertebrae of the thoracic spine, where the vertebral body has decreased in height due to compression.",
     "codes": [
       {
+        "system": "SNOMEDCT",
+        "code": "698077007",
+        "display": "Compression fracture of thoracic spine (disorder)"
+      },
+      {
         "system": "TA2",
         "code": "1059",
         "display": "thoracic vertebra"

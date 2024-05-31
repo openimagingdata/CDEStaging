@@ -33,6 +33,11 @@
         "system": "SNOMEDCT",
         "code": "298382003",
         "display": "Scoliosis deformity of spine (disorder"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "298494008",
+        "display": " Scoliosis of thoracic spine (disorder)"
       }
     ],
     "attributes": [

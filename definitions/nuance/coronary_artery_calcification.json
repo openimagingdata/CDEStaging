@@ -6,8 +6,8 @@
     "codes": [
       {
         "system": "RADLEX",
-        "code": "RID5196",
-        "display": "calcification"
+        "code": "RID50146",
+        "display": "coronary artery calcification"
       },
       {
         "system": "SNOMEDCT",

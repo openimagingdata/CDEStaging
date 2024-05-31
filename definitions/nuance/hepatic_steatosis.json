@@ -38,6 +38,11 @@
         "system": "SNOMEDCT",
         "code": "29185008",
         "display": "Fatty degeneration (morphologic abnormality)"
+      },
+      {
+        "system": "SNOMEDCT",
+        "code": "197321007",
+        "display": "Steatosis of liver (disorder)"
       }
     ],
     "attributes": [

@@ -10,9 +10,9 @@
         "display": "fracture"
       },
       {
-        "system": "SNOMEDCT",
-        "code": "72704001",
-        "display": "Fracture (morphologic abnormality)"
+          "system": "SNOMEDCT",
+          "code": "78516000",
+          "display": "Fracture of sternum (disorder)"
       }
     ],
     "attributes": [
