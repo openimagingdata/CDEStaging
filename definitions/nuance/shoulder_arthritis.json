@@ -297,8 +297,8 @@
               },
               {
                 "system": "SNOMEDCT",
-                "code": "282104000",
-                "display": "Entire tendon of subscapularis muscle (body structure)"
+                "code": "90588001",
+                "display": "Subscapularis muscle structure (body structure"
               }
             ]
           },
@@ -328,8 +328,8 @@
               },
               {
                 "system": "SNOMEDCT",
-                "code": "182390009",
-                "display": "Entire glenohumeral ligament (body structure)"
+                "code": "1236834004",
+                "display": "Structure of glenohumeral ligament (body structure)"
               }
             ]
           },
