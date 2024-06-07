@@ -54,11 +54,6 @@
         "system": "SNOMEDCT",
         "code": "67362008 ",
         "display": "Aortic aneurysm "
-      },
-      {
-        "system": "RADLEX",
-        "code": "RID34793",
-        "display": "dissecting aortic aneurysm"
       }
     ],
     "attributes": [
