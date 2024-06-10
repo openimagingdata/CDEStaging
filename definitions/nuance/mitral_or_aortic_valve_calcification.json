@@ -68,11 +68,6 @@
         "system": "RADLEX",
         "code": "RID5196",
         "display": "calcification"
-      },
-      {
-        "system": "SNOMEDCT",
-        "code": "237897009",
-        "display": "Vascular calcification (disorder)"
       }
     ],
     "attributes": [

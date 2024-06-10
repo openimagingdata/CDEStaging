@@ -28,11 +28,6 @@
         "system": "SNOMEDCT",
         "code": "42653000",
         "display": "Calcification of pericardium (disorder)"
-      },
-      {
-        "system": "SNOMEDCT",
-        "code": "237897009",
-        "display": "Vascular calcification (disorder)"
       }
     ],
     "attributes": [
