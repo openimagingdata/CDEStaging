@@ -1,0 +1,145 @@
+{
+  "id": "MSETCODE_3512796",
+  "name": "Extremity fracture ",
+  "description": "Fractures of the arm or leg",
+  "set_version": {
+    "number": 1,
+    "date": "2024-10-01"
+  },
+  "schema_version": "1.0.0",
+  "status": {
+    "date": "2024-10-01",
+    "name": "Proposed"
+  },
+  "index_codes": [],
+  "history": [
+    {
+      "date": "2024-10-01",
+      "status": {
+        "date": "2024-10-01",
+        "name": "Proposed"
+      }
+    }
+  ],
+  "specialties": [
+    {
+      "abbreviation": "MK",
+      "name": "Musculoskeletal"
+    }
+  ],
+  "elements": [
+    {
+      "id": "MCODE_7393916",
+      "name": "Presence of fracture",
+      "element_version": {
+        "number": 1,
+        "date": "2024-10-01"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-10-01",
+        "name": "Proposed"
+      },
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "MCODE_7393916.0",
+            "value": "absent",
+            "name": "Absent"
+          },
+          {
+            "code": "MCODE_7393916.1",
+            "value": "present",
+            "name": "Present"
+          },
+          {
+            "code": "MCODE_7393916.2",
+            "value": "indeterminate",
+            "name": "Indeterminate"
+          },
+          {
+            "code": "MCODE_7393916.3",
+            "value": "unknown",
+            "name": "Unknown"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MCODE_4826450",
+      "name": "Location",
+      "element_version": {
+        "number": 1,
+        "date": "2024-10-01"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-10-01",
+        "name": "Proposed"
+      },
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "MCODE_4826450.0",
+            "value": "hand",
+            "name": "Hand"
+          },
+          {
+            "code": "MCODE_4826450.1",
+            "value": "foot",
+            "name": "Foot"
+          },
+          {
+            "code": "MCODE_4826450.2",
+            "value": "elbow",
+            "name": "Elbow"
+          },
+          {
+            "code": "MCODE_4826450.3",
+            "value": "hip",
+            "name": "Hip"
+          },
+          {
+            "code": "MCODE_4826450.4",
+            "value": "wrist",
+            "name": "Wrist"
+          },
+          {
+            "code": "MCODE_4826450.5",
+            "value": "forearm",
+            "name": "Forearm"
+          },
+          {
+            "code": "MCODE_4826450.6",
+            "value": "ankle",
+            "name": "Ankle"
+          },
+          {
+            "code": "MCODE_4826450.7",
+            "value": "leg",
+            "name": "Leg"
+          },
+          {
+            "code": "MCODE_4826450.8",
+            "value": "shoulder",
+            "name": "Shoulder"
+          },
+          {
+            "code": "MCODE_4826450.9",
+            "value": "knee",
+            "name": "Knee"
+          },
+          {
+            "code": "MCODE_4826450.10",
+            "value": "arm",
+            "name": "Arm"
+          }
+        ]
+      }
+    }
+  ]
+}
