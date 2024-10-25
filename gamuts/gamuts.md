@@ -122,8 +122,6 @@
   - 15155: Chemical-induced lung disease
   - 14751: Cavitary lung lesion in an infant or child
   - 30930: Cardiomegaly in childhood
-  - 
-
 
 - Not sure what to do with it
   - 15701: acute diffuse mediastinal widening
