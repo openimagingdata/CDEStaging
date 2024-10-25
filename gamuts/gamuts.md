@@ -122,6 +122,8 @@
   - 15155: Chemical-induced lung disease
   - 14751: Cavitary lung lesion in an infant or child
   - 30930: Cardiomegaly in childhood
+  - 13396: Left-to-right shunt in congenital heart disease
+  - 13432: Late onset of cyanosis in neonatal congenital heart disease
 
 - Not sure what to do with it
   - 15701: acute diffuse mediastinal widening
