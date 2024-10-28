@@ -54,6 +54,53 @@
   (pectus carinatum)
   - 13791: Cardiac or pericardial neoplasm or cyst
   (mediastinal cyst) or (mediastinal mass)
+  - 3934: Localized narrowing of esophagus
+  (esophageal-stricture)
+  - 13685: Left ventricular enlargement
+  (Left-ventricular-enlargement)
+  - 3695: Left atrial enlargement
+  (Left-atrial-enlargement)
+  - 16013: Nodular pleural thickening
+  (pleural thickening)
+  - 14702: Multiple pulmonary nodules
+  (pulmonary nodule)
+  - 16041: Multiple pleural masses
+  (pleural-mass)
+  - 15481: Middle mediastinal lesion
+  (mediastinal mass)
+  - 15734: Mediastinal and/or hilar lymph node enlargement
+  (mediastinal-lymph-nodes)
+  - 15972: Massive pleural effusion
+  (pleural-effusion)
+  - 13774: Massive cardiomegaly
+  (cardiomegaly)
+  - 15755: Marked hilar lymphadenopathy
+  (mediastinal-lymph-node??)
+  - 13932: Pulmonary arterial hypertension
+  (pilmonary-artery-dilation)
+  - 22614: Premature tracheobronchial cartilage calcification
+  (tracheal- calcification)
+  - 15503: Posterior mediastinal lesion
+  (mediastinal-mass)
+  - 23339: Pneumothorax
+  (Pneumothorax)
+  - 23340: Pneumomediastinum
+  (Pneumomediastinum)
+  - 15999: Pleural thickening
+  (Pleural thickening)
+  - 16030: Pleural mass
+  (Pleural-mass)
+  - 15868: Pleural effusion with normal lungs
+  (pleural-effusion)
+  - 15893: Pleural effusion with disease in thorax
+  (pleural-effusion)
+  - 16017: Pleural calcification
+  (pleural-mass)
+  - 3706: Pericardial effusion
+  (Pericardial effusion)
+  - 13823: Pericardial calcification
+  (Pericardial-calcification)
+
 
 - We don't already have an entry
   - 56: air in esophagus
@@ -91,10 +138,49 @@
   - 31727: Clavicle hypoplasia
   - 31859: Clavicle dysplasia
   - 15960: Chylothorax
+  - 14592: Lung neoplasm
+  - 15042: Lung disease with eosinophilia
+  - 14788: Lung abscess
+  - 14573: Lower lung disease
+  - 15001: Long linear lung shadow
+  - 13972: Localized pulmonary vessel enlargement
+  - 16164: Localized elevation of hemidiaphragm
+  - 14933: Localized chronic pulmonary opacity
+  - 32553: Lobar atelectasis
+  - 22609: Laryngeal anomaly
+  - 13910: Large main pulmonary artery
+  - 30875: Large ascending aorta
+  - 30876: Large aortic arch
+  - 31039: Oversegmentation of sternum
+  - 15284: Opportunistic lung infection
+  - 25796: Nipple anomaly
+  - 14814: Multiple cavitary lung lesions
+  - 15330: Mucoid impaction
+  - 14443: Miliary lung opacities
+  - 32920: Mediastinal abscess
+  - 14208: Pulmonary lobar enlargement
+  - 22551: Pulmonary hypertension
+  - 14286: Pulmonary edema
+  - 15300: Pulmonary disease in an immunodeficient patient
+  - 22550: Pulmonary artery stenosis
+  - 23185: Pulmonary artery rupture
+  - 30927: Pulmonary artery catheterization
+  - 22547: Pulmonary artery calcification
+  - 13911: Pulmonary artery aneurysm
+  - 13717: Prosthetic valve regurgitation
+  - 22610: Premature laryngeal cartilage calcification
+  - 13851: Pneumopericardium
+  - 15091: Pneumoconiosis
+  - 16157: Phrenic nerve paralysis or dysfunction
+  - 31734: Periosteal reaction involving the clavicle
+  - 14559: Peribronchovascular interstitial thickening
+  - 16148: Paralyzed hemidiaphragm
+
 
 - Chest CT diagnoses (presumably that we don't have an entry for)
   - 14342: acute lung injury and ards in children
   - 14326: acute respiratory distress syndrome
+  - 14890: Neonatal respiratory distress
 
 - Non-chest CT findings/diagnoses
   - 57: achalasia
@@ -124,6 +210,14 @@
   - 30930: Cardiomegaly in childhood
   - 13396: Left-to-right shunt in congenital heart disease
   - 13432: Late onset of cyanosis in neonatal congenital heart disease
+  - 13432: Late onset of cyanosis in neonatal congenital heart disease
+  - 13499: Mitral insufficiency
+  - 14460: Miliary lung opacities in a neonate or young infant
+  - 13429: Mild or intermittent cyanosis in first week
+  - 13424: Marked cyanosis in first week of life
+  - 13987: Main pulmonary artery obstruction
+  - 16074: Pediatric chest wall lesion
+  - 14606: Pediatric chest tumor
 
 - Not sure what to do with it
   - 15701: acute diffuse mediastinal widening
@@ -143,3 +237,17 @@
   - 32870: Calcification in heart (annular valvular calcification??)
   - 14557: Chronic air-space consolidation
   - 14274: Chronic disseminated air-space opacity
+  - 14933: Localized chronic pulmonary opacity (radiation- fibrosis??)
+  - 16205: Multifocal thoracic calcification
+  - 15800: Mediastinal shift
+  - 14683: Mass-like perihilar opacity
+  - 14842: Mass in a pulmonary cavity
+  - 33498: Pulmonary segmental consolidation
+  - 33499: Pulmonary lobar consolidation
+  - 15917: Pleural effusion with enlarged heart
+  - 15922: Pleural effusion with disease in abdomen
+  - 15932: Pleural effusion containing eosinophiles
+  - 13993: Peripheral lung lesion
+  - 14585: Perilymphatic small lung nodules
+  - 15377: Pedunculated intratracheal mass
+  (trachea-mass??)
