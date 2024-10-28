@@ -112,6 +112,8 @@
   (pulmonary-nodule)
   - 14690: Shaggy lung nodule
   (pulmonary-nodule)
+  - 15764: Unilateral hilar enlargement
+  (mediastinal-lymph-nodes)
 
 - We don't already have an entry
   - 56: air in esophagus
@@ -203,6 +205,14 @@
   - 14723: Thin-walled lung cavity
   - 31728: Thin clavicle
   - 14743: Thick-walled lung cavity
+  - 14570: Upper lung disease
+  - 16125: Unilaterally elevated diaphragm
+  - 15780: Unilateral small hilar shadow
+  - 14316: Unilateral pulmonary edema
+  - 13902: Unilateral pulmonary arterial hypervascularity
+  - 33506: Unilateral hyperlucency of chest
+  - 20320: Unilateral flat diaphragm
+  - 14944: Unilateral diffuse lung disease
 
 - Chest CT diagnoses (presumably that we don't have an entry for)
   - 14342: acute lung injury and ards in children
@@ -255,6 +265,7 @@
   - 15619: Thymic enlargement
   - 9601: Thoracolumbar gibbus
   - 25733: Thoracic dysplasia
+  - 31040: Undersegmentation of sternum
 
 - Not sure what to do with it
   - 15701: acute diffuse mediastinal widening
