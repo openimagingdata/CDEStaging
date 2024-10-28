@@ -100,7 +100,18 @@
   (Pericardial effusion)
   - 13823: Pericardial calcification
   (Pericardial-calcification)
-
+  - 13463: Ventricular septal defect
+  (Ventricular-septal-defect)
+  - 15428: Superior mediastinal mass
+  (mediastinal-mass)
+  - 14616: Solitary pulmonary nodule
+  (pulmonary-nodule)
+  - 15538: Soft-tissue mediastinal mass
+  (mediastinal-mass)
+  - 14576: Small lung nodules
+  (pulmonary-nodule)
+  - 14690: Shaggy lung nodule
+  (pulmonary-nodule)
 
 - We don't already have an entry
   - 56: air in esophagus
@@ -175,12 +186,29 @@
   - 31734: Periosteal reaction involving the clavicle
   - 14559: Peribronchovascular interstitial thickening
   - 16148: Paralyzed hemidiaphragm
-
+  - 15414: Wide right tracheal stripe
+  - 15685: Wide mediastinum
+  - 15530: Water-attenuation mediastinal lesion
+  - 15571: Vascular abnormality of mediastinum
+  - 15125: Vapor-induced lung disease
+  - 14472: Solitary sharply-outlined cavitary lung lesion
+  - 14124: Superior vena cava syndrome
+  - 13783: Small heart
+  - 30873: Small ascending aorta
+  - 22615: Short trachea
+  - 16084: Short narrow thoracic cage
+  - 32554: Segmental atelectasis
+  - 13527: Tricuspid insufficiency
+  - 13669: Third mogul sign
+  - 14723: Thin-walled lung cavity
+  - 31728: Thin clavicle
+  - 14743: Thick-walled lung cavity
 
 - Chest CT diagnoses (presumably that we don't have an entry for)
   - 14342: acute lung injury and ards in children
   - 14326: acute respiratory distress syndrome
   - 14890: Neonatal respiratory distress
+  - 15404: Tracheal displacement
 
 - Non-chest CT findings/diagnoses
   - 57: achalasia
@@ -218,6 +246,15 @@
   - 13987: Main pulmonary artery obstruction
   - 16074: Pediatric chest wall lesion
   - 14606: Pediatric chest tumor
+  - 15446: Wide superior mediastinum in an infant or child
+  - 15629: Small thymus in an infant
+  - 22616: Tracheomalacia
+  - 27873: Tracheoesophageal fistula
+  - 22618: Tracheobronchomegaly
+  - 22612: Tracheal agenesis
+  - 15619: Thymic enlargement
+  - 9601: Thoracolumbar gibbus
+  - 25733: Thoracic dysplasia
 
 - Not sure what to do with it
   - 15701: acute diffuse mediastinal widening
@@ -250,4 +287,15 @@
   - 13993: Peripheral lung lesion
   - 14585: Perilymphatic small lung nodules
   - 15377: Pedunculated intratracheal mass
-  (trachea-mass??)
+  (tracheal-mass??)
+  - 14464: Widespread small irregular lung opacities
+  - 14021: Systemic-to-pulmonary vascular shunt
+  - 16184: Solitary thoracic calcification
+  - 14646: Solitary pulmonary mass
+  - 14779: Solitary irregular cavitary lung lesion
+  - 15913: Small pleural effusion with subsegmental atelectasis
+  - 31733: Sclerotic clavicle
+  (sclerotic_lesion??)
+  - 15941: Transudative pleural effusion
+  (pleural-effusion??)
+  
