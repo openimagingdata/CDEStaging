@@ -1,15 +1,24 @@
 # gamuts
 
 - We have an entry
-  - 31047: abnormal sternoclavicular joint (bones-and-thoracic-cage)
-  - 14420: acute diffuse fine reticular lung opacities (interlobular-septal-thickening)
-  - 14268: acute disseminated airspace opacity (interlobular-septal-thickening)
-  - 14175: alveolar lung disease (consolidation)
-  - 15459: anterior mediastinal lesion (mediastinal-mass)
-  - 14057: aortic aneurysm (aortic_aneurysm_or_dilation)
-  - 13496: aortic insufficiency (aortic-valve-replacement)
-  - 22509: aortic valve disease (aortic-valve-replacement)
-  - 16069: axillary mass (axillary-nodal-dissection)
+  - 31047: abnormal sternoclavicular joint
+  (bones-and-thoracic-cage)
+  - 14420: acute diffuse fine reticular lung opacities
+  (interlobular-septal-thickening)
+  - 14268: acute disseminated airspace opacity
+  (interlobular-septal-thickening)
+  - 14175: alveolar lung disease
+  (consolidation)
+  - 15459: anterior mediastinal lesion
+  (mediastinal-mass)
+  - 14057: aortic aneurysm
+  (aortic_aneurysm_or_dilation)
+  - 13496: aortic insufficiency
+  (aortic-valve-replacement)
+  - 22509: aortic valve disease
+  (aortic-valve-replacement)
+  - 16069: axillary mass
+  (axillary-nodal-dissection)
   - 15759: Bilateral hilar enlargement
   (mediastinal-lymph-nodes)
   - 14849: Bilateral hyperinflated lungs
@@ -75,7 +84,7 @@
   - 13774: Massive cardiomegaly
   (cardiomegaly)
   - 15755: Marked hilar lymphadenopathy
-  (mediastinal-lymph-node??)
+  (mediastinal-lymph-node)
   - 13932: Pulmonary arterial hypertension
   (pilmonary-artery-dilation)
   - 22614: Premature tracheobronchial cartilage calcification
@@ -116,65 +125,43 @@
   (mediastinal-lymph-nodes)
 
 - We don't already have an entry
+  - 15952: Hemothorax
+  - 15701: acute diffuse mediastinal widening
+  - 14919: asymmetric lung size
+  - 22479: Esophageal rupture
   - 56: air in esophagus
   - 15654: abnormal azygoesophageal recess
   - 13577: abnormal position of the heart
   - 31046: abnormal sternomanubrial synchondrosis
   - 31729: absent clavicle
-  - 32919z: acute mediastinitis
   - 14370: air-space opacity in leukemia or lymphoma
-  - 14153: anomaly of inferior vena cava
-  - 13538: aortic arch anomaly
-  - 14957: Bilateral basilar lung disease
   - 16111: Bilateral elevated diaphragm
   - 20321: Bilateral flat diaphragm
-  - 14908: Bilateral pulmonary underaeration
-  - 5533: Biliary-pleural fistula
-  - 13998: Generalized pulmonary arterial hypovascularity
-  - 13892: Generalized pulmonary arterial hypervascularity
   - 13635: Filling defect in right ventricle
   - 16228: Eggshell calcification in the chest
   - 15663: Displacement of the thoracic paraspinal line
   - 14108: Dilated azygos vein
   - 13596: dextrocardia
-  - 25603: Diaphragm dysfunction
-  - 15054: Hypersensitivity pneumonitis
   - 15791: Hilar displacement
-  - 13732: Ischemic heart disease
   - 14141: Inferior vena cava obstruction
-  - 15245: Infectious lung disease
   - 14567: Increased lung lucency
   - 14380: Ill-defined multifocal lung opacities
   - 2331: Constrictive pericarditis
   - 13449: Complicated atrial shunt
-  - 13476: Complete atrioventricular canal
-  - 31727: Clavicle hypoplasia
-  - 31859: Clavicle dysplasia
-  - 15960: Chylothorax
-  - 14592: Lung neoplasm
-  - 15042: Lung disease with eosinophilia
   - 14788: Lung abscess
-  - 14573: Lower lung disease
   - 15001: Long linear lung shadow
   - 13972: Localized pulmonary vessel enlargement
-  - 16164: Localized elevation of hemidiaphragm
   - 14933: Localized chronic pulmonary opacity
   - 32553: Lobar atelectasis
-  - 22609: Laryngeal anomaly
   - 13910: Large main pulmonary artery
   - 30875: Large ascending aorta
   - 30876: Large aortic arch
   - 31039: Oversegmentation of sternum
-  - 15284: Opportunistic lung infection
-  - 25796: Nipple anomaly
   - 14814: Multiple cavitary lung lesions
   - 15330: Mucoid impaction
-  - 14443: Miliary lung opacities
   - 32920: Mediastinal abscess
   - 14208: Pulmonary lobar enlargement
-  - 22551: Pulmonary hypertension
   - 14286: Pulmonary edema
-  - 15300: Pulmonary disease in an immunodeficient patient
   - 22550: Pulmonary artery stenosis
   - 23185: Pulmonary artery rupture
   - 30927: Pulmonary artery catheterization
@@ -184,49 +171,71 @@
   - 22610: Premature laryngeal cartilage calcification
   - 13851: Pneumopericardium
   - 15091: Pneumoconiosis
-  - 16157: Phrenic nerve paralysis or dysfunction
-  - 31734: Periosteal reaction involving the clavicle
   - 14559: Peribronchovascular interstitial thickening
-  - 16148: Paralyzed hemidiaphragm
-  - 15414: Wide right tracheal stripe
-  - 15685: Wide mediastinum
   - 15530: Water-attenuation mediastinal lesion
-  - 15571: Vascular abnormality of mediastinum
-  - 15125: Vapor-induced lung disease
   - 14472: Solitary sharply-outlined cavitary lung lesion
-  - 14124: Superior vena cava syndrome
   - 13783: Small heart
   - 30873: Small ascending aorta
-  - 22615: Short trachea
-  - 16084: Short narrow thoracic cage
   - 32554: Segmental atelectasis
-  - 13527: Tricuspid insufficiency
-  - 13669: Third mogul sign
   - 14723: Thin-walled lung cavity
   - 31728: Thin clavicle
   - 14743: Thick-walled lung cavity
-  - 14570: Upper lung disease
-  - 16125: Unilaterally elevated diaphragm
   - 15780: Unilateral small hilar shadow
   - 14316: Unilateral pulmonary edema
-  - 13902: Unilateral pulmonary arterial hypervascularity
   - 33506: Unilateral hyperlucency of chest
-  - 20320: Unilateral flat diaphragm
-  - 14944: Unilateral diffuse lung disease
 
 - Chest CT diagnoses (presumably that we don't have an entry for)
   - 14342: acute lung injury and ards in children
   - 14326: acute respiratory distress syndrome
   - 14890: Neonatal respiratory distress
   - 15404: Tracheal displacement
+  - 13499: Mitral insufficiency
+  - 13732: Ischemic heart disease
+  - 22609: Laryngeal anomaly
+  - 14124: Superior vena cava syndrom
+  - 16157: Phrenic nerve paralysis or dysfunction
+  - 31734: Periosteal reaction involving the clavicle
+  - 15571: Vascular abnormality of mediastinum
+  - 15125: Vapor-induced lung disease
+  - 16148: Paralyzed hemidiaphragm
+  - 22551: Pulmonary hypertension
+  - 15300: Pulmonary disease in an immunodeficient patient
+  - 15284: Opportunistic lung infection
+  - 25796: Nipple anomaly
+  - 13476: Complete atrioventricular canal
+  - 13902: Unilateral pulmonary arterial hypervascularity
+  - 20320: Unilateral flat diaphragm
+  - 14944: Unilateral diffuse lung disease
+  - 13527: Tricuspid insufficiency
+  - 13669: Third mogul sign
+  - 14570: Upper lung disease
+  - 31727: Clavicle hypoplasia
+  - 31859: Clavicle dysplasia
+  - 15960: Chylothorax
+  - 14592: Lung neoplasm
+  - 15042: Lung disease with eosinophilia
+  - 25603: Diaphragm dysfunction
+  - 15054: Hypersensitivity pneumonitis
+  - 15245: Infectious lung disease
+  - 5533: Biliary-pleural fistula
+  - 13998: Generalized pulmonary arterial hypovascularity
+  - 13892: Generalized pulmonary arterial hypervascularity
+  - 14153: anomaly of inferior vena cava
+  - 13538: aortic arch anomaly
+  - 14957: Bilateral basilar lung disease
+  - 14573: Lower lung disease
+  - 14405: Diffuse mixed airspace-interstitial lung disease
+  - 14529: Diffuse interstitial lung disease with associated lymphadenopathy
+  - 14520: Diffuse interstitial disease with pleural effusion
+  - 13752: Cardiomyopathy
 
 - Non-chest CT findings/diagnoses
+  - 15414: Wide right tracheal stripe
   - 57: achalasia
   - 19061: fetal chest mass
   - 14902: Bubbly lungs in infants and children
   - 13501: acyanotic congenital heart disease with increased pulmonary vascularity
   - 13493: acyanotic congenital heart disease with normal pulmonary vascularity
-  - 22479: Esophageal rupture
   - 30931: Heart failure in childhood
   - 13347: Heart failure in the first month of life
   - 13338: Heart failure in the first week of life
@@ -236,7 +245,7 @@
   - 15677: Intrathoracic extramedullary hematopoiesis
   - 13510: Cyanotic congenital heart disease with precapillary hypertension vascularity
   - 15303: Cyanotic congenital heart disease with increased pulmonary vascularity
-  - 22613: Congenital tracheal stenosis x
+  - 22613: Congenital tracheal stenosis
   - 14880: Congenital lobar emphysema
   - 13519: Congenital heart disease with decreased pulmonary vascularity
   - 13550: Congenital heart disease with anterior right aortic arch
@@ -249,7 +258,6 @@
   - 13396: Left-to-right shunt in congenital heart disease
   - 13432: Late onset of cyanosis in neonatal congenital heart disease
   - 13432: Late onset of cyanosis in neonatal congenital heart disease
-  - 13499: Mitral insufficiency
   - 14460: Miliary lung opacities in a neonate or young infant
   - 13429: Mild or intermittent cyanosis in first week
   - 13424: Marked cyanosis in first week of life
@@ -266,22 +274,23 @@
   - 9601: Thoracolumbar gibbus
   - 25733: Thoracic dysplasia
   - 31040: Undersegmentation of sternum
+  - 32919z: acute mediastinitis
+  - 16164: Localized elevation of hemidiaphragm
+  - 22615: Short trachea
+  - 16125: Unilaterally elevated diaphragm
+  - 16084: Short narrow thoracic cage
+  - 15685: Wide mediastinum
+  - 14443: Miliary lung opacities
+  - 14908: Bilateral pulmonary underaeration
+  - 14982: Indistinct heart border on frontal chest radiograph
 
 - Not sure what to do with it
-  - 15701: acute diffuse mediastinal widening
-  - 13557: anomalous thoracic arterial communication (patent-ductus-arteriosus)/ (patent-foramen-ovale-pfo)
-  - 14919: asymmetric lung size
+  - 13557: anomalous thoracic arterial communication (patent-ductus-arteriosus)/ (patent-foramen-ovale-pfo??)
   - 14833: Extensive pulmonary opacity with cavitation
-  - 14405: Diffuse mixed airspace-interstitial lung disease
-  - 14529: Diffuse interstitial lung disease with associated lymphadenopathy
-  - 14520: Diffuse interstitial disease with pleural effusion
-  - 15952:  Hemothorax
   - 14491: Interstitial lung fibrosis
-  - 14982: Indistinct heart border on frontal chest radiograph
   - 14078: Coronary artery aneurysm
   - 14212: Chronic pulmonary lobar consolidation
   - 14427: Chronic Kerley lines
-  - 13752: Cardiomyopathy
   - 32870: Calcification in heart (annular valvular calcification??)
   - 14557: Chronic air-space consolidation
   - 14274: Chronic disseminated air-space opacity
