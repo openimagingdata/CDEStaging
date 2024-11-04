@@ -7,7 +7,7 @@
   (interlobular-septal-thickening)
   - 14268: acute disseminated airspace opacity
   (interlobular-septal-thickening)
-  to be associated with pulmonary opacities, once we figure out how best to represent??
+  to be associated with pulmonary opacities, once we figure out how best to represent?
   - 14175: alveolar lung disease
   (consolidation)
   - 15459: anterior mediastinal lesion
