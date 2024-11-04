@@ -6,7 +6,7 @@
   - 14420: acute diffuse fine reticular lung opacities
   (interlobular-septal-thickening)
   - 14268: acute disseminated airspace opacity
-  (interlobular-septal-thickening)
+  (interlobular-septal-thickening?)
   to be associated with pulmonary opacities, once we figure out how best to represent?
   - 14175: alveolar lung disease
   (consolidation)
@@ -14,22 +14,16 @@
   (mediastinal-mass)
   - 14057: aortic aneurysm
   (aortic_aneurysm_or_dilation)
-  - 22509: aortic valve disease
-  (aortic-valve-replacement)
   - 16069: axillary mass
-  (axillary-nodal-dissection)
+  (axillary-nodal-dissection?)
   - 15759: Bilateral hilar enlargement
   (mediastinal-lymph-nodes)
   - 14849: Bilateral hyperinflated lungs
   (AirTrapping)
-  - 15312: Bronchial lesion
-  (bronchial-wall-thickening)
   - 13943: Bronchiectasis
   (bronchiectasis)
   - 14547: Ground-glass pulmonary opacity
-  (subpleural-reticular-opacities)
-  - 13830: Gas embolism
-  (pulmonary emboli)
+  (subpleural-reticular-opacities?)
   - 15524: Fat-attenuation mediastinal mass
   (mediastinal mass)
   - 15945: Exudative pleural effusion
@@ -81,7 +75,7 @@
   - 13774: Massive cardiomegaly
   (cardiomegaly)
   - 15755: Marked hilar lymphadenopathy
-  (mediastinal-lymph-node)
+  (mediastinal-lymph-node?)
   - 13932: Pulmonary arterial hypertension
   (pilmonary-artery-dilation)
   - 22614: Premature tracheobronchial cartilage calcification
@@ -101,7 +95,7 @@
   - 15893: Pleural effusion with disease in thorax
   (pleural-effusion)
   - 16017: Pleural calcification
-  (pleural-mass)
+  (pleural-mass?)
   - 3706: Pericardial effusion
   (Pericardial effusion)
   - 13823: Pericardial calcification
@@ -134,7 +128,7 @@
   (can be included as part of broader discussion on how to represent osseous findings?)
   - 22551: Pulmonary hypertension
   (enlarged pulmonary artery?)
-  - 15960: Chylothorax
+  - 15960: Chylothorax?
   - 57: achalasia
   (dilated esophagus?)
   - 22613: Congenital tracheal stenosis
@@ -163,9 +157,12 @@
   (cavitary nodule)
   - 15941: Transudative pleural effusion
   (pleural effusion)
-  - 14933: Localized chronic pulmonary opacity
+  - 14933: Localized chronic pulmonary opacity?
 
 - We don't already have an entry
+  - 15312: Bronchial lesion
+  - 22509: aortic valve disease
+  - 13830: Gas embolism
   - 14021: Systemic-to-pulmonary vascular shunt
   - 14842: Mass in a pulmonary cavity
   - 15800: Mediastinal shift
