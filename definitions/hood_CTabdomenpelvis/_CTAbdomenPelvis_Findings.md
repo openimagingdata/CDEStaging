@@ -8,6 +8,7 @@
 - Hepatic lobar hypertrophy
 - Hepatic lobar atrophy
 - Elongated right hepatic lobe (Riedel lobe)
+- Elongated left hepatic lobe (beaver tail)
 - Diffuse hepatic steatosis
 - Geographic hepatic steatosis
 - Focal hepatic steatosis
@@ -23,6 +24,8 @@
 - Hepatic subcapsular hematoma
 - Hepatic capsular retraction
 - Perihepatic fat stranding
+- Active bleeding within the liver
+- Hepatic pseudoaneurysm
 - Hepatic laceration
 - Hepatic intraparenchymal hematoma
 - Fractured liver parenchyma
@@ -64,8 +67,9 @@
 - Hepatic metastases
 - Hepatic abscess
 - Hepatic arteriovenous malformation
-- Active bleeding in the liver
-- Hepatic pseudoaneurysm
+- Hepatic mass effect
+- Displaced liver
+
 
 ### MODULE: Hepatic lesion (consideration for future module)
 
@@ -98,10 +102,10 @@
 - Gallbladder wall hypoattenuation
 - Gallbladder mucosal hyperemia
 - Cholelithiasis / gallstones
-- Gallstone in cystic duct
-- Gallstone in gallbladder neck
-- Gallstone in common bile duct
-- Gallstone in intrahepatic duct
+- Gallstone within cystic duct
+- Gallstone within gallbladder neck
+- Gallstone within common bile duct
+- Gallstone within intrahepatic duct
 - Gallbladder sludge
 - Gallbladder mass
 - Gallbladder polyp
@@ -141,6 +145,8 @@
 - Bile duct injury
 - Periductal edema
 - Gas within gallbladder wall
+- Gallbladder hemorrhage
+- Gallbladder hematoma
 
 ## Spleen
 
@@ -173,15 +179,19 @@
 - Splenic pseudoaneurysm
 - Splenic rupture
 - Shattered spleen
-- Fluid collection in splenectomy bed
+- Fluid collection within splenectomy bed
 - Splenic embolization
 - Splenic fluid collection
 - Splenic abscess
 - Splenic hemangioma
 - Splenic metastasis
 - Multiple splenic metastases
-- Active bleeding in the spleen
+- Active bleeding within the spleen
+- Splenic hemorrhage
+- Splenic hematoma
 - Splenectomy clips
+- Splenic mass effect
+- Displaced spleen
 
 ## Pancreas
 
@@ -242,7 +252,9 @@
 - Pancreatic edema
 - Pancreatic contusion
 - Pancreatic transection
-- Active bleeding in the pancreas
+- Active bleeding within the pancreas
+- Pancreatic hemorrhage
+- Pancreatic hematoma
 - Pancreatic pseudoaneurysm
 - Pancreatic duct stent
 - Pancreaticojejunal anastomosis
@@ -255,4 +267,161 @@
 - Cystogastrostomy
 - Internal peripancreatic drainage catheter
 - Percutaneous peripancreatic drainage catheter
-- Fluid collection in pancreatectomy bed
+- Fluid collection within pancreatectomy bed
+- Pancreatic mass effect
+- Displaced pancreas
+
+## Adrenal glands
+
+- Adrenal hyperplasia
+- Adrenal atrophy
+- Adreniform thickening
+- Adrenal adenoma
+- Adrenal myelolipoma
+- Pheochromocytoma
+- Adrenal carcinoma
+- Adrenal ganglioneuroma
+- Adrenal neuroblastoma
+- Adrenal lesion
+- Adrenal cyst
+- Adrenal nodule
+- Adrenal mass
+- Adrenal metastasis
+- Multiple adrenal metastases
+- Adrenal laceration
+- Adrenal hemorrhage
+- Adrenal hematoma
+- Adrenal calcification
+- Adrenal hyperenhancement
+- Adrenalectomy
+- Periadrenal fat stranding
+- Adrenal mass effect
+- Displaced adrenal gland
+
+## Kidneys & ureters
+
+- Lobulated renal contour
+- Persistent fetal lobulation
+- Column of Bertin
+- Dromedary hump
+- Diffuse renal cortical scarring
+- Focal renal cortical scarring
+- Diffuse renal cortical thinning
+- Focal renal cortical thinning
+- Renal atrophy
+- Renal hypertrophy
+- Renal enlargement
+- Congenital absence of kidney
+- Horseshoe kidney
+- Crossed fused renal ectopia
+- Malrotated kidney
+- Supernumerary kidney
+- Extrarenal pelvis
+- Fullness of the renal pelvis
+- Hydronephrosis
+- Hydroureteronephrosis
+- Renal transplant
+- Renal peritransplant fluid collection
+- Nephrectomy
+- Partial nephrectomy
+- Nephrectomy clips
+- Fluid collection in nephrectomy bed
+- Heterogeneous renal enhancement
+- Absent corticomedullary differentiation
+- Multifocal renal hypoenhancement
+- Focal renal hypoenhancement
+- Multifocal renal nonenhancement
+- Focal renal nonenhancement
+- Delayed nephrogram
+- Striated nephrogram
+- Medullary nephrocalcinosis
+- Calcifications of the renal pyramids
+- Cortical nephrocalcinosis
+- Calcifications of the renal cortex
+- Renal parenchymal calcification
+- Multiple renal calcifications
+- Simple renal cyst
+- Fluid density renal cyst
+- Complex renal cyst
+- Hemorrhagic renal cyst
+- Proteinaceous renal cyst
+- Intermediate density renal lesion
+- Subcentimeter renal hypodense lesion
+- Multiple subcentimeter renal hypodense lesions
+- Solid renal mass
+- Mixed cystic and solid renal mass
+- Renal angiomyolipoma
+- Renal lipoma
+- Renal calculus / nephrolithiasis
+- Staghorn calculus
+- Jackstone calculus
+- Multiple renal calculi
+- Gas in renal collecting system
+- Gas within renal parenchyma
+- Renal laceration
+- Renal contusion
+- Renal subcapsular hematoma
+- Renal parenchymal hematoma
+- Active bleeding in the kidney
+- Renal pseudoaneurysm
+- Shattered kidney
+- Ruptured calyx
+- Perinephric fluid collection
+- Perinephric edema
+- Perinephric hematoma
+- Perinephric hemorrhage
+- Perinephric abscess
+- Renal fluid collection
+- Renal abscess
+- Urinoma
+- Renal post-ablation changes
+- Renal embolization
+- Cortical rim sign
+- Renal mass effect
+- Renal compression
+- Displaced kidney
+- Cystic replacement of renal parenchyma
+- Multicystic dysplastic kidney
+- Medullary sponge kidney
+- Hydroureter
+- Ureteropelvic junction (UPJ) obstruction
+- Ureteral narrowing
+- Ureteral stricture
+- Tortuous ureter
+- Ureterocele
+- Duplicated collecting system
+- Duplicated ureter
+- Incomplete duplicated collecting system
+- Incomplete duplicated ureter
+- Ectopic insertion of ureter
+- Ureteral discontinuity
+- Ureteral laceration
+- Ureteral transection
+- Ureteral avulsion
+- Ureteral stent
+- Ureteral stent encrustation / calcification
+- Ureteral calculus
+- Gas within ureter
+- Ureteral filling defect
+- Ureteral mass
+- Ureteral soft tissue thickening
+- Ureteral pseudodiverticulosis
+- Periureteral fat stranding
+- Periureteral edema
+- Megaureter
+- Retrocaval ureter
+- Ureteral diverticulum
+- Ileal conduit
+- Urostomy
+- Indiana pouch
+- Kock pouch
+- Ureteral anastomosis
+- Urine leak
+- Ureterocolic fistula
+- Ureterovaginal fistula
+- Ureteroenteric fistula
+- Periureteral fibrosis
+- Ureteral mass effect
+- Displaced ureter
+- Transitional cell carcinoma
+- Ureteral squamous cell carcinoma
