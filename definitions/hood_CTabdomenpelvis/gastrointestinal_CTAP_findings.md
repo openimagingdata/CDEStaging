@@ -1,0 +1,55 @@
+# CT Abdomen & Pelvis Findings List — Gastrointestinal
+
+## Stomach
+
+- Dilated stomach
+- Underdistended stomach
+- Gastric diverticulum
+- Sliding hiatal hernia
+- Paraesophageal hernia
+- Mixed hiatal hernia
+- Intrathoracic stomach
+- Focal gastric wall thickening
+- Diffuse gastric wall thickening
+- Focal gastric mucosal thickening
+- Diffuse gastric mucosal thickening
+- Thickened gastric rugae
+- Loss of gastric rugae
+- Gastric wall hyperenhancement
+- Gastric wall hypoenhancement
+- Gastric submucosal edema
+- Gastric submucosal hemorrhage
+- Gastric ulcer
+- Marginal ulcer
+- Gastric mass
+- Gastric polyp
+- Gastric pseudomass
+- Gastric wall calcification
+- Gas within gastric wall
+- Gastric bezoar
+- Gastric foreign body
+- Disruption of gastric wall
+- Gastric contusion
+- Gastric laceration
+- Gastric perforation
+- Perigastric fat stranding
+- Perigastric edema
+- Gastric outlet obstruction
+- Antral web
+- Gastric volvulus
+- Organoaxial rotation of the stomach
+- Mesenteroaxial rotation of the stomach
+- Gastrectomy
+- Partial gastrectomy
+- Sleeve gastrectomy
+- Gastric bypass
+- Roux-en-Y
+- Gastric pouch
+- Gastric banding
+- Gastric pull-through (pull-up)
+- Percutaneous gastrostomy tube
+- Gastric tube
+- Gastrojejunal anastomosis
+- Gastric duplication cyst
+- Gastrocolic fistula
+- Gastrocutaneous fistula

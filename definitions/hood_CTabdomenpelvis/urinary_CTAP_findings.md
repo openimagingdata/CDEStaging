@@ -1,0 +1,184 @@
+# CT Abdomen & Pelvis Findings List — Urinary Tract
+
+## Kidneys
+
+- Lobulated renal contour
+- Persistent fetal lobulation
+- Column of Bertin
+- Dromedary hump
+- Diffuse renal cortical scarring
+- Focal renal cortical scarring
+- Diffuse renal cortical thinning
+- Focal renal cortical thinning
+- Renal atrophy
+- Renal hypertrophy
+- Renal enlargement
+- Congenital absence of kidney
+- Horseshoe kidney
+- Crossed fused renal ectopia
+- Malrotated kidney
+- Supernumerary kidney
+- Extrarenal pelvis
+- Fullness of the renal pelvis
+- Hydronephrosis
+- Hydroureteronephrosis
+- Renal transplant
+- Renal peritransplant fluid collection
+- Nephrectomy
+- Partial nephrectomy
+- Nephrectomy clips
+- Fluid collection in nephrectomy bed
+- Heterogeneous renal enhancement
+- Absent corticomedullary differentiation
+- Multifocal renal hypoenhancement
+- Focal renal hypoenhancement
+- Multifocal renal nonenhancement
+- Focal renal nonenhancement
+- Delayed nephrogram
+- Striated nephrogram
+- Medullary nephrocalcinosis
+- Calcifications of the renal pyramids
+- Cortical nephrocalcinosis
+- Calcifications of the renal cortex
+- Renal parenchymal calcification
+- Multiple renal calcifications
+- Renal lesion
+- Renal foreign body
+- Simple renal cyst
+- Fluid density renal cyst
+- Complex renal cyst
+- Hemorrhagic renal cyst
+- Proteinaceous renal cyst
+- Intermediate density renal lesion
+- Subcentimeter renal hypodense lesion
+- Multiple subcentimeter renal hypodense lesions
+- Solid renal mass
+- Mixed cystic and solid renal mass
+- Renal angiomyolipoma
+- Renal lipoma
+- Renal calculus / nephrolithiasis
+- Staghorn calculus
+- Jackstone calculus
+- Multiple renal calculi
+- Gas in renal collecting system
+- Gas within renal parenchyma
+- Renal laceration
+- Renal contusion
+- Renal subcapsular hematoma
+- Renal parenchymal hematoma
+- Active bleeding in the kidney
+- Renal pseudoaneurysm
+- Shattered kidney
+- Ruptured calyx
+- Perinephric fluid collection
+- Perinephric edema
+- Perinephric hematoma
+- Perinephric hemorrhage
+- Perinephric abscess
+- Renal fluid collection
+- Renal abscess
+- Urinoma
+- Renal post-ablation changes
+- Renal embolization
+- Cortical rim sign
+- Renal mass effect
+- Renal compression
+- Displaced kidney
+- Cystic replacement of renal parenchyma
+- Multicystic dysplastic kidney
+- Medullary sponge kidney
+
+## Ureters
+
+- Hydroureter
+- Ureteropelvic junction (UPJ) obstruction
+- Ureteral narrowing
+- Ureteral stricture
+- Tortuous ureter
+- Ureterocele
+- Duplicated collecting system
+- Duplicated ureter
+- Incomplete duplicated collecting system
+- Incomplete duplicated ureter
+- Ectopic insertion of ureter
+- Ureteral discontinuity
+- Ureteral laceration
+- Ureteral transection
+- Ureteral avulsion
+- Ureteral stent
+- Ureteral stent encrustation / calcification
+- Ureteral calculus
+- Gas within ureter
+- Ureteral filling defect
+- Ureteral lesion
+- Ureteral mass
+- Ureteral soft tissue thickening
+- Ureteral pseudodiverticulosis
+- Periureteral fat stranding
+- Periureteral edema
+- Megaureter
+- Retrocaval ureter
+- Ureteral diverticulum
+- Ileal conduit
+- Urostomy
+- Indiana pouch
+- Kock pouch
+- Ureteral anastomosis
+- Urine leak
+- Ureterocolic fistula
+- Ureterovaginal fistula
+- Ureteroenteric fistula
+- Periureteral fibrosis
+- Ureteral mass effect
+- Displaced ureter
+- Transitional cell carcinoma
+- Ureteral squamous cell carcinoma
+- Ureteral foreign body
+
+## Bladder
+
+- Distended bladder
+- Underdistended bladder
+- Bladder compression
+- Bladder diverticulum
+- Bladder exstrophy
+- Bladder herniation
+- Irregular contour of the bladder
+- Focal bladder wall thickening
+- Diffuse bladder wall thickening
+- Trabeculated bladder wall
+- Bladder wall enhancement
+- Bladder mucosal hyperemia
+- Bladder wall calcification
+- Multiple bladder wall calcifications
+- Gas within bladder wall
+- Filling defect within the bladder
+- High-density material within the bladder
+- Intraluminal bladder gas
+- Bladder foreign body
+- Bladder mass
+- Bladder calculus
+- Transitional cell carcinoma of the bladder
+- Squamous cell carcinoma of the bladder
+- Adenocarcinoma of the bladder
+- Bladder wall perforation
+- Intraperitoneal bladder rupture
+- Extraperitoneal bladder rupture
+- Bladder laceration
+- Bladder augmentation
+- Bladder reconstruction
+- Neobladder
+- Cystectomy
+- Fluid collection within cystectomy bed
+- Urinary catheter (Foley)
+- Suprapubic catheter
+- Patent urachus
+- Urachal cyst
+- Urachal diverticulum
+- Perivesical fat stranding
+- Perivesical edema
+- Post-radiation changes of the bladder
+- Vesicovaginal fistula
+- Vesicoenteric fistula
+- Vesicouterine fistula
+- Vesicocutaneous fistula
