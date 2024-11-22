@@ -425,3 +425,49 @@
 - Displaced ureter
 - Transitional cell carcinoma
 - Ureteral squamous cell carcinoma
+
+## Bladder
+
+- Distended bladder
+- Underdistended bladder
+- Bladder compression
+- Bladder diverticulum
+- Bladder exstrophy
+- Bladder herniation
+- Irregular contour of the bladder
+- Focal bladder wall thickening
+- Diffuse bladder wall thickening
+- Trabeculated bladder wall
+- Bladder wall enhancement
+- Bladder mucosal hyperemia
+- Bladder wall calcification
+- Multiple bladder wall calcifications
+- Gas within bladder wall
+- Filling defect within the bladder
+- High-density material within the bladder
+- Intraluminal bladder gas
+- Bladder mass
+- Bladder calculus
+- Transitional cell carcinoma of the bladder
+- Squamous cell carcinoma of the bladder
+- Adenocarcinoma of the bladder
+- Bladder wall perforation
+- Intraperitoneal bladder rupture
+- Extraperitoneal bladder rupture
+- Bladder laceration
+- Bladder augmentation
+- Bladder reconstruction
+- Neobladder
+- Cystectomy
+- Urinary catheter (Foley)
+- Suprapubic catheter
+- Patent urachus
+- Urachal cyst
+- Urachal diverticulum
+- Perivesical fat stranding
+- Perivesical edema
+- Post-radiation changes of the bladder
+- Vesicovaginal fistula
+- Vesicoenteric fistula
+- Vesicouterine fistula
+- Vesicocutaneous fistula
