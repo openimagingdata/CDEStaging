@@ -53,3 +53,282 @@
 - Gastric duplication cyst
 - Gastrocolic fistula
 - Gastrocutaneous fistula
+
+## General small bowel
+
+- Generalized dilation of the small bowel
+- Segmental dilation of the small bowel
+- Congenital intestinal malrotation
+- Intestinal volvulus
+- Small bowel diverticulosis
+- Mass effect on the small bowel
+- Kinking of the small bowel
+- Extrinsic compression of the small bowel
+- Narrowing of the small bowel lumen
+- Abnormal course of the small bowel
+- Diffuse small bowel wall thickening
+- Focal small bowel wall thickening
+- Diffuse small bowel mucosal thickening
+- Focal small bowel mucosal thickening
+- Thickened small bowel mucosal folds
+- Smooth small bowel mucosal surface
+- Diffuse small bowel hyperenhancement
+- Diffuse small bowel hypoenhancement
+- Focal small bowel hyperenhancement
+- Focal small bowel hypoenhancement
+- Small bowel contraction
+- Small bowel wall calcification
+- Active bleeding within the small bowel
+- Submucosal edema of the small bowel
+- Target appearance of the small bowel
+- Fluid distention of the small bowel
+- Gaseous distention of the small bowel
+- Gas-fluid levels within the small bowel
+- Fecal-like material within the small bowel
+- High-attenuation material within the small bowel
+- Contrast material within the small bowel
+- Transition point of the small bowel
+- Beak sign at a small bowel transition point
+- Small bowel obstruction
+- Closed-loop small bowel obstruction
+- Small bowel foreign body
+- Small bowel pneumatosis
+- Small bowel contusion
+- Small bowel laceration
+- Small bowel perforation
+- Small bowel hematoma
+- Small bowel resection
+- Small bowel anastomosis
+- Delayed small bowel transit
+- String sign of the small bowel
+- Submucosal fat deposition of the small bowel
+- Clustered small bowel loops
+- Swirling  of mesenteric vessels
+- Enteroenteric fistula
+- Enterocolic fistula
+- Enterocutaneous fistula
+- Enteritis
+- Close apposition of small bowel loops to anterior abdominal wall
+- Tethering of the small bowel
+
+## Duodenum
+
+- Generalized dilation of the duodenum
+- Segmental dilation of the duodenum
+- Duodenal diverticulum
+- Duodenal diverticulosis
+- Duodenal diverticulitis
+- Duodenal web
+- Mass effect on the duodenum
+- Kinking of the duodenum
+- Extrinsic compression of the duodenum
+- Tethering of the duodenum
+- Reduced aorto-mesenteric angle
+- Narrowing of the duodenal lumen
+- Abnormal course of the duodenum
+- Diffuse duodenal wall thickening
+- Focal duodenal wall thickening
+- Diffuse duodenal mucosal thickening
+- Focal duodenal mucosal thickening
+- Enlarged duodenal mucosal folds
+- Smooth duodenal mucosal surface
+- Diffuse duodenal hyperenhancement
+- Diffuse duodenal hypoenhancement
+- Focal duodenal hyperenhancement
+- Focal duodenal hypoenhancement
+- Duodenal contraction
+- Duodenal stricture
+- Duodenal ulcer
+- Duodenal wall calcification
+- Duodenal intramural gas
+- Active bleeding within the duodenum
+- Duodenal pseudoaneurysm
+- Duodenal arteriovenous malformation
+- Submucosal edema of the duodenum
+- Target appearance of the duodenum
+- Duodenal polyp
+- Duodenal wall mass
+- Intraluminal duodenal mass
+- Duodenal lipoma
+- Duodenal duplication cyst
+- Duodenal obstruction
+- Fluid distention of the duodenum
+- Gaseous distention of the duodenum
+- Gas-fluid levels within the duodenum
+- Fecal-like material within the duodenum
+- High-attenuation material within the duodenum
+- Contrast material within the duodenum
+- Transition point of the duodenum
+- Duodenal foreign body
+- Duodenal stent
+- Duodenal pneumatosis
+- Duodenal contusion
+- Duodenal laceration
+- Duodenal perforation
+- Duodenal hematoma
+- Periduodenal fat stranding
+- Periduodenal hematoma
+- Periduodenal abscess
+- Partial duodenectomy
+- Duodenal anastomosis
+- Duodenocolic fistula
+- Duodenocutaneous fistula
+- Paraduodenal hernia
+- Duodenal anastomotic leak
+- Duodenal anastomotic stricture
+- Adenocarcinoma of the duodenum
+- Carcinoid tumor of the duodenum
+- Gastrointestinal stromal tumor (GIST) of the duodenum
+- Lymphomatous involvement of the duodenum
+- Duodenitis
+
+## Jejunum
+
+- Generalized dilation of the jejunum
+- Segmental dilation of the jejunum
+- Jejunal diverticulum
+- Jejunal diverticulosis
+- Jejunal diverticulitis
+- Jejunal web
+- Jejunal intussusception
+- Mass effect on the jejunum
+- Kinking of the jejunum
+- Extrinsic compression of the jejunum
+- Tethering of the jejunum
+- Narrowing of the jejunal lumen
+- Abnormal course of the jejunum
+- Diffuse jejunal wall thickening
+- Focal jejunal wall thickening
+- Diffuse jejunal mucosal thickening
+- Focal jejunal mucosal thickening
+- Enlarged jejunal mucosal folds
+- Smooth jejunal mucosal surface
+- Diffuse jejunal hyperenhancement
+- Diffuse jejunal hypoenhancement
+- Focal jejunal hyperenhancement
+- Focal jejunal hypoenhancement
+- Jejunal contraction
+- Jejunal stricture
+- Jejunal ulcer
+- Jejunal wall calcification
+- Jejunal intramural gas
+- Active bleeding within the jejunum
+- Jejunal pseudoaneurysm
+- Jejunal arteriovenous malformation
+- Submucosal edema of the jejunum
+- Target appearance of the jejunum
+- Jejunal polyp
+- Jejunal wall mass
+- Intraluminal jejunal mass
+- Jejunal lipoma
+- Jejunal duplication cyst
+- Jejunal obstruction
+- Fluid distention of the jejunum
+- Gaseous distention of the jejunum
+- Gas-fluid levels within the jejunum
+- Fecal-like material within the jejunum
+- High-attenuation material within the jejunum
+- Contrast material within the jejunum
+- Transition point of the jejunum
+- Jejunal foreign body
+- Jejunal stent
+- Jejunal pneumatosis
+- Jejunal contusion
+- Jejunal laceration
+- Jejunal perforation
+- Jejunal hematoma
+- Perijejunal fat stranding
+- Perijejunal hematoma
+- Perijejunal abscess
+- Jejunal resection
+- Jejuno-jejunal anastomosis
+- Jejunostomy
+- Gastrojejunal catheter
+- Jejunal catheter
+- Jejunal anastomotic leak
+- Jejunal anastomotic stricture
+- Adenocarcinoma of the jejunum
+- Carcinoid tumor of the jejunum
+- Gastrointestinal stromal tumor (GIST) of the jejunum
+- Lymphomatous involvement of the jejunum
+- Jejunitis
+
+## Ileum
+
+- Generalized dilation of the ileum
+- Segmental dilation of the ileum
+- Ileal diverticulum
+- Ileal diverticulosis
+- Ileal diverticulitis
+- Ileal web
+- Ileo-ileal intussusception
+- Ileocecal intussusception
+- Mass effect on the ileum
+- Kinking of the ileum
+- Extrinsic compression of the ileum
+- Tethering of the ileum
+- Narrowing of the ileal lumen
+- Abnormal course of the ileum
+- Diffuse ileal wall thickening
+- Focal ileal wall thickening
+- Diffuse ileal mucosal thickening
+- Focal ileal mucosal thickening
+- Enlarged ileal mucosal folds
+- Smooth ileal mucosal surface
+- Diffuse ileal hyperenhancement
+- Diffuse ileal hypoenhancement
+- Focal ileal hyperenhancement
+- Focal ileal hypoenhancement
+- Ileal contraction
+- Ileal stricture
+- Ileal ulcer
+- Ileal wall calcification
+- Ileal intramural gas
+- Active bleeding within the ileum
+- Ileal pseudoaneurysm
+- Ileal arteriovenous malformation
+- Inflamed terminal ileum
+- Submucosal edema of the ileum
+- Target appearance of the ileum
+- Ileal polyp
+- Ileal wall mass
+- Intraluminal ileal mass
+- Ileal lipoma
+- Ileal duplication cyst
+- Ileal obstruction
+- Fluid distention of the ileum
+- Gaseous distention of the ileum
+- Gas-fluid levels within the ileum
+- Fecal-like material within the ileum
+- High-attenuation material within the ileum
+- Contrast material within the ileum
+- Transition point of the ileum
+- Ileal foreign body
+- Ileal stent
+- Ileal pneumatosis
+- Ileal contusion
+- Ileal laceration
+- Ileal perforation
+- Ileal hematoma
+- Periileal fat stranding
+- Periileal hematoma
+- Periileal abscess
+- Ileal resection
+- Ileoileal fistula
+- Ileocolic fistula
+- Ileovesical fistula
+- Ileo-ileal anastomosis
+- Diverting loop ileostomy
+- End ileostomy
+- Ileal pouch creation
+- Ileojejunal catheter
+- Ileal catheter
+- Ileocecal valve thickening
+- Meckel diverticulum
+- Ileal anastomotic leak
+- Ileal anastomotic stricture
+- Adenocarcinoma of the ileum
+- Carcinoid tumor of the ileum
+- Gastrointestinal stromal tumor (GIST) of the ileum
+- Lymphomatous involvement of the ileum
+- Ileitis

@@ -87,6 +87,7 @@
 - Cystic replacement of renal parenchyma
 - Multicystic dysplastic kidney
 - Medullary sponge kidney
+- Renal foreign body
 
 ## Ureters
 
