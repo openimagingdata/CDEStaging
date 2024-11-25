@@ -332,3 +332,259 @@
 - Gastrointestinal stromal tumor (GIST) of the ileum
 - Lymphomatous involvement of the ileum
 - Ileitis
+
+## General colon
+
+- Generalized dilation of the colon
+- Segmental dilation of the colon
+- Colonic diverticulum
+- Colonic diverticulosis
+- Colonic diverticulitis
+- Colonic web
+- Colonic intussusception
+- Mass effect on the colon
+- Kinking of the colon
+- Extrinsic compression of the colon
+- Narrowing of the colonic lumen
+- Abnormal course of the colon
+- Diffuse colonic wall thickening
+- Focal colonic wall thickening
+- Diffuse colonic mucosal thickening
+- Focal colonic mucosal thickening
+- Enlarged colonic mucosal folds
+- Smooth colonic mucosal surface
+- Diffuse colonic hyperenhancement
+- Diffuse colonic hypoenhancement
+- Focal colonic hyperenhancement
+- Focal colonic hypoenhancement
+- Colonic contraction
+- Colonic stricture
+- Colonic ulcer
+- Colonic wall calcification
+- Colonic intramural gas
+- Colonic intramural abscess
+- Active bleeding within the colon
+- Colonic pseudoaneurysm
+- Submucosal edema of the colon
+- Target appearance of the colon
+- Colonic polyp
+- Colonic wall mass
+- Intraluminal colonic mass
+- Colonic lipoma
+- Colonic duplication cyst
+- Colonic obstruction
+- Fluid distention of the colon
+- Gaseous distention of the colon
+- Gas-fluid levels within the colon
+- Fecal-like material within the colon
+- High-attenuation material within the colon
+- Contrast material within the colon
+- Transition point of the colon
+- Colonic foreign body
+- Colonic stent
+- Colonic pneumatosis
+- Colonic contusion
+- Colonic laceration
+- Colonic perforation
+- Colonic hematoma
+- Pericolic fat stranding
+- Pericolic hematoma
+- Pericolic abscess
+- Colonic resection
+- Ileocolonic anastomosis
+- Colocolonic anastomosis
+- Colorectal anastomosis
+- Colostomy
+- Colonic catheter
+- Colonic anastomotic leak
+- Colonic anastomotic stricture
+- Adenocarcinoma of the colon
+- Carcinoid tumor of the colon
+- Gastrointestinal stromal tumor of the colon
+- Lymphomatous involvement of the colon
+- Sigmoid volvulus
+- Colonic submucosal fat deposition
+- Formed stool in the colon
+- Inspissated stool in the colon
+- Large volume of colonic stool
+- Colonic pseudo-obstruction
+- Total colectomy
+- Partial colectomy
+- Hemicolectomy
+- Right hemicolectomy
+- Left hemicolectomy
+- Low anterior resection
+- High anterior resection
+- Sigmoidectomy
+- Hartmann pouch
+- Reversal of colostomy
+- Abdominoperineal resection
+- Colonic J-pouch creation
+- Colonic resection with pouch formation
+- Postoperative abscess
+- Postoperative seroma
+- Postoperative hematoma
+- Colonic stent placement
+
+## Cecum
+
+- Generalized dilation of the cecum
+- Segmental dilation of the cecum
+- Cecal diverticulum
+- Cecal diverticulitis
+- Cecal web
+- Cecal intussusception
+- Mass effect on the cecum
+- Kinking of the cecum
+- Extrinsic compression of the cecum
+- Narrowing of the cecal lumen
+- Abnormal course of the cecum
+- Diffuse cecal wall thickening
+- Focal cecal wall thickening
+- Diffuse cecal mucosal thickening
+- Focal cecal mucosal thickening
+- Enlarged cecal mucosal folds
+- Smooth cecal mucosal surface
+- Diffuse cecal hyperenhancement
+- Diffuse cecal hypoenhancement
+- Focal cecal hyperenhancement
+- Focal cecal hypoenhancement
+- Cecal contraction
+- Cecal stricture
+- Cecal ulcer
+- Cecal wall calcification
+- Cecal intramural gas
+- Cecal intramural abscess
+- Active bleeding within the cecum
+- Cecal pseudoaneurysm
+- Submucosal edema of the cecum
+- Target appearance of the cecum
+- Cecal polyp
+- Cecal wall mass
+- Intraluminal cecal mass
+- Cecal lipoma
+- Cecal duplication cyst
+- Cecal obstruction
+- Fluid distention of the cecum
+- Gaseous distention of the cecum
+- Gas-fluid levels within the cecum
+- Fecal-like material within the cecum
+- High-attenuation material within the cecum
+- Contrast material within the cecum
+- Transition point of the cecum
+- Cecal foreign body
+- Cecal stent
+- Cecal pneumatosis
+- Cecal contusion
+- Cecal laceration
+- Cecal perforation
+- Cecal hematoma
+- Pericecal fat stranding
+- Pericecal hematoma
+- Pericecal abscess
+- Cecal resection
+- Cecal anastomosis
+- Adenocarcinoma of the cecum
+- Carcinoid tumor of the cecum
+- Lymphomatous involvement of the cecum
+- Right hemicolectomy
+- Mobile cecum
+- Cecal malrotation
+- Cecal volvulus
+- Typhlitis
+- Cecocolic intussusception
+- Ceco-cutaneous fistula
+- Ceco-vesical fistula
+- Ceco-colic fistula
+
+## Appendix
+
+- Position of the appendix
+- Diameter of the appendix
+- Dilated appendix
+- Fluid distention of the appendix
+- Appendiceal obstruction
+- Appendicolith
+- Periappendiceal edema
+- Periappendiceal fat stranding
+- Periappendiceal fluid collection
+- Mass effect on the appendix
+- Kinking of the appendix
+- Extrinsic compression of the appendix
+- Narrowing of the appendiceal lumen
+- Abnormal course of the appendix
+- Diffuse appendiceal wall thickening
+- Focal appendiceal wall thickening
+- Diffuse appendiceal mucosal thickening
+- Focal appendiceal mucosal thickening
+- Diffuse appendiceal hyperenhancement
+- Diffuse appendiceal hypoenhancement
+- Focal appendiceal hyperenhancement
+- Focal appendiceal hypoenhancement
+- Appendiceal cyst
+- Adenocarcinoma of the appendix
+- Discontinuity of the appendiceal wall
+- Appendiceal perforation
+- Appendiceal wall calcification
+- Appendectomy
+- Fluid collection in the appendectomy bed
+- Residual appendiceal stump
+- Appendiceal duplication
+- Active bleeding within the appendix
+
+## Rectum
+
+- Rectal wall thickening
+- Diffuse rectal wall thickening
+- Focal rectal wall thickening
+- Rectal mucosal thickening
+- Rectal hyperenhancement
+- Rectal hypoenhancement
+- Rectal stricture
+- Rectal ulcer
+- Rectal wall calcification
+- Rectal intramural gas
+- Rectal perforation
+- Active bleeding within the rectum
+- Rectal hematoma
+- Rectal contusion
+- Rectal wall injury
+- Rectal intramural abscess
+- Perirectal fat stranding
+- Perirectal hematoma
+- Perirectal abscess
+- Rectal mass
+- Intraluminal rectal mass
+- Rectal polyp
+- Rectal duplication cyst
+- Adenocarcinoma of the rectum
+- Lymphomatous involvement of the rectum
+- Rectal foreign body
+- Rectal stent
+- Fecal management device
+- Rectal pneumatosis
+- Rectal obstruction
+- Fluid distention of the rectum
+- Gaseous distention of the rectum
+- Gas-fluid levels within the rectum
+- Contrast material within the rectum
+- Low anterior resection
+- Abdominoperineal resection
+- Rectal anastomosis
+- Rectal anastomotic leak
+- Rectal anastomotic stricture
+- Postoperative seroma in the rectum
+- Postoperative hematoma in the rectum
+- Postoperative abscess in the rectum
+- Perianal abscess
+- Perirectal abscess
+- Perianal fistula
+- Rectovaginal fistula
+- Rectourethral fistula
+- Rectocutaneous fistula
+- Rectal prolapse
+- Extrinsic compression of the rectum
+- Stercoral colitis
+- Rectal stool ball
+- Internal hemorrhoid
+- External hemorrhoid
