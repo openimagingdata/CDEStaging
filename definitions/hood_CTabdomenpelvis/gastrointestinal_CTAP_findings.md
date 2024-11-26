@@ -60,6 +60,8 @@
 - Segmental dilation of the small bowel
 - Congenital intestinal malrotation
 - Intestinal volvulus
+- Transmesenteric hernia
+- Internal hernia
 - Small bowel diverticulosis
 - Mass effect on the small bowel
 - Kinking of the small bowel
@@ -345,6 +347,7 @@
 - Mass effect on the colon
 - Kinking of the colon
 - Extrinsic compression of the colon
+- Mesocolic hernia
 - Narrowing of the colonic lumen
 - Abnormal course of the colon
 - Diffuse colonic wall thickening
@@ -421,10 +424,8 @@
 - Abdominoperineal resection
 - Colonic J-pouch creation
 - Colonic resection with pouch formation
-- Postoperative abscess
-- Postoperative seroma
-- Postoperative hematoma
 - Colonic stent placement
+- Foreign body in the colon
 
 ## Cecum
 
@@ -496,6 +497,7 @@
 - Ceco-cutaneous fistula
 - Ceco-vesical fistula
 - Ceco-colic fistula
+- Foreign body in the cecum
 
 ## Appendix
 
@@ -524,6 +526,7 @@
 - Appendiceal cyst
 - Adenocarcinoma of the appendix
 - Discontinuity of the appendiceal wall
+- Mucous appendiceal neoplasm
 - Appendiceal perforation
 - Appendiceal wall calcification
 - Appendectomy
@@ -588,3 +591,4 @@
 - Rectal stool ball
 - Internal hemorrhoid
 - External hemorrhoid
+- Foreign body in the rectum
