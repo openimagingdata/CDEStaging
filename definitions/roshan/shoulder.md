@@ -1,0 +1,40 @@
+# Shoulder
+- Rotator cuff tears (full-thickness or partial-thickness)
+- Rotator cuff tendinopathy
+- Shoulder impingement
+- Labral tears (including SLAP lesions)
+- Glenohumeral joint effusion
+- Acromioclavicular joint arthritis
+- Biceps tearing/ thickening
+- displacement of long head of biceps
+- Subacromial-subdeltoid bursitis
+- Hill-Sachs lesion
+- Bankart lesion
+- Bone marrow edema
+- Muscle atrophy or fatty degeneration
+- Adhesive capsulitis (frozen shoulder)
+- Avascular necrosis of the humeral head
+- Humeral head fracture/ contusions
+- Tumors or infections
+- Supraspinatus and infraspinatus muscle atrophy
+- Glenohumeral ligament injuries (HAGL, GAGL)
+- Os acromiale
+- Acromial apophysiolysis
+- Geyser sign in severe rotator cuff tears
+- Hooked acromion or lateral downslope of acromion
+- pectoralis muscle abnormality (retraction/ edema/ strain/ atrophy/ tear)
+- deltoid muscle abnormality (tear/ atrophy of fatty infilteration/ contusion/cyst/ tumor)
+- Teres minor muscle abnormalities
+- Intra-articular loose bodies
+- Synovitis
+- Cartilage loss or defects (glenoid loss or erosion)
+- Osteoarthritis (Cartilage loss, joint space narrowing, osteophytes, and subchondral cysts)
+- acromion displacement (AC joint separation)
+- Posterior capsule thickening
+- Paralabral cysts
+- Capsulolabral avulsion
+- Superior capsule tears
+- Scapular dyskinesis
+- Osteochondral lesions
+- Myositis ossificans
+- Synovial chondromatosis

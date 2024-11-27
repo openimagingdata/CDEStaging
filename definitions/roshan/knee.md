@@ -1,0 +1,67 @@
+# Knee
+- Anterior cruciate ligament (ACL) tear
+- Posterior cruciate ligament (PCL) rupture
+- Medial collateral ligament (MCL) tear
+- LCL (Lateral Collateral Ligament) tear
+- Medial collateral ligament (MCL) sprain
+- Lateral collateral ligament (LCL) sprain
+- Meniscal tear
+- Radial tears (ghost sign)
+- Subchondral bone marrow edema
+- Chondral lesion
+- Intra-articular tumor or mass
+- patella fracture
+- proximal tibia fracture
+- proximal fibula fracture
+- distal femur fracture
+- Joint effusion
+- Synovial thickening or enhancement of synovial tissue
+- Patellar Tendonitis
+- Quadriceps Tendonitis
+- Patellar Tendon Tear
+- Quadriceps Tendon Tear
+- Iliotibial Band Syndrome
+- Pes Anserine Bursitis/Tendonitis
+- Popliteus Tendonitis
+- Hoffa fat pad injuries
+- cartilage thinning
+- Meniscal degeneration
+- Ligamentous laxity
+- Subchondral cysts
+- Bursal fluid collection
+- Synovial plica
+- Fibrous bands
+- Loose bodies within the joint
+- Chondral defects
+- Baker's cyst (Popliteal cyst)
+- Quadriceps tendon rupture
+- Patellar tendon rupture
+- Patellofemoral malalignment (Lateral patellar translation/ patellar tilt/patella alta)
+- Osteochondritis dissecans
+- Intra-articular fracture
+- Marrow contusion
+- Ganglion cyst
+- Synovial hemangioma
+- Osteonecrosis
+- Meniscal cyst
+- Lipoma arborescens
+- Pigmented villonodular synovitis (PVNS)
+- Patellar dislocation or subluxation
+- Medial plica syndrome
+- Ligamentous calcification
+- infrapatellar Bursitis
+- Chondromalacia patellae
+- Gouty arthritis changes
+- Sclerotic bone changes
+- Stress fracture
+- Tibial plateau fracture
+- Lipohemarthrosis
+- Osteoarthritis changes
+- Anterior cruciate ligament (ACL) ganglion cyst
+- Fibular collateral ligament (FCL) injuries
+- Tibial tuberosity avulsion
+- Hyperemia or increased vascularity
+- Slipped capital femoral epiphysis
+- Posterolateral corner injuries
+- Synovial chondromatosis
+
