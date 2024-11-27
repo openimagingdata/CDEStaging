@@ -1,0 +1,48 @@
+# head
+
+- Acute Intracranial Hemorrhage (ICH)
+- Subdural Hematoma
+- Epidural Hematoma
+- Subarachnoid Hemorrhage (SAH)
+- Cerebral Edema (vasogenic, cytotoxic)
+- Ischemic Stroke
+- Mass (primary neoplasm, metastasis, abscess)
+- Hydrocephalus (obstructive, communicating)
+- Infarction
+- Brain Tumor
+- Contusion
+- Cerebral Atrophy (generalized, focal)
+- Basal Skull Fracture (linear, depressed, basilar)
+- Pneumocephalus
+- Foreign Body
+- Calcifications
+- Ventriculomegaly
+- Midline Shift
+- Leukoaraiosis (White matter hypodensities)
+- Aneurysm (saccular, fusiform)
+- Hemorrhagic Stroke
+- Encephalomalacia
+- Hyperdense Vessel Sign
+- Sinusitis
+- Cavernous Malformation
+- Mastoid opacification
+- Diffuse axonal injury
+- Venous sinus thrombosis
+- Basal ganglia hyperdensity (calcification, hemorrhage)
+- Pineal gland calcification
+- Choroid plexus calcification
+- Falx/tentorium calcification
+- Colloid cyst
+- Arachnoid cyst
+- Porencephalic cyst
+- Scalp hematoma
+- Craniosynostosis
+- Chiari malformation
+- Dandy-Walker malformation
+- Corpus callosum agenesis/dysgenesis
+- Lissencephaly
+- Schizencephaly
+- Holoprosencephaly
+- Heterotopia
+- Cortical dysplasia
+- Microcephaly/macrocephaly
