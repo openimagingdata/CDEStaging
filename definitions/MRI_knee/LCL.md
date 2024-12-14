@@ -1,0 +1,53 @@
+# LCL
+
+- Normal lateral collateral ligament
+- Absent lateral collateral ligament
+- Hypoplastic lateral collateral ligament
+- Thickened lateral collateral ligament
+- Thinned lateral collateral ligament
+- Redundant lateral collateral ligament
+- Accessory or anomalous fibers of the lateral collateral ligament
+- Duplication or bifurcation of the lateral collateral ligament
+- Abnormal course of the lateral collateral ligament
+- T2 hyperintensity within the lateral collateral ligament
+- Intrasubstance signal abnormality within the lateral collateral ligament
+- Mucoid degeneration of the lateral collateral ligament
+- Chronic degeneration of the lateral collateral ligament
+- Periligamentous edema surrounding the lateral collateral ligament
+- Edema at the lateral collateral ligament femoral attachment
+- Edema at the lateral collateral ligament fibular attachment
+- Joint effusion extending along the lateral collateral ligament
+- Partial-thickness tear of the proximal lateral collateral ligament
+- Partial-thickness tear of the mid-substance lateral collateral ligament
+- Partial-thickness tear of the distal lateral collateral ligament
+- Complete tear of the lateral collateral ligament
+- Complete tear of the proximal lateral collateral ligament
+- Complete tear of the mid-substance lateral collateral ligament
+- Complete tear of the distal lateral collateral ligament
+- Proximal avulsion of the lateral collateral ligament
+- Distal avulsion of the lateral collateral ligament
+- Sprain of the lateral collateral ligament
+- Fiber attenuation of the lateral collateral ligament
+- Fiber discontinuity of the lateral collateral ligament
+- Elongation of the lateral collateral ligament
+- Retraction of lateral collateral ligament fibers
+- Calcification within the lateral collateral ligament
+- Mineralization of the lateral collateral ligament due to chronic trauma
+- Degenerative changes within the lateral collateral ligament
+- Ganglion cyst within the lateral collateral ligament
+- Ganglion cyst adjacent to the lateral collateral ligament
+- Avulsion fracture of the lateral collateral ligament femoral attachment
+- Avulsion fracture of the lateral collateral ligament fibular attachment
+- Capsular avulsion associated with lateral collateral ligament injury
+- Bone contusion adjacent to proximal lateral collateral ligament injury
+- Bone contusion adjacent to distal lateral collateral ligament injury
+- Scar tissue formation along the lateral collateral ligament
+- Fibrosis of the lateral collateral ligament
+- Postoperative changes in the lateral collateral ligament
+- Tunnel widening associated with lateral collateral ligament graft repair
+- Malposition of lateral collateral ligament graft reconstruction
+- Failure of lateral collateral ligament reconstruction
+- Intact lateral collateral ligament repair
+- Partial tear of the lateral collateral ligament repair
+- Complete tear of the lateral collateral ligament repair
+- Recurrent tear of a previously repaired lateral collateral ligament
