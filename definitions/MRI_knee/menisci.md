@@ -7,8 +7,8 @@
 - Hypoplastic medial meniscus
 - T2 hyperintensity within the medial meniscus
 - Intrasubstance signal abnormality within the medial meniscus
-- Intrasubstance degenerative changes within the medial meniscus (without tear)
-- Degenerative changes within the medial meniscus (without tear)
+- Intrasubstance degenerative changes within the medial meniscus
+- Degenerative changes within the medial meniscus
 - Probable tear of the medial meniscus
 - Non-displaced tear of the medial meniscus
 - Displaced tear of the medial meniscus
@@ -40,7 +40,7 @@
 - Residual meniscal tissue following partial meniscectomy
 - Healed medial meniscus repair
 - Scar tissue formation along the medial meniscus
-- Meniscal graft in the medial meniscus compartment
+- Meniscal graft in the medial compartment
 
 ## Lateral Meniscus
 
@@ -52,8 +52,8 @@
 - Discoid lateral meniscus with tear
 - T2 hyperintensity within the lateral meniscus
 - Intrasubstance signal abnormality within the lateral meniscus
-- Intrasubstance degenerative changes within the lateral meniscus (without tear)
-- Degenerative changes within the lateral meniscus (without tear)
+- Intrasubstance degenerative changes within the lateral meniscus
+- Degenerative changes within the lateral meniscus
 - Probable tear of the lateral meniscus
 - Non-displaced tear of the lateral meniscus
 - Displaced tear of the lateral meniscus
@@ -85,4 +85,4 @@
 - Residual meniscal tissue following partial meniscectomy
 - Healed lateral meniscus repair
 - Scar tissue formation along the lateral meniscus
-- Meniscal graft in the lateral meniscus compartment
+- Meniscal graft in the lateral compartment
