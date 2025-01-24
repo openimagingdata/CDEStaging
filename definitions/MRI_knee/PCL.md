@@ -1,0 +1,45 @@
+# PCL
+
+- Normal posterior cruciate ligament
+- Absent posterior cruciate ligament
+- Hypoplastic posterior cruciate ligament
+- Thickened posterior cruciate ligament
+- Thinned posterior cruciate ligament
+- Mucoid degeneration of the posterior cruciate ligament
+- T2 hyperintensity within the posterior cruciate ligament
+- Intrasubstance signal abnormality within the posterior cruciate ligament
+- Ganglion cyst within the posterior cruciate ligament
+- Ganglion cyst adjacent to the posterior cruciate ligament
+- Partial tear of the proximal posterior cruciate ligament
+- Partial tear of the mid-substance posterior cruciate ligament
+- Partial tear of the distal posterior cruciate ligament
+- Complete tear of the posterior cruciate ligament
+- Complete tear of the proximal posterior cruciate ligament
+- Complete tear of the mid-substance posterior cruciate ligament
+- Complete tear of the distal posterior cruciate ligament
+- Remote tear of the posterior cruciate ligament
+- Fiber attenuation of the posterior cruciate ligament
+- Fiber discontinuity of the posterior cruciate ligament
+- Elongation of the posterior cruciate ligament
+- Retraction of posterior cruciate ligament fibers
+- Calcification within the posterior cruciate ligament
+- Degenerative changes within the posterior cruciate ligament
+- Posterior cruciate ligament stump remnant after chronic tear
+- Avulsion fracture of the posterior cruciate ligament femoral attachment
+- Avulsion fracture of the posterior cruciate ligament tibial attachment
+- Postoperative changes in the posterior cruciate ligament
+- Intact posterior cruciate ligament repair
+- Partial tear of the posterior cruciate ligament repair
+- Complete tear of the posterior cruciate ligament repair
+- Recurrent tear of a previously repaired posterior cruciate ligament
+- Posterior cruciate ligament graft intact
+- Partial tear of the posterior cruciate ligament graft
+- Complete tear of the posterior cruciate ligament graft
+- Attenuation of the posterior cruciate ligament graft
+- Elongation of the posterior cruciate ligament graft
+- Malposition of the posterior cruciate ligament graft
+- Tunnel widening associated with the posterior cruciate ligament graft
+- Calcification within the posterior cruciate ligament graft
+- Ganglion cyst within the posterior cruciate ligament graft
+- Arthrofibrosis associated with the posterior cruciate ligament graft
+- Hardware artifact at the posterior cruciate ligament reconstruction site

@@ -1,0 +1,46 @@
+# ACL
+
+- Normal anterior cruciate ligament
+- Absent anterior cruciate ligament
+- Hypoplastic anterior cruciate ligament
+- Thickened anterior cruciate ligament
+- Thinned anterior cruciate ligament
+- Mucoid degeneration of the anterior cruciate ligament
+- T2 hyperintensity within the anterior cruciate ligament
+- Intrasubstance signal abnormality within the anterior cruciate ligament
+- Ganglion cyst within the anterior cruciate ligament
+- Ganglion cyst adjacent to the anterior cruciate ligament
+- Partial tear of the proximal anterior cruciate ligament
+- Partial tear of the mid-substance anterior cruciate ligament
+- Partial tear of the distal anterior cruciate ligament
+- Complete tear of the anterior cruciate ligament
+- Complete tear of the proximal anterior cruciate ligament
+- Complete tear of the mid-substance anterior cruciate ligament
+- Complete tear of the distal anterior cruciate ligament
+- Remote tear of the anterior cruciate ligament
+- Fiber attenuation of the anterior cruciate ligament
+- Fiber discontinuity of the anterior cruciate ligament
+- Elongation of the anterior cruciate ligament
+- Retraction of anterior cruciate ligament fibers
+- Calcification within the anterior cruciate ligament
+- Degenerative changes within the anterior cruciate ligament
+- Anterior cruciate ligament stump remnant after chronic tear
+- Avulsion fracture of the anterior cruciate ligament femoral attachment
+- Avulsion fracture of the anterior cruciate ligament tibial attachment
+- Postoperative changes in the anterior cruciate ligament
+- Intact anterior cruciate ligament repair
+- Partial tear of the anterior cruciate ligament repair
+- Complete tear of the anterior cruciate ligament repair
+- Recurrent tear of a previously repaired anterior cruciate ligament
+- Anterior cruciate ligament graft intact
+- Partial tear of the anterior cruciate ligament graft
+- Complete tear of the anterior cruciate ligament graft
+- Attenuation of the anterior cruciate ligament graft
+- Elongation of the anterior cruciate ligament graft
+- Malposition of the anterior cruciate ligament graft
+- Verticalized anterior cruciate ligament graft
+- Tunnel widening associated with the anterior cruciate ligament graft
+- Calcification within the anterior cruciate ligament graft
+- Ganglion cyst within the anterior cruciate ligament graft
+- Arthrofibrosis associated with the anterior cruciate ligament graft
+- Hardware artifact at the anterior cruciate ligament reconstruction site
