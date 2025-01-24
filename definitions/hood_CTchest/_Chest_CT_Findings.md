@@ -178,14 +178,14 @@
 
 ## Pulmonary
 
-- ⭐ [Calcified granulomas](definitions/hood/calcified-granuloma.md)
 - ⭐ [Pulmonary nodule (solitary)](definitions/hood/pulmonary-nodule-harmonized.md)
   - [RDES195: Pulmonary Nodule](https://radelement.org/home/sets/set/RDES195)  
   - [RDES208: Fleischner](https://radelement.org/home/sets/set/RDES208)  
   - [RDES99: Incidental Pulmonary Nodules](https://radelement.org/home/sets/set/RDES99)  
-- ⭐ [Pulmonary Consolidation](definitions/smartreporting/consolidation.txt)
+- ⭐ [Airspace consolidation](definitions/smartreporting/consolidation.txt)
 - ⭐ [Interlobular septal thickening](definitions/hood/interlobular-septal-thickening.md)
 - ⭐ [Air trapping](definitions/upmedic/AirTrapping.cde.md)
+- ⭐ [Calcified granulomas](definitions/hood/calcified-granuloma.md)
 - ⭐ [Honeycombing](definitions/nuance/fibrotic_changes_honeycombing.txt)
 - [Intraparenchymal lymph nodes](definitions/hood/intraparenchymal-lymph-node.md)
 - [Usual interstitial pneumonia (UIP)](definitions/hood/usual-interstitial-pneumonia-uip.md)
@@ -194,10 +194,8 @@
 - ⭐ [Subpleural reticular opacities](definitions/hood/subpleural-reticular-opacities.md)
 - [Wedge resection](definitions/hood/wedge-resection.md)
 - [Tree-in-bud opacities](definitions/hood/tree-in-bud.md)
-- Blebs/bullae
-- Apical scarring
-- Hamartoma
-- Pulmonary interstitial emphysema
+- [Apical scarring](definitions/hood/apical-scarring.md)
+- [Hamartoma](definitions/hood/pulmonary-hamartoma.md)
 
 ## Abdominal
 
@@ -243,71 +241,65 @@
 
 #### Post-surgical changes of the shoulder
 
-- Shoulder arthroplasty
-  - Total shoulder
-  - Reverse total shoulder
-  - Humeral resurfacing arthroplasty
-- Rotator cuff repair
-- Latarjet
-- Distal clavicular resection
-- Clavicular ORIF
+- [Total shoulder arthroplasty](definitions/hood/total-shoulder-arthroplasty.md)
+- [Reverse total shoulder arthroplasty](definitions/hood/total-shoulder-arthroplasty.md)
+- [Humeral resurfacing arthroplasty](definitions/hood/humeral-resurfacing-arthroplasty.md)
+- [Latarjet](definitions/hood/latarjet-procedure.md)
+- [Distal clavicular resection](definitions/hood/distal-clavicular-resection.md)
+- [Clavicular ORIF](definitions/hood/orif-clavicle.md)
 
 ### Rib cage
 
 - Ribs
   - ⭐ [Rib fracture](definitions/hood/bones-and-thoracic-cage.md) | [RDES233: Acute Rib Fracture](https://radelement.org/home/sets/set/RDES233)  
-  - Postsurgical changes of VATS
-  - Postsurgical changes of thoracotomy (partial rib resection or rib widening)
-  - Osseous bridging
-  - Congenital fusion
-  - ORIF
-  - Bifid rib
-  - Cervical rib
+  - [Postsurgical changes of VATS](definitions/hood/postsurgical-changes-vats.md)
+  - [Postsurgical changes of thoracotomy](definitions/hood/postsurgical-changes-thoracotomy.md)
+  - [Osseous bridging](definitions/hood/ribs-osseous-bridging.md)
+  - [Congenital fusion](definitions/hood/ribs-congenital-fusion.md)
+  - [ORIF ribs](definitions/hood/orif-ribs.md)
+  - [Bifid rib](definitions/hood/ribs-bifid.md)
+  - [Cervical rib](definitions/hood/rib-cervical.md)
   - [Fibrous dysplasia](definitions/hood/fibrous-dysplasia-of-ribs.md)
   - [Healed rib fracture](definitions/hood/healed-rib-fracture.md)  
 - Sternum
   - [Median sternotomy](definitions/hood/median-sternotomy.md)
   - [Pectus excavatum](definitions/hood/pectus-excavatum.md)
-  - Pectus carinatum
-  - - ⭐ [Sternal fracture](definitions/hood/sternal-fracture.md)
-- Sternoclavicular joint degenerative changes
-- Sternocostal joint degenerative changes
-- Costotransverse joint degenerative changes
-- Costal cartilage ossification
+  - [Pectus carinatum](definitions/hood/pectus-carinatum.md)
+  - ⭐ [Sternal fracture](definitions/hood/sternal-fracture.md)
+- [Sternoclavicular joint degenerative changes](definitions/hood/sternoclavicular-joint-degenerative-changes.md)
+
 
 ### Spine
 
-- Endplate degenerative changes
-- DISH / bridging osteophytes
-- Alignment
+- [Endplate degenerative changes](definitions/hood/thoracic-spine-endplate-degenerative-changes.md) | [Alternate](definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
+- [DISH / bridging osteophytes](definitions/hood/diffuse-idiopathic-skeletal-hyperostosis-dish.md)
+- [Anterolisthesis](definitions/hood/anterolisthesis.md)
+- [Retrolisthesis](definitions/hood/retrolisthesis.md)
 - Spinal canal narrowing
 - H-shaped vertebrae
 - Rugger-jersey spine
 - Schmorl node
 - Scheuermann’s disease
-- Ankylosing spondylitis
 - Physiologic wedging of lower thoracic vertebrae
 - ⭐ [Scoliosis](definitions/upmedic/ThoracicSpine.cdes.md)
   - [RDES51: Scoliosis](https://radelement.org/home/sets/set/RDES51)  
 - ⭐ [Vertebral compression fracture](definitions/hood/compression-fracture.md) | [Alternate](definitions/nuance/thoracic_spine_compression_deformity.json)
   - [RDES230: Vertebral Compression Fracture](https://radelement.org/home/sets/set/RDES230)  
 - [Hemangioma of thoracic spine](definitions/nuance/thoracic_spine_hemangioma.json)
-- ⭐ [Degenerative changes in the thoracic skeleton](definitions/upmedic/DegenerativeChangesThoracicSkeleton.cde.md)
-- Spinal fusion or stabilization hardware
+- [Posterior rod and screw fixation hardware](definitions/hood/posterior-rod-screw-fixation.md)
   - Laminectomy
   - Hemilaminectomy
   - Corpectomy
-  - Posterior lumbar interbody fusion (PLIF)
   - Harrington and Luque rods
   - Cotrel-Dubousset (CD) system
 
 ## Cardiovascular congenital variants
 
-- Patent foramen ovale (PFO)  
-- Atrial septal defect (ASD)  
-- Ventricular septal defect (VSD)  
-- Bicuspid aortic valve  
-- Variant pulmonary vein anatomy  
+- [Patent foramen ovale (PFO)](definitions/hood/patent-foramen-ovale-pfo.md)
+- [Atrial septal defect (ASD)](definitions/hood/atrial-septal-defect-asd.md)
+- [Ventricular septal defect (VSD)](definitions/hood/ventricular-septal-defect.md)
+- Bicuspid aortic valve
+- Variant pulmonary vein anatomy
 - Persistent left SVC  
 - Anomalous pulmonary venous return  
   - PAPVR or TAPVR  

@@ -108,11 +108,13 @@
     - RadLex RID36038— Typically benign
     - RDE1707.2— Indeterminate
 
+<!-- 
 - **Plurality:**
   - Concept Code: RDE1306 — Plurality
   - Values:
     - RadLex RID5765— Multiple
     - RadLex RID5762— Single
+-->
 
 - **Lung-RADs assessment:**
   - Concept Code: RID50134 — Lung-RADS assessment

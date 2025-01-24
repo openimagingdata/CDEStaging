@@ -1,0 +1,88 @@
+# Meninscus (Medial and Lateral)
+
+## Medial Meniscus
+
+- Normal medial meniscus
+- Absent medial meniscus
+- Hypoplastic medial meniscus
+- T2 hyperintensity within the medial meniscus
+- Intrasubstance signal abnormality within the medial meniscus
+- Intrasubstance degenerative changes within the medial meniscus
+- Degenerative changes within the medial meniscus
+- Probable tear of the medial meniscus
+- Non-displaced tear of the medial meniscus
+- Displaced tear of the medial meniscus
+- Horizontal tear of the medial meniscus
+- Displaced horizontal tear of the medial meniscus
+- Horizontal flap tear of the medial meniscus
+- Longitudinal tear of the medial meniscus
+- Peripheral longitudinal tear of the medial meniscus
+- Central longitudinal tear of the medial meniscus
+- Radial tear of the medial meniscus
+- Incomplete radial tear of the medial meniscus
+- Complete radial tear of the medial meniscus
+- Complex tear of the medial meniscus
+- Displaced complex tear of the medial meniscus
+- Bucket-handle tear of the medial meniscus
+- Displaced bucket-handle tear of the medial meniscus
+- Parrot-beak tear of the medial meniscus
+- Vertical flap tear of the medial meniscus
+- Irregular tear of the medial meniscus
+- Root tear of the medial meniscus
+- Root avulsion of the medial meniscus
+- Contour irregularity of the medial meniscus
+- Meniscal extrusion of the medial meniscus
+- Perimeniscal cyst adjacent to the medial meniscus
+- Postoperative changes in the medial meniscus
+- Postoperative meniscal repair, intact
+- Postoperative meniscal repair with recurrent tear
+- Postoperative partial meniscectomy
+- Residual meniscal tissue following partial meniscectomy
+- Healed medial meniscus repair
+- Scar tissue formation along the medial meniscus
+- Meniscal graft in the medial compartment
+
+## Lateral Meniscus
+
+- Normal lateral meniscus
+- Absent lateral meniscus
+- Hypoplastic lateral meniscus
+- Discoid lateral meniscus (complete)
+- Discoid lateral meniscus (incomplete)
+- Discoid lateral meniscus with tear
+- T2 hyperintensity within the lateral meniscus
+- Intrasubstance signal abnormality within the lateral meniscus
+- Intrasubstance degenerative changes within the lateral meniscus
+- Degenerative changes within the lateral meniscus
+- Probable tear of the lateral meniscus
+- Non-displaced tear of the lateral meniscus
+- Displaced tear of the lateral meniscus
+- Horizontal tear of the lateral meniscus
+- Displaced horizontal tear of the lateral meniscus
+- Horizontal flap tear of the lateral meniscus
+- Longitudinal tear of the lateral meniscus
+- Peripheral longitudinal tear of the lateral meniscus
+- Central longitudinal tear of the lateral meniscus
+- Radial tear of the lateral meniscus
+- Incomplete radial tear of the lateral meniscus
+- Complete radial tear of the lateral meniscus
+- Complex tear of the lateral meniscus
+- Displaced complex tear of the lateral meniscus
+- Bucket-handle tear of the lateral meniscus
+- Displaced bucket-handle tear of the lateral meniscus
+- Parrot-beak tear of the lateral meniscus
+- Vertical flap tear of the lateral meniscus
+- Irregular tear of the lateral meniscus
+- Root tear of the lateral meniscus
+- Root avulsion of the lateral meniscus
+- Contour irregularity of the lateral meniscus
+- Meniscal extrusion of the lateral meniscus
+- Perimeniscal cyst adjacent to the lateral meniscus
+- Postoperative changes in the lateral meniscus
+- Postoperative meniscal repair, intact
+- Postoperative meniscal repair with recurrent tear
+- Postoperative partial meniscectomy
+- Residual meniscal tissue following partial meniscectomy
+- Healed lateral meniscus repair
+- Scar tissue formation along the lateral meniscus
+- Meniscal graft in the lateral compartment
