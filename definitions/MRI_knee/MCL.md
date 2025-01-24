@@ -1,0 +1,48 @@
+# MCL
+
+- Normal medial collateral ligament
+- Absent medial collateral ligament
+- Hypoplastic medial collateral ligament
+- Thickened medial collateral ligament
+- Thinned medial collateral ligament
+- Redundant medial collateral ligament
+- Accessory bundles or anomalous fibers of the medial collateral ligament
+- Abnormal course of the medial collateral ligament
+- T2 hyperintensity within the medial collateral ligament
+- Mucoid degeneration of the medial collateral ligament
+- Chronic degeneration of the medial collateral ligament
+- Periligamentous edema surrounding the medial collateral ligament
+- Edema at the medial collateral ligament femoral attachment
+- Edema at the medial collateral ligament tibial attachment
+- Joint effusion tracking along the medial collateral ligament
+- Partial-thickness tear of the proximal medial collateral ligament
+- Partial-thickness tear of the mid-substance medial collateral ligament
+- Partial-thickness tear of the distal medial collateral ligament
+- Complete tear of the medial collateral ligament
+- Complete tear of the proximal medial collateral ligament
+- Complete tear of the mid-substance medial collateral ligament
+- Complete tear of the distal medial collateral ligament
+- Proximal avulsion of the medial collateral ligament
+- Distal avulsion of the medial collateral ligament
+- Sprain of the medial collateral ligament
+- Fiber attenuation of the medial collateral ligament
+- Fiber discontinuity of the medial collateral ligament
+- Elongation of the medial collateral ligament
+- Retraction of medial collateral ligament fibers
+- Calcification within the medial collateral ligament
+- Pellegrini-Stieda lesion (post-traumatic calcification at the femoral attachment)
+- Ganglion cyst within the medial collateral ligament
+- Ganglion cyst adjacent to the medial collateral ligament
+- Avulsion fracture of the medial collateral ligament femoral attachment
+- Avulsion fracture of the medial collateral ligament tibial attachment
+- Capsular avulsion associated with medial collateral ligament injury
+- Bone contusion adjacent to medial collateral ligament injury
+- Scar tissue formation along the medial collateral ligament
+- Fibrosis of the medial collateral ligament
+- Postoperative changes in the medial collateral ligament
+- Tunnel widening associated with medial collateral ligament graft repair
+- Graft malposition in reconstructed medial collateral ligament
+- Intact medial collateral ligament repair
+- Partial tear of the medial collateral ligament repair
+- Complete tear of the medial collateral ligament repair
+- Recurrent tear of a previously repaired medial collateral ligament
