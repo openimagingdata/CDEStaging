@@ -1,0 +1,375 @@
+{
+  "id": "MSETCODE_3512796",
+  "name": "Extremity fracture ",
+  "description": "Fractures of the arm or leg",
+  "set_version": {
+    "number": 1,
+    "date": "2024-10-01"
+  },
+  "schema_version": "1.0.0",
+  "status": {
+    "date": "2024-10-01",
+    "name": "Proposed"
+  },
+  "index_codes": [
+    {
+      "system": "SNOMEDCT",
+      "code": "125605004",
+      "display": "Fracture of bone (disorder)"
+    },
+    {
+      "system": "RADLEX",
+      "code": "RID4650",
+      "display": "Fracture"
+    },
+    {
+      "system": "SNOMEDCT",
+      "code": "61685007",
+      "display": "Lower limb structure (body structure)"
+    },
+    {
+      "system": "RADLEX",
+      "code": "RID2869",
+      "display": "Leg"
+    },
+    {
+      "system": "SNOMEDCT",
+      "code": "53120007",
+      "display": "Upper limb structure (body structure)"
+    },
+    {
+      "system": "RADLEX",
+      "code": "RID1968",
+      "display": "Arm"
+    }
+  ],
+  "history": [
+    {
+      "date": "2024-10-01",
+      "status": {
+        "date": "2024-10-01",
+        "name": "Proposed"
+      }
+    }
+  ],
+  "specialties": [
+    {
+      "abbreviation": "MK",
+      "name": "Musculoskeletal"
+    }
+  ],
+  "elements": [
+    {
+      "id": "MCODE_7393916",
+      "name": "Presence of fracture",
+      "element_version": {
+        "number": 1,
+        "date": "2024-10-01"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-10-01",
+        "name": "Proposed"
+      },
+      "index_codes": [
+        {
+          "system": "SNOMEDCT",
+          "code": "705057003",
+          "display": "Presence (property) (qualifier value)"
+        }
+      ],
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "MCODE_7393916.0",
+            "value": "absent",
+            "name": "Absent",
+            "index_codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "2667000",
+                "display": "Absent (qualifier value)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID28473",
+                "display": "Absent"
+              }
+            ]
+          },
+          {
+            "code": "MCODE_7393916.1",
+            "value": "present",
+            "name": "Present",
+            "index_codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "52101004",
+                "display": "Present (qualifier value)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID28472",
+                "display": "Present"
+              }
+            ]
+          },
+          {
+            "code": "MCODE_7393916.2",
+            "value": "indeterminate",
+            "name": "Indeterminate",
+            "index_codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "82334004",
+                "display": "Indeterminate (qualifier value)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID39110",
+                "display": "Indeterminate"
+              }
+            ]
+          },
+          {
+            "code": "MCODE_7393916.3",
+            "value": "unknown",
+            "name": "Unknown",
+            "index_codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "261665006",
+                "display": "Unknown (qualifier value)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID5655",
+                "display": "Unknown"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MCODE_4826450",
+      "name": "Location",
+      "element_version": {
+        "number": 1,
+        "date": "2024-10-01"
+      },
+      "schema_version": "1.0.0",
+      "status": {
+        "date": "2024-10-01",
+        "name": "Proposed"
+      },
+      "index_codes": [
+        {
+          "system": "SNOMEDCT",
+          "code": "75837006",
+          "display": "Anatomical location (property) (qualifier value)"
+        },
+        {
+          "system": "RADLEX",
+          "code": "RID39038",
+          "display": "Location"
+        }
+      ],
+      "value_set": {
+        "min_cardinality": 1,
+        "max_cardinality": 1,
+        "values": [
+          {
+            "code": "MCODE_4826450.0",
+            "value": "hand",
+            "name": "Hand",
+            "index_codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "85562004",
+                "display": "Hand structure (body structure)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID2318",
+                "display": "Hand"
+              }
+            ]
+          },
+          {
+            "code": "MCODE_4826450.1",
+            "value": "foot",
+            "name": "Foot",
+            "index_codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "56459004",
+                "display": "Foot structure (body structure)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID28829",
+                "display": "Foot"
+              }
+            ]
+          },
+          {
+            "code": "MCODE_4826450.2",
+            "value": "elbow",
+            "name": "Elbow",
+            "index_codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "127949000",
+                "display": "Elbow region structure (body structure)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID2010",
+                "display": "Elbow"
+              }
+            ]
+          },
+          {
+            "code": "MCODE_4826450.3",
+            "value": "hip",
+            "name": "Hip",
+            "index_codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "29836001",
+                "display": "Hip region structure (body structure)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID2639",
+                "display": "Hip"
+              }
+            ]
+          },
+          {
+            "code": "MCODE_4826450.4",
+            "value": "wrist",
+            "name": "Wrist",
+            "index_codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "8205005",
+                "display": "Wrist region structure (body structure)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID2177",
+                "display": "Wrist"
+              }
+            ]
+          },
+          {
+            "code": "MCODE_4826450.5",
+            "value": "forearm",
+            "name": "Forearm",
+            "index_codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "14975008",
+                "display": "Forearm structure (body structure)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID2107",
+                "display": "Forearm"
+              }
+            ]
+          },
+          {
+            "code": "MCODE_4826450.6",
+            "value": "ankle",
+            "name": "Ankle",
+            "index_codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "344001",
+                "display": "Ankle region structure (body structure)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID28545",
+                "display": "Ankle"
+              }
+            ]
+          },
+          {
+            "code": "MCODE_4826450.7",
+            "value": "leg",
+            "name": "Leg",
+            "index_codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "61685007",
+                "display": "Lower limb structure (body structure)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID2869",
+                "display": "Leg"
+              }
+            ]
+          },
+          {
+            "code": "MCODE_4826450.8",
+            "value": "shoulder",
+            "name": "Shoulder",
+            "index_codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "16982005",
+                "display": "Shoulder region structure (body structure)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID39518",
+                "display": "Shoulder"
+              }
+            ]
+          },
+          {
+            "code": "MCODE_4826450.9",
+            "value": "knee",
+            "name": "Knee",
+            "index_codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "72696002",
+                "display": "Knee region structure (body structure)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID2743",
+                "display": "Knee"
+              }
+            ]
+          },
+          {
+            "code": "MCODE_4826450.10",
+            "value": "arm",
+            "name": "Arm",
+            "index_codes": [
+              {
+                "system": "SNOMEDCT",
+                "code": "53120007",
+                "display": "Upper limb structure (body structure)"
+              },
+              {
+                "system": "RADLEX",
+                "code": "RID1968",
+                "display": "Arm"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

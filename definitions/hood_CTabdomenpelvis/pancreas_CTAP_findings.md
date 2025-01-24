@@ -1,0 +1,80 @@
+# CT Abdomen & Pelvis Findings List — Pancreas
+
+## Pancreas
+
+- Diffuse pancreatic enlargement
+- Focal pancreatic enlargement
+- Atrophic pancreas
+- Irregular pancreatic contour
+- Pancreas divisum
+- Annular pancreas
+- Ectopic pancreas
+- Homogeneous pancreatic attenuation
+- Heterogeneous pancreatic attenuation
+- Diffuse pancreatic hyperenhancement
+- Diffuse pancreatic hypoenhancement
+- Focal pancreatic hyperenhancement
+- Focal pancreatic hypoenhancement
+- Fatty infiltration of the pancreas
+- Fatty atrophy of the pancreas
+- Pancreatic parenchymal calcification
+- Multiple pancreatic calcifications
+- Pancreatic lesion
+- Multiple pancreatic lesions
+- Pancreatic mass
+- Multiple pancreatic masses
+- Subcentimeter pancreatic hypodensity
+- Pancreatic simple cyst
+- Intraductal mucinous pancreatic neoplasm (IPMN)
+- Serous cystadenoma
+- Mucinous cystadenoma
+- Pancreatic neuroendocrine tumor
+- Hyperenhancing pancreatic lesion
+- Pancreatic lipoma
+- Pancreatic adenocarcinoma
+- Solid pseudopapillary tumor
+- Pancreatic mucinous cystadenocarcinoma
+- Pancreatic metastasis
+- Multiple pancreatic metastases
+- Chronic pancreatitis
+- Peripancreatic fat stranding
+- Peripancreatic edema
+- Peripancreatic fluid collection
+- Acute peripancreatic collection
+- Acute necrotic collection
+- Pancreatic pseudocyst
+- Walled-off necrosis
+- Peripancreatic abscess
+- Caliber of the pancreatic duct
+- Caliber of the accessory pancreatic duct
+- Diffuse accessory pancreatic ductal dilation
+- Focal cystic dilatation of the accessory pancreatic duct (Santorinicele)
+- Focal pancreatic ductal dilation
+- Diffuse pancreatic ductal dilation
+- Pancreatic intraductal filling defect
+- Irregular contour of the pancreatic duct
+- Discontinuity of the pancreatic duct
+- Pancreatic laceration
+- Pancreatic necrosis
+- Pancreatic edema
+- Pancreatic contusion
+- Pancreatic transection
+- Active bleeding within the pancreas
+- Pancreatic hemorrhage
+- Pancreatic hematoma
+- Pancreatic pseudoaneurysm
+- Pancreatic duct stent
+- Pancreaticojejunal anastomosis
+- Pancreaticojejunostomy
+- Pancreatic resection
+- Distal pancreatectomy
+- Pancreaticoduodenectomy (Whipple)
+- Pancreatectomy clips
+- Pancreatic transplant
+- Cystogastrostomy
+- Internal peripancreatic drainage catheter
+- Percutaneous peripancreatic drainage catheter
+- Fluid collection within pancreatectomy bed
+- Pancreatic mass effect
+- Displaced pancreas
+- Pancreatic foreign body
