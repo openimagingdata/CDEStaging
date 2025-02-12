@@ -1,0 +1,59 @@
+# Bones and Marrow
+
+- Normal bone marrow signal
+- Normal red marrow distribution
+- Focal red marrow reconversion
+- Diffuse red marrow reconversion
+- Focal bone marrow edema
+- Diffuse bone marrow edema
+- Subchondral bone marrow edema
+- Bone contusion
+- Subchondral insufficiency fracture
+- Stress fracture
+- Impaction fracture with articular surface depression
+- Impaction fracture without articular surface depression
+- Displaced fracture fragment
+- Comminuted fracture fragment
+- Avulsion fracture with cortical disruption
+- Avulsion fracture without cortical disruption
+- Subchondral cyst
+- Subcortical cyst
+- Bone marrow cyst
+- Focal subchondral sclerosis
+- Diffuse subchondral sclerosis
+- Cortical thickening
+- Cortical thinning
+- Irregular cortical margin
+- Periosteal elevation
+- Periosteal thickening
+- Periosteal edema
+- Osteonecrosis
+- Degenerative subchondral edema
+- Osteochondral defect with subchondral involvement
+- Osteomyelitis
+- Brodie abscess
+- Chronic osteomyelitis
+- Bone marrow lesion with T1 hypointensity and T2 hyperintensity
+- Bone marrow lesion with T1 hypointensity and T2 hypointensity
+- Bone marrow lesion with T1 isointensity and T2 hyperintensity
+- Bone marrow lesion with central necrosis
+- Bone marrow lesion with heterogeneous internal signal
+- Bone marrow lesion with peripheral enhancement
+- Bone marrow lesion with diffuse enhancement
+- Focal cortical disruption
+- Cortical step-off deformity
+- Cortical defect without fracture line
+- Bone marrow fat-suppressed hyperintensity
+- Bone marrow serpiginous T1 hypointensity
+- Bone marrow geographic T1 hypointensity
+- Marrow signal abnormality with serpiginous border
+- Marrow signal abnormality with poorly defined margins
+- Marrow T2 hyperintensity
+- Focal marrow T1 hypointensity
+- Diffuse marrow T1 hypointensity
+- Subcortical marrow T2 hyperintensity
+- Marrow enhancement following contrast administration
+- Marrow non-enhancement following contrast administration
+- Bone marrow abnormality crossing the physis
+- Marrow T1 hypointensity with internal calcifications
+- Marrow T2 hyperintensity with fluid-fluid levels

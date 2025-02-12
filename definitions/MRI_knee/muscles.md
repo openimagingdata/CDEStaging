@@ -1,0 +1,44 @@
+# Muscles
+
+- Normal muscle signal
+- Normal muscle bulk
+- Focal muscle edema
+- Diffuse muscle edema
+- Perifascial (epimysial/perimysial) edema
+- Muscle edema related to strain
+- Muscle edema related to contusion
+- Muscle edema related to overuse
+- Muscle edema related to active denervation
+- Muscle edema related to active myositis
+- Muscle edema extending into adjacent soft tissues
+- Intramuscular hemorrhage
+- Intramuscular hematoma
+- Intermuscular hematoma
+- Muscle atrophy
+- Focal muscle atrophy
+- Diffuse muscle atrophy
+- Muscle fatty infiltration
+- Fatty infiltration related to chronic atrophy
+- Fatty infiltration related to chronic denervation
+- Fatty infiltration related to chronic myositis
+- Muscle strain
+- Partial-thickness muscle tear
+- Full-thickness muscle tear
+- Myotendinous junction tear
+- Muscle retraction
+- Muscle avulsion
+- Myositis
+- Chronic myositis
+- Heterotopic ossification (myositis ossificans)
+- Calcific myonecrosis
+- Muscle calcification
+- Myonecrosis
+- Scar tissue within muscle
+- Soft tissue mass within muscle
+- Intramuscular cyst
+- Intramuscular lipoma
+- Intramuscular hemangioma
+- Intramuscular abscess
+- Muscle enhancement following contrast administration
+- Muscle non-enhancement following contrast administration
+- Compartment-like muscle swelling
