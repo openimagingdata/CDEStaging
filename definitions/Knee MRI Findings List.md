@@ -1,6 +1,6 @@
 # Knee MRI Findings List
 
-|Common Data Element                                                           |Structure       |Category   |Tag         |
+|Finding                                                                       |Structure       |Category   |Tag         |
 |------------------------------------------------------------------------------|----------------|-----------|------------|
 |Normal anterior cruciate ligament                                             |ACL             |observation|            |
 |Absent anterior cruciate ligament                                             |ACL             |observation|            |
