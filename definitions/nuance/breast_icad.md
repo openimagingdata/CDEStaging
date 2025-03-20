@@ -1,16 +1,19 @@
 # Breast iCAD CDE Specification
 
 ## Overview
+
 This document outlines the **Common Data Elements (CDEs)** for the *ProFound Breast iCAD* dataset. These elements define the key structured data points used for breast imaging AI assessments, including **AI detection case scores** and **breast density assessments**.
 
 ## Data Elements
 
 ### 1. ProFound AI Detection Case Score
+
 - **Description:** AI-generated score assessing the likelihood of malignancy.
 - **Data Type:** `Integer (0-100)`
 - **Range:** `0 to 100`
 
 ### 2. PowerLook Density Assessment
+
 - **Description:** AI-assessed breast density classification.
 - **Data Type:** `Float (1.0 - 4.99)`
 - **Categories:**
@@ -20,6 +23,7 @@ This document outlines the **Common Data Elements (CDEs)** for the *ProFound Bre
   - `4.0 - 4.99` → **D (Extremely Dense)**
 
 ## Usage
+
 - This dataset structure is designed to be **ingested into imaging databases** and **AI-driven diagnostic systems**.
 - Future enhancements can include additional **imaging metrics, confidence scores,** and **physician annotations**.
 
