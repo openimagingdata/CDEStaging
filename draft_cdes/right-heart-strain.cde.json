@@ -1,0 +1,165 @@
+{
+    "id": "TO_BE_DETERMINED2204",
+    "name": "Right Heart Strain",
+    "description": "Right heart strain is characterized by the dilation of the right ventricle, right atrial enlargement, and bowing of the interventricular septum.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED6200",
+            "name": "Presence",
+            "definition": "Indicates whether right heart strain is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6200.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Right heart strain is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6200.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Right heart strain is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4952",
+            "name": "Dilation of Right Ventricle",
+            "definition": "Indicates whether there is dilation of the right ventricle.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4952.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "There is dilation of the right ventricle."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4952.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "There is no dilation of the right ventricle."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1321",
+            "name": "Right Atrial Enlargement",
+            "definition": "Indicates whether there is right atrial enlargement.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1321.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "There is right atrial enlargement."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1321.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "There is no right atrial enlargement."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3260",
+            "name": "Bowing of Interventricular Septum",
+            "definition": "Indicates whether there is bowing of the interventricular septum.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3260.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "There is bowing of the interventricular septum."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3260.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "There is no bowing of the interventricular septum."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1515",
+            "name": "RV/LV Ratio",
+            "definition": "Ratio of the right ventricular diameter to the left ventricular diameter.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {}
+        }
+    ]
+}

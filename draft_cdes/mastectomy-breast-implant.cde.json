@@ -1,0 +1,249 @@
+{
+    "id": "TO_BE_DETERMINED0832",
+    "name": "mastectomy breast implant",
+    "description": "Finding related to mastectomy and breast implant",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED9770",
+            "name": "Mastectomy",
+            "definition": "Mastectomy type",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9770.0",
+                        "value": "right",
+                        "name": "Right"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9770.1",
+                        "value": "left",
+                        "name": "Left"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9770.2",
+                        "value": "bilateral",
+                        "name": "Bilateral"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0320",
+            "name": "Lumpectomy",
+            "definition": "Lumpectomy type",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0320.0",
+                        "value": "right",
+                        "name": "Right"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0320.1",
+                        "value": "left",
+                        "name": "Left"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0320.2",
+                        "value": "bilateral",
+                        "name": "Bilateral"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1410",
+            "name": "Implant presence",
+            "definition": "Presence of breast implant",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1410.0",
+                        "value": "right",
+                        "name": "Right"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1410.1",
+                        "value": "left_breast",
+                        "name": "Left breast"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1410.2",
+                        "value": "bilateral",
+                        "name": "Bilateral"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3618",
+            "name": "Implant location",
+            "definition": "Location of breast implant",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3618.0",
+                        "value": "preglandular",
+                        "name": "Preglandular"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3618.1",
+                        "value": "subpectoral",
+                        "name": "Subpectoral"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0970",
+            "name": "Implant material",
+            "definition": "Material of breast implant",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0970.0",
+                        "value": "saline",
+                        "name": "Saline"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0970.1",
+                        "value": "silicone",
+                        "name": "Silicone"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8555",
+            "name": "Postoperative changes",
+            "definition": "Postoperative changes",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8555.0",
+                        "value": "postsurgical_changes",
+                        "name": "Postsurgical changes",
+                        "definition": "Scarring"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8555.1",
+                        "value": "flap_reconstruction",
+                        "name": "Flap reconstruction"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8555.2",
+                        "value": "calcifications",
+                        "name": "Calcifications"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8555.3",
+                        "value": "fat_necrosis",
+                        "name": "Fat necrosis"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8555.4",
+                        "value": "surgical_clips",
+                        "name": "Surgical clips"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8555.5",
+                        "value": "axillary_surgical_clips",
+                        "name": "Axillary surgical clips",
+                        "definition": "Lymph node dissection / axillary dissection / axillary nodal dissection"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8555.6",
+                        "value": "skin_thickening",
+                        "name": "Skin thickening"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8555.7",
+                        "value": "seroma",
+                        "name": "Seroma"
+                    }
+                ]
+            }
+        }
+    ]
+}

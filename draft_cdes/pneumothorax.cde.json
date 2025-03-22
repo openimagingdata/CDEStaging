@@ -1,0 +1,467 @@
+{
+    "id": "TO_BE_DETERMINED0269",
+    "name": "Pneumothorax",
+    "description": "A radiologic finding of abnormal air collection in the pleural space.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED7197",
+            "name": "Presence",
+            "definition": "Presence of pneumothorax.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7197.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7197.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9050",
+            "name": "Status",
+            "definition": "Status of pneumothorax.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9050.0",
+                        "value": "acute",
+                        "name": "Acute"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9050.1",
+                        "value": "chronic",
+                        "name": "Chronic"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9050.2",
+                        "value": "resolving",
+                        "name": "Resolving"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9050.3",
+                        "value": "newly_identified",
+                        "name": "Newly identified"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9050.4",
+                        "value": "increased",
+                        "name": "Increased"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9050.5",
+                        "value": "decreased",
+                        "name": "Decreased"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9050.6",
+                        "value": "resolved",
+                        "name": "Resolved"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9050.7",
+                        "value": "persisting",
+                        "name": "Persisting"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5737",
+            "name": "Size",
+            "definition": "Size of pneumothorax.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5737.0",
+                        "value": "small_20_lung_volume",
+                        "name": "Small (<20% lung volume)"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5737.1",
+                        "value": "medium_20_50_lung_volume",
+                        "name": "Medium (20-50% lung volume)"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5737.2",
+                        "value": "large_50_lung_volume",
+                        "name": "Large (>50% lung volume)"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5737.3",
+                        "value": "tension",
+                        "name": "Tension"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9195",
+            "name": "Location",
+            "definition": "Location of pneumothorax.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9195.0",
+                        "value": "right",
+                        "name": "Right"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9195.1",
+                        "value": "left",
+                        "name": "Left"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9195.2",
+                        "value": "bilateral",
+                        "name": "Bilateral"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1410",
+            "name": "Distribution",
+            "definition": "Distribution of pneumothorax.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1410.0",
+                        "value": "apical",
+                        "name": "Apical"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1410.1",
+                        "value": "basilar",
+                        "name": "Basilar"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1410.2",
+                        "value": "diffuse",
+                        "name": "Diffuse"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1410.3",
+                        "value": "localized",
+                        "name": "Localized"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0195",
+            "name": "Chest tube",
+            "definition": "Presence of chest tube.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0195.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0195.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3555",
+            "name": "Subcutaneous emphysema",
+            "definition": "Presence of subcutaneous emphysema.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3555.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3555.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8780",
+            "name": "Rib fractures",
+            "definition": "Presence of rib fractures.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8780.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8780.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2870",
+            "name": "Pleural effusion",
+            "definition": "Presence of pleural effusion.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2870.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2870.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5656",
+            "name": "Lung collapse",
+            "definition": "Presence of lung collapse.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5656.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5656.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9481",
+            "name": "Pleural adhesions",
+            "definition": "Presence of pleural adhesions.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9481.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9481.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1137",
+            "name": "Mediastinal shift",
+            "definition": "Presence of mediastinal shift.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1137.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1137.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6116",
+            "name": "Herniation",
+            "definition": "Presence of herniation.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6116.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6116.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        }
+    ]
+}

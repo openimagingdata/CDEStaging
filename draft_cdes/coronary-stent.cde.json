@@ -1,0 +1,352 @@
+{
+    "id": "TO_BE_DETERMINED2880",
+    "name": "coronary stent",
+    "description": "A coronary stent is a small mesh-like tube that is placed in a narrowed or blocked coronary artery to restore blood flow.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED4922",
+            "name": "Presence of Coronary Stent",
+            "definition": "Indicates whether a coronary stent is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4922.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "A coronary stent is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4922.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "A coronary stent is not present."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3753",
+            "name": "Status",
+            "definition": "Indicates the status of the coronary stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3753.0",
+                        "value": "new_placement",
+                        "name": "New placement",
+                        "definition": "The coronary stent has been newly placed."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3753.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "The coronary stent remains unchanged."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3753.2",
+                        "value": "complication",
+                        "name": "Complication",
+                        "definition": "There is a complication associated with the coronary stent."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3753.3",
+                        "value": "removed",
+                        "name": "Removed",
+                        "definition": "The coronary stent has been removed."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3441",
+            "name": "Location",
+            "definition": "Indicates the location of the coronary stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3441.0",
+                        "value": "left_coronary",
+                        "name": "Left coronary",
+                        "definition": "The coronary stent is located in the left coronary artery."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3441.1",
+                        "value": "left_anterior_descending_lad",
+                        "name": "Left anterior descending (LAD)",
+                        "definition": "The coronary stent is located in the left anterior descending artery."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3441.2",
+                        "value": "left_circumflex_l_cx",
+                        "name": "Left circumflex (LCx)",
+                        "definition": "The coronary stent is located in the left circumflex artery."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3441.3",
+                        "value": "left_obtuse_marginal_om",
+                        "name": "Left obtuse marginal (OM)",
+                        "definition": "The coronary stent is located in the left obtuse marginal artery."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3441.4",
+                        "value": "right_coronary_rca",
+                        "name": "Right coronary (RCA)",
+                        "definition": "The coronary stent is located in the right coronary artery."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3441.5",
+                        "value": "right_acute_marginal",
+                        "name": "Right acute marginal",
+                        "definition": "The coronary stent is located in the right acute marginal artery."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1859",
+            "name": "Type",
+            "definition": "Indicates the type of coronary stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1859.0",
+                        "value": "bare_metal",
+                        "name": "Bare-metal",
+                        "definition": "A bare-metal coronary stent."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1859.1",
+                        "value": "drug_eluting",
+                        "name": "Drug-eluting",
+                        "definition": "A drug-eluting coronary stent."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1859.2",
+                        "value": "bioresorbable",
+                        "name": "Bioresorbable",
+                        "definition": "A bioresorbable coronary stent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8023",
+            "name": "In-Stent Restenosis",
+            "definition": "Indicates whether there is restenosis (re-narrowing) of the stented artery.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8023.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "There is in-stent restenosis."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8023.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "There is no in-stent restenosis."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3062",
+            "name": "Stent Thrombosis",
+            "definition": "Indicates whether there is thrombosis (clot formation) within the stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3062.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "There is stent thrombosis."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3062.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "There is no stent thrombosis."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9574",
+            "name": "Stent Fracture",
+            "definition": "Indicates whether there is a fracture in the coronary stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9574.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "There is a stent fracture."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9574.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "There is no stent fracture."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8264",
+            "name": "Peri-stent Leak",
+            "definition": "Indicates whether there is a leak around the coronary stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8264.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "There is a peri-stent leak."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8264.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "There is no peri-stent leak."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4547",
+            "name": "Edge Dissection",
+            "definition": "Indicates whether there is a dissection (tear) at the edge of the stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4547.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "There is an edge dissection."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4547.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "There is no edge dissection."
+                    }
+                ]
+            }
+        }
+    ]
+}

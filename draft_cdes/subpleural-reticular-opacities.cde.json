@@ -1,0 +1,312 @@
+{
+    "id": "TO_BE_DETERMINED2807",
+    "name": "Subpleural Reticular Opacities",
+    "description": "Presence of subpleural reticular opacities in the lungs",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED0560",
+            "name": "Presence",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0560.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0560.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3890",
+            "name": "Status",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3890.0",
+                        "value": "stable",
+                        "name": "Stable",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3890.1",
+                        "value": "new",
+                        "name": "New",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3890.2",
+                        "value": "worsened",
+                        "name": "Worsened",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3890.3",
+                        "value": "improved",
+                        "name": "Improved",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1343",
+            "name": "Distribution",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1343.0",
+                        "value": "localized",
+                        "name": "Localized",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1343.1",
+                        "value": "diffuse",
+                        "name": "Diffuse",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9889",
+            "name": "Severity",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9889.0",
+                        "value": "mild",
+                        "name": "Mild",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9889.1",
+                        "value": "moderate",
+                        "name": "Moderate",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9889.2",
+                        "value": "severe",
+                        "name": "Severe",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2780",
+            "name": "Location",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2780.0",
+                        "value": "right_upper_lobe",
+                        "name": "Right upper lobe",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2780.1",
+                        "value": "right_middle_lobe",
+                        "name": "Right middle lobe",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2780.2",
+                        "value": "right_lower_lobe",
+                        "name": "Right lower lobe",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2780.3",
+                        "value": "left_upper_lobe",
+                        "name": "Left upper lobe",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2780.4",
+                        "value": "left_lower_lobe",
+                        "name": "Left lower lobe",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2780.5",
+                        "value": "bilateral",
+                        "name": "Bilateral",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9433",
+            "name": "Pattern",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9433.0",
+                        "value": "fine",
+                        "name": "Fine",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9433.1",
+                        "value": "coarse",
+                        "name": "Coarse",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5445",
+            "name": "Association with pleural thickening",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5445.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5445.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8391",
+            "name": "Association with volume loss",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8391.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8391.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "None"
+                    }
+                ]
+            }
+        }
+    ]
+}

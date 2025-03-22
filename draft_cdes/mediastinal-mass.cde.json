@@ -1,0 +1,334 @@
+{
+    "id": "TO_BE_DETERMINED0397",
+    "name": "mediastinal mass",
+    "description": "A mass located in the mediastinum, which is the area between the lungs that contains the heart, great vessels, and other structures.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED1428",
+            "name": "Presence of Mediastinal Mass",
+            "definition": "Indicates whether a mediastinal mass is present or not.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1428.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "A mediastinal mass is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1428.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "No mediastinal mass is present."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7969",
+            "name": "Anatomical Location",
+            "definition": "The anatomical location of the mediastinal mass.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7969.0",
+                        "value": "anterior_mediastinum",
+                        "name": "Anterior Mediastinum",
+                        "definition": "The mass is located in the anterior mediastinum, which is in front of the heart and behind the sternum."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7969.1",
+                        "value": "middle_mediastinum",
+                        "name": "Middle Mediastinum",
+                        "definition": "The mass is located in the middle mediastinum, which contains the heart and pericardium."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7969.2",
+                        "value": "posterior_mediastinum",
+                        "name": "Posterior Mediastinum",
+                        "definition": "The mass is located in the posterior mediastinum, which is behind the heart and in front of the spine."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2951",
+            "name": "Size",
+            "definition": "The size of the mediastinal mass.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2951.0",
+                        "value": "small",
+                        "name": "Small",
+                        "definition": "The mass is small in size."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2951.1",
+                        "value": "medium",
+                        "name": "Medium",
+                        "definition": "The mass is medium in size."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2951.2",
+                        "value": "large",
+                        "name": "Large",
+                        "definition": "The mass is large in size."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2460",
+            "name": "Density",
+            "definition": "The density of the mediastinal mass.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2460.0",
+                        "value": "solid",
+                        "name": "Solid",
+                        "definition": "The mass has a solid consistency."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2460.1",
+                        "value": "cystic",
+                        "name": "Cystic",
+                        "definition": "The mass has a cystic consistency, containing fluid or air-filled spaces."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2460.2",
+                        "value": "mixed",
+                        "name": "Mixed",
+                        "definition": "The mass has a mixture of solid and cystic components."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3074",
+            "name": "Borders",
+            "definition": "The borders of the mediastinal mass.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3074.0",
+                        "value": "well_defined",
+                        "name": "Well-defined",
+                        "definition": "The borders of the mass are well-defined."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3074.1",
+                        "value": "poorly_defined",
+                        "name": "Poorly defined",
+                        "definition": "The borders of the mass are poorly defined."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0849",
+            "name": "Effects on Surrounding Structures",
+            "definition": "The effects of the mediastinal mass on the surrounding structures.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0849.0",
+                        "value": "compression",
+                        "name": "Compression",
+                        "definition": "The mass is compressing the surrounding structures."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0849.1",
+                        "value": "displacement",
+                        "name": "Displacement",
+                        "definition": "The mass is displacing the surrounding structures."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0849.2",
+                        "value": "none",
+                        "name": "None",
+                        "definition": "The mass is not causing any effects on the surrounding structures."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9093",
+            "name": "Lymphadenopathy",
+            "definition": "Indicates whether lymphadenopathy, or enlarged lymph nodes, is present or not.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9093.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Lymphadenopathy is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9093.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No lymphadenopathy is present."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3278",
+            "name": "Calcifications",
+            "definition": "Indicates whether calcifications are present or not.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3278.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Calcifications are present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3278.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No calcifications are present."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3192",
+            "name": "Signs of Invasion",
+            "definition": "Indicates whether signs of invasion, such as infiltration into surrounding tissue, are present or not.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3192.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Signs of invasion are present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3192.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No signs of invasion are present."
+                    }
+                ]
+            }
+        }
+    ]
+}

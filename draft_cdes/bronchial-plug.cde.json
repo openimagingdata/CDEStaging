@@ -1,0 +1,318 @@
+{
+    "id": "TO_BE_DETERMINED0261",
+    "name": "Bronchial Plug",
+    "description": "Presence of a bronchial plug",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED1323",
+            "name": "Presence of Bronchial Plug",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1323.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1323.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2343",
+            "name": "Status",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2343.0",
+                        "value": "new_placement",
+                        "name": "New placement",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2343.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2343.2",
+                        "value": "complication",
+                        "name": "Complication",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2343.3",
+                        "value": "removed",
+                        "name": "Removed",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2343.4",
+                        "value": "resorbed",
+                        "name": "Resorbed",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0727",
+            "name": "Location",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0727.0",
+                        "value": "main_bronchus",
+                        "name": "Main bronchus",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0727.1",
+                        "value": "lobar_bronchus",
+                        "name": "Lobar bronchus",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0727.2",
+                        "value": "segmental_bronchus",
+                        "name": "Segmental bronchus",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4172",
+            "name": "Side",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4172.0",
+                        "value": "right",
+                        "name": "Right",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4172.1",
+                        "value": "left",
+                        "name": "Left",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9705",
+            "name": "Device Type",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9705.0",
+                        "value": "bioresorbable",
+                        "name": "Bioresorbable",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9705.1",
+                        "value": "non_bioresorbable",
+                        "name": "Non-bioresorbable",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5327",
+            "name": "Deployment",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5327.0",
+                        "value": "complete",
+                        "name": "Complete",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5327.1",
+                        "value": "partial",
+                        "name": "Partial",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8636",
+            "name": "Complication",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8636.0",
+                        "value": "none",
+                        "name": "None",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8636.1",
+                        "value": "mucosal_erosion",
+                        "name": "Mucosal erosion",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8636.2",
+                        "value": "perforation",
+                        "name": "Perforation",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8636.3",
+                        "value": "migration",
+                        "name": "Migration",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8636.4",
+                        "value": "stenosis",
+                        "name": "Stenosis",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8636.5",
+                        "value": "occlusion",
+                        "name": "Occlusion",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3320",
+            "name": "Airspace consolidation",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3320.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3320.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,490 @@
+{
+    "id": "TO_BE_DETERMINED0863",
+    "name": "nontunneled CVC",
+    "description": "Non-tunneled Central Venous Catheter (CVC)",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED5762",
+            "name": "Presence of Non-tunneled Central Venous Catheter (CVC)",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5762.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5762.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7670",
+            "name": "Status",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7670.0",
+                        "value": "new_placement",
+                        "name": "New placement",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7670.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7670.2",
+                        "value": "migrated",
+                        "name": "Migrated",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7670.3",
+                        "value": "removed",
+                        "name": "Removed",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8320",
+            "name": "Appropriate location",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8320.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8320.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1837",
+            "name": "Side",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1837.0",
+                        "value": "left",
+                        "name": "Left",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1837.1",
+                        "value": "right",
+                        "name": "Right",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1837.2",
+                        "value": "unknown",
+                        "name": "Unknown",
+                        "definition": "inferior approach"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7437",
+            "name": "Number of Lumens",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7437.0",
+                        "value": "single",
+                        "name": "Single",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7437.1",
+                        "value": "double",
+                        "name": "Double",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7437.2",
+                        "value": "triple",
+                        "name": "Triple",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7437.3",
+                        "value": "quad",
+                        "name": "Quad",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0403",
+            "name": "Vein approach",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0403.0",
+                        "value": "internal_jugular",
+                        "name": "Internal jugular",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0403.1",
+                        "value": "subclavian",
+                        "name": "Subclavian",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0403.2",
+                        "value": "femoral",
+                        "name": "Femoral",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4857",
+            "name": "Course",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4857.0",
+                        "value": "appropriate",
+                        "name": "Appropriate",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4857.1",
+                        "value": "kinking",
+                        "name": "Kinking",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4857.2",
+                        "value": "coiling",
+                        "name": "Coiling",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3445",
+            "name": "Distal tip location",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3445.0",
+                        "value": "subclavian_vein",
+                        "name": "Subclavian vein",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3445.1",
+                        "value": "brachiocephalic_vein",
+                        "name": "Brachiocephalic vein",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3445.2",
+                        "value": "svc",
+                        "name": "SVC",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3445.3",
+                        "value": "superior_cavoatrial_junction",
+                        "name": "Superior cavoatrial junction",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3445.4",
+                        "value": "azygous_vein",
+                        "name": "Azygous vein",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3445.5",
+                        "value": "inferior_cavoatrial_junction",
+                        "name": "Inferior cavoatrial junction",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3445.6",
+                        "value": "internal_jugular_vein",
+                        "name": "Internal jugular vein",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3445.7",
+                        "value": "ivc",
+                        "name": "IVC",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6405",
+            "name": "Complications",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6405.0",
+                        "value": "none",
+                        "name": "None",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6405.1",
+                        "value": "occlusion",
+                        "name": "Occlusion",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6405.2",
+                        "value": "thrombosis_fibrin_sheath",
+                        "name": "Thrombosis (fibrin sheath)",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6405.3",
+                        "value": "catheter_fracture",
+                        "name": "Catheter fracture",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6405.4",
+                        "value": "tip_migration",
+                        "name": "Tip Migration",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0819",
+            "name": "Hematoma",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0819.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0819.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6843",
+            "name": "Pneumothorax",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6843.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6843.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5743",
+            "name": "Hemothorax",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5743.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5743.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        }
+    ]
+}

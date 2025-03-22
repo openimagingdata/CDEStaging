@@ -1,0 +1,524 @@
+{
+    "id": "TO_BE_DETERMINED6951",
+    "name": "Bronchiolectasis",
+    "description": "Bronchiolectasis is characterized by the dilation and thickening of the bronchioles.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED1320",
+            "name": "Presence of Bronchiolectasis",
+            "definition": "Indicates whether bronchiolectasis is present or not.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1320.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "Bronchiolectasis is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1320.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "Bronchiolectasis is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5435",
+            "name": "Distribution",
+            "definition": "The distribution pattern of bronchiolectasis.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5435.0",
+                        "value": "focal",
+                        "name": "Focal"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5435.1",
+                        "value": "multifocal",
+                        "name": "Multifocal"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5435.2",
+                        "value": "diffuse",
+                        "name": "Diffuse"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5805",
+            "name": "Severity",
+            "definition": "The severity of bronchiolectasis.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5805.0",
+                        "value": "mild",
+                        "name": "Mild"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5805.1",
+                        "value": "moderate",
+                        "name": "Moderate"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5805.2",
+                        "value": "severe",
+                        "name": "Severe"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7110",
+            "name": "Location",
+            "definition": "The location of bronchiolectasis.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7110.0",
+                        "value": "left",
+                        "name": "Left"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7110.1",
+                        "value": "right",
+                        "name": "Right"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7110.2",
+                        "value": "bilateral",
+                        "name": "Bilateral"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4363",
+            "name": "Lung Zone",
+            "definition": "The lung zone where bronchiolectasis is located.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4363.0",
+                        "value": "upper",
+                        "name": "Upper"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4363.1",
+                        "value": "middle",
+                        "name": "Middle"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4363.2",
+                        "value": "lower",
+                        "name": "Lower"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4224",
+            "name": "Segments",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4224.0",
+                        "value": "right_upper_lobe",
+                        "name": "Right Upper Lobe"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4224.1",
+                        "value": "right_middle_lobe",
+                        "name": "Right Middle Lobe"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4224.2",
+                        "value": "right_lower_lobe",
+                        "name": "Right Lower Lobe"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4224.3",
+                        "value": "left_upper_lobe",
+                        "name": "Left Upper Lobe"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4224.4",
+                        "value": "left_lower_lobe",
+                        "name": "Left Lower Lobe"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4020",
+            "name": "Right Upper Lobe Segments",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4020.0",
+                        "value": "apical",
+                        "name": "Apical"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4020.1",
+                        "value": "posterior",
+                        "name": "Posterior"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4020.2",
+                        "value": "anterior",
+                        "name": "Anterior"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5924",
+            "name": "Right Middle Lobe Segments",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5924.0",
+                        "value": "lateral",
+                        "name": "Lateral"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5924.1",
+                        "value": "medial",
+                        "name": "Medial"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7152",
+            "name": "Right Lower Lobe Segments",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7152.0",
+                        "value": "superior",
+                        "name": "Superior"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7152.1",
+                        "value": "medial_basal",
+                        "name": "Medial Basal"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7152.2",
+                        "value": "anterior_basal",
+                        "name": "Anterior Basal"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7152.3",
+                        "value": "lateral_basal",
+                        "name": "Lateral Basal"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7152.4",
+                        "value": "posterior_basal",
+                        "name": "Posterior Basal"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0065",
+            "name": "Left Upper Lobe Segments",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0065.0",
+                        "value": "apical",
+                        "name": "Apical"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0065.1",
+                        "value": "posterior",
+                        "name": "Posterior"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0065.2",
+                        "value": "anterior",
+                        "name": "Anterior"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0065.3",
+                        "value": "superior_lingular",
+                        "name": "Superior Lingular"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0065.4",
+                        "value": "inferior_lingular",
+                        "name": "Inferior Lingular"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8974",
+            "name": "Left Lower Lobe Segments",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8974.0",
+                        "value": "superior",
+                        "name": "Superior"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8974.1",
+                        "value": "anteromedial_basal",
+                        "name": "Anteromedial Basal"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8974.2",
+                        "value": "lateral_basal",
+                        "name": "Lateral Basal"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8974.3",
+                        "value": "posterior_basal",
+                        "name": "Posterior Basal"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2505",
+            "name": "Mucous Plugging",
+            "definition": "Indicates the presence of mucous plugging.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2505.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Mucous plugging is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2505.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Mucous plugging is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2714",
+            "name": "Air Trapping",
+            "definition": "Indicates the presence of air trapping.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2714.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Air trapping is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2714.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Air trapping is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9530",
+            "name": "Signs of Infection",
+            "definition": "Indicates the presence of signs of infection.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9530.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Signs of infection are present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9530.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Signs of infection are absent."
+                    }
+                ]
+            }
+        }
+    ]
+}

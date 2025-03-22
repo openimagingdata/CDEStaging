@@ -1,0 +1,200 @@
+{
+    "id": "TO_BE_DETERMINED6375",
+    "name": "pericardial effusion",
+    "description": "A collection of fluid in the pericardial space surrounding the heart",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED0177",
+            "name": "Size",
+            "definition": "The size of the pericardial effusion",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0177.0",
+                        "value": "trace",
+                        "name": "Trace",
+                        "definition": "\u2264 5 mm"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0177.1",
+                        "value": "small",
+                        "name": "Small",
+                        "definition": "<10 mm"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0177.2",
+                        "value": "moderate",
+                        "name": "Moderate",
+                        "definition": "10-20 mm"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0177.3",
+                        "value": "large",
+                        "name": "Large",
+                        "definition": ">20 mm"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5569",
+            "name": "Density",
+            "definition": "The density of the pericardial effusion",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5569.0",
+                        "value": "fluid",
+                        "name": "Fluid",
+                        "definition": "Fluid density"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5569.1",
+                        "value": "intermediate",
+                        "name": "Intermediate",
+                        "definition": "> 30 HU"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5569.2",
+                        "value": "hemopericardium",
+                        "name": "Hemopericardium",
+                        "definition": "Presence of blood in the pericardial effusion"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5938",
+            "name": "Pericardial enhancement",
+            "definition": "Presence or absence of pericardial enhancement",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5938.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Pericardial enhancement is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5938.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Pericardial enhancement is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9201",
+            "name": "Pericardial thickening",
+            "definition": "Presence or absence of pericardial thickening",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9201.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Pericardial thickening is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9201.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Pericardial thickening is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4399",
+            "name": "Pericardial calcification",
+            "definition": "Presence or absence of pericardial calcification",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4399.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Pericardial calcification is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4399.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Pericardial calcification is absent"
+                    }
+                ]
+            }
+        }
+    ]
+}

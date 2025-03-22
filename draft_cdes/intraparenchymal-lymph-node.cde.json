@@ -1,0 +1,347 @@
+{
+    "id": "TO_BE_DETERMINED4945",
+    "name": "intraparenchymal lymph node",
+    "description": "A lymph node located within the lung tissue.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED0230",
+            "name": "Presence",
+            "definition": "Indicates whether the intraparenchymal lymph node is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0230.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "The intraparenchymal lymph node is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0230.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "The intraparenchymal lymph node is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4329",
+            "name": "Status",
+            "definition": "The status of the intraparenchymal lymph node.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4329.0",
+                        "value": "stable",
+                        "name": "Stable",
+                        "definition": "The intraparenchymal lymph node is stable in size."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4329.1",
+                        "value": "new",
+                        "name": "New",
+                        "definition": "A new intraparenchymal lymph node has appeared."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4329.2",
+                        "value": "enlarged",
+                        "name": "Enlarged",
+                        "definition": "The intraparenchymal lymph node has increased in size."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4329.3",
+                        "value": "decreased_in_size",
+                        "name": "Decreased in size",
+                        "definition": "The intraparenchymal lymph node has decreased in size."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4329.4",
+                        "value": "resolved",
+                        "name": "Resolved",
+                        "definition": "The intraparenchymal lymph node has disappeared."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4329.5",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "The size of the intraparenchymal lymph node has remained the same."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1675",
+            "name": "Distribution",
+            "definition": "The distribution pattern of the intraparenchymal lymph node.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1675.0",
+                        "value": "solitary",
+                        "name": "Solitary",
+                        "definition": "There is a single intraparenchymal lymph node."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1675.1",
+                        "value": "multiple",
+                        "name": "Multiple",
+                        "definition": "There are multiple intraparenchymal lymph nodes."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1675.2",
+                        "value": "clustered",
+                        "name": "Clustered",
+                        "definition": "The intraparenchymal lymph nodes are clustered together."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2763",
+            "name": "Severity",
+            "definition": "The severity of the intraparenchymal lymph node. Not applicable (N/A) for this finding.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2763.0",
+                        "value": "n_a",
+                        "name": "N/A",
+                        "definition": "Not applicable"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2763.1",
+                        "value": "mild",
+                        "name": "Mild",
+                        "definition": "Mild severity"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2763.2",
+                        "value": "moderate",
+                        "name": "Moderate",
+                        "definition": "Moderate severity"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2763.3",
+                        "value": "severe",
+                        "name": "Severe",
+                        "definition": "Severe severity"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0591",
+            "name": "Location",
+            "definition": "The location of the intraparenchymal lymph node.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0591.0",
+                        "value": "right_upper_lobe",
+                        "name": "Right upper lobe"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0591.1",
+                        "value": "right_middle_lobe",
+                        "name": "Right middle lobe"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0591.2",
+                        "value": "right_lower_lobe",
+                        "name": "Right lower lobe"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0591.3",
+                        "value": "left_upper_lobe",
+                        "name": "Left upper lobe"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0591.4",
+                        "value": "left_lower_lobe",
+                        "name": "Left lower lobe"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0591.5",
+                        "value": "mediastinal",
+                        "name": "Mediastinal"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0591.6",
+                        "value": "hilar",
+                        "name": "Hilar"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0591.7",
+                        "value": "subpleural",
+                        "name": "Subpleural"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1396",
+            "name": "Size",
+            "definition": "The size of the intraparenchymal lymph node.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1396.0",
+                        "value": "0_5_cm",
+                        "name": "<0.5 cm"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1396.1",
+                        "value": "0_5_1_cm",
+                        "name": "0.5-1 cm"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1396.2",
+                        "value": "1_2_cm",
+                        "name": "1-2 cm"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1396.3",
+                        "value": "2_cm",
+                        "name": ">2 cm"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1396.4",
+                        "value": "not_specified",
+                        "name": "Not specified"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5191",
+            "name": "Associated Findings",
+            "definition": "Any other findings that are associated with the intraparenchymal lymph node.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5191.0",
+                        "value": "pulmonary_nodules",
+                        "name": "Pulmonary nodules"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5191.1",
+                        "value": "pleural_effusion",
+                        "name": "Pleural effusion"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5191.2",
+                        "value": "airspace_opacity",
+                        "name": "Airspace opacity"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5191.3",
+                        "value": "ground_glass_opacity",
+                        "name": "Ground-glass opacity"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5191.4",
+                        "value": "fibrosis",
+                        "name": "Fibrosis"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5191.5",
+                        "value": "bronchiectasis",
+                        "name": "Bronchiectasis"
+                    }
+                ]
+            }
+        }
+    ]
+}

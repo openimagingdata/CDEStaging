@@ -1,0 +1,136 @@
+{
+    "id": "TO_BE_DETERMINED9702",
+    "name": "esophageal stricture",
+    "description": "Narrowing of the esophagus",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED1088",
+            "name": "Descriptors",
+            "definition": "Descriptors that may be used to characterize the esophageal stricture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1088.0",
+                        "value": "patulous",
+                        "name": "Patulous",
+                        "definition": "Esophageal stricture is characterized as patulous"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1088.1",
+                        "value": "distended",
+                        "name": "Distended",
+                        "definition": "Esophageal stricture is characterized as distended"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1088.2",
+                        "value": "fluid_filled",
+                        "name": "Fluid-filled",
+                        "definition": "Esophageal stricture is characterized as fluid-filled"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8825",
+            "name": "Presence of stricture",
+            "definition": "Indicates whether the esophageal stricture is present or absent",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8825.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Esophageal stricture is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8825.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Esophageal stricture is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4138",
+            "name": "Location of stricture",
+            "definition": "The location of the esophageal stricture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4138.0",
+                        "value": "proximal_esophagus",
+                        "name": "Proximal esophagus",
+                        "definition": "Esophageal stricture is located in the proximal esophagus"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4138.1",
+                        "value": "middle_esophagus",
+                        "name": "Middle esophagus",
+                        "definition": "Esophageal stricture is located in the middle esophagus"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4138.2",
+                        "value": "distal_esophagus",
+                        "name": "Distal esophagus",
+                        "definition": "Esophageal stricture is located in the distal esophagus"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4138.3",
+                        "value": "gastroesophageal_junction",
+                        "name": "Gastroesophageal junction",
+                        "definition": "Esophageal stricture is located at the gastroesophageal junction"
+                    }
+                ]
+            }
+        }
+    ]
+}

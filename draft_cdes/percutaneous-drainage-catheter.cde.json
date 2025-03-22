@@ -1,0 +1,269 @@
+{
+    "id": "TO_BE_DETERMINED8300",
+    "name": "percutaneous drainage catheter",
+    "description": "A percutaneous drainage catheter is a tube that is inserted into the body to drain fluid collections.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED3092",
+            "name": "Presence of Percutaneous Drainage Catheter",
+            "definition": "Indicates whether a percutaneous drainage catheter is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3092.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3092.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8485",
+            "name": "Status",
+            "definition": "Indicates the status of the percutaneous drainage catheter placement.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8485.0",
+                        "value": "new_placement",
+                        "name": "New placement"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8485.1",
+                        "value": "unchanged",
+                        "name": "Unchanged"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8485.2",
+                        "value": "complication",
+                        "name": "Complication"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8485.3",
+                        "value": "removed",
+                        "name": "Removed"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7769",
+            "name": "Appropriate location",
+            "definition": "Indicates whether the percutaneous drainage catheter is appropriately located.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7769.0",
+                        "value": "yes",
+                        "name": "Yes"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7769.1",
+                        "value": "no",
+                        "name": "No"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6104",
+            "name": "Side",
+            "definition": "Indicates the side of the percutaneous drainage catheter.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6104.0",
+                        "value": "left",
+                        "name": "Left"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6104.1",
+                        "value": "right",
+                        "name": "Right"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3816",
+            "name": "Location",
+            "definition": "Indicates the location of the percutaneous drainage catheter.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3816.0",
+                        "value": "anterior_mediastinum",
+                        "name": "Anterior mediastinum"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3816.1",
+                        "value": "middle_mediastinum",
+                        "name": "Middle mediastinum"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3816.2",
+                        "value": "posterior_mediastinum",
+                        "name": "Posterior mediastinum"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3816.3",
+                        "value": "chest_wall",
+                        "name": "Chest wall"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9915",
+            "name": "Catheter Size (French)",
+            "definition": "Indicates the size of the percutaneous drainage catheter in French units.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "unit": "Fr"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3688",
+            "name": "Complications",
+            "definition": "Indicates whether there are any complications related to the percutaneous drainage catheter.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3688.0",
+                        "value": "none",
+                        "name": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3688.1",
+                        "value": "catheter_migration",
+                        "name": "Catheter migration"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7328",
+            "name": "Fluid collection",
+            "definition": "Indicates whether there is a fluid collection associated with the percutaneous drainage catheter.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7328.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7328.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        }
+    ]
+}

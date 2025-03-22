@@ -1,0 +1,276 @@
+{
+    "id": "TO_BE_DETERMINED9637",
+    "name": "pulmonary artery catheter",
+    "description": "A catheter used to measure pressures in the pulmonary arteries and heart chambers",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED8030",
+            "name": "Presence of Pulmonary Artery Catheter",
+            "definition": "Indicates whether a pulmonary artery catheter is present or absent",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8030.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Pulmonary artery catheter is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8030.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Pulmonary artery catheter is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8244",
+            "name": "Status",
+            "definition": "Indicates the status of the pulmonary artery catheter",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8244.0",
+                        "value": "new_placement",
+                        "name": "New placement",
+                        "definition": "The catheter has been newly inserted"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8244.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "The catheter has not changed position or status"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8244.2",
+                        "value": "complication",
+                        "name": "Complication",
+                        "definition": "There is a complication associated with the catheter"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8244.3",
+                        "value": "removed",
+                        "name": "Removed",
+                        "definition": "The catheter has been removed"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9323",
+            "name": "Appropriate location",
+            "definition": "Indicates whether the catheter is at the appropriate location",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9323.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "The catheter is at the appropriate location"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9323.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "The catheter is not at the appropriate location"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2424",
+            "name": "Insertion Site",
+            "definition": "Indicates the site of catheter insertion",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2424.0",
+                        "value": "internal_jugular",
+                        "name": "Internal jugular",
+                        "definition": "Catheter inserted through the internal jugular vein"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2424.1",
+                        "value": "subclavian",
+                        "name": "Subclavian",
+                        "definition": "Catheter inserted through the subclavian vein"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2424.2",
+                        "value": "femoral",
+                        "name": "Femoral",
+                        "definition": "Catheter inserted through the femoral vein"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9903",
+            "name": "Side",
+            "definition": "Indicates the side of catheter placement",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9903.0",
+                        "value": "left",
+                        "name": "Left",
+                        "definition": "Catheter placed on the left side"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9903.1",
+                        "value": "right",
+                        "name": "Right",
+                        "definition": "Catheter placed on the right side"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9903.2",
+                        "value": "na",
+                        "name": "NA",
+                        "definition": "Not applicable"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1916",
+            "name": "Distal tip location",
+            "definition": "Indicates the location of the distal tip of the catheter",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1916.0",
+                        "value": "main_pulmonary_artery",
+                        "name": "Main pulmonary artery",
+                        "definition": "Distal tip of the catheter is in the main pulmonary artery"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1916.1",
+                        "value": "right_pulmonary_artery",
+                        "name": "Right pulmonary artery",
+                        "definition": "Distal tip of the catheter is in the right pulmonary artery"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1916.2",
+                        "value": "left_pulmonary_artery",
+                        "name": "Left pulmonary artery",
+                        "definition": "Distal tip of the catheter is in the left pulmonary artery"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6996",
+            "name": "Balloon Inflation",
+            "definition": "Indicates whether the balloon of the catheter is inflated or not at the time of imaging",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6996.0",
+                        "value": "inflated",
+                        "name": "Inflated",
+                        "definition": "Balloon of the catheter is inflated"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6996.1",
+                        "value": "not_inflated",
+                        "name": "Not inflated",
+                        "definition": "Balloon of the catheter is not inflated"
+                    }
+                ]
+            }
+        }
+    ]
+}

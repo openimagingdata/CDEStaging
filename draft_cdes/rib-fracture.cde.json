@@ -1,0 +1,604 @@
+{
+    "id": "TO_BE_DETERMINED3974",
+    "name": "Rib Fracture",
+    "description": "Fracture of one or more ribs",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED1414",
+            "name": "Presence",
+            "definition": "Whether a rib fracture is present or absent",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1414.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "A rib fracture is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1414.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No rib fracture is present"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5106",
+            "name": "Number of ribs involved",
+            "definition": "The number of ribs involved in the fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5106.0",
+                        "value": "single",
+                        "name": "Single",
+                        "definition": "Only one rib is involved"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5106.1",
+                        "value": "multiple",
+                        "name": "Multiple",
+                        "definition": "Multiple ribs are involved"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6046",
+            "name": "Location",
+            "definition": "The location of the rib fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6046.0",
+                        "value": "right_upper",
+                        "name": "Right: Upper",
+                        "definition": "Fracture is in the upper right rib"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6046.1",
+                        "value": "right_middle",
+                        "name": "Right: Middle",
+                        "definition": "Fracture is in the middle right rib"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6046.2",
+                        "value": "right_lower",
+                        "name": "Right: Lower",
+                        "definition": "Fracture is in the lower right rib"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6046.3",
+                        "value": "left_upper",
+                        "name": "Left: Upper",
+                        "definition": "Fracture is in the upper left rib"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6046.4",
+                        "value": "left_middle",
+                        "name": "Left: Middle",
+                        "definition": "Fracture is in the middle left rib"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6046.5",
+                        "value": "left_lower",
+                        "name": "Left: Lower",
+                        "definition": "Fracture is in the lower left rib"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6046.6",
+                        "value": "bilateral",
+                        "name": "Bilateral",
+                        "definition": "Fracture is present in both right and left ribs"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3871",
+            "name": "Specific ribs affected",
+            "definition": "The specific ribs affected by the fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3871.0",
+                        "value": "first",
+                        "name": "First",
+                        "definition": "Fracture involves the first rib"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3871.1",
+                        "value": "second",
+                        "name": "Second",
+                        "definition": "Fracture involves the second rib"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3871.2",
+                        "value": "third",
+                        "name": "Third",
+                        "definition": "Fracture involves the third rib"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3871.3",
+                        "value": "fourth",
+                        "name": "Fourth",
+                        "definition": "Fracture involves the fourth rib"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3871.4",
+                        "value": "fifth",
+                        "name": "Fifth",
+                        "definition": "Fracture involves the fifth rib"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3871.5",
+                        "value": "sixth",
+                        "name": "Sixth",
+                        "definition": "Fracture involves the sixth rib"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3871.6",
+                        "value": "seventh",
+                        "name": "Seventh",
+                        "definition": "Fracture involves the seventh rib"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3871.7",
+                        "value": "eighth",
+                        "name": "Eighth",
+                        "definition": "Fracture involves the eighth rib"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3871.8",
+                        "value": "ninth",
+                        "name": "Ninth",
+                        "definition": "Fracture involves the ninth rib"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3871.9",
+                        "value": "tenth",
+                        "name": "Tenth",
+                        "definition": "Fracture involves the tenth rib"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3871.10",
+                        "value": "eleventh",
+                        "name": "Eleventh",
+                        "definition": "Fracture involves the eleventh rib"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3871.11",
+                        "value": "twelfth",
+                        "name": "Twelfth",
+                        "definition": "Fracture involves the twelfth rib"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8815",
+            "name": "Fracture type",
+            "definition": "The type of rib fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8815.0",
+                        "value": "displaced",
+                        "name": "Displaced",
+                        "definition": "The fragments of the rib are separated from each other"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8815.1",
+                        "value": "non_displaced",
+                        "name": "Non-displaced",
+                        "definition": "The fragments of the rib are still aligned"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8815.2",
+                        "value": "comminuted",
+                        "name": "Comminuted",
+                        "definition": "The rib is fractured into multiple pieces"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8815.3",
+                        "value": "buckle",
+                        "name": "Buckle",
+                        "definition": "The rib is partially fractured and has a visible bend"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3620",
+            "name": "Pneumothorax",
+            "definition": "Presence or absence of pneumothorax associated with the rib fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3620.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Pneumothorax is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3620.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No pneumothorax is present"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4623",
+            "name": "Hemothorax",
+            "definition": "Presence or absence of hemothorax associated with the rib fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4623.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Hemothorax is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4623.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No hemothorax is present"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3102",
+            "name": "Pulmonary contusion",
+            "definition": "Presence or absence of pulmonary contusion associated with the rib fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3102.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Pulmonary contusion is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3102.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No pulmonary contusion is present"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1242",
+            "name": "Subcutaneous emphysema",
+            "definition": "Presence or absence of subcutaneous emphysema associated with the rib fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1242.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Subcutaneous emphysema is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1242.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No subcutaneous emphysema is present"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5039",
+            "name": "Flail chest",
+            "definition": "Presence or absence of flail chest associated with the rib fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5039.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Flail chest is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5039.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No flail chest is present"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4956",
+            "name": "Vertebral fracture",
+            "definition": "Presence or absence of vertebral fracture associated with the rib fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4956.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Vertebral fracture is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4956.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No vertebral fracture is present"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7032",
+            "name": "Sternal fracture",
+            "definition": "Presence or absence of sternal fracture associated with the rib fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7032.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Sternal fracture is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7032.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No sternal fracture is present"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9208",
+            "name": "Clavicular fracture",
+            "definition": "Presence or absence of clavicular fracture associated with the rib fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9208.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Clavicular fracture is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9208.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No clavicular fracture is present"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1173",
+            "name": "Evidence of healing",
+            "definition": "Presence or absence of evidence of healing in the rib fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1173.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Evidence of healing is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1173.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No evidence of healing is present"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3258",
+            "name": "Mechanism of Injury",
+            "definition": "The mechanism of injury causing the rib fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3258.0",
+                        "value": "blunt_trauma",
+                        "name": "Blunt trauma",
+                        "definition": "Rib fracture caused by blunt trauma"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3258.1",
+                        "value": "penetrating_trauma",
+                        "name": "Penetrating trauma",
+                        "definition": "Rib fracture caused by penetrating trauma"
+                    }
+                ]
+            }
+        }
+    ]
+}

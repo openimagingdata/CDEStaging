@@ -1,0 +1,125 @@
+{
+    "id": "TO_BE_DETERMINED5557",
+    "name": "osteopenia osteoporosis",
+    "description": "Osteopenia and osteoporosis are two conditions characterized by low bone mineral density. Osteopenia refers to decreased bone mineral density that is not severe enough to be classified as osteoporosis. Osteoporosis is a more severe form of bone loss which can increase the risk of fractures.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED7363",
+            "name": "Presence",
+            "definition": "Indicates whether osteoporosis or osteopenia is present or if the mineral density is normal.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7363.0",
+                        "value": "osteoporosis_present",
+                        "name": "Osteoporosis present",
+                        "definition": "Osteoporosis is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7363.1",
+                        "value": "osteopenia_present",
+                        "name": "Osteopenia present",
+                        "definition": "Osteopenia is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7363.2",
+                        "value": "normal_mineral_density",
+                        "name": "Normal mineral density",
+                        "definition": "Normal bone mineral density."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2816",
+            "name": "L1 Hounsfield Unit (at 120 kVp) measurement",
+            "definition": "Measurement of Hounsfield units at the L1 region of the spine using a 120 kVp imaging protocol.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {}
+        },
+        {
+            "id": "TO_BE_DETERMINED5112",
+            "name": "Related entities",
+            "definition": "Common entities related to osteopenia and osteoporosis.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5112.0",
+                        "value": "vertebral_fracture",
+                        "name": "Vertebral fracture",
+                        "definition": "Fracture of a vertebral bone."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5112.1",
+                        "value": "multilevel_vertebral_body_height_loss",
+                        "name": "Multilevel vertebral body height loss",
+                        "definition": "Loss of height in multiple vertebral bodies."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5112.2",
+                        "value": "cement_augmentation_of_vertebral_body",
+                        "name": "Cement augmentation of vertebral body",
+                        "definition": "Use of cement augmentation to stabilize a vertebral body."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5112.3",
+                        "value": "rib_fracture",
+                        "name": "Rib fracture",
+                        "definition": "Fracture of a rib bone."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5112.4",
+                        "value": "sacral_fracture",
+                        "name": "Sacral fracture",
+                        "definition": "Fracture of the sacrum bone."
+                    }
+                ]
+            }
+        }
+    ]
+}

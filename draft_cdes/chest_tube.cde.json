@@ -1,0 +1,417 @@
+{
+    "id": "TO_BE_DETERMINED4571",
+    "name": "chest tube",
+    "description": "A tube inserted into the chest to drain air or fluid",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED6663",
+            "name": "Presence",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6663.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6663.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9585",
+            "name": "Status",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9585.0",
+                        "value": "new",
+                        "name": "New",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9585.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9585.2",
+                        "value": "complication",
+                        "name": "Complication",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9585.3",
+                        "value": "resolved",
+                        "name": "Resolved",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9585.4",
+                        "value": "removed",
+                        "name": "Removed",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5142",
+            "name": "Side",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5142.0",
+                        "value": "right",
+                        "name": "Right",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5142.1",
+                        "value": "left",
+                        "name": "Left",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2205",
+            "name": "Location",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2205.0",
+                        "value": "apical",
+                        "name": "Apical",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2205.1",
+                        "value": "basal",
+                        "name": "Basal",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2205.2",
+                        "value": "anterior",
+                        "name": "Anterior",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2205.3",
+                        "value": "posterior",
+                        "name": "Posterior",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2205.4",
+                        "value": "medial",
+                        "name": "Medial",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2205.5",
+                        "value": "lateral",
+                        "name": "Lateral",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1722",
+            "name": "Current tip position",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1722.0",
+                        "value": "pleural_space",
+                        "name": "Pleural space",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1722.1",
+                        "value": "intraparenchymal",
+                        "name": "Intraparenchymal",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1722.2",
+                        "value": "chest_wall",
+                        "name": "Chest wall",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0826",
+            "name": "Previous tip position",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0826.0",
+                        "value": "pleural_space",
+                        "name": "Pleural space",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0826.1",
+                        "value": "intraparenchymal",
+                        "name": "Intraparenchymal",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0826.2",
+                        "value": "chest_wall",
+                        "name": "Chest wall",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8750",
+            "name": "Pneumothorax",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8750.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8750.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0615",
+            "name": "Pleural effusion",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0615.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0615.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4368",
+            "name": "Hemothorax",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4368.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4368.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4950",
+            "name": "Rib fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4950.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4950.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6049",
+            "name": "Pulmonary bleb",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6049.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6049.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        }
+    ]
+}

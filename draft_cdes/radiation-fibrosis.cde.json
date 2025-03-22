@@ -1,0 +1,446 @@
+{
+    "id": "TO_BE_DETERMINED4749",
+    "name": "radiation fibrosis",
+    "description": "Radiation fibrosis is a condition characterized by fibrotic changes in the lung tissue due to radiation therapy.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED6048",
+            "name": "Presence",
+            "definition": "Presence of radiation fibrosis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6048.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Radiation fibrosis is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6048.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Radiation fibrosis is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5421",
+            "name": "Status",
+            "definition": "Status of radiation fibrosis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5421.0",
+                        "value": "stable",
+                        "name": "Stable",
+                        "definition": "Radiation fibrosis is stable"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5421.1",
+                        "value": "progressive",
+                        "name": "Progressive",
+                        "definition": "Radiation fibrosis is progressive"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5421.2",
+                        "value": "regressive",
+                        "name": "Regressive",
+                        "definition": "Radiation fibrosis is regressive"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5421.3",
+                        "value": "new_development",
+                        "name": "New development",
+                        "definition": "Radiation fibrosis is a new development"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5421.4",
+                        "value": "unchanged_over_time",
+                        "name": "Unchanged over time",
+                        "definition": "Radiation fibrosis remains unchanged over time"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2173",
+            "name": "Severity",
+            "definition": "Severity of radiation fibrosis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2173.0",
+                        "value": "mild",
+                        "name": "Mild",
+                        "definition": "Radiation fibrosis is mild"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2173.1",
+                        "value": "moderate",
+                        "name": "Moderate",
+                        "definition": "Radiation fibrosis is moderate"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2173.2",
+                        "value": "severe",
+                        "name": "Severe",
+                        "definition": "Radiation fibrosis is severe"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2173.3",
+                        "value": "very_severe",
+                        "name": "Very Severe",
+                        "definition": "Radiation fibrosis is very severe"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2173.4",
+                        "value": "extensive",
+                        "name": "Extensive",
+                        "definition": "Radiation fibrosis is extensive"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1303",
+            "name": "Distribution",
+            "definition": "Distribution of radiation fibrosis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1303.0",
+                        "value": "localized",
+                        "name": "Localized",
+                        "definition": "Radiation fibrosis is localized"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1303.1",
+                        "value": "diffuse",
+                        "name": "Diffuse",
+                        "definition": "Radiation fibrosis is diffuse"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1303.2",
+                        "value": "peribronchovascular",
+                        "name": "Peribronchovascular",
+                        "definition": "Radiation fibrosis is peribronchovascular"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1303.3",
+                        "value": "segmental",
+                        "name": "Segmental",
+                        "definition": "Radiation fibrosis is segmental"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6260",
+            "name": "Location",
+            "definition": "Location of radiation fibrosis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6260.0",
+                        "value": "right_lung",
+                        "name": "Right lung",
+                        "definition": "Radiation fibrosis is located in the right lung"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6260.1",
+                        "value": "left_lung",
+                        "name": "Left lung",
+                        "definition": "Radiation fibrosis is located in the left lung"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6260.2",
+                        "value": "bilateral",
+                        "name": "Bilateral",
+                        "definition": "Radiation fibrosis is located bilaterally"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6260.3",
+                        "value": "specific_lobe_s",
+                        "name": "Specific lobe(s)",
+                        "definition": "Radiation fibrosis is located in specific lobe(s)"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6260.4",
+                        "value": "mediastinal",
+                        "name": "Mediastinal",
+                        "definition": "Radiation fibrosis is located in the mediastinum"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6260.5",
+                        "value": "subpleural",
+                        "name": "Subpleural",
+                        "definition": "Radiation fibrosis is located subpleurally"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8236",
+            "name": "Volume loss",
+            "definition": "Presence of volume loss",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8236.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Volume loss is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8236.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Volume loss is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5210",
+            "name": "Pleural thickening",
+            "definition": "Presence of pleural thickening",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5210.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Pleural thickening is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5210.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Pleural thickening is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5346",
+            "name": "Bronchiectasis",
+            "definition": "Presence of bronchiectasis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5346.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Bronchiectasis is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5346.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Bronchiectasis is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0442",
+            "name": "Honeycombing",
+            "definition": "Presence of honeycombing",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0442.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Honeycombing is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0442.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Honeycombing is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0309",
+            "name": "Air trapping",
+            "definition": "Presence of air trapping",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0309.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Air trapping is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0309.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Air trapping is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6483",
+            "name": "Ground glass opacities",
+            "definition": "Presence of ground-glass opacities",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6483.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Ground-glass opacities are present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6483.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Ground-glass opacities are absent"
+                    }
+                ]
+            }
+        }
+    ]
+}

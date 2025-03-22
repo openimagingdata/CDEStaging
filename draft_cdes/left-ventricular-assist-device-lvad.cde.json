@@ -1,0 +1,150 @@
+{
+    "id": "TO_BE_DETERMINED8764",
+    "name": "left ventricular assist device lvad",
+    "description": "A left ventricular assist device (LVAD) is a mechanical pump that is used to support the function of the left ventricle of the heart.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED6468",
+            "name": "Presence of LVAD",
+            "definition": "Indicates whether an LVAD is present or absent",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6468.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "An LVAD is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6468.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No LVAD is present"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7198",
+            "name": "Appropriate position",
+            "definition": "Indicates whether the LVAD is in an appropriate position",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7198.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "LVAD is in an appropriate position"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7198.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "LVAD is not in an appropriate position"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9116",
+            "name": "Location",
+            "definition": "Indicates the location of the LVAD",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9116.0",
+                        "value": "intracorporeal",
+                        "name": "Intracorporeal",
+                        "definition": "LVAD is located within the body"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9116.1",
+                        "value": "extracorporeal",
+                        "name": "Extracorporeal",
+                        "definition": "LVAD is located outside the body"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6946",
+            "name": "Outflow Conduit Location",
+            "definition": "Indicates the location of the outflow conduit of the LVAD",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6946.0",
+                        "value": "ascending_aorta",
+                        "name": "Ascending aorta",
+                        "definition": "Outflow conduit is connected to the ascending aorta"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6946.1",
+                        "value": "descending_aorta",
+                        "name": "Descending aorta",
+                        "definition": "Outflow conduit is connected to the descending aorta"
+                    }
+                ]
+            }
+        }
+    ]
+}

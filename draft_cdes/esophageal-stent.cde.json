@@ -1,0 +1,258 @@
+{
+    "id": "TO_BE_DETERMINED1992",
+    "name": "Esophageal Stent",
+    "description": "Esophageal stent is used to treat strictures or blockages in the esophagus.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED3498",
+            "name": "Presence of Esophageal Stent",
+            "definition": "Whether an esophageal stent is present or not.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3498.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "An esophageal stent is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3498.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No esophageal stent is present."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1298",
+            "name": "Status",
+            "definition": "The status of the esophageal stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1298.0",
+                        "value": "new_placement",
+                        "name": "New placement",
+                        "definition": "The esophageal stent is newly placed."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1298.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "The esophageal stent remains unchanged."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1298.2",
+                        "value": "complication",
+                        "name": "Complication",
+                        "definition": "There is a complication related to the esophageal stent."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1298.3",
+                        "value": "removed",
+                        "name": "Removed",
+                        "definition": "The esophageal stent has been removed."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3949",
+            "name": "Location",
+            "definition": "The location of the esophageal stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3949.0",
+                        "value": "upper_esophagus",
+                        "name": "Upper esophagus",
+                        "definition": "The esophageal stent is located in the upper esophagus."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3949.1",
+                        "value": "mid_esophagus",
+                        "name": "Mid esophagus",
+                        "definition": "The esophageal stent is located in the mid esophagus."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3949.2",
+                        "value": "lower_esophagus",
+                        "name": "Lower esophagus",
+                        "definition": "The esophageal stent is located in the lower esophagus."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6621",
+            "name": "Type",
+            "definition": "The type of esophageal stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6621.0",
+                        "value": "fully_covered",
+                        "name": "Fully covered",
+                        "definition": "The esophageal stent is fully covered."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6621.1",
+                        "value": "partially_covered",
+                        "name": "Partially covered",
+                        "definition": "The esophageal stent is partially covered."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6621.2",
+                        "value": "uncovered",
+                        "name": "Uncovered",
+                        "definition": "The esophageal stent is uncovered."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1034",
+            "name": "Stent Length",
+            "definition": "The length of the esophageal stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "unit": "cm"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1676",
+            "name": "Stent Diameter",
+            "definition": "The diameter of the esophageal stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "unit": "mm"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8359",
+            "name": "Complication",
+            "definition": "The complication associated with the esophageal stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8359.0",
+                        "value": "none",
+                        "name": "None",
+                        "definition": "No complication is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8359.1",
+                        "value": "mucosal_erosion",
+                        "name": "Mucosal erosion",
+                        "definition": "There is mucosal erosion related to the esophageal stent."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8359.2",
+                        "value": "perforation",
+                        "name": "Perforation",
+                        "definition": "Perforation is observed related to the esophageal stent."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8359.3",
+                        "value": "migration",
+                        "name": "Migration",
+                        "definition": "Migration of the esophageal stent is observed."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8359.4",
+                        "value": "impaction",
+                        "name": "Impaction",
+                        "definition": "Impaction of the esophageal stent is observed."
+                    }
+                ]
+            }
+        }
+    ]
+}

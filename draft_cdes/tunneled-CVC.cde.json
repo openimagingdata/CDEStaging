@@ -1,0 +1,484 @@
+{
+    "id": "TO_BE_DETERMINED0272",
+    "name": "tunneled CVC",
+    "description": "Tunneled Central Venous Catheter",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED8403",
+            "name": "Presence of tunneled CVC",
+            "definition": "Indicates whether a tunneled CVC is present or absent",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8403.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8403.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1507",
+            "name": "Status",
+            "definition": "Indicates the status of the tunneled CVC",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1507.0",
+                        "value": "new_placement",
+                        "name": "New placement",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1507.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1507.2",
+                        "value": "migrated",
+                        "name": "Migrated",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1507.3",
+                        "value": "removed",
+                        "name": "Removed",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9362",
+            "name": "Appropriate location",
+            "definition": "Indicates whether the tunneled CVC is in an appropriate location",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9362.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9362.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5388",
+            "name": "Side",
+            "definition": "Indicates the side of the tunneled CVC",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5388.0",
+                        "value": "left",
+                        "name": "Left",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5388.1",
+                        "value": "right",
+                        "name": "Right",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9354",
+            "name": "Number of Lumens",
+            "definition": "Indicates the number of lumens in the tunneled CVC",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9354.0",
+                        "value": "single",
+                        "name": "Single",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9354.1",
+                        "value": "double",
+                        "name": "Double",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9354.2",
+                        "value": "triple",
+                        "name": "Triple",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5899",
+            "name": "Vein approach",
+            "definition": "Indicates the vein approach for the tunneled CVC",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5899.0",
+                        "value": "internal_jugular",
+                        "name": "Internal jugular",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5899.1",
+                        "value": "subclavian",
+                        "name": "Subclavian",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4089",
+            "name": "Course",
+            "definition": "Indicates the course of the tunneled CVC",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4089.0",
+                        "value": "appropriate",
+                        "name": "Appropriate",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4089.1",
+                        "value": "kinking",
+                        "name": "Kinking",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4089.2",
+                        "value": "coiling",
+                        "name": "Coiling",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5007",
+            "name": "Distal tip location",
+            "definition": "Indicates the distal tip location of the tunneled CVC",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5007.0",
+                        "value": "subclavian_vein",
+                        "name": "Subclavian vein",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5007.1",
+                        "value": "brachiocephalic_vein",
+                        "name": "Brachiocephalic vein",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5007.2",
+                        "value": "svc_superior_vena_cava",
+                        "name": "SVC (superior vena cava)",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5007.3",
+                        "value": "superior_cavoatrial_junction",
+                        "name": "Superior cavoatrial junction",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5007.4",
+                        "value": "azygous_vein",
+                        "name": "Azygous vein",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5007.5",
+                        "value": "inferior_cavoatrial_junction",
+                        "name": "Inferior cavoatrial junction",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5007.6",
+                        "value": "internal_jugular_vein",
+                        "name": "Internal jugular vein",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5007.7",
+                        "value": "ivc_inferior_vena_cava",
+                        "name": "IVC (inferior vena cava)",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2169",
+            "name": "Complications",
+            "definition": "Indicates the complications associated with the tunneled CVC",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2169.0",
+                        "value": "none",
+                        "name": "None",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2169.1",
+                        "value": "occlusion",
+                        "name": "Occlusion",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2169.2",
+                        "value": "thrombosis_fibrin_sheath",
+                        "name": "Thrombosis (fibrin sheath)",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2169.3",
+                        "value": "catheter_fracture",
+                        "name": "Catheter fracture",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2169.4",
+                        "value": "tip_migration",
+                        "name": "Tip Migration",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8670",
+            "name": "Hematoma",
+            "definition": "Indicates the presence or absence of a hematoma associated with the tunneled CVC",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8670.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8670.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3307",
+            "name": "Pneumothorax",
+            "definition": "Indicates the presence or absence of a pneumothorax associated with the tunneled CVC",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3307.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3307.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6771",
+            "name": "Hemothorax",
+            "definition": "Indicates the presence or absence of a hemothorax associated with the tunneled CVC",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6771.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6771.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        }
+    ]
+}

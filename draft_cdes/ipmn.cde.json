@@ -1,0 +1,287 @@
+{
+    "id": "TO_BE_DETERMINED4515",
+    "name": "ipmn",
+    "description": "Intraductal papillary mucinous neoplasm (IPMN) is a type of cystic lesion of the pancreas that is characterized by the presence of mucin-producing cells within the pancreatic ductal system.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED7933",
+            "name": "Presence",
+            "definition": "Presence of IPMN in the pancreas.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7933.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "IPMN is present in the pancreas."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7933.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "IPMN is not present in the pancreas."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0634",
+            "name": "Status",
+            "definition": "Status of the IPMN.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0634.0",
+                        "value": "new_suspected",
+                        "name": "New suspected",
+                        "definition": "There is a new suspected IPMN."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0634.1",
+                        "value": "stable",
+                        "name": "Stable",
+                        "definition": "The IPMN is stable."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0634.2",
+                        "value": "enlarging",
+                        "name": "Enlarging",
+                        "definition": "The IPMN is enlarging."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3721",
+            "name": "Type",
+            "definition": "Type of IPMN.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3721.0",
+                        "value": "main_duct",
+                        "name": "Main duct",
+                        "definition": "IPMN is located in the main pancreatic duct."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3721.1",
+                        "value": "branch_duct",
+                        "name": "Branch duct",
+                        "definition": "IPMN is located in a branch pancreatic duct."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3721.2",
+                        "value": "mixed",
+                        "name": "Mixed",
+                        "definition": "IPMN is located in both main duct and branch ducts."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5304",
+            "name": "Communication with Pancreatic Duct",
+            "definition": "Presence of communication between the IPMN and the pancreatic duct.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5304.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "There is communication between the IPMN and the pancreatic duct."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5304.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "There is no communication between the IPMN and the pancreatic duct."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9132",
+            "name": "Location in Pancreas",
+            "definition": "Location of the IPMN within the pancreas.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9132.0",
+                        "value": "uncinate",
+                        "name": "Uncinate",
+                        "definition": "IPMN is located in the uncinate process of the pancreas."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9132.1",
+                        "value": "head",
+                        "name": "Head",
+                        "definition": "IPMN is located in the head of the pancreas."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9132.2",
+                        "value": "body",
+                        "name": "Body",
+                        "definition": "IPMN is located in the body of the pancreas."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9132.3",
+                        "value": "tail",
+                        "name": "Tail",
+                        "definition": "IPMN is located in the tail of the pancreas."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3626",
+            "name": "Size",
+            "definition": "Size of the IPMN in millimeters.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "unit": "mm"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3466",
+            "name": "Number of Cysts",
+            "definition": "Number of cysts associated with the IPMN.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3466.0",
+                        "value": "single",
+                        "name": "Single",
+                        "definition": "There is a single cyst associated with the IPMN."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3466.1",
+                        "value": "multiple",
+                        "name": "Multiple",
+                        "definition": "There are multiple cysts associated with the IPMN."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6128",
+            "name": "Main Pancreatic Ductal Dilation",
+            "definition": "Presence of main pancreatic ductal dilation.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6128.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "There is main pancreatic ductal dilation."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6128.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "There is no main pancreatic ductal dilation."
+                    }
+                ]
+            }
+        }
+    ]
+}

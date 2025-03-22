@@ -1,0 +1,124 @@
+{
+    "id": "TO_BE_DETERMINED7757",
+    "name": "Loop Recorder",
+    "description": "A loop recorder is a small device that is implanted under the skin to monitor and record the electrical activity of the heart.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED3300",
+            "name": "Presence of Loop Recorder",
+            "definition": "Indicates whether a loop recorder is present or not",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3300.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "A loop recorder is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3300.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "A loop recorder is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2121",
+            "name": "Side",
+            "definition": "Indicates the side where the loop recorder is located",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2121.0",
+                        "value": "left",
+                        "name": "Left",
+                        "definition": "The loop recorder is located on the left side"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2121.1",
+                        "value": "right",
+                        "name": "Right",
+                        "definition": "The loop recorder is located on the right side"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7332",
+            "name": "Location",
+            "definition": "Indicates the location of the loop recorder",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7332.0",
+                        "value": "pre_pectoral",
+                        "name": "Pre-pectoral",
+                        "definition": "The loop recorder is located in the pre-pectoral region"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7332.1",
+                        "value": "subcutaneous",
+                        "name": "Subcutaneous",
+                        "definition": "The loop recorder is located subcutaneously"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7332.2",
+                        "value": "other",
+                        "name": "Other",
+                        "definition": "The loop recorder is located in another location"
+                    }
+                ]
+            }
+        }
+    ]
+}

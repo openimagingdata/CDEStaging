@@ -1,0 +1,162 @@
+{
+    "id": "TO_BE_DETERMINED7509",
+    "name": "tracheostomy tube",
+    "description": "A tube inserted into the trachea through a surgical incision in the neck, used to provide an airway for patients who cannot breathe on their own.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED6593",
+            "name": "Presence",
+            "definition": "Presence or absence of a tracheostomy tube in the patient.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6593.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "A tracheostomy tube is present in the patient."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6593.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "A tracheostomy tube is not present in the patient."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8938",
+            "name": "Tube tip",
+            "definition": "The location of the tip of the tracheostomy tube within the trachea.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8938.0",
+                        "value": "upper_thoracic_trachea",
+                        "name": "Upper thoracic trachea",
+                        "definition": "The tip of the tracheostomy tube is located in the upper thoracic trachea."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8938.1",
+                        "value": "midthoracic_trachea",
+                        "name": "Midthoracic trachea",
+                        "definition": "The tip of the tracheostomy tube is located in the midthoracic trachea."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5355",
+            "name": "Tract",
+            "definition": "The presence of soft tissue thickening around the tracheostomy tube insertion site.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5355.0",
+                        "value": "soft_tissue_thickening",
+                        "name": "Soft tissue thickening",
+                        "definition": "There is soft tissue thickening around the tracheostomy tube insertion site."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5355.1",
+                        "value": "no_soft_tissue_thickening",
+                        "name": "No soft tissue thickening",
+                        "definition": "There is no soft tissue thickening around the tracheostomy tube insertion site."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6516",
+            "name": "Associated findings",
+            "definition": "Any associated findings related to the tracheostomy tube.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6516.0",
+                        "value": "aspiration",
+                        "name": "Aspiration",
+                        "definition": "Aspiration related to the tracheostomy tube."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6516.1",
+                        "value": "tracheal_mucus",
+                        "name": "Tracheal mucus",
+                        "definition": "Presence of mucus in the trachea related to the tracheostomy tube."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6516.2",
+                        "value": "bronchial_mucus",
+                        "name": "Bronchial mucus",
+                        "definition": "Presence of mucus in the bronchial tubes related to the tracheostomy tube."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6516.3",
+                        "value": "bronchial_mucus_plugs",
+                        "name": "Bronchial mucus plugs",
+                        "definition": "Presence of mucus plugs in the bronchial tubes related to the tracheostomy tube."
+                    }
+                ]
+            }
+        }
+    ]
+}

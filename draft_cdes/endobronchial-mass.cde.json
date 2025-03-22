@@ -1,0 +1,281 @@
+{
+    "id": "TO_BE_DETERMINED2102",
+    "name": "endobronchial mass",
+    "description": "A mass located within the bronchial airway.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED5522",
+            "name": "Presence",
+            "definition": "Indicates whether the endobronchial mass is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5522.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "The endobronchial mass is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5522.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "The endobronchial mass is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2084",
+            "name": "Status",
+            "definition": "The status of the endobronchial mass.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2084.0",
+                        "value": "new",
+                        "name": "New",
+                        "definition": "The endobronchial mass is new."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2084.1",
+                        "value": "stable",
+                        "name": "Stable",
+                        "definition": "The endobronchial mass is stable."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2084.2",
+                        "value": "increasing",
+                        "name": "Increasing",
+                        "definition": "The endobronchial mass is increasing in size."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2084.3",
+                        "value": "decreasing",
+                        "name": "Decreasing",
+                        "definition": "The endobronchial mass is decreasing in size."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9062",
+            "name": "Location",
+            "definition": "The location of the endobronchial mass.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9062.0",
+                        "value": "specify_location",
+                        "name": "Specify location",
+                        "definition": "Specify the location of the endobronchial mass."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9062.1",
+                        "value": "none",
+                        "name": "None",
+                        "definition": "No location specified for the endobronchial mass."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6279",
+            "name": "Size",
+            "definition": "The size of the endobronchial mass.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "unit": "cm"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2611",
+            "name": "Shape",
+            "definition": "The shape of the endobronchial mass.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2611.0",
+                        "value": "round",
+                        "name": "Round",
+                        "definition": "The endobronchial mass is round."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2611.1",
+                        "value": "irregular",
+                        "name": "Irregular",
+                        "definition": "The endobronchial mass is irregular."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2611.2",
+                        "value": "lobulated",
+                        "name": "Lobulated",
+                        "definition": "The endobronchial mass is lobulated."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2149",
+            "name": "Airway Obstruction",
+            "definition": "Indicates whether there is airway obstruction associated with the endobronchial mass.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2149.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "There is airway obstruction associated with the endobronchial mass."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2149.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "There is no airway obstruction associated with the endobronchial mass."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4733",
+            "name": "Distal Atelectasis or Consolidation",
+            "definition": "Indicates whether there is distal atelectasis or consolidation associated with the endobronchial mass.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4733.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "There is distal atelectasis or consolidation associated with the endobronchial mass."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4733.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "There is no distal atelectasis or consolidation associated with the endobronchial mass."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3995",
+            "name": "Lymphadenopathy",
+            "definition": "Indicates whether there is lymphadenopathy associated with the endobronchial mass.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3995.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "There is lymphadenopathy associated with the endobronchial mass."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3995.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "There is no lymphadenopathy associated with the endobronchial mass."
+                    }
+                ]
+            }
+        }
+    ]
+}

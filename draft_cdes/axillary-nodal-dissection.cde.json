@@ -1,0 +1,316 @@
+{
+    "id": "TO_BE_DETERMINED3578",
+    "name": "axillary nodal dissection",
+    "description": "Presence of axillary nodal dissection and its characteristics",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED2782",
+            "name": "Presence of Axillary Nodal Dissection",
+            "definition": "Indicates whether the axillary nodal dissection is present or absent",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2782.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Axillary nodal dissection is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2782.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Axillary nodal dissection is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5364",
+            "name": "Status",
+            "definition": "Indicates whether the axillary nodal dissection is new or unchanged",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5364.0",
+                        "value": "new",
+                        "name": "New",
+                        "definition": "Axillary nodal dissection is new"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5364.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "Axillary nodal dissection is unchanged"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2847",
+            "name": "Side",
+            "definition": "Indicates the side of the axillary nodal dissection",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2847.0",
+                        "value": "right",
+                        "name": "Right",
+                        "definition": "Axillary nodal dissection is on the right side"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2847.1",
+                        "value": "left",
+                        "name": "Left",
+                        "definition": "Axillary nodal dissection is on the left side"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2847.2",
+                        "value": "bilateral",
+                        "name": "Bilateral",
+                        "definition": "Axillary nodal dissection is on both sides"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2445",
+            "name": "Extent of Dissection",
+            "definition": "Indicates the extent of the axillary nodal dissection",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2445.0",
+                        "value": "complete",
+                        "name": "Complete",
+                        "definition": "Axillary nodal dissection is complete"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2445.1",
+                        "value": "partial",
+                        "name": "Partial",
+                        "definition": "Axillary nodal dissection is partial"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8569",
+            "name": "Surgical Clips Present",
+            "definition": "Indicates whether surgical clips are present or absent",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8569.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "Surgical clips are present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8569.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "Surgical clips are absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3239",
+            "name": "Fluid collection",
+            "definition": "Indicates the presence of fluid collection",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3239.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Fluid collection is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3239.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Fluid collection is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0355",
+            "name": "Breast Mass",
+            "definition": "Indicates the presence of a breast mass",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0355.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Breast mass is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0355.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Breast mass is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0756",
+            "name": "Breast Skin Thickening",
+            "definition": "Indicates the presence of breast skin thickening",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0756.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Breast skin thickening is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0756.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Breast skin thickening is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7165",
+            "name": "Scar Tissue",
+            "definition": "Indicates the presence of scar tissue",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7165.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Scar tissue is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7165.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Scar tissue is absent"
+                    }
+                ]
+            }
+        }
+    ]
+}

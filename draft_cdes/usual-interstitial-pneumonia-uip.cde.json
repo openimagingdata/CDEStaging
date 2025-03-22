@@ -1,0 +1,424 @@
+{
+    "id": "TO_BE_DETERMINED9104",
+    "name": "usual interstitial pneumonia uip",
+    "description": "Usual Interstitial Pneumonia (UIP) is a pattern of lung disease characterized by fibrosis and scarring of the lung tissue.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED9926",
+            "name": "Presence",
+            "definition": "The presence or absence of UIP",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9926.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "UIP is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9926.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "UIP is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6503",
+            "name": "Confidence",
+            "definition": "The level of confidence in the presence of UIP",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6503.0",
+                        "value": "definite",
+                        "name": "Definite",
+                        "definition": "UIP is definitely present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6503.1",
+                        "value": "possible",
+                        "name": "Possible",
+                        "definition": "UIP is possibly present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6503.2",
+                        "value": "indeterminate",
+                        "name": "Indeterminate",
+                        "definition": "UIP presence is indeterminate"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3956",
+            "name": "Pattern",
+            "definition": "The pattern of UIP",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3956.0",
+                        "value": "uip_pattern",
+                        "name": "UIP pattern",
+                        "definition": "The finding is consistent with UIP pattern"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3956.1",
+                        "value": "inconsistent_with_uip_pattern",
+                        "name": "Inconsistent with UIP pattern",
+                        "definition": "The finding is inconsistent with UIP pattern"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6741",
+            "name": "Distribution",
+            "definition": "The distribution of UIP",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6741.0",
+                        "value": "subpleural",
+                        "name": "Subpleural",
+                        "definition": "UIP is predominantly subpleural"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6741.1",
+                        "value": "basal",
+                        "name": "Basal",
+                        "definition": "UIP is predominantly basal"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6741.2",
+                        "value": "diffuse",
+                        "name": "Diffuse",
+                        "definition": "UIP is diffusely distributed"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2432",
+            "name": "Severity",
+            "definition": "The severity of UIP",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2432.0",
+                        "value": "mild",
+                        "name": "Mild",
+                        "definition": "UIP is mildly severe"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2432.1",
+                        "value": "moderate",
+                        "name": "Moderate",
+                        "definition": "UIP is moderately severe"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2432.2",
+                        "value": "severe",
+                        "name": "Severe",
+                        "definition": "UIP is severely severe"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3582",
+            "name": "Honeycombing",
+            "definition": "The presence or absence of honeycombing in UIP",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3582.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Honeycombing is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3582.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Honeycombing is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8874",
+            "name": "Reticulation",
+            "definition": "The presence or absence of reticulation in UIP",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8874.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Reticulation is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8874.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Reticulation is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3747",
+            "name": "Traction bronchiectasis",
+            "definition": "The presence or absence of traction bronchiectasis in UIP",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3747.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Traction bronchiectasis is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3747.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Traction bronchiectasis is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9138",
+            "name": "Ground-glass opacities",
+            "definition": "The presence or absence of ground-glass opacities associated with UIP",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9138.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Ground-glass opacities are present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9138.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Ground-glass opacities are absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1424",
+            "name": "Consolidation",
+            "definition": "The presence or absence of consolidation associated with UIP",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1424.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Consolidation is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1424.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Consolidation is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8620",
+            "name": "Emphysema",
+            "definition": "The presence or absence of emphysema associated with UIP",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8620.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Emphysema is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8620.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Emphysema is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9898",
+            "name": "Pulmonary hypertension",
+            "definition": "Suggestion of pulmonary hypertension associated with UIP",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9898.0",
+                        "value": "suggested",
+                        "name": "Suggested",
+                        "definition": "Pulmonary hypertension is suggested"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9898.1",
+                        "value": "not_suggested",
+                        "name": "Not suggested",
+                        "definition": "Pulmonary hypertension is not suggested"
+                    }
+                ]
+            }
+        }
+    ]
+}

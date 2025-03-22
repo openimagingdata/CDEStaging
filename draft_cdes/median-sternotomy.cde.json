@@ -1,0 +1,416 @@
+{
+    "id": "TO_BE_DETERMINED1591",
+    "name": "median sternotomy",
+    "description": "Surgical incision in the middle of the chest usually used for open-heart surgery.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED0381",
+            "name": "Presence",
+            "definition": "Presence of median sternotomy",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0381.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Median sternotomy is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0381.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Median sternotomy is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9896",
+            "name": "Status",
+            "definition": "Status of the median sternotomy",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9896.0",
+                        "value": "post_operative_changes_observed",
+                        "name": "Post-operative changes observed",
+                        "definition": "Changes in the median sternotomy related to the post-operative period"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9896.1",
+                        "value": "no_post_operative_changes",
+                        "name": "No post-operative changes",
+                        "definition": "No changes in the median sternotomy related to the post-operative period"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8036",
+            "name": "Healing status",
+            "definition": "Healing status of the median sternotomy",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8036.0",
+                        "value": "well_healed",
+                        "name": "Well-healed",
+                        "definition": "Median sternotomy is well-healed"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8036.1",
+                        "value": "evidence_of_dehiscence",
+                        "name": "Evidence of dehiscence",
+                        "definition": "Evidence of dehiscence in the median sternotomy"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8036.2",
+                        "value": "signs_of_infection",
+                        "name": "Signs of infection",
+                        "definition": "Signs of infection in the median sternotomy"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8036.3",
+                        "value": "non_union",
+                        "name": "Non-union",
+                        "definition": "Non-union of the median sternotomy"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6262",
+            "name": "Associated hardware",
+            "definition": "Presence of associated hardware in the median sternotomy",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6262.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Associated hardware is present in the median sternotomy"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6262.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No associated hardware in the median sternotomy"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3703",
+            "name": "Hardware type",
+            "definition": "Type of associated hardware in the median sternotomy",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3703.0",
+                        "value": "wires",
+                        "name": "Wires",
+                        "definition": "Wire fixation devices in the median sternotomy"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3703.1",
+                        "value": "plates",
+                        "name": "Plates",
+                        "definition": "Plate fixation devices in the median sternotomy"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3703.2",
+                        "value": "screws",
+                        "name": "Screws",
+                        "definition": "Screw fixation devices in the median sternotomy"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3703.3",
+                        "value": "other_fixation_devices",
+                        "name": "Other fixation devices",
+                        "definition": "Other types of fixation devices in the median sternotomy"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4605",
+            "name": "Complications",
+            "definition": "Complications associated with the median sternotomy",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4605.0",
+                        "value": "none",
+                        "name": "None",
+                        "definition": "No complications associated with the median sternotomy"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4605.1",
+                        "value": "mediastinal_widening",
+                        "name": "Mediastinal widening",
+                        "definition": "Mediastinal widening related to the median sternotomy"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4605.2",
+                        "value": "hematoma",
+                        "name": "Hematoma",
+                        "definition": "Hematoma in the median sternotomy"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4605.3",
+                        "value": "abscess",
+                        "name": "Abscess",
+                        "definition": "Abscess in the median sternotomy"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4605.4",
+                        "value": "seroma",
+                        "name": "Seroma",
+                        "definition": "Seroma in the median sternotomy"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8172",
+            "name": "Pulmonary effusion",
+            "definition": "Presence of pulmonary effusion",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8172.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Pulmonary effusion is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8172.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Pulmonary effusion is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1901",
+            "name": "Pulmonary edema",
+            "definition": "Presence of pulmonary edema",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1901.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Pulmonary edema is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1901.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Pulmonary edema is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4692",
+            "name": "Atelectasis",
+            "definition": "Presence of atelectasis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4692.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Atelectasis is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4692.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Atelectasis is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8302",
+            "name": "Pneumothorax",
+            "definition": "Presence of pneumothorax",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8302.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Pneumothorax is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8302.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Pneumothorax is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3978",
+            "name": "Lymphadenopathy",
+            "definition": "Presence of lymphadenopathy",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3978.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Lymphadenopathy is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3978.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Lymphadenopathy is absent"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,530 @@
+{
+    "id": "TO_BE_DETERMINED2791",
+    "name": "aortic atherosclerosis",
+    "description": "Aortic atherosclerosis is characterized by the presence of plaque buildup in the aortic walls.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED0539",
+            "name": "Presence",
+            "definition": "Presence of aortic atherosclerosis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0539.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Aortic atherosclerosis is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0539.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Aortic atherosclerosis is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6554",
+            "name": "Severity",
+            "definition": "Severity of aortic atherosclerosis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6554.0",
+                        "value": "mild",
+                        "name": "Mild"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6554.1",
+                        "value": "moderate",
+                        "name": "Moderate"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6554.2",
+                        "value": "severe",
+                        "name": "Severe"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6554.3",
+                        "value": "extensive",
+                        "name": "Extensive"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4799",
+            "name": "Extent",
+            "definition": "Extent of aortic atherosclerosis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4799.0",
+                        "value": "focal",
+                        "name": "Focal"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4799.1",
+                        "value": "diffuse",
+                        "name": "Diffuse"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4799.2",
+                        "value": "localized",
+                        "name": "Localized"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4799.3",
+                        "value": "throughout_the_aorta",
+                        "name": "Throughout the aorta"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5617",
+            "name": "Location",
+            "definition": "Location of aortic atherosclerosis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5617.0",
+                        "value": "ascending_aorta",
+                        "name": "Ascending aorta"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5617.1",
+                        "value": "aortic_arch",
+                        "name": "Aortic arch"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5617.2",
+                        "value": "descending_aorta",
+                        "name": "Descending aorta"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5617.3",
+                        "value": "abdominal_aorta",
+                        "name": "Abdominal aorta"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4476",
+            "name": "Plaque characteristics",
+            "definition": "Plaque characteristics in aortic atherosclerosis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4476.0",
+                        "value": "calcified",
+                        "name": "Calcified"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4476.1",
+                        "value": "non_calcified",
+                        "name": "Non-calcified"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4476.2",
+                        "value": "mixed",
+                        "name": "Mixed"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6307",
+            "name": "Luminal irregularities",
+            "definition": "Presence of luminal irregularities",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6307.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Luminal irregularities are present in the aortic atherosclerosis"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6307.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No luminal irregularities are present in the aortic atherosclerosis"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1413",
+            "name": "Specific features",
+            "definition": "Specific features of aortic atherosclerosis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1413.0",
+                        "value": "calcification",
+                        "name": "Calcification"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1413.1",
+                        "value": "ulceration",
+                        "name": "Ulceration"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1413.2",
+                        "value": "plaque",
+                        "name": "Plaque"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5128",
+            "name": "Wall thickness",
+            "definition": "Wall thickness in aortic atherosclerosis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5128.0",
+                        "value": "increased",
+                        "name": "Increased"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5128.1",
+                        "value": "normal",
+                        "name": "Normal"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6712",
+            "name": "Aneurysmal dilation",
+            "definition": "Presence of aneurysmal dilation",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6712.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Aneurysmal dilation is present in aortic atherosclerosis"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6712.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No aneurysmal dilation is present in aortic atherosclerosis"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4845",
+            "name": "Intraluminal thrombus",
+            "definition": "Presence of intraluminal thrombus",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4845.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Intraluminal thrombus is present in aortic atherosclerosis"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4845.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No intraluminal thrombus is present in aortic atherosclerosis"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2219",
+            "name": "Periaortic soft tissue involvement",
+            "definition": "Presence of periaortic soft tissue involvement",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2219.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Periaortic soft tissue involvement is present in aortic atherosclerosis"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2219.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No periaortic soft tissue involvement is present in aortic atherosclerosis"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3323",
+            "name": "Vascular stenosis",
+            "definition": "Presence of vascular stenosis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3323.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Vascular stenosis is present in aortic atherosclerosis"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3323.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No vascular stenosis is present in aortic atherosclerosis"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8854",
+            "name": "Aortic valve calcification",
+            "definition": "Presence of aortic valve calcification",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8854.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Aortic valve calcification is present in aortic atherosclerosis"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8854.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No aortic valve calcification is present in aortic atherosclerosis"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3740",
+            "name": "Coronary artery disease",
+            "definition": "Presence of coronary artery disease",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3740.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Coronary artery disease is present in aortic atherosclerosis"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3740.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No coronary artery disease is present in aortic atherosclerosis"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4841",
+            "name": "Peripheral vascular disease",
+            "definition": "Presence of peripheral vascular disease",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4841.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Peripheral vascular disease is present in aortic atherosclerosis"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4841.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No peripheral vascular disease is present in aortic atherosclerosis"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,352 @@
+{
+    "id": "TO_BE_DETERMINED3810",
+    "name": "ventricular shunt catheter",
+    "description": "A ventricular shunt catheter is a medical device used to divert cerebrospinal fluid from the ventricles of the brain to another location.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED8850",
+            "name": "Presence of Ventricular Shunt Catheter",
+            "definition": "Indicates whether a ventricular shunt catheter is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8850.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "A ventricular shunt catheter is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8850.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "A ventricular shunt catheter is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6508",
+            "name": "Status",
+            "definition": "The status of the ventricular shunt catheter.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6508.0",
+                        "value": "new_placement",
+                        "name": "New placement",
+                        "definition": "The ventricular shunt catheter has been newly placed."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6508.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "The ventricular shunt catheter remains unchanged."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6508.2",
+                        "value": "complication",
+                        "name": "Complication",
+                        "definition": "There is a complication with the ventricular shunt catheter."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6508.3",
+                        "value": "removed",
+                        "name": "Removed",
+                        "definition": "The ventricular shunt catheter has been removed."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8167",
+            "name": "Shunt Type",
+            "definition": "The type of ventricular shunt.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8167.0",
+                        "value": "ventriculoperitoneal_vp",
+                        "name": "Ventriculoperitoneal (VP)",
+                        "definition": "A ventriculoperitoneal shunt."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8167.1",
+                        "value": "ventriculoatrial_va",
+                        "name": "Ventriculoatrial (VA)",
+                        "definition": "A ventriculoatrial shunt."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8167.2",
+                        "value": "ventriculopleural",
+                        "name": "Ventriculopleural",
+                        "definition": "A ventriculopleural shunt."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6322",
+            "name": "Appropriate location",
+            "definition": "Indicates whether the ventricular shunt catheter is in an appropriate location.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6322.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "The ventricular shunt catheter is in an appropriate location."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6322.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "The ventricular shunt catheter is not in an appropriate location."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5899",
+            "name": "Proximal tip location",
+            "definition": "The location of the proximal tip of the ventricular shunt catheter.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5899.0",
+                        "value": "right_lateral_ventricle",
+                        "name": "Right lateral ventricle",
+                        "definition": "The proximal tip of the ventricular shunt catheter is in the right lateral ventricle."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5899.1",
+                        "value": "left_lateral_ventricle",
+                        "name": "Left lateral ventricle",
+                        "definition": "The proximal tip of the ventricular shunt catheter is in the left lateral ventricle."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5899.2",
+                        "value": "third_ventricle",
+                        "name": "Third ventricle",
+                        "definition": "The proximal tip of the ventricular shunt catheter is in the third ventricle."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5899.3",
+                        "value": "not_identified",
+                        "name": "Not identified",
+                        "definition": "The location of the proximal tip of the ventricular shunt catheter is not identified."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6796",
+            "name": "Distal tip location",
+            "definition": "The location of the distal tip of the ventricular shunt catheter.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6796.0",
+                        "value": "peritoneal_cavity",
+                        "name": "Peritoneal cavity",
+                        "definition": "The distal tip of the ventricular shunt catheter is in the peritoneal cavity."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6796.1",
+                        "value": "right_atrium",
+                        "name": "Right atrium",
+                        "definition": "The distal tip of the ventricular shunt catheter is in the right atrium."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6796.2",
+                        "value": "pleural_cavity",
+                        "name": "Pleural cavity",
+                        "definition": "The distal tip of the ventricular shunt catheter is in the pleural cavity."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0285",
+            "name": "Valve Type",
+            "definition": "The type of valve used in the ventricular shunt catheter.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0285.0",
+                        "value": "programmable",
+                        "name": "Programmable",
+                        "definition": "A programmable valve is used."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0285.1",
+                        "value": "fixed_pressure",
+                        "name": "Fixed pressure",
+                        "definition": "A fixed pressure valve is used."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5240",
+            "name": "Valve Setting (if programmable)",
+            "definition": "The setting of the programmable valve used in the ventricular shunt catheter.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5240.0",
+                        "value": "specify_setting",
+                        "name": "Specify setting",
+                        "definition": "Specify the setting of the programmable valve."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5240.1",
+                        "value": "not_applicable",
+                        "name": "Not applicable",
+                        "definition": "A programmable valve is not applicable."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6174",
+            "name": "Complications",
+            "definition": "Any complications associated with the ventricular shunt catheter.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6174.0",
+                        "value": "none",
+                        "name": "None",
+                        "definition": "No complications with the ventricular shunt catheter."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6174.1",
+                        "value": "catheter_fracture",
+                        "name": "Catheter fracture",
+                        "definition": "A catheter fracture is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6174.2",
+                        "value": "tip_migration",
+                        "name": "Tip migration",
+                        "definition": "Tip migration of the ventricular shunt catheter."
+                    }
+                ]
+            }
+        }
+    ]
+}

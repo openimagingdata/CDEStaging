@@ -1,0 +1,383 @@
+{
+    "id": "TO_BE_DETERMINED7834",
+    "name": "Breast Skin Thickening",
+    "description": "Thickening of the skin in the breast region.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED7914",
+            "name": "Presence of Breast Skin Thickening",
+            "definition": "Whether the breast skin thickening is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7914.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Breast skin thickening is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7914.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No breast skin thickening present."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6178",
+            "name": "Status",
+            "definition": "The status of the breast skin thickening.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6178.0",
+                        "value": "new",
+                        "name": "New",
+                        "definition": "The breast skin thickening is new."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6178.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "The breast skin thickening has not changed."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6178.2",
+                        "value": "increased",
+                        "name": "Increased",
+                        "definition": "The breast skin thickening has increased."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6178.3",
+                        "value": "decreased",
+                        "name": "Decreased",
+                        "definition": "The breast skin thickening has decreased."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6178.4",
+                        "value": "resolved",
+                        "name": "Resolved",
+                        "definition": "The breast skin thickening has resolved."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1677",
+            "name": "Location",
+            "definition": "The location of the breast skin thickening.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1677.0",
+                        "value": "right_breast",
+                        "name": "Right breast",
+                        "definition": "The breast skin thickening is in the right breast."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1677.1",
+                        "value": "left_breast",
+                        "name": "Left breast",
+                        "definition": "The breast skin thickening is in the left breast."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1677.2",
+                        "value": "bilateral",
+                        "name": "Bilateral",
+                        "definition": "The breast skin thickening is in both breasts."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9523",
+            "name": "Extent",
+            "definition": "The extent of the breast skin thickening.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9523.0",
+                        "value": "localized",
+                        "name": "Localized",
+                        "definition": "The breast skin thickening is localized."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9523.1",
+                        "value": "diffuse",
+                        "name": "Diffuse",
+                        "definition": "The breast skin thickening is diffuse."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2093",
+            "name": "Thickness",
+            "definition": "The thickness of the breast skin thickening.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "unit": "mm"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9376",
+            "name": "Nipple retraction",
+            "definition": "Whether nipple retraction is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9376.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Nipple retraction is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9376.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Nipple retraction is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5149",
+            "name": "Nipple inversion",
+            "definition": "Whether nipple inversion is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5149.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Nipple inversion is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5149.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Nipple inversion is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0785",
+            "name": "Lymphedema",
+            "definition": "Whether lymphedema is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0785.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Lymphedema is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0785.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Lymphedema is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3880",
+            "name": "Breast Mass",
+            "definition": "Whether a breast mass is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3880.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "A breast mass is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3880.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No breast mass present."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5166",
+            "name": "Axillary Lymphadenopathy",
+            "definition": "Whether axillary lymphadenopathy is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5166.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Axillary lymphadenopathy is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5166.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No axillary lymphadenopathy present."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7037",
+            "name": "Breast Calcifications",
+            "definition": "Whether breast calcifications are present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7037.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Breast calcifications are present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7037.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No breast calcifications present."
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,387 @@
+{
+    "id": "TO_BE_DETERMINED7656",
+    "name": "Mediastinal Lymph Nodes",
+    "description": "Enlarged lymph nodes in the mediastinum.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED0038",
+            "name": "Presence of Enlarged Mediastinal Lymph Nodes",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0038.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0038.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2538",
+            "name": "IASLC Lymph Node Stations",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2538.0",
+                        "value": "1_low_cervical_supraclavicular_and_stellate_lymph_nodes",
+                        "name": "1: Low Cervical, Supraclavicular, and Stellate Lymph Nodes",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2538.1",
+                        "value": "2_r_upper_paratracheal_right",
+                        "name": "2R: Upper Paratracheal Right",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2538.2",
+                        "value": "2_l_upper_paratracheal_left",
+                        "name": "2L: Upper Paratracheal Left",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2538.3",
+                        "value": "3_a_prevascular",
+                        "name": "3A: Prevascular",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2538.4",
+                        "value": "3_p_retrotracheal",
+                        "name": "3P: Retrotracheal",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2538.5",
+                        "value": "4_r_lower_paratracheal_right",
+                        "name": "4R: Lower Paratracheal Right",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2538.6",
+                        "value": "4_l_lower_paratracheal_left",
+                        "name": "4L: Lower Paratracheal Left",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2538.7",
+                        "value": "5_subaortic_aortopulmonary_window",
+                        "name": "5: Subaortic (Aortopulmonary Window)",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2538.8",
+                        "value": "6_para_aortic_ascending_aorta_or_phrenic",
+                        "name": "6: Para-Aortic (Ascending Aorta or Phrenic)",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2538.9",
+                        "value": "7_subcarinal",
+                        "name": "7: Subcarinal",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2538.10",
+                        "value": "8_paraesophageal_below_carina",
+                        "name": "8: Paraesophageal (Below Carina)",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2538.11",
+                        "value": "9_pulmonary_ligament",
+                        "name": "9: Pulmonary Ligament",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2538.12",
+                        "value": "10_hilar",
+                        "name": "10: Hilar",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8198",
+            "name": "Station Involvement",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8198.0",
+                        "value": "low_cervical_supraclavicular_and_stellate_lymph_nodes",
+                        "name": "Low Cervical, Supraclavicular, and Stellate Lymph Nodes",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8198.1",
+                        "value": "upper_paratracheal_right",
+                        "name": "Upper Paratracheal Right",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8198.2",
+                        "value": "upper_paratracheal_left",
+                        "name": "Upper Paratracheal Left",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8198.3",
+                        "value": "prevascular",
+                        "name": "Prevascular",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8198.4",
+                        "value": "retrotracheal",
+                        "name": "Retrotracheal",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8198.5",
+                        "value": "lower_paratracheal_right",
+                        "name": "Lower Paratracheal Right",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8198.6",
+                        "value": "lower_paratracheal_left",
+                        "name": "Lower Paratracheal Left",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8198.7",
+                        "value": "subaortic_aortopulmonary_window",
+                        "name": "Subaortic (Aortopulmonary Window)",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8198.8",
+                        "value": "para_aortic_ascending_aorta_or_phrenic",
+                        "name": "Para-Aortic (Ascending Aorta or Phrenic)",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8198.9",
+                        "value": "subcarinal",
+                        "name": "Subcarinal",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8198.10",
+                        "value": "paraesophageal_below_carina",
+                        "name": "Paraesophageal (Below Carina)",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8198.11",
+                        "value": "pulmonary_ligament",
+                        "name": "Pulmonary Ligament",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8198.12",
+                        "value": "hilar",
+                        "name": "Hilar",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8095",
+            "name": "Short-Axis Diameter",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "unit": "mm"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2470",
+            "name": "Shape",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2470.0",
+                        "value": "round",
+                        "name": "Round",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2470.1",
+                        "value": "oval",
+                        "name": "Oval",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3025",
+            "name": "Density",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3025.0",
+                        "value": "homogeneous",
+                        "name": "Homogeneous",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3025.1",
+                        "value": "heterogeneous",
+                        "name": "Heterogeneous",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4743",
+            "name": "Evidence of Metastasis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4743.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4743.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1231",
+            "name": "Involvement of Adjacent Structures",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1231.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1231.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,180 @@
+{
+    "id": "TO_BE_DETERMINED6110",
+    "name": "hepatic hemangioma",
+    "description": "",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED3766",
+            "name": "Presence",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3766.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3766.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5093",
+            "name": "Location",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5093.0",
+                        "value": "right_hepatic_lobe",
+                        "name": "Right hepatic lobe",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5093.1",
+                        "value": "left_hepatic_lobe",
+                        "name": "Left hepatic lobe",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5093.2",
+                        "value": "segment",
+                        "name": "Segment",
+                        "definition": "Select segment"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7871",
+            "name": "Size",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "unit": "cm"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1864",
+            "name": "Enhancement Pattern",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1864.0",
+                        "value": "none",
+                        "name": "None",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1864.1",
+                        "value": "homogeneous",
+                        "name": "Homogeneous",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1864.2",
+                        "value": "peripheral_nodular",
+                        "name": "Peripheral nodular",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1864.3",
+                        "value": "progressive_centripetal",
+                        "name": "Progressive centripetal",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9597",
+            "name": "Number",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9597.0",
+                        "value": "single",
+                        "name": "Single",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9597.1",
+                        "value": "multiple",
+                        "name": "Multiple",
+                        "definition": "None"
+                    }
+                ]
+            }
+        }
+    ]
+}

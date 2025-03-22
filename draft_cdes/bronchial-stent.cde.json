@@ -1,0 +1,298 @@
+{
+    "id": "TO_BE_DETERMINED9401",
+    "name": "Bronchial Stent",
+    "description": "A bronchial stent is a medical device used to support the walls of the bronchial tubes and keep them open. It is typically used to treat airway obstructions or strictures.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED3248",
+            "name": "Presence of Bronchial Stent",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3248.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "The bronchial stent is present in the patient's airway."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3248.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "There is no bronchial stent present in the patient's airway."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2093",
+            "name": "Status",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2093.0",
+                        "value": "new_placement",
+                        "name": "New placement",
+                        "definition": "The bronchial stent has been newly placed."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2093.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "The bronchial stent remains in the same position as before."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2093.2",
+                        "value": "complication",
+                        "name": "Complication",
+                        "definition": "The bronchial stent is causing complications."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2093.3",
+                        "value": "removed",
+                        "name": "Removed",
+                        "definition": "The bronchial stent has been removed from the patient's airway."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7975",
+            "name": "Location",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7975.0",
+                        "value": "right_main_bronchus",
+                        "name": "Right main bronchus",
+                        "definition": "The bronchial stent is located in the right main bronchus."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7975.1",
+                        "value": "left_main_bronchus",
+                        "name": "Left main bronchus",
+                        "definition": "The bronchial stent is located in the left main bronchus."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7975.2",
+                        "value": "lobar_bronchus",
+                        "name": "Lobar bronchus",
+                        "definition": "The bronchial stent is located in a lobar bronchus (specific lobe to be specified separately)."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7198",
+            "name": "Side",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7198.0",
+                        "value": "right",
+                        "name": "Right",
+                        "definition": "The bronchial stent is located on the right side of the airway."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7198.1",
+                        "value": "left",
+                        "name": "Left",
+                        "definition": "The bronchial stent is located on the left side of the airway."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7198.2",
+                        "value": "na",
+                        "name": "NA",
+                        "definition": "The side of the bronchial stent is not applicable or specified."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2026",
+            "name": "Type",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2026.0",
+                        "value": "fully_covered",
+                        "name": "Fully covered",
+                        "definition": "The bronchial stent is fully covered."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2026.1",
+                        "value": "partially_covered",
+                        "name": "Partially covered",
+                        "definition": "The bronchial stent is partially covered."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2026.2",
+                        "value": "uncovered",
+                        "name": "Uncovered",
+                        "definition": "The bronchial stent is not covered."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0134",
+            "name": "Stent Length",
+            "definition": "The length of the bronchial stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "min": 0.0,
+                "unit": "cm"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7976",
+            "name": "Lumen Diameter",
+            "definition": "The diameter of the lumen of the bronchial stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "min": 0.0,
+                "unit": "mm"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3226",
+            "name": "Complication",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3226.0",
+                        "value": "none",
+                        "name": "None",
+                        "definition": "There are no complications associated with the bronchial stent."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3226.1",
+                        "value": "mucosal_erosion",
+                        "name": "Mucosal erosion",
+                        "definition": "The bronchial stent has caused erosion of the surrounding mucosal tissue."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3226.2",
+                        "value": "perforation",
+                        "name": "Perforation",
+                        "definition": "The bronchial stent has caused a perforation in the airway."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3226.3",
+                        "value": "migration",
+                        "name": "Migration",
+                        "definition": "The bronchial stent has migrated from its original position."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3226.4",
+                        "value": "stenosis",
+                        "name": "Stenosis",
+                        "definition": "The bronchial stent has caused narrowing or constriction of the airway."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3226.5",
+                        "value": "occlusion",
+                        "name": "Occlusion",
+                        "definition": "The bronchial stent is causing a blockage in the airway."
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,342 @@
+{
+    "id": "TO_BE_DETERMINED3601",
+    "name": "bronchial wall thickening",
+    "description": "Thickening of the bronchial wall.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED6785",
+            "name": "Presence",
+            "definition": "Presence of bronchial wall thickening.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6785.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Bronchial wall thickening is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6785.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Bronchial wall thickening is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7785",
+            "name": "Status",
+            "definition": "Status of the bronchial wall thickening.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7785.0",
+                        "value": "new",
+                        "name": "New",
+                        "definition": "Bronchial wall thickening is new."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7785.1",
+                        "value": "stable",
+                        "name": "Stable",
+                        "definition": "Bronchial wall thickening is stable."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7785.2",
+                        "value": "resolved",
+                        "name": "Resolved",
+                        "definition": "Bronchial wall thickening has resolved."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7785.3",
+                        "value": "worsened",
+                        "name": "Worsened",
+                        "definition": "Bronchial wall thickening has worsened."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7785.4",
+                        "value": "decreased",
+                        "name": "Decreased",
+                        "definition": "Bronchial wall thickening has decreased."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7785.5",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "Bronchial wall thickening has remained unchanged."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7785.6",
+                        "value": "improved",
+                        "name": "Improved",
+                        "definition": "Bronchial wall thickening has improved."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5973",
+            "name": "Severity",
+            "definition": "Severity of the bronchial wall thickening.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5973.0",
+                        "value": "mild",
+                        "name": "Mild",
+                        "definition": "Mild bronchial wall thickening."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5973.1",
+                        "value": "moderate",
+                        "name": "Moderate",
+                        "definition": "Moderate bronchial wall thickening."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5973.2",
+                        "value": "severe",
+                        "name": "Severe",
+                        "definition": "Severe bronchial wall thickening."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5973.3",
+                        "value": "diffuse",
+                        "name": "Diffuse",
+                        "definition": "Bronchial wall thickening is diffuse."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2025",
+            "name": "Distribution",
+            "definition": "Distribution of the bronchial wall thickening.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2025.0",
+                        "value": "diffuse",
+                        "name": "Diffuse",
+                        "definition": "Bronchial wall thickening is diffuse."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2025.1",
+                        "value": "localized",
+                        "name": "Localized",
+                        "definition": "Bronchial wall thickening is localized."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2025.2",
+                        "value": "scattered",
+                        "name": "Scattered",
+                        "definition": "Bronchial wall thickening is scattered."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2025.3",
+                        "value": "bilateral",
+                        "name": "Bilateral",
+                        "definition": "Bronchial wall thickening is bilateral."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2025.4",
+                        "value": "central",
+                        "name": "Central",
+                        "definition": "Bronchial wall thickening is central."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2025.5",
+                        "value": "peripheral",
+                        "name": "Peripheral",
+                        "definition": "Bronchial wall thickening is peripheral."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6613",
+            "name": "Location",
+            "definition": "Location of the bronchial wall thickening.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6613.0",
+                        "value": "upper_lobes",
+                        "name": "Upper lobes",
+                        "definition": "Bronchial wall thickening is in the upper lobes."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6613.1",
+                        "value": "middle_lobe",
+                        "name": "Middle lobe",
+                        "definition": "Bronchial wall thickening is in the middle lobe."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6613.2",
+                        "value": "lower_lobes",
+                        "name": "Lower lobes",
+                        "definition": "Bronchial wall thickening is in the lower lobes."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6613.3",
+                        "value": "lingula",
+                        "name": "Lingula",
+                        "definition": "Bronchial wall thickening is in the lingula."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6613.4",
+                        "value": "right",
+                        "name": "Right",
+                        "definition": "Bronchial wall thickening is in the right lung."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6613.5",
+                        "value": "left",
+                        "name": "Left",
+                        "definition": "Bronchial wall thickening is in the left lung."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4048",
+            "name": "Size",
+            "definition": "Size of the bronchial wall thickening.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4048.0",
+                        "value": "small_3_mm",
+                        "name": "Small (<3 mm)",
+                        "definition": "Bronchial wall thickening is small (<3 mm)."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4048.1",
+                        "value": "medium_3_6_mm",
+                        "name": "Medium (3-6 mm)",
+                        "definition": "Bronchial wall thickening is medium (3-6 mm)."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4048.2",
+                        "value": "large_6_mm",
+                        "name": "Large (>6 mm)",
+                        "definition": "Bronchial wall thickening is large (>6 mm)."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6959",
+            "name": "Associated patterns",
+            "definition": "Associated patterns with bronchial wall thickening.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6959.0",
+                        "value": "decreased_tree_in_bud_nodules",
+                        "name": "Decreased tree-in-bud nodules",
+                        "definition": "Decreased tree-in-bud nodules are associated with bronchial wall thickening."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6959.1",
+                        "value": "cavitary_lesions",
+                        "name": "Cavitary lesions",
+                        "definition": "Cavitary lesions are associated with bronchial wall thickening."
+                    }
+                ]
+            }
+        }
+    ]
+}

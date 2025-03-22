@@ -1,0 +1,348 @@
+{
+    "id": "TO_BE_DETERMINED4052",
+    "name": "pneumobilia",
+    "description": "The presence of air in the biliary ducts.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED1145",
+            "name": "Presence",
+            "definition": "Whether pneumobilia is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1145.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "The finding is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1145.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "The finding is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1835",
+            "name": "Extent",
+            "definition": "The extent of pneumobilia.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1835.0",
+                        "value": "limited",
+                        "name": "Limited",
+                        "definition": "Pneumobilia is limited in extent."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1835.1",
+                        "value": "extensive",
+                        "name": "Extensive",
+                        "definition": "Pneumobilia is extensive."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4521",
+            "name": "Location",
+            "definition": "The location of pneumobilia.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4521.0",
+                        "value": "intrahepatic_ducts",
+                        "name": "Intrahepatic ducts",
+                        "definition": "Pneumobilia is located in the intrahepatic ducts."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4521.1",
+                        "value": "common_bile_duct",
+                        "name": "Common bile duct",
+                        "definition": "Pneumobilia is located in the common bile duct."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4521.2",
+                        "value": "both",
+                        "name": "Both",
+                        "definition": "Pneumobilia is located in both the intrahepatic ducts and common bile duct."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1443",
+            "name": "Associated bile duct dilation",
+            "definition": "Whether there is associated bile duct dilation.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1443.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "There is associated bile duct dilation."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1443.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "There is no associated bile duct dilation."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6781",
+            "name": "Cholecystitis",
+            "definition": "Whether cholecystitis is present.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6781.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Cholecystitis is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6781.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Cholecystitis is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0573",
+            "name": "Choledocholithiasis",
+            "definition": "Whether choledocholithiasis is present.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0573.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Choledocholithiasis is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0573.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Choledocholithiasis is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9727",
+            "name": "Biliary stent",
+            "definition": "Whether a biliary stent is present.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9727.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "A biliary stent is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9727.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "A biliary stent is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2017",
+            "name": "Acute pancreatitis",
+            "definition": "Whether acute pancreatitis is present.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2017.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Acute pancreatitis is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2017.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Acute pancreatitis is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2247",
+            "name": "Periportal edema",
+            "definition": "Whether periportal edema is present.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2247.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Periportal edema is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2247.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Periportal edema is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8779",
+            "name": "Portal vein gas",
+            "definition": "Whether portal vein gas is present.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8779.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Portal vein gas is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8779.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Portal vein gas is absent."
+                    }
+                ]
+            }
+        }
+    ]
+}

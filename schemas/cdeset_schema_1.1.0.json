@@ -1,0 +1,617 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/element_set",
+    "$id": "https://github.com/ACR-RSNA-CDEs/blob/v1.0.0/cde.schema.json",
+    "definitions": {
+        "element_set": {
+            "type": "object",
+            "additionalProperties": false,
+            "patternProperties": {
+                "^\\$": {
+                    "description": "Any property starting with $ is reserved for notations and extensions",
+                    "tsType": "any"
+                }
+            },
+            "properties": {
+                "id": {
+                    "anyOf": [
+                        {
+                            "type": "string",
+                            "pattern": "^RDES\\d+",
+                            "examples": ["RDES42", "RDES1042"]
+                        },
+                        {
+                            "type": "string",
+                            "pattern": "TO_BE_DETERMINED\\d+",
+                            "examples": ["TO_BE_DETERMINED123"],
+                            "description": "The TO_BE_DETERMINED123 pattern is used for author convenience and tracking during the authoring process. Upon submission to the radelement archive a set number will be assigned and used for all further references overwriting this value"
+                        }
+                    ]
+                },
+                "name": {
+                    "type": "string",
+                    "description" :"Set names should follow conventions listed here: https://rsna.github.io/ACR-RSNA-CDEs/reference/set/"
+                },
+                "description": {
+                    "type": "string",
+                    "description": "CDE Set description including the expected clinical use case. Plain text, or XHTML div are acceptable"
+                },
+                "set_version": {
+                    "$ref": "#/definitions/version"
+                },
+                "schema_version": {
+                    "$ref": "#/definitions/schema_version"
+                
+                },
+                "current_status": {
+                    "$ref": "#/definitions/status"
+                },
+                "status_history": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/status"
+                    },
+                    "minItems": 1
+                },
+                "url": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "A link to the set on radelement.org"
+                },
+                "index_codes": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/index_code"
+                    },
+                    "minItems": 1
+                },
+                "body_parts": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/body_part"
+                    },
+                    "minItems": 1
+                },
+                "contributors": {
+                    "type": "object",
+                    "$ref": "#/definitions/contributors"
+                },
+                "specialties": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/specialty"
+                    },
+                    "minItems": 1
+                },
+                "modalities": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/modality"
+                    },
+                    "minItems": 1
+                },
+                "elements": {
+                    "type": "array",
+                    "description": "When authoring (e.g., PUT/POST), published elements can be referenced (element_ref_id). GET requests return full element definitions",
+                    "items": {
+                        "anyOf": [
+                            {
+                                "type": "object",
+                                "$ref": "#/definitions/element"
+                            },
+                            {
+                                "type": "object",
+                                "properties": {
+                                    "element_ref_id": {"type": "string"},
+                                    "element_version": {"type": "number"}
+                                },
+                                "additionalProperties": false,
+                                "required": ["element_ref_id", "element_version"]
+                            }
+                        ]    
+                    },
+                    "minItems": 1
+                },
+                "images": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/image"
+                    },
+                    "minItems": 1
+                },
+                "references": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/reference"
+                    },
+                    "minItems": 1
+                }
+            },
+            "required": ["id", "name", "description", "set_version", "current_status", "elements", "specialties", "schema_version"]
+        },
+        "element": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "Each data element has a unique id and a textual name.",
+            "properties": {
+                "id": {
+                    "anyOf": [
+                        {
+                            "type": "string",
+                            "pattern": "^RDE\\d+",
+                            "examples": ["RDES42", "RDES1042"]
+                        },
+                        {
+                            "type": "string",
+                            "pattern": "TO_BE_DETERMINED\\d+",
+                            "examples": ["TO_BE_DETERMINED123"],
+                            "description": "The TO_BE_DETERMINED123 pattern is used for author convenience and tracking during the authoring process. Upon submission to the radelement archive an element number will be assigned and used for all further references overwriting this value"
+                        }
+                    ]
+                },
+                "parent_set": {
+                    "anyOf": [
+                        {
+                            "type": "string",
+                            "pattern": "^RDES\\d+",
+                            "examples": ["RDES42", "RDES1042"]
+                        },
+                        {
+                            "type": "string",
+                            "pattern": "TO_BE_DETERMINED\\d+",
+                            "description": "The TO_BE_DETERMINED123 pattern is used for author convenience and tracking during the authoring process. Upon submission to the radelement archive RDES will be assigned and used for all further references overwriting this value"
+                        }
+                    ]
+                },
+                "name": {
+                    "type": "string",
+                    "description" :"Element names consistent with https://rsna.github.io/ACR-RSNA-CDEs/reference/element/"
+                },
+                "definition": {
+                    "description": "A human readable definition explaining the clinical context of the data element",
+                    "type": "string"
+                },
+                "question": {
+                    "description": "How a user might be prompted to provide a value",
+                    "type": "string"
+                },
+                "element_version": {
+                    "$ref": "#/definitions/version"
+                },
+                "schema_version": {
+                    "$ref": "#/definitions/schema_version"
+                },
+                "current_status": {
+                    "$ref": "#/definitions/status"
+                },                
+                "index_codes": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/index_code"
+                    },
+                    "minItems": 1
+                },
+                "body_parts": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/body_part"
+                    },
+                    "minItems": 1
+                },
+                "modalities": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/modality"
+                    },
+                    "minItems": 1
+                },                
+                "contributors": {
+                    "type": "object",
+                    "$ref": "#/definitions/contributors"
+                },
+                "history": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/status"
+                    }, 
+                    "minItems": 1
+                },
+                "specialty": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/specialty"
+                    }, 
+                    "minItems": 1
+                },
+                "images": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/image"
+                    },
+                    "minItems": 1
+                },                
+                "references": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/reference"
+                    },
+                    "minItems": 1
+                },
+                "integer_value": {
+                    "$ref": "#/definitions/integer_value"
+                },
+                "value_set": {
+                    "$ref": "#/definitions/value_set"
+                },
+                "float_value": {
+                    "$ref": "#/definitions/float_value"
+                }
+            },
+            "required": ["id", "name", "element_version", "current_status", "schema_version"],
+            "oneOf": [
+                {
+                    "required": ["integer_value"]
+                },
+                {
+                    "required": ["value_set"]
+                },
+                {
+                    "required": ["float_value"]
+                }
+            ]
+        },
+        "image": {
+            "type": "object",
+            "description": "URLs to specify exemplar images. Currently supported at the set, element, or value levels",
+            "additionalProperties": false,
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "height": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0
+                },
+                "width": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0
+                },
+                "caption": {
+                    "type": "string"
+                },
+                "rights": {
+                    "type": "string"
+                },
+                "contributors": {
+                    "type": "object",
+                    "$ref": "#/definitions/contributors"
+                },
+                "references": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/reference"
+                    },
+                    "minItems": 1
+                }
+            },
+            "required": ["url"]
+        },
+        "contributors": {
+            "type": "object",
+            "description": "People and organizations who have contributed to the CDE and an indication of their role",
+            "additionalProperties": false,
+            "properties": {
+                "people": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/person"
+                    },
+                    "minItems": 1
+                },
+                "organizations": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/organization"
+                    },
+                    "minItems": 1
+                }
+            },
+            "required": ["people"]
+        },
+        "person": {
+            "type": "object",
+            "description": "Specifies someone who has contributed to an Element or Set. E-mail is the unique identifier used to match people between systems",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string",
+                    "format": "email"
+                },
+                "affiliation": {
+                    "type": "string"
+                },
+                "orcid_id": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "role": {
+                    "type": "string",
+                    "enum": ["Author", "Editor", "Translator", "Reviewer"]
+                }
+            },
+            "required": ["name", "email", "role"]
+        },
+        "body_part": {
+            "type": "object",
+            "description": "References to external ontologies describing the body part referenced by the set or element",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "index_codes": {
+                    "$ref": "#/definitions/index_code"
+                }
+            },
+            "required": ["name"]
+        },
+        "index_code": {
+            "type": "object",
+            "description": "Used in set, element, and value definitions to link to external ontologies",
+            "additionalProperties": false,
+            "properties": {
+                "system": {
+                    "type": "string",
+                    "enum": ["RADLEX", "SNOMEDCT", "LOINC", "ACRCOMMON"]
+                },
+                "code": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "display": {
+                    "type": "string"
+                }
+            }
+        },
+        "integer_value": {
+            "type": "object",
+            "description": "Defines structure for integer elements",
+            "additionalProperties": false,
+            "properties": {
+                "min": {
+                    "description": "Value must be greater than or equal to minimum.",
+                    "type": "integer"
+                },
+                "max": {
+                    "description": "Value must be less than or equal to the maximum.",
+                    "type": "integer"
+                },
+                "step": {
+                    "default": 1,
+                    "type": "integer"
+                },
+                "unit": {
+                    "type": "string",
+                    "description": "Use UCUM (https://ucum.org/) compatible units"
+                }
+            }
+        },
+        "float_value": {
+            "type": "object",
+            "description": "Defines structure for float (decimal) elements",
+            "additionalProperties": false,
+            "properties": {
+                "min": {
+                    "description": "Value must be greater than or equal to minimum.",
+                    "type": "number"
+                },
+                "max": {
+                    "description": "Value must be less than or equal to the maximum.",
+                    "type": "number"
+                },
+                "step": {
+                    "type": "number"
+                },
+                "unit": {
+                    "type": "string"
+                }
+            }
+        },
+        "modality":{
+            "type":"object",
+            "description": "Used in set and element defintions to specify applicable imaging modalities (optional)",
+            "additionalProperties": false,
+            "properties": {
+                "code": {
+                    "type": "string",
+                    "enum": ["CT", "FL", "MR", "MG", "NM", "PET", "US", "XR"],
+                    "description": "Definition for specifying an applicable modality using DICOM modality codes"
+                }
+            }
+        },
+        "organization": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "abbreviation": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "comment": {
+                    "type": "string"
+                },
+                "role": {
+                    "type": "string",
+                    "enum": ["Author", "Sponsor", "Translator", "Contributor"]
+                }
+            },
+            "required": ["name"]
+        },
+        "value_set": {
+            "type": "object",
+            "description": "Specifies an enumerated list of text choices for an element",
+            "additionalProperties": false,
+            "properties": {
+                "min_cardinality": {
+                    "description": "defines the minimum number of values to select from the value set",
+                    "type": "integer",
+                    "minimum": 0
+                },
+                "max_cardinality": {
+                    "description": "defines the maximum number of values to select from the value set",
+                    "type": "integer",
+                    "minimum": 1
+                },
+                "values": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/value"
+                    },
+                    "minItems": 2
+                }
+            },
+            "required": ["values", "min_cardinality"]
+        },
+        "value": {
+            "type": "object",
+            "description": "An individual answer to an element question",
+            "additionalProperties": false,
+            "properties": {
+                "code": {
+                    "type": "string",
+                    "description": "A unique machine readable identifier for each choice in a value set made up of the parent element id, period, and a number. The number following the period begins with zero and is assigned upon first submission of the element to the radelement archive.",
+                    "anyOf": [
+                        {
+                            "pattern": "RDE\\d+\\.\\d+",
+                            "examples": ["RDE25.0", "RDE25.1"]
+                        },
+                        {
+                            "pattern": "TO_BE_DETERMINED\\d+.\\d+",
+                            "examples": ["TO_BE_DETERMINED123.0"],
+                            "description": "The TO_BE_DETERMINED123 pattern is used for author convenience and tracking during the authoring process. Upon submission to the radelement archive a set number will be assigned and used for all further references overwriting this value"
+                        }
+                    ]
+                },
+                "value": {
+                    "type": "string",
+                    "description": "Element value is intended to provide a human and/or machine readable string that could be use to caluculate a score, identify a position on a decision tree",
+                    "examples": ["2", "5", "Non-Viable"]
+                },
+                "name": {
+                    "type": "string",
+                    "description": "Human readable answer to the question"
+                },
+                "definition": {
+                    "type": "string",
+                    "description": "Human readable definiton of the value in the specific clinical context"
+                },
+                "index_codes": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/index_code"
+                    },
+                    "minItems": 1
+                },
+                "images": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/image"
+                    },
+                    "minItems": 1
+                }
+            },
+            "required": ["name", "code"]
+        },
+        "specialty": {
+            "type": "object",
+            "description": "Radiology subspecialties relevant to the set or element. Uses RSNA's standardized two-letter abbreviations",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "abbreviation": {
+                    "type": "string",
+                    "enum": ["AB", "BR", "CA", "CH", "ER", "GI", "GU", "HN", "IR", "MI", "MK", "NR", "OB", "OI", "OT", "PD", "QI", "RS", "VA"]
+                }
+            },
+            "required": ["name", "abbreviation"]        
+        },
+        "version": {
+            "type": "object",
+            "description": "This is an auto- increment field that increases by one each time a set is added to radelement",
+            "additionalProperties": false,
+            "properties": {
+                "number": {
+                    "type": "integer",
+                    "minimum": 1
+                },
+                "date": {
+                    "type": "string",
+                    "format": "date"
+                }
+            },
+            "required": ["date", "number"],
+            "title": "Version"
+        },
+        "schema_version": {
+            "type": "string",
+            "description": "Identifies which schema version/release the set or element conforms to (e.g. 1.0.0, 2.0.0) follows semver.org conventions",
+            "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$"
+        },
+        "status": {
+            "type": "object",
+            "description": "This defines the status of the set or element (Proposed, Published, or Retiered and records the date of last action",
+            "properties": {
+                "date" : {
+                    "type": "string",
+                    "format": "date"
+                },
+                "status": {
+                    "type": "string",
+                    "enum": ["Proposed", "Published", "Retired"]
+                }
+            },
+            "required": ["date", "status"]
+        },
+        "reference": {
+            "type": "object",
+            "description": "Bibliographic citations, including all the author names (no et Al)",
+            "additionalProperties": false,
+            "properties": {
+                "citation": {
+                    "type": "string"
+                },
+                "doi_url": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "pubmed_id": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "url": {
+                    "type": "string",
+                    "format": "uri"
+                }
+            },
+            "required": ["citation"]
+        }
+    }
+}

@@ -1,0 +1,223 @@
+{
+    "id": "TO_BE_DETERMINED9687",
+    "name": "Epidermal Inclusion Cyst",
+    "description": "Presence of an epidermal inclusion cyst",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED7524",
+            "name": "Presence of Epidermal Inclusion Cyst",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7524.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7524.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5609",
+            "name": "Status",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5609.0",
+                        "value": "new",
+                        "name": "New",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5609.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5609.2",
+                        "value": "increased",
+                        "name": "Increased",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5609.3",
+                        "value": "decreased",
+                        "name": "Decreased",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5609.4",
+                        "value": "removed",
+                        "name": "Removed",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4527",
+            "name": "Location",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4527.0",
+                        "value": "specify_location",
+                        "name": "Specify location",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4527.1",
+                        "value": "not_specified",
+                        "name": "Not specified",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7575",
+            "name": "Size (cm)",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "unit": "cm"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8332",
+            "name": "Morphology",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8332.0",
+                        "value": "round",
+                        "name": "Round",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8332.1",
+                        "value": "oval",
+                        "name": "Oval",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1501",
+            "name": "Content",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1501.0",
+                        "value": "homogeneous",
+                        "name": "Homogeneous",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1501.1",
+                        "value": "heterogeneous",
+                        "name": "Heterogeneous",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1501.2",
+                        "value": "calcified",
+                        "name": "Calcified",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1501.3",
+                        "value": "not_specified",
+                        "name": "Not specified",
+                        "definition": "None"
+                    }
+                ]
+            }
+        }
+    ]
+}

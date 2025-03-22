@@ -1,0 +1,207 @@
+{
+    "id": "TO_BE_DETERMINED2916",
+    "name": "pleural effusion",
+    "description": "An accumulation of fluid in the pleural cavity.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED7403",
+            "name": "Side",
+            "definition": "The side of the pleural effusion.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7403.0",
+                        "value": "left",
+                        "name": "Left"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7403.1",
+                        "value": "right",
+                        "name": "Right"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7403.2",
+                        "value": "bilateral",
+                        "name": "Bilateral"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8909",
+            "name": "Size",
+            "definition": "The size of the pleural effusion.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8909.0",
+                        "value": "small",
+                        "name": "Small"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8909.1",
+                        "value": "moderate",
+                        "name": "Moderate"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8909.2",
+                        "value": "large",
+                        "name": "Large"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6262",
+            "name": "Density",
+            "definition": "The density of the pleural effusion.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6262.0",
+                        "value": "fluid_density",
+                        "name": "Fluid density",
+                        "definition": "Synonym: simple"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6262.1",
+                        "value": "intermediate_density_30_hu",
+                        "name": "Intermediate density (>30 HU)",
+                        "definition": "Synonym: complex"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6262.2",
+                        "value": "hemothorax",
+                        "name": "Hemothorax"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2545",
+            "name": "Chronicity",
+            "definition": "The chronicity of the pleural effusion.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2545.0",
+                        "value": "new",
+                        "name": "New"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2545.1",
+                        "value": "chronic",
+                        "name": "Chronic"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6615",
+            "name": "Associated features",
+            "definition": "The associated features of the pleural effusion.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6615.0",
+                        "value": "loculation",
+                        "name": "Loculation"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6615.1",
+                        "value": "pleural_thickening",
+                        "name": "Pleural thickening",
+                        "definition": "Parietal pleura, Visceral pleura\nSynonyms: soft tissue rind"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6615.2",
+                        "value": "pleural_enhancement",
+                        "name": "Pleural enhancement"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6615.3",
+                        "value": "presence_of_gas",
+                        "name": "Presence of gas",
+                        "definition": "Hydropneumothorax, Hemopneumothorax, Bronchopleural fistula"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6615.4",
+                        "value": "atelectasis_of_the_underlying_lungs",
+                        "name": "Atelectasis of the underlying lungs",
+                        "definition": "Synonyms: passive atelectasis, relaxation atelectasis"
+                    }
+                ]
+            }
+        }
+    ]
+}

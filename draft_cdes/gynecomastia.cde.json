@@ -1,0 +1,162 @@
+{
+    "id": "TO_BE_DETERMINED8530",
+    "name": "gynecomastia",
+    "description": "Gynecomastia is the enlargement of breast tissue in males.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED2148",
+            "name": "Presence",
+            "definition": "Whether gynecomastia is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2148.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Gynecomastia is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2148.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Gynecomastia is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9302",
+            "name": "Severity",
+            "definition": "The severity of gynecomastia.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9302.0",
+                        "value": "mild",
+                        "name": "Mild",
+                        "definition": "Mild gynecomastia."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9302.1",
+                        "value": "moderate",
+                        "name": "Moderate",
+                        "definition": "Moderate gynecomastia."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9302.2",
+                        "value": "severe",
+                        "name": "Severe",
+                        "definition": "Severe gynecomastia."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8432",
+            "name": "Symmetry",
+            "definition": "The symmetry of gynecomastia.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8432.0",
+                        "value": "symmetric",
+                        "name": "Symmetric",
+                        "definition": "Symmetric gynecomastia."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8432.1",
+                        "value": "asymmetric",
+                        "name": "Asymmetric",
+                        "definition": "Asymmetric gynecomastia."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3749",
+            "name": "Side",
+            "definition": "The side of gynecomastia.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3749.0",
+                        "value": "right",
+                        "name": "Right",
+                        "definition": "Gynecomastia on the right side."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3749.1",
+                        "value": "left",
+                        "name": "Left",
+                        "definition": "Gynecomastia on the left side."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3749.2",
+                        "value": "bilateral",
+                        "name": "Bilateral",
+                        "definition": "Gynecomastia on both sides."
+                    }
+                ]
+            }
+        }
+    ]
+}

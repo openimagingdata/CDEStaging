@@ -1,0 +1,390 @@
+{
+    "id": "TO_BE_DETERMINED4810",
+    "name": "Cutaneous Cardiac Rhythm Monitor (ZIO Patch)",
+    "description": "Cutaneous cardiac rhythm monitor used for continuous heart monitoring.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED7022",
+            "name": "Presence of ZIO Patch",
+            "definition": "Indicates whether the ZIO Patch is present or absent",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7022.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "The ZIO Patch is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7022.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "The ZIO Patch is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2077",
+            "name": "Status",
+            "definition": "Indicates the status of the ZIO Patch",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2077.0",
+                        "value": "functioning",
+                        "name": "Functioning",
+                        "definition": "The ZIO Patch is functioning properly"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2077.1",
+                        "value": "malfunctioning",
+                        "name": "Malfunctioning",
+                        "definition": "The ZIO Patch is not functioning properly"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2077.2",
+                        "value": "removed",
+                        "name": "Removed",
+                        "definition": "The ZIO Patch has been removed"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5443",
+            "name": "Location",
+            "definition": "Indicates the location of the ZIO Patch on the body",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5443.0",
+                        "value": "chest",
+                        "name": "Chest",
+                        "definition": "The ZIO Patch is located on the chest"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5443.1",
+                        "value": "abdomen",
+                        "name": "Abdomen",
+                        "definition": "The ZIO Patch is located on the abdomen"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5443.2",
+                        "value": "other",
+                        "name": "Other",
+                        "definition": "The ZIO Patch is located on another area of the body"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2806",
+            "name": "Side",
+            "definition": "Indicates the side of the body where the ZIO Patch is located",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2806.0",
+                        "value": "left",
+                        "name": "Left",
+                        "definition": "The ZIO Patch is located on the left side"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2806.1",
+                        "value": "right",
+                        "name": "Right",
+                        "definition": "The ZIO Patch is located on the right side"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2806.2",
+                        "value": "na",
+                        "name": "NA",
+                        "definition": "Not applicable"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2727",
+            "name": "Orientation",
+            "definition": "Indicates the orientation of the ZIO Patch on the body",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2727.0",
+                        "value": "parallel_to_skin",
+                        "name": "Parallel to skin",
+                        "definition": "The ZIO Patch is parallel to the skin"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2727.1",
+                        "value": "perpendicular_to_skin",
+                        "name": "Perpendicular to skin",
+                        "definition": "The ZIO Patch is perpendicular to the skin"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2727.2",
+                        "value": "other",
+                        "name": "Other",
+                        "definition": "The ZIO Patch is oriented in another way"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0421",
+            "name": "Adherence",
+            "definition": "Indicates the adherence of the ZIO Patch",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0421.0",
+                        "value": "fully_adherent",
+                        "name": "Fully adherent",
+                        "definition": "The ZIO Patch is fully adherent to the skin"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0421.1",
+                        "value": "partially_detached",
+                        "name": "Partially detached",
+                        "definition": "The ZIO Patch is partially detached from the skin"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0421.2",
+                        "value": "completely_detached",
+                        "name": "Completely detached",
+                        "definition": "The ZIO Patch is completely detached from the skin"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0348",
+            "name": "Skin Irritation",
+            "definition": "Indicates the presence and severity of skin irritation",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0348.0",
+                        "value": "none",
+                        "name": "None",
+                        "definition": "No skin irritation is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0348.1",
+                        "value": "mild",
+                        "name": "Mild",
+                        "definition": "Mild skin irritation is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0348.2",
+                        "value": "moderate",
+                        "name": "Moderate",
+                        "definition": "Moderate skin irritation is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0348.3",
+                        "value": "severe",
+                        "name": "Severe",
+                        "definition": "Severe skin irritation is present"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9337",
+            "name": "Infection",
+            "definition": "Indicates the presence of infection",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9337.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Infection is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9337.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No infection is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9337.2",
+                        "value": "suspected",
+                        "name": "Suspected",
+                        "definition": "Infection is suspected"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8918",
+            "name": "Hematoma",
+            "definition": "Indicates the presence of a hematoma",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8918.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Hematoma is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8918.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No hematoma is present"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9982",
+            "name": "Evidence of Repeated Applications",
+            "definition": "Indicates whether there is evidence of repeated applications of the ZIO Patch",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9982.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "There is evidence of repeated applications"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9982.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "There is no evidence of repeated applications"
+                    }
+                ]
+            }
+        }
+    ]
+}

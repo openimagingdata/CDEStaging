@@ -1,0 +1,168 @@
+{
+    "id": "TO_BE_DETERMINED3625",
+    "name": "pfo closure device",
+    "description": "A closure device placed in the patent foramen ovale (PFO) to prevent the passage of blood between the atria.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED7365",
+            "name": "Presence of device",
+            "definition": "Indicates whether a PFO closure device is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7365.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "A PFO closure device is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7365.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "A PFO closure device is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4654",
+            "name": "Device status",
+            "definition": "The status of the PFO closure device.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4654.0",
+                        "value": "new_placement",
+                        "name": "New placement",
+                        "definition": "A new PFO closure device has been placed."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4654.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "The PFO closure device is unchanged."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4654.2",
+                        "value": "complication",
+                        "name": "Complication",
+                        "definition": "There is a complication associated with the PFO closure device."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4654.3",
+                        "value": "removed",
+                        "name": "Removed",
+                        "definition": "The PFO closure device has been removed."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6520",
+            "name": "Device type",
+            "definition": "The type of PFO closure device.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6520.0",
+                        "value": "amplatzer",
+                        "name": "Amplatzer",
+                        "definition": "The PFO closure device is of type Amplatzer."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6520.1",
+                        "value": "gore_helex",
+                        "name": "Gore HELEX",
+                        "definition": "The PFO closure device is of type Gore HELEX."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6520.2",
+                        "value": "other",
+                        "name": "Other",
+                        "definition": "The PFO closure device is of another type."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4823",
+            "name": "Associated thrombus",
+            "definition": "Indicates the presence or absence of an associated thrombus.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4823.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "An associated thrombus is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4823.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "An associated thrombus is absent."
+                    }
+                ]
+            }
+        }
+    ]
+}

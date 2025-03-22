@@ -1,0 +1,290 @@
+{
+    "id": "TO_BE_DETERMINED8900",
+    "name": "nephrolithiasis",
+    "description": "Presence of kidney stones",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED8973",
+            "name": "Presence",
+            "definition": "Presence of nephrolithiasis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8973.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Nephrolithiasis is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8973.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Nephrolithiasis is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2409",
+            "name": "Number of Stones",
+            "definition": "Number of kidney stones",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2409.0",
+                        "value": "single",
+                        "name": "Single",
+                        "definition": "One kidney stone"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2409.1",
+                        "value": "multiple",
+                        "name": "Multiple",
+                        "definition": "Multiple kidney stones"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9699",
+            "name": "Location",
+            "definition": "Location of the kidney stones",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9699.0",
+                        "value": "right_kidney",
+                        "name": "Right kidney",
+                        "definition": "Kidney stones in the right kidney"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9699.1",
+                        "value": "left_kidney",
+                        "name": "Left kidney",
+                        "definition": "Kidney stones in the left kidney"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9699.2",
+                        "value": "both_kidneys",
+                        "name": "Both kidneys",
+                        "definition": "Kidney stones in both kidneys"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6955",
+            "name": "Stone Size",
+            "definition": "Size of the kidney stones",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6955.0",
+                        "value": "5_mm",
+                        "name": "<5mm",
+                        "definition": "Kidney stones smaller than 5mm"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6955.1",
+                        "value": "5_10_mm",
+                        "name": "5-10mm",
+                        "definition": "Kidney stones between 5mm and 10mm"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6955.2",
+                        "value": "10_mm",
+                        "name": ">10mm",
+                        "definition": "Kidney stones larger than 10mm"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7657",
+            "name": "Hydronephrosis",
+            "definition": "Presence of hydronephrosis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7657.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Hydronephrosis is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7657.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Hydronephrosis is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9037",
+            "name": "Hydroureter",
+            "definition": "Presence of hydroureter",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9037.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Hydroureter is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9037.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Hydroureter is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9190",
+            "name": "Perinephric Stranding",
+            "definition": "Presence of perinephric stranding",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9190.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Perinephric stranding is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9190.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Perinephric stranding is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8367",
+            "name": "Ureteral obstruction",
+            "definition": "Presence of ureteral obstruction",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8367.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Ureteral obstruction is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8367.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Ureteral obstruction is absent"
+                    }
+                ]
+            }
+        }
+    ]
+}

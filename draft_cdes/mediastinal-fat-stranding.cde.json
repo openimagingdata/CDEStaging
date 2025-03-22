@@ -1,0 +1,265 @@
+{
+    "id": "TO_BE_DETERMINED9286",
+    "name": "mediastinal fat stranding",
+    "description": "Mediastinal fat stranding refers to increased attenuation of mediastinal fat compared to normal fat.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED9019",
+            "name": "Presence",
+            "definition": "Presence of mediastinal fat stranding.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9019.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "Mediastinal fat stranding is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9019.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "Mediastinal fat stranding is not present."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2523",
+            "name": "Location",
+            "definition": "Location of mediastinal fat stranding.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2523.0",
+                        "value": "anterior",
+                        "name": "Anterior",
+                        "definition": "Mediastinal fat stranding is located in the anterior mediastinum."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2523.1",
+                        "value": "middle",
+                        "name": "Middle",
+                        "definition": "Mediastinal fat stranding is located in the middle mediastinum."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2523.2",
+                        "value": "superior",
+                        "name": "Superior",
+                        "definition": "Mediastinal fat stranding is located in the superior mediastinum."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2523.3",
+                        "value": "posterior",
+                        "name": "Posterior",
+                        "definition": "Mediastinal fat stranding is located in the posterior mediastinum."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3106",
+            "name": "Extent",
+            "definition": "Extent of mediastinal fat stranding.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3106.0",
+                        "value": "localized",
+                        "name": "Localized",
+                        "definition": "Mediastinal fat stranding is localized."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3106.1",
+                        "value": "diffuse",
+                        "name": "Diffuse",
+                        "definition": "Mediastinal fat stranding is diffuse."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5467",
+            "name": "density",
+            "definition": "Attenuation of mediastinal fat relative to normal fat.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {}
+        },
+        {
+            "id": "TO_BE_DETERMINED0292",
+            "name": "Associated findings",
+            "definition": "Associated findings with mediastinal fat stranding.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0292.0",
+                        "value": "lymphadenopathy",
+                        "name": "Lymphadenopathy",
+                        "definition": "Presence of lymphadenopathy."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0292.1",
+                        "value": "fluid_collections",
+                        "name": "Fluid collections",
+                        "definition": "Presence of fluid collections."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4401",
+            "name": "Implications",
+            "definition": "Potential implications or associated conditions.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4401.0",
+                        "value": "inflammation",
+                        "name": "Inflammation",
+                        "definition": "Inflammation is a potential implication or associated condition."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4401.1",
+                        "value": "infection",
+                        "name": "Infection",
+                        "definition": "Infection is a potential implication or associated condition."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4401.2",
+                        "value": "trauma",
+                        "name": "Trauma",
+                        "definition": "Trauma is a potential implication or associated condition."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4401.3",
+                        "value": "postoperative_changes",
+                        "name": "Postoperative changes",
+                        "definition": "Postoperative changes are a potential implication or associated condition."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8964",
+            "name": "Imaging features",
+            "definition": "Imaging features suggestive of etiology.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8964.0",
+                        "value": "radiation_therapy",
+                        "name": "Radiation therapy",
+                        "definition": "Radiation therapy is a potential etiology."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8964.1",
+                        "value": "infection",
+                        "name": "Infection",
+                        "definition": "Infection is a potential etiology."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8964.2",
+                        "value": "trauma",
+                        "name": "Trauma",
+                        "definition": "Trauma is a potential etiology."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8964.3",
+                        "value": "postoperative_changes",
+                        "name": "Postoperative changes",
+                        "definition": "Postoperative changes are a potential etiology."
+                    }
+                ]
+            }
+        }
+    ]
+}

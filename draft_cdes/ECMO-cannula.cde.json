@@ -1,0 +1,320 @@
+{
+    "id": "TO_BE_DETERMINED0921",
+    "name": "ECMO cannula",
+    "description": "Extracorporeal Membrane Oxygenation (ECMO) Cannula finding",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED6630",
+            "name": "Presence of ECMO Cannula",
+            "definition": "Whether the ECMO cannula is present or absent",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6630.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6630.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9452",
+            "name": "Status",
+            "definition": "The status of the ECMO cannula",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9452.0",
+                        "value": "new_placement",
+                        "name": "New placement",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9452.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9452.2",
+                        "value": "migrated",
+                        "name": "Migrated",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9452.3",
+                        "value": "removed",
+                        "name": "Removed",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5826",
+            "name": "Cannulation Site",
+            "definition": "The site of cannulation",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5826.0",
+                        "value": "venous",
+                        "name": "Venous",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5826.1",
+                        "value": "arterial",
+                        "name": "Arterial",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9664",
+            "name": "Appropriate location",
+            "definition": "Whether the cannula placement is appropriate or not",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9664.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9664.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5524",
+            "name": "Side",
+            "definition": "The side of the cannulation",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5524.0",
+                        "value": "left",
+                        "name": "Left",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5524.1",
+                        "value": "right",
+                        "name": "Right",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5524.2",
+                        "value": "na",
+                        "name": "NA",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4468",
+            "name": "Vein approach (if venous)",
+            "definition": "The approach used for venous cannulation",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4468.0",
+                        "value": "internal_jugular",
+                        "name": "Internal jugular",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4468.1",
+                        "value": "external_jugular",
+                        "name": "External jugular",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4468.2",
+                        "value": "subclavian",
+                        "name": "Subclavian",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4468.3",
+                        "value": "femoral",
+                        "name": "Femoral",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1477",
+            "name": "Artery approach (if arterial)",
+            "definition": "The approach used for arterial cannulation",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1477.0",
+                        "value": "femoral",
+                        "name": "Femoral",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1477.1",
+                        "value": "subclavian",
+                        "name": "Subclavian",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1477.2",
+                        "value": "carotid",
+                        "name": "Carotid",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1634",
+            "name": "Distal tip location (venous)",
+            "definition": "The location of the distal tip in venous cannulation",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1634.0",
+                        "value": "right_atrium",
+                        "name": "Right atrium",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1634.1",
+                        "value": "svc",
+                        "name": "SVC",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1634.2",
+                        "value": "ivc",
+                        "name": "IVC",
+                        "definition": "None"
+                    }
+                ]
+            }
+        }
+    ]
+}

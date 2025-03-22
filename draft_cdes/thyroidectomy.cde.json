@@ -1,0 +1,290 @@
+{
+    "id": "TO_BE_DETERMINED4637",
+    "name": "thyroidectomy",
+    "description": "A surgical procedure to remove all or part of the thyroid gland.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED6175",
+            "name": "Presence of surgical changes",
+            "definition": "Indicates whether surgical changes are present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6175.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Surgical changes are present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6175.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Surgical changes are absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5617",
+            "name": "Status",
+            "definition": "Indicates the status of the finding.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5617.0",
+                        "value": "new",
+                        "name": "New",
+                        "definition": "The finding is new."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5617.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "The finding is unchanged."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1983",
+            "name": "Extent of surgery",
+            "definition": "Indicates the extent of the thyroidectomy surgery.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1983.0",
+                        "value": "total_thyroidectomy",
+                        "name": "Total thyroidectomy",
+                        "definition": "The entire thyroid gland has been removed."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1983.1",
+                        "value": "partial_thyroidectomy",
+                        "name": "Partial thyroidectomy",
+                        "definition": "Only a part of the thyroid gland has been removed."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1983.2",
+                        "value": "right_hemithyroidectomy",
+                        "name": "Right hemithyroidectomy",
+                        "definition": "The right half of the thyroid gland has been removed."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1983.3",
+                        "value": "left_hemithyroidectomy",
+                        "name": "Left hemithyroidectomy",
+                        "definition": "The left half of the thyroid gland has been removed."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9082",
+            "name": "Postoperative changes",
+            "definition": "Indicates whether postoperative changes are present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9082.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Postoperative changes are present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9082.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Postoperative changes are absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9015",
+            "name": "Residual soft tissue",
+            "definition": "Indicates whether there is residual soft tissue present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9015.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Residual soft tissue is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9015.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Residual soft tissue is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5650",
+            "name": "Cervical lymphadenopathy",
+            "definition": "Indicates whether cervical lymphadenopathy is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5650.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Cervical lymphadenopathy is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5650.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Cervical lymphadenopathy is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4920",
+            "name": "Supraclavicular lymphadenopathy",
+            "definition": "Indicates whether supraclavicular lymphadenopathy is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4920.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Supraclavicular lymphadenopathy is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4920.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Supraclavicular lymphadenopathy is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5633",
+            "name": "Mediastinal lymphadenopathy",
+            "definition": "Indicates whether mediastinal lymphadenopathy is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5633.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Mediastinal lymphadenopathy is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5633.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Mediastinal lymphadenopathy is absent."
+                    }
+                ]
+            }
+        }
+    ]
+}

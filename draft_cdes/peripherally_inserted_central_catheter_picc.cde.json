@@ -1,0 +1,210 @@
+{
+    "id": "TO_BE_DETERMINED8220",
+    "name": "peripherally inserted central catheter (PICC)",
+    "description": "A type of central venous catheter that is inserted in the periphery and advanced centrally to a large vein near the heart.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED2315",
+            "name": "Side",
+            "definition": "The side of the body where the peripherally inserted central catheter is placed.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2315.0",
+                        "value": "left_upper_extremity",
+                        "name": "Left upper extremity",
+                        "definition": "PICC is placed in the left upper extremity."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2315.1",
+                        "value": "right_upper_extremity",
+                        "name": "Right upper extremity",
+                        "definition": "PICC is placed in the right upper extremity."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2315.2",
+                        "value": "left_lower_extremity",
+                        "name": "Left lower extremity",
+                        "definition": "PICC is placed in the left lower extremity."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2315.3",
+                        "value": "right_lower_extremity",
+                        "name": "Right lower extremity",
+                        "definition": "PICC is placed in the right lower extremity."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6940",
+            "name": "Distal tip location",
+            "definition": "The location of the distal tip of the PICC.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6940.0",
+                        "value": "subclavian_vein",
+                        "name": "Subclavian vein",
+                        "definition": "The distal tip of the PICC is in the subclavian vein."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6940.1",
+                        "value": "brachiocephalic_vein",
+                        "name": "Brachiocephalic vein",
+                        "definition": "The distal tip of the PICC is in the brachiocephalic vein."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6940.2",
+                        "value": "svc",
+                        "name": "SVC",
+                        "definition": "The distal tip of the PICC is in the superior vena cava (SVC)."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6940.3",
+                        "value": "superior_cavoatrial_junction",
+                        "name": "Superior cavoatrial junction",
+                        "definition": "The distal tip of the PICC is at the superior cavoatrial junction."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6940.4",
+                        "value": "azygous_vein",
+                        "name": "Azygous vein",
+                        "definition": "The distal tip of the PICC is in the azygous vein."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6940.5",
+                        "value": "inferior_cavoatrial_junction",
+                        "name": "Inferior cavoatrial junction",
+                        "definition": "The distal tip of the PICC is at the inferior cavoatrial junction."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6940.6",
+                        "value": "internal_jugular_vein",
+                        "name": "Internal jugular vein",
+                        "definition": "The distal tip of the PICC is in the internal jugular vein."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3169",
+            "name": "Appropriate location",
+            "definition": "Whether the placement of the PICC is appropriate.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3169.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "The placement of the PICC is appropriate."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3169.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "The placement of the PICC is not appropriate."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7972",
+            "name": "Change from prior",
+            "definition": "Any change from the previous findings of the PICC.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7972.0",
+                        "value": "new_placement",
+                        "name": "New placement",
+                        "definition": "The PICC has been newly placed."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7972.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "The PICC is unchanged from previous findings."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7972.2",
+                        "value": "retracted",
+                        "name": "Retracted",
+                        "definition": "The PICC has been retracted from its previous position."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7972.3",
+                        "value": "migrated",
+                        "name": "Migrated",
+                        "definition": "The PICC has migrated from its initial placement."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7972.4",
+                        "value": "removed",
+                        "name": "Removed",
+                        "definition": "The PICC has been removed."
+                    }
+                ]
+            }
+        }
+    ]
+}

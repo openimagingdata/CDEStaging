@@ -1,0 +1,195 @@
+{
+    "id": "TO_BE_DETERMINED8833",
+    "name": "adrenal nodule",
+    "description": "",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED2677",
+            "name": "Presence",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2677.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2677.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6809",
+            "name": "Status",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6809.0",
+                        "value": "new",
+                        "name": "New",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6809.1",
+                        "value": "stable",
+                        "name": "Stable",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6809.2",
+                        "value": "enlarged",
+                        "name": "Enlarged",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9238",
+            "name": "size",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "unit": "mm"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7361",
+            "name": "Side",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7361.0",
+                        "value": "right",
+                        "name": "Right",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7361.1",
+                        "value": "left",
+                        "name": "Left",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4941",
+            "name": "Hounsfield units (HU)",
+            "definition": "Hounsfield units (HU) at non-contrast CT",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {}
+        },
+        {
+            "id": "TO_BE_DETERMINED0512",
+            "name": "Enhancement pattern",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0512.0",
+                        "value": "nonenhancing",
+                        "name": "Nonenhancing",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0512.1",
+                        "value": "enhancing",
+                        "name": "Enhancing",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0512.2",
+                        "value": "rapid_wash_in_and_wash_out",
+                        "name": "Rapid wash-in and wash-out",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0512.3",
+                        "value": "delayed_wash_out",
+                        "name": "Delayed wash-out",
+                        "definition": "None"
+                    }
+                ]
+            }
+        }
+    ]
+}

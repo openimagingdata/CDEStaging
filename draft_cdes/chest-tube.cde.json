@@ -1,0 +1,194 @@
+{
+    "id": "TO_BE_DETERMINED2003",
+    "name": "Chest tube",
+    "description": "A tube inserted into the chest to drain fluid or air.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED9410",
+            "name": "Side",
+            "definition": "The side of the chest where the tube is inserted.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9410.0",
+                        "value": "left",
+                        "name": "Left",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9410.1",
+                        "value": "right",
+                        "name": "Right",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8342",
+            "name": "Type",
+            "definition": "The type of chest tube.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8342.0",
+                        "value": "pigtail",
+                        "name": "Pigtail",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8342.1",
+                        "value": "large_bore",
+                        "name": "Large bore",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6095",
+            "name": "Directed toward",
+            "definition": "The direction in which the chest tube is inserted.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6095.0",
+                        "value": "apex",
+                        "name": "Apex",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6095.1",
+                        "value": "base",
+                        "name": "Base",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6095.2",
+                        "value": "costophrenic_sulcus",
+                        "name": "Costophrenic sulcus",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2218",
+            "name": "Intraparechymal placement",
+            "definition": "Indicates whether the chest tube is placed within the lung tissue.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2218.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2218.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3147",
+            "name": "Related topics",
+            "definition": "Other findings or conditions related to the presence of a chest tube.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3147.0",
+                        "value": "pleural_effusion",
+                        "name": "Pleural effusion",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3147.1",
+                        "value": "pneumothorax",
+                        "name": "Pneumothorax",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3147.2",
+                        "value": "post_surgical_changes",
+                        "name": "Post-surgical changes",
+                        "definition": "None"
+                    }
+                ]
+            }
+        }
+    ]
+}

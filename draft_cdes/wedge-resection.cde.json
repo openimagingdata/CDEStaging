@@ -1,0 +1,470 @@
+{
+    "id": "TO_BE_DETERMINED8607",
+    "name": "wedge resection",
+    "description": "A surgical procedure in which a small, wedge-shaped portion of lung tissue is removed.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED8388",
+            "name": "Presence",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8388.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8388.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2166",
+            "name": "Status",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2166.0",
+                        "value": "post_operative_changes_observed",
+                        "name": "Post-operative changes observed",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2166.1",
+                        "value": "no_post_operative_changes",
+                        "name": "No post-operative changes",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2166.2",
+                        "value": "healing",
+                        "name": "Healing",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0744",
+            "name": "Location",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0744.0",
+                        "value": "right_upper_lobe",
+                        "name": "Right upper lobe",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0744.1",
+                        "value": "right_middle_lobe",
+                        "name": "Right middle lobe",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0744.2",
+                        "value": "right_lower_lobe",
+                        "name": "Right lower lobe",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0744.3",
+                        "value": "left_upper_lobe",
+                        "name": "Left upper lobe",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0744.4",
+                        "value": "left_lower_lobe",
+                        "name": "Left lower lobe",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0744.5",
+                        "value": "bilateral",
+                        "name": "Bilateral",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0744.6",
+                        "value": "segmental",
+                        "name": "Segmental",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9963",
+            "name": "Resection Margin",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9963.0",
+                        "value": "clear",
+                        "name": "Clear",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9963.1",
+                        "value": "involved",
+                        "name": "Involved",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9963.2",
+                        "value": "not_specified",
+                        "name": "Not specified",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9963.3",
+                        "value": "close",
+                        "name": "Close",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8672",
+            "name": "Size of Resection",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "unit": "cm"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4584",
+            "name": "Number of lesions resected",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4584.0",
+                        "value": "single",
+                        "name": "Single",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4584.1",
+                        "value": "multiple",
+                        "name": "Multiple",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4584.2",
+                        "value": "extensive_resection",
+                        "name": "Extensive resection",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0137",
+            "name": "Completeness",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0137.0",
+                        "value": "complete",
+                        "name": "Complete",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0137.1",
+                        "value": "incomplete",
+                        "name": "Incomplete",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3344",
+            "name": "Pleural effusion",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3344.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3344.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5333",
+            "name": "Pneumothorax",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5333.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5333.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2748",
+            "name": "Atelectasis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2748.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2748.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3207",
+            "name": "Surgical clips",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3207.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3207.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4455",
+            "name": "Residual tumor",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4455.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4455.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4455.2",
+                        "value": "suspected",
+                        "name": "Suspected",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3322",
+            "name": "Scar tissue",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3322.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3322.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        }
+    ]
+}

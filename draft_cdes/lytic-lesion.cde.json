@@ -1,0 +1,392 @@
+{
+    "id": "TO_BE_DETERMINED7735",
+    "name": "lytic lesion",
+    "description": "A lytic lesion refers to an area of bone loss or destruction.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED7211",
+            "name": "Presence",
+            "definition": "Indicates whether the lytic lesion is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7211.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "The lytic lesion is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7211.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "The lytic lesion is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6172",
+            "name": "Status",
+            "definition": "Describes the status of the lytic lesion.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6172.0",
+                        "value": "stable",
+                        "name": "Stable",
+                        "definition": "The lytic lesion is stable."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6172.1",
+                        "value": "enlarging",
+                        "name": "Enlarging",
+                        "definition": "The lytic lesion is enlarging."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6172.2",
+                        "value": "decreased",
+                        "name": "Decreased",
+                        "definition": "The lytic lesion is decreased."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5173",
+            "name": "Location",
+            "definition": "Specifies the location of the lytic lesion.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5173.0",
+                        "value": "select_list_for_bones",
+                        "name": "Select list for bones",
+                        "definition": "The location of the lytic lesion is selectable from a list of bones."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5173.1",
+                        "value": "other",
+                        "name": "Other",
+                        "definition": "Location is specified in free text."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4247",
+            "name": "Size",
+            "definition": "Indicates the size of the lytic lesion.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4247.0",
+                        "value": "small",
+                        "name": "Small",
+                        "definition": "<1 cm"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4247.1",
+                        "value": "medium",
+                        "name": "Medium",
+                        "definition": "1-2 cm"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4247.2",
+                        "value": "large",
+                        "name": "Large",
+                        "definition": ">2 cm"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2034",
+            "name": "Number",
+            "definition": "Specifies the number of lytic lesions.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2034.0",
+                        "value": "single",
+                        "name": "Single",
+                        "definition": "There is a single lytic lesion."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2034.1",
+                        "value": "multiple",
+                        "name": "Multiple",
+                        "definition": "There are multiple lytic lesions."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2530",
+            "name": "Margin",
+            "definition": "Describes the margin of the lytic lesion.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2530.0",
+                        "value": "well_defined",
+                        "name": "Well-defined",
+                        "definition": "The margin of the lytic lesion is well-defined."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2530.1",
+                        "value": "ill_defined",
+                        "name": "Ill-defined",
+                        "definition": "The margin of the lytic lesion is ill-defined."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2802",
+            "name": "Density",
+            "definition": "Indicates the density of the lytic lesion.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2802.0",
+                        "value": "high",
+                        "name": "High",
+                        "definition": "The density of the lytic lesion is high."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2802.1",
+                        "value": "low",
+                        "name": "Low",
+                        "definition": "The density of the lytic lesion is low."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2802.2",
+                        "value": "mixed",
+                        "name": "Mixed",
+                        "definition": "The density of the lytic lesion is mixed."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2127",
+            "name": "Extra-osseous extension",
+            "definition": "Indicates whether there is extra-osseous extension of the lytic lesion.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2127.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "There is extra-osseous extension of the lytic lesion."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2127.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "There is no extra-osseous extension of the lytic lesion."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8508",
+            "name": "Soft tissue component",
+            "definition": "Specifies whether there is a soft tissue component associated with the lytic lesion.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8508.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "There is a soft tissue component associated with the lytic lesion."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8508.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "There is no soft tissue component associated with the lytic lesion."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8981",
+            "name": "Pathologic fracture",
+            "definition": "Indicates whether there is a pathologic fracture associated with the lytic lesion.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8981.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "There is a pathologic fracture associated with the lytic lesion."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8981.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "There is no pathologic fracture associated with the lytic lesion."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8716",
+            "name": "Surrounding bone sclerosis",
+            "definition": "Specifies whether there is surrounding bone sclerosis associated with the lytic lesion.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8716.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "There is surrounding bone sclerosis associated with the lytic lesion."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8716.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "There is no surrounding bone sclerosis associated with the lytic lesion."
+                    }
+                ]
+            }
+        }
+    ]
+}

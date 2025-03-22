@@ -1,0 +1,312 @@
+{
+    "id": "TO_BE_DETERMINED9330",
+    "name": "sternal fracture",
+    "description": "A fracture of the sternum.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED4264",
+            "name": "Presence",
+            "definition": "Whether the sternal fracture is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4264.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4264.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7687",
+            "name": "Status",
+            "definition": "The current status of the sternal fracture.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7687.0",
+                        "value": "acute",
+                        "name": "Acute"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7687.1",
+                        "value": "remote",
+                        "name": "Remote"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7687.2",
+                        "value": "healing",
+                        "name": "Healing"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9627",
+            "name": "Location",
+            "definition": "The location of the sternal fracture.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9627.0",
+                        "value": "manubrium",
+                        "name": "Manubrium"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9627.1",
+                        "value": "body",
+                        "name": "Body"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9627.2",
+                        "value": "xiphoid",
+                        "name": "Xiphoid"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6170",
+            "name": "Severity",
+            "definition": "The severity of the sternal fracture.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6170.0",
+                        "value": "non_displaced",
+                        "name": "Non-displaced"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6170.1",
+                        "value": "minimally_displaced",
+                        "name": "Minimally displaced"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6170.2",
+                        "value": "displaced",
+                        "name": "Displaced"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5502",
+            "name": "Orientation",
+            "definition": "The orientation of the sternal fracture.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5502.0",
+                        "value": "horizontal",
+                        "name": "Horizontal"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5502.1",
+                        "value": "vertical",
+                        "name": "Vertical"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5502.2",
+                        "value": "oblique",
+                        "name": "Oblique"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6938",
+            "name": "Pulmonary contusion",
+            "definition": "Whether there is a pulmonary contusion present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6938.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6938.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2992",
+            "name": "Cardiac injury",
+            "definition": "Whether there is a cardiac injury present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2992.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2992.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9374",
+            "name": "Rib fractures",
+            "definition": "Whether there are rib fractures present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9374.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9374.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0188",
+            "name": "Soft tissue injury",
+            "definition": "Whether there is a soft tissue injury present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0188.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0188.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        }
+    ]
+}

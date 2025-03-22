@@ -1,0 +1,462 @@
+{
+    "id": "TO_BE_DETERMINED2863",
+    "name": "lobectomy",
+    "description": "A surgical procedure to remove a lobe of the lung.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED0441",
+            "name": "Presence",
+            "definition": "Presence or absence of lobectomy",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0441.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0441.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0758",
+            "name": "Status",
+            "definition": "Status of lobectomy",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0758.0",
+                        "value": "post_operative_changes_observed",
+                        "name": "Post-operative changes observed"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0758.1",
+                        "value": "no_post_operative_changes",
+                        "name": "No post-operative changes"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0758.2",
+                        "value": "healing",
+                        "name": "Healing"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5574",
+            "name": "Lobectomy Type",
+            "definition": "Type of lobectomy performed",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5574.0",
+                        "value": "right_upper_lobectomy",
+                        "name": "Right upper lobectomy"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5574.1",
+                        "value": "right_middle_lobectomy",
+                        "name": "Right middle lobectomy"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5574.2",
+                        "value": "right_lower_lobectomy",
+                        "name": "Right lower lobectomy"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5574.3",
+                        "value": "left_upper_lobectomy",
+                        "name": "Left upper lobectomy"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5574.4",
+                        "value": "left_lower_lobectomy",
+                        "name": "Left lower lobectomy"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5574.5",
+                        "value": "bilobectomy",
+                        "name": "Bilobectomy"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5574.6",
+                        "value": "segmentectomy",
+                        "name": "Segmentectomy"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3647",
+            "name": "Completeness",
+            "definition": "Completeness of the lobectomy",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3647.0",
+                        "value": "complete",
+                        "name": "Complete"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3647.1",
+                        "value": "partial",
+                        "name": "Partial"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3647.2",
+                        "value": "not_specified",
+                        "name": "Not specified"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4887",
+            "name": "Surgical Technique",
+            "definition": "Surgical technique used for lobectomy",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4887.0",
+                        "value": "vats",
+                        "name": "VATS"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4887.1",
+                        "value": "open",
+                        "name": "Open"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4887.2",
+                        "value": "robotic_assisted",
+                        "name": "Robotic-assisted"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4887.3",
+                        "value": "not_specified",
+                        "name": "Not specified"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8941",
+            "name": "Pleural effusion",
+            "definition": "Presence or absence of pleural effusion",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8941.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8941.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8941.2",
+                        "value": "size_and_side_specified",
+                        "name": "Size and side specified"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2508",
+            "name": "Pneumothorax",
+            "definition": "Presence or absence of pneumothorax",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2508.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2508.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2508.2",
+                        "value": "size_and_management_specified",
+                        "name": "Size and management specified"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5177",
+            "name": "Atelectasis",
+            "definition": "Presence or absence of atelectasis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5177.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5177.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5177.2",
+                        "value": "extent_and_location_specified",
+                        "name": "Extent and location specified"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7794",
+            "name": "Surgical clips",
+            "definition": "Presence or absence of surgical clips",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7794.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7794.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7794.2",
+                        "value": "number_specified",
+                        "name": "Number specified"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1305",
+            "name": "Residual lung",
+            "definition": "Status of residual lung",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1305.0",
+                        "value": "adequate_expansion",
+                        "name": "Adequate expansion"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1305.1",
+                        "value": "incomplete_expansion",
+                        "name": "Incomplete expansion"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1305.2",
+                        "value": "volume_loss",
+                        "name": "Volume loss"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3612",
+            "name": "Scar tissue",
+            "definition": "Presence or absence of scar tissue",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3612.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3612.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3612.2",
+                        "value": "extent_specified",
+                        "name": "Extent specified"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2574",
+            "name": "Pulmonary nodules",
+            "definition": "Presence or absence of pulmonary nodules",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2574.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2574.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2574.2",
+                        "value": "characteristics_specified",
+                        "name": "Characteristics specified"
+                    }
+                ]
+            }
+        }
+    ]
+}

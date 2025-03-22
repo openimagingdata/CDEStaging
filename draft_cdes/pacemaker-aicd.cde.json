@@ -1,0 +1,307 @@
+{
+    "id": "TO_BE_DETERMINED7446",
+    "name": "pacemaker aicd",
+    "description": "A pacemaker or implantable cardioverter-defibrillator (AICD) device.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED1672",
+            "name": "Device location",
+            "definition": "The location of the pacemaker/AICD device.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1672.0",
+                        "value": "ventral_chest_wall",
+                        "name": "Ventral chest wall"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1672.1",
+                        "value": "subcutaneous",
+                        "name": "Subcutaneous"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8434",
+            "name": "Side directional approach",
+            "definition": "The side/directional approach used for the pacemaker/AICD device.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8434.0",
+                        "value": "left",
+                        "name": "Left"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8434.1",
+                        "value": "right",
+                        "name": "Right"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7175",
+            "name": "Vascular approach",
+            "definition": "The vascular approach used for the pacemaker/AICD device.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7175.0",
+                        "value": "subclavian_vein",
+                        "name": "Subclavian vein"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7175.1",
+                        "value": "axillary_vein",
+                        "name": "Axillary vein"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3094",
+            "name": "Device type",
+            "definition": "The type of pacemaker/AICD device.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3094.0",
+                        "value": "single_chamber",
+                        "name": "Single chamber"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3094.1",
+                        "value": "dual_chamber",
+                        "name": "Dual chamber"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3094.2",
+                        "value": "biventricular",
+                        "name": "Biventricular"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1125",
+            "name": "Components",
+            "definition": "The components of the pacemaker/AICD device.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1125.0",
+                        "value": "generator",
+                        "name": "Generator"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1125.1",
+                        "value": "tie_down",
+                        "name": "Tie-down"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1125.2",
+                        "value": "lead",
+                        "name": "Lead"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1125.3",
+                        "value": "manufacturer_logo",
+                        "name": "Manufacturer logo"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1125.4",
+                        "value": "header",
+                        "name": "Header"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1125.5",
+                        "value": "connector",
+                        "name": "Connector"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1125.6",
+                        "value": "shock_coil",
+                        "name": "Shock coil"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1125.7",
+                        "value": "ring_electrode",
+                        "name": "Ring electrode"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1125.8",
+                        "value": "tip_electrode",
+                        "name": "Tip electrode"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9915",
+            "name": "Lead location",
+            "definition": "The location of the lead in the pacemaker/AICD device.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9915.0",
+                        "value": "superior_vena_cava",
+                        "name": "Superior vena cava"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9915.1",
+                        "value": "right_atrial_appendage",
+                        "name": "Right atrial appendage"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9915.2",
+                        "value": "right_atrium",
+                        "name": "Right atrium"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9915.3",
+                        "value": "right_ventricular_apex",
+                        "name": "Right ventricular apex"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9915.4",
+                        "value": "interventricular_septum",
+                        "name": "Interventricular septum"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9915.5",
+                        "value": "coronary_sinus",
+                        "name": "Coronary sinus"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2210",
+            "name": "Complication",
+            "definition": "Possible complications associated with the pacemaker/AICD device.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2210.0",
+                        "value": "fracture",
+                        "name": "Fracture"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2210.1",
+                        "value": "malposition",
+                        "name": "Malposition"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2210.2",
+                        "value": "disconnection",
+                        "name": "Disconnection"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2210.3",
+                        "value": "migration",
+                        "name": "Migration"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2210.4",
+                        "value": "abandoned",
+                        "name": "Abandoned"
+                    }
+                ]
+            }
+        }
+    ]
+}

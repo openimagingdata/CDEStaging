@@ -1,0 +1,276 @@
+{
+    "id": "TO_BE_DETERMINED9309",
+    "name": "CABG",
+    "description": "Coronary Artery Bypass Graft",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED2382",
+            "name": "Presence",
+            "definition": "Presence of CABG grafts",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2382.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "The CABG grafts are present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2382.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "The CABG grafts are absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8474",
+            "name": "Number of Grafts",
+            "definition": "Number of CABG grafts",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8474.0",
+                        "value": "single",
+                        "name": "Single",
+                        "definition": "There is a single CABG graft"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8474.1",
+                        "value": "multiple",
+                        "name": "Multiple",
+                        "definition": "There are multiple CABG grafts"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2629",
+            "name": "Type of Grafts",
+            "definition": "Type of CABG grafts",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2629.0",
+                        "value": "arterial",
+                        "name": "Arterial",
+                        "definition": "Arterial grafts (LIMA, RIMA, Radial)"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2629.1",
+                        "value": "venous",
+                        "name": "Venous",
+                        "definition": "Venous grafts (Saphenous vein)"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8652",
+            "name": "Location of Grafts",
+            "definition": "Location of CABG grafts",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8652.0",
+                        "value": "lad",
+                        "name": "LAD",
+                        "definition": "Left Anterior Descending artery"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8652.1",
+                        "value": "l_cx",
+                        "name": "LCx",
+                        "definition": "Left Circumflex artery"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8652.2",
+                        "value": "rca",
+                        "name": "RCA",
+                        "definition": "Right Coronary Artery"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8652.3",
+                        "value": "intermediate",
+                        "name": "Intermediate",
+                        "definition": "Intermediate artery"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8652.4",
+                        "value": "diagonal_branches",
+                        "name": "Diagonal branches",
+                        "definition": "Diagonal branches of the coronary arteries"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5296",
+            "name": "Graft Patency",
+            "definition": "Patency of CABG grafts",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5296.0",
+                        "value": "patent",
+                        "name": "Patent",
+                        "definition": "The CABG grafts are patent"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5296.1",
+                        "value": "occluded",
+                        "name": "Occluded",
+                        "definition": "The CABG grafts are occluded"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5296.2",
+                        "value": "stenosed",
+                        "name": "Stenosed",
+                        "definition": "The CABG grafts are stenosed"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5250",
+            "name": "Native Coronary Artery Disease",
+            "definition": "Presence of native coronary artery disease",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5250.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "There is native coronary artery disease"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5250.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "There is no native coronary artery disease"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0803",
+            "name": "Post-surgical Changes",
+            "definition": "Post-surgical changes after CABG",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0803.0",
+                        "value": "sternotomy_wires",
+                        "name": "Sternotomy wires",
+                        "definition": "Presence of sternotomy wires"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0803.1",
+                        "value": "pleural_effusion",
+                        "name": "Pleural effusion",
+                        "definition": "Presence of pleural effusion"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0803.2",
+                        "value": "pericardial_effusion",
+                        "name": "Pericardial effusion",
+                        "definition": "Presence of pericardial effusion"
+                    }
+                ]
+            }
+        }
+    ]
+}

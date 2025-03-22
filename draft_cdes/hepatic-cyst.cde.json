@@ -1,0 +1,186 @@
+{
+    "id": "TO_BE_DETERMINED7393",
+    "name": "hepatic cyst",
+    "description": "A fluid-filled sac in the liver.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED0959",
+            "name": "Multiplicity",
+            "definition": "The number of cysts present.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0959.0",
+                        "value": "single",
+                        "name": "Single"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0959.1",
+                        "value": "multiple",
+                        "name": "Multiple"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0914",
+            "name": "Location",
+            "definition": "The specific location of the cyst.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0914.0",
+                        "value": "hepatic_unspecified",
+                        "name": "Hepatic (unspecified)",
+                        "definition": "The cyst is located in the liver."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0914.1",
+                        "value": "left_hepatic_lobe",
+                        "name": "Left hepatic lobe"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0914.2",
+                        "value": "right_hepatic_lobe",
+                        "name": "Right hepatic lobe"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0914.3",
+                        "value": "hepatic_segment_1",
+                        "name": "Hepatic segment 1"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0914.4",
+                        "value": "hepatic_segment_2",
+                        "name": "Hepatic segment 2"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0914.5",
+                        "value": "hepatic_segment_3",
+                        "name": "Hepatic segment 3"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0914.6",
+                        "value": "hepatic_segment_4_a",
+                        "name": "Hepatic segment 4a"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0914.7",
+                        "value": "hepatic_segment_4_b",
+                        "name": "Hepatic segment 4b"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0914.8",
+                        "value": "hepatic_segment_5",
+                        "name": "Hepatic segment 5"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0914.9",
+                        "value": "hepatic_segment_6",
+                        "name": "Hepatic segment 6"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0914.10",
+                        "value": "hepatic_segment_7",
+                        "name": "Hepatic segment 7"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0914.11",
+                        "value": "hepatic_segment_8",
+                        "name": "Hepatic segment 8"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6804",
+            "name": "Size of largest cyst",
+            "definition": "The size of the largest cyst in centimeters.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "unit": "cm"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5161",
+            "name": "Stability",
+            "definition": "The stability of the cyst.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5161.0",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "The cyst has not changed in size."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5161.1",
+                        "value": "increased",
+                        "name": "Increased"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5161.2",
+                        "value": "decreased",
+                        "name": "Decreased"
+                    }
+                ]
+            }
+        }
+    ]
+}

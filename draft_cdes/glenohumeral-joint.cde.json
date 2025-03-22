@@ -1,0 +1,314 @@
+{
+    "id": "TO_BE_DETERMINED2109",
+    "name": "glenohumeral joint",
+    "description": "The glenohumeral joint is the joint connecting the glenoid cavity of the scapula (shoulder blade) and the head of the humerus (upper arm bone).",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED6578",
+            "name": "Presence",
+            "definition": "Indicates if the glenohumeral joint is normal or abnormal.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6578.0",
+                        "value": "normal",
+                        "name": "Normal",
+                        "definition": "The glenohumeral joint is present and normal."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6578.1",
+                        "value": "abnormal",
+                        "name": "Abnormal",
+                        "definition": "The glenohumeral joint is present but abnormal."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8025",
+            "name": "Status",
+            "definition": "Indicates the stability of the glenohumeral joint.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8025.0",
+                        "value": "stable",
+                        "name": "Stable",
+                        "definition": "The glenohumeral joint is stable."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8025.1",
+                        "value": "progressing",
+                        "name": "Progressing",
+                        "definition": "The glenohumeral joint is progressing."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5851",
+            "name": "Articulation",
+            "definition": "Describes the articulation of the glenohumeral joint.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5851.0",
+                        "value": "congruent",
+                        "name": "Congruent",
+                        "definition": "The glenohumeral joint is congruent."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5851.1",
+                        "value": "subluxed",
+                        "name": "Subluxed",
+                        "definition": "The glenohumeral joint is subluxed."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5851.2",
+                        "value": "dislocated",
+                        "name": "Dislocated",
+                        "definition": "The glenohumeral joint is dislocated."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5851.3",
+                        "value": "posterior_decentering",
+                        "name": "Posterior decentering",
+                        "definition": "The glenohumeral joint is posteriorly decentered."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2848",
+            "name": "Degenerative changes",
+            "definition": "Indicates the degree of degenerative changes in the glenohumeral joint.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2848.0",
+                        "value": "mild",
+                        "name": "Mild",
+                        "definition": "Mild degenerative changes in the glenohumeral joint."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2848.1",
+                        "value": "moderate",
+                        "name": "Moderate",
+                        "definition": "Moderate degenerative changes in the glenohumeral joint."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2848.2",
+                        "value": "severe",
+                        "name": "Severe",
+                        "definition": "Severe degenerative changes in the glenohumeral joint."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2207",
+            "name": "Bony Changes",
+            "definition": "Describes the type of bony changes in the glenohumeral joint.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2207.0",
+                        "value": "none",
+                        "name": "None",
+                        "definition": "No bony changes in the glenohumeral joint."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2207.1",
+                        "value": "osteophytes",
+                        "name": "Osteophytes",
+                        "definition": "Osteophytes in the glenohumeral joint."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2207.2",
+                        "value": "sclerosis",
+                        "name": "Sclerosis",
+                        "definition": "Sclerosis in the glenohumeral joint."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2207.3",
+                        "value": "cystic_changes",
+                        "name": "Cystic changes",
+                        "definition": "Cystic changes in the glenohumeral joint."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4854",
+            "name": "Joint Effusion",
+            "definition": "Indicates the presence of joint effusion in the glenohumeral joint.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4854.0",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No joint effusion in the glenohumeral joint."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4854.1",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Joint effusion present in the glenohumeral joint."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5922",
+            "name": "Density of the Effusion",
+            "definition": "Describes the density of the joint effusion in the glenohumeral joint.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5922.0",
+                        "value": "serous_clear",
+                        "name": "Serous (Clear)",
+                        "definition": "Serous (clear) joint effusion in the glenohumeral joint."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5922.1",
+                        "value": "hemarthrosis",
+                        "name": "Hemarthrosis",
+                        "definition": "Hemarthrosis joint effusion in the glenohumeral joint."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5922.2",
+                        "value": "lipohemarthrosis",
+                        "name": "Lipohemarthrosis",
+                        "definition": "Lipohemarthrosis joint effusion in the glenohumeral joint."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5766",
+            "name": "Presence of Joint Bodies",
+            "definition": "Indicates the presence of joint bodies in the glenohumeral joint.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5766.0",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No joint bodies in the glenohumeral joint."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5766.1",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Joint bodies present in the glenohumeral joint."
+                    }
+                ]
+            }
+        }
+    ]
+}

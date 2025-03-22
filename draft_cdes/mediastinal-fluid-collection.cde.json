@@ -1,0 +1,296 @@
+{
+    "id": "TO_BE_DETERMINED3227",
+    "name": "mediastinal fluid collection",
+    "description": "A collection of fluid in the mediastinum, which is the central compartment of the thoracic cavity.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED7270",
+            "name": "Presence",
+            "definition": "Presence of mediastinal fluid collection",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7270.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "Mediastinal fluid collection is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7270.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "Mediastinal fluid collection is not present"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7119",
+            "name": "Location",
+            "definition": "Location of the mediastinal fluid collection",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7119.0",
+                        "value": "anterior",
+                        "name": "Anterior",
+                        "definition": "Mediastinal fluid collection is located in the anterior mediastinum"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7119.1",
+                        "value": "middle",
+                        "name": "Middle",
+                        "definition": "Mediastinal fluid collection is located in the middle mediastinum"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7119.2",
+                        "value": "posterior",
+                        "name": "Posterior",
+                        "definition": "Mediastinal fluid collection is located in the posterior mediastinum"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3731",
+            "name": "Extent",
+            "definition": "Extent of the mediastinal fluid collection",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3731.0",
+                        "value": "localized",
+                        "name": "Localized",
+                        "definition": "Mediastinal fluid collection is localized"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3731.1",
+                        "value": "diffuse",
+                        "name": "Diffuse",
+                        "definition": "Mediastinal fluid collection is diffuse"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7137",
+            "name": "Size",
+            "definition": "Size of the mediastinal fluid collection",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7137.0",
+                        "value": "small",
+                        "name": "Small",
+                        "definition": "Mediastinal fluid collection is small in size"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7137.1",
+                        "value": "medium",
+                        "name": "Medium",
+                        "definition": "Mediastinal fluid collection is medium in size"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7137.2",
+                        "value": "large",
+                        "name": "Large",
+                        "definition": "Mediastinal fluid collection is large in size"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7199",
+            "name": "Nature",
+            "definition": "Nature of the mediastinal fluid collection",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7199.0",
+                        "value": "serous",
+                        "name": "Serous",
+                        "definition": "Mediastinal fluid collection is serous in nature"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7199.1",
+                        "value": "hemorrhagic",
+                        "name": "Hemorrhagic",
+                        "definition": "Mediastinal fluid collection is hemorrhagic in nature"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7199.2",
+                        "value": "mixed",
+                        "name": "Mixed",
+                        "definition": "Mediastinal fluid collection is mixed in nature"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7474",
+            "name": "Compression adjacent structures",
+            "definition": "Compression of adjacent structures",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7474.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "Compression of adjacent structures is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7474.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "Compression of adjacent structures is not present"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1690",
+            "name": "Infection",
+            "definition": "Signs of infection",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1690.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "Signs of infection are present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1690.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "Signs of infection are not present"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1230",
+            "name": "Neoplasm",
+            "definition": "Evidence of neoplasm",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1230.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "Evidence of neoplasm is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1230.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "Evidence of neoplasm is not present"
+                    }
+                ]
+            }
+        }
+    ]
+}

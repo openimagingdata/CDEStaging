@@ -1,0 +1,245 @@
+{
+    "id": "TO_BE_DETERMINED1695",
+    "name": "IVC Filter",
+    "description": "Presence of an IVC filter and its characteristics",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED9310",
+            "name": "Presence of IVC Filter",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9310.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9310.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0371",
+            "name": "Status",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0371.0",
+                        "value": "new_placement",
+                        "name": "New placement"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0371.1",
+                        "value": "unchanged",
+                        "name": "Unchanged"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0371.2",
+                        "value": "complication",
+                        "name": "Complication"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0371.3",
+                        "value": "removed",
+                        "name": "Removed"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8847",
+            "name": "Location",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8847.0",
+                        "value": "suprarenal",
+                        "name": "Suprarenal"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8847.1",
+                        "value": "infrarenal",
+                        "name": "Infrarenal"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8128",
+            "name": "Type",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8128.0",
+                        "value": "permanent",
+                        "name": "Permanent"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8128.1",
+                        "value": "retrievable",
+                        "name": "Retrievable"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9603",
+            "name": "Orientation",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9603.0",
+                        "value": "appropriate",
+                        "name": "Appropriate"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9603.1",
+                        "value": "tilted",
+                        "name": "Tilted"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9187",
+            "name": "Complication",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9187.0",
+                        "value": "none",
+                        "name": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9187.1",
+                        "value": "tine_penetration",
+                        "name": "Tine Penetration"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9187.2",
+                        "value": "migration",
+                        "name": "Migration"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9187.3",
+                        "value": "tilted",
+                        "name": "Tilted"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5969",
+            "name": "Thrombosis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5969.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5969.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,258 @@
+{
+    "id": "TO_BE_DETERMINED1578",
+    "name": "airway mucus plugging",
+    "description": "Mucus plugging in the airways.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED6664",
+            "name": "Presence",
+            "definition": "Presence of mucus plugging",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6664.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Mucus plugging is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6664.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Mucus plugging is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0022",
+            "name": "Location",
+            "definition": "Location of mucus plugging",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0022.0",
+                        "value": "central_airways",
+                        "name": "Central airways",
+                        "definition": "Mucus plugging in the central airways"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0022.1",
+                        "value": "segmental_bronchi",
+                        "name": "Segmental bronchi",
+                        "definition": "Mucus plugging in the segmental bronchi"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0022.2",
+                        "value": "subsegmental_bronchi",
+                        "name": "Subsegmental bronchi",
+                        "definition": "Mucus plugging in the subsegmental bronchi"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8111",
+            "name": "Extent",
+            "definition": "Extent of mucus plugging",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8111.0",
+                        "value": "focal",
+                        "name": "Focal",
+                        "definition": "Mucus plugging is focal"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8111.1",
+                        "value": "multifocal",
+                        "name": "Multifocal",
+                        "definition": "Mucus plugging is multifocal"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8111.2",
+                        "value": "diffuse",
+                        "name": "Diffuse",
+                        "definition": "Mucus plugging is diffuse"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4208",
+            "name": "Airway Wall Thickening",
+            "definition": "Presence of airway wall thickening",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4208.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Airway wall thickening is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4208.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Airway wall thickening is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0480",
+            "name": "Bronchiectasis",
+            "definition": "Presence of bronchiectasis",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0480.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Bronchiectasis is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0480.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Bronchiectasis is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6369",
+            "name": "Consolidation",
+            "definition": "Presence of consolidation",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6369.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Consolidation is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6369.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Consolidation is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9787",
+            "name": "Ground Glass Opacities",
+            "definition": "Presence of ground glass opacities",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9787.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Ground glass opacities are present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9787.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Ground glass opacities are absent"
+                    }
+                ]
+            }
+        }
+    ]
+}

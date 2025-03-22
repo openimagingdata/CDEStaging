@@ -1,0 +1,166 @@
+{
+    "id": "TO_BE_DETERMINED2990",
+    "name": "sclerotic lesion",
+    "description": "A sclerotic lesion is a finding characterized by an area of increased bone density.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED4508",
+            "name": "Presence",
+            "definition": "Indicates whether the sclerotic lesion is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4508.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "The sclerotic lesion is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4508.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "The sclerotic lesion is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7655",
+            "name": "Status",
+            "definition": "Indicates the status of the sclerotic lesion.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7655.0",
+                        "value": "stable",
+                        "name": "Stable",
+                        "definition": "The sclerotic lesion is stable."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7655.1",
+                        "value": "enlarging",
+                        "name": "Enlarging",
+                        "definition": "The sclerotic lesion is enlarging."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6727",
+            "name": "Location",
+            "definition": "Indicates the location of the sclerotic lesion in the bone.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6727.0",
+                        "value": "not_specified",
+                        "name": "Not specified",
+                        "definition": "The location of the sclerotic lesion is not specified."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6727.1",
+                        "value": "frontal_bone",
+                        "name": "Frontal bone",
+                        "definition": "The sclerotic lesion is located in the frontal bone."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6727.2",
+                        "value": "occipital_bone",
+                        "name": "Occipital bone",
+                        "definition": "The sclerotic lesion is located in the occipital bone."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6727.3",
+                        "value": "temporal_bone",
+                        "name": "Temporal bone",
+                        "definition": "The sclerotic lesion is located in the temporal bone."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6727.4",
+                        "value": "parietal_bone",
+                        "name": "Parietal bone",
+                        "definition": "The sclerotic lesion is located in the parietal bone."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6727.5",
+                        "value": "maxilla",
+                        "name": "Maxilla",
+                        "definition": "The sclerotic lesion is located in the maxilla."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6727.6",
+                        "value": "mandible",
+                        "name": "Mandible",
+                        "definition": "The sclerotic lesion is located in the mandible."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2460",
+            "name": "density",
+            "definition": "Indicates the density of the sclerotic lesion.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "min": 1000.0,
+                "unit": "HU"
+            }
+        }
+    ]
+}

@@ -1,0 +1,287 @@
+{
+    "id": "TO_BE_DETERMINED7450",
+    "name": "tracheomalacia",
+    "description": "Tracheomalacia is the weakening or collapse of the tracheal walls, which can lead to airway obstruction.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED3887",
+            "name": "Presence",
+            "definition": "Indicates whether tracheomalacia is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3887.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3887.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5254",
+            "name": "Severity",
+            "definition": "Indicates the severity of tracheomalacia.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5254.0",
+                        "value": "mild",
+                        "name": "Mild"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5254.1",
+                        "value": "moderate",
+                        "name": "Moderate"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5254.2",
+                        "value": "severe",
+                        "name": "Severe"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3646",
+            "name": "Location",
+            "definition": "Indicates the location of tracheomalacia.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3646.0",
+                        "value": "trachea_proximal",
+                        "name": "Trachea - Proximal"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3646.1",
+                        "value": "trachea_mid",
+                        "name": "Trachea - Mid"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3646.2",
+                        "value": "trachea_distal",
+                        "name": "Trachea - Distal"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3646.3",
+                        "value": "main_bronchus_right",
+                        "name": "Main Bronchus - Right"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3646.4",
+                        "value": "main_bronchus_left",
+                        "name": "Main Bronchus - Left"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7201",
+            "name": "Extent",
+            "definition": "Indicates the extent of tracheomalacia.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7201.0",
+                        "value": "focal",
+                        "name": "Focal"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7201.1",
+                        "value": "segmental",
+                        "name": "Segmental"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7201.2",
+                        "value": "diffuse",
+                        "name": "Diffuse"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5997",
+            "name": "Airway Collapse",
+            "definition": "Indicates whether airway collapse is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5997.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5997.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6353",
+            "name": "Degree of Collapse",
+            "definition": "Indicates the degree of airway collapse.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6353.0",
+                        "value": "50",
+                        "name": "<50%"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6353.1",
+                        "value": "50",
+                        "name": ">50%"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2615",
+            "name": "Expiratory Air Trapping",
+            "definition": "Indicates whether expiratory air trapping is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2615.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2615.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1945",
+            "name": "Signs of Chronic Obstruction",
+            "definition": "Indicates whether signs of chronic obstruction are present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1945.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1945.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        }
+    ]
+}

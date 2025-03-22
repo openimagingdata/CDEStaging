@@ -1,0 +1,304 @@
+{
+    "id": "TO_BE_DETERMINED8793",
+    "name": "emphysema",
+    "description": "Emphysema is a chronic lung condition characterized by the destruction of the air sacs in the lungs, leading to difficulty in breathing.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED3342",
+            "name": "Presence",
+            "definition": "The presence or absence of emphysema.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3342.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Emphysema is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3342.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Emphysema is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7528",
+            "name": "Type",
+            "definition": "The type of emphysema.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7528.0",
+                        "value": "centrilobular",
+                        "name": "Centrilobular",
+                        "definition": "Emphysema affects the central part of the lobule."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7528.1",
+                        "value": "panlobular",
+                        "name": "Panlobular",
+                        "definition": "Emphysema affects the entire lobule."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7528.2",
+                        "value": "paraseptal",
+                        "name": "Paraseptal",
+                        "definition": "Emphysema affects the distal parts of the lobule."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7528.3",
+                        "value": "bullous",
+                        "name": "Bullous",
+                        "definition": "Emphysema causes bullae (large air spaces) to form in the lung."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7528.4",
+                        "value": "irregular",
+                        "name": "Irregular",
+                        "definition": "Emphysema has irregularly distributed areas of destruction."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7528.5",
+                        "value": "subpleural",
+                        "name": "Subpleural",
+                        "definition": "Emphysema is predominantly located near the pleura."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9055",
+            "name": "Severity",
+            "definition": "The severity of emphysema.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9055.0",
+                        "value": "mild",
+                        "name": "Mild",
+                        "definition": "Emphysema is mild."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9055.1",
+                        "value": "moderate",
+                        "name": "Moderate",
+                        "definition": "Emphysema is moderate."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9055.2",
+                        "value": "severe",
+                        "name": "Severe",
+                        "definition": "Emphysema is severe."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9055.3",
+                        "value": "very_severe",
+                        "name": "Very Severe",
+                        "definition": "Emphysema is very severe."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9055.4",
+                        "value": "extensive",
+                        "name": "Extensive",
+                        "definition": "Emphysema is extensive."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8861",
+            "name": "Location",
+            "definition": "The location of emphysema in the lungs.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8861.0",
+                        "value": "upper_lobes",
+                        "name": "Upper Lobes",
+                        "definition": "Emphysema is located in the upper lobes of the lungs."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8861.1",
+                        "value": "lower_lobes",
+                        "name": "Lower Lobes",
+                        "definition": "Emphysema is located in the lower lobes of the lungs."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8861.2",
+                        "value": "diffuse",
+                        "name": "Diffuse",
+                        "definition": "Emphysema is distributed throughout the lungs."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8861.3",
+                        "value": "peribronchovascular",
+                        "name": "Peribronchovascular",
+                        "definition": "Emphysema is located around the bronchovascular bundles."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8861.4",
+                        "value": "apex_to_base",
+                        "name": "Apex to Base",
+                        "definition": "Emphysema is distributed from the apex to the base of the lungs."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6822",
+            "name": "Laterality",
+            "definition": "The laterality of emphysema.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6822.0",
+                        "value": "right",
+                        "name": "Right",
+                        "definition": "Emphysema is localized to the right lung."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6822.1",
+                        "value": "left",
+                        "name": "Left",
+                        "definition": "Emphysema is localized to the left lung."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6822.2",
+                        "value": "bilateral",
+                        "name": "Bilateral",
+                        "definition": "Emphysema is present in both lungs."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6822.3",
+                        "value": "predominant_side",
+                        "name": "Predominant Side",
+                        "definition": "Emphysema is predominantly located on one side."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8561",
+            "name": "Associated Findings",
+            "definition": "The associated findings with emphysema.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8561.0",
+                        "value": "air_trapping",
+                        "name": "Air trapping",
+                        "definition": "Emphysema is associated with air trapping."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8561.1",
+                        "value": "pulmonary_nodules",
+                        "name": "Pulmonary nodules",
+                        "definition": "Emphysema is associated with pulmonary nodules."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8561.2",
+                        "value": "fibrosis",
+                        "name": "Fibrosis",
+                        "definition": "Emphysema is associated with fibrosis."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8561.3",
+                        "value": "pleural_abnormalities",
+                        "name": "Pleural abnormalities",
+                        "definition": "Emphysema is associated with pleural abnormalities."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8561.4",
+                        "value": "bronchiectasis",
+                        "name": "Bronchiectasis",
+                        "definition": "Emphysema is associated with bronchiectasis."
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,275 @@
+{
+    "id": "TO_BE_DETERMINED2082",
+    "name": "Neurostimulator Device",
+    "description": "Presence and characteristics of a neurostimulator device.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED2659",
+            "name": "Presence of Neurostimulator Device",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2659.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2659.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0120",
+            "name": "Status",
+            "definition": "Current status of the neurostimulator device.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0120.0",
+                        "value": "new_placement",
+                        "name": "New placement",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0120.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0120.2",
+                        "value": "complication",
+                        "name": "Complication",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0120.3",
+                        "value": "removed",
+                        "name": "Removed",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1199",
+            "name": "Lead Location",
+            "definition": "Location of the neurostimulator lead.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1199.0",
+                        "value": "spinal_canal",
+                        "name": "Spinal canal",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1199.1",
+                        "value": "above_fov",
+                        "name": "Above FOV",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1199.2",
+                        "value": "below_fov",
+                        "name": "Below FOV",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0640",
+            "name": "Appropriate position",
+            "definition": "Whether the neurostimulator device is in an appropriate position.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0640.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0640.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6287",
+            "name": "Device Type",
+            "definition": "Type of the neurostimulator device.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6287.0",
+                        "value": "deep_brain_stimulator_dbs",
+                        "name": "Deep Brain Stimulator (DBS)",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6287.1",
+                        "value": "spinal_cord_stimulator_scs",
+                        "name": "Spinal Cord Stimulator (SCS)",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6287.2",
+                        "value": "vagus_nerve_stimulator_vns",
+                        "name": "Vagus Nerve Stimulator (VNS)",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1844",
+            "name": "Device/Battery Location",
+            "definition": "Location of the neurostimulator device or battery.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1844.0",
+                        "value": "chest",
+                        "name": "Chest",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1844.1",
+                        "value": "abdomen",
+                        "name": "Abdomen",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1844.2",
+                        "value": "buttock",
+                        "name": "Buttock",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1820",
+            "name": "Fluid collection",
+            "definition": "Presence of fluid collection associated with the neurostimulator device.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1820.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1820.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        }
+    ]
+}

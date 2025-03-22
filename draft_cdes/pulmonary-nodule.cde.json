@@ -1,0 +1,427 @@
+{
+    "id": "TO_BE_DETERMINED6282",
+    "name": "pulmonary nodule",
+    "description": "A solid or partially solid lesion in the lung parenchyma.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED7515",
+            "name": "Presence",
+            "definition": "Presence of the pulmonary nodule.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7515.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "The pulmonary nodule is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7515.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "The pulmonary nodule is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3556",
+            "name": "Number",
+            "definition": "Number of pulmonary nodules.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3556.0",
+                        "value": "single",
+                        "name": "Single",
+                        "definition": "There is a single pulmonary nodule."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3556.1",
+                        "value": "multiple",
+                        "name": "Multiple",
+                        "definition": "There are multiple pulmonary nodules."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6402",
+            "name": "Status",
+            "definition": "Status of the pulmonary nodule.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6402.0",
+                        "value": "new",
+                        "name": "New",
+                        "definition": "The pulmonary nodule is new."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6402.1",
+                        "value": "stable",
+                        "name": "Stable",
+                        "definition": "The pulmonary nodule is stable."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6402.2",
+                        "value": "enlarging",
+                        "name": "Enlarging",
+                        "definition": "The pulmonary nodule is enlarging."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6402.3",
+                        "value": "decreasing",
+                        "name": "Decreasing",
+                        "definition": "The pulmonary nodule is decreasing in size."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1138",
+            "name": "size",
+            "definition": "Size of the pulmonary nodule.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "min": 0.0,
+                "max": 100.0,
+                "unit": "mm"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1198",
+            "name": "Morphology",
+            "definition": "Morphology of the pulmonary nodule.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1198.0",
+                        "value": "solid",
+                        "name": "Solid",
+                        "definition": "The pulmonary nodule is solid."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1198.1",
+                        "value": "subsolid",
+                        "name": "Subsolid",
+                        "definition": "The pulmonary nodule is subsolid."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7292",
+            "name": "Edges",
+            "definition": "Edges of the pulmonary nodule.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7292.0",
+                        "value": "smooth",
+                        "name": "Smooth",
+                        "definition": "The edges of the pulmonary nodule are smooth."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7292.1",
+                        "value": "lobulated",
+                        "name": "Lobulated",
+                        "definition": "The edges of the pulmonary nodule are lobulated."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7292.2",
+                        "value": "spiculated",
+                        "name": "Spiculated",
+                        "definition": "The edges of the pulmonary nodule are spiculated."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3299",
+            "name": "Location",
+            "definition": "Location of the pulmonary nodule.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3299.0",
+                        "value": "right_upper_lobe",
+                        "name": "Right upper lobe",
+                        "definition": "The pulmonary nodule is in the right upper lobe."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3299.1",
+                        "value": "right_middle_lobe",
+                        "name": "Right middle lobe",
+                        "definition": "The pulmonary nodule is in the right middle lobe."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3299.2",
+                        "value": "right_lower_lobe",
+                        "name": "Right lower lobe",
+                        "definition": "The pulmonary nodule is in the right lower lobe."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3299.3",
+                        "value": "left_upper_lobe",
+                        "name": "Left upper lobe",
+                        "definition": "The pulmonary nodule is in the left upper lobe."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3299.4",
+                        "value": "left_lower_lobe",
+                        "name": "Left lower lobe",
+                        "definition": "The pulmonary nodule is in the left lower lobe."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3299.5",
+                        "value": "bilateral",
+                        "name": "Bilateral",
+                        "definition": "The pulmonary nodule is bilateral."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4439",
+            "name": "Calcification",
+            "definition": "Calcification of the pulmonary nodule.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4439.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Calcification is present in the pulmonary nodule."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4439.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Calcification is absent in the pulmonary nodule."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4439.2",
+                        "value": "central",
+                        "name": "Central",
+                        "definition": "Central calcification in the pulmonary nodule."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4439.3",
+                        "value": "diffuse",
+                        "name": "Diffuse",
+                        "definition": "Diffuse calcification in the pulmonary nodule."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4439.4",
+                        "value": "laminated",
+                        "name": "Laminated",
+                        "definition": "Laminated calcification in the pulmonary nodule."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4439.5",
+                        "value": "popcorn",
+                        "name": "Popcorn",
+                        "definition": "Popcorn calcification in the pulmonary nodule."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4305",
+            "name": "Cavitation",
+            "definition": "Cavitation of the pulmonary nodule.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4305.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Cavitation is present in the pulmonary nodule."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4305.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Cavitation is absent in the pulmonary nodule."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1907",
+            "name": "Satellite nodules",
+            "definition": "Presence of satellite nodules.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1907.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Satellite nodules are present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1907.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Satellite nodules are absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9332",
+            "name": "Lymphadenopathy",
+            "definition": "Presence of lymphadenopathy.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9332.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Lymphadenopathy is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9332.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Lymphadenopathy is absent."
+                    }
+                ]
+            }
+        }
+    ]
+}

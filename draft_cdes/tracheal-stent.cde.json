@@ -1,0 +1,254 @@
+{
+    "id": "TO_BE_DETERMINED0384",
+    "name": "Tracheal Stent",
+    "description": "A stent placed in the trachea to maintain airway patency.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED7076",
+            "name": "Presence of Tracheal Stent",
+            "definition": "Indicates whether a tracheal stent is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7076.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "A tracheal stent is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7076.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "A tracheal stent is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4044",
+            "name": "Status",
+            "definition": "Indicates the status of the tracheal stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4044.0",
+                        "value": "new_placement",
+                        "name": "New placement",
+                        "definition": "The tracheal stent has been newly placed."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4044.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "The tracheal stent remains unchanged."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4044.2",
+                        "value": "complication",
+                        "name": "Complication",
+                        "definition": "The tracheal stent has developed a complication."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4044.3",
+                        "value": "removed",
+                        "name": "Removed",
+                        "definition": "The tracheal stent has been removed."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0989",
+            "name": "Location",
+            "definition": "Indicates the location of the tracheal stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0989.0",
+                        "value": "proximal_trachea",
+                        "name": "Proximal trachea",
+                        "definition": "The tracheal stent is located in the proximal trachea."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0989.1",
+                        "value": "mid_trachea",
+                        "name": "Mid trachea",
+                        "definition": "The tracheal stent is located in the mid trachea."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0989.2",
+                        "value": "distal_trachea",
+                        "name": "Distal trachea",
+                        "definition": "The tracheal stent is located in the distal trachea."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8615",
+            "name": "Type",
+            "definition": "Indicates the type of the tracheal stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8615.0",
+                        "value": "fully_covered",
+                        "name": "Fully covered",
+                        "definition": "The tracheal stent is fully covered."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8615.1",
+                        "value": "partially_covered",
+                        "name": "Partially covered",
+                        "definition": "The tracheal stent is partially covered."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8615.2",
+                        "value": "uncovered",
+                        "name": "Uncovered",
+                        "definition": "The tracheal stent is uncovered."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6279",
+            "name": "Stent Length",
+            "definition": "Indicates the length of the tracheal stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "min": 0.0,
+                "unit": "cm"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9715",
+            "name": "Stent Diameter",
+            "definition": "Indicates the diameter of the tracheal stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "min": 0.0,
+                "unit": "mm"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7889",
+            "name": "Complication",
+            "definition": "Indicates any complication associated with the tracheal stent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7889.0",
+                        "value": "none",
+                        "name": "None",
+                        "definition": "No complication associated with the tracheal stent."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7889.1",
+                        "value": "mucosal_erosion",
+                        "name": "Mucosal erosion",
+                        "definition": "Mucosal erosion associated with the tracheal stent."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7889.2",
+                        "value": "perforation",
+                        "name": "Perforation",
+                        "definition": "Perforation associated with the tracheal stent."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7889.3",
+                        "value": "migration",
+                        "name": "Migration",
+                        "definition": "Migration of the tracheal stent."
+                    }
+                ]
+            }
+        }
+    ]
+}

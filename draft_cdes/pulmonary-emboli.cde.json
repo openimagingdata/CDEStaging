@@ -1,0 +1,378 @@
+{
+    "id": "TO_BE_DETERMINED0042",
+    "name": "Pulmonary Emboli",
+    "description": "Pulmonary emboli refer to blood clots that block the pulmonary arteries, which carry blood from the heart to the lungs.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED5286",
+            "name": "Presence",
+            "definition": "Indicates whether pulmonary emboli are present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5286.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Pulmonary emboli are present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5286.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Pulmonary emboli are absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8511",
+            "name": "Stage",
+            "definition": "Indicates the stage of the pulmonary emboli.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8511.0",
+                        "value": "acute",
+                        "name": "Acute",
+                        "definition": "Acute stage of pulmonary emboli"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8511.1",
+                        "value": "chronic",
+                        "name": "Chronic",
+                        "definition": "Chronic stage of pulmonary emboli"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8511.2",
+                        "value": "subacute",
+                        "name": "Subacute",
+                        "definition": "Subacute stage of pulmonary emboli"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6160",
+            "name": "Location",
+            "definition": "Indicates the location of the pulmonary emboli.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6160.0",
+                        "value": "central",
+                        "name": "Central",
+                        "definition": "Main pulmonary artery"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6160.1",
+                        "value": "right_pulmonary_artery",
+                        "name": "Right pulmonary artery",
+                        "definition": "Right pulmonary artery"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6160.2",
+                        "value": "left_pulmonary_artery",
+                        "name": "Left pulmonary artery",
+                        "definition": "Left pulmonary artery"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6160.3",
+                        "value": "lobar",
+                        "name": "Lobar",
+                        "definition": "Lobar branch of the pulmonary artery"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6160.4",
+                        "value": "segmental",
+                        "name": "Segmental",
+                        "definition": "Segmental branch of the pulmonary artery"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6160.5",
+                        "value": "subsegmental",
+                        "name": "Subsegmental",
+                        "definition": "Subsegmental branch of the pulmonary artery"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6973",
+            "name": "Number",
+            "definition": "Indicates the number of pulmonary emboli.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6973.0",
+                        "value": "single",
+                        "name": "Single",
+                        "definition": "A single pulmonary embolus"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6973.1",
+                        "value": "multiple",
+                        "name": "Multiple",
+                        "definition": "Multiple pulmonary emboli"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4255",
+            "name": "Burden",
+            "definition": "Indicates the burden of pulmonary emboli.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4255.0",
+                        "value": "low",
+                        "name": "Low",
+                        "definition": "Low burden of pulmonary emboli"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4255.1",
+                        "value": "moderate",
+                        "name": "Moderate",
+                        "definition": "Moderate burden of pulmonary emboli"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4255.2",
+                        "value": "high",
+                        "name": "High",
+                        "definition": "High burden of pulmonary emboli"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7550",
+            "name": "Right heart strain",
+            "definition": "Indicates the presence or absence of right heart strain associated with pulmonary emboli.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7550.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "Right heart strain is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7550.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "Right heart strain is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7919",
+            "name": "Pulmonary hypertension",
+            "definition": "Indicates the presence or absence of pulmonary hypertension associated with pulmonary emboli.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7919.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "Pulmonary hypertension is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7919.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "Pulmonary hypertension is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8832",
+            "name": "Pulmonary infarction",
+            "definition": "Indicates the presence or absence of pulmonary infarction associated with pulmonary emboli.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8832.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Pulmonary infarction is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8832.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Pulmonary infarction is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0310",
+            "name": "Pulmonary artery aneurysm",
+            "definition": "Indicates the presence or absence of pulmonary artery aneurysm associated with pulmonary emboli.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0310.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "Pulmonary artery aneurysm is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0310.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "Pulmonary artery aneurysm is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3283",
+            "name": "Pulmonary hemorrhage",
+            "definition": "Indicates the presence or absence of pulmonary hemorrhage associated with pulmonary emboli.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3283.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "Pulmonary hemorrhage is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3283.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "Pulmonary hemorrhage is absent"
+                    }
+                ]
+            }
+        }
+    ]
+}

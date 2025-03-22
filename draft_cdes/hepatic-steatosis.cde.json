@@ -1,0 +1,377 @@
+{
+    "id": "TO_BE_DETERMINED5194",
+    "name": "hepatic steatosis",
+    "description": "Hepatic steatosis refers to the accumulation of fat in the liver.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED8485",
+            "name": "Presence",
+            "definition": "The presence or absence of hepatic steatosis.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8485.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Hepatic steatosis is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8485.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Hepatic steatosis is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3232",
+            "name": "Severity",
+            "definition": "The severity of hepatic steatosis.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3232.0",
+                        "value": "mild",
+                        "name": "Mild",
+                        "definition": "Mild hepatic steatosis."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3232.1",
+                        "value": "moderate",
+                        "name": "Moderate",
+                        "definition": "Moderate hepatic steatosis."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3232.2",
+                        "value": "severe",
+                        "name": "Severe",
+                        "definition": "Severe hepatic steatosis."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1897",
+            "name": "Density (noncontrast exam)",
+            "definition": "The density of hepatic steatosis on a noncontrast exam (in Hounsfield Units).",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "unit": "HU"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3478",
+            "name": "Distribution",
+            "definition": "The distribution of hepatic steatosis.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3478.0",
+                        "value": "diffuse",
+                        "name": "Diffuse",
+                        "definition": "Hepatic steatosis is distributed diffusely."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3478.1",
+                        "value": "focal",
+                        "name": "Focal",
+                        "definition": "Hepatic steatosis is distributed focally."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8989",
+            "name": "Pattern",
+            "definition": "The pattern of hepatic steatosis.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8989.0",
+                        "value": "homogeneous",
+                        "name": "Homogeneous",
+                        "definition": "Hepatic steatosis has a homogeneous pattern."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8989.1",
+                        "value": "heterogeneous",
+                        "name": "Heterogeneous",
+                        "definition": "Hepatic steatosis has a heterogeneous pattern."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8989.2",
+                        "value": "patchy",
+                        "name": "Patchy",
+                        "definition": "Hepatic steatosis has a patchy pattern."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8989.3",
+                        "value": "geographic",
+                        "name": "Geographic",
+                        "definition": "Hepatic steatosis has a geographic pattern."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9985",
+            "name": "Falciform ligament",
+            "definition": "The presence of focal fat infiltration or focal fat sparing in the falciform ligament.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9985.0",
+                        "value": "focal_fat_infiltration",
+                        "name": "Focal fat infiltration",
+                        "definition": "Focal fat infiltration is present in the falciform ligament."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9985.1",
+                        "value": "focal_fat_sparing",
+                        "name": "Focal fat sparing",
+                        "definition": "Focal fat sparing is present in the falciform ligament."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8442",
+            "name": "Hepatomegaly",
+            "definition": "The presence or absence of hepatomegaly.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8442.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Hepatomegaly is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8442.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Hepatomegaly is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2209",
+            "name": "Focal Lesions",
+            "definition": "The presence or absence of focal lesions in the liver.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2209.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Focal lesions are present in the liver."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2209.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Focal lesions are absent in the liver."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8210",
+            "name": "Portal Vein Thrombosis",
+            "definition": "The presence or absence of portal vein thrombosis.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8210.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Portal vein thrombosis is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8210.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Portal vein thrombosis is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3259",
+            "name": "Ascites",
+            "definition": "The presence or absence of ascites.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3259.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Ascites is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3259.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Ascites is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1674",
+            "name": "Biliary Dilatation",
+            "definition": "The presence or absence of biliary dilatation.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1674.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Biliary dilatation is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1674.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Biliary dilatation is absent."
+                    }
+                ]
+            }
+        }
+    ]
+}

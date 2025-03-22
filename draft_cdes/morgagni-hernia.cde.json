@@ -1,0 +1,238 @@
+{
+    "id": "TO_BE_DETERMINED7828",
+    "name": "Morgagni Hernia",
+    "description": "A hernia that occurs in the anterior portion of the diaphragm, specifically in the area of the Morgagni foramen.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED5320",
+            "name": "Presence of Morgagni Hernia",
+            "definition": "Whether a Morgagni Hernia is present or not",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5320.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "Morgagni Hernia is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5320.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "Morgagni Hernia is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6589",
+            "name": "Side",
+            "definition": "The side of the Morgagni Hernia",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6589.0",
+                        "value": "left",
+                        "name": "Left",
+                        "definition": "Morgagni Hernia is on the left side"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6589.1",
+                        "value": "right",
+                        "name": "Right",
+                        "definition": "Morgagni Hernia is on the right side"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6589.2",
+                        "value": "bilateral",
+                        "name": "Bilateral",
+                        "definition": "Morgagni Hernia is on both sides"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8187",
+            "name": "Size",
+            "definition": "The size of the Morgagni Hernia",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8187.0",
+                        "value": "small",
+                        "name": "Small",
+                        "definition": "Morgagni Hernia is small in size"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8187.1",
+                        "value": "medium",
+                        "name": "Medium",
+                        "definition": "Morgagni Hernia is medium in size"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8187.2",
+                        "value": "large",
+                        "name": "Large",
+                        "definition": "Morgagni Hernia is large in size"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2144",
+            "name": "Contents",
+            "definition": "The contents of the Morgagni Hernia",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2144.0",
+                        "value": "fat",
+                        "name": "Fat",
+                        "definition": "Morgagni Hernia contains fat"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2144.1",
+                        "value": "bowel",
+                        "name": "Bowel",
+                        "definition": "Morgagni Hernia contains bowel"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2144.2",
+                        "value": "both",
+                        "name": "Both",
+                        "definition": "Morgagni Hernia contains both fat and bowel"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2144.3",
+                        "value": "other",
+                        "name": "Other",
+                        "definition": "Morgagni Hernia contains other contents"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4231",
+            "name": "Cardiac or Mediastinal Displacement",
+            "definition": "Whether there is associated cardiac or mediastinal displacement",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4231.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Associated cardiac or mediastinal displacement is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4231.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Associated cardiac or mediastinal displacement is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6240",
+            "name": "Other Diaphragmatic Hernias",
+            "definition": "Whether there are other diaphragmatic hernias present",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6240.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Other diaphragmatic hernias are present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6240.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Other diaphragmatic hernias are absent"
+                    }
+                ]
+            }
+        }
+    ]
+}

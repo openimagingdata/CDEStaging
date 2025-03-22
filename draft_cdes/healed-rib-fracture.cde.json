@@ -1,0 +1,308 @@
+{
+    "id": "TO_BE_DETERMINED6416",
+    "name": "Healed Rib Fracture",
+    "description": "Non-acute rib fracture that has healed",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED9550",
+            "name": "Multiplicity",
+            "definition": "Multiplicity of the rib fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9550.0",
+                        "value": "single",
+                        "name": "Single",
+                        "definition": "A single rib fracture"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9550.1",
+                        "value": "multiple",
+                        "name": "Multiple",
+                        "definition": "Multiple rib fractures"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3399",
+            "name": "Side",
+            "definition": "Side of the rib fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3399.0",
+                        "value": "bilateral",
+                        "name": "Bilateral",
+                        "definition": "Rib fracture on both sides"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3399.1",
+                        "value": "left",
+                        "name": "Left",
+                        "definition": "Rib fracture on the left side"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3399.2",
+                        "value": "right",
+                        "name": "Right",
+                        "definition": "Rib fracture on the right side"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4417",
+            "name": "Level",
+            "definition": "Level of the rib fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4417.0",
+                        "value": "first",
+                        "name": "First",
+                        "definition": "Rib fracture at the first level"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4417.1",
+                        "value": "second",
+                        "name": "Second",
+                        "definition": "Rib fracture at the second level"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4417.2",
+                        "value": "third",
+                        "name": "Third",
+                        "definition": "Rib fracture at the third level"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4417.3",
+                        "value": "fourth",
+                        "name": "Fourth",
+                        "definition": "Rib fracture at the fourth level"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4417.4",
+                        "value": "fifth",
+                        "name": "Fifth",
+                        "definition": "Rib fracture at the fifth level"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4417.5",
+                        "value": "sixth",
+                        "name": "Sixth",
+                        "definition": "Rib fracture at the sixth level"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4417.6",
+                        "value": "seventh",
+                        "name": "Seventh",
+                        "definition": "Rib fracture at the seventh level"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4417.7",
+                        "value": "eighth",
+                        "name": "Eighth",
+                        "definition": "Rib fracture at the eighth level"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4417.8",
+                        "value": "ninth",
+                        "name": "Ninth",
+                        "definition": "Rib fracture at the ninth level"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4417.9",
+                        "value": "tenth",
+                        "name": "Tenth",
+                        "definition": "Rib fracture at the tenth level"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4417.10",
+                        "value": "eleventh",
+                        "name": "Eleventh",
+                        "definition": "Rib fracture at the eleventh level"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4417.11",
+                        "value": "twelfth",
+                        "name": "Twelfth",
+                        "definition": "Rib fracture at the twelfth level"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4417.12",
+                        "value": "upper",
+                        "name": "Upper",
+                        "definition": "Rib fracture in the upper region"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4417.13",
+                        "value": "lower",
+                        "name": "Lower",
+                        "definition": "Rib fracture in the lower region"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4483",
+            "name": "Location",
+            "definition": "Location of the rib fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4483.0",
+                        "value": "anterior",
+                        "name": "Anterior",
+                        "definition": "Rib fracture located in the anterior region"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4483.1",
+                        "value": "posterior",
+                        "name": "Posterior",
+                        "definition": "Rib fracture located in the posterior region"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4483.2",
+                        "value": "lateral",
+                        "name": "Lateral",
+                        "definition": "Rib fracture located in the lateral region"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4483.3",
+                        "value": "anterolateral",
+                        "name": "Anterolateral",
+                        "definition": "Rib fracture located in the anterolateral region"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4483.4",
+                        "value": "posterolateral",
+                        "name": "Posterolateral",
+                        "definition": "Rib fracture located in the posterolateral region"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9068",
+            "name": "Status",
+            "definition": "Status of the rib fracture",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9068.0",
+                        "value": "subacute",
+                        "name": "Subacute",
+                        "definition": "Rib fracture in the subacute stage"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9068.1",
+                        "value": "healing",
+                        "name": "Healing",
+                        "definition": "Rib fracture in the healing stage"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9068.2",
+                        "value": "remote",
+                        "name": "Remote",
+                        "definition": "Remote rib fracture"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9068.3",
+                        "value": "healed",
+                        "name": "Healed",
+                        "definition": "Healed rib fracture"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9068.4",
+                        "value": "chronic",
+                        "name": "Chronic",
+                        "definition": "Chronic rib fracture"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9068.5",
+                        "value": "old",
+                        "name": "Old",
+                        "definition": "Old rib fracture"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9068.6",
+                        "value": "old_healed",
+                        "name": "Old healed",
+                        "definition": "Old healed rib fracture"
+                    }
+                ]
+            }
+        }
+    ]
+}

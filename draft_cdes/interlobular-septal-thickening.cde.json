@@ -1,0 +1,503 @@
+{
+    "id": "TO_BE_DETERMINED7213",
+    "name": "Interlobular Septal Thickening",
+    "description": "",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED4982",
+            "name": "Presence",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4982.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4982.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2797",
+            "name": "Status",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2797.0",
+                        "value": "new",
+                        "name": "New",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2797.1",
+                        "value": "stable",
+                        "name": "Stable",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2797.2",
+                        "value": "worsened",
+                        "name": "Worsened",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2797.3",
+                        "value": "improved",
+                        "name": "Improved",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2797.4",
+                        "value": "progressing",
+                        "name": "Progressing",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1111",
+            "name": "Severity",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1111.0",
+                        "value": "mild",
+                        "name": "Mild",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1111.1",
+                        "value": "moderate",
+                        "name": "Moderate",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1111.2",
+                        "value": "severe",
+                        "name": "Severe",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9064",
+            "name": "Distribution",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9064.0",
+                        "value": "localized",
+                        "name": "Localized",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9064.1",
+                        "value": "diffuse",
+                        "name": "Diffuse",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9064.2",
+                        "value": "bilateral",
+                        "name": "Bilateral",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9064.3",
+                        "value": "patchy",
+                        "name": "Patchy",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9064.4",
+                        "value": "throughout_the_lungs",
+                        "name": "Throughout the lungs",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8429",
+            "name": "Location",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8429.0",
+                        "value": "bilateral",
+                        "name": "Bilateral",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8429.1",
+                        "value": "unilateral",
+                        "name": "Unilateral",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8429.2",
+                        "value": "periphery",
+                        "name": "Periphery",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8429.3",
+                        "value": "central",
+                        "name": "Central",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8429.4",
+                        "value": "specific_lobes_or_segments",
+                        "name": "Specific lobes or segments",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1380",
+            "name": "Pattern",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1380.0",
+                        "value": "smooth",
+                        "name": "Smooth",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1380.1",
+                        "value": "nodular",
+                        "name": "Nodular",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1380.2",
+                        "value": "irregular",
+                        "name": "Irregular",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1380.3",
+                        "value": "kerley_lines",
+                        "name": "Kerley lines",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1380.4",
+                        "value": "reticular_patterns",
+                        "name": "Reticular patterns",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7343",
+            "name": "Pleural effusion",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7343.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7343.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5353",
+            "name": "Ground-glass opacities",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5353.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5353.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4228",
+            "name": "Honeycombing",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4228.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4228.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0107",
+            "name": "Consolidation",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0107.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0107.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0152",
+            "name": "Pulmonary edema",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0152.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0152.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2239",
+            "name": "Lymphadenopathy",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2239.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2239.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "None"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8312",
+            "name": "Pulmonary hypertension",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8312.0",
+                        "value": "indicated_by_other_findings",
+                        "name": "Indicated by other findings",
+                        "definition": "None"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8312.1",
+                        "value": "not_indicated",
+                        "name": "Not indicated",
+                        "definition": "None"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,411 @@
+{
+    "id": "TO_BE_DETERMINED7941",
+    "name": "Thyroid Nodule",
+    "description": "A finding characterized by the presence of a nodule in the thyroid gland.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED6674",
+            "name": "Presence of Thyroid Nodule",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6674.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6674.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6924",
+            "name": "Status",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6924.0",
+                        "value": "new",
+                        "name": "New"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6924.1",
+                        "value": "unchanged",
+                        "name": "Unchanged"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6924.2",
+                        "value": "increased",
+                        "name": "Increased"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6924.3",
+                        "value": "decreased",
+                        "name": "Decreased"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8114",
+            "name": "Location",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8114.0",
+                        "value": "right_lobe",
+                        "name": "Right lobe"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8114.1",
+                        "value": "left_lobe",
+                        "name": "Left lobe"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8114.2",
+                        "value": "isthmus",
+                        "name": "Isthmus"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7767",
+            "name": "Size (cm)",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "float_value": {
+                "unit": "cm"
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0278",
+            "name": "Composition",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0278.0",
+                        "value": "cystic",
+                        "name": "Cystic"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0278.1",
+                        "value": "solid",
+                        "name": "Solid"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0278.2",
+                        "value": "mixed",
+                        "name": "Mixed"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0891",
+            "name": "Calcification",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0891.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0891.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0420",
+            "name": "Margins",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0420.0",
+                        "value": "smooth",
+                        "name": "Smooth"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0420.1",
+                        "value": "irregular",
+                        "name": "Irregular"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0420.2",
+                        "value": "lobulated",
+                        "name": "Lobulated"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4148",
+            "name": "Enhancement",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4148.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4148.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5784",
+            "name": "Prior Fine Needle Aspiration",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5784.0",
+                        "value": "yes",
+                        "name": "Yes"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5784.1",
+                        "value": "no",
+                        "name": "No"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8708",
+            "name": "Prior Fine Needle Aspiration Date",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8708.0",
+                        "value": "specify_date",
+                        "name": "Specify date"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8708.1",
+                        "value": "not_specified",
+                        "name": "Not specified"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED0971",
+            "name": "Invasion Into Adjacent Structures",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0971.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0971.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9286",
+            "name": "Cervical Lymphadenopathy",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9286.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9286.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5307",
+            "name": "Thyroid Goiter",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5307.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5307.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+{
+    "id": "TO_BE_DETERMINED9209",
+    "name": "PICC",
+    "description": "Peripherally inserted central catheter (PICC)",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED0331",
+            "name": "Side",
+            "definition": "The side of the body where the PICC is inserted",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED0331.0",
+                        "value": "left_upper_extremity",
+                        "name": "Left upper extremity"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0331.1",
+                        "value": "right_upper_extremity",
+                        "name": "Right upper extremity"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0331.2",
+                        "value": "left_lower_extremity",
+                        "name": "Left lower extremity"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED0331.3",
+                        "value": "right_lower_extremity",
+                        "name": "Right lower extremity"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5407",
+            "name": "Distal tip location",
+            "definition": "The location of the distal tip of the PICC",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5407.0",
+                        "value": "subclavian_vein",
+                        "name": "Subclavian vein"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5407.1",
+                        "value": "brachiocephalic_vein",
+                        "name": "Brachiocephalic vein"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5407.2",
+                        "value": "svc",
+                        "name": "SVC"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5407.3",
+                        "value": "superior_cavoatrial_junction",
+                        "name": "Superior cavoatrial junction"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5407.4",
+                        "value": "azygous_vein",
+                        "name": "Azygous vein"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5407.5",
+                        "value": "inferior_cavoatrial_junction",
+                        "name": "Inferior cavoatrial junction"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5407.6",
+                        "value": "internal_jugular_vein",
+                        "name": "Internal jugular vein"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4889",
+            "name": "Appropriate location",
+            "definition": "Whether the location of the PICC is appropriate",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4889.0",
+                        "value": "yes",
+                        "name": "Yes"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4889.1",
+                        "value": "no",
+                        "name": "No"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3660",
+            "name": "Change from prior",
+            "definition": "Any change in the PICC placement from the prior study",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3660.0",
+                        "value": "new_placement",
+                        "name": "New placement"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3660.1",
+                        "value": "unchanged",
+                        "name": "Unchanged"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3660.2",
+                        "value": "retracted",
+                        "name": "Retracted"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3660.3",
+                        "value": "migrated",
+                        "name": "Migrated"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3660.4",
+                        "value": "removed",
+                        "name": "Removed"
+                    }
+                ]
+            }
+        }
+    ]
+}

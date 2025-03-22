@@ -1,0 +1,264 @@
+{
+    "id": "TO_BE_DETERMINED0596",
+    "name": "Hiatal Hernia",
+    "description": "A hiatal hernia is a condition in which the upper part of the stomach bulges through the diaphragm into the chest cavity.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED7397",
+            "name": "Presence",
+            "definition": "Indicates whether the hiatal hernia is present or absent",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7397.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "The hiatal hernia is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7397.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "The hiatal hernia is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7084",
+            "name": "Status",
+            "definition": "Indicates the status of the hiatal hernia",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7084.0",
+                        "value": "new",
+                        "name": "New",
+                        "definition": "The hiatal hernia is new"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7084.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "The hiatal hernia has not changed in size or characteristics"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7084.2",
+                        "value": "enlarged",
+                        "name": "Enlarged",
+                        "definition": "The hiatal hernia has increased in size"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1954",
+            "name": "Size",
+            "definition": "Indicates the size of the hiatal hernia",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1954.0",
+                        "value": "small",
+                        "name": "Small",
+                        "definition": "The hiatal hernia is small"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1954.1",
+                        "value": "medium",
+                        "name": "Medium",
+                        "definition": "The hiatal hernia is medium-sized"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1954.2",
+                        "value": "large",
+                        "name": "Large",
+                        "definition": "The hiatal hernia is large"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1954.3",
+                        "value": "not_specified",
+                        "name": "Not specified",
+                        "definition": "The size of the hiatal hernia is not specified"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4383",
+            "name": "Intrathoracic herniation of stomach",
+            "definition": "Indicates whether there is intrathoracic herniation of the stomach",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4383.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Intrathoracic herniation of the stomach is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4383.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Intrathoracic herniation of the stomach is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9725",
+            "name": "Esophageal fluid",
+            "definition": "Indicates whether there is esophageal fluid",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9725.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Esophageal fluid is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9725.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Esophageal fluid is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9896",
+            "name": "Esophageal wall thickening",
+            "definition": "Indicates whether there is esophageal wall thickening",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9896.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Esophageal wall thickening is present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9896.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Esophageal wall thickening is absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1827",
+            "name": "Tree-in-bud opacities",
+            "definition": "Indicates whether there are tree-in-bud opacities",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1827.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "Tree-in-bud opacities are present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1827.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "Tree-in-bud opacities are absent"
+                    }
+                ]
+            }
+        }
+    ]
+}

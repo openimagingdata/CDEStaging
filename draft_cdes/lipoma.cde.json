@@ -1,0 +1,452 @@
+{
+    "id": "TO_BE_DETERMINED2125",
+    "name": "lipoma",
+    "description": "A lipoma is a benign tumor composed of fat cells. It is one of the most common benign tumors found in the body.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED1330",
+            "name": "Presence",
+            "definition": "Whether the lipoma is present or absent.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1330.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "The lipoma is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1330.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "The lipoma is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3635",
+            "name": "Status",
+            "definition": "The status of the lipoma.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3635.0",
+                        "value": "stable",
+                        "name": "Stable",
+                        "definition": "The lipoma is stable."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3635.1",
+                        "value": "new",
+                        "name": "New",
+                        "definition": "The lipoma is new."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3635.2",
+                        "value": "increased",
+                        "name": "Increased",
+                        "definition": "The lipoma has increased in size."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3635.3",
+                        "value": "decreased",
+                        "name": "Decreased",
+                        "definition": "The lipoma has decreased in size."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED3456",
+            "name": "Location",
+            "definition": "The location of the lipoma.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED3456.0",
+                        "value": "lung_right_upper_lobe",
+                        "name": "Lung: Right Upper Lobe",
+                        "definition": "The lipoma is located in the right upper lobe of the lung."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3456.1",
+                        "value": "lung_right_middle_lobe",
+                        "name": "Lung: Right Middle Lobe",
+                        "definition": "The lipoma is located in the right middle lobe of the lung."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3456.2",
+                        "value": "lung_right_lower_lobe",
+                        "name": "Lung: Right Lower Lobe",
+                        "definition": "The lipoma is located in the right lower lobe of the lung."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3456.3",
+                        "value": "lung_left_upper_lobe",
+                        "name": "Lung: Left Upper Lobe",
+                        "definition": "The lipoma is located in the left upper lobe of the lung."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3456.4",
+                        "value": "lung_left_lower_lobe",
+                        "name": "Lung: Left Lower Lobe",
+                        "definition": "The lipoma is located in the left lower lobe of the lung."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3456.5",
+                        "value": "mediastinum_anterior",
+                        "name": "Mediastinum: Anterior",
+                        "definition": "The lipoma is located in the anterior mediastinum."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3456.6",
+                        "value": "mediastinum_middle",
+                        "name": "Mediastinum: Middle",
+                        "definition": "The lipoma is located in the middle mediastinum."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3456.7",
+                        "value": "mediastinum_posterior",
+                        "name": "Mediastinum: Posterior",
+                        "definition": "The lipoma is located in the posterior mediastinum."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3456.8",
+                        "value": "chest_wall",
+                        "name": "Chest Wall",
+                        "definition": "The lipoma is located in the chest wall."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED3456.9",
+                        "value": "other",
+                        "name": "Other",
+                        "definition": "The lipoma is located in another area (Specify)."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1423",
+            "name": "Size",
+            "definition": "The size of the lipoma.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1423.0",
+                        "value": "small_1_cm",
+                        "name": "Small (<1cm)",
+                        "definition": "The lipoma is small, less than 1cm in size."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1423.1",
+                        "value": "medium_1_3_cm",
+                        "name": "Medium (1-3cm)",
+                        "definition": "The lipoma is medium-sized, between 1cm and 3cm in size."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1423.2",
+                        "value": "large_3_cm",
+                        "name": "Large (>3cm)",
+                        "definition": "The lipoma is large, greater than 3cm in size."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8082",
+            "name": "Shape",
+            "definition": "The shape of the lipoma.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8082.0",
+                        "value": "round",
+                        "name": "Round",
+                        "definition": "The lipoma has a round shape."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8082.1",
+                        "value": "oval",
+                        "name": "Oval",
+                        "definition": "The lipoma has an oval shape."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8082.2",
+                        "value": "irregular",
+                        "name": "Irregular",
+                        "definition": "The lipoma has an irregular shape."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1684",
+            "name": "Margin",
+            "definition": "The margin of the lipoma.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1684.0",
+                        "value": "well_defined",
+                        "name": "Well-defined",
+                        "definition": "The lipoma has a well-defined margin."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1684.1",
+                        "value": "poorly_defined",
+                        "name": "Poorly defined",
+                        "definition": "The lipoma has a poorly defined margin."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1035",
+            "name": "Density",
+            "definition": "The density of the lipoma.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1035.0",
+                        "value": "low_fat_density",
+                        "name": "Low (Fat-density)",
+                        "definition": "The lipoma has a low density, similar to fat."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1035.1",
+                        "value": "mixed",
+                        "name": "Mixed",
+                        "definition": "The lipoma has a mixed density."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1035.2",
+                        "value": "high",
+                        "name": "High",
+                        "definition": "The lipoma has a high density."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2724",
+            "name": "Other Masses",
+            "definition": "Whether there are other masses associated with the lipoma.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2724.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "There are other masses present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2724.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "There are no other masses present."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5406",
+            "name": "Calcifications",
+            "definition": "Whether there are calcifications associated with the lipoma.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5406.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "There are calcifications present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5406.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "There are no calcifications present."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1189",
+            "name": "Signs of Infiltration",
+            "definition": "Whether there are signs of infiltration associated with the lipoma.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1189.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "There are signs of infiltration present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1189.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "There are no signs of infiltration present."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5349",
+            "name": "Lymphadenopathy",
+            "definition": "Whether there is lymphadenopathy associated with the lipoma.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5349.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "There is lymphadenopathy present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5349.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "There is no lymphadenopathy present."
+                    }
+                ]
+            }
+        }
+    ]
+}

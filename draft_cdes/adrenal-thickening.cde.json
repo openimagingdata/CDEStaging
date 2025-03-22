@@ -1,0 +1,182 @@
+{
+    "id": "TO_BE_DETERMINED9514",
+    "name": "adrenal thickening",
+    "description": "Thickening of the adrenal gland",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED6006",
+            "name": "Presence",
+            "definition": "Presence of adrenal thickening",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6006.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6006.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5694",
+            "name": "Laterality",
+            "definition": "Laterality of the adrenal thickening",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5694.0",
+                        "value": "right",
+                        "name": "Right"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5694.1",
+                        "value": "left",
+                        "name": "Left"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5694.2",
+                        "value": "bilateral",
+                        "name": "Bilateral"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5715",
+            "name": "Thickness",
+            "definition": "Severity of the adrenal thickening",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5715.0",
+                        "value": "mild",
+                        "name": "Mild"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5715.1",
+                        "value": "moderate",
+                        "name": "Moderate"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5715.2",
+                        "value": "severe",
+                        "name": "Severe"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7218",
+            "name": "Homogeneity",
+            "definition": "Homogeneity of the adrenal thickening",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7218.0",
+                        "value": "homogeneous",
+                        "name": "Homogeneous"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7218.1",
+                        "value": "heterogeneous",
+                        "name": "Heterogeneous"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED2639",
+            "name": "Lymphadenopathy",
+            "definition": "Presence of lymphadenopathy",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED2639.0",
+                        "value": "present",
+                        "name": "Present"
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED2639.1",
+                        "value": "absent",
+                        "name": "Absent"
+                    }
+                ]
+            }
+        }
+    ]
+}

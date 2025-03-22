@@ -1,0 +1,150 @@
+{
+    "id": "TO_BE_DETERMINED3353",
+    "name": "Replaced Cardiac Valve",
+    "description": "A finding indicating the presence of a replaced cardiac valve.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED5916",
+            "name": "Aortic Valve",
+            "definition": "The type of replacement valve used in the aortic position.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5916.0",
+                        "value": "bioprosthetic_valve",
+                        "name": "Bioprosthetic Valve",
+                        "definition": "A bioprosthetic valve used in the aortic position."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5916.1",
+                        "value": "tavr",
+                        "name": "TAVR",
+                        "definition": "A TAVR procedure performed in the aortic position."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED6597",
+            "name": "Mitral Valve",
+            "definition": "The presence or absence of a replacement valve in the mitral position.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED6597.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "A replacement valve is present in the mitral position."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED6597.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No replacement valve is present in the mitral position."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1194",
+            "name": "Pulmonary Valve",
+            "definition": "The presence or absence of a replacement valve in the pulmonary position.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1194.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "A replacement valve is present in the pulmonary position."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1194.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No replacement valve is present in the pulmonary position."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8067",
+            "name": "Tricuspid Valve",
+            "definition": "The presence or absence of a replacement valve in the tricuspid position.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8067.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "A replacement valve is present in the tricuspid position."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8067.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "No replacement valve is present in the tricuspid position."
+                    }
+                ]
+            }
+        }
+    ]
+}

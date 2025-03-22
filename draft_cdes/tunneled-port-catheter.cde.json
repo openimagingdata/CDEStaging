@@ -1,0 +1,414 @@
+{
+    "id": "TO_BE_DETERMINED5991",
+    "name": "Tunneled Port Catheter",
+    "description": "A tunneled port catheter is a device used for long-term venous access that is placed under the skin and has a port for connecting to an infusion system.",
+    "set_version": {
+        "number": 1,
+        "date": "2025-03-22"
+    },
+    "schema_version": "1.0.0",
+    "status": {
+        "date": "2025-03-22",
+        "name": "Proposed"
+    },
+    "specialties": [
+        {
+            "abbreviation": "CH",
+            "name": "Chest"
+        }
+    ],
+    "elements": [
+        {
+            "id": "TO_BE_DETERMINED8353",
+            "name": "Presence of Tunneled Port Catheter",
+            "definition": "Indicates whether a tunneled port catheter is present or not.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8353.0",
+                        "value": "present",
+                        "name": "Present",
+                        "definition": "A tunneled port catheter is present."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8353.1",
+                        "value": "absent",
+                        "name": "Absent",
+                        "definition": "A tunneled port catheter is absent."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED1728",
+            "name": "Status",
+            "definition": "Indicates the status of the tunneled port catheter.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED1728.0",
+                        "value": "new_placement",
+                        "name": "New placement",
+                        "definition": "The tunneled port catheter is newly placed."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1728.1",
+                        "value": "unchanged",
+                        "name": "Unchanged",
+                        "definition": "The tunneled port catheter is unchanged."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1728.2",
+                        "value": "migrated",
+                        "name": "Migrated",
+                        "definition": "The tunneled port catheter has migrated from its original placement."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED1728.3",
+                        "value": "removed",
+                        "name": "Removed",
+                        "definition": "The tunneled port catheter has been removed."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7597",
+            "name": "Appropriate location",
+            "definition": "Indicates whether the tunneled port catheter is in an appropriate location.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7597.0",
+                        "value": "yes",
+                        "name": "Yes",
+                        "definition": "The tunneled port catheter is in an appropriate location."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7597.1",
+                        "value": "no",
+                        "name": "No",
+                        "definition": "The tunneled port catheter is not in an appropriate location."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9678",
+            "name": "Side",
+            "definition": "Indicates the side of the body where the tunneled port catheter is located.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9678.0",
+                        "value": "left",
+                        "name": "Left",
+                        "definition": "The tunneled port catheter is on the left side of the body."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9678.1",
+                        "value": "right",
+                        "name": "Right",
+                        "definition": "The tunneled port catheter is on the right side of the body."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED8144",
+            "name": "Number of Lumens",
+            "definition": "Indicates the number of lumens (channels) in the tunneled port catheter.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED8144.0",
+                        "value": "single",
+                        "name": "Single",
+                        "definition": "The tunneled port catheter has a single lumen."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED8144.1",
+                        "value": "double",
+                        "name": "Double",
+                        "definition": "The tunneled port catheter has two lumens."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED9937",
+            "name": "Vein approach",
+            "definition": "Indicates the vein approach used for inserting the tunneled port catheter.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED9937.0",
+                        "value": "internal_jugular",
+                        "name": "Internal jugular",
+                        "definition": "The tunneled port catheter was inserted through the internal jugular vein."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED9937.1",
+                        "value": "subclavian",
+                        "name": "Subclavian",
+                        "definition": "The tunneled port catheter was inserted through the subclavian vein."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7509",
+            "name": "Course",
+            "definition": "Indicates the course of the tunneled port catheter.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7509.0",
+                        "value": "appropriate",
+                        "name": "Appropriate",
+                        "definition": "The tunneled port catheter has an appropriate course."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7509.1",
+                        "value": "kinking",
+                        "name": "Kinking",
+                        "definition": "The tunneled port catheter is kinking."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7509.2",
+                        "value": "coiling",
+                        "name": "Coiling",
+                        "definition": "The tunneled port catheter is coiling."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED5982",
+            "name": "Distal tip location",
+            "definition": "Indicates the location of the distal tip of the tunneled port catheter.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED5982.0",
+                        "value": "subclavian_vein",
+                        "name": "Subclavian vein",
+                        "definition": "The distal tip of the tunneled port catheter is in the subclavian vein."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5982.1",
+                        "value": "brachiocephalic_vein",
+                        "name": "Brachiocephalic vein",
+                        "definition": "The distal tip of the tunneled port catheter is in the brachiocephalic vein."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5982.2",
+                        "value": "svc",
+                        "name": "SVC",
+                        "definition": "The distal tip of the tunneled port catheter is in the superior vena cava (SVC)."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5982.3",
+                        "value": "superior_cavoatrial_junction",
+                        "name": "Superior cavoatrial junction",
+                        "definition": "The distal tip of the tunneled port catheter is in the superior cavoatrial junction."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5982.4",
+                        "value": "azygous_vein",
+                        "name": "Azygous vein",
+                        "definition": "The distal tip of the tunneled port catheter is in the azygous vein."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5982.5",
+                        "value": "inferior_cavoatrial_junction",
+                        "name": "Inferior cavoatrial junction",
+                        "definition": "The distal tip of the tunneled port catheter is in the inferior cavoatrial junction."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED5982.6",
+                        "value": "internal_jugular_vein",
+                        "name": "Internal jugular vein",
+                        "definition": "The distal tip of the tunneled port catheter is in the internal jugular vein."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED4615",
+            "name": "Port location",
+            "definition": "Indicates the location of the port of the tunneled port catheter.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED4615.0",
+                        "value": "pectoral",
+                        "name": "Pectoral",
+                        "definition": "The port of the tunneled port catheter is in the pectoral area."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED4615.1",
+                        "value": "abdominal",
+                        "name": "Abdominal",
+                        "definition": "The port of the tunneled port catheter is in the abdominal area."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TO_BE_DETERMINED7778",
+            "name": "Complications",
+            "definition": "Indicates the complications associated with the tunneled port catheter.",
+            "element_version": {
+                "number": 1,
+                "date": "2025-03-22"
+            },
+            "schema_version": "1.0.0",
+            "status": {
+                "date": "2025-03-22",
+                "name": "Proposed"
+            },
+            "value_set": {
+                "min_cardinality": 1,
+                "max_cardinality": 1,
+                "values": [
+                    {
+                        "code": "TO_BE_DETERMINED7778.0",
+                        "value": "none",
+                        "name": "None",
+                        "definition": "There are no complications associated with the tunneled port catheter."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7778.1",
+                        "value": "occlusion",
+                        "name": "Occlusion",
+                        "definition": "There is occlusion (blockage) in the tunneled port catheter."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7778.2",
+                        "value": "catheter_fracture",
+                        "name": "Catheter fracture",
+                        "definition": "The tunneled port catheter has fractured."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7778.3",
+                        "value": "port_displacement",
+                        "name": "Port displacement",
+                        "definition": "The port of the tunneled port catheter has displaced."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7778.4",
+                        "value": "thrombosis_fibrin_sheath",
+                        "name": "Thrombosis (fibrin sheath)",
+                        "definition": "There is a thrombosis (fibrin sheath) in the tunneled port catheter."
+                    },
+                    {
+                        "code": "TO_BE_DETERMINED7778.5",
+                        "value": "tip_migration",
+                        "name": "Tip migration",
+                        "definition": "The distal tip of the tunneled port catheter has migrated."
+                    }
+                ]
+            }
+        }
+    ]
+}
