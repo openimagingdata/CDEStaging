@@ -1,4 +1,4 @@
-# General Cystic or Partially Solid Adnexal Lesion CDE
+# Adnexal Lesion (not physiologic)
 
 ## Laterality
 

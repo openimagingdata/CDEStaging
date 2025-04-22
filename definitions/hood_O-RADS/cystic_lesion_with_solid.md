@@ -1,4 +1,4 @@
-# Lesion with Solid Component CDE
+# Adnexal Lesion with Solid Component (not physiologic)
 
 ## Locularity
 

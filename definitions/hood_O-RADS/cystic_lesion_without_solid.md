@@ -1,4 +1,4 @@
-# Cystic Lesion CDE
+# Adnexal Lesion without Solid Component (not physiologic)
 
 ## Locularity
 
