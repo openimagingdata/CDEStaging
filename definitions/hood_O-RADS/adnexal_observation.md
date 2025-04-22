@@ -5,8 +5,6 @@
 - **Right**
 - **Left**
 - **Midline / Cul-de-sac**  
-  - *Definition*: anatomical location relative to uterus and pouch of Douglas  
-  - *Synonyms*: R adnexa, L ovary, central pelvis, posterior cul-de-sac
 
 ## Maximum Lesion Diameter (mm)
 
