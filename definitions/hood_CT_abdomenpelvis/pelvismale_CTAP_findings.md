@@ -1,0 +1,66 @@
+# CT Abdomen & Pelvis Findings List — Male Pelvis
+
+- Uniform enlargement of the prostate
+- Focal enlargement of the prostate
+- Homogeneous enhancement of the prostate
+- Heterogeneous enhancement of the prostate
+- Prostate calcifications
+- Ejaculatory duct calcifications
+- Prostate nodule
+- Prostate mass
+- Prostate fluid collection
+- Prostate abscess
+- Prostate cyst
+- Prostate mullerian duct cyst
+- Prostate utricle cyst
+- Prostate brachytherapy seeds
+- Prostate fiducial markers
+- Transurethral resection of the prostate (TURP)
+- Prostatectomy
+- Enlarged seminal vesicle
+- Hyperenhancing seminal vesicle
+- Seminal vesicle calcifications
+- Seminal vesicle cyst
+- Seminal vesicle solid lesion
+- Seminal vesicle fluid collection
+- Seminal vesicle abscess
+- Seminal vesicle agenesis
+- Seminal vesicle dilation
+- Vas deferens calcifications
+- Penile fracture
+- Penile hematoma
+- Penile foreign body
+- Penile prosthesis
+- Testicular calcification
+- Testicular microlithiasis
+- Testicular retraction
+- Testicular edema
+- Testicular mass
+- Vasectomy
+- Testicular prosthesis
+- Undescended testis
+- Ectopic testis
+- Epididymal enhancement
+- Enlarged epididymis
+- Scrotal calcifications
+- Scrotal hydrocele
+- Scrotal fluid collection
+- Scrotal abscess
+- Scrotal varicocele
+- Scrotal skin thickening
+- Scrotal soft tissue gas
+- Spermatic cord lipoma
+- Indirect inguinal hernia
+- Direct inguinal hernia
+- Fatty expansion of the inguinal canal
+- Urethral stricture
+- Urethral calculus
+- Urethral injury
+- Urethral diverticulum
+- Urethral foreign body
+- Perineal soft tissue
+- Perineal fat stranding
+- Perineal soft tissue gas
+- Perineal fluid collection
+- Perineal abscess
+- Perineal mass

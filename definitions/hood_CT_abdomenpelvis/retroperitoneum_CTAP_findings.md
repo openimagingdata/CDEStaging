@@ -92,4 +92,4 @@
 - Mesenteric hematoma
 - Mesenteric contusion
 - Mesenteric injury
-- Active bleeding in the mesentery 
+- Active bleeding in the mesentery
