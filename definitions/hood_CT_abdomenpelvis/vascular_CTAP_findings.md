@@ -61,7 +61,7 @@
 - Type II endoleak  
 - Type III endoleak  
 - Type IV endoleak  
-- Type V endoleak (endotension)  
+- Type V endoleak  
 - Arterial vasospasm  
 - Arterial wall thickening  
 - Arterial wall enhancement  
@@ -75,11 +75,18 @@
 - Flow-related arterial artifact  
 - Chronic arterial dissection  
 - Thrombosed arterial false lumen  
+- Common trunk of celiac and superior mesenteric artery
+- Replaced hepatic artery arising from superior mesenteric artery  
+- Replaced hepatic artery arising from left gastric artery
+- High bifurcation of common iliac arteries  
+- Low aortic bifurcation  
+- Early bifurcation of renal artery  
+- Accessory renal artery
+- Accessory splenic artery  
+- Common origin of inferior phrenic arteries  
 
 ## Vein
 
-- Aberrant venous origin  
-- Accessory vein  
 - Venous dilation  
 - Venous aneurysm  
 - Mild venous stenosis  
@@ -103,9 +110,8 @@
 - Tortuous vein  
 - Venous kinking  
 - Venous looping  
-- Compression of left common iliac vein  
-- Compression of left renal vein  
-- Compression of subclavian vein  
+- Compression of left common iliac vein by right common iliac artery
+- Compression of left renal vein
 - Tumor abutment of vein
 - Tumor encasement of vein  
 - Tumor invasion of venous wall  
@@ -125,7 +131,19 @@
 - Venous anastomosis  
 - Venous embolization  
 - Cavernous transformation of portal vein  
-- Portosystemic venous collateral formation 
+- Portosystemic venous collateral formation
 - Venous intraluminal filling defect  
 - Non-opacified venous segment  
 - Flow-related venous artifact
+- Aberrant origin of vein  
+- Accessory vein  
+- Circumaortic left renal vein  
+- Retroaortic left renal vein  
+- Duplicated inferior vena cava  
+- Left-sided inferior vena cava  
+- Azygos continuation of inferior vena cava  
+- Fenestrated iliac vein  
+- Fenestrated femoral vein
+- Enlarged gonadal vein  
+- Recanalized paraumbilical vein  
+- Accessory portal vein
