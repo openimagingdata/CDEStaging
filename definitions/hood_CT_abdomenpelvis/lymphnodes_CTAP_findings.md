@@ -1,0 +1,32 @@
+# CT Abdomen & Pelvis Findings List — Lymph Nodes
+
+- Normal lymph node
+- Lymph node short‑axis diameter measurement
+- Enlarged lymph node  
+- Prominent lymph node
+- Subcentimeter lymph node  
+- Rounded lymph node morphology  
+- Ovoid lymph node morphology  
+- Irregular lymph node contour  
+- Confluent lymph node mass  
+- Clustered lymph nodes  
+- Matted lymph nodes  
+- Lymph node conglomerate  
+- Central necrotic lymph node  
+- Cystic lymph node  
+- Homogeneously enhancing lymph node  
+- Heterogeneously enhancing lymph node  
+- Rim‑enhancing lymph node  
+- Hyperenhancing lymph node  
+- Hypoenhancing lymph node  
+- Lymph node with preserved fatty hilum  
+- Lymph node with absent fatty hilum  
+- Calcified lymph node  
+- Centrally calcified lymph node  
+- Peripherally calcified lymph node  
+- Gas‑containing lymph node  
+- Hemorrhagic lymph node  
+- Lymph node vascular encasement  
+- Lymph node displacement of adjacent organ  
+- Lymph node extrinsic compression  
+- Lymph node chain expansion
