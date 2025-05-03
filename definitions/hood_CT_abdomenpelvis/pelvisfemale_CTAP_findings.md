@@ -55,7 +55,6 @@
 - Oophorectomy
 - Atrophic ovary
 - Enlarged ovary
-- Ovarian hemorrhage
 - Simple ovarian cyst
 - Hemorrhagic ovarian cyst
 - Corpus luteum cyst
@@ -63,10 +62,8 @@
 - Ovarian dermoid
 - Ovarian mass
 - Ovarian calcification
-- Dermoid rupture
 - Ovarian metastasis
 - Polycystic ovary morphology
-- Ovarian infarction
 - Ovarian torsion
 - Ovarian hyperstimulation
 - Ovarian abscess
@@ -116,7 +113,6 @@
 - Vaginal distension
 - Vaginal fluid
 - Vaginal gas
-- Vaginal fluid collection
 - Vaginal wall thickening
 - Vaginal mass
 - Vaginal foreign body
@@ -125,6 +121,6 @@
 - Vaginal packing
 - Vaginal abscess
 - Vaginal hematoma
-- Post-radiation vaginal fibrosis
 - Vaginal narrowing
+- Post-radiation vaginal fibrosis
 - Post-surgical vaginal scarring
