@@ -1,0 +1,30 @@
+# CXR - Mediastinal Findings
+
+- Superior mediastinal fullness
+- Abnormal aortopulmonary window contour
+- Loss of aortopulmonary window concavity
+- Abnormal mediastinal contour
+- Pneumomediastinum
+- Abnormal hilar contour
+- Hilar enlargement
+- Hilar fullness
+- Enlarged aortic knob
+- Abnormal aortic contour
+- Bulging of the aortic arch
+- Prominent pulmonary artery segment
+- Abnormal pulmonary artery contour
+- Double density sign
+- Normal cardiac silhouette
+- Normal cardiomediastinal silhouette
+- Enlarged cardiac silhouette
+- Widened cardiomediastinal silhouette
+- Enlarged right heart border
+- Enlarged left heart border
+- Enlarged right atrium
+- Enlarged left atrium
+- Enlarged right ventricle
+- Enlarged left ventricle
+- Globular cardiac silhouette
+- Splaying of carina
+- Pericardial effusion
+- Mediastinal fat pad

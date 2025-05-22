@@ -1,0 +1,62 @@
+# Lung Findings
+
+- Clear lungs
+- Lobar consolidation
+- Diffuse consolidation
+- Multifocal airspace opacities
+- Focal airspace opacity
+- Diffuse airspace opacities
+- Focal hazy opacity
+- Diffuse hazy opacities
+- Reticulonodular opacity
+- Diffuse reticular opacities
+- Diffuse nodular opacities
+- Hyperinflated lungs
+- Decreased lung volumes
+- Volume loss
+- Lung hyperinflation
+- Lobar atelectasis
+- Linear atelectasis
+- Bandlike opacity
+- Scarring
+- Architectural distortion
+- Emphysematous changes
+- Flattened hemidiaphragm
+- Elevated hemidiaphragm
+- Pulmonary nodule
+- Solitary pulmonary nodule
+- Multiple pulmonary nodules
+- Lung mass
+- Hilar mass
+- Perihilar mass
+- Interstitial thickening
+- Perihilar reticular opacities
+- Basilar reticular opacities
+- Diffuse interstitial opacities
+- Kerley A lines
+- Kerley B lines
+- Batwing perihilar opacities
+- Engorged pulmonary vasculature
+- Interstitial pulmonary edema
+- Air bronchograms
+- Lung lucency
+- Pulmonary scar
+- Calcified granuloma
+- Pulmonary oligemia
+- Lobar opacity
+- Diffuse increased lung attenuation
+- Cavitary lucency
+- Low lung volumes
+- Unilateral reduction in lung volume
+- Apical lucency
+- Diffuse increased lung lucency
+- Pulmonary fibrosis
+- Focal pulmonary calcification
+- Lobectomy
+- Pneumonectomy
+- Wedge resection
+- Surgical staple line in lung
+- Apical scarring
+- Biapical scarring
+- Azygos fissure
+- Accessory fissure
