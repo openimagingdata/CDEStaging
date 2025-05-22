@@ -7,7 +7,7 @@
 - Normal anterior junction line
 - Normal right paraspinal line
 - Normal left paraspinal line
-- Abnormal azygoesophageal line 
+- Abnormal azygoesophageal line
 - Abnormal right paratracheal stripe
 - Abnormal left paratracheal stripe
 - Abnormal posterior junction line

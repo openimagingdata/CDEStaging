@@ -1,0 +1,24 @@
+# CXR - Technique and Positioning
+
+- Underpenetrated image
+- Overpenetrated image
+- Rotated image
+- Clipped lung apices
+- Clipped costophrenic angles
+- Clipped lateral soft tissues
+- Motion artifact
+- Grid artifact
+- Obscuration by external object
+- Obscuration by medical device
+- Obscuration by laterality marker
+- Improper centering
+- Oblique projection
+- Upright projection
+- Supine projection
+- Semi-erect projection
+- Portable projection
+- Anteroposterior projection
+- Posteroanterior projection
+- Lateral projection
+- Image marker absent
+- Image marker incorrect

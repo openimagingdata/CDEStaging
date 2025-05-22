@@ -1,0 +1,46 @@
+# CXR - Osseous Findings
+
+- Rib fracture
+- Remote rib fracture
+- Rib deformity
+- Rib destruction
+- Rib sclerosis
+- Rib notching
+- Postsurgical changes of VATS
+- Clavicle fracture
+- Clavicle deformity
+- Clavicle erosion
+- Sternal fracture
+- Sternal deformity
+- Pectus excavatum
+- Pectus carinatum
+- Sternotomy wires
+- Thoracic vertebral fracture
+- Thoracic vertebral body height loss
+- Thoracic vertebra plana
+- Thoracic vertebral body wedging
+- Thoracic vertebral endplate irregularity
+- Thoracic vertebral body sclerosis
+- Thoracic vertebral body lucency
+- Degenerative changes of thoracic spine
+- Osteophyte formation
+- Diffuse idiopathic skeletal hyperostosis
+- Disc space narrowing
+- Scapular fracture
+- Scapular deformity
+- Osteolytic lesion
+- Osteoblastic lesion
+- Focal osseous metastasis
+- Osseous metastases
+- Bone island
+- Generalized osteopenia
+- Generalized osteosclerosis
+- Humeral head erosion
+- Humeral head deformity
+- Proximal humerus fracture
+- Total shoulder arthroplasty
+- Reverse total shoulder arthroplasty
+- Suture anchors in the humeral head
+- Biceps tenodesis
+- Glenohumeral joint degenerative changes
+- Acromioclavicular joint degenerative changes
