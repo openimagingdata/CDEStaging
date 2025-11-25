@@ -6,5 +6,5 @@
 - Soft tissue calcification
 - Mastectomy
 - Breast implant
-- Soft tissue surgical clip
+- Surgical clip
 - Metallic foreign body 
